@@ -1,0 +1,397 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,224,Aruba,ABW,ABW,0,398,0,0,0,0,0,15602,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,3,Albania,ALB,ALB,5,0,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,9,Argentina,ARG,ARG,16,1015,0,0,0,0,0,127152,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,11,Australia,AUL,AUS,28,153,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,12,Austria,AUS,AUT,5,25,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,17,Belgium,BEL,BEL,6,385,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,27,Brazil,BRA,BRA,35,81001,0,0,0,0,0,39771,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,Canada,CAN,CAN,1876,1674,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,38,Chile,CHL,CHL,9,3102,0,0,0,0,0,285122,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,44,Colombia,COL,COL,94,2729,0,0,0,0,0,1171552,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,45,Costa Rica,COS,CRI,344,5365,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,254,Curacao ,CUW,CUW,35,279,0,0,0,0,0,25686,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,49,Czechia,CZE,CZE,5,5,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,50,Denmark,DEN,DNK,0,22,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,53,Dominican Rep.,DOM,DOM,0,72,0,0,0,0,0,26428,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,54,Ecuador,ECU,ECU,15,6292,0,0,0,0,0,256265,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,61,Finland,FIN,FIN,5,8,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,64,France,FRA,FRA,304,403,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,41,21,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,72,Germany,GFR,DEU,183,468,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,76,Greece,GRE,GRC,6,34,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,78,Guatemala,GUA,GTM,17,17,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,80,Guyana,GUY,GUY,0,0,0,0,0,0,0,36400,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,83,Honduras,HON,HND,6,0,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,86,Iceland,ICE,ISL,7,7,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,90,Ireland,IRE,IRL,29,59,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,93,Israel,ISR,ISR,0,5,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,94,Italy,ITA,ITA,563,1104,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,102,Rep. of Korea,KOR,KOR,0,8,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,114,Luxembourg,LUX,LUX,0,10,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,124,Mexico,MEX,MEX,4721,5523,0,0,0,0,0,42104,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,132,Malta,MTA,MLT,5,61,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,138,Netherlands (Kingdom of the),NET,NLD,0,128,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,143,Norway,NOR,NOR,7,24,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,148,Panama,PAN,PAN,46,5068,0,0,0,0,0,94400,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,149,Paraguay,PAR,PRY,34,79,0,0,0,0,0,803,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,150,Peru,PER,PER,735,227325,0,0,0,0,0,428214,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,160,Russian Federation,RUS,RUS,0,5,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,173,Spain,SPA,ESP,72,31620,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,178,Suriname,SUR,SUR,6,34,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,183,Sweden,SWE,SWE,8,146,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,184,Switzerland,SWI,CHE,6,39,0,0,0,0,0,-,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,194,Trinidad and Tobago,TRT,TTO,497,7659,5,0,0,0,0,31843,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,201,Uruguay,URU,URY,17,51,0,0,0,0,0,11605,0
+2018,207,Venezuela (Bolivarian Republic of),VEN,VEN,202,United States of America,USA,USA,11259,81800,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,224,Aruba,ABW,ABW,0,398,0,0,0,0,0,16602,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,223,Anguilla,AIA,AIA,0,0,0,0,0,0,0,11,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,3,Albania,ALB,ALB,5,0,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,9,Argentina,ARG,ARG,309,2717,0,0,0,0,0,173343,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,11,Australia,AUL,AUS,72,274,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,12,Austria,AUS,AUT,31,29,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,15,Barbados,BAR,BRB,0,5,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,17,Belgium,BEL,BEL,273,322,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,25,Bolivia (Plurinational State of),BOL,BOL,0,235,0,0,0,0,0,5472,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,27,Brazil,BRA,BRA,20941,103657,0,0,0,0,0,123507,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,Canada,CAN,CAN,3067,1388,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,35,Cayman Islands,CAY,CYM,0,0,0,0,0,0,0,52,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,38,Chile,CHL,CHL,14,2768,0,0,0,0,0,452712,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,44,Colombia,COL,COL,425,8824,0,0,0,0,0,1771237,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,45,Costa Rica,COS,CRI,577,6809,0,0,0,0,0,20828,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,254,Curacao ,CUW,CUW,14,296,0,0,0,0,0,16190,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,48,Cyprus,CYP,CYP,0,5,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,49,Czechia,CZE,CZE,0,35,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,50,Denmark,DEN,DNK,5,14,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,53,Dominican Rep.,DOM,DOM,0,246,0,0,0,0,0,33816,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,54,Ecuador,ECU,ECU,374,14442,0,0,0,0,0,374045,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,61,Finland,FIN,FIN,7,13,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,64,France,FRA,FRA,551,676,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,51,42,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,72,Germany,GFR,DEU,320,923,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,76,Greece,GRE,GRC,6,34,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,78,Guatemala,GUA,GTM,23,49,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,80,Guyana,GUY,GUY,0,0,0,0,0,0,0,22000,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,83,Honduras,HON,HND,7,0,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,86,Iceland,ICE,ISL,164,32,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,88,India,IND,IND,0,9,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,90,Ireland,IRE,IRL,46,104,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,93,Israel,ISR,ISR,0,5,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,94,Italy,ITA,ITA,1988,580,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,95,Jamaica,JAM,JAM,0,0,0,0,0,0,0,121,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,96,Jordan,JOR,JOR,0,5,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,102,Rep. of Korea,KOR,KOR,0,14,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,114,Luxembourg,LUX,LUX,15,55,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,124,Mexico,MEX,MEX,8781,8614,0,0,0,0,0,52982,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,132,Malta,MTA,MLT,5,65,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,138,Netherlands (Kingdom of the),NET,NLD,13,207,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,143,Norway,NOR,NOR,15,24,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,148,Panama,PAN,PAN,61,3724,0,0,0,0,0,115768,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,149,Paraguay,PAR,PRY,750,8,0,0,0,0,0,3588,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,150,Peru,PER,PER,1230,482571,0,0,0,0,0,377864,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,154,Poland,POL,POL,0,5,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,155,Portugal,POR,PRT,0,67,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,173,Spain,SPA,ESP,35243,33960,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,178,Suriname,SUR,SUR,8,215,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,183,Sweden,SWE,SWE,13,220,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,184,Switzerland,SWI,CHE,15,49,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,194,Trinidad and Tobago,TRT,TTO,2040,14296,0,0,0,0,0,7664,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,201,Uruguay,URU,URY,74,472,0,0,0,0,0,14362,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,202,United States of America,USA,USA,15706,104989,0,0,0,0,0,-,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,206,Saint Vincent and the Grenadines,VCT,VCT,0,0,0,0,0,0,0,38,0
+2019,207,Venezuela (Bolivarian Republic of),VEN,VEN,207,Venezuela (Bolivarian Republic of),VEN,VEN,0,0,0,0,0,0,494503,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,224,Aruba,ABW,ABW,0,0,0,0,0,0,0,17000,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,223,Anguilla,AIA,AIA,0,0,0,0,0,0,0,21,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,3,Albania,ALB,ALB,5,0,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,9,Argentina,ARG,ARG,312,3826,0,0,0,0,0,171659,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,11,Australia,AUL,AUS,139,310,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,12,Austria,AUS,AUT,61,34,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,15,Barbados,BAR,BRB,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,17,Belgium,BEL,BEL,399,505,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,25,Bolivia (Plurinational State of),BOL,BOL,242,157,0,0,0,0,0,9557,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,27,Brazil,BRA,BRA,46675,90934,0,0,0,0,0,163754,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,30,Bulgaria,BUL,BGR,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,Canada,CAN,CAN,3524,1000,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,35,Cayman Islands,CAY,CYM,0,0,0,0,0,0,0,39,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,38,Chile,CHL,CHL,14,2763,0,0,0,0,0,454547,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,44,Colombia,COL,COL,771,19587,0,0,0,0,0,1729537,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,45,Costa Rica,COS,CRI,1266,5422,0,0,0,0,0,22401,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,254,Curacao ,CUW,CUW,24,285,0,0,0,0,0,16691,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,49,Czechia,CZE,CZE,5,13,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,50,Denmark,DEN,DNK,5,11,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,53,Dominican Rep.,DOM,DOM,0,275,0,0,0,0,0,114050,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,54,Ecuador,ECU,ECU,410,13648,0,0,0,0,0,401777,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,61,Finland,FIN,FIN,7,9,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,64,France,FRA,FRA,778,748,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,61,41,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,72,Germany,GFR,DEU,757,748,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,76,Greece,GRE,GRC,13,20,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,77,Grenada,GRN,GRD,0,0,0,0,0,0,0,234,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,78,Guatemala,GUA,GTM,27,76,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,80,Guyana,GUY,GUY,0,0,0,0,0,0,0,23307,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,83,Honduras,HON,HND,7,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,86,Iceland,ICE,ISL,294,10,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,88,India,IND,IND,5,6,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,89,Indonesia,INS,IDN,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,90,Ireland,IRE,IRL,101,90,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,93,Israel,ISR,ISR,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,94,Italy,ITA,ITA,2119,780,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,95,Jamaica,JAM,JAM,0,0,0,0,0,0,0,67,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,96,Jordan,JOR,JOR,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,102,Rep. of Korea,KOR,KOR,0,11,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,109,Lebanon,LEB,LBN,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,114,Luxembourg,LUX,LUX,5,74,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,124,Mexico,MEX,MEX,13014,7362,0,0,0,0,0,81847,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,133,Montenegro,MNE,MNE,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,132,Malta,MTA,MLT,6,68,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,138,Netherlands (Kingdom of the),NET,NLD,30,197,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,143,Norway,NOR,NOR,15,0,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,148,Panama,PAN,PAN,65,2596,0,0,0,0,0,118937,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,149,Paraguay,PAR,PRY,1251,795,0,0,0,0,0,2879,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,150,Peru,PER,PER,2628,532303,0,0,0,0,0,515039,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,154,Poland,POL,POL,0,5,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,155,Portugal,POR,PRT,0,76,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,162,El Salvador,SAL,SLV,0,16,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,173,Spain,SPA,ESP,75640,19065,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,175,Saint Kitts and Nevis,STK,KNA,0,0,0,0,0,0,0,19,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,178,Suriname,SUR,SUR,12,267,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,183,Sweden,SWE,SWE,28,94,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,184,Switzerland,SWI,CHE,39,23,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,255,Sint Maarten (Dutch part),SXM,SXM,0,8,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,194,Trinidad and Tobago,TRT,TTO,2841,16664,0,0,0,0,0,4663,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,201,Uruguay,URU,URY,225,636,0,0,0,0,0,14063,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,202,United States of America,USA,USA,17292,129667,0,0,0,0,0,-,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,206,Saint Vincent and the Grenadines,VCT,VCT,0,0,0,0,0,0,0,14,0
+2020,207,Venezuela (Bolivarian Republic of),VEN,VEN,207,Venezuela (Bolivarian Republic of),VEN,VEN,0,0,0,0,0,0,1112517,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,224,Aruba,ABW,ABW,0,0,0,0,0,0,0,17000,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,223,Anguilla,AIA,AIA,0,0,0,0,0,0,0,25,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,3,Albania,ALB,ALB,5,0,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,9,Argentina,ARG,ARG,315,5580,0,0,0,0,0,164622,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,11,Australia,AUL,AUS,143,336,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,12,Austria,AUS,AUT,83,32,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,15,Barbados,BAR,BRB,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,17,Belgium,BEL,BEL,479,250,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,25,Bolivia (Plurinational State of),BOL,BOL,243,0,0,0,0,0,0,11828,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,27,Brazil,BRA,BRA,48931,85738,0,0,0,0,0,175992,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,30,Bulgaria,BUL,BGR,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,Canada,CAN,CAN,4108,748,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,35,Cayman Islands,CAY,CYM,0,0,0,0,0,0,0,92,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,38,Chile,CHL,CHL,22,4714,0,0,0,0,0,500271,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,44,Colombia,COL,COL,1297,28785,0,0,0,0,0,1842390,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,45,Costa Rica,COS,CRI,1492,7288,0,0,0,0,0,21766,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,254,Curacao ,CUW,CUW,0,0,0,0,0,0,0,17000,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,49,Czechia,CZE,CZE,7,8,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,50,Denmark,DEN,DNK,5,0,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,53,Dominican Rep.,DOM,DOM,0,278,0,0,0,0,0,116000,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,54,Ecuador,ECU,ECU,798,4255,0,0,0,0,0,503882,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,61,Finland,FIN,FIN,7,6,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,64,France,FRA,FRA,1232,425,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,67,31,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,72,Germany,GFR,DEU,1113,728,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,76,Greece,GRE,GRC,14,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,77,Grenada,GRN,GRD,0,0,0,0,0,0,0,234,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,78,Guatemala,GUA,GTM,36,126,0,0,0,0,0,1469,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,80,Guyana,GUY,GUY,0,0,0,0,0,0,0,25800,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,83,Honduras,HON,HND,9,16,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,86,Iceland,ICE,ISL,429,190,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,88,India,IND,IND,5,6,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,89,Indonesia,INS,IDN,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,90,Ireland,IRE,IRL,140,61,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,93,Israel,ISR,ISR,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,94,Italy,ITA,ITA,2906,391,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,95,Jamaica,JAM,JAM,0,0,0,0,0,0,0,67,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,96,Jordan,JOR,JOR,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,100,Kyrgyzstan,KGZ,KGZ,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,102,Rep. of Korea,KOR,KOR,0,12,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,109,Lebanon,LEB,LBN,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,114,Luxembourg,LUX,LUX,8,100,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,124,Mexico,MEX,MEX,16585,9212,0,0,0,0,0,63179,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,133,Montenegro,MNE,MNE,0,5,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,132,Malta,MTA,MLT,24,58,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,138,Netherlands (Kingdom of the),NET,NLD,107,67,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,143,Norway,NOR,NOR,19,22,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,145,New Zealand,NZL,NZL,5,0,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,148,Panama,PAN,PAN,61,2453,0,0,0,0,0,128000,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,149,Paraguay,PAR,PRY,3412,440,0,0,0,0,0,1910,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,150,Peru,PER,PER,4098,531822,0,0,0,0,0,791442,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,154,Poland,POL,POL,17,0,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,155,Portugal,POR,PRT,0,76,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,162,El Salvador,SAL,SLV,12,13,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,173,Spain,SPA,ESP,88492,19205,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,175,Saint Kitts and Nevis,STK,KNA,0,0,0,0,0,0,0,60,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,178,Suriname,SUR,SUR,12,331,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,183,Sweden,SWE,SWE,41,41,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,184,Switzerland,SWI,CHE,53,45,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,255,Sint Maarten (Dutch part),SXM,SXM,0,41,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,194,Trinidad and Tobago,TRT,TTO,3221,18322,0,0,0,0,0,8403,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,201,Uruguay,URU,URY,414,2064,0,0,0,0,0,14995,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,202,United States of America,USA,USA,18735,246745,0,0,0,0,0,-,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,206,Saint Vincent and the Grenadines,VCT,VCT,0,0,0,0,0,0,0,5,0
+2021,207,Venezuela (Bolivarian Republic of),VEN,VEN,207,Venezuela (Bolivarian Republic of),VEN,VEN,0,0,0,0,0,0,1389980,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,224,Aruba,ABW,ABW,0,0,0,0,0,0,0,17000,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,223,Anguilla,AIA,AIA,0,0,0,0,0,0,25,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,3,Albania,ALB,ALB,5,0,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,7,Antigua and Barbuda,ANT,ATG,0,0,0,0,0,0,54,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,9,Argentina,ARG,ARG,316,5560,0,0,0,0,0,165174,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,11,Australia,AUL,AUS,240,264,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,12,Austria,AUS,AUT,104,57,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,17,Belgium,BEL,BEL,513,345,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,25,Bolivia (Plurinational State of),BOL,BOL,243,0,0,0,0,0,0,13531,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,27,Brazil,BRA,BRA,53307,97155,0,0,0,0,0,264040,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,Canada,CAN,CAN,1497,2104,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,35,Cayman Islands,CAY,CYM,0,0,0,0,0,0,144,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,38,Chile,CHL,CHL,30,7548,0,0,0,0,0,436845,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,44,Colombia,COL,COL,1381,22345,0,0,0,0,0,2453862,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,45,Costa Rica,COS,CRI,1990,11519,0,0,0,0,0,16598,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,254,Curacao ,CUW,CUW,0,0,0,0,0,0,0,14000,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,49,Czechia,CZE,CZE,11,0,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,50,Denmark,DEN,DNK,5,7,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,53,Dominican Rep.,DOM,DOM,191,1370,0,0,0,0,0,113722,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,54,Ecuador,ECU,ECU,1540,5370,0,0,0,0,0,495304,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,61,Finland,FIN,FIN,5,17,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,64,France,FRA,FRA,1681,511,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,67,43,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,72,Germany,GFR,DEU,1221,1952,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,76,Greece,GRE,GRC,15,0,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,77,Grenada,GRN,GRD,0,0,0,0,0,0,234,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,78,Guatemala,GUA,GTM,59,166,0,0,0,0,11610,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,80,Guyana,GUY,GUY,0,7,0,0,0,0,0,19635,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,83,Honduras,HON,HND,9,29,0,0,0,0,55059,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,86,Iceland,ICE,ISL,1156,612,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,88,India,IND,IND,5,6,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,89,Indonesia,INS,IDN,0,5,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,90,Ireland,IRE,IRL,184,26,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,94,Italy,ITA,ITA,3426,1084,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,95,Jamaica,JAM,JAM,0,0,0,0,0,0,67,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,96,Jordan,JOR,JOR,0,5,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,100,Kyrgyzstan,KGZ,KGZ,0,5,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,114,Luxembourg,LUX,LUX,8,180,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,124,Mexico,MEX,MEX,20263,18069,0,0,0,0,114272,53027,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,132,Malta,MTA,MLT,24,43,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,138,Netherlands (Kingdom of the),NET,NLD,189,200,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,143,Norway,NOR,NOR,28,91,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,145,New Zealand,NZL,NZL,5,0,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,148,Panama,PAN,PAN,71,860,0,0,0,0,0,146696,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,149,Paraguay,PAR,PRY,4315,450,0,0,0,0,0,1004,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,150,Peru,PER,PER,4763,531788,0,0,0,0,0,969817,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,154,Poland,POL,POL,22,0,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,155,Portugal,POR,PRT,5,27,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,162,El Salvador,SAL,SLV,12,6,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,173,Spain,SPA,ESP,105054,34390,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,175,Saint Kitts and Nevis,STK,KNA,0,0,0,0,0,0,60,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,178,Suriname,SUR,SUR,13,430,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,183,Sweden,SWE,SWE,41,59,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,184,Switzerland,SWI,CHE,77,61,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,255,Sint Maarten (Dutch part),SXM,SXM,0,122,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,194,Trinidad and Tobago,TRT,TTO,3098,18038,0,0,0,0,0,14178,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,201,Uruguay,URU,URY,621,2850,0,0,0,0,0,23023,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,202,United States of America,USA,USA,22583,371386,0,0,0,0,0,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,206,Saint Vincent and the Grenadines,VCT,VCT,0,0,0,0,0,0,5,-,0
+2022,207,Venezuela (Bolivarian Republic of),VEN,VEN,207,Venezuela (Bolivarian Republic of),VEN,VEN,0,0,0,0,0,0,3206577,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,224,Aruba,ABW,ABW,0,0,0,0,0,0,0,17085,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,3,Albania,ALB,ALB,5,0,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,9,Argentina,ARG,ARG,316,1885,0,0,0,0,0,215541,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,11,Australia,AUL,AUS,470,190,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,12,Austria,AUS,AUT,131,82,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,15,Barbados,BAR,BRB,0,5,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,17,Belgium,BEL,BEL,511,640,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,25,Bolivia (Plurinational State of),BOL,BOL,240,7,0,0,0,0,0,16103,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,27,Brazil,BRA,BRA,128570,18848,0,0,0,0,0,363081,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,30,Bulgaria,BUL,BGR,0,5,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,Canada,CAN,CAN,1706,3226,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,35,Cayman Islands,CAY,CYM,0,0,0,0,0,0,144,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,38,Chile,CHL,CHL,68,8627,0,0,0,0,0,435728,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,44,Colombia,COL,COL,1134,23449,0,0,0,0,0,2851160,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,45,Costa Rica,COS,CRI,4752,8774,0,0,0,0,0,18448,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,254,Curacao ,CUW,CUW,0,0,0,0,0,0,0,14000,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,49,Czechia,CZE,CZE,11,18,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,50,Denmark,DEN,DNK,5,0,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,53,Dominican Rep.,DOM,DOM,184,2116,0,0,0,0,0,121841,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,54,Ecuador,ECU,ECU,1979,3525,0,0,0,0,0,469441,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,61,Finland,FIN,FIN,8,50,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,64,France,FRA,FRA,2126,530,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,94,21,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,72,Germany,GFR,DEU,1968,4710,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,76,Greece,GRE,GRC,15,11,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,78,Guatemala,GUA,GTM,95,307,0,0,0,0,11691,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,80,Guyana,GUY,GUY,0,7,0,0,0,0,0,21668,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,83,Honduras,HON,HND,9,24,0,0,0,0,60962,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,86,Iceland,ICE,ISL,1221,2028,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,88,India,IND,IND,5,5,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,89,Indonesia,INS,IDN,0,5,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,90,Ireland,IRE,IRL,182,33,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,94,Italy,ITA,ITA,4158,1615,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,114,Luxembourg,LUX,LUX,8,270,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,124,Mexico,MEX,MEX,23745,15610,0,0,0,0,13917,73753,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,132,Malta,MTA,MLT,22,16,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,138,Netherlands (Kingdom of the),NET,NLD,267,253,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,143,Norway,NOR,NOR,58,166,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,145,New Zealand,NZL,NZL,5,0,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,148,Panama,PAN,PAN,94,791,0,0,0,0,0,57358,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,149,Paraguay,PAR,PRY,4675,719,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,150,Peru,PER,PER,4906,493476,0,0,0,0,0,1043622,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,154,Poland,POL,POL,23,5,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,155,Portugal,POR,PRT,5,41,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,162,El Salvador,SAL,SLV,13,95,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,173,Spain,SPA,ESP,133714,54495,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,178,Suriname,SUR,SUR,12,441,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,183,Sweden,SWE,SWE,53,56,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,184,Switzerland,SWI,CHE,87,91,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,255,Sint Maarten (Dutch part),SXM,SXM,0,115,0,0,0,0,10,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,194,Trinidad and Tobago,TRT,TTO,2945,25367,0,0,0,0,0,7906,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,201,Uruguay,URU,URY,774,3537,0,0,0,0,0,28628,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,202,United States of America,USA,USA,26326,523843,0,0,0,0,0,-,0
+2023,207,Venezuela (Bolivarian Republic of),VEN,VEN,207,Venezuela (Bolivarian Republic of),VEN,VEN,0,0,0,0,0,0,3206577,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,224,Aruba,ABW,ABW,0,0,0,0,0,0,0,11470,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,3,Albania,ALB,ALB,5,0,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,9,Argentina,ARG,ARG,333,667,0,0,0,0,0,164616,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,11,Australia,AUL,AUS,134,227,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,12,Austria,AUS,AUT,177,104,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,17,Belgium,BEL,BEL,497,879,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,25,Bolivia (Plurinational State of),BOL,BOL,240,0,0,0,0,0,10324,18475,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,27,Brazil,BRA,BRA,141269,21194,0,0,0,0,0,464395,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,Canada,CAN,CAN,3578,3281,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,35,Cayman Islands,CAY,CYM,0,0,0,0,0,0,58,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,38,Chile,CHL,CHL,93,8895,0,0,0,0,0,523727,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,44,Colombia,COL,COL,1070,28294,0,0,0,0,0,2779604,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,45,Costa Rica,COS,CRI,5585,10476,0,0,0,0,0,13283,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,254,Curacao ,CUW,CUW,0,0,0,0,0,0,0,11593,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,49,Czechia,CZE,CZE,12,16,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,50,Denmark,DEN,DNK,5,5,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,53,Dominican Rep.,DOM,DOM,0,206,0,0,0,0,0,125343,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,54,Ecuador,ECU,ECU,2493,3188,0,0,0,0,0,439097,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,61,Finland,FIN,FIN,11,50,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,64,France,FRA,FRA,2575,463,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,88,29,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,72,Germany,GFR,DEU,2741,5639,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,76,Greece,GRE,GRC,11,18,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,78,Guatemala,GUA,GTM,142,702,0,0,0,0,96614,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,80,Guyana,GUY,GUY,0,11,0,0,0,0,0,23400,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,83,Honduras,HON,HND,10,61,0,0,0,0,85405,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,84,Croatia,HRV,HRV,0,6,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,85,Hungary,HUN,HUN,5,0,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,86,Iceland,ICE,ISL,1340,655,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,88,India,IND,IND,5,5,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,90,Ireland,IRE,IRL,160,35,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,94,Italy,ITA,ITA,4406,3276,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,114,Luxembourg,LUX,LUX,5,330,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,124,Mexico,MEX,MEX,24384,17284,0,0,0,0,28111,64347,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,132,Malta,MTA,MLT,7,65,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,138,Netherlands (Kingdom of the),NET,NLD,294,387,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,143,Norway,NOR,NOR,66,171,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,145,New Zealand,NZL,NZL,5,5,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,148,Panama,PAN,PAN,93,965,0,0,0,0,0,56921,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,149,Paraguay,PAR,PRY,4730,850,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,150,Peru,PER,PER,4942,522732,0,0,0,0,0,1135215,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,154,Poland,POL,POL,20,11,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,155,Portugal,POR,PRT,5,116,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,162,El Salvador,SAL,SLV,13,30,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,173,Spain,SPA,ESP,136485,84905,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,178,Suriname,SUR,SUR,12,482,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,183,Sweden,SWE,SWE,62,38,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,184,Switzerland,SWI,CHE,99,136,18,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,255,Sint Maarten (Dutch part),SXM,SXM,0,124,0,0,0,0,12,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,194,Trinidad and Tobago,TRT,TTO,3035,18538,0,0,0,0,0,7922,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,201,Uruguay,URU,URY,799,4416,0,0,0,0,0,35951,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,202,United States of America,USA,USA,28128,620074,0,0,0,0,0,-,0
+2024,207,Venezuela (Bolivarian Republic of),VEN,VEN,207,Venezuela (Bolivarian Republic of),VEN,VEN,0,0,0,0,0,0,590346,-,0

@@ -1,0 +1,484 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,160,Russian Federation,RUS,RUS,8,Egypt,ARE,EGY,7,52,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,9,Argentina,ARG,ARG,70,85,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,11,Australia,AUL,AUS,54,62,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,12,Austria,AUS,AUT,9946,1635,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,13,Azerbaijan,AZE,AZE,392,30,32,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,17,Belgium,BEL,BEL,2558,665,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,25,Bolivia (Plurinational State of),BOL,BOL,5,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,27,Brazil,BRA,BRA,13,29,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,29,Bosnia and Herzegovina,BSN,BIH,0,5,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,30,Bulgaria,BUL,BGR,0,26,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,33,Canada,CAN,CAN,904,222,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,38,Chile,CHL,CHL,5,9,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,45,Costa Rica,COS,CRI,19,5,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,48,Cyprus,CYP,CYP,77,45,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,49,Czechia,CZE,CZE,148,53,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,50,Denmark,DEN,DNK,923,64,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,54,Ecuador,ECU,ECU,31,5,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,57,Estonia,EST,EST,22,6,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,61,Finland,FIN,FIN,730,597,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,64,France,FRA,FRA,15898,2492,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,571,219,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,71,Georgia,GEO,GEO,235,21,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,72,Germany,GFR,DEU,8119,18059,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,76,Greece,GRE,GRC,12,67,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,84,Croatia,HRV,HRV,15,5,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,85,Hungary,HUN,HUN,36,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,86,Iceland,ICE,ISL,10,10,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,88,India,IND,IND,0,7,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,89,Indonesia,INS,IDN,5,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,90,Ireland,IRE,IRL,70,35,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,93,Israel,ISR,ISR,0,2971,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,94,Italy,ITA,ITA,269,232,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,96,Jordan,JOR,JOR,25,22,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,102,Rep. of Korea,KOR,KOR,13,2010,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,113,Lithuania,LTU,LTU,659,46,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,114,Luxembourg,LUX,LUX,33,15,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,115,Latvia,LVA,LVA,33,23,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,122,Rep. of Moldova,MDA,MDA,5,12,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,124,Mexico,MEX,MEX,30,9,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,127,Malaysia,MLS,MYS,5,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,132,Malta,MTA,MLT,18,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,138,Netherlands (Kingdom of the),NET,NLD,284,132,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,143,Norway,NOR,NOR,766,55,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,145,New Zealand,NZL,NZL,19,7,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,147,Pakistan,PAK,PAK,7,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,149,Paraguay,PAR,PRY,8,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,150,Peru,PER,PER,16,5,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,154,Poland,POL,POL,9893,2246,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,155,Portugal,POR,PRT,16,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,173,Spain,SPA,ESP,154,1035,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,0,6,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,180,Slovakia,SVK,SVK,37,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,181,Slovenia,SVN,SVN,17,8,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,183,Sweden,SWE,SWE,1554,692,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,184,Switzerland,SWI,CHE,749,119,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,188,Thailand,THA,THA,5,6,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,196,Türkiye,TUR,TUR,5,0,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,200,Ukraine,UKR,UKR,137,200,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,201,Uruguay,URU,URY,12,6,0,0,0,0,0,-,0
+2018,160,Russian Federation,RUS,RUS,202,United States of America,USA,USA,5813,8901,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,8,Egypt,ARE,EGY,8,24,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,9,Argentina,ARG,ARG,79,82,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,10,Armenia,ARM,ARM,0,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,11,Australia,AUL,AUS,49,66,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,12,Austria,AUS,AUT,8664,1194,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,13,Azerbaijan,AZE,AZE,372,30,5,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,17,Belgium,BEL,BEL,2772,223,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,25,Bolivia (Plurinational State of),BOL,BOL,14,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,27,Brazil,BRA,BRA,13,46,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,30,Bulgaria,BUL,BGR,0,28,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,33,Canada,CAN,CAN,735,207,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,38,Chile,CHL,CHL,5,7,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,45,Costa Rica,COS,CRI,25,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,48,Cyprus,CYP,CYP,77,81,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,49,Czechia,CZE,CZE,164,59,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,50,Denmark,DEN,DNK,855,61,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,54,Ecuador,ECU,ECU,35,6,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,57,Estonia,EST,EST,30,18,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,61,Finland,FIN,FIN,833,770,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,64,France,FRA,FRA,16412,2864,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,722,453,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,71,Georgia,GEO,GEO,240,50,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,72,Germany,GFR,DEU,8722,15409,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,76,Greece,GRE,GRC,18,64,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,78,Guatemala,GUA,GTM,5,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,84,Croatia,HRV,HRV,15,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,85,Hungary,HUN,HUN,36,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,86,Iceland,ICE,ISL,11,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,88,India,IND,IND,0,14,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,89,Indonesia,INS,IDN,5,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,90,Ireland,IRE,IRL,74,31,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,93,Israel,ISR,ISR,0,5932,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,94,Italy,ITA,ITA,357,108,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,96,Jordan,JOR,JOR,24,11,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,102,Rep. of Korea,KOR,KOR,13,3628,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,113,Lithuania,LTU,LTU,668,202,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,114,Luxembourg,LUX,LUX,20,10,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,115,Latvia,LVA,LVA,56,6,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,119,Mauritania,MAU,MRT,0,7,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,120,North Macedonia,MCD,MKD,0,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,122,Rep. of Moldova,MDA,MDA,5,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,124,Mexico,MEX,MEX,39,24,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,127,Malaysia,MLS,MYS,6,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,133,Montenegro,MNE,MNE,0,12,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,132,Malta,MTA,MLT,18,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,138,Netherlands (Kingdom of the),NET,NLD,300,185,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,143,Norway,NOR,NOR,587,50,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,145,New Zealand,NZL,NZL,26,7,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,147,Pakistan,PAK,PAK,6,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,151,Philippines,PHI,PHL,5,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,154,Poland,POL,POL,9870,3320,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,155,Portugal,POR,PRT,16,9,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,159,South Africa,RSA,ZAF,10,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,173,Spain,SPA,ESP,211,1705,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,7,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,180,Slovakia,SVK,SVK,37,0,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,181,Slovenia,SVN,SVN,19,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,183,Sweden,SWE,SWE,1506,662,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,184,Switzerland,SWI,CHE,723,138,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,200,Ukraine,UKR,UKR,122,233,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,201,Uruguay,URU,URY,12,5,0,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,202,United States of America,USA,USA,6702,10194,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,8,Egypt,ARE,EGY,8,21,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,9,Argentina,ARG,ARG,79,89,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,10,Armenia,ARM,ARM,0,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,11,Australia,AUL,AUS,57,80,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,12,Austria,AUS,AUT,7513,958,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,13,Azerbaijan,AZE,AZE,350,24,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,17,Belgium,BEL,BEL,2560,585,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,24,Belarus,BLR,BLR,0,7,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,25,Bolivia (Plurinational State of),BOL,BOL,14,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,27,Brazil,BRA,BRA,19,43,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,29,Bosnia and Herzegovina,BSN,BIH,0,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,30,Bulgaria,BUL,BGR,0,20,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,33,Canada,CAN,CAN,675,153,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,38,Chile,CHL,CHL,5,7,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,45,Costa Rica,COS,CRI,27,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,48,Cyprus,CYP,CYP,77,76,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,49,Czechia,CZE,CZE,177,23,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,50,Denmark,DEN,DNK,748,30,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,54,Ecuador,ECU,ECU,34,8,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,57,Estonia,EST,EST,40,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,61,Finland,FIN,FIN,885,545,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,64,France,FRA,FRA,16775,3358,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,809,594,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,71,Georgia,GEO,GEO,238,72,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,72,Germany,GFR,DEU,9172,13111,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,76,Greece,GRE,GRC,16,47,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,78,Guatemala,GUA,GTM,5,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,84,Croatia,HRV,HRV,15,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,85,Hungary,HUN,HUN,36,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,86,Iceland,ICE,ISL,14,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,88,India,IND,IND,0,12,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,89,Indonesia,INS,IDN,5,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,90,Ireland,IRE,IRL,82,24,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,93,Israel,ISR,ISR,5,3967,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,94,Italy,ITA,ITA,214,101,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,96,Jordan,JOR,JOR,24,11,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,102,Rep. of Korea,KOR,KOR,13,2421,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,113,Lithuania,LTU,LTU,688,8,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,114,Luxembourg,LUX,LUX,17,8,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,115,Latvia,LVA,LVA,58,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,119,Mauritania,MAU,MRT,0,9,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,122,Rep. of Moldova,MDA,MDA,5,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,124,Mexico,MEX,MEX,41,24,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,127,Malaysia,MLS,MYS,6,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,133,Montenegro,MNE,MNE,0,11,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,132,Malta,MTA,MLT,18,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,138,Netherlands (Kingdom of the),NET,NLD,356,140,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,143,Norway,NOR,NOR,432,15,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,145,New Zealand,NZL,NZL,27,16,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,147,Pakistan,PAK,PAK,6,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,151,Philippines,PHI,PHL,5,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,154,Poland,POL,POL,1052,2419,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,155,Portugal,POR,PRT,23,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,159,South Africa,RSA,ZAF,10,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,173,Spain,SPA,ESP,356,1855,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,180,Slovakia,SVK,SVK,38,0,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,181,Slovenia,SVN,SVN,21,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,183,Sweden,SWE,SWE,1427,415,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,184,Switzerland,SWI,CHE,753,65,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,200,Ukraine,UKR,UKR,165,161,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,201,Uruguay,URU,URY,12,5,0,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,202,United States of America,USA,USA,6530,12806,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,8,Egypt,ARE,EGY,9,16,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,9,Argentina,ARG,ARG,81,94,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,10,Armenia,ARM,ARM,0,6,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,11,Australia,AUL,AUS,53,88,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,12,Austria,AUS,AUT,6526,702,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,13,Azerbaijan,AZE,AZE,317,8,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,17,Belgium,BEL,BEL,2665,405,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,24,Belarus,BLR,BLR,5,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,25,Bolivia (Plurinational State of),BOL,BOL,14,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,27,Brazil,BRA,BRA,21,51,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,30,Bulgaria,BUL,BGR,12,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,33,Canada,CAN,CAN,665,91,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,38,Chile,CHL,CHL,5,7,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,45,Costa Rica,COS,CRI,27,24,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,48,Cyprus,CYP,CYP,77,75,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,49,Czechia,CZE,CZE,173,19,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,50,Denmark,DEN,DNK,630,29,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,54,Ecuador,ECU,ECU,36,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,57,Estonia,EST,EST,53,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,61,Finland,FIN,FIN,844,184,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,64,France,FRA,FRA,32918,1281,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,876,704,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,71,Georgia,GEO,GEO,223,81,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,72,Germany,GFR,DEU,9584,10362,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,76,Greece,GRE,GRC,21,35,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,78,Guatemala,GUA,GTM,5,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,84,Croatia,HRV,HRV,15,6,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,85,Hungary,HUN,HUN,37,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,86,Iceland,ICE,ISL,20,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,88,India,IND,IND,0,15,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,89,Indonesia,INS,IDN,5,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,90,Ireland,IRE,IRL,83,15,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,93,Israel,ISR,ISR,5,2537,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,94,Italy,ITA,ITA,248,83,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,96,Jordan,JOR,JOR,24,7,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,102,Rep. of Korea,KOR,KOR,13,1000,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,113,Lithuania,LTU,LTU,688,8,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,114,Luxembourg,LUX,LUX,17,10,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,115,Latvia,LVA,LVA,59,9,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,119,Mauritania,MAU,MRT,11,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,120,North Macedonia,MCD,MKD,0,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,122,Rep. of Moldova,MDA,MDA,5,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,124,Mexico,MEX,MEX,44,31,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,127,Malaysia,MLS,MYS,6,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,133,Montenegro,MNE,MNE,6,13,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,132,Malta,MTA,MLT,18,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,138,Netherlands (Kingdom of the),NET,NLD,467,121,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,143,Norway,NOR,NOR,311,16,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,145,New Zealand,NZL,NZL,32,15,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,147,Pakistan,PAK,PAK,6,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,151,Philippines,PHI,PHL,5,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,154,Poland,POL,POL,1078,424,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,155,Portugal,POR,PRT,22,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,159,South Africa,RSA,ZAF,10,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,173,Spain,SPA,ESP,450,1870,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,6,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,180,Slovakia,SVK,SVK,38,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,181,Slovenia,SVN,SVN,21,0,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,183,Sweden,SWE,SWE,1314,354,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,184,Switzerland,SWI,CHE,738,77,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,200,Ukraine,UKR,UKR,175,167,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,201,Uruguay,URU,URY,13,5,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,202,United States of America,USA,USA,6718,21873,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,8,Egypt,ARE,EGY,9,10,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,9,Argentina,ARG,ARG,82,467,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,10,Armenia,ARM,ARM,0,20,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,11,Australia,AUL,AUS,59,142,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,12,Austria,AUS,AUT,6276,836,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,13,Azerbaijan,AZE,AZE,310,5,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,17,Belgium,BEL,BEL,2421,845,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,24,Belarus,BLR,BLR,9,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,25,Bolivia (Plurinational State of),BOL,BOL,14,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,27,Brazil,BRA,BRA,23,233,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,29,Bosnia and Herzegovina,BSN,BIH,0,11,0,0,0,0,5,-,0
+2022,160,Russian Federation,RUS,RUS,30,Bulgaria,BUL,BGR,289,135,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,33,Canada,CAN,CAN,187,259,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,37,China,CHI,CHN,0,24,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,38,Chile,CHL,CHL,5,74,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,44,Colombia,COL,COL,9,20,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,45,Costa Rica,COS,CRI,27,356,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,48,Cyprus,CYP,CYP,78,95,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,49,Czechia,CZE,CZE,173,71,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,50,Denmark,DEN,DNK,560,98,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,53,Dominican Rep.,DOM,DOM,0,9,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,54,Ecuador,ECU,ECU,42,8,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,57,Estonia,EST,EST,158,79,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,61,Finland,FIN,FIN,980,1280,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,64,France,FRA,FRA,33868,2185,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,1029,972,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,71,Georgia,GEO,GEO,212,122,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,72,Germany,GFR,DEU,12637,9210,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,76,Greece,GRE,GRC,24,49,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,78,Guatemala,GUA,GTM,5,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,84,Croatia,HRV,HRV,84,240,0,0,0,0,155,-,0
+2022,160,Russian Federation,RUS,RUS,85,Hungary,HUN,HUN,105,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,86,Iceland,ICE,ISL,25,25,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,88,India,IND,IND,0,34,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,89,Indonesia,INS,IDN,5,5,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,90,Ireland,IRE,IRL,77,58,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,93,Israel,ISR,ISR,5,3037,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,94,Italy,ITA,ITA,547,587,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,96,Jordan,JOR,JOR,23,5,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,98,Kazakhstan,KAZ,KAZ,0,23,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,102,Rep. of Korea,KOR,KOR,14,1203,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,113,Lithuania,LTU,LTU,839,109,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,114,Luxembourg,LUX,LUX,39,20,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,115,Latvia,LVA,LVA,253,75,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,119,Mauritania,MAU,MRT,11,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,122,Rep. of Moldova,MDA,MDA,995,138,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,124,Mexico,MEX,MEX,49,256,0,0,0,0,26985,-,0
+2022,160,Russian Federation,RUS,RUS,127,Malaysia,MLS,MYS,5,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,133,Montenegro,MNE,MNE,10,71,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,132,Malta,MTA,MLT,19,5,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,137,Nepal,NEP,NPL,0,5,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,138,Netherlands (Kingdom of the),NET,NLD,1060,524,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,143,Norway,NOR,NOR,351,188,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,145,New Zealand,NZL,NZL,34,16,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,147,Pakistan,PAK,PAK,6,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,148,Panama,PAN,PAN,0,12,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,150,Peru,PER,PER,0,13,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,151,Philippines,PHI,PHL,5,9,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,154,Poland,POL,POL,2660,765,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,155,Portugal,POR,PRT,668,51,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,158,Romania,ROM,ROU,306,16,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,159,South Africa,RSA,ZAF,9,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,173,Spain,SPA,ESP,1746,1875,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,28,16,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,180,Slovakia,SVK,SVK,306,20,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,181,Slovenia,SVN,SVN,50,66,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,183,Sweden,SWE,SWE,1341,593,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,184,Switzerland,SWI,CHE,1064,214,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,188,Thailand,THA,THA,5,0,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,200,Ukraine,UKR,UKR,170,104,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,201,Uruguay,URU,URY,13,9,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,202,United States of America,USA,USA,7675,38366,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,213,Zambia,ZAM,ZMB,5,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,8,Egypt,ARE,EGY,9,9,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,9,Argentina,ARG,ARG,107,1772,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,10,Armenia,ARM,ARM,0,40,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,11,Australia,AUL,AUS,84,215,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,12,Austria,AUS,AUT,4146,896,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,13,Azerbaijan,AZE,AZE,268,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,17,Belgium,BEL,BEL,2209,1085,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,24,Belarus,BLR,BLR,9,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,25,Bolivia (Plurinational State of),BOL,BOL,14,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,27,Brazil,BRA,BRA,16,460,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,29,Bosnia and Herzegovina,BSN,BIH,10,41,0,0,0,0,11,-,0
+2023,160,Russian Federation,RUS,RUS,30,Bulgaria,BUL,BGR,38,115,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,33,Canada,CAN,CAN,339,466,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,37,China,CHI,CHN,0,21,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,38,Chile,CHL,CHL,5,64,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,44,Colombia,COL,COL,9,35,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,45,Costa Rica,COS,CRI,27,395,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,46,Cuba,CUB,CUB,0,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,48,Cyprus,CYP,CYP,88,101,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,49,Czechia,CZE,CZE,560,113,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,50,Denmark,DEN,DNK,314,134,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,53,Dominican Rep.,DOM,DOM,5,12,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,54,Ecuador,ECU,ECU,87,9,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,57,Estonia,EST,EST,204,21,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,61,Finland,FIN,FIN,1258,1218,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,64,France,FRA,FRA,34900,2295,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,1376,642,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,71,Georgia,GEO,GEO,156,142,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,72,Germany,GFR,DEU,17437,11052,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,76,Greece,GRE,GRC,151,71,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,78,Guatemala,GUA,GTM,5,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,84,Croatia,HRV,HRV,119,555,0,0,0,0,31,-,0
+2023,160,Russian Federation,RUS,RUS,85,Hungary,HUN,HUN,126,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,86,Iceland,ICE,ISL,38,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,88,India,IND,IND,0,62,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,89,Indonesia,INS,IDN,5,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,90,Ireland,IRE,IRL,261,68,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,93,Israel,ISR,ISR,5,3809,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,94,Italy,ITA,ITA,513,699,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,96,Jordan,JOR,JOR,27,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,98,Kazakhstan,KAZ,KAZ,0,18,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,100,Kyrgyzstan,KGZ,KGZ,0,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,102,Rep. of Korea,KOR,KOR,18,5934,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,111,Liechtenstein,LIE,LIE,5,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,113,Lithuania,LTU,LTU,895,59,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,114,Luxembourg,LUX,LUX,44,35,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,115,Latvia,LVA,LVA,341,42,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,119,Mauritania,MAU,MRT,11,12,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,122,Rep. of Moldova,MDA,MDA,5,198,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,124,Mexico,MEX,MEX,118,221,0,0,0,0,1211,-,0
+2023,160,Russian Federation,RUS,RUS,127,Malaysia,MLS,MYS,5,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,133,Montenegro,MNE,MNE,20,97,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,130,Morocco,MOR,MAR,0,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,132,Malta,MTA,MLT,22,7,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,137,Nepal,NEP,NPL,0,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,138,Netherlands (Kingdom of the),NET,NLD,906,484,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,143,Norway,NOR,NOR,242,290,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,145,New Zealand,NZL,NZL,45,11,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,147,Pakistan,PAK,PAK,6,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,148,Panama,PAN,PAN,0,19,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,149,Paraguay,PAR,PRY,0,7,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,150,Peru,PER,PER,5,35,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,151,Philippines,PHI,PHL,5,9,5,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,154,Poland,POL,POL,2432,2960,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,155,Portugal,POR,PRT,571,24,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,158,Romania,ROM,ROU,419,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,159,South Africa,RSA,ZAF,9,0,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,173,Spain,SPA,ESP,2842,2455,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,28,24,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,180,Slovakia,SVK,SVK,418,10,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,181,Slovenia,SVN,SVN,78,34,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,183,Sweden,SWE,SWE,1019,344,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,184,Switzerland,SWI,CHE,709,270,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,188,Thailand,THA,THA,0,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,200,Ukraine,UKR,UKR,197,149,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,201,Uruguay,URU,URY,13,18,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,202,United States of America,USA,USA,9777,74236,0,0,0,0,0,-,0
+2023,160,Russian Federation,RUS,RUS,213,Zambia,ZAM,ZMB,5,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,8,Egypt,ARE,EGY,9,6,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,9,Argentina,ARG,ARG,386,2155,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,10,Armenia,ARM,ARM,8,55,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,11,Australia,AUL,AUS,72,299,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,12,Austria,AUS,AUT,4633,693,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,13,Azerbaijan,AZE,AZE,274,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,17,Belgium,BEL,BEL,2190,1199,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,24,Belarus,BLR,BLR,8,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,25,Bolivia (Plurinational State of),BOL,BOL,14,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,27,Brazil,BRA,BRA,35,476,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,29,Bosnia and Herzegovina,BSN,BIH,53,24,0,0,0,0,9,-,0
+2024,160,Russian Federation,RUS,RUS,30,Bulgaria,BUL,BGR,282,82,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,33,Canada,CAN,CAN,551,439,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,37,China,CHI,CHN,0,15,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,38,Chile,CHL,CHL,5,89,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,44,Colombia,COL,COL,11,38,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,45,Costa Rica,COS,CRI,38,402,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,46,Cuba,CUB,CUB,5,5,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,48,Cyprus,CYP,CYP,272,88,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,49,Czechia,CZE,CZE,559,147,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,50,Denmark,DEN,DNK,1077,143,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,53,Dominican Rep.,DOM,DOM,5,28,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,54,Ecuador,ECU,ECU,76,5,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,57,Estonia,EST,EST,213,47,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,61,Finland,FIN,FIN,1224,652,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,64,France,FRA,FRA,36110,2350,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,1571,311,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,71,Georgia,GEO,GEO,148,44,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,72,Germany,GFR,DEU,18700,10647,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,76,Greece,GRE,GRC,36,36,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,78,Guatemala,GUA,GTM,5,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,84,Croatia,HRV,HRV,192,354,0,0,0,0,5,-,0
+2024,160,Russian Federation,RUS,RUS,85,Hungary,HUN,HUN,149,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,86,Iceland,ICE,ISL,29,10,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,88,India,IND,IND,0,145,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,89,Indonesia,INS,IDN,5,5,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,90,Ireland,IRE,IRL,266,67,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,93,Israel,ISR,ISR,6,3800,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,94,Italy,ITA,ITA,861,752,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,96,Jordan,JOR,JOR,26,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,98,Kazakhstan,KAZ,KAZ,0,18,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,102,Rep. of Korea,KOR,KOR,20,8669,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,113,Lithuania,LTU,LTU,923,53,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,114,Luxembourg,LUX,LUX,35,25,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,115,Latvia,LVA,LVA,348,35,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,119,Mauritania,MAU,MRT,11,15,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,122,Rep. of Moldova,MDA,MDA,5,216,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,124,Mexico,MEX,MEX,158,235,0,0,0,0,1275,-,0
+2024,160,Russian Federation,RUS,RUS,127,Malaysia,MLS,MYS,5,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,133,Montenegro,MNE,MNE,28,89,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,130,Morocco,MOR,MAR,0,5,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,132,Malta,MTA,MLT,7,15,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,137,Nepal,NEP,NPL,0,5,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,138,Netherlands (Kingdom of the),NET,NLD,1301,417,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,143,Norway,NOR,NOR,1374,205,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,145,New Zealand,NZL,NZL,55,14,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,147,Pakistan,PAK,PAK,6,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,148,Panama,PAN,PAN,0,6,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,149,Paraguay,PAR,PRY,0,9,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,150,Peru,PER,PER,5,44,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,151,Philippines,PHI,PHL,5,19,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,154,Poland,POL,POL,2911,3062,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,155,Portugal,POR,PRT,612,27,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,158,Romania,ROM,ROU,461,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,159,South Africa,RSA,ZAF,9,0,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,173,Spain,SPA,ESP,3317,2900,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,39,15,0,0,0,0,16,-,0
+2024,160,Russian Federation,RUS,RUS,180,Slovakia,SVK,SVK,503,5,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,181,Slovenia,SVN,SVN,90,21,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,183,Sweden,SWE,SWE,1126,178,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,184,Switzerland,SWI,CHE,1033,228,77,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,188,Thailand,THA,THA,0,14,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,200,Ukraine,UKR,UKR,233,150,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,201,Uruguay,URU,URY,13,24,0,0,0,0,0,-,0
+2024,160,Russian Federation,RUS,RUS,202,United States of America,USA,USA,12132,83631,0,0,0,0,0,-,0

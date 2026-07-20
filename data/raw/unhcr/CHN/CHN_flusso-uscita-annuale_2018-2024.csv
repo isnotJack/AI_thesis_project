@@ -1,0 +1,8 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,37,China,CHI,CHN,-,-,-,-,212039,94351,0,0,0,0,0,-,0
+2019,37,China,CHI,CHN,-,-,-,-,212863,104248,0,0,0,0,0,-,0
+2020,37,China,CHI,CHN,-,-,-,-,175361,108071,0,0,0,0,6,-,0
+2021,37,China,CHI,CHN,-,-,-,-,170222,118476,0,0,0,0,10,-,0
+2022,37,China,CHI,CHN,-,-,-,-,161366,116338,0,0,0,0,150,-,0
+2023,37,China,CHI,CHN,-,-,-,-,160565,137143,0,0,0,0,53,-,0
+2024,37,China,CHI,CHN,-,-,-,-,153564,180960,16,0,0,0,8,-,0

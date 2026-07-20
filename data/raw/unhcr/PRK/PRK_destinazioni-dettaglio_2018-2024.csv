@@ -1,0 +1,87 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,11,Australia,AUL,AUS,19,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,17,Belgium,BEL,BEL,36,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,33,Canada,CAN,CAN,478,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,50,Denmark,DEN,DNK,9,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,64,France,FRA,FRA,0,6,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,81,29,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,72,Germany,GFR,DEU,34,57,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,90,Ireland,IRE,IRL,7,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,93,Israel,ISR,ISR,5,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,114,Luxembourg,LUX,LUX,12,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,138,Netherlands (Kingdom of the),NET,NLD,46,0,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,160,Russian Federation,RUS,RUS,57,14,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,183,Sweden,SWE,SWE,5,5,0,0,0,0,0,-,0
+2018,103,Dem. People's Rep. of Korea,KRN,PRK,202,United States of America,USA,USA,8,35,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,11,Australia,AUL,AUS,18,10,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,17,Belgium,BEL,BEL,34,0,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,33,Canada,CAN,CAN,412,0,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,50,Denmark,DEN,DNK,8,0,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,78,24,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,72,Germany,GFR,DEU,85,39,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,90,Ireland,IRE,IRL,7,6,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,93,Israel,ISR,ISR,5,0,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,114,Luxembourg,LUX,LUX,11,0,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,138,Netherlands (Kingdom of the),NET,NLD,39,0,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,160,Russian Federation,RUS,RUS,50,7,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,183,Sweden,SWE,SWE,5,0,0,0,0,0,0,-,0
+2019,103,Dem. People's Rep. of Korea,KRN,PRK,202,United States of America,USA,USA,6,26,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,11,Australia,AUL,AUS,7,9,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,17,Belgium,BEL,BEL,32,5,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,33,Canada,CAN,CAN,370,0,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,50,Denmark,DEN,DNK,6,0,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,72,26,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,72,Germany,GFR,DEU,85,12,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,90,Ireland,IRE,IRL,7,5,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,93,Israel,ISR,ISR,5,0,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,114,Luxembourg,LUX,LUX,11,0,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,138,Netherlands (Kingdom of the),NET,NLD,35,0,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,160,Russian Federation,RUS,RUS,53,5,0,0,0,0,0,-,0
+2020,103,Dem. People's Rep. of Korea,KRN,PRK,202,United States of America,USA,USA,6,26,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,11,Australia,AUL,AUS,0,9,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,17,Belgium,BEL,BEL,32,10,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,33,Canada,CAN,CAN,255,17,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,51,21,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,72,Germany,GFR,DEU,89,5,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,90,Ireland,IRE,IRL,9,0,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,93,Israel,ISR,ISR,5,0,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,114,Luxembourg,LUX,LUX,11,0,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,138,Netherlands (Kingdom of the),NET,NLD,27,5,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,160,Russian Federation,RUS,RUS,43,5,0,0,0,0,0,-,0
+2021,103,Dem. People's Rep. of Korea,KRN,PRK,202,United States of America,USA,USA,6,36,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,11,Australia,AUL,AUS,0,9,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,17,Belgium,BEL,BEL,28,5,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,33,Canada,CAN,CAN,33,16,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,35,14,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,72,Germany,GFR,DEU,91,5,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,90,Ireland,IRE,IRL,8,5,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,93,Israel,ISR,ISR,5,0,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,114,Luxembourg,LUX,LUX,11,0,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,138,Netherlands (Kingdom of the),NET,NLD,12,5,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,160,Russian Federation,RUS,RUS,37,0,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,183,Sweden,SWE,SWE,0,5,0,0,0,0,0,-,0
+2022,103,Dem. People's Rep. of Korea,KRN,PRK,202,United States of America,USA,USA,7,63,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,11,Australia,AUL,AUS,0,14,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,17,Belgium,BEL,BEL,18,5,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,33,Canada,CAN,CAN,26,6,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,24,5,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,72,Germany,GFR,DEU,89,0,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,90,Ireland,IRE,IRL,11,9,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,93,Israel,ISR,ISR,5,0,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,114,Luxembourg,LUX,LUX,11,5,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,138,Netherlands (Kingdom of the),NET,NLD,20,5,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,160,Russian Federation,RUS,RUS,28,0,0,0,0,0,0,-,0
+2023,103,Dem. People's Rep. of Korea,KRN,PRK,202,United States of America,USA,USA,7,47,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,11,Australia,AUL,AUS,0,14,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,17,Belgium,BEL,BEL,16,0,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,33,Canada,CAN,CAN,88,5,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,50,Denmark,DEN,DNK,8,0,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,15,30,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,72,Germany,GFR,DEU,93,0,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,90,Ireland,IRE,IRL,9,6,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,93,Israel,ISR,ISR,5,0,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,114,Luxembourg,LUX,LUX,8,0,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,138,Netherlands (Kingdom of the),NET,NLD,24,0,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,183,Sweden,SWE,SWE,10,0,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,184,Switzerland,SWI,CHE,0,5,0,0,0,0,0,-,0
+2024,103,Dem. People's Rep. of Korea,KRN,PRK,202,United States of America,USA,USA,7,45,0,0,0,0,0,-,0

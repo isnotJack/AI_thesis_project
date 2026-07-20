@@ -1,0 +1,210 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,163,Saudi Arabia,SAU,SAU,8,Egypt,ARE,EGY,0,6,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,11,Australia,AUL,AUS,94,135,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,12,Austria,AUS,AUT,5,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,17,Belgium,BEL,BEL,5,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,27,Brazil,BRA,BRA,0,16,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,33,Canada,CAN,CAN,375,269,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,54,Ecuador,ECU,ECU,5,8,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,64,France,FRA,FRA,12,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,165,74,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,72,Germany,GFR,DEU,130,36,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,76,Greece,GRE,GRC,7,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,88,India,IND,IND,5,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,90,Ireland,IRE,IRL,9,7,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,92,Iraq,IRQ,IRQ,0,5,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,94,Italy,ITA,ITA,11,11,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,96,Jordan,JOR,JOR,0,21,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,102,Rep. of Korea,KOR,KOR,0,6,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,109,Lebanon,LEB,LBN,13,5,0,0,0,0,10,-,0
+2018,163,Saudi Arabia,SAU,SAU,132,Malta,MTA,MLT,5,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,138,Netherlands (Kingdom of the),NET,NLD,13,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,143,Norway,NOR,NOR,6,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,145,New Zealand,NZL,NZL,60,20,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,151,Philippines,PHI,PHL,7,5,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,173,Spain,SPA,ESP,0,5,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,183,Sweden,SWE,SWE,50,15,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,184,Switzerland,SWI,CHE,7,11,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,185,Syrian Arab Rep.,SYR,SYR,11,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,196,Türkiye,TUR,TUR,5,11,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,198,United Arab Emirates,UAE,ARE,5,0,0,0,0,0,0,-,0
+2018,163,Saudi Arabia,SAU,SAU,202,United States of America,USA,USA,482,770,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,8,Egypt,ARE,EGY,5,17,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,11,Australia,AUL,AUS,143,126,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,12,Austria,AUS,AUT,6,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,17,Belgium,BEL,BEL,8,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,27,Brazil,BRA,BRA,0,17,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,33,Canada,CAN,CAN,344,179,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,49,Czechia,CZE,CZE,6,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,54,Ecuador,ECU,ECU,8,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,64,France,FRA,FRA,18,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,212,152,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,72,Germany,GFR,DEU,145,39,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,76,Greece,GRE,GRC,7,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,88,India,IND,IND,5,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,90,Ireland,IRE,IRL,13,8,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,92,Iraq,IRQ,IRQ,0,5,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,94,Italy,ITA,ITA,25,20,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,96,Jordan,JOR,JOR,0,15,0,0,0,0,19,-,0
+2019,163,Saudi Arabia,SAU,SAU,102,Rep. of Korea,KOR,KOR,0,10,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,109,Lebanon,LEB,LBN,13,9,0,0,0,0,7,-,0
+2019,163,Saudi Arabia,SAU,SAU,132,Malta,MTA,MLT,5,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,138,Netherlands (Kingdom of the),NET,NLD,21,10,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,143,Norway,NOR,NOR,8,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,145,New Zealand,NZL,NZL,68,5,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,151,Philippines,PHI,PHL,8,5,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,173,Spain,SPA,ESP,5,5,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,183,Sweden,SWE,SWE,55,11,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,184,Switzerland,SWI,CHE,11,9,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,185,Syrian Arab Rep.,SYR,SYR,9,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,198,United Arab Emirates,UAE,ARE,5,0,0,0,0,0,0,-,0
+2019,163,Saudi Arabia,SAU,SAU,202,United States of America,USA,USA,568,768,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,8,Egypt,ARE,EGY,14,7,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,11,Australia,AUL,AUS,199,78,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,12,Austria,AUS,AUT,6,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,17,Belgium,BEL,BEL,8,5,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,27,Brazil,BRA,BRA,0,21,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,33,Canada,CAN,CAN,463,116,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,49,Czechia,CZE,CZE,6,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,54,Ecuador,ECU,ECU,8,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,64,France,FRA,FRA,34,5,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,256,148,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,71,Georgia,GEO,GEO,0,5,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,72,Germany,GFR,DEU,178,12,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,76,Greece,GRE,GRC,7,5,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,88,India,IND,IND,5,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,90,Ireland,IRE,IRL,16,7,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,92,Iraq,IRQ,IRQ,0,6,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,96,Jordan,JOR,JOR,0,8,0,0,0,0,20,-,0
+2020,163,Saudi Arabia,SAU,SAU,102,Rep. of Korea,KOR,KOR,0,8,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,109,Lebanon,LEB,LBN,12,9,0,0,0,0,6,-,0
+2020,163,Saudi Arabia,SAU,SAU,132,Malta,MTA,MLT,5,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,138,Netherlands (Kingdom of the),NET,NLD,25,6,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,143,Norway,NOR,NOR,8,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,145,New Zealand,NZL,NZL,64,6,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,173,Spain,SPA,ESP,5,5,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,183,Sweden,SWE,SWE,62,5,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,184,Switzerland,SWI,CHE,17,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,185,Syrian Arab Rep.,SYR,SYR,6,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,198,United Arab Emirates,UAE,ARE,5,0,0,0,0,0,0,-,0
+2020,163,Saudi Arabia,SAU,SAU,202,United States of America,USA,USA,594,787,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,8,Egypt,ARE,EGY,15,7,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,11,Australia,AUL,AUS,200,69,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,12,Austria,AUS,AUT,7,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,17,Belgium,BEL,BEL,8,5,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,27,Brazil,BRA,BRA,0,27,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,33,Canada,CAN,CAN,552,70,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,54,Ecuador,ECU,ECU,8,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,64,France,FRA,FRA,42,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,288,195,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,71,Georgia,GEO,GEO,0,6,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,72,Germany,GFR,DEU,175,23,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,76,Greece,GRE,GRC,8,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,88,India,IND,IND,5,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,89,Indonesia,INS,IDN,0,6,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,90,Ireland,IRE,IRL,20,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,92,Iraq,IRQ,IRQ,0,6,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,96,Jordan,JOR,JOR,0,0,0,0,0,0,20,-,0
+2021,163,Saudi Arabia,SAU,SAU,102,Rep. of Korea,KOR,KOR,0,5,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,109,Lebanon,LEB,LBN,7,7,0,0,0,0,7,-,0
+2021,163,Saudi Arabia,SAU,SAU,132,Malta,MTA,MLT,5,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,138,Netherlands (Kingdom of the),NET,NLD,35,20,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,143,Norway,NOR,NOR,8,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,145,New Zealand,NZL,NZL,62,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,151,Philippines,PHI,PHL,0,21,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,173,Spain,SPA,ESP,5,5,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,177,Sudan,SUD,SDN,0,0,0,0,0,0,5,-,0
+2021,163,Saudi Arabia,SAU,SAU,183,Sweden,SWE,SWE,60,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,184,Switzerland,SWI,CHE,18,5,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,185,Syrian Arab Rep.,SYR,SYR,6,0,0,0,0,0,0,-,0
+2021,163,Saudi Arabia,SAU,SAU,202,United States of America,USA,USA,628,1064,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,8,Egypt,ARE,EGY,5,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,11,Australia,AUL,AUS,211,57,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,12,Austria,AUS,AUT,8,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,17,Belgium,BEL,BEL,5,5,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,27,Brazil,BRA,BRA,0,19,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,33,Canada,CAN,CAN,229,107,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,54,Ecuador,ECU,ECU,8,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,64,France,FRA,FRA,51,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,324,345,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,72,Germany,GFR,DEU,127,24,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,76,Greece,GRE,GRC,8,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,88,India,IND,IND,5,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,89,Indonesia,INS,IDN,0,8,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,90,Ireland,IRE,IRL,22,11,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,92,Iraq,IRQ,IRQ,0,7,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,96,Jordan,JOR,JOR,0,0,0,0,0,0,20,-,0
+2022,163,Saudi Arabia,SAU,SAU,98,Kazakhstan,KAZ,KAZ,0,5,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,109,Lebanon,LEB,LBN,6,5,0,0,0,0,6,-,0
+2022,163,Saudi Arabia,SAU,SAU,132,Malta,MTA,MLT,5,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,138,Netherlands (Kingdom of the),NET,NLD,57,31,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,143,Norway,NOR,NOR,8,5,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,145,New Zealand,NZL,NZL,63,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,151,Philippines,PHI,PHL,0,13,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,173,Spain,SPA,ESP,5,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,177,Sudan,SUD,SDN,0,0,0,0,0,0,5,-,0
+2022,163,Saudi Arabia,SAU,SAU,183,Sweden,SWE,SWE,62,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,184,Switzerland,SWI,CHE,13,5,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,185,Syrian Arab Rep.,SYR,SYR,5,0,0,0,0,0,0,-,0
+2022,163,Saudi Arabia,SAU,SAU,202,United States of America,USA,USA,710,1890,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,8,Egypt,ARE,EGY,5,14,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,11,Australia,AUL,AUS,104,52,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,12,Austria,AUS,AUT,11,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,17,Belgium,BEL,BEL,6,5,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,27,Brazil,BRA,BRA,0,8,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,33,Canada,CAN,CAN,201,77,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,54,Ecuador,ECU,ECU,8,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,61,Finland,FIN,FIN,0,5,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,64,France,FRA,FRA,56,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,492,310,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,72,Germany,GFR,DEU,222,29,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,76,Greece,GRE,GRC,8,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,86,Iceland,ICE,ISL,0,5,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,88,India,IND,IND,5,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,89,Indonesia,INS,IDN,8,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,90,Ireland,IRE,IRL,26,12,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,92,Iraq,IRQ,IRQ,0,5,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,94,Italy,ITA,ITA,6,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,96,Jordan,JOR,JOR,0,0,0,0,0,0,16,-,0
+2023,163,Saudi Arabia,SAU,SAU,109,Lebanon,LEB,LBN,0,0,0,0,0,0,6,-,0
+2023,163,Saudi Arabia,SAU,SAU,132,Malta,MTA,MLT,5,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,138,Netherlands (Kingdom of the),NET,NLD,71,37,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,143,Norway,NOR,NOR,9,5,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,145,New Zealand,NZL,NZL,48,7,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,151,Philippines,PHI,PHL,0,8,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,173,Spain,SPA,ESP,5,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,177,Sudan,SUD,SDN,0,0,0,0,0,0,5,-,0
+2023,163,Saudi Arabia,SAU,SAU,183,Sweden,SWE,SWE,54,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,184,Switzerland,SWI,CHE,16,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,185,Syrian Arab Rep.,SYR,SYR,5,0,0,0,0,0,0,-,0
+2023,163,Saudi Arabia,SAU,SAU,202,United States of America,USA,USA,714,1061,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,8,Egypt,ARE,EGY,5,11,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,11,Australia,AUL,AUS,86,57,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,12,Austria,AUS,AUT,12,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,17,Belgium,BEL,BEL,12,6,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,33,Canada,CAN,CAN,212,102,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,50,Denmark,DEN,DNK,80,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,64,France,FRA,FRA,63,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,683,183,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,72,Germany,GFR,DEU,216,21,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,89,Indonesia,INS,IDN,8,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,90,Ireland,IRE,IRL,32,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,92,Iraq,IRQ,IRQ,0,5,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,94,Italy,ITA,ITA,7,5,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,96,Jordan,JOR,JOR,0,0,0,0,0,0,10,-,0
+2024,163,Saudi Arabia,SAU,SAU,109,Lebanon,LEB,LBN,0,0,0,0,0,0,5,-,0
+2024,163,Saudi Arabia,SAU,SAU,138,Netherlands (Kingdom of the),NET,NLD,85,39,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,143,Norway,NOR,NOR,5,7,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,145,New Zealand,NZL,NZL,49,5,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,151,Philippines,PHI,PHL,0,7,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,173,Spain,SPA,ESP,5,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,177,Sudan,SUD,SDN,0,0,0,0,0,0,5,-,0
+2024,163,Saudi Arabia,SAU,SAU,183,Sweden,SWE,SWE,23,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,184,Switzerland,SWI,CHE,16,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,185,Syrian Arab Rep.,SYR,SYR,5,0,0,0,0,0,0,-,0
+2024,163,Saudi Arabia,SAU,SAU,202,United States of America,USA,USA,723,1091,0,0,0,0,0,-,0

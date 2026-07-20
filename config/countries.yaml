@@ -1,0 +1,140 @@
+# =============================================================================
+# CONFIGURAZIONE PAESI - Progetto Tesi Geopolitico-Cyber
+# =============================================================================
+# Questa e' la fonte di verita' unica per la lista dei paesi del progetto.
+# Tutti gli script (raccolta dati, estrazione, grafo) devono leggere da qui,
+# NON hardcodare i paesi altrove.
+#
+# Se vuoi aggiungere/togliere un paese: modifica solo questo file.
+# Ricorda pero' di creare/rimuovere anche la cartella corrispondente in
+# data/raw/<fonte>/<iso3>/ (vedi scripts_hpc/README o usa lo script
+# src/utils/setup_country_folders.py una volta scritto).
+# =============================================================================
+
+periodo:
+  inizio: "2018-Q1"
+  fine: "2024-Q4"
+  granularita: "trimestrale"
+
+paesi:
+  # ---------------------------------------------------------------------
+  # GRUPPO 1 - Attori cyber offensivi noti
+  # Paesi frequentemente citati come origine di gruppi APT / attivita'
+  # cyber offensiva state-sponsored negli advisory CISA/ENISA.
+  # ---------------------------------------------------------------------
+  - nome: "Russia"
+    iso3: "RUS"
+    gruppo: 1
+    tag: "attore_cyber"
+    note: "Origine di numerosi APT documentati (es. APT28, APT29)"
+
+  - nome: "Cina"
+    iso3: "CHN"
+    gruppo: 1
+    tag: "attore_cyber"
+    note: "Origine di APT noti (es. APT41), forte presenza in advisory"
+
+  - nome: "Corea del Nord"
+    iso3: "PRK"
+    gruppo: 1
+    tag: "attore_cyber"
+    note: "Lazarus Group e gruppi affiliati, forte overlap economico-cyber"
+
+  - nome: "Iran"
+    iso3: "IRN"
+    gruppo: 1
+    tag: "attore_cyber"
+    note: "APT35/Charming Kitten e altri, spesso legati a tensioni regionali"
+
+  # ---------------------------------------------------------------------
+  # GRUPPO 2 - Alta instabilita' geopolitica/conflitto
+  # Asse primario della domanda di ricerca: carestia, conflitto, migrazione.
+  # ---------------------------------------------------------------------
+  - nome: "Ucraina"
+    iso3: "UKR"
+    gruppo: 2
+    tag: "instabilita"
+    note: "Conflitto attivo + bersaglio cyber intenso, caso limite tra gruppi 2 e 3"
+
+  - nome: "Sudan"
+    iso3: "SDN"
+    gruppo: 2
+    tag: "instabilita"
+    note: "Conflitto interno, carestia, forte flusso migratorio verso Egitto/Ciad"
+
+  - nome: "Sud Sudan"
+    iso3: "SSD"
+    gruppo: 2
+    tag: "instabilita"
+    note: "Conflitto interno cronico, rischio di Carestia (IPC Fase 5) più volte segnalato da FEWS NET"
+
+  - nome: "Yemen"
+    iso3: "YEM"
+    gruppo: 2
+    tag: "instabilita"
+    note: "Guerra civile prolungata, crisi umanitaria grave"
+
+  - nome: "Siria"
+    iso3: "SYR"
+    gruppo: 2
+    tag: "instabilita"
+    note: "Conflitto prolungato, forte generatore di flussi migratori"
+
+  - nome: "Etiopia"
+    iso3: "ETH"
+    gruppo: 2
+    tag: "instabilita"
+    note: "Conflitto Tigray, instabilita' interna, carestia regionale"
+
+  - nome: "Venezuela"
+    iso3: "VEN"
+    gruppo: 2
+    tag: "instabilita"
+    note: "Crisi economica/politica, forte emigrazione regionale"
+
+  # ---------------------------------------------------------------------
+  # GRUPPO 3 - Bersagli cyber ad alto profilo
+  # Stabilita' relativamente alta ma esposizione cyber documentata e forte.
+  # ---------------------------------------------------------------------
+  - nome: "Stati Uniti"
+    iso3: "USA"
+    gruppo: 3
+    tag: "vittima_cyber"
+    note: "Bersaglio primario in quasi tutti gli advisory CISA"
+
+  - nome: "Israele"
+    iso3: "ISR"
+    gruppo: 3
+    tag: "vittima_cyber"
+    note: "Alta esposizione cyber, tensioni regionali continue"
+
+  - nome: "Corea del Sud"
+    iso3: "KOR"
+    gruppo: 3
+    tag: "vittima_cyber"
+    note: "Bersaglio ricorrente di gruppi nordcoreani"
+
+  - nome: "Arabia Saudita"
+    iso3: "SAU"
+    gruppo: 3
+    tag: "vittima_cyber"
+    note: "Bersaglio storico (es. Shamoon), tensioni con Iran"
+
+  # ---------------------------------------------------------------------
+  # GRUPPO 4 - Casi di controllo
+  # Bassa instabilita' E basso profilo cyber offensivo/vittima.
+  # Servono da baseline per validare che la correlazione non sia un
+  # artefatto della pipeline (cioe' che il modello non trovi "crisi"
+  # ovunque indipendentemente dai dati).
+  # ---------------------------------------------------------------------
+  - nome: "Italia"
+    iso3: "ITA"
+    gruppo: 4
+    tag: "controllo"
+    note: "Stabilita' relativamente alta, esposizione cyber moderata"
+
+  - nome: "Estonia"
+    iso3: "EST"
+    gruppo: 4
+    tag: "controllo"
+    note: "Paese piccolo e stabile, ma con precedente cyber storico (2007): utile contrasto qualitativo"

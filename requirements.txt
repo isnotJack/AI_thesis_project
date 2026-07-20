@@ -1,0 +1,22 @@
+# Raccolta ed elaborazione dati
+requests
+beautifulsoup4
+lxml
+pdfplumber
+PyPDF2
+pandas
+pyyaml
+tqdm
+dbfread
+
+# Grafo
+networkx
+
+# LMM / LLM (scegliere in base al provider usato nel Blocco A)
+google-generativeai   # per Gemini 2.0 Flash, usato nel Blocco A
+python-dotenv         # per gestire le API key senza hardcodarle nel codice
+
+# Notebook
+jupyter
+ipykernel
+matplotlib

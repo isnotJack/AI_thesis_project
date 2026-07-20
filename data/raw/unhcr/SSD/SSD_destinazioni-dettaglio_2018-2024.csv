@@ -1,0 +1,374 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,179,South Sudan,SSD,SSD,8,Egypt,ARE,EGY,7737,6885,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,11,Australia,AUL,AUS,8,29,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,12,Austria,AUS,AUT,6,5,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,17,Belgium,BEL,BEL,0,5,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,33,Canada,CAN,CAN,13,17,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,34,Central African Rep.,CAR,CAF,2573,5,2071,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,36,Chad,CHD,TCD,8,7,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,39,Cameroon,CMR,CMR,13,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,40,Congo,COB,COG,0,13,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,41,Dem. Rep. of the Congo,COD,COD,95704,4229,367,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,51,Djibouti,DJB,DJI,0,5,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,56,Eritrea,ERT,ERI,8,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,58,Ethiopia,ETH,ETH,422135,400,40237,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,61,Finland,FIN,FIN,8,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,64,France,FRA,FRA,40,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,44,22,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,72,Germany,GFR,DEU,76,79,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,73,Ghana,GHA,GHA,6,5,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,76,Greece,GRE,GRC,13,13,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,86,Iceland,ICE,ISL,5,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,88,India,IND,IND,5,85,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,92,Iraq,IRQ,IRQ,0,14,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,93,Israel,ISR,ISR,127,102,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,94,Italy,ITA,ITA,127,27,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,96,Jordan,JOR,JOR,11,10,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,99,Kenya,KEN,KEN,115202,83,4631,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,102,Rep. of Korea,KOR,KOR,0,6,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,107,Libya,LBY,LBY,0,116,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,109,Lebanon,LEB,LBN,42,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,119,Mauritania,MAU,MRT,5,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,127,Malaysia,MLS,MYS,11,27,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,128,Malawi,MLW,MWI,5,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,130,Morocco,MOR,MAR,159,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,132,Malta,MTA,MLT,22,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,139,Niger,NGR,NER,5,8,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,143,Norway,NOR,NOR,14,5,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,155,Portugal,POR,PRT,15,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,161,Rwanda,RWA,RWA,7,5,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,163,Saudi Arabia,SAU,SAU,5,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,173,Spain,SPA,ESP,0,10,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,179,South Sudan,SSD,SSD,0,0,0,1878154,0,0,10000,-,0
+2018,179,South Sudan,SSD,SSD,177,Sudan,SUD,SDN,852080,0,5215,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,183,Sweden,SWE,SWE,61,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,184,Switzerland,SWI,CHE,10,6,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,185,Syrian Arab Rep.,SYR,SYR,106,0,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,196,Türkiye,TUR,TUR,5,5,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,199,Uganda,UGA,UGA,788848,439,83634,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,202,United States of America,USA,USA,24,34,0,0,0,0,0,-,0
+2018,179,South Sudan,SSD,SSD,214,Zimbabwe,ZIM,ZWE,8,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,8,Egypt,ARE,EGY,14832,4181,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,11,Australia,AUL,AUS,8,40,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,12,Austria,AUS,AUT,6,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,17,Belgium,BEL,BEL,5,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,23,Burkina Faso,BKF,BFA,0,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,33,Canada,CAN,CAN,6,23,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,34,Central African Rep.,CAR,CAF,2235,0,1065,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,36,Chad,CHD,TCD,9,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,39,Cameroon,CMR,CMR,13,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,41,Dem. Rep. of the Congo,COD,COD,88717,8,5599,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,56,Eritrea,ERT,ERI,7,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,58,Ethiopia,ETH,ETH,334014,168,12669,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,61,Finland,FIN,FIN,8,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,64,France,FRA,FRA,83,14,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,67,Gabon,GAB,GAB,5,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,55,29,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,72,Germany,GFR,DEU,86,92,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,73,Ghana,GHA,GHA,6,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,76,Greece,GRE,GRC,21,30,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,86,Iceland,ICE,ISL,5,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,88,India,IND,IND,0,95,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,92,Iraq,IRQ,IRQ,0,15,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,93,Israel,ISR,ISR,109,124,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,94,Italy,ITA,ITA,140,13,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,96,Jordan,JOR,JOR,11,8,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,99,Kenya,KEN,KEN,121410,143,1628,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,102,Rep. of Korea,KOR,KOR,0,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,104,Kuwait,KUW,KWT,0,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,107,Libya,LBY,LBY,5,224,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,109,Lebanon,LEB,LBN,32,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,114,Luxembourg,LUX,LUX,0,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,127,Malaysia,MLS,MYS,13,43,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,128,Malawi,MLW,MWI,5,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,130,Morocco,MOR,MAR,292,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,132,Malta,MTA,MLT,22,62,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,136,Namibia,NAM,NAM,0,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,138,Netherlands (Kingdom of the),NET,NLD,0,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,139,Niger,NGR,NER,0,7,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,143,Norway,NOR,NOR,17,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,155,Portugal,POR,PRT,30,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,161,Rwanda,RWA,RWA,5,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,173,Spain,SPA,ESP,5,5,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,179,South Sudan,SSD,SSD,0,0,0,1665815,276463,0,10000,-,0
+2019,179,South Sudan,SSD,SSD,177,Sudan,SUD,SDN,810917,0,65106,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,183,Sweden,SWE,SWE,63,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,184,Switzerland,SWI,CHE,13,8,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,185,Syrian Arab Rep.,SYR,SYR,80,0,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,186,United Rep. of Tanzania,TAN,TZA,10,9,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,195,Tunisia,TUN,TUN,0,26,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,199,Uganda,UGA,UGA,861452,138,13685,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,262,Unknown ,UKN,UNK,0,0,64,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,202,United States of America,USA,USA,45,37,0,0,0,0,0,-,0
+2019,179,South Sudan,SSD,SSD,214,Zimbabwe,ZIM,ZWE,8,24,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,8,Egypt,ARE,EGY,18179,1626,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,11,Australia,AUL,AUS,13,45,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,12,Austria,AUS,AUT,6,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,16,Burundi,BDI,BDI,8,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,17,Belgium,BEL,BEL,5,15,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,23,Burkina Faso,BKF,BFA,0,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,33,Canada,CAN,CAN,6,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,34,Central African Rep.,CAR,CAF,1802,5,3000,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,36,Chad,CHD,TCD,9,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,39,Cameroon,CMR,CMR,13,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,41,Dem. Rep. of the Congo,COD,COD,54755,0,5000,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,56,Eritrea,ERT,ERI,7,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,58,Ethiopia,ETH,ETH,365030,206,14500,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,61,Finland,FIN,FIN,8,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,64,France,FRA,FRA,123,10,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,67,Gabon,GAB,GAB,5,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,67,50,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,72,Germany,GFR,DEU,101,64,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,73,Ghana,GHA,GHA,7,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,76,Greece,GRE,GRC,45,15,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,86,Iceland,ICE,ISL,5,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,87,Cote d'Ivoire,ICO,CIV,0,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,88,India,IND,IND,0,98,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,92,Iraq,IRQ,IRQ,0,15,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,93,Israel,ISR,ISR,72,105,0,0,0,0,56,-,0
+2020,179,South Sudan,SSD,SSD,94,Italy,ITA,ITA,0,10,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,96,Jordan,JOR,JOR,11,7,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,99,Kenya,KEN,KEN,123912,56,3000,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,102,Rep. of Korea,KOR,KOR,0,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,106,Liberia,LBR,LBR,5,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,107,Libya,LBY,LBY,6,290,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,109,Lebanon,LEB,LBN,37,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,114,Luxembourg,LUX,LUX,0,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,127,Malaysia,MLS,MYS,16,38,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,128,Malawi,MLW,MWI,5,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,130,Morocco,MOR,MAR,25,321,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,131,Mozambique,MOZ,MOZ,0,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,132,Malta,MTA,MLT,22,106,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,136,Namibia,NAM,NAM,0,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,138,Netherlands (Kingdom of the),NET,NLD,0,9,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,139,Niger,NGR,NER,8,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,143,Norway,NOR,NOR,50,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,155,Portugal,POR,PRT,30,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,161,Rwanda,RWA,RWA,6,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,163,Saudi Arabia,SAU,SAU,0,7,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,173,Spain,SPA,ESP,5,5,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,179,South Sudan,SSD,SSD,0,0,0,1600254,174463,0,0,-,250000
+2020,179,South Sudan,SSD,SSD,177,Sudan,SUD,SDN,736685,0,22500,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,183,Sweden,SWE,SWE,63,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,184,Switzerland,SWI,CHE,19,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,185,Syrian Arab Rep.,SYR,SYR,81,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,186,United Rep. of Tanzania,TAN,TZA,10,0,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,195,Tunisia,TUN,TUN,5,21,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,199,Uganda,UGA,UGA,887452,1602,74000,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,202,United States of America,USA,USA,48,57,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,213,Zambia,ZAM,ZMB,5,6,0,0,0,0,0,-,0
+2020,179,South Sudan,SSD,SSD,214,Zimbabwe,ZIM,ZWE,8,24,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,8,Egypt,ARE,EGY,18673,2040,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,11,Australia,AUL,AUS,20,42,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,12,Austria,AUS,AUT,6,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,17,Belgium,BEL,BEL,5,20,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,23,Burkina Faso,BKF,BFA,5,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,26,Botswana,BOT,BWA,5,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,33,Canada,CAN,CAN,19,14,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,34,Central African Rep.,CAR,CAF,1894,438,963,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,36,Chad,CHD,TCD,11,5,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,41,Dem. Rep. of the Congo,COD,COD,56341,731,14588,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,56,Eritrea,ERT,ERI,7,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,58,Ethiopia,ETH,ETH,386750,179,28217,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,61,Finland,FIN,FIN,8,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,64,France,FRA,FRA,218,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,78,135,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,72,Germany,GFR,DEU,249,72,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,73,Ghana,GHA,GHA,7,5,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,76,Greece,GRE,GRC,50,9,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,86,Iceland,ICE,ISL,5,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,88,India,IND,IND,5,100,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,90,Ireland,IRE,IRL,5,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,92,Iraq,IRQ,IRQ,0,15,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,93,Israel,ISR,ISR,72,89,0,0,0,0,74,-,0
+2021,179,South Sudan,SSD,SSD,94,Italy,ITA,ITA,0,15,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,96,Jordan,JOR,JOR,11,8,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,99,Kenya,KEN,KEN,135255,96,1919,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,106,Liberia,LBR,LBR,5,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,107,Libya,LBY,LBY,8,309,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,109,Lebanon,LEB,LBN,38,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,127,Malaysia,MLS,MYS,24,40,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,128,Malawi,MLW,MWI,5,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,130,Morocco,MOR,MAR,28,411,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,131,Mozambique,MOZ,MOZ,0,5,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,132,Malta,MTA,MLT,22,63,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,138,Netherlands (Kingdom of the),NET,NLD,0,8,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,139,Niger,NGR,NER,9,10,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,143,Norway,NOR,NOR,50,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,155,Portugal,POR,PRT,30,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,161,Rwanda,RWA,RWA,7,8,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,163,Saudi Arabia,SAU,SAU,0,7,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,173,Spain,SPA,ESP,5,5,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,179,South Sudan,SSD,SSD,0,0,0,2017236,0,0,0,-,250000
+2021,179,South Sudan,SSD,SSD,177,Sudan,SUD,SDN,803634,0,44177,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,183,Sweden,SWE,SWE,63,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,184,Switzerland,SWI,CHE,53,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,185,Syrian Arab Rep.,SYR,SYR,74,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,186,United Rep. of Tanzania,TAN,TZA,6,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,195,Tunisia,TUN,TUN,5,21,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,199,Uganda,UGA,UGA,958927,41,180356,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,202,United States of America,USA,USA,54,71,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,213,Zambia,ZAM,ZMB,5,0,0,0,0,0,0,-,0
+2021,179,South Sudan,SSD,SSD,214,Zimbabwe,ZIM,ZWE,8,25,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,8,Egypt,ARE,EGY,21309,3037,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,11,Australia,AUL,AUS,28,32,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,12,Austria,AUS,AUT,6,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,17,Belgium,BEL,BEL,27,30,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,26,Botswana,BOT,BWA,5,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,33,Canada,CAN,CAN,19,17,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,34,Central African Rep.,CAR,CAF,2665,0,1236,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,36,Chad,CHD,TCD,25,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,39,Cameroon,CMR,CMR,5,7,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,41,Dem. Rep. of the Congo,COD,COD,55829,210,784,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,56,Eritrea,ERT,ERI,5,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,58,Ethiopia,ETH,ETH,409422,202,23349,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,61,Finland,FIN,FIN,8,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,64,France,FRA,FRA,267,45,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,125,240,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,72,Germany,GFR,DEU,111,57,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,73,Ghana,GHA,GHA,7,5,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,76,Greece,GRE,GRC,61,14,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,86,Iceland,ICE,ISL,5,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,88,India,IND,IND,5,105,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,90,Ireland,IRE,IRL,6,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,92,Iraq,IRQ,IRQ,0,15,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,93,Israel,ISR,ISR,72,52,0,0,0,0,54,-,0
+2022,179,South Sudan,SSD,SSD,94,Italy,ITA,ITA,0,65,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,96,Jordan,JOR,JOR,11,7,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,99,Kenya,KEN,KEN,153289,94,1434,0,0,0,252,-,0
+2022,179,South Sudan,SSD,SSD,106,Liberia,LBR,LBR,5,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,107,Libya,LBY,LBY,5,414,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,109,Lebanon,LEB,LBN,35,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,113,Lithuania,LTU,LTU,7,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,114,Luxembourg,LUX,LUX,0,5,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,127,Malaysia,MLS,MYS,43,18,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,128,Malawi,MLW,MWI,5,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,130,Morocco,MOR,MAR,48,316,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,131,Mozambique,MOZ,MOZ,0,5,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,132,Malta,MTA,MLT,22,20,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,136,Namibia,NAM,NAM,0,5,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,138,Netherlands (Kingdom of the),NET,NLD,99,15,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,139,Niger,NGR,NER,11,18,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,143,Norway,NOR,NOR,49,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,155,Portugal,POR,PRT,33,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,161,Rwanda,RWA,RWA,18,5,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,173,Spain,SPA,ESP,5,10,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,179,South Sudan,SSD,SSD,0,0,0,1474679,0,0,0,-,371594
+2022,179,South Sudan,SSD,SSD,177,Sudan,SUD,SDN,796831,0,48904,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,183,Sweden,SWE,SWE,64,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,184,Switzerland,SWI,CHE,91,5,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,185,Syrian Arab Rep.,SYR,SYR,76,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,186,United Rep. of Tanzania,TAN,TZA,6,5,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,195,Tunisia,TUN,TUN,6,13,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,199,Uganda,UGA,UGA,854242,28,75549,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,202,United States of America,USA,USA,56,87,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,213,Zambia,ZAM,ZMB,5,0,0,0,0,0,0,-,0
+2022,179,South Sudan,SSD,SSD,214,Zimbabwe,ZIM,ZWE,8,25,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,8,Egypt,ARE,EGY,25089,12826,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,11,Australia,AUL,AUS,16,29,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,12,Austria,AUS,AUT,0,5,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,17,Belgium,BEL,BEL,44,54,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,26,Botswana,BOT,BWA,5,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,33,Canada,CAN,CAN,16,26,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,34,Central African Rep.,CAR,CAF,2786,0,1263,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,36,Chad,CHD,TCD,80,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,39,Cameroon,CMR,CMR,5,27,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,40,Congo,COB,COG,0,5,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,41,Dem. Rep. of the Congo,COD,COD,53307,245,1583,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,56,Eritrea,ERT,ERI,5,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,58,Ethiopia,ETH,ETH,418231,8432,111076,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,61,Finland,FIN,FIN,9,5,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,64,France,FRA,FRA,406,138,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,266,369,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,72,Germany,GFR,DEU,156,115,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,73,Ghana,GHA,GHA,7,5,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,76,Greece,GRE,GRC,87,43,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,86,Iceland,ICE,ISL,6,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,88,India,IND,IND,5,23,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,90,Ireland,IRE,IRL,6,5,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,92,Iraq,IRQ,IRQ,0,13,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,93,Israel,ISR,ISR,72,50,0,0,0,0,57,-,0
+2023,179,South Sudan,SSD,SSD,94,Italy,ITA,ITA,120,107,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,96,Jordan,JOR,JOR,19,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,99,Kenya,KEN,KEN,171233,168,4241,0,0,0,9,-,0
+2023,179,South Sudan,SSD,SSD,106,Liberia,LBR,LBR,5,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,107,Libya,LBY,LBY,6,706,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,109,Lebanon,LEB,LBN,33,10,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,113,Lithuania,LTU,LTU,8,5,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,114,Luxembourg,LUX,LUX,0,20,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,127,Malaysia,MLS,MYS,55,25,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,130,Morocco,MOR,MAR,51,335,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,132,Malta,MTA,MLT,22,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,136,Namibia,NAM,NAM,0,5,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,138,Netherlands (Kingdom of the),NET,NLD,119,29,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,139,Niger,NGR,NER,20,18,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,143,Norway,NOR,NOR,15,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,155,Portugal,POR,PRT,17,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,161,Rwanda,RWA,RWA,23,17,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,173,Spain,SPA,ESP,11,15,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,179,South Sudan,SSD,SSD,0,0,0,1236672,0,0,0,-,454831
+2023,179,South Sudan,SSD,SSD,177,Sudan,SUD,SDN,696246,0,386793,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,183,Sweden,SWE,SWE,8,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,184,Switzerland,SWI,CHE,103,52,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,185,Syrian Arab Rep.,SYR,SYR,68,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,195,Tunisia,TUN,TUN,9,417,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,199,Uganda,UGA,UGA,923607,51,22250,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,202,United States of America,USA,USA,66,176,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,213,Zambia,ZAM,ZMB,8,0,0,0,0,0,0,-,0
+2023,179,South Sudan,SSD,SSD,214,Zimbabwe,ZIM,ZWE,6,25,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,4,Algeria,ALG,DZA,0,5,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,8,Egypt,ARE,EGY,26571,19592,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,11,Australia,AUL,AUS,23,19,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,12,Austria,AUS,AUT,5,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,16,Burundi,BDI,BDI,7,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,17,Belgium,BEL,BEL,45,40,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,33,Canada,CAN,CAN,26,28,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,34,Central African Rep.,CAR,CAF,3204,22,1539,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,36,Chad,CHD,TCD,75,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,39,Cameroon,CMR,CMR,15,18,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,40,Congo,COB,COG,5,11,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,41,Dem. Rep. of the Congo,COD,COD,55325,234,2348,0,0,0,6,-,0
+2024,179,South Sudan,SSD,SSD,46,Cuba,CUB,CUB,0,5,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,50,Denmark,DEN,DNK,42,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,56,Eritrea,ERT,ERI,5,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,58,Ethiopia,ETH,ETH,420129,9547,92816,0,0,0,5,-,0
+2024,179,South Sudan,SSD,SSD,61,Finland,FIN,FIN,8,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,64,France,FRA,FRA,669,198,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,489,471,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,72,Germany,GFR,DEU,175,134,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,73,Ghana,GHA,GHA,7,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,76,Greece,GRE,GRC,41,26,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,86,Iceland,ICE,ISL,6,6,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,88,India,IND,IND,10,26,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,90,Ireland,IRE,IRL,6,5,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,92,Iraq,IRQ,IRQ,0,5,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,93,Israel,ISR,ISR,72,50,0,0,0,0,59,-,0
+2024,179,South Sudan,SSD,SSD,94,Italy,ITA,ITA,135,84,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,96,Jordan,JOR,JOR,19,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,99,Kenya,KEN,KEN,192825,85,2248,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,106,Liberia,LBR,LBR,5,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,107,Libya,LBY,LBY,46,1302,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,109,Lebanon,LEB,LBN,45,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,113,Lithuania,LTU,LTU,11,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,114,Luxembourg,LUX,LUX,0,20,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,127,Malaysia,MLS,MYS,64,17,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,130,Morocco,MOR,MAR,34,243,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,132,Malta,MTA,MLT,0,5,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,138,Netherlands (Kingdom of the),NET,NLD,168,33,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,139,Niger,NGR,NER,19,14,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,141,Nigeria,NIG,NGA,0,10,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,143,Norway,NOR,NOR,868,7,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,155,Portugal,POR,PRT,16,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,161,Rwanda,RWA,RWA,38,27,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,173,Spain,SPA,ESP,11,15,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,179,South Sudan,SSD,SSD,0,0,0,944631,0,0,0,-,1327345
+2024,179,South Sudan,SSD,SSD,177,Sudan,SUD,SDN,613052,0,292919,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,183,Sweden,SWE,SWE,921,5,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,184,Switzerland,SWI,CHE,183,53,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,185,Syrian Arab Rep.,SYR,SYR,59,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,195,Tunisia,TUN,TUN,38,173,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,199,Uganda,UGA,UGA,975020,59,12874,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,202,United States of America,USA,USA,71,222,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,213,Zambia,ZAM,ZMB,8,0,0,0,0,0,0,-,0
+2024,179,South Sudan,SSD,SSD,214,Zimbabwe,ZIM,ZWE,6,25,0,0,0,0,0,-,0

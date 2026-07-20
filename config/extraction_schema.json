@@ -1,0 +1,29 @@
+{
+  "_descrizione": "Schema fisso che l'LMM deve riempire per ogni coppia (paese, periodo). Se un'informazione non e' esplicitamente presente nei documenti forniti, il campo va lasciato a null. Questo file NON viene eseguito, serve come riferimento/contratto usato dai prompt in src/extraction/.",
+
+  "paese": "str",
+  "periodo": "str (es. 2018-Q2)",
+
+  "instabilita": {
+    "livello_carestia": "nessuna | moderata | severa | critica",
+    "intensita_conflitto": "nessuna | bassa | media | alta",
+    "descrizione_conflitto": "str o null",
+    "tasso_poverta_pct": "float o null"
+  },
+
+  "migrazione": {
+    "stima_flusso_uscita": "int o null",
+    "paesi_destinazione_principali": ["str"]
+  },
+
+  "cyber": {
+    "incidenti_noti": ["str"],
+    "advisory_che_menzionano_il_paese": ["str"],
+    "gruppi_minaccia_associati": ["str"],
+    "ruolo": "vittima | attore | entrambi | non_specificato"
+  },
+
+  "contesto_generale": "str o null (sintesi narrativa di background per il trimestre del paese, derivata dalla pagina Wikipedia annuale 'YYYY in <Country>': leadership, eventi principali, situazioni in corso. La fonte grezza e' annuale, non trimestrale - e' l'LMM in fase di estrazione a produrre 4 sintesi separate, una per trimestre, basandosi sulle date gia' presenti nel testo (gli eventi in pagina sono raggruppati per mese). Se per un trimestre il testo non riporta eventi specifici, il campo riprende la sintesi generale dell'anno invece di restare null. Scopo: contesto per l'LMM stesso durante l'estrazione delle altre dimensioni, e knowledge di base per gli agenti del Blocco C - non un segnale quantitativo come le altre dimensioni.)",
+
+  "fonti": ["str (nome file o url del documento usato)"]
+}

@@ -1,0 +1,90 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,102,Rep. of Korea,KOR,KOR,11,Australia,AUL,AUS,40,164,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,27,Brazil,BRA,BRA,0,119,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,33,Canada,CAN,CAN,98,20,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,64,France,FRA,FRA,0,7,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,6,0,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,72,Germany,GFR,DEU,86,9,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,94,Italy,ITA,ITA,5,0,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,183,Sweden,SWE,SWE,6,5,0,0,0,0,0,-,0
+2018,102,Rep. of Korea,KOR,KOR,202,United States of America,USA,USA,33,207,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,11,Australia,AUL,AUS,37,168,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,27,Brazil,BRA,BRA,0,245,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,33,Canada,CAN,CAN,58,31,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,64,France,FRA,FRA,0,5,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,6,0,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,72,Germany,GFR,DEU,30,17,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,94,Italy,ITA,ITA,5,0,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,183,Sweden,SWE,SWE,7,5,0,0,0,0,0,-,0
+2019,102,Rep. of Korea,KOR,KOR,202,United States of America,USA,USA,32,162,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,11,Australia,AUL,AUS,28,171,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,27,Brazil,BRA,BRA,0,269,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,33,Canada,CAN,CAN,46,0,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,61,Finland,FIN,FIN,0,5,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,64,France,FRA,FRA,0,5,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,7,0,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,72,Germany,GFR,DEU,26,11,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,183,Sweden,SWE,SWE,7,6,0,0,0,0,0,-,0
+2020,102,Rep. of Korea,KOR,KOR,202,United States of America,USA,USA,27,246,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,11,Australia,AUL,AUS,24,259,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,27,Brazil,BRA,BRA,0,285,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,33,Canada,CAN,CAN,33,29,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,0,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,72,Germany,GFR,DEU,22,5,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,138,Netherlands (Kingdom of the),NET,NLD,0,5,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,173,Spain,SPA,ESP,0,5,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,183,Sweden,SWE,SWE,7,5,0,0,0,0,0,-,0
+2021,102,Rep. of Korea,KOR,KOR,202,United States of America,USA,USA,21,290,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,11,Australia,AUL,AUS,22,360,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,27,Brazil,BRA,BRA,0,254,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,33,Canada,CAN,CAN,19,17,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,11,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,72,Germany,GFR,DEU,37,5,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,138,Netherlands (Kingdom of the),NET,NLD,5,0,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,143,Norway,NOR,NOR,5,0,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,154,Poland,POL,POL,5,0,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,173,Spain,SPA,ESP,0,5,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,183,Sweden,SWE,SWE,8,5,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,184,Switzerland,SWI,CHE,0,5,0,0,0,0,0,-,0
+2022,102,Rep. of Korea,KOR,KOR,202,United States of America,USA,USA,21,208,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,11,Australia,AUL,AUS,13,403,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,27,Brazil,BRA,BRA,0,203,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,33,Canada,CAN,CAN,15,23,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,28,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,72,Germany,GFR,DEU,37,0,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,138,Netherlands (Kingdom of the),NET,NLD,5,0,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,154,Poland,POL,POL,6,0,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,158,Romania,ROM,ROU,5,0,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,183,Sweden,SWE,SWE,0,5,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,184,Switzerland,SWI,CHE,0,5,0,0,0,0,0,-,0
+2023,102,Rep. of Korea,KOR,KOR,202,United States of America,USA,USA,21,262,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,11,Australia,AUL,AUS,15,610,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,17,Belgium,BEL,BEL,0,5,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,27,Brazil,BRA,BRA,0,130,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,33,Canada,CAN,CAN,44,17,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,8,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,72,Germany,GFR,DEU,32,10,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,94,Italy,ITA,ITA,0,5,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,138,Netherlands (Kingdom of the),NET,NLD,5,0,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,143,Norway,NOR,NOR,5,0,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,154,Poland,POL,POL,5,0,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,158,Romania,ROM,ROU,5,0,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,183,Sweden,SWE,SWE,5,0,0,0,0,0,0,-,0
+2024,102,Rep. of Korea,KOR,KOR,202,United States of America,USA,USA,21,294,0,0,0,0,0,-,0

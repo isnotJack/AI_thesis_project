@@ -1,0 +1,587 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,91,Iran (Islamic Rep. of),IRN,IRN,2,Afghanistan,AFG,AFG,34,9,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,3,Albania,ALB,ALB,12,5,0,0,0,0,76,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,9,Argentina,ARG,ARG,23,5,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,10,Armenia,ARM,ARM,36,41,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,11,Australia,AUL,AUS,10702,4699,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,12,Austria,AUS,AUT,5772,2490,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,13,Azerbaijan,AZE,AZE,43,9,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,17,Belgium,BEL,BEL,960,470,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,24,Belarus,BLR,BLR,6,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,27,Brazil,BRA,BRA,64,159,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,29,Bosnia and Herzegovina,BSN,BIH,0,316,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,30,Bulgaria,BUL,BGR,64,84,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,33,Canada,CAN,CAN,2538,2547,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,39,Cameroon,CMR,CMR,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,46,Cuba,CUB,CUB,17,12,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,48,Cyprus,CYP,CYP,550,266,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,49,Czechia,CZE,CZE,8,8,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,50,Denmark,DEN,DNK,3253,295,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,54,Ecuador,ECU,ECU,41,37,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,57,Estonia,EST,EST,0,5,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,61,Finland,FIN,FIN,871,228,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,64,France,FRA,FRA,2757,647,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,17231,3276,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,71,Georgia,GEO,GEO,34,183,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,72,Germany,GFR,DEU,41150,21407,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,76,Greece,GRE,GRC,1532,1935,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,83,Honduras,HON,HND,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,84,Croatia,HRV,HRV,22,48,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,85,Hungary,HUN,HUN,176,8,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,86,Iceland,ICE,ISL,46,33,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,87,Cote d'Ivoire,ICO,CIV,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,88,India,IND,IND,53,32,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,89,Indonesia,INS,IDN,308,41,8,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,90,Ireland,IRE,IRL,126,39,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,92,Iraq,IRQ,IRQ,7026,6602,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,93,Israel,ISR,ISR,6,5,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,94,Italy,ITA,ITA,1907,274,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,96,Jordan,JOR,JOR,7,5,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,97,Japan,JPN,JPN,17,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,102,Rep. of Korea,KOR,KOR,55,90,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,104,Kuwait,KUW,KWT,9,83,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,109,Lebanon,LEB,LBN,25,30,0,0,0,0,11,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,111,Liechtenstein,LIE,LIE,5,6,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,112,Sri Lanka,LKA,LKA,18,12,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,113,Lithuania,LTU,LTU,6,13,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,114,Luxembourg,LUX,LUX,148,40,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,115,Latvia,LVA,LVA,23,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,122,Rep. of Moldova,MDA,MDA,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,124,Mexico,MEX,MEX,38,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,127,Malaysia,MLS,MYS,210,170,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,133,Montenegro,MNE,MNE,5,12,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,132,Malta,MTA,MLT,29,5,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,137,Nepal,NEP,NPL,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,138,Netherlands (Kingdom of the),NET,NLD,4918,1921,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,143,Norway,NOR,NOR,1966,180,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,144,Nauru,NRU,NRU,316,203,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,145,New Zealand,NZL,NZL,144,15,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,147,Pakistan,PAK,PAK,38,19,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,150,Peru,PER,PER,10,5,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,151,Philippines,PHI,PHL,69,10,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,153,Papua New Guinea,PNG,PNG,159,124,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,154,Poland,POL,POL,35,17,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,155,Portugal,POR,PRT,37,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,158,Romania,ROM,ROU,93,88,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,173,Spain,SPA,ESP,85,165,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,1231,136,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,180,Slovakia,SVK,SVK,28,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,181,Slovenia,SVN,SVN,66,35,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,183,Sweden,SWE,SWE,6485,2954,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,184,Switzerland,SWI,CHE,1687,1001,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,255,Sint Maarten (Dutch part),SXM,SXM,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,185,Syrian Arab Rep.,SYR,SYR,46,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,188,Thailand,THA,THA,63,43,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,189,Tajikistan,TJK,TJK,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,195,Tunisia,TUN,TUN,5,0,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,196,Türkiye,TUR,TUR,8731,30489,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,198,United Arab Emirates,UAE,ARE,8,8,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,200,Ukraine,UKR,UKR,55,115,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,202,United States of America,USA,USA,5648,3158,0,0,0,0,0,-,0
+2018,91,Iran (Islamic Rep. of),IRN,IRN,211,Yemen,YEM,YEM,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,2,Afghanistan,AFG,AFG,36,25,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,9,Argentina,ARG,ARG,24,8,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,10,Armenia,ARM,ARM,68,84,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,11,Australia,AUL,AUS,11866,4124,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,12,Austria,AUS,AUT,6393,2024,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,13,Azerbaijan,AZE,AZE,43,7,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,17,Belgium,BEL,BEL,1700,207,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,24,Belarus,BLR,BLR,6,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,27,Brazil,BRA,BRA,67,180,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,29,Bosnia and Herzegovina,BSN,BIH,5,121,0,0,0,0,90,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,30,Bulgaria,BUL,BGR,85,80,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,33,Canada,CAN,CAN,3846,3370,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,36,Chad,CHD,TCD,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,37,China,CHI,CHN,0,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,39,Cameroon,CMR,CMR,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,46,Cuba,CUB,CUB,11,16,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,48,Cyprus,CYP,CYP,565,587,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,49,Czechia,CZE,CZE,6,9,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,50,Denmark,DEN,DNK,3240,141,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,54,Ecuador,ECU,ECU,61,20,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,57,Estonia,EST,EST,5,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,61,Finland,FIN,FIN,948,361,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,64,France,FRA,FRA,2970,674,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,19744,4845,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,71,Georgia,GEO,GEO,33,462,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,72,Germany,GFR,DEU,43244,22005,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,76,Greece,GRE,GRC,1916,2768,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,84,Croatia,HRV,HRV,29,71,0,0,0,0,17,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,85,Hungary,HUN,HUN,178,7,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,86,Iceland,ICE,ISL,65,17,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,87,Cote d'Ivoire,ICO,CIV,6,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,88,India,IND,IND,49,56,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,89,Indonesia,INS,IDN,323,24,5,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,90,Ireland,IRE,IRL,141,46,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,92,Iraq,IRQ,IRQ,5041,6051,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,93,Israel,ISR,ISR,6,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,94,Italy,ITA,ITA,2094,186,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,96,Jordan,JOR,JOR,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,97,Japan,JPN,JPN,17,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,102,Rep. of Korea,KOR,KOR,61,75,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,104,Kuwait,KUW,KWT,9,83,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,109,Lebanon,LEB,LBN,35,43,0,0,0,0,7,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,111,Liechtenstein,LIE,LIE,7,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,112,Sri Lanka,LKA,LKA,23,12,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,113,Lithuania,LTU,LTU,9,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,114,Luxembourg,LUX,LUX,163,60,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,115,Latvia,LVA,LVA,23,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,122,Rep. of Moldova,MDA,MDA,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,124,Mexico,MEX,MEX,39,6,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,127,Malaysia,MLS,MYS,246,198,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,133,Montenegro,MNE,MNE,0,48,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,132,Malta,MTA,MLT,31,7,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,137,Nepal,NEP,NPL,5,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,138,Netherlands (Kingdom of the),NET,NLD,4783,2490,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,143,Norway,NOR,NOR,1810,171,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,144,Nauru,NRU,NRU,345,209,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,145,New Zealand,NZL,NZL,129,34,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,147,Pakistan,PAK,PAK,40,21,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,150,Peru,PER,PER,6,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,151,Philippines,PHI,PHL,68,14,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,153,Papua New Guinea,PNG,PNG,100,112,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,154,Poland,POL,POL,54,31,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,155,Portugal,POR,PRT,41,23,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,158,Romania,ROM,ROU,116,60,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,173,Spain,SPA,ESP,87,230,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,12,59,0,0,0,0,291,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,180,Slovakia,SVK,SVK,31,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,181,Slovenia,SVN,SVN,66,33,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,183,Sweden,SWE,SWE,7408,2441,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,184,Switzerland,SWI,CHE,1800,1063,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,255,Sint Maarten (Dutch part),SXM,SXM,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,185,Syrian Arab Rep.,SYR,SYR,44,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,188,Thailand,THA,THA,69,36,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,189,Tajikistan,TJK,TJK,5,0,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,195,Tunisia,TUN,TUN,5,5,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,196,Türkiye,TUR,TUR,548,27029,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,198,United Arab Emirates,UAE,ARE,7,10,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,200,Ukraine,UKR,UKR,73,53,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,202,United States of America,USA,USA,5824,2816,0,0,0,0,0,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,211,Yemen,YEM,YEM,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,2,Afghanistan,AFG,AFG,37,26,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,9,Argentina,ARG,ARG,24,12,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,10,Armenia,ARM,ARM,102,66,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,11,Australia,AUL,AUS,12606,3837,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,12,Austria,AUS,AUT,6878,1441,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,13,Azerbaijan,AZE,AZE,43,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,17,Belgium,BEL,BEL,1648,765,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,24,Belarus,BLR,BLR,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,27,Brazil,BRA,BRA,69,190,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,29,Bosnia and Herzegovina,BSN,BIH,0,29,0,0,0,0,332,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,30,Bulgaria,BUL,BGR,77,55,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,33,Canada,CAN,CAN,5085,2426,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,36,Chad,CHD,TCD,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,37,China,CHI,CHN,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,39,Cameroon,CMR,CMR,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,46,Cuba,CUB,CUB,11,5,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,48,Cyprus,CYP,CYP,584,581,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,49,Czechia,CZE,CZE,5,6,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,50,Denmark,DEN,DNK,3051,127,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,54,Ecuador,ECU,ECU,62,20,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,57,Estonia,EST,EST,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,61,Finland,FIN,FIN,942,265,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,64,France,FRA,FRA,3122,740,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,20433,6389,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,71,Georgia,GEO,GEO,37,499,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,72,Germany,GFR,DEU,44965,18355,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,76,Greece,GRE,GRC,2476,2250,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,84,Croatia,HRV,HRV,37,32,0,0,0,0,5,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,85,Hungary,HUN,HUN,184,5,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,86,Iceland,ICE,ISL,94,5,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,87,Cote d'Ivoire,ICO,CIV,6,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,88,India,IND,IND,49,57,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,89,Indonesia,INS,IDN,310,19,5,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,90,Ireland,IRE,IRL,155,33,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,92,Iraq,IRQ,IRQ,5061,5765,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,93,Israel,ISR,ISR,6,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,94,Italy,ITA,ITA,1313,227,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,96,Jordan,JOR,JOR,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,97,Japan,JPN,JPN,14,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,102,Rep. of Korea,KOR,KOR,61,60,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,104,Kuwait,KUW,KWT,9,83,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,109,Lebanon,LEB,LBN,35,46,0,0,0,0,7,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,111,Liechtenstein,LIE,LIE,7,5,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,112,Sri Lanka,LKA,LKA,25,7,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,113,Lithuania,LTU,LTU,13,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,114,Luxembourg,LUX,LUX,196,65,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,115,Latvia,LVA,LVA,20,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,122,Rep. of Moldova,MDA,MDA,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,124,Mexico,MEX,MEX,40,6,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,127,Malaysia,MLS,MYS,253,188,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,133,Montenegro,MNE,MNE,9,42,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,132,Malta,MTA,MLT,31,7,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,137,Nepal,NEP,NPL,9,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,138,Netherlands (Kingdom of the),NET,NLD,4735,2041,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,143,Norway,NOR,NOR,1647,130,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,144,Nauru,NRU,NRU,561,6,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,145,New Zealand,NZL,NZL,126,19,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,146,Oman,OMN,OMN,0,5,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,147,Pakistan,PAK,PAK,39,20,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,150,Peru,PER,PER,6,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,151,Philippines,PHI,PHL,56,14,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,153,Papua New Guinea,PNG,PNG,90,88,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,154,Poland,POL,POL,48,13,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,155,Portugal,POR,PRT,43,27,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,158,Romania,ROM,ROU,121,12,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,160,Russian Federation,RUS,RUS,5,5,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,173,Spain,SPA,ESP,87,205,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,18,31,0,0,0,0,188,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,180,Slovakia,SVK,SVK,31,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,181,Slovenia,SVN,SVN,77,28,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,183,Sweden,SWE,SWE,7507,1757,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,184,Switzerland,SWI,CHE,2089,737,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,185,Syrian Arab Rep.,SYR,SYR,45,12,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,186,United Rep. of Tanzania,TAN,TZA,0,5,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,188,Thailand,THA,THA,76,38,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,189,Tajikistan,TJK,TJK,5,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,195,Tunisia,TUN,TUN,8,0,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,196,Türkiye,TUR,TUR,1693,24300,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,198,United Arab Emirates,UAE,ARE,7,7,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,200,Ukraine,UKR,UKR,72,49,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,202,United States of America,USA,USA,5582,2944,0,0,0,0,0,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,211,Yemen,YEM,YEM,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,2,Afghanistan,AFG,AFG,38,25,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,9,Argentina,ARG,ARG,30,7,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,10,Armenia,ARM,ARM,139,88,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,11,Australia,AUL,AUS,12701,3040,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,12,Austria,AUS,AUT,7209,1167,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,13,Azerbaijan,AZE,AZE,52,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,17,Belgium,BEL,BEL,1843,545,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,24,Belarus,BLR,BLR,5,21,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,27,Brazil,BRA,BRA,69,194,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,29,Bosnia and Herzegovina,BSN,BIH,5,30,0,0,0,0,184,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,30,Bulgaria,BUL,BGR,81,44,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,33,Canada,CAN,CAN,7134,1422,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,36,Chad,CHD,TCD,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,37,China,CHI,CHN,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,39,Cameroon,CMR,CMR,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,46,Cuba,CUB,CUB,7,5,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,48,Cyprus,CYP,CYP,624,521,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,49,Czechia,CZE,CZE,6,8,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,50,Denmark,DEN,DNK,2790,108,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,54,Ecuador,ECU,ECU,67,5,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,57,Estonia,EST,EST,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,61,Finland,FIN,FIN,966,85,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,64,France,FRA,FRA,3967,391,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,21434,13754,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,71,Georgia,GEO,GEO,44,472,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,72,Germany,GFR,DEU,46223,14128,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,76,Greece,GRE,GRC,3201,971,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,84,Croatia,HRV,HRV,41,43,0,0,0,0,18,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,85,Hungary,HUN,HUN,193,5,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,86,Iceland,ICE,ISL,95,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,87,Cote d'Ivoire,ICO,CIV,7,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,88,India,IND,IND,58,44,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,89,Indonesia,INS,IDN,300,21,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,90,Ireland,IRE,IRL,155,15,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,92,Iraq,IRQ,IRQ,4116,5851,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,93,Israel,ISR,ISR,6,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,94,Italy,ITA,ITA,1278,164,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,96,Jordan,JOR,JOR,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,97,Japan,JPN,JPN,19,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,102,Rep. of Korea,KOR,KOR,62,54,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,104,Kuwait,KUW,KWT,9,83,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,107,Libya,LBY,LBY,0,5,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,109,Lebanon,LEB,LBN,35,46,0,0,0,0,7,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,111,Liechtenstein,LIE,LIE,11,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,112,Sri Lanka,LKA,LKA,24,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,113,Lithuania,LTU,LTU,13,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,114,Luxembourg,LUX,LUX,211,85,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,115,Latvia,LVA,LVA,17,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,124,Mexico,MEX,MEX,41,11,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,127,Malaysia,MLS,MYS,274,169,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,133,Montenegro,MNE,MNE,17,14,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,132,Malta,MTA,MLT,31,11,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,137,Nepal,NEP,NPL,9,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,138,Netherlands (Kingdom of the),NET,NLD,5438,499,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,141,Nigeria,NIG,NGA,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,143,Norway,NOR,NOR,1496,146,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,144,Nauru,NRU,NRU,508,7,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,145,New Zealand,NZL,NZL,107,13,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,146,Oman,OMN,OMN,0,5,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,147,Pakistan,PAK,PAK,39,14,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,150,Peru,PER,PER,6,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,151,Philippines,PHI,PHL,73,22,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,153,Papua New Guinea,PNG,PNG,74,77,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,154,Poland,POL,POL,50,45,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,155,Portugal,POR,PRT,50,27,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,158,Romania,ROM,ROU,120,14,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,163,Saudi Arabia,SAU,SAU,0,5,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,173,Spain,SPA,ESP,87,190,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,19,21,0,0,0,0,78,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,180,Slovakia,SVK,SVK,39,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,181,Slovenia,SVN,SVN,80,19,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,183,Sweden,SWE,SWE,7350,800,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,184,Switzerland,SWI,CHE,2246,675,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,185,Syrian Arab Rep.,SYR,SYR,43,12,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,186,United Rep. of Tanzania,TAN,TZA,5,5,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,188,Thailand,THA,THA,87,14,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,189,Tajikistan,TJK,TJK,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,195,Tunisia,TUN,TUN,8,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,196,Türkiye,TUR,TUR,3942,18933,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,198,United Arab Emirates,UAE,ARE,5,7,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,199,Uganda,UGA,UGA,5,0,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,200,Ukraine,UKR,UKR,74,53,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,202,United States of America,USA,USA,5331,3685,0,0,0,0,0,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,211,Yemen,YEM,YEM,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,2,Afghanistan,AFG,AFG,35,21,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,9,Argentina,ARG,ARG,29,6,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,10,Armenia,ARM,ARM,158,129,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,11,Australia,AUL,AUS,12023,4309,0,0,0,0,5,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,12,Austria,AUS,AUT,7664,841,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,13,Azerbaijan,AZE,AZE,51,14,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,17,Belgium,BEL,BEL,1526,890,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,24,Belarus,BLR,BLR,5,7,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,27,Brazil,BRA,BRA,69,192,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,29,Bosnia and Herzegovina,BSN,BIH,5,0,0,0,0,0,34,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,30,Bulgaria,BUL,BGR,91,84,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,33,Canada,CAN,CAN,6377,3413,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,36,Chad,CHD,TCD,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,37,China,CHI,CHN,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,39,Cameroon,CMR,CMR,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,45,Costa Rica,COS,CRI,5,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,46,Cuba,CUB,CUB,10,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,48,Cyprus,CYP,CYP,684,648,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,49,Czechia,CZE,CZE,11,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,50,Denmark,DEN,DNK,2465,151,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,54,Ecuador,ECU,ECU,72,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,57,Estonia,EST,EST,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,61,Finland,FIN,FIN,936,212,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,64,France,FRA,FRA,4185,356,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,22707,18593,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,71,Georgia,GEO,GEO,49,268,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,72,Germany,GFR,DEU,25452,13513,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,76,Greece,GRE,GRC,3581,450,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,84,Croatia,HRV,HRV,47,30,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,85,Hungary,HUN,HUN,197,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,86,Iceland,ICE,ISL,110,13,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,87,Cote d'Ivoire,ICO,CIV,7,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,88,India,IND,IND,60,100,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,89,Indonesia,INS,IDN,289,20,6,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,90,Ireland,IRE,IRL,137,53,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,92,Iraq,IRQ,IRQ,3707,4753,0,0,0,0,6,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,93,Israel,ISR,ISR,6,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,94,Italy,ITA,ITA,1213,181,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,96,Jordan,JOR,JOR,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,97,Japan,JPN,JPN,20,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,98,Kazakhstan,KAZ,KAZ,0,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,102,Rep. of Korea,KOR,KOR,61,14,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,104,Kuwait,KUW,KWT,8,57,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,109,Lebanon,LEB,LBN,32,57,0,0,0,0,8,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,111,Liechtenstein,LIE,LIE,11,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,112,Sri Lanka,LKA,LKA,12,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,113,Lithuania,LTU,LTU,14,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,114,Luxembourg,LUX,LUX,255,95,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,115,Latvia,LVA,LVA,17,36,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,122,Rep. of Moldova,MDA,MDA,15,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,124,Mexico,MEX,MEX,42,24,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,127,Malaysia,MLS,MYS,252,141,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,133,Montenegro,MNE,MNE,13,5,0,0,0,0,5,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,132,Malta,MTA,MLT,32,9,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,137,Nepal,NEP,NPL,9,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,138,Netherlands (Kingdom of the),NET,NLD,5401,957,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,143,Norway,NOR,NOR,1369,156,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,144,Nauru,NRU,NRU,8,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,145,New Zealand,NZL,NZL,82,6,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,147,Pakistan,PAK,PAK,39,14,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,150,Peru,PER,PER,6,5,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,151,Philippines,PHI,PHL,77,28,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,153,Papua New Guinea,PNG,PNG,21,18,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,154,Poland,POL,POL,85,82,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,155,Portugal,POR,PRT,100,20,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,158,Romania,ROM,ROU,133,10,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,173,Spain,SPA,ESP,696,100,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,22,10,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,180,Slovakia,SVK,SVK,44,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,181,Slovenia,SVN,SVN,86,12,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,183,Sweden,SWE,SWE,6872,651,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,184,Switzerland,SWI,CHE,2310,773,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,185,Syrian Arab Rep.,SYR,SYR,45,10,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,186,United Rep. of Tanzania,TAN,TZA,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,188,Thailand,THA,THA,82,10,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,189,Tajikistan,TJK,TJK,7,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,195,Tunisia,TUN,TUN,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,196,Türkiye,TUR,TUR,5114,13084,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,198,United Arab Emirates,UAE,ARE,5,7,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,199,Uganda,UGA,UGA,5,0,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,200,Ukraine,UKR,UKR,74,6,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,202,United States of America,USA,USA,5275,3558,0,0,0,0,0,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,211,Yemen,YEM,YEM,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,2,Afghanistan,AFG,AFG,35,36,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,8,Egypt,ARE,EGY,0,5,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,9,Argentina,ARG,ARG,31,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,10,Armenia,ARM,ARM,169,190,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,11,Australia,AUL,AUS,7187,2587,10,0,0,0,5,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,12,Austria,AUS,AUT,6897,848,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,13,Azerbaijan,AZE,AZE,64,10,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,17,Belgium,BEL,BEL,1730,725,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,24,Belarus,BLR,BLR,5,19,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,27,Brazil,BRA,BRA,45,154,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,29,Bosnia and Herzegovina,BSN,BIH,5,0,0,0,0,0,48,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,30,Bulgaria,BUL,BGR,100,72,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,33,Canada,CAN,CAN,9754,3967,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,36,Chad,CHD,TCD,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,37,China,CHI,CHN,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,39,Cameroon,CMR,CMR,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,45,Costa Rica,COS,CRI,5,5,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,46,Cuba,CUB,CUB,9,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,48,Cyprus,CYP,CYP,773,597,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,49,Czechia,CZE,CZE,14,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,50,Denmark,DEN,DNK,2145,155,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,53,Dominican Rep.,DOM,DOM,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,54,Ecuador,ECU,ECU,72,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,57,Estonia,EST,EST,6,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,61,Finland,FIN,FIN,989,268,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,64,France,FRA,FRA,4637,468,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,31741,13098,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,71,Georgia,GEO,GEO,51,251,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,72,Germany,GFR,DEU,48224,15934,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,76,Greece,GRE,GRC,3677,602,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,84,Croatia,HRV,HRV,52,33,0,0,0,0,5,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,85,Hungary,HUN,HUN,194,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,86,Iceland,ICE,ISL,127,40,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,87,Cote d'Ivoire,ICO,CIV,7,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,88,India,IND,IND,56,140,5,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,89,Indonesia,INS,IDN,210,10,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,90,Ireland,IRE,IRL,139,87,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,92,Iraq,IRQ,IRQ,3595,5102,0,0,0,0,8,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,93,Israel,ISR,ISR,6,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,94,Italy,ITA,ITA,1493,236,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,96,Jordan,JOR,JOR,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,97,Japan,JPN,JPN,25,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,98,Kazakhstan,KAZ,KAZ,0,5,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,102,Rep. of Korea,KOR,KOR,66,21,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,104,Kuwait,KUW,KWT,8,48,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,106,Liberia,LBR,LBR,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,109,Lebanon,LEB,LBN,23,58,0,0,0,0,13,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,112,Sri Lanka,LKA,LKA,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,113,Lithuania,LTU,LTU,14,7,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,114,Luxembourg,LUX,LUX,276,73,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,115,Latvia,LVA,LVA,18,74,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,124,Mexico,MEX,MEX,22,70,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,127,Malaysia,MLS,MYS,243,115,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,133,Montenegro,MNE,MNE,14,5,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,132,Malta,MTA,MLT,33,9,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,137,Nepal,NEP,NPL,9,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,138,Netherlands (Kingdom of the),NET,NLD,5366,1670,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,143,Norway,NOR,NOR,1173,156,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,145,New Zealand,NZL,NZL,79,13,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,147,Pakistan,PAK,PAK,39,18,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,150,Peru,PER,PER,6,12,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,151,Philippines,PHI,PHL,81,30,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,153,Papua New Guinea,PNG,PNG,11,8,9,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,154,Poland,POL,POL,96,50,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,155,Portugal,POR,PRT,86,19,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,158,Romania,ROM,ROU,123,11,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,160,Russian Federation,RUS,RUS,6,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,173,Spain,SPA,ESP,693,130,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,22,11,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,180,Slovakia,SVK,SVK,45,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,181,Slovenia,SVN,SVN,86,8,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,183,Sweden,SWE,SWE,5465,707,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,184,Switzerland,SWI,CHE,2353,931,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,185,Syrian Arab Rep.,SYR,SYR,38,5,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,186,United Rep. of Tanzania,TAN,TZA,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,188,Thailand,THA,THA,74,9,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,189,Tajikistan,TJK,TJK,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,195,Tunisia,TUN,TUN,5,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,196,Türkiye,TUR,TUR,5388,10041,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,198,United Arab Emirates,UAE,ARE,5,7,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,200,Ukraine,UKR,UKR,76,0,0,0,0,0,0,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,202,United States of America,USA,USA,5396,3999,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,2,Afghanistan,AFG,AFG,39,55,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,8,Egypt,ARE,EGY,0,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,9,Argentina,ARG,ARG,31,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,10,Armenia,ARM,ARM,180,298,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,11,Australia,AUL,AUS,7725,2223,0,0,0,0,7,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,12,Austria,AUS,AUT,7285,833,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,13,Azerbaijan,AZE,AZE,60,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,17,Belgium,BEL,BEL,1778,639,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,27,Brazil,BRA,BRA,57,205,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,29,Bosnia and Herzegovina,BSN,BIH,5,9,0,0,0,0,38,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,30,Bulgaria,BUL,BGR,116,26,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,33,Canada,CAN,CAN,11447,8334,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,37,China,CHI,CHN,5,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,44,Colombia,COL,COL,0,0,0,0,0,0,22,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,45,Costa Rica,COS,CRI,6,7,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,46,Cuba,CUB,CUB,5,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,48,Cyprus,CYP,CYP,872,764,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,49,Czechia,CZE,CZE,10,9,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,50,Denmark,DEN,DNK,4252,167,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,53,Dominican Rep.,DOM,DOM,0,7,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,54,Ecuador,ECU,ECU,52,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,57,Estonia,EST,EST,5,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,61,Finland,FIN,FIN,823,187,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,64,France,FRA,FRA,5062,358,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,37779,8952,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,71,Georgia,GEO,GEO,56,111,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,72,Germany,GFR,DEU,47068,15293,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,76,Greece,GRE,GRC,1234,446,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,84,Croatia,HRV,HRV,55,26,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,85,Hungary,HUN,HUN,193,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,86,Iceland,ICE,ISL,113,10,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,87,Cote d'Ivoire,ICO,CIV,7,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,88,India,IND,IND,50,83,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,89,Indonesia,INS,IDN,165,21,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,90,Ireland,IRE,IRL,157,87,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,92,Iraq,IRQ,IRQ,3579,5860,0,0,0,0,8,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,93,Israel,ISR,ISR,6,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,94,Italy,ITA,ITA,1452,261,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,96,Jordan,JOR,JOR,5,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,97,Japan,JPN,JPN,30,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,98,Kazakhstan,KAZ,KAZ,0,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,100,Kyrgyzstan,KGZ,KGZ,0,6,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,102,Rep. of Korea,KOR,KOR,66,16,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,104,Kuwait,KUW,KWT,8,24,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,106,Liberia,LBR,LBR,5,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,109,Lebanon,LEB,LBN,22,38,0,0,0,0,13,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,111,Liechtenstein,LIE,LIE,11,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,113,Lithuania,LTU,LTU,13,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,114,Luxembourg,LUX,LUX,199,65,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,115,Latvia,LVA,LVA,17,8,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,124,Mexico,MEX,MEX,23,73,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,127,Malaysia,MLS,MYS,238,110,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,133,Montenegro,MNE,MNE,16,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,132,Malta,MTA,MLT,40,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,137,Nepal,NEP,NPL,9,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,138,Netherlands (Kingdom of the),NET,NLD,4530,1822,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,143,Norway,NOR,NOR,897,121,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,145,New Zealand,NZL,NZL,82,71,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,147,Pakistan,PAK,PAK,39,32,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,150,Peru,PER,PER,7,15,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,151,Philippines,PHI,PHL,79,43,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,153,Papua New Guinea,PNG,PNG,7,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,154,Poland,POL,POL,101,61,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,155,Portugal,POR,PRT,85,53,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,158,Romania,ROM,ROU,96,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,159,South Africa,RSA,ZAF,0,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,160,Russian Federation,RUS,RUS,8,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,173,Spain,SPA,ESP,716,160,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,23,8,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,180,Slovakia,SVK,SVK,45,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,181,Slovenia,SVN,SVN,88,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,183,Sweden,SWE,SWE,4949,366,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,184,Switzerland,SWI,CHE,2383,891,12,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,185,Syrian Arab Rep.,SYR,SYR,39,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,186,United Rep. of Tanzania,TAN,TZA,5,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,188,Thailand,THA,THA,66,17,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,189,Tajikistan,TJK,TJK,5,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,196,Türkiye,TUR,TUR,6072,7242,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,200,Ukraine,UKR,UKR,71,0,0,0,0,0,0,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,202,United States of America,USA,USA,5347,4603,0,0,0,0,0,-,0

@@ -1,0 +1,8 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,91,Iran (Islamic Rep. of),IRN,IRN,-,-,-,-,129941,87367,8,0,0,0,87,-,0
+2019,91,Iran (Islamic Rep. of),IRN,IRN,-,-,-,-,128998,86093,5,0,0,0,405,-,0
+2020,91,Iran (Islamic Rep. of),IRN,IRN,-,-,-,-,135018,77229,5,0,0,0,532,-,0
+2021,91,Iran (Islamic Rep. of),IRN,IRN,-,-,-,-,142994,68940,0,0,0,0,287,-,0
+2022,91,Iran (Islamic Rep. of),IRN,IRN,-,-,-,-,122764,69237,6,0,0,0,58,-,0
+2023,91,Iran (Islamic Rep. of),IRN,IRN,-,-,-,-,151757,63959,24,0,0,0,79,-,0
+2024,91,Iran (Islamic Rep. of),IRN,IRN,-,-,-,-,158171,61176,12,0,0,0,88,-,0

@@ -1,0 +1,844 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,185,Syrian Arab Rep.,SYR,SYR,3,Albania,ALB,ALB,6,44,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,4,Algeria,ALG,DZA,14,7485,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,8,Egypt,ARE,EGY,132871,0,309,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,9,Argentina,ARG,ARG,385,95,0,0,0,0,410,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,10,Armenia,ARM,ARM,14701,8,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,11,Australia,AUL,AUS,582,100,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,12,Austria,AUS,AUT,49179,1538,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,13,Azerbaijan,AZE,AZE,15,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,17,Belgium,BEL,BEL,9080,2005,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,18,Benin,BEN,BEN,12,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,24,Belarus,BLR,BLR,66,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,25,Bolivia (Plurinational State of),BOL,BOL,21,8,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,27,Brazil,BRA,BRA,3455,4270,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,29,Bosnia and Herzegovina,BSN,BIH,15,67,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,30,Bulgaria,BUL,BGR,17161,215,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,33,Canada,CAN,CAN,3558,803,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,36,Chad,CHD,TCD,57,14,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,37,China,CHI,CHN,53,19,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,38,Chile,CHL,CHL,107,36,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,39,Cameroon,CMR,CMR,22,6,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,40,Congo,COB,COG,12,19,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,41,Dem. Rep. of the Congo,COD,COD,5,20,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,44,Colombia,COL,COL,8,8,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,45,Costa Rica,COS,CRI,9,12,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,46,Cuba,CUB,CUB,44,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,48,Cyprus,CYP,CYP,6259,2553,0,0,0,0,6000,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,49,Czechia,CZE,CZE,448,8,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,50,Denmark,DEN,DNK,19698,292,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,51,Djibouti,DJB,DJI,10,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,54,Ecuador,ECU,ECU,102,90,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,57,Estonia,EST,EST,146,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,58,Ethiopia,ETH,ETH,9,70,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,61,Finland,FIN,FIN,2497,73,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,64,France,FRA,FRA,15822,3352,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,9720,685,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,71,Georgia,GEO,GEO,428,24,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,72,Germany,GFR,DEU,532065,52396,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,73,Ghana,GHA,GHA,157,85,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,76,Greece,GRE,GRC,23931,14104,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,79,Guinea,GUI,GIN,5,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,84,Croatia,HRV,HRV,398,29,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,85,Hungary,HUN,HUN,971,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,86,Iceland,ICE,ISL,87,30,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,87,Cote d'Ivoire,ICO,CIV,92,8,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,88,India,IND,IND,83,17,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,89,Indonesia,INS,IDN,29,18,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,90,Ireland,IRE,IRL,2126,66,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,92,Iraq,IRQ,IRQ,252526,0,10760,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,94,Italy,ITA,ITA,4652,1197,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,95,Jamaica,JAM,JAM,5,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,96,Jordan,JOR,JOR,676283,0,8099,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,97,Japan,JPN,JPN,69,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,98,Kazakhstan,KAZ,KAZ,15,14,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,99,Kenya,KEN,KEN,0,11,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,100,Kyrgyzstan,KGZ,KGZ,77,14,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,102,Rep. of Korea,KOR,KOR,1177,59,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,104,Kuwait,KUW,KWT,73,50,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,106,Liberia,LBR,LBR,10,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,107,Libya,LBY,LBY,552,23173,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,109,Lebanon,LEB,LBN,944181,5,14496,0,0,0,2033,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,111,Liechtenstein,LIE,LIE,32,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,112,Sri Lanka,LKA,LKA,14,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,113,Lithuania,LTU,LTU,435,10,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,114,Luxembourg,LUX,LUX,686,160,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,115,Latvia,LVA,LVA,384,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,119,Mauritania,MAU,MRT,332,47,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,120,North Macedonia,MCD,MKD,17,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,122,Rep. of Moldova,MDA,MDA,213,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,124,Mexico,MEX,MEX,28,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,126,Mali,MLI,MLI,9,330,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,127,Malaysia,MLS,MYS,421,2406,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,133,Montenegro,MNE,MNE,5,47,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,130,Morocco,MOR,MAR,3506,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,132,Malta,MTA,MLT,1497,370,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,134,Mauritius,MTS,MUS,5,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,138,Netherlands (Kingdom of the),NET,NLD,32092,1687,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,139,Niger,NGR,NER,11,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,141,Nigeria,NIG,NGA,224,75,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,143,Norway,NOR,NOR,13914,235,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,144,Nauru,NRU,NRU,0,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,145,New Zealand,NZL,NZL,68,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,146,Oman,OMN,OMN,7,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,147,Pakistan,PAK,PAK,29,6,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,148,Panama,PAN,PAN,0,12,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,149,Paraguay,PAR,PRY,63,22,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,150,Peru,PER,PER,44,7,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,151,Philippines,PHI,PHL,105,33,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,154,Poland,POL,POL,531,20,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,155,Portugal,POR,PRT,602,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,157,Qatar,QAT,QAT,34,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,158,Romania,ROM,ROU,2292,150,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,159,South Africa,RSA,ZAF,45,7,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,160,Russian Federation,RUS,RUS,828,174,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,162,El Salvador,SAL,SLV,5,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,163,Saudi Arabia,SAU,SAU,103,2063,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,165,Senegal,SEN,SEN,0,14,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,172,Somalia,SOM,SOM,206,14,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,173,Spain,SPA,ESP,13765,2320,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,74,7,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,177,Sudan,SUD,SDN,93502,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,180,Slovakia,SVK,SVK,14,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,181,Slovenia,SVN,SVN,290,23,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,183,Sweden,SWE,SWE,109343,2353,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,184,Switzerland,SWI,CHE,16565,1789,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,185,Syrian Arab Rep.,SYR,SYR,0,0,0,6183920,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,188,Thailand,THA,THA,276,7,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,192,Togo,TOG,TGO,0,9,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,194,Trinidad and Tobago,TRT,TTO,57,37,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,195,Tunisia,TUN,TUN,927,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,196,Türkiye,TUR,TUR,3622366,111,177282,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,198,United Arab Emirates,UAE,ARE,287,5820,0,0,0,0,10,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,199,Uganda,UGA,UGA,5,5,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,200,Ukraine,UKR,UKR,457,489,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,201,Uruguay,URU,URY,61,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,202,United States of America,USA,USA,7998,3057,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,207,Venezuela (Bolivarian Republic of),VEN,VEN,5,0,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,211,Yemen,YEM,YEM,3446,406,0,0,0,0,0,-,0
+2018,185,Syrian Arab Rep.,SYR,SYR,213,Zambia,ZAM,ZMB,8,9,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,3,Albania,ALB,ALB,13,0,0,0,0,0,29,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,4,Algeria,ALG,DZA,7757,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,8,Egypt,ARE,EGY,129210,0,484,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,9,Argentina,ARG,ARG,401,73,0,0,0,0,443,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,10,Armenia,ARM,ARM,14730,16,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,11,Australia,AUL,AUS,613,79,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,12,Austria,AUS,AUT,51955,1304,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,13,Azerbaijan,AZE,AZE,20,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,17,Belgium,BEL,BEL,16604,1019,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,18,Benin,BEN,BEN,12,13,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,23,Burkina Faso,BKF,BFA,5,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,24,Belarus,BLR,BLR,68,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,25,Bolivia (Plurinational State of),BOL,BOL,21,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,27,Brazil,BRA,BRA,3761,4242,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,29,Bosnia and Herzegovina,BSN,BIH,21,46,0,0,0,0,148,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,30,Bulgaria,BUL,BGR,17551,297,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,33,Canada,CAN,CAN,5,303,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,36,Chad,CHD,TCD,35,8,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,37,China,CHI,CHN,50,13,5,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,38,Chile,CHL,CHL,112,33,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,39,Cameroon,CMR,CMR,24,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,40,Congo,COB,COG,0,13,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,41,Dem. Rep. of the Congo,COD,COD,5,26,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,44,Colombia,COL,COL,8,8,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,45,Costa Rica,COS,CRI,5,24,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,46,Cuba,CUB,CUB,40,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,48,Cyprus,CYP,CYP,7372,4073,0,0,0,0,4000,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,49,Czechia,CZE,CZE,408,18,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,50,Denmark,DEN,DNK,20046,210,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,51,Djibouti,DJB,DJI,10,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,54,Ecuador,ECU,ECU,146,38,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,57,Estonia,EST,EST,127,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,58,Ethiopia,ETH,ETH,0,410,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,61,Finland,FIN,FIN,2585,77,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,64,France,FRA,FRA,18244,3244,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,10389,1228,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,71,Georgia,GEO,GEO,91,26,0,0,0,0,341,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,72,Germany,GFR,DEU,572818,41280,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,73,Ghana,GHA,GHA,167,113,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,76,Greece,GRE,GRC,26696,16165,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,79,Guinea,GUI,GIN,14,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,84,Croatia,HRV,HRV,527,10,0,0,0,0,18,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,85,Hungary,HUN,HUN,934,7,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,86,Iceland,ICE,ISL,109,19,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,87,Cote d'Ivoire,ICO,CIV,132,11,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,88,India,IND,IND,70,29,5,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,89,Indonesia,INS,IDN,23,19,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,90,Ireland,IRE,IRL,2882,54,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,92,Iraq,IRQ,IRQ,245810,0,8047,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,94,Italy,ITA,ITA,4781,917,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,96,Jordan,JOR,JOR,654692,0,29409,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,97,Japan,JPN,JPN,69,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,98,Kazakhstan,KAZ,KAZ,14,19,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,99,Kenya,KEN,KEN,5,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,100,Kyrgyzstan,KGZ,KGZ,86,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,102,Rep. of Korea,KOR,KOR,1199,60,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,104,Kuwait,KUW,KWT,106,100,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,106,Liberia,LBR,LBR,11,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,107,Libya,LBY,LBY,612,16738,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,109,Lebanon,LEB,LBN,910586,0,22728,0,0,0,1932,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,111,Liechtenstein,LIE,LIE,32,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,112,Sri Lanka,LKA,LKA,5,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,113,Lithuania,LTU,LTU,453,6,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,114,Luxembourg,LUX,LUX,951,200,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,115,Latvia,LVA,LVA,354,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,117,Madagascar,MAD,MDG,5,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,119,Mauritania,MAU,MRT,355,36,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,120,North Macedonia,MCD,MKD,17,14,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,122,Rep. of Moldova,MDA,MDA,210,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,124,Mexico,MEX,MEX,29,8,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,126,Mali,MLI,MLI,20,413,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,127,Malaysia,MLS,MYS,425,2861,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,133,Montenegro,MNE,MNE,0,14,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,130,Morocco,MOR,MAR,3676,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,132,Malta,MTA,MLT,1706,482,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,138,Netherlands (Kingdom of the),NET,NLD,31694,3092,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,139,Niger,NGR,NER,7,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,141,Nigeria,NIG,NGA,263,132,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,143,Norway,NOR,NOR,14359,252,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,144,Nauru,NRU,NRU,0,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,145,New Zealand,NZL,NZL,69,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,146,Oman,OMN,OMN,8,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,147,Pakistan,PAK,PAK,43,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,148,Panama,PAN,PAN,0,12,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,149,Paraguay,PAR,PRY,88,11,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,150,Peru,PER,PER,42,12,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,151,Philippines,PHI,PHL,115,41,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,154,Poland,POL,POL,542,23,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,155,Portugal,POR,PRT,768,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,157,Qatar,QAT,QAT,34,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,158,Romania,ROM,ROU,2090,146,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,159,South Africa,RSA,ZAF,40,20,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,160,Russian Federation,RUS,RUS,593,110,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,162,El Salvador,SAL,SLV,5,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,163,Saudi Arabia,SAU,SAU,152,2220,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,165,Senegal,SEN,SEN,0,14,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,172,Somalia,SOM,SOM,245,21,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,173,Spain,SPA,ESP,14133,2805,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,25,25,0,0,0,0,678,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,177,Sudan,SUD,SDN,93495,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,180,Slovakia,SVK,SVK,14,5,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,181,Slovenia,SVN,SVN,307,15,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,183,Sweden,SWE,SWE,113418,2226,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,184,Switzerland,SWI,CHE,18755,918,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,185,Syrian Arab Rep.,SYR,SYR,0,0,0,6146994,477360,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,186,United Rep. of Tanzania,TAN,TZA,5,16,0,0,0,0,12,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,188,Thailand,THA,THA,217,8,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,192,Togo,TOG,TGO,6,11,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,194,Trinidad and Tobago,TRT,TTO,58,38,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,195,Tunisia,TUN,TUN,1382,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,196,Türkiye,TUR,TUR,3576370,0,34303,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,198,United Arab Emirates,UAE,ARE,333,6575,0,0,0,0,11,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,199,Uganda,UGA,UGA,6,10,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,200,Ukraine,UKR,UKR,462,161,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,201,Uruguay,URU,URY,61,7,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,202,United States of America,USA,USA,8449,2660,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,207,Venezuela (Bolivarian Republic of),VEN,VEN,5,0,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,211,Yemen,YEM,YEM,3551,407,0,0,0,0,0,-,0
+2019,185,Syrian Arab Rep.,SYR,SYR,213,Zambia,ZAM,ZMB,15,6,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,3,Albania,ALB,ALB,9,0,0,0,0,0,5,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,4,Algeria,ALG,DZA,6627,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,6,Angola,ANG,AGO,0,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,8,Egypt,ARE,EGY,130577,0,105,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,9,Argentina,ARG,ARG,407,83,0,0,0,0,448,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,10,Armenia,ARM,ARM,14741,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,11,Australia,AUL,AUS,645,58,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,12,Austria,AUS,AUT,54903,2820,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,13,Azerbaijan,AZE,AZE,34,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,14,Bahrain,BAH,BHR,0,23,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,17,Belgium,BEL,BEL,17693,2165,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,18,Benin,BEN,BEN,22,9,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,23,Burkina Faso,BKF,BFA,5,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,24,Belarus,BLR,BLR,64,8,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,25,Bolivia (Plurinational State of),BOL,BOL,22,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,27,Brazil,BRA,BRA,3924,4086,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,29,Bosnia and Herzegovina,BSN,BIH,22,10,0,0,0,0,88,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,30,Bulgaria,BUL,BGR,18310,593,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,33,Canada,CAN,CAN,131,180,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,36,Chad,CHD,TCD,32,6,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,37,China,CHI,CHN,41,13,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,38,Chile,CHL,CHL,113,32,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,39,Cameroon,CMR,CMR,24,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,40,Congo,COB,COG,5,13,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,41,Dem. Rep. of the Congo,COD,COD,8,13,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,44,Colombia,COL,COL,8,8,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,45,Costa Rica,COS,CRI,5,21,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,46,Cuba,CUB,CUB,40,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,48,Cyprus,CYP,CYP,8797,4415,0,0,0,0,4000,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,49,Czechia,CZE,CZE,386,12,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,50,Denmark,DEN,DNK,19878,281,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,51,Djibouti,DJB,DJI,10,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,54,Ecuador,ECU,ECU,142,29,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,57,Estonia,EST,EST,105,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,58,Ethiopia,ETH,ETH,6,424,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,61,Finland,FIN,FIN,2620,84,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,64,France,FRA,FRA,21849,2587,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,10919,2231,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,71,Georgia,GEO,GEO,437,20,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,72,Germany,GFR,DEU,605338,37219,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,73,Ghana,GHA,GHA,230,48,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,76,Greece,GRE,GRC,36448,5965,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,79,Guinea,GUI,GIN,17,12,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,84,Croatia,HRV,HRV,539,26,0,0,0,0,5,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,85,Hungary,HUN,HUN,923,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,86,Iceland,ICE,ISL,167,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,87,Cote d'Ivoire,ICO,CIV,142,9,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,88,India,IND,IND,63,57,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,89,Indonesia,INS,IDN,23,21,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,90,Ireland,IRE,IRL,3126,67,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,92,Iraq,IRQ,IRQ,242163,0,8508,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,94,Italy,ITA,ITA,3508,1037,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,96,Jordan,JOR,JOR,662790,0,3794,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,97,Japan,JPN,JPN,73,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,98,Kazakhstan,KAZ,KAZ,14,18,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,99,Kenya,KEN,KEN,5,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,100,Kyrgyzstan,KGZ,KGZ,78,8,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,102,Rep. of Korea,KOR,KOR,1236,35,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,104,Kuwait,KUW,KWT,139,77,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,106,Liberia,LBR,LBR,12,15,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,107,Libya,LBY,LBY,717,13819,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,109,Lebanon,LEB,LBN,865300,0,9351,0,0,0,1644,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,111,Liechtenstein,LIE,LIE,32,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,112,Sri Lanka,LKA,LKA,5,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,113,Lithuania,LTU,LTU,463,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,114,Luxembourg,LUX,LUX,2069,340,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,115,Latvia,LVA,LVA,314,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,117,Madagascar,MAD,MDG,5,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,119,Mauritania,MAU,MRT,364,55,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,120,North Macedonia,MCD,MKD,17,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,122,Rep. of Moldova,MDA,MDA,190,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,124,Mexico,MEX,MEX,30,14,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,126,Mali,MLI,MLI,20,434,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,127,Malaysia,MLS,MYS,407,2850,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,133,Montenegro,MNE,MNE,0,9,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,130,Morocco,MOR,MAR,4528,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,132,Malta,MTA,MLT,1871,381,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,138,Netherlands (Kingdom of the),NET,NLD,35810,2280,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,139,Niger,NGR,NER,5,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,141,Nigeria,NIG,NGA,308,216,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,143,Norway,NOR,NOR,15311,340,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,144,Nauru,NRU,NRU,0,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,145,New Zealand,NZL,NZL,72,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,146,Oman,OMN,OMN,8,22,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,147,Pakistan,PAK,PAK,43,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,149,Paraguay,PAR,PRY,88,17,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,150,Peru,PER,PER,42,14,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,151,Philippines,PHI,PHL,134,40,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,154,Poland,POL,POL,237,39,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,155,Portugal,POR,PRT,789,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,157,Qatar,QAT,QAT,34,89,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,158,Romania,ROM,ROU,2002,215,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,159,South Africa,RSA,ZAF,38,20,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,160,Russian Federation,RUS,RUS,361,54,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,162,El Salvador,SAL,SLV,5,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,163,Saudi Arabia,SAU,SAU,173,7671,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,165,Senegal,SEN,SEN,0,14,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,172,Somalia,SOM,SOM,603,15,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,173,Spain,SPA,ESP,14660,1545,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,31,40,0,0,0,0,1609,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,177,Sudan,SUD,SDN,93498,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,180,Slovakia,SVK,SVK,21,5,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,181,Slovenia,SVN,SVN,322,16,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,183,Sweden,SWE,SWE,114609,1544,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,184,Switzerland,SWI,CHE,19869,236,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,185,Syrian Arab Rep.,SYR,SYR,0,0,0,6701972,69454,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,186,United Rep. of Tanzania,TAN,TZA,5,17,0,0,0,0,11,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,188,Thailand,THA,THA,226,6,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,192,Togo,TOG,TGO,16,6,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,194,Trinidad and Tobago,TRT,TTO,66,38,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,195,Tunisia,TUN,TUN,1997,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,196,Türkiye,TUR,TUR,3641370,0,16805,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,198,United Arab Emirates,UAE,ARE,383,6551,0,0,0,0,11,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,199,Uganda,UGA,UGA,16,8,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,200,Ukraine,UKR,UKR,491,171,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,201,Uruguay,URU,URY,63,6,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,202,United States of America,USA,USA,8616,2630,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,207,Venezuela (Bolivarian Republic of),VEN,VEN,32,0,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,211,Yemen,YEM,YEM,3609,419,0,0,0,0,0,-,0
+2020,185,Syrian Arab Rep.,SYR,SYR,213,Zambia,ZAM,ZMB,20,6,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,3,Albania,ALB,ALB,15,6,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,4,Algeria,ALG,DZA,6659,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,6,Angola,ANG,AGO,0,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,8,Egypt,ARE,EGY,136727,0,399,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,9,Argentina,ARG,ARG,433,98,0,0,0,0,448,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,10,Armenia,ARM,ARM,5335,8,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,11,Australia,AUL,AUS,640,53,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,12,Austria,AUS,AUT,62408,10558,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,13,Azerbaijan,AZE,AZE,33,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,14,Bahrain,BAH,BHR,5,36,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,17,Belgium,BEL,BEL,19188,1980,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,18,Benin,BEN,BEN,32,12,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,23,Burkina Faso,BKF,BFA,5,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,24,Belarus,BLR,BLR,68,8,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,25,Bolivia (Plurinational State of),BOL,BOL,22,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,27,Brazil,BRA,BRA,3920,3969,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,29,Bosnia and Herzegovina,BSN,BIH,28,5,0,0,0,0,13,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,30,Bulgaria,BUL,BGR,20067,2368,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,33,Canada,CAN,CAN,190,164,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,36,Chad,CHD,TCD,48,19,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,37,China,CHI,CHN,43,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,38,Chile,CHL,CHL,113,32,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,39,Cameroon,CMR,CMR,5,10,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,40,Congo,COB,COG,5,13,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,41,Dem. Rep. of the Congo,COD,COD,12,12,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,44,Colombia,COL,COL,11,7,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,45,Costa Rica,COS,CRI,5,25,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,46,Cuba,CUB,CUB,36,9,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,48,Cyprus,CYP,CYP,10735,5545,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,49,Czechia,CZE,CZE,358,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,50,Denmark,DEN,DNK,19706,222,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,51,Djibouti,DJB,DJI,14,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,54,Ecuador,ECU,ECU,157,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,57,Estonia,EST,EST,105,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,58,Ethiopia,ETH,ETH,38,629,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,61,Finland,FIN,FIN,2660,66,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,64,France,FRA,FRA,37375,1369,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,11980,4795,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,71,Georgia,GEO,GEO,444,18,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,72,Germany,GFR,DEU,621740,53750,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,73,Ghana,GHA,GHA,229,70,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,76,Greece,GRE,GRC,39372,3933,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,79,Guinea,GUI,GIN,14,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,84,Croatia,HRV,HRV,548,12,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,85,Hungary,HUN,HUN,869,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,86,Iceland,ICE,ISL,195,16,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,87,Cote d'Ivoire,ICO,CIV,148,9,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,88,India,IND,IND,69,64,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,89,Indonesia,INS,IDN,20,24,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,90,Ireland,IRE,IRL,2832,53,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,92,Iraq,IRQ,IRQ,254561,0,3403,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,94,Italy,ITA,ITA,3527,903,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,96,Jordan,JOR,JOR,672952,0,6800,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,97,Japan,JPN,JPN,93,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,98,Kazakhstan,KAZ,KAZ,14,11,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,99,Kenya,KEN,KEN,5,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,100,Kyrgyzstan,KGZ,KGZ,75,6,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,102,Rep. of Korea,KOR,KOR,1250,28,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,104,Kuwait,KUW,KWT,150,104,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,106,Liberia,LBR,LBR,27,18,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,107,Libya,LBY,LBY,492,12632,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,109,Lebanon,LEB,LBN,840929,0,3609,0,0,0,1711,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,111,Liechtenstein,LIE,LIE,32,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,113,Lithuania,LTU,LTU,463,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,114,Luxembourg,LUX,LUX,2409,415,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,115,Latvia,LVA,LVA,312,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,117,Madagascar,MAD,MDG,5,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,119,Mauritania,MAU,MRT,368,141,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,120,North Macedonia,MCD,MKD,17,0,0,0,0,0,20,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,121,Monaco,MCO,MCO,5,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,122,Rep. of Moldova,MDA,MDA,166,7,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,124,Mexico,MEX,MEX,34,35,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,126,Mali,MLI,MLI,24,433,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,127,Malaysia,MLS,MYS,449,2858,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,130,Morocco,MOR,MAR,5082,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,132,Malta,MTA,MLT,1918,412,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,138,Netherlands (Kingdom of the),NET,NLD,39388,6362,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,139,Niger,NGR,NER,5,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,141,Nigeria,NIG,NGA,422,482,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,143,Norway,NOR,NOR,15865,315,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,144,Nauru,NRU,NRU,0,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,145,New Zealand,NZL,NZL,72,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,146,Oman,OMN,OMN,8,27,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,147,Pakistan,PAK,PAK,50,23,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,149,Paraguay,PAR,PRY,84,17,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,150,Peru,PER,PER,47,11,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,151,Philippines,PHI,PHL,130,44,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,154,Poland,POL,POL,254,62,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,155,Portugal,POR,PRT,861,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,157,Qatar,QAT,QAT,30,109,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,158,Romania,ROM,ROU,2258,179,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,159,South Africa,RSA,ZAF,38,20,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,160,Russian Federation,RUS,RUS,297,62,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,162,El Salvador,SAL,SLV,5,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,163,Saudi Arabia,SAU,SAU,186,9884,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,165,Senegal,SEN,SEN,0,14,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,172,Somalia,SOM,SOM,991,65,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,173,Spain,SPA,ESP,14987,1605,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,45,9,0,0,0,0,929,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,177,Sudan,SUD,SDN,93482,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,180,Slovakia,SVK,SVK,25,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,181,Slovenia,SVN,SVN,326,13,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,183,Sweden,SWE,SWE,115233,1510,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,184,Switzerland,SWI,CHE,20146,255,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,185,Syrian Arab Rep.,SYR,SYR,0,0,0,6865308,74251,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,186,United Rep. of Tanzania,TAN,TZA,5,19,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,188,Thailand,THA,THA,215,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,192,Togo,TOG,TGO,18,8,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,194,Trinidad and Tobago,TRT,TTO,64,38,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,195,Tunisia,TUN,TUN,2523,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,196,Türkiye,TUR,TUR,3737369,0,22275,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,198,United Arab Emirates,UAE,ARE,439,6526,0,0,0,0,11,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,199,Uganda,UGA,UGA,18,8,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,200,Ukraine,UKR,UKR,512,147,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,201,Uruguay,URU,URY,66,5,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,202,United States of America,USA,USA,8799,3500,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,0,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,211,Yemen,YEM,YEM,2513,420,0,0,0,0,0,-,0
+2021,185,Syrian Arab Rep.,SYR,SYR,213,Zambia,ZAM,ZMB,36,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,3,Albania,ALB,ALB,23,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,4,Algeria,ALG,DZA,7803,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,6,Angola,ANG,AGO,0,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,8,Egypt,ARE,EGY,145658,0,444,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,9,Argentina,ARG,ARG,450,110,0,0,0,0,452,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,10,Armenia,ARM,ARM,4888,24,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,11,Australia,AUL,AUS,536,81,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,12,Austria,AUS,AUT,73923,17244,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,13,Azerbaijan,AZE,AZE,35,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,14,Bahrain,BAH,BHR,5,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,17,Belgium,BEL,BEL,17808,2495,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,18,Benin,BEN,BEN,41,11,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,23,Burkina Faso,BKF,BFA,0,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,24,Belarus,BLR,BLR,49,17,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,25,Bolivia (Plurinational State of),BOL,BOL,22,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,27,Brazil,BRA,BRA,3969,3840,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,29,Bosnia and Herzegovina,BSN,BIH,25,7,0,0,0,0,15,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,30,Bulgaria,BUL,BGR,23726,5695,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,33,Canada,CAN,CAN,512,500,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,36,Chad,CHD,TCD,50,27,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,37,China,CHI,CHN,37,7,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,38,Chile,CHL,CHL,113,31,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,39,Cameroon,CMR,CMR,5,10,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,40,Congo,COB,COG,9,9,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,41,Dem. Rep. of the Congo,COD,COD,12,18,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,44,Colombia,COL,COL,13,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,45,Costa Rica,COS,CRI,6,34,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,46,Cuba,CUB,CUB,27,8,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,48,Cyprus,CYP,CYP,10902,9504,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,49,Czechia,CZE,CZE,341,6,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,50,Denmark,DEN,DNK,19153,306,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,51,Djibouti,DJB,DJI,10,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,53,Dominican Rep.,DOM,DOM,5,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,54,Ecuador,ECU,ECU,153,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,57,Estonia,EST,EST,107,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,58,Ethiopia,ETH,ETH,69,599,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,61,Finland,FIN,FIN,2594,154,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,64,France,FRA,FRA,40339,992,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,12682,7372,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,71,Georgia,GEO,GEO,448,20,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,72,Germany,GFR,DEU,522575,54218,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,73,Ghana,GHA,GHA,243,78,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,76,Greece,GRE,GRC,42827,2520,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,79,Guinea,GUI,GIN,14,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,84,Croatia,HRV,HRV,550,44,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,85,Hungary,HUN,HUN,819,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,86,Iceland,ICE,ISL,256,9,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,87,Cote d'Ivoire,ICO,CIV,148,9,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,88,India,IND,IND,71,74,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,89,Indonesia,INS,IDN,19,25,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,90,Ireland,IRE,IRL,2520,87,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,92,Iraq,IRQ,IRQ,257439,0,2845,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,94,Italy,ITA,ITA,3578,911,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,96,Jordan,JOR,JOR,660892,0,4346,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,97,Japan,JPN,JPN,309,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,98,Kazakhstan,KAZ,KAZ,13,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,99,Kenya,KEN,KEN,5,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,100,Kyrgyzstan,KGZ,KGZ,61,11,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,102,Rep. of Korea,KOR,KOR,1261,59,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,104,Kuwait,KUW,KWT,165,88,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,106,Liberia,LBR,LBR,40,40,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,107,Libya,LBY,LBY,424,14038,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,109,Lebanon,LEB,LBN,814715,0,9711,0,0,0,2332,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,111,Liechtenstein,LIE,LIE,34,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,113,Lithuania,LTU,LTU,488,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,114,Luxembourg,LUX,LUX,2912,940,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,115,Latvia,LVA,LVA,318,12,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,117,Madagascar,MAD,MDG,5,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,119,Mauritania,MAU,MRT,378,200,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,120,North Macedonia,MCD,MKD,0,6,0,0,0,0,5,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,121,Monaco,MCO,MCO,5,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,122,Rep. of Moldova,MDA,MDA,203,30,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,124,Mexico,MEX,MEX,38,42,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,126,Mali,MLI,MLI,24,452,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,127,Malaysia,MLS,MYS,409,2399,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,133,Montenegro,MNE,MNE,0,0,0,0,0,0,5,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,130,Morocco,MOR,MAR,5511,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,131,Mozambique,MOZ,MOZ,0,6,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,132,Malta,MTA,MLT,1988,361,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,138,Netherlands (Kingdom of the),NET,NLD,56580,11977,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,139,Niger,NGR,NER,5,10,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,141,Nigeria,NIG,NGA,515,734,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,143,Norway,NOR,NOR,15964,1289,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,145,New Zealand,NZL,NZL,60,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,146,Oman,OMN,OMN,8,6,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,147,Pakistan,PAK,PAK,50,23,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,149,Paraguay,PAR,PRY,79,17,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,150,Peru,PER,PER,47,15,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,151,Philippines,PHI,PHL,141,61,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,154,Poland,POL,POL,280,28,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,155,Portugal,POR,PRT,918,15,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,157,Qatar,QAT,QAT,30,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,158,Romania,ROM,ROU,2332,284,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,159,South Africa,RSA,ZAF,36,7,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,160,Russian Federation,RUS,RUS,194,58,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,161,Rwanda,RWA,RWA,5,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,163,Saudi Arabia,SAU,SAU,293,3653,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,172,Somalia,SOM,SOM,1121,111,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,173,Spain,SPA,ESP,16670,640,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,47,0,0,0,0,0,704,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,177,Sudan,SUD,SDN,93478,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,180,Slovakia,SVK,SVK,55,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,181,Slovenia,SVN,SVN,340,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,183,Sweden,SWE,SWE,111199,1233,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,184,Switzerland,SWI,CHE,20330,464,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,185,Syrian Arab Rep.,SYR,SYR,0,0,0,6780994,255093,0,0,-,15209720
+2022,185,Syrian Arab Rep.,SYR,SYR,186,United Rep. of Tanzania,TAN,TZA,10,26,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,188,Thailand,THA,THA,208,6,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,192,Togo,TOG,TGO,19,21,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,194,Trinidad and Tobago,TRT,TTO,50,43,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,195,Tunisia,TUN,TUN,2497,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,196,Türkiye,TUR,TUR,3535898,0,33953,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,198,United Arab Emirates,UAE,ARE,475,6476,0,0,0,0,9,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,199,Uganda,UGA,UGA,28,5,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,200,Ukraine,UKR,UKR,517,16,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,201,Uruguay,URU,URY,66,6,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,202,United States of America,USA,USA,8807,3137,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,0,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,211,Yemen,YEM,YEM,2520,419,0,0,0,0,0,-,0
+2022,185,Syrian Arab Rep.,SYR,SYR,213,Zambia,ZAM,ZMB,21,11,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,3,Albania,ALB,ALB,21,8,0,0,0,0,6,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,4,Algeria,ALG,DZA,7706,79,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,6,Angola,ANG,AGO,0,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,8,Egypt,ARE,EGY,153756,0,836,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,9,Argentina,ARG,ARG,402,93,0,0,0,0,459,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,10,Armenia,ARM,ARM,4906,13,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,11,Australia,AUL,AUS,154,110,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,12,Austria,AUS,AUT,87167,17740,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,13,Azerbaijan,AZE,AZE,34,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,14,Bahrain,BAH,BHR,5,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,17,Belgium,BEL,BEL,18909,3400,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,18,Benin,BEN,BEN,42,18,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,23,Burkina Faso,BKF,BFA,0,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,24,Belarus,BLR,BLR,27,6,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,25,Bolivia (Plurinational State of),BOL,BOL,22,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,27,Brazil,BRA,BRA,5982,79,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,29,Bosnia and Herzegovina,BSN,BIH,27,0,0,0,0,0,1038,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,30,Bulgaria,BUL,BGR,27366,6774,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,33,Canada,CAN,CAN,912,1012,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,36,Chad,CHD,TCD,53,35,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,37,China,CHI,CHN,23,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,38,Chile,CHL,CHL,113,31,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,39,Cameroon,CMR,CMR,16,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,40,Congo,COB,COG,18,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,41,Dem. Rep. of the Congo,COD,COD,15,32,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,44,Colombia,COL,COL,13,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,45,Costa Rica,COS,CRI,6,35,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,46,Cuba,CUB,CUB,29,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,48,Cyprus,CYP,CYP,13062,12823,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,49,Czechia,CZE,CZE,318,31,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,50,Denmark,DEN,DNK,18039,400,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,51,Djibouti,DJB,DJI,11,11,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,53,Dominican Rep.,DOM,DOM,0,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,54,Ecuador,ECU,ECU,157,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,57,Estonia,EST,EST,87,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,58,Ethiopia,ETH,ETH,110,569,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,61,Finland,FIN,FIN,2702,688,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,64,France,FRA,FRA,43589,1001,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,17677,4456,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,71,Georgia,GEO,GEO,465,22,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,72,Germany,GFR,DEU,705812,72642,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,73,Ghana,GHA,GHA,272,59,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,76,Greece,GRE,GRC,45878,9122,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,79,Guinea,GUI,GIN,14,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,84,Croatia,HRV,HRV,551,120,0,0,0,0,93,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,85,Hungary,HUN,HUN,805,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,86,Iceland,ICE,ISL,287,40,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,87,Cote d'Ivoire,ICO,CIV,164,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,88,India,IND,IND,56,91,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,89,Indonesia,INS,IDN,15,48,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,90,Ireland,IRE,IRL,2097,200,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,92,Iraq,IRQ,IRQ,271997,0,2338,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,94,Italy,ITA,ITA,3603,375,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,96,Jordan,JOR,JOR,649091,0,4383,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,97,Japan,JPN,JPN,385,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,98,Kazakhstan,KAZ,KAZ,12,7,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,99,Kenya,KEN,KEN,5,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,100,Kyrgyzstan,KGZ,KGZ,50,20,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,102,Rep. of Korea,KOR,KOR,1273,149,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,104,Kuwait,KUW,KWT,174,61,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,106,Liberia,LBR,LBR,67,53,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,107,Libya,LBY,LBY,359,11624,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,109,Lebanon,LEB,LBN,784884,0,10130,0,0,0,3026,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,113,Lithuania,LTU,LTU,496,13,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,114,Luxembourg,LUX,LUX,3367,1189,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,115,Latvia,LVA,LVA,299,49,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,117,Madagascar,MAD,MDG,5,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,119,Mauritania,MAU,MRT,413,161,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,120,North Macedonia,MCD,MKD,0,6,0,0,0,0,24,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,121,Monaco,MCO,MCO,5,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,122,Rep. of Moldova,MDA,MDA,200,32,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,124,Mexico,MEX,MEX,42,42,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,126,Mali,MLI,MLI,24,37,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,127,Malaysia,MLS,MYS,394,2365,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,130,Morocco,MOR,MAR,5777,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,131,Mozambique,MOZ,MOZ,0,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,132,Malta,MTA,MLT,2191,203,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,134,Mauritius,MTS,MUS,0,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,138,Netherlands (Kingdom of the),NET,NLD,58378,15732,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,139,Niger,NGR,NER,5,10,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,141,Nigeria,NIG,NGA,433,804,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,143,Norway,NOR,NOR,15978,1269,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,145,New Zealand,NZL,NZL,55,8,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,146,Oman,OMN,OMN,8,6,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,147,Pakistan,PAK,PAK,53,26,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,149,Paraguay,PAR,PRY,79,19,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,150,Peru,PER,PER,46,85,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,151,Philippines,PHI,PHL,154,84,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,154,Poland,POL,POL,298,65,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,155,Portugal,POR,PRT,951,17,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,157,Qatar,QAT,QAT,26,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,158,Romania,ROM,ROU,2379,365,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,159,South Africa,RSA,ZAF,39,13,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,160,Russian Federation,RUS,RUS,136,66,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,161,Rwanda,RWA,RWA,5,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,163,Saudi Arabia,SAU,SAU,317,3615,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,165,Senegal,SEN,SEN,0,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,172,Somalia,SOM,SOM,1367,159,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,173,Spain,SPA,ESP,17258,635,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,48,18,0,0,0,0,1972,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,177,Sudan,SUD,SDN,26582,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,180,Slovakia,SVK,SVK,60,5,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,181,Slovenia,SVN,SVN,368,9,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,183,Sweden,SWE,SWE,94873,856,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,184,Switzerland,SWI,CHE,20444,593,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,185,Syrian Arab Rep.,SYR,SYR,0,0,0,7248188,155325,0,0,-,16041461
+2023,185,Syrian Arab Rep.,SYR,SYR,186,United Rep. of Tanzania,TAN,TZA,11,35,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,188,Thailand,THA,THA,165,13,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,192,Togo,TOG,TGO,5,14,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,194,Trinidad and Tobago,TRT,TTO,42,45,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,195,Tunisia,TUN,TUN,3119,0,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,196,Türkiye,TUR,TUR,3214780,0,19865,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,198,United Arab Emirates,UAE,ARE,526,6401,0,0,0,0,8,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,199,Uganda,UGA,UGA,25,14,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,200,Ukraine,UKR,UKR,512,9,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,201,Uruguay,URU,URY,66,7,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,202,United States of America,USA,USA,8627,3286,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,6,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,211,Yemen,YEM,YEM,2482,418,0,0,0,0,0,-,0
+2023,185,Syrian Arab Rep.,SYR,SYR,213,Zambia,ZAM,ZMB,45,13,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,3,Albania,ALB,ALB,34,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,4,Algeria,ALG,DZA,8742,95,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,6,Angola,ANG,AGO,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,8,Egypt,ARE,EGY,147797,0,9440,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,9,Argentina,ARG,ARG,388,41,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,10,Armenia,ARM,ARM,4916,18,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,11,Australia,AUL,AUS,169,146,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,12,Austria,AUS,AUT,105143,12762,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,13,Azerbaijan,AZE,AZE,34,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,14,Bahrain,BAH,BHR,5,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,17,Belgium,BEL,BEL,19372,5434,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,18,Benin,BEN,BEN,46,20,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,23,Burkina Faso,BKF,BFA,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,24,Belarus,BLR,BLR,20,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,25,Bolivia (Plurinational State of),BOL,BOL,22,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,27,Brazil,BRA,BRA,6535,62,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,29,Bosnia and Herzegovina,BSN,BIH,19,42,0,0,0,0,78,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,30,Bulgaria,BUL,BGR,31877,4036,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,33,Canada,CAN,CAN,1480,1739,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,36,Chad,CHD,TCD,38,15,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,37,China,CHI,CHN,18,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,38,Chile,CHL,CHL,113,31,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,39,Cameroon,CMR,CMR,14,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,40,Congo,COB,COG,19,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,41,Dem. Rep. of the Congo,COD,COD,21,37,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,44,Colombia,COL,COL,13,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,45,Costa Rica,COS,CRI,6,39,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,46,Cuba,CUB,CUB,32,8,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,48,Cyprus,CYP,CYP,14571,13838,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,49,Czechia,CZE,CZE,295,41,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,50,Denmark,DEN,DNK,21177,409,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,51,Djibouti,DJB,DJI,10,17,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,53,Dominican Rep.,DOM,DOM,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,54,Ecuador,ECU,ECU,171,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,57,Estonia,EST,EST,72,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,58,Ethiopia,ETH,ETH,118,630,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,61,Finland,FIN,FIN,2708,374,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,64,France,FRA,FRA,45381,953,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,68,Gambia,GAM,GMB,6,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,19614,7029,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,71,Georgia,GEO,GEO,439,27,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,72,Germany,GFR,DEU,725102,62959,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,73,Ghana,GHA,GHA,289,10,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,76,Greece,GRE,GRC,18046,7563,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,79,Guinea,GUI,GIN,14,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,84,Croatia,HRV,HRV,572,133,0,0,0,0,6,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,85,Hungary,HUN,HUN,800,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,86,Iceland,ICE,ISL,541,30,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,87,Cote d'Ivoire,ICO,CIV,164,9,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,88,India,IND,IND,46,89,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,89,Indonesia,INS,IDN,15,43,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,90,Ireland,IRE,IRL,1424,377,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,92,Iraq,IRQ,IRQ,303611,0,23896,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,94,Italy,ITA,ITA,3600,326,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,96,Jordan,JOR,JOR,611473,0,65268,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,97,Japan,JPN,JPN,463,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,98,Kazakhstan,KAZ,KAZ,11,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,99,Kenya,KEN,KEN,6,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,100,Kyrgyzstan,KGZ,KGZ,49,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,102,Rep. of Korea,KOR,KOR,1281,200,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,104,Kuwait,KUW,KWT,127,75,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,106,Liberia,LBR,LBR,67,107,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,107,Libya,LBY,LBY,352,8226,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,109,Lebanon,LEB,LBN,755426,0,254651,0,0,0,3209,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,111,Liechtenstein,LIE,LIE,35,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,113,Lithuania,LTU,LTU,509,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,114,Luxembourg,LUX,LUX,2115,920,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,115,Latvia,LVA,LVA,302,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,117,Madagascar,MAD,MDG,5,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,119,Mauritania,MAU,MRT,348,146,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,120,North Macedonia,MCD,MKD,0,11,0,0,0,0,34,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,121,Monaco,MCO,MCO,5,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,122,Rep. of Moldova,MDA,MDA,252,28,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,124,Mexico,MEX,MEX,42,45,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,126,Mali,MLI,MLI,40,29,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,127,Malaysia,MLS,MYS,401,2281,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,133,Montenegro,MNE,MNE,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,130,Morocco,MOR,MAR,5442,6,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,131,Mozambique,MOZ,MOZ,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,132,Malta,MTA,MLT,2394,240,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,134,Mauritius,MTS,MUS,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,138,Netherlands (Kingdom of the),NET,NLD,70656,15191,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,139,Niger,NGR,NER,5,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,141,Nigeria,NIG,NGA,608,1031,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,143,Norway,NOR,NOR,17609,2370,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,145,New Zealand,NZL,NZL,48,11,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,146,Oman,OMN,OMN,8,6,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,147,Pakistan,PAK,PAK,53,26,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,148,Panama,PAN,PAN,5,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,149,Paraguay,PAR,PRY,79,19,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,150,Peru,PER,PER,46,87,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,151,Philippines,PHI,PHL,151,106,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,154,Poland,POL,POL,174,140,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,155,Portugal,POR,PRT,1005,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,157,Qatar,QAT,QAT,26,13,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,158,Romania,ROM,ROU,2555,137,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,159,South Africa,RSA,ZAF,40,15,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,160,Russian Federation,RUS,RUS,142,700,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,161,Rwanda,RWA,RWA,6,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,163,Saudi Arabia,SAU,SAU,281,3576,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,165,Senegal,SEN,SEN,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,172,Somalia,SOM,SOM,1591,178,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,173,Spain,SPA,ESP,17986,600,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,51,21,0,0,0,0,82,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,177,Sudan,SUD,SDN,9860,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,180,Slovakia,SVK,SVK,69,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,181,Slovenia,SVN,SVN,373,36,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,182,Eswatini,SWA,SWZ,0,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,183,Sweden,SWE,SWE,25632,727,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,184,Switzerland,SWI,CHE,20133,548,24,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,185,Syrian Arab Rep.,SYR,SYR,0,0,0,7408909,513896,0,0,-,16471143
+2024,185,Syrian Arab Rep.,SYR,SYR,186,United Rep. of Tanzania,TAN,TZA,15,37,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,188,Thailand,THA,THA,173,17,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,192,Togo,TOG,TGO,9,11,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,194,Trinidad and Tobago,TRT,TTO,42,39,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,195,Tunisia,TUN,TUN,2390,0,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,196,Türkiye,TUR,TUR,2901478,0,159439,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,198,United Arab Emirates,UAE,ARE,534,5772,0,0,0,0,7,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,199,Uganda,UGA,UGA,42,5,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,200,Ukraine,UKR,UKR,507,11,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,201,Uruguay,URU,URY,66,6,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,202,United States of America,USA,USA,8410,3652,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,207,Venezuela (Bolivarian Republic of),VEN,VEN,33,6,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,211,Yemen,YEM,YEM,2421,441,0,0,0,0,0,-,0
+2024,185,Syrian Arab Rep.,SYR,SYR,213,Zambia,ZAM,ZMB,58,13,0,0,0,0,0,-,0

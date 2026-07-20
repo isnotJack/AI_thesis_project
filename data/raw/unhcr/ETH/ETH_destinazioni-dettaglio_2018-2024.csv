@@ -1,0 +1,611 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,58,Ethiopia,ETH,ETH,6,Angola,ANG,AGO,0,57,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,8,Egypt,ARE,EGY,3814,12117,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,9,Argentina,ARG,ARG,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,11,Australia,AUL,AUS,315,280,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,12,Austria,AUS,AUT,218,118,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,17,Belgium,BEL,BEL,121,50,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,24,Belarus,BLR,BLR,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,26,Botswana,BOT,BWA,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,27,Brazil,BRA,BRA,27,88,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,30,Bulgaria,BUL,BGR,13,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,33,Canada,CAN,CAN,1900,920,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,36,Chad,CHD,TCD,24,14,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,44,Colombia,COL,COL,17,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,46,Cuba,CUB,CUB,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,48,Cyprus,CYP,CYP,10,13,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,50,Denmark,DEN,DNK,93,22,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,51,Djibouti,DJB,DJI,510,9902,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,56,Eritrea,ERT,ERI,26,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,58,Ethiopia,ETH,ETH,0,0,0,2615800,0,0,452,-,0
+2018,58,Ethiopia,ETH,ETH,61,Finland,FIN,FIN,149,25,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,64,France,FRA,FRA,1423,774,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,1601,500,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,71,Georgia,GEO,GEO,0,5,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,72,Germany,GFR,DEU,4780,6730,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,73,Ghana,GHA,GHA,7,7,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,76,Greece,GRE,GRC,363,225,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,85,Hungary,HUN,HUN,37,5,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,87,Cote d'Ivoire,ICO,CIV,5,5,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,88,India,IND,IND,20,22,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,89,Indonesia,INS,IDN,160,50,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,90,Ireland,IRE,IRL,32,18,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,92,Iraq,IRQ,IRQ,0,5,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,93,Israel,ISR,ISR,95,838,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,94,Italy,ITA,ITA,1271,225,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,96,Jordan,JOR,JOR,10,56,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,97,Japan,JPN,JPN,28,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,99,Kenya,KEN,KEN,18115,9584,16,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,102,Rep. of Korea,KOR,KOR,147,102,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,104,Kuwait,KUW,KWT,0,11,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,107,Libya,LBY,LBY,19,1157,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,109,Lebanon,LEB,LBN,39,486,0,0,0,0,37,-,0
+2018,58,Ethiopia,ETH,ETH,110,Lesotho,LES,LSO,10,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,114,Luxembourg,LUX,LUX,43,25,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,119,Mauritania,MAU,MRT,6,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,124,Mexico,MEX,MEX,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,127,Malaysia,MLS,MYS,10,5,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,128,Malawi,MLW,MWI,5,42,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,131,Mozambique,MOZ,MOZ,7,11,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,132,Malta,MTA,MLT,174,32,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,138,Netherlands (Kingdom of the),NET,NLD,524,45,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,139,Niger,NGR,NER,48,80,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,141,Nigeria,NIG,NGA,6,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,143,Norway,NOR,NOR,1951,67,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,145,New Zealand,NZL,NZL,10,5,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,150,Peru,PER,PER,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,151,Philippines,PHI,PHL,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,154,Poland,POL,POL,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,155,Portugal,POR,PRT,6,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,158,Romania,ROM,ROU,7,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,159,South Africa,RSA,ZAF,17726,49347,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,161,Rwanda,RWA,RWA,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,172,Somalia,SOM,SOM,3981,16067,0,0,0,0,250,-,0
+2018,58,Ethiopia,ETH,ETH,173,Spain,SPA,ESP,53,20,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,179,South Sudan,SSD,SSD,4203,310,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,177,Sudan,SUD,SDN,6045,7517,0,0,0,0,3489,-,0
+2018,58,Ethiopia,ETH,ETH,182,Eswatini,SWA,SWZ,9,50,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,183,Sweden,SWE,SWE,2360,870,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,184,Switzerland,SWI,CHE,1563,449,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,185,Syrian Arab Rep.,SYR,SYR,17,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,188,Thailand,THA,THA,13,13,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,196,Türkiye,TUR,TUR,73,266,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,198,United Arab Emirates,UAE,ARE,10,0,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,199,Uganda,UGA,UGA,1708,675,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,200,Ukraine,UKR,UKR,28,30,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,202,United States of America,USA,USA,9635,5679,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,211,Yemen,YEM,YEM,6448,7213,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,213,Zambia,ZAM,ZMB,27,16,0,0,0,0,0,-,0
+2018,58,Ethiopia,ETH,ETH,214,Zimbabwe,ZIM,ZWE,67,9,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,6,Angola,ANG,AGO,0,57,0,0,0,0,5,-,0
+2019,58,Ethiopia,ETH,ETH,8,Egypt,ARE,EGY,4599,11657,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,9,Argentina,ARG,ARG,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,11,Australia,AUL,AUS,306,275,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,12,Austria,AUS,AUT,228,77,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,17,Belgium,BEL,BEL,170,25,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,24,Belarus,BLR,BLR,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,26,Botswana,BOT,BWA,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,27,Brazil,BRA,BRA,27,92,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,30,Bulgaria,BUL,BGR,13,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,33,Canada,CAN,CAN,1236,902,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,36,Chad,CHD,TCD,18,6,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,39,Cameroon,CMR,CMR,0,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,41,Dem. Rep. of the Congo,COD,COD,0,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,44,Colombia,COL,COL,17,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,46,Cuba,CUB,CUB,6,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,48,Cyprus,CYP,CYP,10,13,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,50,Denmark,DEN,DNK,94,10,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,51,Djibouti,DJB,DJI,581,10545,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,56,Eritrea,ERT,ERI,15,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,58,Ethiopia,ETH,ETH,0,0,0,1733628,1303736,0,392,-,0
+2019,58,Ethiopia,ETH,ETH,61,Finland,FIN,FIN,147,39,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,64,France,FRA,FRA,1689,878,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,1754,607,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,72,Germany,GFR,DEU,4982,5447,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,73,Ghana,GHA,GHA,8,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,76,Greece,GRE,GRC,416,97,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,85,Hungary,HUN,HUN,39,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,87,Cote d'Ivoire,ICO,CIV,5,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,88,India,IND,IND,18,24,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,89,Indonesia,INS,IDN,132,38,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,90,Ireland,IRE,IRL,34,16,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,93,Israel,ISR,ISR,97,818,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,94,Italy,ITA,ITA,1319,232,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,96,Jordan,JOR,JOR,12,29,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,97,Japan,JPN,JPN,31,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,99,Kenya,KEN,KEN,19552,8864,45,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,102,Rep. of Korea,KOR,KOR,154,146,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,104,Kuwait,KUW,KWT,0,11,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,107,Libya,LBY,LBY,14,1040,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,109,Lebanon,LEB,LBN,31,691,0,0,0,0,19,-,0
+2019,58,Ethiopia,ETH,ETH,110,Lesotho,LES,LSO,13,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,114,Luxembourg,LUX,LUX,47,25,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,119,Mauritania,MAU,MRT,6,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,124,Mexico,MEX,MEX,5,13,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,127,Malaysia,MLS,MYS,11,11,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,128,Malawi,MLW,MWI,8,49,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,131,Mozambique,MOZ,MOZ,8,15,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,132,Malta,MTA,MLT,175,37,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,138,Netherlands (Kingdom of the),NET,NLD,456,90,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,139,Niger,NGR,NER,38,14,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,141,Nigeria,NIG,NGA,6,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,143,Norway,NOR,NOR,1732,24,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,145,New Zealand,NZL,NZL,7,9,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,150,Peru,PER,PER,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,151,Philippines,PHI,PHL,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,154,Poland,POL,POL,5,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,155,Portugal,POR,PRT,6,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,158,Romania,ROM,ROU,7,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,159,South Africa,RSA,ZAF,15990,51288,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,161,Rwanda,RWA,RWA,5,6,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,172,Somalia,SOM,SOM,4287,17477,0,0,0,0,10,-,0
+2019,58,Ethiopia,ETH,ETH,173,Spain,SPA,ESP,55,25,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,179,South Sudan,SSD,SSD,4065,362,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,177,Sudan,SUD,SDN,6704,6913,94,0,0,0,3450,-,0
+2019,58,Ethiopia,ETH,ETH,182,Eswatini,SWA,SWZ,9,73,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,183,Sweden,SWE,SWE,2561,614,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,184,Switzerland,SWI,CHE,1637,285,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,185,Syrian Arab Rep.,SYR,SYR,15,0,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,188,Thailand,THA,THA,20,10,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,195,Tunisia,TUN,TUN,0,42,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,198,United Arab Emirates,UAE,ARE,10,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,199,Uganda,UGA,UGA,2007,954,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,200,Ukraine,UKR,UKR,26,5,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,202,United States of America,USA,USA,9079,5556,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,211,Yemen,YEM,YEM,6565,8668,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,213,Zambia,ZAM,ZMB,27,19,0,0,0,0,0,-,0
+2019,58,Ethiopia,ETH,ETH,214,Zimbabwe,ZIM,ZWE,71,12,0,0,0,0,5,-,0
+2020,58,Ethiopia,ETH,ETH,6,Angola,ANG,AGO,0,57,0,0,0,0,5,-,0
+2020,58,Ethiopia,ETH,ETH,8,Egypt,ARE,EGY,5296,10803,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,9,Argentina,ARG,ARG,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,11,Australia,AUL,AUS,301,266,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,12,Austria,AUS,AUT,231,60,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,17,Belgium,BEL,BEL,175,70,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,24,Belarus,BLR,BLR,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,26,Botswana,BOT,BWA,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,27,Brazil,BRA,BRA,29,89,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,30,Bulgaria,BUL,BGR,10,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,33,Canada,CAN,CAN,1420,599,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,36,Chad,CHD,TCD,19,11,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,39,Cameroon,CMR,CMR,0,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,41,Dem. Rep. of the Congo,COD,COD,0,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,44,Colombia,COL,COL,7,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,46,Cuba,CUB,CUB,6,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,48,Cyprus,CYP,CYP,10,14,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,50,Denmark,DEN,DNK,95,10,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,51,Djibouti,DJB,DJI,1413,10225,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,56,Eritrea,ERT,ERI,15,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,58,Ethiopia,ETH,ETH,0,0,0,2733628,0,0,454,-,0
+2020,58,Ethiopia,ETH,ETH,61,Finland,FIN,FIN,146,38,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,64,France,FRA,FRA,1963,907,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,1824,680,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,72,Germany,GFR,DEU,5385,3865,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,73,Ghana,GHA,GHA,8,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,76,Greece,GRE,GRC,481,59,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,82,"China, Hong Kong SAR",HKG,HKG,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,85,Hungary,HUN,HUN,39,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,87,Cote d'Ivoire,ICO,CIV,5,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,88,India,IND,IND,15,21,5,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,89,Indonesia,INS,IDN,135,40,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,90,Ireland,IRE,IRL,36,19,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,92,Iraq,IRQ,IRQ,0,7,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,93,Israel,ISR,ISR,102,811,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,94,Italy,ITA,ITA,1031,114,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,96,Jordan,JOR,JOR,13,27,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,97,Japan,JPN,JPN,27,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,99,Kenya,KEN,KEN,20442,8762,79,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,102,Rep. of Korea,KOR,KOR,160,172,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,104,Kuwait,KUW,KWT,0,11,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,107,Libya,LBY,LBY,25,1060,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,109,Lebanon,LEB,LBN,39,696,0,0,0,0,10,-,0
+2020,58,Ethiopia,ETH,ETH,110,Lesotho,LES,LSO,23,9,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,114,Luxembourg,LUX,LUX,58,18,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,119,Mauritania,MAU,MRT,7,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,124,Mexico,MEX,MEX,5,20,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,127,Malaysia,MLS,MYS,12,11,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,128,Malawi,MLW,MWI,8,53,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,130,Morocco,MOR,MAR,0,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,131,Mozambique,MOZ,MOZ,8,15,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,132,Malta,MTA,MLT,175,31,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,138,Netherlands (Kingdom of the),NET,NLD,433,72,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,139,Niger,NGR,NER,50,20,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,141,Nigeria,NIG,NGA,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,143,Norway,NOR,NOR,1524,53,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,145,New Zealand,NZL,NZL,11,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,150,Peru,PER,PER,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,151,Philippines,PHI,PHL,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,154,Poland,POL,POL,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,155,Portugal,POR,PRT,9,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,158,Romania,ROM,ROU,6,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,159,South Africa,RSA,ZAF,15629,48099,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,161,Rwanda,RWA,RWA,8,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,172,Somalia,SOM,SOM,4177,13022,5,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,173,Spain,SPA,ESP,53,25,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,179,South Sudan,SSD,SSD,4194,374,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,177,Sudan,SUD,SDN,62498,7353,0,0,0,0,3451,-,0
+2020,58,Ethiopia,ETH,ETH,182,Eswatini,SWA,SWZ,11,82,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,183,Sweden,SWE,SWE,2532,477,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,184,Switzerland,SWI,CHE,1748,125,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,185,Syrian Arab Rep.,SYR,SYR,15,0,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,188,Thailand,THA,THA,18,10,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,195,Tunisia,TUN,TUN,0,48,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,198,United Arab Emirates,UAE,ARE,8,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,199,Uganda,UGA,UGA,2222,1012,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,200,Ukraine,UKR,UKR,26,5,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,202,United States of America,USA,USA,8245,5885,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,211,Yemen,YEM,YEM,6644,8699,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,213,Zambia,ZAM,ZMB,30,8,0,0,0,0,0,-,0
+2020,58,Ethiopia,ETH,ETH,214,Zimbabwe,ZIM,ZWE,71,13,0,0,0,0,5,-,0
+2021,58,Ethiopia,ETH,ETH,6,Angola,ANG,AGO,0,57,0,0,0,0,5,-,0
+2021,58,Ethiopia,ETH,ETH,8,Egypt,ARE,EGY,5589,9895,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,9,Argentina,ARG,ARG,5,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,11,Australia,AUL,AUS,342,223,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,12,Austria,AUS,AUT,241,67,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,17,Belgium,BEL,BEL,175,175,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,24,Belarus,BLR,BLR,5,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,26,Botswana,BOT,BWA,5,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,27,Brazil,BRA,BRA,27,89,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,30,Bulgaria,BUL,BGR,9,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,33,Canada,CAN,CAN,1715,324,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,36,Chad,CHD,TCD,19,9,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,37,China,CHI,CHN,0,8,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,41,Dem. Rep. of the Congo,COD,COD,0,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,44,Colombia,COL,COL,7,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,46,Cuba,CUB,CUB,6,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,48,Cyprus,CYP,CYP,10,14,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,49,Czechia,CZE,CZE,5,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,50,Denmark,DEN,DNK,94,13,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,51,Djibouti,DJB,DJI,2158,10908,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,56,Eritrea,ERT,ERI,15,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,58,Ethiopia,ETH,ETH,0,0,0,3646267,1548421,0,419,-,84953
+2021,58,Ethiopia,ETH,ETH,61,Finland,FIN,FIN,151,19,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,64,France,FRA,FRA,2899,499,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,1921,1323,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,71,Georgia,GEO,GEO,0,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,72,Germany,GFR,DEU,6508,3388,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,73,Ghana,GHA,GHA,8,6,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,76,Greece,GRE,GRC,501,42,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,82,"China, Hong Kong SAR",HKG,HKG,7,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,85,Hungary,HUN,HUN,43,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,86,Iceland,ICE,ISL,6,6,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,87,Cote d'Ivoire,ICO,CIV,5,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,88,India,IND,IND,23,35,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,89,Indonesia,INS,IDN,125,35,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,90,Ireland,IRE,IRL,58,23,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,92,Iraq,IRQ,IRQ,0,7,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,93,Israel,ISR,ISR,106,813,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,94,Italy,ITA,ITA,969,75,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,96,Jordan,JOR,JOR,19,21,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,97,Japan,JPN,JPN,32,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,99,Kenya,KEN,KEN,20647,9720,763,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,102,Rep. of Korea,KOR,KOR,171,164,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,104,Kuwait,KUW,KWT,0,7,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,107,Libya,LBY,LBY,32,939,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,109,Lebanon,LEB,LBN,46,907,0,0,0,0,38,-,0
+2021,58,Ethiopia,ETH,ETH,110,Lesotho,LES,LSO,24,16,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,114,Luxembourg,LUX,LUX,63,40,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,119,Mauritania,MAU,MRT,8,8,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,124,Mexico,MEX,MEX,6,25,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,127,Malaysia,MLS,MYS,12,11,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,128,Malawi,MLW,MWI,11,68,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,130,Morocco,MOR,MAR,0,11,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,131,Mozambique,MOZ,MOZ,8,18,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,132,Malta,MTA,MLT,175,43,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,138,Netherlands (Kingdom of the),NET,NLD,348,152,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,139,Niger,NGR,NER,30,19,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,141,Nigeria,NIG,NGA,8,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,143,Norway,NOR,NOR,1301,67,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,145,New Zealand,NZL,NZL,14,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,150,Peru,PER,PER,5,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,151,Philippines,PHI,PHL,5,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,154,Poland,POL,POL,5,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,155,Portugal,POR,PRT,11,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,158,Romania,ROM,ROU,6,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,159,South Africa,RSA,ZAF,15284,46123,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,160,Russian Federation,RUS,RUS,0,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,161,Rwanda,RWA,RWA,5,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,163,Saudi Arabia,SAU,SAU,0,9,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,172,Somalia,SOM,SOM,4400,15994,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,173,Spain,SPA,ESP,56,25,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,179,South Sudan,SSD,SSD,4532,749,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,177,Sudan,SUD,SDN,56806,14533,308,0,0,0,3451,-,0
+2021,58,Ethiopia,ETH,ETH,182,Eswatini,SWA,SWZ,12,40,5,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,183,Sweden,SWE,SWE,2500,399,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,184,Switzerland,SWI,CHE,1781,146,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,185,Syrian Arab Rep.,SYR,SYR,12,0,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,188,Thailand,THA,THA,12,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,195,Tunisia,TUN,TUN,5,46,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,198,United Arab Emirates,UAE,ARE,8,5,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,199,Uganda,UGA,UGA,2691,1504,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,200,Ukraine,UKR,UKR,26,10,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,202,United States of America,USA,USA,7659,8671,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,211,Yemen,YEM,YEM,6466,10593,6,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,213,Zambia,ZAM,ZMB,44,6,0,0,0,0,0,-,0
+2021,58,Ethiopia,ETH,ETH,214,Zimbabwe,ZIM,ZWE,67,14,0,0,0,0,5,-,0
+2022,58,Ethiopia,ETH,ETH,4,Algeria,ALG,DZA,0,5,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,6,Angola,ANG,AGO,0,57,0,0,0,0,5,-,0
+2022,58,Ethiopia,ETH,ETH,8,Egypt,ARE,EGY,5814,10010,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,9,Argentina,ARG,ARG,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,11,Australia,AUL,AUS,473,112,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,12,Austria,AUS,AUT,262,43,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,17,Belgium,BEL,BEL,263,290,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,24,Belarus,BLR,BLR,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,27,Brazil,BRA,BRA,29,54,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,30,Bulgaria,BUL,BGR,10,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,33,Canada,CAN,CAN,998,619,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,36,Chad,CHD,TCD,23,16,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,37,China,CHI,CHN,0,15,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,41,Dem. Rep. of the Congo,COD,COD,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,44,Colombia,COL,COL,7,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,45,Costa Rica,COS,CRI,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,48,Cyprus,CYP,CYP,10,27,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,49,Czechia,CZE,CZE,6,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,50,Denmark,DEN,DNK,92,13,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,51,Djibouti,DJB,DJI,3710,8597,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,56,Eritrea,ERT,ERI,15,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,58,Ethiopia,ETH,ETH,0,0,0,2730000,1880000,0,462,-,596148
+2022,58,Ethiopia,ETH,ETH,61,Finland,FIN,FIN,157,58,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,64,France,FRA,FRA,3478,401,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,2211,1692,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,71,Georgia,GEO,GEO,0,5,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,72,Germany,GFR,DEU,5378,2557,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,73,Ghana,GHA,GHA,10,7,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,76,Greece,GRE,GRC,640,99,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,82,"China, Hong Kong SAR",HKG,HKG,6,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,85,Hungary,HUN,HUN,41,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,86,Iceland,ICE,ISL,14,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,87,Cote d'Ivoire,ICO,CIV,7,5,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,88,India,IND,IND,26,67,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,89,Indonesia,INS,IDN,100,43,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,90,Ireland,IRE,IRL,90,63,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,92,Iraq,IRQ,IRQ,0,10,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,93,Israel,ISR,ISR,111,867,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,94,Italy,ITA,ITA,980,84,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,96,Jordan,JOR,JOR,22,17,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,97,Japan,JPN,JPN,36,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,99,Kenya,KEN,KEN,21620,11117,7,0,0,0,894,-,0
+2022,58,Ethiopia,ETH,ETH,102,Rep. of Korea,KOR,KOR,179,232,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,104,Kuwait,KUW,KWT,0,6,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,107,Libya,LBY,LBY,31,1763,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,109,Lebanon,LEB,LBN,166,1377,0,0,0,0,109,-,0
+2022,58,Ethiopia,ETH,ETH,110,Lesotho,LES,LSO,8,9,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,114,Luxembourg,LUX,LUX,70,45,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,119,Mauritania,MAU,MRT,8,8,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,122,Rep. of Moldova,MDA,MDA,0,5,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,124,Mexico,MEX,MEX,6,42,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,127,Malaysia,MLS,MYS,10,12,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,128,Malawi,MLW,MWI,14,90,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,130,Morocco,MOR,MAR,0,14,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,131,Mozambique,MOZ,MOZ,9,16,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,132,Malta,MTA,MLT,174,33,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,136,Namibia,NAM,NAM,6,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,138,Netherlands (Kingdom of the),NET,NLD,707,305,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,139,Niger,NGR,NER,14,46,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,141,Nigeria,NIG,NGA,8,5,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,143,Norway,NOR,NOR,1083,75,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,145,New Zealand,NZL,NZL,19,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,150,Peru,PER,PER,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,151,Philippines,PHI,PHL,5,7,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,154,Poland,POL,POL,10,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,155,Portugal,POR,PRT,18,5,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,158,Romania,ROM,ROU,7,7,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,159,South Africa,RSA,ZAF,13002,22814,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,161,Rwanda,RWA,RWA,26,22,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,172,Somalia,SOM,SOM,4944,18249,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,173,Spain,SPA,ESP,108,30,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,179,South Sudan,SSD,SSD,4151,239,5,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,177,Sudan,SUD,SDN,55455,15522,158,0,0,0,3427,-,0
+2022,58,Ethiopia,ETH,ETH,182,Eswatini,SWA,SWZ,37,113,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,183,Sweden,SWE,SWE,2534,319,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,184,Switzerland,SWI,CHE,1837,174,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,185,Syrian Arab Rep.,SYR,SYR,12,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,188,Thailand,THA,THA,10,12,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,195,Tunisia,TUN,TUN,13,8,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,199,Uganda,UGA,UGA,3710,1620,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,200,Ukraine,UKR,UKR,23,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,202,United States of America,USA,USA,7661,9964,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,211,Yemen,YEM,YEM,6720,11203,118,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,213,Zambia,ZAM,ZMB,53,0,0,0,0,0,0,-,0
+2022,58,Ethiopia,ETH,ETH,214,Zimbabwe,ZIM,ZWE,76,16,0,0,0,0,5,-,0
+2023,58,Ethiopia,ETH,ETH,6,Angola,ANG,AGO,0,57,0,0,0,0,5,-,0
+2023,58,Ethiopia,ETH,ETH,8,Egypt,ARE,EGY,5715,11801,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,9,Argentina,ARG,ARG,5,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,11,Australia,AUL,AUS,183,173,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,12,Austria,AUS,AUT,246,47,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,17,Belgium,BEL,BEL,459,395,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,27,Brazil,BRA,BRA,16,56,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,30,Bulgaria,BUL,BGR,7,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,33,Canada,CAN,CAN,1378,1861,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,36,Chad,CHD,TCD,28,17,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,37,China,CHI,CHN,0,15,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,41,Dem. Rep. of the Congo,COD,COD,5,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,44,Colombia,COL,COL,7,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,46,Cuba,CUB,CUB,0,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,48,Cyprus,CYP,CYP,12,28,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,50,Denmark,DEN,DNK,91,23,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,51,Djibouti,DJB,DJI,5435,7575,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,56,Eritrea,ERT,ERI,15,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,58,Ethiopia,ETH,ETH,0,0,0,2561497,534293,0,525,-,1115201
+2023,58,Ethiopia,ETH,ETH,61,Finland,FIN,FIN,198,90,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,64,France,FRA,FRA,3906,334,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,3172,1093,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,72,Germany,GFR,DEU,7433,2246,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,73,Ghana,GHA,GHA,15,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,76,Greece,GRE,GRC,659,155,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,82,"China, Hong Kong SAR",HKG,HKG,6,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,85,Hungary,HUN,HUN,39,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,86,Iceland,ICE,ISL,17,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,87,Cote d'Ivoire,ICO,CIV,7,8,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,88,India,IND,IND,24,63,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,89,Indonesia,INS,IDN,75,44,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,90,Ireland,IRE,IRL,124,65,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,92,Iraq,IRQ,IRQ,0,9,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,93,Israel,ISR,ISR,120,980,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,94,Italy,ITA,ITA,1118,66,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,96,Jordan,JOR,JOR,30,11,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,97,Japan,JPN,JPN,42,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,99,Kenya,KEN,KEN,22638,14446,0,0,0,0,716,-,0
+2023,58,Ethiopia,ETH,ETH,102,Rep. of Korea,KOR,KOR,189,441,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,104,Kuwait,KUW,KWT,0,7,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,107,Libya,LBY,LBY,33,2360,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,109,Lebanon,LEB,LBN,325,1526,0,0,0,0,174,-,0
+2023,58,Ethiopia,ETH,ETH,110,Lesotho,LES,LSO,11,9,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,114,Luxembourg,LUX,LUX,80,60,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,115,Latvia,LVA,LVA,0,13,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,119,Mauritania,MAU,MRT,7,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,122,Rep. of Moldova,MDA,MDA,0,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,124,Mexico,MEX,MEX,0,31,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,127,Malaysia,MLS,MYS,9,8,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,128,Malawi,MLW,MWI,18,106,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,130,Morocco,MOR,MAR,5,35,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,131,Mozambique,MOZ,MOZ,0,8,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,132,Malta,MTA,MLT,170,11,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,136,Namibia,NAM,NAM,7,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,138,Netherlands (Kingdom of the),NET,NLD,661,444,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,139,Niger,NGR,NER,33,35,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,141,Nigeria,NIG,NGA,8,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,143,Norway,NOR,NOR,771,102,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,145,New Zealand,NZL,NZL,19,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,150,Peru,PER,PER,5,48,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,151,Philippines,PHI,PHL,7,8,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,154,Poland,POL,POL,15,25,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,155,Portugal,POR,PRT,17,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,158,Romania,ROM,ROU,9,66,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,159,South Africa,RSA,ZAF,13400,25624,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,160,Russian Federation,RUS,RUS,0,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,161,Rwanda,RWA,RWA,68,19,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,165,Senegal,SEN,SEN,0,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,172,Somalia,SOM,SOM,5203,20107,5,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,173,Spain,SPA,ESP,108,25,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,179,South Sudan,SSD,SSD,4611,1245,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,177,Sudan,SUD,SDN,54040,15533,5567,0,0,0,3366,-,0
+2023,58,Ethiopia,ETH,ETH,182,Eswatini,SWA,SWZ,39,377,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,183,Sweden,SWE,SWE,2062,235,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,184,Switzerland,SWI,CHE,1837,237,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,185,Syrian Arab Rep.,SYR,SYR,10,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,188,Thailand,THA,THA,17,41,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,195,Tunisia,TUN,TUN,13,226,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,199,Uganda,UGA,UGA,7493,2566,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,200,Ukraine,UKR,UKR,20,0,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,202,United States of America,USA,USA,7456,13038,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,211,Yemen,YEM,YEM,6151,13076,615,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,213,Zambia,ZAM,ZMB,98,5,0,0,0,0,0,-,0
+2023,58,Ethiopia,ETH,ETH,214,Zimbabwe,ZIM,ZWE,74,24,0,0,0,0,5,-,0
+2024,58,Ethiopia,ETH,ETH,6,Angola,ANG,AGO,0,57,0,0,0,0,5,-,0
+2024,58,Ethiopia,ETH,ETH,8,Egypt,ARE,EGY,5745,12274,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,9,Argentina,ARG,ARG,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,11,Australia,AUL,AUS,192,175,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,12,Austria,AUS,AUT,265,71,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,17,Belgium,BEL,BEL,493,453,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,24,Belarus,BLR,BLR,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,27,Brazil,BRA,BRA,18,12,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,30,Bulgaria,BUL,BGR,7,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,33,Canada,CAN,CAN,2361,2928,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,34,Central African Rep.,CAR,CAF,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,36,Chad,CHD,TCD,25,12,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,37,China,CHI,CHN,5,13,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,41,Dem. Rep. of the Congo,COD,COD,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,44,Colombia,COL,COL,7,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,46,Cuba,CUB,CUB,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,48,Cyprus,CYP,CYP,18,17,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,49,Czechia,CZE,CZE,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,50,Denmark,DEN,DNK,253,14,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,51,Djibouti,DJB,DJI,5695,8101,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,56,Eritrea,ERT,ERI,15,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,58,Ethiopia,ETH,ETH,0,0,0,2272533,2438438,0,531,-,1876986
+2024,58,Ethiopia,ETH,ETH,61,Finland,FIN,FIN,186,61,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,64,France,FRA,FRA,4341,664,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,3701,1046,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,71,Georgia,GEO,GEO,0,8,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,72,Germany,GFR,DEU,7555,2458,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,73,Ghana,GHA,GHA,19,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,76,Greece,GRE,GRC,418,91,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,85,Hungary,HUN,HUN,39,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,86,Iceland,ICE,ISL,28,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,87,Cote d'Ivoire,ICO,CIV,7,8,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,88,India,IND,IND,23,59,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,89,Indonesia,INS,IDN,57,44,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,90,Ireland,IRE,IRL,131,67,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,92,Iraq,IRQ,IRQ,0,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,93,Israel,ISR,ISR,125,1133,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,94,Italy,ITA,ITA,998,92,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,96,Jordan,JOR,JOR,37,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,97,Japan,JPN,JPN,43,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,99,Kenya,KEN,KEN,26987,15240,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,102,Rep. of Korea,KOR,KOR,197,467,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,107,Libya,LBY,LBY,42,2054,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,109,Lebanon,LEB,LBN,384,1057,0,0,0,0,229,-,0
+2024,58,Ethiopia,ETH,ETH,110,Lesotho,LES,LSO,25,14,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,114,Luxembourg,LUX,LUX,70,80,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,117,Madagascar,MAD,MDG,0,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,119,Mauritania,MAU,MRT,7,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,122,Rep. of Moldova,MDA,MDA,0,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,124,Mexico,MEX,MEX,0,38,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,127,Malaysia,MLS,MYS,9,6,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,128,Malawi,MLW,MWI,22,163,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,130,Morocco,MOR,MAR,9,27,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,131,Mozambique,MOZ,MOZ,0,9,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,132,Malta,MTA,MLT,81,25,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,136,Namibia,NAM,NAM,6,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,138,Netherlands (Kingdom of the),NET,NLD,656,674,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,139,Niger,NGR,NER,30,14,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,141,Nigeria,NIG,NGA,9,6,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,143,Norway,NOR,NOR,470,78,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,145,New Zealand,NZL,NZL,22,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,150,Peru,PER,PER,0,63,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,151,Philippines,PHI,PHL,8,16,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,154,Poland,POL,POL,34,51,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,155,Portugal,POR,PRT,18,6,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,158,Romania,ROM,ROU,10,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,159,South Africa,RSA,ZAF,14157,32716,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,160,Russian Federation,RUS,RUS,0,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,161,Rwanda,RWA,RWA,73,32,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,165,Senegal,SEN,SEN,0,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,172,Somalia,SOM,SOM,5223,21818,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,173,Spain,SPA,ESP,117,25,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,5,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,179,South Sudan,SSD,SSD,5824,1218,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,177,Sudan,SUD,SDN,49547,20348,11663,0,0,0,3289,-,0
+2024,58,Ethiopia,ETH,ETH,181,Slovenia,SVN,SVN,0,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,182,Eswatini,SWA,SWZ,52,505,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,183,Sweden,SWE,SWE,2824,127,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,184,Switzerland,SWI,CHE,1837,381,9,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,185,Syrian Arab Rep.,SYR,SYR,9,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,188,Thailand,THA,THA,19,61,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,195,Tunisia,TUN,TUN,12,224,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,198,United Arab Emirates,UAE,ARE,0,5,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,199,Uganda,UGA,UGA,10718,4116,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,200,Ukraine,UKR,UKR,15,0,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,202,United States of America,USA,USA,7636,14720,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,211,Yemen,YEM,YEM,4235,11820,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,213,Zambia,ZAM,ZMB,121,9,0,0,0,0,0,-,0
+2024,58,Ethiopia,ETH,ETH,214,Zimbabwe,ZIM,ZWE,61,31,0,0,0,0,5,-,0

@@ -1,0 +1,8 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,58,Ethiopia,ETH,ETH,-,-,-,-,92232,133254,16,2615800,0,0,4228,-,0
+2019,58,Ethiopia,ETH,ETH,-,-,-,-,93467,135267,139,1733628,1303736,0,3881,-,0
+2020,58,Ethiopia,ETH,ETH,-,-,-,-,151426,125072,89,2733628,0,0,3925,-,0
+2021,58,Ethiopia,ETH,ETH,-,-,-,-,149130,139211,1082,3646267,1548421,0,3918,-,84953
+2022,58,Ethiopia,ETH,ETH,-,-,-,-,149603,121362,288,2730000,1880000,0,4902,-,596148
+2023,58,Ethiopia,ETH,ETH,-,-,-,-,158344,139424,6187,2561497,534293,0,4791,-,1115201
+2024,58,Ethiopia,ETH,ETH,-,-,-,-,164423,158142,11672,2272533,2438438,0,4059,-,1876986

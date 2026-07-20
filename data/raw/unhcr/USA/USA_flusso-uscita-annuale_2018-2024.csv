@@ -1,0 +1,8 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,202,United States of America,USA,USA,-,-,-,-,332,2834,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,-,-,-,-,297,2940,0,0,0,0,12,-,0
+2020,202,United States of America,USA,USA,-,-,-,-,349,2491,0,0,0,0,7,-,0
+2021,202,United States of America,USA,USA,-,-,-,-,426,1662,0,0,0,0,6,-,0
+2022,202,United States of America,USA,USA,-,-,-,-,1327,2115,0,0,0,0,10,-,0
+2023,202,United States of America,USA,USA,-,-,-,-,1229,2051,0,0,0,0,5,-,0
+2024,202,United States of America,USA,USA,-,-,-,-,4004,2409,16,0,0,0,0,-,0

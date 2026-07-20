@@ -1,0 +1,8 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,179,South Sudan,SSD,SSD,-,-,-,-,2285301,12701,136155,1878154,0,0,10000,-,0
+2019,179,South Sudan,SSD,SSD,-,-,-,-,2234805,5616,99816,1665815,276463,0,10000,-,0
+2020,179,South Sudan,SSD,SSD,-,-,-,-,2188785,4858,122000,1600254,174463,0,56,-,250000
+2021,179,South Sudan,SSD,SSD,-,-,-,-,2362759,5037,270220,2017236,0,0,74,-,250000
+2022,179,South Sudan,SSD,SSD,-,-,-,-,2295082,5228,151256,1474679,0,0,306,-,371594
+2023,179,South Sudan,SSD,SSD,-,-,-,-,2292482,24596,527206,1236672,0,0,66,-,454831
+2024,179,South Sudan,SSD,SSD,-,-,-,-,2290622,32841,404744,944631,0,0,70,-,1327345

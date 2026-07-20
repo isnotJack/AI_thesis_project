@@ -1,0 +1,8 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,160,Russian Federation,RUS,RUS,-,-,-,-,61457,43268,32,0,0,0,0,-,0
+2019,160,Russian Federation,RUS,RUS,-,-,-,-,62353,48282,5,0,0,0,0,-,0
+2020,160,Russian Federation,RUS,RUS,-,-,-,-,52742,44399,0,0,0,0,0,-,0
+2021,160,Russian Federation,RUS,RUS,-,-,-,-,68547,42959,0,0,0,0,0,-,0
+2022,160,Russian Federation,RUS,RUS,-,-,-,-,80093,66373,0,0,0,0,27145,-,0
+2023,160,Russian Federation,RUS,RUS,-,-,-,-,86135,114669,5,0,0,0,1253,-,0
+2024,160,Russian Federation,RUS,RUS,-,-,-,-,96869,125962,77,0,0,0,1305,-,0

@@ -1,0 +1,20 @@
+# Credenziali
+.env
+*.key
+
+# Output di grafo/simulazione (spesso pesanti/binari)
+outputs/graphs/*.pkl
+outputs/simulations/*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Claude Code (impostazioni locali, non condivise)
+.claude/settings.local.json

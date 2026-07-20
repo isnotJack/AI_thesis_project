@@ -1,0 +1,237 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,202,United States of America,USA,USA,9,Argentina,ARG,ARG,5,10,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,11,Australia,AUL,AUS,16,29,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,12,Austria,AUS,AUT,5,0,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,17,Belgium,BEL,BEL,0,10,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,27,Brazil,BRA,BRA,0,38,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,33,Canada,CAN,CAN,63,2507,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,45,Costa Rica,COS,CRI,0,26,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,54,Ecuador,ECU,ECU,7,0,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,52,52,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,72,Germany,GFR,DEU,133,26,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,76,Greece,GRE,GRC,0,5,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,90,Ireland,IRE,IRL,0,9,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,94,Italy,ITA,ITA,5,5,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,102,Rep. of Korea,KOR,KOR,0,5,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,124,Mexico,MEX,MEX,7,33,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,127,Malaysia,MLS,MYS,8,0,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,138,Netherlands (Kingdom of the),NET,NLD,6,14,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,173,Spain,SPA,ESP,0,35,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,183,Sweden,SWE,SWE,20,15,0,0,0,0,0,-,0
+2018,202,United States of America,USA,USA,184,Switzerland,SWI,CHE,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,9,Argentina,ARG,ARG,5,10,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,11,Australia,AUL,AUS,15,46,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,12,Austria,AUS,AUT,5,0,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,16,Burundi,BDI,BDI,0,0,0,0,0,0,5,-,0
+2019,202,United States of America,USA,USA,17,Belgium,BEL,BEL,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,27,Brazil,BRA,BRA,0,47,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,33,Canada,CAN,CAN,0,2445,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,45,Costa Rica,COS,CRI,5,31,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,53,Dominican Rep.,DOM,DOM,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,54,Ecuador,ECU,ECU,7,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,61,Finland,FIN,FIN,0,7,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,64,France,FRA,FRA,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,58,81,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,72,Germany,GFR,DEU,133,23,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,76,Greece,GRE,GRC,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,78,Guatemala,GUA,GTM,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,90,Ireland,IRE,IRL,0,17,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,94,Italy,ITA,ITA,5,0,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,96,Jordan,JOR,JOR,0,0,0,0,0,0,7,-,0
+2019,202,United States of America,USA,USA,102,Rep. of Korea,KOR,KOR,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,124,Mexico,MEX,MEX,18,60,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,127,Malaysia,MLS,MYS,7,0,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,138,Netherlands (Kingdom of the),NET,NLD,17,13,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,151,Philippines,PHI,PHL,0,5,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,173,Spain,SPA,ESP,0,85,0,0,0,0,0,-,0
+2019,202,United States of America,USA,USA,183,Sweden,SWE,SWE,22,25,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,9,Argentina,ARG,ARG,5,10,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,11,Australia,AUL,AUS,17,52,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,12,Austria,AUS,AUT,5,0,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,17,Belgium,BEL,BEL,0,15,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,27,Brazil,BRA,BRA,0,50,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,33,Canada,CAN,CAN,12,1932,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,45,Costa Rica,COS,CRI,5,30,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,54,Ecuador,ECU,ECU,8,6,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,61,Finland,FIN,FIN,0,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,64,France,FRA,FRA,0,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,62,103,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,72,Germany,GFR,DEU,134,25,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,90,Ireland,IRE,IRL,0,21,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,94,Italy,ITA,ITA,0,8,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,96,Jordan,JOR,JOR,0,0,0,0,0,0,7,-,0
+2020,202,United States of America,USA,USA,102,Rep. of Korea,KOR,KOR,0,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,124,Mexico,MEX,MEX,27,85,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,127,Malaysia,MLS,MYS,7,0,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,138,Netherlands (Kingdom of the),NET,NLD,29,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,151,Philippines,PHI,PHL,0,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,155,Portugal,POR,PRT,0,5,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,173,Spain,SPA,ESP,11,100,0,0,0,0,0,-,0
+2020,202,United States of America,USA,USA,183,Sweden,SWE,SWE,22,14,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,9,Argentina,ARG,ARG,5,12,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,11,Australia,AUL,AUS,17,58,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,12,Austria,AUS,AUT,5,0,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,17,Belgium,BEL,BEL,0,10,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,27,Brazil,BRA,BRA,0,56,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,33,Canada,CAN,CAN,53,1056,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,45,Costa Rica,COS,CRI,5,39,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,50,Denmark,DEN,DNK,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,54,Ecuador,ECU,ECU,8,0,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,61,Finland,FIN,FIN,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,64,France,FRA,FRA,9,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,67,121,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,72,Germany,GFR,DEU,125,23,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,84,Croatia,HRV,HRV,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,90,Ireland,IRE,IRL,0,21,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,94,Italy,ITA,ITA,5,0,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,96,Jordan,JOR,JOR,0,0,0,0,0,0,6,-,0
+2021,202,United States of America,USA,USA,102,Rep. of Korea,KOR,KOR,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,124,Mexico,MEX,MEX,38,110,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,127,Malaysia,MLS,MYS,7,0,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,138,Netherlands (Kingdom of the),NET,NLD,32,11,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,145,New Zealand,NZL,NZL,0,8,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,151,Philippines,PHI,PHL,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,155,Portugal,POR,PRT,0,5,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,162,El Salvador,SAL,SLV,5,0,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,173,Spain,SPA,ESP,19,85,0,0,0,0,0,-,0
+2021,202,United States of America,USA,USA,183,Sweden,SWE,SWE,21,7,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,9,Argentina,ARG,ARG,5,12,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,11,Australia,AUL,AUS,20,60,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,12,Austria,AUS,AUT,5,7,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,17,Belgium,BEL,BEL,5,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,27,Brazil,BRA,BRA,0,56,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,30,Bulgaria,BUL,BGR,20,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,33,Canada,CAN,CAN,197,1435,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,45,Costa Rica,COS,CRI,7,45,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,50,Denmark,DEN,DNK,5,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,54,Ecuador,ECU,ECU,8,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,57,Estonia,EST,EST,5,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,61,Finland,FIN,FIN,7,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,64,France,FRA,FRA,10,6,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,67,147,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,72,Germany,GFR,DEU,227,32,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,78,Guatemala,GUA,GTM,0,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,84,Croatia,HRV,HRV,8,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,85,Hungary,HUN,HUN,7,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,90,Ireland,IRE,IRL,0,22,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,94,Italy,ITA,ITA,29,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,96,Jordan,JOR,JOR,0,0,0,0,0,0,5,-,0
+2022,202,United States of America,USA,USA,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,115,Latvia,LVA,LVA,6,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,122,Rep. of Moldova,MDA,MDA,93,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,124,Mexico,MEX,MEX,50,136,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,127,Malaysia,MLS,MYS,5,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,133,Montenegro,MNE,MNE,0,0,0,0,0,0,5,-,0
+2022,202,United States of America,USA,USA,132,Malta,MTA,MLT,0,25,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,138,Netherlands (Kingdom of the),NET,NLD,110,8,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,143,Norway,NOR,NOR,5,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,145,New Zealand,NZL,NZL,0,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,151,Philippines,PHI,PHL,0,7,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,154,Poland,POL,POL,100,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,155,Portugal,POR,PRT,67,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,158,Romania,ROM,ROU,45,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,160,Russian Federation,RUS,RUS,9,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,162,El Salvador,SAL,SLV,5,5,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,173,Spain,SPA,ESP,122,55,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,180,Slovakia,SVK,SVK,22,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,181,Slovenia,SVN,SVN,8,0,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,183,Sweden,SWE,SWE,30,12,0,0,0,0,0,-,0
+2022,202,United States of America,USA,USA,184,Switzerland,SWI,CHE,13,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,9,Argentina,ARG,ARG,5,11,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,11,Australia,AUL,AUS,20,114,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,12,Austria,AUS,AUT,5,6,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,17,Belgium,BEL,BEL,5,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,27,Brazil,BRA,BRA,0,53,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,33,Canada,CAN,CAN,138,1304,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,45,Costa Rica,COS,CRI,7,44,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,49,Czechia,CZE,CZE,13,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,50,Denmark,DEN,DNK,5,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,54,Ecuador,ECU,ECU,8,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,61,Finland,FIN,FIN,10,11,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,64,France,FRA,FRA,11,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,99,148,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,72,Germany,GFR,DEU,232,33,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,76,Greece,GRE,GRC,10,7,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,78,Guatemala,GUA,GTM,0,7,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,84,Croatia,HRV,HRV,11,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,85,Hungary,HUN,HUN,9,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,90,Ireland,IRE,IRL,18,24,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,93,Israel,ISR,ISR,0,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,94,Italy,ITA,ITA,9,9,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,96,Jordan,JOR,JOR,0,0,0,0,0,0,5,-,0
+2023,202,United States of America,USA,USA,113,Lithuania,LTU,LTU,5,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,115,Latvia,LVA,LVA,6,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,124,Mexico,MEX,MEX,60,119,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,127,Malaysia,MLS,MYS,6,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,138,Netherlands (Kingdom of the),NET,NLD,81,16,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,143,Norway,NOR,NOR,5,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,150,Peru,PER,PER,0,13,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,151,Philippines,PHI,PHL,0,8,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,154,Poland,POL,POL,86,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,155,Portugal,POR,PRT,74,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,158,Romania,ROM,ROU,49,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,160,Russian Federation,RUS,RUS,20,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,162,El Salvador,SAL,SLV,5,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,173,Spain,SPA,ESP,153,65,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,0,5,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,180,Slovakia,SVK,SVK,22,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,181,Slovenia,SVN,SVN,12,0,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,183,Sweden,SWE,SWE,25,11,0,0,0,0,0,-,0
+2023,202,United States of America,USA,USA,184,Switzerland,SWI,CHE,5,8,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,9,Argentina,ARG,ARG,5,12,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,11,Australia,AUL,AUS,10,79,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,12,Austria,AUS,AUT,34,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,17,Belgium,BEL,BEL,5,13,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,27,Brazil,BRA,BRA,0,60,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,33,Canada,CAN,CAN,2709,1654,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,38,Chile,CHL,CHL,0,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,45,Costa Rica,COS,CRI,12,42,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,49,Czechia,CZE,CZE,10,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,50,Denmark,DEN,DNK,9,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,54,Ecuador,ECU,ECU,5,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,61,Finland,FIN,FIN,12,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,64,France,FRA,FRA,12,10,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,110,142,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,72,Germany,GFR,DEU,228,48,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,76,Greece,GRE,GRC,5,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,78,Guatemala,GUA,GTM,0,9,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,84,Croatia,HRV,HRV,11,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,85,Hungary,HUN,HUN,14,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,90,Ireland,IRE,IRL,21,36,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,93,Israel,ISR,ISR,0,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,94,Italy,ITA,ITA,34,19,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,114,Luxembourg,LUX,LUX,0,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,115,Latvia,LVA,LVA,12,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,122,Rep. of Moldova,MDA,MDA,0,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,124,Mexico,MEX,MEX,67,110,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,127,Malaysia,MLS,MYS,5,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,138,Netherlands (Kingdom of the),NET,NLD,92,14,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,143,Norway,NOR,NOR,48,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,145,New Zealand,NZL,NZL,0,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,150,Peru,PER,PER,0,16,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,151,Philippines,PHI,PHL,0,6,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,154,Poland,POL,POL,108,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,155,Portugal,POR,PRT,75,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,158,Romania,ROM,ROU,55,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,160,Russian Federation,RUS,RUS,32,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,162,El Salvador,SAL,SLV,5,6,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,173,Spain,SPA,ESP,183,55,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,164,Serbia and Kosovo: S/RES/1244 (1999),SRB,SRB,0,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,180,Slovakia,SVK,SVK,25,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,181,Slovenia,SVN,SVN,14,0,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,183,Sweden,SWE,SWE,23,5,0,0,0,0,0,-,0
+2024,202,United States of America,USA,USA,184,Switzerland,SWI,CHE,14,8,16,0,0,0,0,-,0

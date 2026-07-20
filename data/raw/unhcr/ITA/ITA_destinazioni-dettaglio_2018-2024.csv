@@ -1,0 +1,87 @@
+year,coo_id,coo_name,coo,coo_iso,coa_id,coa_name,coa,coa_iso,refugees,asylum_seekers,returned_refugees,idps,returned_idps,stateless,ooc,oip,hst
+2018,94,Italy,ITA,ITA,11,Australia,AUL,AUS,5,23,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,27,Brazil,BRA,BRA,0,18,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,33,Canada,CAN,CAN,5,110,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,45,Costa Rica,COS,CRI,0,5,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,72,Germany,GFR,DEU,27,25,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,148,Panama,PAN,PAN,0,5,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,183,Sweden,SWE,SWE,5,0,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,184,Switzerland,SWI,CHE,5,0,0,0,0,0,0,-,0
+2018,94,Italy,ITA,ITA,202,United States of America,USA,USA,22,190,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,11,Australia,AUL,AUS,5,21,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,17,Belgium,BEL,BEL,0,5,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,27,Brazil,BRA,BRA,0,25,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,33,Canada,CAN,CAN,5,109,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,45,Costa Rica,COS,CRI,0,6,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,0,5,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,72,Germany,GFR,DEU,34,10,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,148,Panama,PAN,PAN,0,5,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,183,Sweden,SWE,SWE,5,0,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,184,Switzerland,SWI,CHE,5,0,0,0,0,0,0,-,0
+2019,94,Italy,ITA,ITA,202,United States of America,USA,USA,22,240,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,11,Australia,AUL,AUS,5,38,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,27,Brazil,BRA,BRA,0,27,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,33,Canada,CAN,CAN,5,76,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,45,Costa Rica,COS,CRI,0,5,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,0,5,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,72,Germany,GFR,DEU,30,6,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,124,Mexico,MEX,MEX,0,5,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,148,Panama,PAN,PAN,0,5,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,184,Switzerland,SWI,CHE,5,0,0,0,0,0,0,-,0
+2020,94,Italy,ITA,ITA,202,United States of America,USA,USA,17,299,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,11,Australia,AUL,AUS,5,50,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,27,Brazil,BRA,BRA,0,32,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,33,Canada,CAN,CAN,5,66,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,45,Costa Rica,COS,CRI,0,6,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,0,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,72,Germany,GFR,DEU,31,0,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,124,Mexico,MEX,MEX,0,8,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,148,Panama,PAN,PAN,0,5,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,184,Switzerland,SWI,CHE,6,5,0,0,0,0,0,-,0
+2021,94,Italy,ITA,ITA,202,United States of America,USA,USA,9,462,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,11,Australia,AUL,AUS,5,58,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,17,Belgium,BEL,BEL,0,10,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,27,Brazil,BRA,BRA,0,40,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,33,Canada,CAN,CAN,17,117,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,45,Costa Rica,COS,CRI,0,13,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,64,France,FRA,FRA,7,0,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,5,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,72,Germany,GFR,DEU,44,0,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,122,Rep. of Moldova,MDA,MDA,35,0,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,124,Mexico,MEX,MEX,5,9,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,148,Panama,PAN,PAN,0,5,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,150,Peru,PER,PER,0,5,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,184,Switzerland,SWI,CHE,15,5,0,0,0,0,0,-,0
+2022,94,Italy,ITA,ITA,202,United States of America,USA,USA,18,403,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,11,Australia,AUL,AUS,5,46,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,27,Brazil,BRA,BRA,0,42,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,33,Canada,CAN,CAN,24,106,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,45,Costa Rica,COS,CRI,0,18,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,64,France,FRA,FRA,7,0,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,8,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,72,Germany,GFR,DEU,48,10,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,124,Mexico,MEX,MEX,5,6,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,148,Panama,PAN,PAN,0,5,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,150,Peru,PER,PER,0,13,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,184,Switzerland,SWI,CHE,12,8,0,0,0,0,0,-,0
+2023,94,Italy,ITA,ITA,202,United States of America,USA,USA,18,1225,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,11,Australia,AUL,AUS,5,58,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,27,Brazil,BRA,BRA,0,50,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,33,Canada,CAN,CAN,121,123,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,45,Costa Rica,COS,CRI,5,17,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,50,Denmark,DEN,DNK,9,0,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,64,France,FRA,FRA,7,0,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,70,United Kingdom of Great Britain and Northern Ireland,GBR,GBR,5,21,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,72,Germany,GFR,DEU,53,13,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,124,Mexico,MEX,MEX,5,7,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,138,Netherlands (Kingdom of the),NET,NLD,5,0,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,143,Norway,NOR,NOR,10,0,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,150,Peru,PER,PER,0,16,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,160,Russian Federation,RUS,RUS,5,0,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,183,Sweden,SWE,SWE,5,0,0,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,184,Switzerland,SWI,CHE,10,5,5,0,0,0,0,-,0
+2024,94,Italy,ITA,ITA,202,United States of America,USA,USA,18,1547,0,0,0,0,0,-,0
