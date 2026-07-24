@@ -72,9 +72,9 @@ def _carica_cfr(iso3: str, periodo: str) -> tuple:
     righe, fonti = [], []
     for _, r in df.iterrows():
         righe.append(
-            f"- {r['titolo']} ({r['data_evento']}): sponsor={r.get('sponsor_stato', '?')}, "
-            f"vittime={r.get('paesi_vittima', '?')}, ruolo={r.get('ruolo', '?')}. "
-            f"{r.get('descrizione', '')}"
+            f"- {r['titolo']} ({r['data_evento']}, categoria={r.get('categoria', '?')}): "
+            f"sponsor={r.get('sponsor_stato', '?')}, vittime={r.get('paesi_vittima', '?')}, "
+            f"ruolo={r.get('ruolo', '?')}. {r.get('descrizione', '')}"
         )
         fonti.append(str(r.get("link") or r["titolo"]))
     return "\n".join(righe), fonti

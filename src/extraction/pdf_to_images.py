@@ -30,15 +30,25 @@ PRIORITA_FONTE = {
     "unhcr_reports": 1,
     "worldbank_mpo": 1,
     "cisa": 2,
+    "enisa": 2,
+    "mddr": 2,
 }
 
 
-def pagine_a_immagini(path: Path, pagine_max: int = PAGINE_MAX_PER_DOCUMENTO) -> list:
-    """Ritorna le prime `pagine_max` pagine del PDF come lista di PNG (bytes)."""
+def pagine_a_immagini(path: Path, pagine_max: int = PAGINE_MAX_PER_DOCUMENTO, pagine_specifiche: list = None) -> list:
+    """Ritorna pagine del PDF come lista di PNG (bytes).
+
+    Se `pagine_specifiche` e' data (indici 0-based, es. le pagine di un
+    report globale che nominano un paese - vedi document_index), rende
+    solo quelle pagine invece delle prime `pagine_max`.
+    """
     immagini = []
     with fitz.open(path) as doc:
-        n = min(len(doc), pagine_max)
-        for i in range(n):
+        if pagine_specifiche is not None:
+            indici = [i for i in pagine_specifiche if i < len(doc)][:pagine_max]
+        else:
+            indici = range(min(len(doc), pagine_max))
+        for i in indici:
             pix = doc[i].get_pixmap(dpi=DPI)
             immagini.append(pix.tobytes("png"))
     return immagini
@@ -61,7 +71,12 @@ def documenti_a_immagini(documenti: list, tetto_totale: int = IMMAGINI_MAX_PER_C
         if len(out) >= tetto_totale:
             break
         rimanenti = tetto_totale - len(out)
-        for png in pagine_a_immagini(doc.path, pagine_max=min(PAGINE_MAX_PER_DOCUMENTO, rimanenti)):
+        immagini = pagine_a_immagini(
+            doc.path,
+            pagine_max=min(PAGINE_MAX_PER_DOCUMENTO, rimanenti),
+            pagine_specifiche=doc.pagine,
+        )
+        for png in immagini:
             out.append((doc.fonte, doc.path.name, png))
             if len(out) >= tetto_totale:
                 break
