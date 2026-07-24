@@ -12,9 +12,10 @@ dbfread
 # Grafo
 networkx
 
-# LMM / LLM (scegliere in base al provider usato nel Blocco A)
-google-generativeai   # per Gemini 2.0 Flash, usato nel Blocco A
-python-dotenv         # per gestire le API key senza hardcodarle nel codice
+# LMM / LLM (Blocco A) - Qwen2.5-VL:7b via Ollama locale (Mac dev / job PBS su Leonardo)
+ollama
+pymupdf     # rasterizzazione pagine PDF -> immagini per l'input multimodale
+jsonschema  # validazione difensiva del JSON estratto contro extraction_schema.json
 
 # Notebook
 jupyter

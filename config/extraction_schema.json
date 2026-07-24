@@ -1,29 +1,113 @@
 {
-  "_descrizione": "Schema fisso che l'LMM deve riempire per ogni coppia (paese, periodo). Se un'informazione non e' esplicitamente presente nei documenti forniti, il campo va lasciato a null. Questo file NON viene eseguito, serve come riferimento/contratto usato dai prompt in src/extraction/.",
-
-  "paese": "str",
-  "periodo": "str (es. 2018-Q2)",
-
-  "instabilita": {
-    "livello_carestia": "nessuna | moderata | severa | critica",
-    "intensita_conflitto": "nessuna | bassa | media | alta",
-    "descrizione_conflitto": "str o null",
-    "tasso_poverta_pct": "float o null"
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Profilo paese/trimestre - Blocco A",
+  "description": "Schema che l'LMM deve riempire per ogni coppia (paese, periodo), a partire SOLO dai documenti non strutturati forniti nel prompt (PDF renderizzati in immagini + testo Wikipedia). I valori numerici gia' disponibili puliti nei CSV grezzi (tasso poverta', conteggio eventi ACLED, flusso migratorio, intensita' conflitto bucketizzata) NON passano da qui: vengono uniti al profilo del nodo direttamente in pandas nel Blocco B. Se un'informazione non e' esplicitamente presente nei documenti forniti per quel paese/trimestre, il campo va lasciato a null - non inventare. Una sezione = una dimensione del progetto = una fonte non strutturata specifica. Questo file e' sia documentazione (i campi 'description') sia lo JSON Schema passato al parametro 'format' di Ollama per vincolare la generazione.",
+  "type": "object",
+  "properties": {
+    "paese": {
+      "type": "string",
+      "description": "Codice ISO3 del paese, es. SDN"
+    },
+    "periodo": {
+      "type": "string",
+      "description": "Trimestre nel formato YYYY-Qn, es. 2018-Q2"
+    },
+    "conflitto": {
+      "type": "object",
+      "description": "Fonte: ACAPS (report PDF) + Wikipedia contesto_generale del trimestre. L'intensita' del conflitto (alta/media/bassa) non e' un campo qui: viene bucketizzata in Blocco B dai conteggi ACLED, dato quantitativo gia' pulito.",
+      "properties": {
+        "descrizione": {
+          "type": ["string", "null"],
+          "description": "Sintesi narrativa: cosa sta succedendo, attori coinvolti, sviluppi principali del trimestre. Null se i documenti forniti non ne parlano."
+        }
+      },
+      "required": ["descrizione"],
+      "additionalProperties": false
+    },
+    "carestia": {
+      "type": "object",
+      "description": "Fonte: FEWS NET (report PDF). Solo per i 7 paesi coperti da questa fonte - null altrove, e' un buco reale della fonte non un errore di estrazione.",
+      "properties": {
+        "livello_ipc": {
+          "type": "string",
+          "enum": ["nessuna", "fase1_minima", "fase2_stressata", "fase3_crisi", "fase4_emergenza", "fase5_carestia", "non_specificato"],
+          "description": "Fase IPC riportata nel documento FEWS NET. 'non_specificato' se il documento non la indica esplicitamente."
+        },
+        "descrizione": {
+          "type": ["string", "null"],
+          "description": "Driver principali (siccita', conflitto, crisi economica, ecc.) secondo il report."
+        }
+      },
+      "required": ["livello_ipc", "descrizione"],
+      "additionalProperties": false
+    },
+    "migrazione": {
+      "type": "object",
+      "description": "Fonte: UNHCR / ReliefWeb (report PDF). I numeri di flusso e le destinazioni principali restano nel CSV grezzo, letti direttamente in Blocco B.",
+      "properties": {
+        "descrizione": {
+          "type": ["string", "null"],
+          "description": "Criticita' di protezione, nuovi corridoi o ostacoli operativi menzionati nel report, non desumibili dal solo dato numerico."
+        }
+      },
+      "required": ["descrizione"],
+      "additionalProperties": false
+    },
+    "economia": {
+      "type": "object",
+      "description": "Fonte: World Bank Macro Poverty Outlook (report PDF). Solo per i 10 paesi coperti - null altrove (il prodotto MPO copre solo economie in via di sviluppo, per costruzione).",
+      "properties": {
+        "sintesi": {
+          "type": ["string", "null"],
+          "description": "Outlook di crescita, rischi fiscali/esterni segnalati nel report. Il tasso di poverta' numerico resta nel CSV, letto in Blocco B."
+        }
+      },
+      "required": ["sintesi"],
+      "additionalProperties": false
+    },
+    "cyber": {
+      "type": "object",
+      "description": "Fonte: CFR Cyber Operations Tracker + CISA / ENISA / Microsoft Digital Defense Report (PDF dove disponibili).",
+      "properties": {
+        "incidenti_noti": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Descrizione breve di ogni incidente rilevante nel trimestre."
+        },
+        "advisory_che_menzionano_il_paese": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Titolo o id di ogni advisory CISA/ENISA/MDDR che menziona il paese."
+        },
+        "gruppi_minaccia_associati": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Nomi dei gruppi/threat actor associati al paese nei documenti forniti (es. APT28, Lazarus Group)."
+        },
+        "settori_bersaglio": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Settori colpiti se menzionati nei report, es. energia, finanza, sanita', governo."
+        },
+        "ruolo": {
+          "type": "string",
+          "enum": ["vittima", "attore", "entrambi", "non_specificato"],
+          "description": "Ruolo del paese negli incidenti/advisory di questo trimestre."
+        }
+      },
+      "required": ["incidenti_noti", "advisory_che_menzionano_il_paese", "gruppi_minaccia_associati", "settori_bersaglio", "ruolo"],
+      "additionalProperties": false
+    },
+    "contesto_generale": {
+      "type": ["string", "null"],
+      "description": "Sintesi narrativa di background per il trimestre del paese, derivata dalla pagina Wikipedia annuale 'YYYY in <Country>': leadership, eventi principali, situazioni in corso. La fonte grezza e' annuale, non trimestrale - e' l'LMM in fase di estrazione a produrre 4 sintesi separate, una per trimestre, basandosi sulle date gia' presenti nel testo (gli eventi in pagina sono raggruppati per mese). Se per un trimestre il testo non riporta eventi specifici, il campo riprende la sintesi generale dell'anno invece di restare null. Scopo: contesto per l'LMM stesso durante l'estrazione delle altre dimensioni, e knowledge di base per gli agenti del Blocco C - non un segnale quantitativo come le altre dimensioni."
+    },
+    "fonti": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Nome file o url di ogni documento effettivamente usato per riempire questo JSON."
+    }
   },
-
-  "migrazione": {
-    "stima_flusso_uscita": "int o null",
-    "paesi_destinazione_principali": ["str"]
-  },
-
-  "cyber": {
-    "incidenti_noti": ["str"],
-    "advisory_che_menzionano_il_paese": ["str"],
-    "gruppi_minaccia_associati": ["str"],
-    "ruolo": "vittima | attore | entrambi | non_specificato"
-  },
-
-  "contesto_generale": "str o null (sintesi narrativa di background per il trimestre del paese, derivata dalla pagina Wikipedia annuale 'YYYY in <Country>': leadership, eventi principali, situazioni in corso. La fonte grezza e' annuale, non trimestrale - e' l'LMM in fase di estrazione a produrre 4 sintesi separate, una per trimestre, basandosi sulle date gia' presenti nel testo (gli eventi in pagina sono raggruppati per mese). Se per un trimestre il testo non riporta eventi specifici, il campo riprende la sintesi generale dell'anno invece di restare null. Scopo: contesto per l'LMM stesso durante l'estrazione delle altre dimensioni, e knowledge di base per gli agenti del Blocco C - non un segnale quantitativo come le altre dimensioni.)",
-
-  "fonti": ["str (nome file o url del documento usato)"]
+  "required": ["paese", "periodo", "conflitto", "carestia", "migrazione", "economia", "cyber", "contesto_generale", "fonti"],
+  "additionalProperties": false
 }

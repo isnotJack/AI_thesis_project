@@ -1,11 +1,12 @@
-# Script HPC (Leonardo)
+# Script HPC (Leonardo / DaVinci-1)
 
-Cartella vuota per ora. Quando avrai accesso a Leonardo, qui andranno:
+Il cluster usa PBS Pro (non SLURM), job GPU via `qsub -q gpu`.
 
-- script di trasferimento dati locale -> cluster (rsync/scp) verso `$WORK` o `$SCRATCH`
-- script batch SLURM per far girare l'estrazione LMM su piu' documenti in parallelo (Blocco A, se si sceglie un modello locale invece di un'API)
-- script batch SLURM per la simulazione del Blocco C
+- `estrazione_blocco_a.pbs` — job batch per l'estrazione LMM (Blocco A):
+  avvia Ollama sul nodo GPU assegnato, scarica Qwen2.5-VL:7b se serve,
+  esegue `src/extraction/lmm_extractor.py` su tutte le 476 combinazioni
+  (paese, trimestre). Resumable - rilanciare lo stesso comando salta le
+  combinazioni gia' estratte. Vedi commento in testa al file per l'uso.
 
-Nota: verifica appena hai le credenziali se il tuo progetto su Leonardo ha
-accesso a JupyterHub (interattivo) o se dovrai lavorare solo via job batch.
-Questo cambia come strutturare il codice in questa cartella.
+Ancora da scrivere quando serviranno: job batch per la simulazione del
+Blocco C (dopo che Blocco A e B saranno completi).
