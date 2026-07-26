@@ -16,6 +16,13 @@ import ollama
 
 MODELLO = os.environ.get("OLLAMA_MODEL", "qwen2.5vl:7b")
 HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
+# Senza num_ctx esplicito il runtime usa il default del modello (fino a
+# 128000+ token): il KV-cache/compute-buffer risultante non ci sta su una
+# singola A100 da 40GB e Ollama retrocede a girare su CPU (lentissimo, ~5
+# minuti a chiamata prima di andare in timeout). Il nostro input reale
+# (fino a 10 immagini + testo Wikipedia/CFR/CISA + output JSON) sta
+# comodamente sotto questa soglia.
+NUM_CTX = int(os.environ.get("OLLAMA_NUM_CTX", 32768))
 
 _client = ollama.Client(host=HOST)
 
@@ -42,7 +49,7 @@ def estrai(prompt: str, immagini: list, schema: dict, modello: str = MODELLO) ->
         model=modello,
         messages=[messaggio],
         format=schema,
-        options={"temperature": 0},
+        options={"temperature": 0, "num_ctx": NUM_CTX},
     )
     return risposta["message"]["content"]
 
