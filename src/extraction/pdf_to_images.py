@@ -10,18 +10,26 @@ Due tetti per tenere sotto controllo la dimensione della chiamata:
   approssimazione ragionevole visto che la mediana e' 5 pagine, ma nota
   per documenti lunghi come alcune analisi ACAPS o i report MPO)
 - immagini totali per chiamata: nei trimestri con piu' documenti
-  sovrapposti (es. Sudan 2023, fino a 10 documenti in un trimestre) si
+  sovrapposti (mediana 3 documenti/trimestre ma coda lunga, fino a 16) si
   taglia dando priorita' alle fonti piu' rilevanti per il contenuto
   narrativo/qualitativo (ACAPS/FEWS NET), poi ai documenti piu' recenti.
+
+DPI e tetto immagini fissati sperimentalmente su Leonardo (A100 40GB,
+Qwen2.5-VL:7b, vedi docs/decisioni_progetto.md 2026-07-26): il costo di
+un'inferenza cresce piu' che linearmente con i token immagine totali nel
+prompt (1 immagine a DPI 170 ~10s, 10 immagini >18min e in salita) - non
+e' un blocco, e' calcolo vero (GPU-Util 88% durante l'attesa). Con 476
+chiamate nel batch, un tetto piu' alto rende il job intero infattibile
+anche spalmato sulle 4 GPU disponibili.
 """
 
 from pathlib import Path
 
 import fitz
 
-DPI = 170
+DPI = 130
 PAGINE_MAX_PER_DOCUMENTO = 4
-IMMAGINI_MAX_PER_CHIAMATA = 10
+IMMAGINI_MAX_PER_CHIAMATA = 4
 
 # priorita' di fonte quando serve tagliare (0 = piu' importante)
 PRIORITA_FONTE = {

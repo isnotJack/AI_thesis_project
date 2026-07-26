@@ -224,3 +224,47 @@ SDN: 9/10 (manca solo sm22)
        un pool a dimensione fissa, che si esaurirebbe con i thread
        appesi) prima di scoprire la vera causa.
 
+## 2026-07-26
+- Debug su Leonardo (nodo A100, Qwen2.5-VL:7b via Ollama) di due problemi
+  distinti incontrati avviando davvero l'estrazione LMM del Blocco A:
+  1. Ollama (qualunque versione >=0.13.x, testato su 0.23.3) ha una
+     regressione nota nel calcolo RoPE per Qwen2.5-VL su CUDA
+     (`GGML_ASSERT(a->ne[2] * 4 == b->ne[0]) failed`, crash ad ogni
+     chiamata - vedi ollama/ollama#13630). Fix: pinnare `module load
+     ollama/0.12.11` (confermato funzionante) in
+     `scripts_hpc/estrazione_blocco_a.pbs`.
+  2. Senza `num_ctx` esplicito Ollama usa il default del modello
+     (>=128000 token): il KV-cache/compute-buffer risultante non entra
+     su una singola A100 40GB e il runtime retrocede silenziosamente a
+     girare su CPU (minuti a chiamata invece di secondi). Fix: `num_ctx`
+     esplicito a 32768 in `src/extraction/ollama_client.py` (il nostro
+     input reale, anche nel caso piu' pesante, sta ben sotto questa
+     soglia) - con questo il modello sta tutto su una GPU (`offloaded
+     29/29 layers`).
+- DPI e tetto immagini per chiamata (`src/extraction/pdf_to_images.py`),
+  ridimensionati dopo aver misurato il costo reale: con Flash Attention
+  attiva, una chiamata con 1 sola immagine impiega ~10s, ma con le 10
+  immagini del tetto originale il tempo sale oltre i 18 minuti (test
+  interrotto ancora in corso, GPU-Util all'88% - non e' un blocco, e'
+  calcolo vero che scala piu' che linearmente con i token immagine
+  totali nel prompt). Con 476 chiamate nel batch anche spalmando su 4
+  GPU in parallelo, un tetto a 10 immagini rende il job intero
+  infattibile in tempi ragionevoli.
+  Analisi della distribuzione reale (`indicizza_documenti` su tutti e 17
+  i paesi, 423 trimestri con almeno un documento): mediana 3
+  documenti/trimestre (media 3.67, max 16; coda lunga su YEM 7.6,
+  SDN 6.2, UKR 6.1, ETH 5.7 - i paesi piu' instabili). Contando anche le
+  pagine per documento (fino a `PAGINE_MAX_PER_DOCUMENTO`=4 ciascuno),
+  il totale di immagini potenzialmente disponibili per trimestre ha
+  mediana 9 e media 13 - quindi anche un tetto moderato (es. 6) taglia
+  la maggioranza dei trimestri (58%), non solo i pochi casi estremi:
+  il taglio e' la norma, non l'eccezione, per via del costo di calcolo.
+  Mitigazione: `PRIORITA_FONTE` (gia' esistente) sceglie sempre prima le
+  pagine di ACAPS/FEWS NET, le uniche fonti qualitative senza un
+  equivalente testuale nel prompt; CISA e CFR hanno gia' un riassunto
+  testuale indipendente dalle immagini (`input_assembly.py`), quindi
+  perdere le loro pagine quando si taglia costa relativamente meno.
+  Scelta finale: `DPI` 170->130, `IMMAGINI_MAX_PER_CHIAMATA` 10->4. Non
+  ancora ri-misurato il tempo/chiamata con questi nuovi valori - primo
+  passo del prossimo test su Leonardo.
+
