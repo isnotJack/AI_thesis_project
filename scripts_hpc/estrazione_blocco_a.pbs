@@ -21,7 +21,11 @@
 set -e
 cd "$PBS_O_WORKDIR"
 
-module load ollama   # `module avail | grep ollama` per la versione esatta se serve fissarla
+# Pin a 0.12.11: le versioni >=0.13.x hanno una regressione nota nel
+# calcolo RoPE per Qwen2.5-VL su CUDA (GGML_ASSERT(a->ne[2] * 4 ==
+# b->ne[0]) failed, crash ad ogni chiamata) - vedi
+# https://github.com/ollama/ollama/issues/13630
+module load ollama/0.12.11
 
 # Ambiente Python del progetto - creane uno la prima volta con:
 #   python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
