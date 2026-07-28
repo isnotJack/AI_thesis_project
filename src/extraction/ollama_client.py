@@ -23,6 +23,11 @@ HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 # (fino a 10 immagini + testo Wikipedia/CFR/CISA + output JSON) sta
 # comodamente sotto questa soglia.
 NUM_CTX = int(os.environ.get("OLLAMA_NUM_CTX", 65536))
+# repeat_penalty sopra il default (1.1) per spezzare i loop di
+# generazione visti col 32b: enumerazioni degeneri (APT29, APT28, ...,
+# APT1) e balbuzie ("Techniques, Techniques, Techniques"). Vedi
+# docs/decisioni_progetto.md 2026-07-28.
+REPEAT_PENALTY = float(os.environ.get("OLLAMA_REPEAT_PENALTY", 1.3))
 
 _client = ollama.Client(host=HOST)
 
@@ -54,7 +59,7 @@ def estrai(prompt: str, immagini: list, schema: dict, modello: str = MODELLO, ti
         model=modello,
         messages=[messaggio],
         format=schema,
-        options={"temperature": 0, "num_ctx": NUM_CTX},
+        options={"temperature": 0, "num_ctx": NUM_CTX, "repeat_penalty": REPEAT_PENALTY},
     )
     return risposta["message"]["content"]
 

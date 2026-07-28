@@ -111,8 +111,11 @@ def costruisci_prompt(input_assemblato: InputAssemblato) -> tuple:
         "per i campi a scelta chiusa.",
         "4. NON copiare nel risultato gli esempi o le spiegazioni dei campi: quelle "
         "servono solo a te per capire cosa cercare, non sono dati da riportare.",
-        "5. Negli array NON ripetere due volte lo stesso elemento: ogni voce deve "
-        "essere distinta. Un incidente/gruppo/settore va elencato una sola volta.",
+        "5. Negli array NON ripetere lo stesso elemento e NON generare sequenze "
+        "inventate (in particolare NON elencare sigle numerate progressive tipo "
+        "APT1, APT2, APT3...): elenca solo elementi realmente distinti e "
+        "effettivamente nominati nei documenti forniti. Se un gruppo o incidente "
+        "non e' esplicitamente nei documenti, non includerlo.",
         "6. Rispondi interamente in ITALIANO.",
         f"7. Il campo `paese` deve essere ESATTAMENTE \"{ia.paese}\" (codice ISO3) e "
         f"`periodo` esattamente \"{ia.periodo}\".",

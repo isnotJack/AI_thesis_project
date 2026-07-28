@@ -464,5 +464,28 @@ SDN: 9/10 (manca solo sm22)
   troncati ne' rifare lavoro. Stima: ~476 chiamate / 4 GPU a ~90s
   l'una ~ 3 ore.
 
+- **Verificato tetto=16 vs tetto=24 col 32b (A/B su RUS e UKR) -> si
+  tiene 16.** A 24 il tempo sale (~85-120s -> ~125-135s) ma la qualita'
+  NON migliora, anzi peggiora in punti:
+  - RUS: il loop degenere nella lista gruppi (APT29, APT28, ..., APT1
+    con alias inventati) resta identico a 24 -> confermato che e' un
+    difetto di GENERAZIONE del modello, non di contesto/copertura.
+  - UKR: a 24 la carestia regredisce (livello_ipc da 'fase3_crisi' a
+    'non_specificato') e il cyber si confonde (elenca attacchi contro la
+    Russia ma mette ruolo=vittima). Piu' contesto diluisce invece di
+    aiutare.
+  Quindi il limite di RUS era il modello, non il tetto.
+- **Chi perde le immagini cyber nei 31 trimestri (tetto=16): solo paesi
+  umanitari.** Breakdown: UKR 12, SDN 9, ETH 6, YEM 4. I veri attori
+  cyber (RUS/CHN/PRK/IRN) non perdono MAI il cyber (hanno pochi documenti
+  concorrenti). Quindi la perdita riguarda menzioni cyber marginali (di
+  striscio, come vittime) di paesi che nel grafo contano per
+  conflitto/carestia/migrazione - impatto basso, limite accettabile.
+- **Mitigazione del loop di generazione del 32b** (indipendente da
+  16/24): `repeat_penalty` alzato da 1.1 a 1.3 in `ollama_client.py`
+  (spezza enumerazioni degeneri e balbuzie tipo "Techniques, Techniques")
+  + regola di prompt che vieta esplicitamente le sigle numerate
+  progressive. Da verificare l'effetto su RUS al prossimo test.
+
 
 
