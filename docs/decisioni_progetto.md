@@ -482,10 +482,21 @@ SDN: 9/10 (manca solo sm22)
   striscio, come vittime) di paesi che nel grafo contano per
   conflitto/carestia/migrazione - impatto basso, limite accettabile.
 - **Mitigazione del loop di generazione del 32b** (indipendente da
-  16/24): `repeat_penalty` alzato da 1.1 a 1.3 in `ollama_client.py`
-  (spezza enumerazioni degeneri e balbuzie tipo "Techniques, Techniques")
-  + regola di prompt che vieta esplicitamente le sigle numerate
-  progressive. Da verificare l'effetto su RUS al prossimo test.
+  16/24), in tre livelli:
+  1. `repeat_penalty` alzato da 1.1 a 1.3 in `ollama_client.py`: ha
+     eliminato le balbuzie ("Techniques, Techniques, Techniques") ma NON
+     la cascata APT.
+  2. regola di prompt che vieta le sigle numerate progressive: non
+     sufficiente da sola (il 32b la ignora su RUS).
+  3. filtro deterministico a valle (`_rimuovi_sequenze_apt` in
+     `lmm_extractor.py`): rimuove le sigle 'APT<n>' che fanno parte di
+     una sequenza di interi consecutivi lunga (>=4) - impronta certa di
+     allucinazione enumerativa. Verificato su RUS: la lista
+     FSB/SVR/GRU/TsNIIKhM/APT40/APT28/APT29/APT23.../APT1 viene ripulita
+     a FSB/SVR/GRU/TsNIIKhM/APT40/APT28/APT29 (tiene i reali, toglie la
+     cascata); una lista legittima resta invariata. E' il livello che
+     effettivamente risolve il problema; gli altri due restano come
+     prima linea.
 
 
 

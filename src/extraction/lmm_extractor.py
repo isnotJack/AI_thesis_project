@@ -12,6 +12,7 @@ pipeline puo' girare a pezzi su piu' job PBS con walltime limitato).
 
 import json
 import os
+import re
 import time
 from pathlib import Path
 
@@ -80,6 +81,39 @@ def _dedup(lista: list) -> list:
     return out
 
 
+_APT_RE = re.compile(r"\bAPT[\s-]?(\d+)\b", re.IGNORECASE)
+
+
+def _rimuovi_sequenze_apt(lista: list) -> list:
+    """Rimuove le sigle 'APT<n>' che fanno parte di una sequenza di interi
+    consecutivi lunga (>=4): e' l'impronta di un'allucinazione enumerativa
+    del 32b (es. APT23, APT22, ..., APT1), non un dato reale. Le sigle
+    isolate o in coppia (es. APT28, APT29, gli unici davvero russi) restano.
+    Nessun report reale elenca APT numerati progressivi in sequenza."""
+    numeri: dict = {}
+    for i, el in enumerate(lista):
+        m = _APT_RE.search(el) if isinstance(el, str) else None
+        if m:
+            numeri.setdefault(int(m.group(1)), []).append(i)
+    if not numeri:
+        return lista
+    da_rimuovere: set = set()
+    ordinati = sorted(numeri)
+    run = [ordinati[0]]
+    for n in ordinati[1:]:
+        if n == run[-1] + 1:
+            run.append(n)
+        else:
+            if len(run) >= 4:
+                for x in run:
+                    da_rimuovere.update(numeri[x])
+            run = [n]
+    if len(run) >= 4:
+        for x in run:
+            da_rimuovere.update(numeri[x])
+    return [el for i, el in enumerate(lista) if i not in da_rimuovere]
+
+
 def _pulisci(risultato: dict) -> dict:
     """Post-processing deterministico a valle del modello:
     - normalizza la stringa "null" (e simili) nel vero null JSON;
@@ -102,6 +136,9 @@ def _pulisci(risultato: dict) -> dict:
                       "gruppi_minaccia_associati", "settori_bersaglio"):
             if isinstance(cyber.get(campo), list):
                 cyber[campo] = _dedup(cyber[campo])
+        if isinstance(cyber.get("gruppi_minaccia_associati"), list):
+            cyber["gruppi_minaccia_associati"] = _rimuovi_sequenze_apt(
+                cyber["gruppi_minaccia_associati"])
     if isinstance(risultato.get("fonti"), list):
         risultato["fonti"] = _dedup(risultato["fonti"])
     return risultato
