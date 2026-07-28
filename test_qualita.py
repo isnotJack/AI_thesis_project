@@ -67,7 +67,7 @@ for iso3, periodo in CASI:
 
     t0 = time.time()
     try:
-        grezzo = ollama_client.estrai(prompt, imgs, schema)
+        grezzo = ollama_client.estrai(prompt, imgs, schema, timeout=300)
         dt = time.time() - t0
         risultato = json.loads(grezzo)
         try:
