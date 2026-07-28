@@ -376,5 +376,35 @@ SDN: 9/10 (manca solo sm22)
   ri-renderizzate al volo al DPI/tetto del rung, via i parametri passati
   a `assembla_input`/`documenti_a_immagini`/`pagine_a_immagini`.
 
+- **Confronto 7b vs 32b (q4_K_M) sugli stessi 4 casi -> scelto il 32b.**
+  Il 32b sistema tutte e quattro le debolezze del 7b:
+  1. Rispetta il "-> null" sulle dimensioni assenti: YEM/SDN hanno
+     migrazione ed economia a null invece di speculazioni; RUS ha
+     carestia/migrazione a null. Niente piu' invenzione di documenti
+     mai ricevuti.
+  2. Legge davvero la fase IPC dalle mappe FEWS NET: YEM
+     'fase4_emergenza', SDN 'fase3_crisi' (il 7b diceva sempre
+     'non_specificato').
+  3. Distingue le dimensioni: SDN ha conflitto (SAF/RSF) e carestia
+     (driver alimentari) con contenuti diversi, non lo stesso testo
+     copiato ovunque come faceva il 7b.
+  4. Italiano coerente ovunque (il 7b scivolava in inglese su SDN).
+  Inoltre il cyber su RUS e' ricco e corretto (ruolo 'attore', gruppi
+  reali: FSB/SVR/GRU/Berserk Bear/Nobelium/UNC2452..., advisory citati
+  per nome file) e su EST identifica correttamente il ruolo 'vittima'
+  (DDoS su siti governativi, da ENISA). Tempi: 80-96s a chiamata sui casi
+  pesanti (16 img), 28s su EST (3 img) - circa 2x il 7b, sostenibile con
+  4 GPU in parallelo (~476 chiamate stimate in ~3h su 4 GPU).
+  - Due difetti residui minori del 32b, da sistemare nella pipeline (non
+    bloccanti): (a) su RUS l'array incidenti_noti ripete 16 volte lo
+    stesso incidente Viasat (loop di ripetizione) -> serve dedup degli
+    array in post-processing; (b) su SDN migrazione/economia valorizzati
+    con la stringa "null" invece del vero null JSON (valido a schema
+    perche' il tipo e' string|null, ma va normalizzato). Entrambi si
+    risolvono con un piccolo post-processing deterministico a valle.
+  - Decisione: modello definitivo per il Blocco A = **qwen2.5vl:32b**
+    (q4_K_M). La qualita' e' di livello tesi; il costo in tempo e'
+    accettabile viste le 4 A100.
+
 
 
