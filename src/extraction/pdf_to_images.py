@@ -72,6 +72,38 @@ def pagine_a_immagini(
     return immagini
 
 
+def _ordine_a_rotazione(documenti: list) -> list:
+    """Ordina i documenti "a rotazione tra le fonti": prima un documento per
+    ogni fonte (fonti in ordine di priorita'), poi il secondo di ogni fonte,
+    ecc. Cosi' ogni dimensione con almeno un documento e' rappresentata prima
+    che una singola fonte (es. tanti ACAPS in un trimestre di crisi) esaurisca
+    il budget di immagini. Dentro una fonte, i documenti piu' recenti prima.
+
+    Prima usavamo un riempimento greedy (tutti i documenti della fonte 0, poi
+    la 1, ...): nei trimestri affollati saturava con la sola fonte 0 lasciando
+    fuori migrazione/economia anche quando i documenti c'erano - vedi
+    docs/decisioni_progetto.md 2026-07-28.
+    """
+    per_fonte: dict = {}
+    for d in documenti:
+        per_fonte.setdefault(d.fonte, []).append(d)
+    for fonte in per_fonte:
+        per_fonte[fonte].sort(key=lambda d: -(d.data.toordinal() if d.data else 0))
+
+    fonti_ordinate = sorted(per_fonte, key=lambda f: PRIORITA_FONTE.get(f, 9))
+    out, giro = [], 0
+    while True:
+        aggiunti = False
+        for fonte in fonti_ordinate:
+            if giro < len(per_fonte[fonte]):
+                out.append(per_fonte[fonte][giro])
+                aggiunti = True
+        if not aggiunti:
+            break
+        giro += 1
+    return out
+
+
 def documenti_a_immagini(
     documenti: list,
     tetto_totale: int = IMMAGINI_MAX_PER_CHIAMATA,
@@ -80,17 +112,15 @@ def documenti_a_immagini(
     """documenti: lista di document_index.Documento per un singolo trimestre.
 
     Ritorna lista di (fonte, nome_file, png_bytes) rispettando `tetto_totale`.
-    Se il totale naturale lo supera, taglia per priorita' di fonte e poi per
-    data piu' recente. Il nome_file serve a valorizzare il campo "fonti"
-    dello schema di estrazione con i documenti davvero usati (dopo il taglio).
+    I documenti sono presi a rotazione tra le fonti (vedi _ordine_a_rotazione)
+    cosi' il taglio, quando serve, non sacrifica intere dimensioni. Il
+    nome_file serve a valorizzare il campo "fonti" dello schema con i
+    documenti davvero usati (dopo il taglio).
 
     `dpi` sovrascrive il default del modulo; `tetto_totale=0` -> nessuna
     immagine (modalita' solo-testo della pipeline resiliente).
     """
-    ordinati = sorted(
-        documenti,
-        key=lambda d: (PRIORITA_FONTE.get(d.fonte, 9), -(d.data.toordinal() if d.data else 0)),
-    )
+    ordinati = _ordine_a_rotazione(documenti)
     out = []
     for doc in ordinati:
         if len(out) >= tetto_totale:

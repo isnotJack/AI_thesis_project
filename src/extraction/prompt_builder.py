@@ -104,16 +104,21 @@ def costruisci_prompt(input_assemblato: InputAssemblato) -> tuple:
         "1. Usa solo le informazioni contenute nei documenti forniti. Non usare la tua "
         "conoscenza generale del mondo.",
         "2. NON inventare nulla: ne' incidenti, ne' gruppi, ne' nomi, ne' date, ne' "
-        "numeri. Se un'informazione non e' nei documenti, il campo resta vuoto "
-        "(null per descrizione/sintesi, [] per gli array, l'enum indicato sotto).",
-        "3. NON copiare nel risultato gli esempi o le spiegazioni dei campi: quelle "
+        "numeri. Se un'informazione non e' nei documenti, il campo resta vuoto.",
+        "3. Campo vuoto significa: il valore JSON null per i campi descrizione/sintesi/"
+        "contesto_generale (NON la stringa \"null\", NON una frase che dice che manca "
+        "il dato); l'array vuoto [] per i campi lista; l'enum apposito indicato sotto "
+        "per i campi a scelta chiusa.",
+        "4. NON copiare nel risultato gli esempi o le spiegazioni dei campi: quelle "
         "servono solo a te per capire cosa cercare, non sono dati da riportare.",
-        "4. Rispondi interamente in ITALIANO.",
-        f"5. Il campo `paese` deve essere ESATTAMENTE \"{ia.paese}\" (codice ISO3) e "
+        "5. Negli array NON ripetere due volte lo stesso elemento: ogni voce deve "
+        "essere distinta. Un incidente/gruppo/settore va elencato una sola volta.",
+        "6. Rispondi interamente in ITALIANO.",
+        f"7. Il campo `paese` deve essere ESATTAMENTE \"{ia.paese}\" (codice ISO3) e "
         f"`periodo` esattamente \"{ia.periodo}\".",
-        "6. Non riportare numeri precisi (percentuali, conteggi, cifre): sono gestiti "
-        "altrove. Descrivi in modo qualitativo.",
-        "7. Dove i documenti forniscono informazioni, compila i campi in modo completo "
+        "8. Non riportare numeri precisi (percentuali, conteggi, cifre, importi): sono "
+        "gestiti altrove nel progetto. Descrivi in modo qualitativo, senza cifre.",
+        "9. Dove i documenti forniscono informazioni, compila i campi in modo completo "
         "e accurato: non lasciare vuoto cio' che i documenti supportano.",
         "",
         "DOCUMENTI DISPONIBILI PER DIMENSIONE IN QUESTO TRIMESTRE (rispetta esattamente "

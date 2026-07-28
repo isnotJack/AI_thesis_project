@@ -406,5 +406,63 @@ SDN: 9/10 (manca solo sm22)
     (q4_K_M). La qualita' e' di livello tesi; il costo in tempo e'
     accettabile viste le 4 A100.
 
+- **Significato dei due tetti sulle immagini e cosa resta fuori (dati
+  reali).** Due parametri in `pdf_to_images.py` limitano quante immagini
+  finiscono in una chiamata:
+  - `PAGINE_MAX_PER_DOCUMENTO = 4`: da un singolo PDF si prendono al
+    massimo 4 pagine (le prime 4; per ENISA/MDDR invece le 3 pagine con
+    piu' menzioni del paese). Assunzione: nei report brevi che
+    raccogliamo l'executive summary / i risultati chiave stanno
+    all'inizio. Le pagine oltre la 4a di un documento non vengono mai
+    viste.
+  - `IMMAGINI_MAX_PER_CHIAMATA = 16`: totale di immagini per chiamata,
+    sommando tutti i documenti del trimestre. Serve a tenere il tempo di
+    inferenza gestibile (16 immagini ~ 80-96s col 32b; oltre le ~24 il
+    tempo esplode).
+  - Distribuzione reale (423 trimestri con almeno un documento, su tutti
+    i 17 paesi): mediana 3 documenti/trimestre, ma coda lunga fino a 16
+    (YEM/UKR/SDN nei periodi di crisi). Contando le pagine, la mediana di
+    immagini potenzialmente disponibili e' 9, con punte a 62 (UKR
+    2024-Q3). Quindi in molti trimestri affollati il tetto di 16 taglia
+    qualcosa.
+  - COSA resta fuori, DOPO la rotazione tra fonti (vedi sotto): su 423
+    trimestri, solo 31 (7.3%) perdono una dimensione che pure aveva un
+    documento, e in TUTTI e 31 la dimensione persa e' **cyber**, mai
+    conflitto/carestia/migrazione/economia. E' il risultato voluto: nella
+    rotazione il cyber (ENISA/MDDR/CISA) ha priorita' piu' bassa, e in
+    piu' e' l'unica dimensione con un canale di riserva testuale (CFR +
+    riassunto CISA in `input_assembly`), quindi perdere le sue *immagini*
+    costa relativamente poco. Prima della rotazione (riempimento greedy)
+    invece a perdersi era il 28.6% dei trimestri, spesso migrazione ed
+    economia - molto peggio.
+
+- **Rotazione tra le fonti** (`_ordine_a_rotazione` in `pdf_to_images.py`).
+  Sostituito il riempimento greedy (tutti i documenti della fonte a
+  priorita' 0, poi la 1, ...) con un giro "un documento per fonte" in
+  ordine di priorita', poi il secondo di ogni fonte, ecc. Cosi' ogni
+  dimensione con almeno un documento e' rappresentata prima che una
+  singola fonte (es. i tanti ACAPS di YEM/SDN) esaurisca il budget.
+  Effetto verificato: YEM 2020-Q2 passa da {acaps, fews_net} a {acaps,
+  fews_net, unhcr_reports, worldbank_mpo} - migrazione ed economia, prima
+  perse del tutto, ora coperte.
+
+- **Post-processing deterministico** a valle del modello
+  (`_pulisci` in `lmm_extractor.py`), per i due difetti residui del 32b:
+  dedup degli array cyber (il caso RUS/Viasat ripetuto 16 volte) e
+  normalizzazione della stringa "null" nel vero null JSON. Non aggiunge
+  contenuto, ripulisce solo forme sbagliate. Rinforzate anche le regole
+  corrispondenti nel prompt (no ripetizioni, null vero non stringa).
+
+- **Esecuzione parallela su 4 GPU e resumability**
+  (`scripts_hpc/estrazione_parallela.sh`, `lmm_extractor --worker/--nworker`).
+  Un server Ollama per GPU (pinnato con CUDA_VISIBLE_DEVICES, porte
+  11434+i) + un worker per server; ogni worker fa la fetta `[i::N]` delle
+  476 combinazioni, interleavata per bilanciare (i paesi pesanti sono
+  sparsi: 119 combinazioni a worker, tutti i 17 paesi in ognuno).
+  Scrittura atomica (file temporaneo + rename) e skip-se-esiste: il job
+  si puo' fermare e rilanciare su piu' giorni senza lasciare file
+  troncati ne' rifare lavoro. Stima: ~476 chiamate / 4 GPU a ~90s
+  l'una ~ 3 ore.
+
 
 

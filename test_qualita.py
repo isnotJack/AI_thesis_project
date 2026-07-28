@@ -26,6 +26,7 @@ from src.extraction import ollama_client, pdf_to_images
 from src.extraction.document_index import indicizza_documenti
 from src.extraction.pdf_to_images import documenti_a_immagini
 from src.extraction.input_assembly import assembla_input
+from src.extraction.lmm_extractor import _pulisci
 from src.extraction.prompt_builder import costruisci_prompt
 from src.utils.config_loader import load_extraction_schema
 
@@ -38,9 +39,10 @@ schema = load_extraction_schema()
 validator = Draft202012Validator(schema)
 
 CASI = [
-    ("YEM", "2020-Q2"),  # crisi umanitaria: conflitto/carestia/migrazione/economia, NESSUN cyber
-    ("SDN", "2023-Q2"),  # guerra, NESSUN cyber
-    ("RUS", "2022-Q3"),  # attore cyber: CISA/ENISA/MDDR, NESSUN conflitto/carestia/migrazione
+    ("UKR", "2024-Q3"),  # CASO PIU' PESANTE: 62 immagini potenziali, tutte e 6 le fonti
+    ("YEM", "2020-Q2"),  # crisi umanitaria, con rotazione ora anche migrazione/economia
+    ("SDN", "2023-Q2"),  # guerra
+    ("RUS", "2022-Q3"),  # attore cyber: CISA/ENISA/MDDR
     ("EST", "2022-Q1"),  # controllo: solo report globali cyber (ENISA/MDDR)
 ]
 
@@ -69,7 +71,7 @@ for iso3, periodo in CASI:
     try:
         grezzo = ollama_client.estrai(prompt, imgs, schema, timeout=300)
         dt = time.time() - t0
-        risultato = json.loads(grezzo)
+        risultato = _pulisci(json.loads(grezzo))
         try:
             validator.validate(risultato)
             stato_val = "VALIDO"

@@ -11,6 +11,7 @@ pipeline puo' girare a pezzi su piu' job PBS con walltime limitato).
 """
 
 import json
+import os
 import time
 from pathlib import Path
 
@@ -58,6 +59,65 @@ def _percorso_output(iso3: str, periodo: str) -> Path:
     return OUTPUT_DIR / iso3 / f"{iso3}_{periodo}.json"
 
 
+# stringhe che il modello a volte scrive al posto del vero null JSON
+_STRINGHE_VUOTE = {"", "null", "none", "n/a", "na", "nessuno", "nessuna", "non specificato"}
+
+
+def _normalizza_null(v):
+    if isinstance(v, str) and v.strip().lower() in _STRINGHE_VUOTE:
+        return None
+    return v
+
+
+def _dedup(lista: list) -> list:
+    """Rimuove i duplicati preservando l'ordine (il 32b a volte entra in
+    loop e ripete lo stesso elemento nell'array - vedi caso RUS/Viasat)."""
+    visti, out = set(), []
+    for x in lista:
+        if x not in visti:
+            visti.add(x)
+            out.append(x)
+    return out
+
+
+def _pulisci(risultato: dict) -> dict:
+    """Post-processing deterministico a valle del modello:
+    - normalizza la stringa "null" (e simili) nel vero null JSON;
+    - deduplica gli array cyber e il campo fonti.
+    Non aggiunge/inventa nulla: ripulisce solo forme sbagliate dello stesso
+    contenuto. Applicato prima della validazione, che quindi passa comunque.
+    """
+    for sez in ("conflitto", "carestia", "migrazione"):
+        campo = risultato.get(sez)
+        if isinstance(campo, dict) and "descrizione" in campo:
+            campo["descrizione"] = _normalizza_null(campo["descrizione"])
+    eco = risultato.get("economia")
+    if isinstance(eco, dict) and "sintesi" in eco:
+        eco["sintesi"] = _normalizza_null(eco["sintesi"])
+    risultato["contesto_generale"] = _normalizza_null(risultato.get("contesto_generale"))
+
+    cyber = risultato.get("cyber")
+    if isinstance(cyber, dict):
+        for campo in ("incidenti_noti", "advisory_che_menzionano_il_paese",
+                      "gruppi_minaccia_associati", "settori_bersaglio"):
+            if isinstance(cyber.get(campo), list):
+                cyber[campo] = _dedup(cyber[campo])
+    if isinstance(risultato.get("fonti"), list):
+        risultato["fonti"] = _dedup(risultato["fonti"])
+    return risultato
+
+
+def _salva_atomico(out_path: Path, risultato: dict) -> None:
+    """Scrive su un file temporaneo e poi rinomina: se il processo viene
+    fermato a meta' scrittura non resta mai un JSON troncato che verrebbe
+    scambiato per 'gia' fatto' allo restart (stop/restart sicuro)."""
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = out_path.with_suffix(".json.tmp")
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(risultato, f, indent=2, ensure_ascii=False)
+    os.replace(tmp, out_path)
+
+
 def estrai_singolo(iso3: str, periodo: str, validator: Draft202012Validator, forza: bool = False) -> dict:
     """Estrae ed eventualmente salva il profilo per un singolo (paese, trimestre).
 
@@ -86,16 +146,14 @@ def estrai_singolo(iso3: str, periodo: str, validator: Draft202012Validator, for
 
         try:
             grezzo = ollama_client.estrai(prompt, immagini, validator.schema, timeout=timeout)
-            risultato = json.loads(grezzo)
+            risultato = _pulisci(json.loads(grezzo))
             validator.validate(risultato)
         except Exception as e:  # timeout httpx, errori del server, JSON/schema invalido
             ultimo_errore = f"{type(e).__name__}: {e}"
             time.sleep(2)
             continue
 
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        with open(out_path, "w", encoding="utf-8") as f:
-            json.dump(risultato, f, indent=2, ensure_ascii=False)
+        _salva_atomico(out_path, risultato)
         return {
             "stato": "ok",
             "iso3": iso3,
@@ -107,41 +165,73 @@ def estrai_singolo(iso3: str, periodo: str, validator: Draft202012Validator, for
     return {"stato": "fallito", "iso3": iso3, "periodo": periodo, "errore": ultimo_errore}
 
 
-def estrai_tutti(paesi: list = None, periodi: list = None, forza: bool = False) -> list:
-    """Ciclo completo su tutte le combinazioni (paese, trimestre) del progetto."""
-    if paesi is None:
-        paesi = [p["iso3"] for p in load_countries()]
-    if periodi is None:
-        periodi = _tutti_i_periodi()
+def _tutte_le_combinazioni() -> list:
+    """Lista piatta di tutte le (paese, periodo) del progetto, in ordine."""
+    paesi = [p["iso3"] for p in load_countries()]
+    periodi = _tutti_i_periodi()
+    return [(iso3, periodo) for iso3 in paesi for periodo in periodi]
 
+
+def estrai_lista(combinazioni: list, forza: bool = False, etichetta: str = "") -> list:
+    """Estrae una lista esplicita di (paese, periodo). Resumable: le
+    combinazioni gia' presenti su disco vengono saltate."""
     validator = Draft202012Validator(load_extraction_schema())
-
     riepilogo = []
-    for iso3 in paesi:
-        for periodo in periodi:
-            esito = estrai_singolo(iso3, periodo, validator, forza=forza)
-            dettaglio = ""
-            if esito["stato"] == "ok":
-                if esito["tentativi"] > 1:
-                    dettaglio = f" ({esito['tentativi']} tentativi"
-                    dettaglio += ", solo testo)" if esito.get("solo_testo") else ")"
-            elif esito["stato"] == "fallito":
-                dettaglio = f" ERRORE: {esito['errore']}"
-            print(f"[{esito['stato']}] {iso3} {periodo}{dettaglio}")
-            riepilogo.append(esito)
+    for iso3, periodo in combinazioni:
+        esito = estrai_singolo(iso3, periodo, validator, forza=forza)
+        dettaglio = ""
+        if esito["stato"] == "ok" and esito["tentativi"] > 1:
+            dettaglio = f" ({esito['tentativi']} tentativi"
+            dettaglio += ", solo testo)" if esito.get("solo_testo") else ")"
+        elif esito["stato"] == "fallito":
+            dettaglio = f" ERRORE: {esito['errore']}"
+        print(f"{etichetta}[{esito['stato']}] {iso3} {periodo}{dettaglio}", flush=True)
+        riepilogo.append(esito)
 
     n_ok = sum(1 for r in riepilogo if r["stato"] == "ok")
     n_saltati = sum(1 for r in riepilogo if r["stato"] == "saltato")
     n_falliti = sum(1 for r in riepilogo if r["stato"] == "fallito")
-    print(f"\nTotale: {n_ok} estratti, {n_saltati} gia' presenti, {n_falliti} falliti su {len(riepilogo)}")
+    print(f"{etichetta}Totale: {n_ok} estratti, {n_saltati} gia' presenti, "
+          f"{n_falliti} falliti su {len(riepilogo)}", flush=True)
     return riepilogo
 
 
-if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) >= 3:
-        validator = Draft202012Validator(load_extraction_schema())
-        print(estrai_singolo(sys.argv[1], sys.argv[2], validator, forza=True))
+def estrai_tutti(paesi: list = None, periodi: list = None, forza: bool = False) -> list:
+    """Ciclo completo su tutte le combinazioni (paese, trimestre) del progetto."""
+    if paesi is None and periodi is None:
+        combinazioni = _tutte_le_combinazioni()
     else:
-        estrai_tutti()
+        paesi = paesi or [p["iso3"] for p in load_countries()]
+        periodi = periodi or _tutti_i_periodi()
+        combinazioni = [(iso3, periodo) for iso3 in paesi for periodo in periodi]
+    return estrai_lista(combinazioni, forza=forza)
+
+
+def estrai_partizione(worker: int, nworker: int, forza: bool = False) -> list:
+    """Estrae solo la fetta [worker::nworker] delle combinazioni totali,
+    interleavata per bilanciare il carico (i paesi pesanti sono sparsi).
+    Un worker per GPU - vedi scripts_hpc/estrazione_parallela.sh."""
+    combinazioni = _tutte_le_combinazioni()[worker::nworker]
+    return estrai_lista(combinazioni, forza=forza, etichetta=f"[w{worker}] ")
+
+
+if __name__ == "__main__":
+    import argparse
+
+    ap = argparse.ArgumentParser(description="Estrazione LMM Blocco A")
+    ap.add_argument("--paese", help="ISO3 di un singolo paese (tutti i suoi trimestri)")
+    ap.add_argument("--periodo", help="un singolo trimestre YYYY-Qn (usare con --paese)")
+    ap.add_argument("--worker", type=int, help="indice worker per l'esecuzione parallela")
+    ap.add_argument("--nworker", type=int, default=1, help="numero totale di worker")
+    ap.add_argument("--forza", action="store_true", help="ri-estrae anche se il file esiste")
+    args = ap.parse_args()
+
+    if args.paese and args.periodo:
+        validator = Draft202012Validator(load_extraction_schema())
+        print(estrai_singolo(args.paese, args.periodo, validator, forza=True))
+    elif args.paese:
+        estrai_lista([(args.paese, p) for p in _tutti_i_periodi()], forza=args.forza)
+    elif args.worker is not None:
+        estrai_partizione(args.worker, args.nworker, forza=args.forza)
+    else:
+        estrai_tutti(forza=args.forza)

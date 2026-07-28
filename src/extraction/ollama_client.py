@@ -14,7 +14,7 @@ import os
 
 import ollama
 
-MODELLO = os.environ.get("OLLAMA_MODEL", "qwen2.5vl:7b")
+MODELLO = os.environ.get("OLLAMA_MODEL", "qwen2.5vl:32b")
 HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 # Senza num_ctx esplicito il runtime usa il default del modello (fino a
 # 128000+ token): il KV-cache/compute-buffer risultante non ci sta su una

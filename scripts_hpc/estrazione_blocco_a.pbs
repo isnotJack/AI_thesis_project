@@ -1,54 +1,26 @@
 #!/bin/bash
 #PBS -N estrazione_blocco_a
 #PBS -q gpu
-#PBS -l select=1:ncpus=8:ngpus=1,walltime=04:00:00
+#PBS -l select=1:ncpus=32:ngpus=4,walltime=06:00:00
 #PBS -o scripts_hpc/log_estrazione.out
 #PBS -e scripts_hpc/log_estrazione.err
 
 # Job PBS per l'estrazione LMM del Blocco A su Leonardo (DaVinci-1).
+# Richiede 4 GPU e lancia l'estrazione in parallelo (un server Ollama +
+# un worker per GPU) via scripts_hpc/estrazione_parallela.sh.
 #
 # Uso:
-#   cd ~/thesis_project   # submit sempre dalla root del progetto
+#   cd ~/AI_thesis_project        # submit sempre dalla root del progetto
 #   qsub scripts_hpc/estrazione_blocco_a.pbs
 #
 # Resumable: se il walltime scade a meta', rilancia lo stesso comando -
-# lmm_extractor salta le combinazioni (paese, trimestre) gia' estratte.
+# le combinazioni (paese, trimestre) gia' estratte vengono saltate, la
+# scrittura e' atomica quindi non restano file troncati. Puoi fermare e
+# riprendere su piu' giorni senza rompere nulla.
 #
-# Per testare su un solo paese prima del giro completo, sovrascrivi la
-# variabile PAESE all'avvio:
-#   qsub -v PAESE=SDN scripts_hpc/estrazione_blocco_a.pbs
+# Nota versione Ollama: si usa 0.12.11 (pinnata dentro il launcher): le
+# versioni >=0.13.x hanno una regressione nota nel calcolo RoPE per
+# Qwen2.5-VL su CUDA - https://github.com/ollama/ollama/issues/13630
 
-set -e
 cd "$PBS_O_WORKDIR"
-
-# Pin a 0.12.11: le versioni >=0.13.x hanno una regressione nota nel
-# calcolo RoPE per Qwen2.5-VL su CUDA (GGML_ASSERT(a->ne[2] * 4 ==
-# b->ne[0]) failed, crash ad ogni chiamata) - vedi
-# https://github.com/ollama/ollama/issues/13630
-module load ollama/0.12.11
-
-# Ambiente Python del progetto - creane uno la prima volta con:
-#   python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt
-source .venv/bin/activate
-
-# Il server Ollama gira su questo nodo GPU, in background per la durata del job
-ollama serve &
-OLLAMA_PID=$!
-sleep 5
-
-ollama pull qwen2.5vl:7b   # idempotente: non riscarica se gia' presente
-
-if [ -n "$PAESE" ]; then
-    python3 -c "
-from jsonschema import Draft202012Validator
-from src.extraction import lmm_extractor
-from src.utils.config_loader import load_extraction_schema
-validator = Draft202012Validator(load_extraction_schema())
-for periodo in lmm_extractor._tutti_i_periodi():
-    print(lmm_extractor.estrai_singolo('$PAESE', periodo, validator))
-"
-else
-    python3 -c "from src.extraction.lmm_extractor import estrai_tutti; estrai_tutti()"
-fi
-
-kill $OLLAMA_PID
+NGPU=4 bash scripts_hpc/estrazione_parallela.sh
