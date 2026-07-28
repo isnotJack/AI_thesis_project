@@ -43,13 +43,23 @@ PRIORITA_FONTE = {
 }
 
 
-def pagine_a_immagini(path: Path, pagine_max: int = PAGINE_MAX_PER_DOCUMENTO, pagine_specifiche: list = None) -> list:
+def pagine_a_immagini(
+    path: Path,
+    pagine_max: int = PAGINE_MAX_PER_DOCUMENTO,
+    pagine_specifiche: list = None,
+    dpi: int = None,
+) -> list:
     """Ritorna pagine del PDF come lista di PNG (bytes).
 
     Se `pagine_specifiche` e' data (indici 0-based, es. le pagine di un
     report globale che nominano un paese - vedi document_index), rende
     solo quelle pagine invece delle prime `pagine_max`.
+
+    `dpi` sovrascrive il default del modulo (usato dalla pipeline
+    resiliente per ri-renderizzare a risoluzione ridotta in un retry).
     """
+    if dpi is None:
+        dpi = DPI
     immagini = []
     with fitz.open(path) as doc:
         if pagine_specifiche is not None:
@@ -57,18 +67,25 @@ def pagine_a_immagini(path: Path, pagine_max: int = PAGINE_MAX_PER_DOCUMENTO, pa
         else:
             indici = range(min(len(doc), pagine_max))
         for i in indici:
-            pix = doc[i].get_pixmap(dpi=DPI)
+            pix = doc[i].get_pixmap(dpi=dpi)
             immagini.append(pix.tobytes("png"))
     return immagini
 
 
-def documenti_a_immagini(documenti: list, tetto_totale: int = IMMAGINI_MAX_PER_CHIAMATA) -> list:
+def documenti_a_immagini(
+    documenti: list,
+    tetto_totale: int = IMMAGINI_MAX_PER_CHIAMATA,
+    dpi: int = None,
+) -> list:
     """documenti: lista di document_index.Documento per un singolo trimestre.
 
     Ritorna lista di (fonte, nome_file, png_bytes) rispettando `tetto_totale`.
     Se il totale naturale lo supera, taglia per priorita' di fonte e poi per
     data piu' recente. Il nome_file serve a valorizzare il campo "fonti"
     dello schema di estrazione con i documenti davvero usati (dopo il taglio).
+
+    `dpi` sovrascrive il default del modulo; `tetto_totale=0` -> nessuna
+    immagine (modalita' solo-testo della pipeline resiliente).
     """
     ordinati = sorted(
         documenti,
@@ -83,6 +100,7 @@ def documenti_a_immagini(documenti: list, tetto_totale: int = IMMAGINI_MAX_PER_C
             doc.path,
             pagine_max=min(PAGINE_MAX_PER_DOCUMENTO, rimanenti),
             pagine_specifiche=doc.pagine,
+            dpi=dpi,
         )
         for png in immagini:
             out.append((doc.fonte, doc.path.name, png))

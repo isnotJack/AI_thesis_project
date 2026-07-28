@@ -334,5 +334,47 @@ SDN: 9/10 (manca solo sm22)
   comunque sostenibile). La scelta va guidata dalla qualita', non dalla
   velocita', dato che la velocita' non e' piu' un vincolo.
 
+- Spot-check qualita' fatto (qwen2.5vl:7b, prompt/schema induriti, casi
+  YEM 2020-Q2, SDN 2023-Q2, RUS 2022-Q3). Esito:
+  - MIGLIORAMENTO netto dopo l'hardening: la sezione cyber su YEM/SDN
+    (nessun documento cyber) e' ora correttamente vuota (array [] e
+    ruolo 'non_specificato') - sparita l'invenzione di APT28/incidenti
+    che c'era col prompt vecchio, che veniva dagli esempi inline nelle
+    description dello schema (ora rimossi). Lingua italiana e paese=ISO3
+    per lo piu' rispettati.
+  - DEBOLEZZE RESIDUE del 7b, non risolvibili col solo prompt (gia'
+    spinto parecchio): (a) non rispetta il "-> null" sulle dimensioni
+    marcate assenti: YEM riempie migrazione/economia con speculazioni e
+    arriva a scrivere "secondo il World Bank MPO il tasso di poverta' e'
+    aumentato" quando l'immagine MPO non gli e' nemmeno arrivata (tagliata
+    dal cap); (b) SDN mette lo stesso testo (conflitto/sfollamento) in
+    tutti i campi, senza distinguere le dimensioni; (c) livello_ipc resta
+    'non_specificato' anche quando il FEWS NET la riporta (lettura debole
+    di mappe/grafici); (d) SDN scivola quasi tutto in inglese nonostante
+    la regola. Sono limiti di capacita'/instruction-following del 7b.
+  - Conclusione: il 7b e' marginale per una tesi. Prossimo passo:
+    confronto con qwen2.5vl:32b (q4) sugli stessi casi, con 4 A100 quasi
+    libere la qualita' deve decidere.
+  - RUS 2022-Q3 (caso cyber-heavy: CISA/ENISA/MDDR) si e' ri-bloccata
+    (>4 min, interrotta) nonostante Flash Attention attiva - eppure la
+    stessa identica chiamata il 28/07 mattina era girata in 21s due volte.
+    Conferma definitiva che la latenza delle singole chiamate e'
+    intrinsecamente instabile in questo setup: la pipeline resiliente e'
+    obbligatoria, non opzionale.
+
+- Implementata la **pipeline resiliente** (`lmm_extractor.py` +
+  `ollama_client.py`): ogni chiamata ha un timeout; se scatta o fallisce,
+  una scaletta di degrado prova rung successivi prima di arrendersi -
+  (1) chiamata normale, (2) ritenta identica (spesso basta: e' il caso
+  RUS, colpa dello stato del server, non del contenuto), (3) DPI ridotto
+  (stesse immagini, meno token), (4) meno immagini, (5) solo testo. Solo
+  se falliscono tutti la combinazione si marca "fallito" e il batch
+  prosegue - niente piu' blocco dell'intero giro su un singolo caso.
+  Ordine DPI-prima-di-meno-immagini scelto apposta: ridurre il DPI tiene
+  tutte le dimensioni rappresentate, ridurre le immagini butta interi
+  documenti (quindi possibili intere dimensioni). Le immagini vengono
+  ri-renderizzate al volo al DPI/tetto del rung, via i parametri passati
+  a `assembla_input`/`documenti_a_immagini`/`pagine_a_immagini`.
+
 
 

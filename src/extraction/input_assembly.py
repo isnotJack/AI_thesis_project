@@ -98,10 +98,20 @@ def _carica_cisa(iso3: str, periodo: str) -> tuple:
     return "\n".join(righe), fonti
 
 
-def assembla_input(iso3: str, periodo: str) -> InputAssemblato:
+def assembla_input(iso3: str, periodo: str, tetto_immagini: int = None, dpi: int = None) -> InputAssemblato:
+    """Assembla l'input per (paese, periodo).
+
+    `tetto_immagini` e `dpi` sovrascrivono i default del modulo
+    pdf_to_images: servono alla pipeline resiliente per ri-assemblare a
+    risoluzione ridotta / meno immagini / solo testo (tetto_immagini=0)
+    in un retry, senza toccare le costanti globali.
+    """
     indice = indicizza_documenti(iso3)
     documenti_trimestre = indice.get(periodo, [])
-    immagini = documenti_a_immagini(documenti_trimestre)
+    if tetto_immagini is None:
+        immagini = documenti_a_immagini(documenti_trimestre, dpi=dpi)
+    else:
+        immagini = documenti_a_immagini(documenti_trimestre, tetto_totale=tetto_immagini, dpi=dpi)
 
     anno = _anno_da_periodo(periodo)
     testo_wikipedia = _carica_wikipedia(iso3, anno)

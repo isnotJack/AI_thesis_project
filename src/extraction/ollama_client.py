@@ -34,18 +34,23 @@ def modello_disponibile(modello: str = MODELLO) -> bool:
     return modello in disponibili or f"{modello}:latest" in disponibili
 
 
-def estrai(prompt: str, immagini: list, schema: dict, modello: str = MODELLO) -> str:
+def estrai(prompt: str, immagini: list, schema: dict, modello: str = MODELLO, timeout: float = None) -> str:
     """Una singola chiamata di estrazione.
 
     Ritorna la stringa JSON grezza prodotta dal modello (gia' vincolata
     alla forma dello schema da Ollama, ma va comunque validata a valle -
     vedi lmm_extractor.py per la validazione difensiva + retry).
+
+    `timeout` (secondi): se la richiesta non riceve risposta entro il
+    tempo, httpx solleva un'eccezione di timeout - la pipeline resiliente
+    la intercetta e passa al rung successivo. None = nessun limite.
     """
     messaggio = {"role": "user", "content": prompt}
     if immagini:
         messaggio["images"] = immagini
 
-    risposta = _client.chat(
+    client = _client if timeout is None else ollama.Client(host=HOST, timeout=timeout)
+    risposta = client.chat(
         model=modello,
         messages=[messaggio],
         format=schema,
