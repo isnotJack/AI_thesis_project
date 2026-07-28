@@ -22,7 +22,7 @@ HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 # minuti a chiamata prima di andare in timeout). Il nostro input reale
 # (fino a 10 immagini + testo Wikipedia/CFR/CISA + output JSON) sta
 # comodamente sotto questa soglia.
-NUM_CTX = int(os.environ.get("OLLAMA_NUM_CTX", 32768))
+NUM_CTX = int(os.environ.get("OLLAMA_NUM_CTX", 65536))
 
 _client = ollama.Client(host=HOST)
 

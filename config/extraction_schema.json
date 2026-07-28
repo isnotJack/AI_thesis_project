@@ -31,7 +31,7 @@
         "livello_ipc": {
           "type": "string",
           "enum": ["nessuna", "fase1_minima", "fase2_stressata", "fase3_crisi", "fase4_emergenza", "fase5_carestia", "non_specificato"],
-          "description": "Fase IPC riportata nel documento FEWS NET. 'non_specificato' se il documento non la indica esplicitamente."
+          "description": "Fase IPC riportata nel documento FEWS NET. 'non_specificato' se il documento non la indica esplicitamente o se in questo trimestre non e' fornito alcun documento FEWS NET."
         },
         "descrizione": {
           "type": ["string", "null"],
@@ -67,32 +67,32 @@
     },
     "cyber": {
       "type": "object",
-      "description": "Fonte: CFR Cyber Operations Tracker + CISA / ENISA / Microsoft Digital Defense Report (PDF dove disponibili).",
+      "description": "Fonte: CFR Cyber Operations Tracker + CISA / ENISA / Microsoft Digital Defense Report (PDF dove disponibili). Se in questo trimestre NON e' fornito alcun documento cyber, tutti gli array vanno lasciati vuoti e 'ruolo' = 'non_specificato': non dedurre attivita' cyber dagli altri documenti (conflitto, carestia, migrazione, economia) ne' da conoscenza generale.",
       "properties": {
         "incidenti_noti": {
           "type": "array",
           "items": {"type": "string"},
-          "description": "Descrizione breve di ogni incidente rilevante nel trimestre."
+          "description": "Un elemento per ogni incidente cyber concreto descritto nei documenti forniti. Array vuoto se i documenti non descrivono incidenti cyber."
         },
         "advisory_che_menzionano_il_paese": {
           "type": "array",
           "items": {"type": "string"},
-          "description": "Titolo o id di ogni advisory CISA/ENISA/MDDR che menziona il paese."
+          "description": "Titolo o identificativo di ogni advisory presente nei documenti forniti che menziona il paese. Array vuoto se non ce ne sono."
         },
         "gruppi_minaccia_associati": {
           "type": "array",
           "items": {"type": "string"},
-          "description": "Nomi dei gruppi/threat actor associati al paese nei documenti forniti (es. APT28, Lazarus Group)."
+          "description": "Nomi dei gruppi o threat actor associati al paese solo se nominati esplicitamente nei documenti forniti. Array vuoto se nessun documento li nomina."
         },
         "settori_bersaglio": {
           "type": "array",
           "items": {"type": "string"},
-          "description": "Settori colpiti se menzionati nei report, es. energia, finanza, sanita', governo."
+          "description": "Settori economici o infrastrutturali indicati come bersaglio solo se esplicitati nei documenti forniti. Array vuoto se non esplicitati."
         },
         "ruolo": {
           "type": "string",
           "enum": ["vittima", "attore", "entrambi", "non_specificato"],
-          "description": "Ruolo del paese negli incidenti/advisory di questo trimestre."
+          "description": "Ruolo del paese negli incidenti/advisory di questo trimestre secondo i documenti. 'non_specificato' se non ci sono documenti cyber o se il ruolo non e' desumibile."
         }
       },
       "required": ["incidenti_noti", "advisory_che_menzionano_il_paese", "gruppi_minaccia_associati", "settori_bersaglio", "ruolo"],

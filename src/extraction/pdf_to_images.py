@@ -27,9 +27,9 @@ from pathlib import Path
 
 import fitz
 
-DPI = 130
+DPI = 170
 PAGINE_MAX_PER_DOCUMENTO = 4
-IMMAGINI_MAX_PER_CHIAMATA = 4
+IMMAGINI_MAX_PER_CHIAMATA = 16
 
 # priorita' di fonte quando serve tagliare (0 = piu' importante)
 PRIORITA_FONTE = {

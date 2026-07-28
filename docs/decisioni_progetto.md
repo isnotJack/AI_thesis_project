@@ -264,7 +264,75 @@ SDN: 9/10 (manca solo sm22)
   equivalente testuale nel prompt; CISA e CFR hanno gia' un riassunto
   testuale indipendente dalle immagini (`input_assembly.py`), quindi
   perdere le loro pagine quando si taglia costa relativamente meno.
-  Scelta finale: `DPI` 170->130, `IMMAGINI_MAX_PER_CHIAMATA` 10->4. Non
-  ancora ri-misurato il tempo/chiamata con questi nuovi valori - primo
-  passo del prossimo test su Leonardo.
+  Scelta finale (provvisoria, poi superata - vedi 2026-07-28): `DPI`
+  170->130, `IMMAGINI_MAX_PER_CHIAMATA` 10->4.
+
+## 2026-07-28
+- Chiuso il tuning dei parametri di estrazione dopo una lunga serie di
+  test su Leonardo (nodo A100, Qwen2.5-VL:7b, Ollama 0.12.11). La cosa
+  piu' importante emersa: **gran parte dei "blocchi" catastrofici visti
+  nei giorni scorsi (18 min, 14 min, 21 min su singole chiamate) NON
+  erano dovuti al contenuto (numero immagini / risoluzione / lunghezza
+  testo) ma allo stato del server Ollama**: prima chiamata "a freddo"
+  dopo l'avvio o dopo un cambio di `num_ctx` (che forza un reload del
+  modello), oppure degrado dopo molte chiamate consecutive sullo stesso
+  processo. Prova decisiva: la stessa identica chiamata (RUS 2022-Q3,
+  16 immagini, num_ctx=65536) che il 26/07 era esplosa oltre i 21 minuti
+  (interrotta a mano), il 28/07 su nodo fresco + server appena riavviato
+  ha girato in **21.2s, due volte di fila identiche**. Lezione operativa:
+  riavviare `ollama serve` pulito prima di un giro serio, e comunque
+  rendere la pipeline resiliente a chiamate anomale (vedi sotto).
+- Fattori reali (a server "caldo" e sano) effettivamente misurati:
+  - Flash Attention DEVE essere attiva (`OLLAMA_FLASH_ATTENTION=1`):
+    senza, l'attenzione naive su sequenze lunghe (molti token immagine)
+    e' memory-bandwidth-bound e degenera. Era spenta durante il primo
+    test catastrofico, attiva in tutti quelli veloci successivi.
+  - A 16 immagini (DPI 170) il tempo steady-state e' basso e prevedibile:
+    RUS 2022-Q3 21s, YEM 2020-Q2 23s, UKR 2024-Q3 62s. La differenza di
+    UKR e' spiegata dal testo Wikipedia molto piu' lungo (21.5k caratteri
+    vs 3.3k di YEM: "2024 in Ukraine" e' un anno di guerra densissimo).
+  - Esiste pero' un cliff reale intorno alle 24 immagini: UKR 2024-Q3 a
+    24 immagini, stesso server caldo, e' passata a 857s (14 min) contro
+    i 62s a 16. Quindi 16 e' dentro la zona sicura, 24 no.
+  - La dimensione di `num_ctx` NON influenza la velocita' (32768 e 65536
+    danno lo stesso tempo a parita' di contenuto): dimensiona solo lo
+    spazio allocato, non il calcolo. Si tiene alto (65536) solo come
+    margine di sicurezza contro il troncamento silenzioso del prompt
+    (Ollama con `truncating input prompt` taglia il contenuto senza
+    errore se il prompt supera num_ctx - pericoloso perche' l'estrazione
+    "riesce" ma su input mutilato).
+- **Parametri definitivi** (`src/extraction/pdf_to_images.py` e
+  `ollama_client.py`): `DPI=170`, `PAGINE_MAX_PER_DOCUMENTO=4`,
+  `IMMAGINI_MAX_PER_CHIAMATA=16`, `num_ctx=65536`,
+  `OLLAMA_FLASH_ATTENTION=1`. A 16 immagini si perde ancora qualcosa nel
+  28.6% dei trimestri (sempre i soliti paesi ad alto volume: SDN, YEM,
+  ETH, IRN, SSD, UKR, RUS), ma e' un valore affidabile: inseguire tetti
+  piu' alti continuava a far emergere cliff imprevedibili caso per caso.
+- Due modifiche di logica decise (non ancora implementate al momento di
+  questa nota):
+  1. **Selezione immagini a rotazione tra le fonti** invece che a
+     riempimento greedy. Problema del greedy attuale: in un trimestre con
+     tanti ACAPS (es. YEM/UKR fino a 9), i primi 4 ACAPS saturano il tetto
+     e fonti a priorita' piu' bassa ma di dimensioni diverse (UNHCR =
+     migrazione, MPO = economia) restano fuori del tutto, lasciando quelle
+     dimensioni al buio anche se il documento c'era. Soluzione: un giro
+     "un documento per fonte" prima di dare un secondo documento a
+     chiunque, cosi' ogni dimensione con almeno un documento e'
+     rappresentata prima che una singola fonte esaurisca il budget.
+  2. **Pipeline resiliente**: timeout per chiamata (~3 min) e, se scatta,
+     retry con meno immagini (dimezzate), poi solo-testo, poi la
+     combinazione si marca come "fallita" e il batch prosegue - invece di
+     bloccare l'intero giro delle 476 chiamate su un singolo caso
+     patologico o su una chiamata "a freddo" andata storta.
+- **Scelta del modello per il giro finale: ancora aperta.** Punto onesto:
+  in due giorni abbiamo misurato solo TEMPI, mai la QUALITA' di un output
+  reale (non abbiamo ancora aperto un solo JSON prodotto). Prima di
+  lanciare le 476 chiamate va fatto uno spot-check di qualita' su 3-5 casi
+  diversi con qwen2.5vl:7b; se la qualita' e' adeguata si tiene il 7b (il
+  piu' veloce), altrimenti si confronta con qwen2.5vl:32b in q4_K_M (~19GB,
+  entra comodo su una A100-40GB, piu' lento ma con 4 GPU quasi idle e'
+  comunque sostenibile). La scelta va guidata dalla qualita', non dalla
+  velocita', dato che la velocita' non e' piu' un vincolo.
+
+
 
