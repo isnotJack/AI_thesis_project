@@ -34,10 +34,22 @@ for i in $(seq 0 $((NGPU - 1))); do
         ollama serve > "scripts_hpc/log_ollama_$i.log" 2>&1 &
     SERVER_PIDS+=($!)
 done
-sleep 8
 
-# Scarica il modello una volta sola (lo store ~/.ollama/models e' condiviso)
-OLLAMA_HOST=127.0.0.1:11434 ollama pull "$MODELLO"
+# Aspetta che OGNI server risponda prima di procedere (piu' robusto di
+# uno sleep fisso: 4 server possono metterci un po' a salire)
+for i in $(seq 0 $((NGPU - 1))); do
+    PORT=$((11434 + i))
+    for _ in $(seq 1 30); do
+        OLLAMA_HOST=127.0.0.1:$PORT ollama list >/dev/null 2>&1 && break
+        sleep 2
+    done
+done
+
+# Scarica il modello una volta sola (store ~/.ollama/models condiviso).
+# Non-fatale: se e' gia' in cache e il registry non e' raggiungibile, si
+# prosegue lo stesso invece di abortire tutto il job notturno.
+OLLAMA_HOST=127.0.0.1:11434 ollama pull "$MODELLO" || \
+    echo "pull non riuscito (modello forse gia' in cache): proseguo"
 
 echo "Avvio $NGPU worker..."
 WORKER_PIDS=()
