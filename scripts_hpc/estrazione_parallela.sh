@@ -22,8 +22,13 @@ module load proxy 2>/dev/null || true
 module load ollama/0.12.11
 source .venv/bin/activate
 
-NGPU=${NGPU:-4}
+# Numero di GPU: se non passato, lo deduce da quelle assegnate al job
+# (una GPU = un server Ollama + un worker). Cosi' lo stesso script va
+# bene con 1, 2 o 4 GPU a seconda di quante ne chiedi con qsub -l.
+NGPU=${NGPU:-$(nvidia-smi -L 2>/dev/null | wc -l)}
+[ "${NGPU:-0}" -ge 1 ] 2>/dev/null || NGPU=1
 MODELLO=${OLLAMA_MODEL:-qwen2.5vl:32b}
+echo "GPU rilevate/richieste: $NGPU"
 export OLLAMA_FLASH_ATTENTION=1
 
 echo "Avvio $NGPU server Ollama (modello $MODELLO)..."

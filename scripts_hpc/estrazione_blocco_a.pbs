@@ -23,4 +23,8 @@
 # Qwen2.5-VL su CUDA - https://github.com/ollama/ollama/issues/13630
 
 cd "$PBS_O_WORKDIR"
-NGPU=4 bash scripts_hpc/estrazione_parallela.sh
+# Il launcher deduce il numero di GPU da quelle assegnate al job, quindi
+# puoi chiederne meno per partire prima (la coda a 4 GPU e' lunga):
+#   qsub -l select=1:ncpus=8:ngpus=1,walltime=06:00:00 scripts_hpc/estrazione_blocco_a.pbs
+# Resumable: rilanci quando vuoi, riprende da dove era.
+bash scripts_hpc/estrazione_parallela.sh
