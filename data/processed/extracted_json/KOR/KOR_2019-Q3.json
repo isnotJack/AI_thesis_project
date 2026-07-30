@@ -1,0 +1,28 @@
+{
+  "paese": "KOR",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2019, la Corea del Sud ha continuato a gestire le relazioni con la Corea del Nord, mantenendo gli sforzi per migliorare le relazioni intercoreane. Durante il trimestre, si sono sviluppate tensioni diplomatiche con il Giappone a causa di un conflitto commerciale che ha influenzato le esportazioni di materiali industriali chiave. Queste tensioni hanno portato a un ulteriore deterioramento delle relazioni bilaterali, con la Corea del Sud che ha annunciato la revoca dell'accordo GSOMIA (General Security of Military Information Agreement) con il Giappone. L'annuncio ha suscitato reazioni da parte degli Stati Uniti, con il ministro delle Relazioni Esterne della Corea del Sud che ha richiesto al rappresentante statunitense di moderare le critiche pubbliche verso la decisione di non rinnovare l'accordo. L'ambasciatore statunitense Harry B. Harris Jr. ha mancato di partecipare a un forum internazionale sulle economie di pace presso la DMZ, e il suo intervento è stato cancellato da un'associazione di veterani di riserva. Inoltre, l'ambasciatore ha partecipato all'inaugurazione di un locale Shake Shack a Seoul."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, la Corea del Sud è stata governata dal presidente Moon Jae-in e dal primo ministro Lee Nak-yeon, continuando gli sforzi per migliorare le relazioni con la Corea del Nord e affrontare le sfide economiche interne. Il trimestre ha visto un deterioramento delle relazioni con il Giappone a causa di un conflitto commerciale che ha influenzato le esportazioni di materiali industriali chiave, portando a tensioni diplomatiche. La Corea del Sud ha annunciato la revoca dell'accordo GSOMIA con il Giappone, suscitando reazioni da parte degli Stati Uniti. L'ambasciatore statunitense Harry B. Harris Jr. ha mancato di partecipare a un forum internazionale sulle economie di pace presso la DMZ, e il suo intervento è stato cancellato da un'associazione di veterani di riserva. L'ambasciatore ha partecipato all'inaugurazione di un locale Shake Shack a Seoul.",
+  "fonti": [
+    "wikipedia:KOR_2019"
+  ]
+}

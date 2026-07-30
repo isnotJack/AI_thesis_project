@@ -1,0 +1,29 @@
+{
+  "paese": "ITA",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Italia ha visto un aumento significativo di arrivi di rifugiati e richiedenti asilo, con un numero significativo di arrivi via mare e terra. L'UNHCR ha priorizzato l'inclusione e le soluzioni per i rifugiati e i richiedenti asilo, includendo progetti come 'Welcome', 'Integration Charter', 'Community Matching' e varie vie legali, come i corridoi umanitari. L'UNHCR collabora con le autorità italiane e l'Organizzazione Internazionale per le Migrazioni (IOM) per fornire protezione e soluzioni ai rifugiati e migranti che arrivano in Italia."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2023, l'Italia ha visto un aumento significativo di arrivi di rifugiati e richiedenti asilo, con un numero significativo di arrivi via mare e terra. L'UNHCR ha priorizzato l'inclusione e le soluzioni per i rifugiati e i richiedenti asilo, includendo progetti come 'Welcome', 'Integration Charter', 'Community Matching' e varie vie legali, come i corridoi umanitari. L'UNHCR collabora con le autorità italiane e l'Organizzazione Internazionale per le Migrazioni (IOM) per fornire protezione e soluzioni ai rifugiati e migranti che arrivano in Italia.",
+  "fonti": [
+    "ITA_2023Q3_2023-09-30_unhcr-italy-bi-annual-factsheet-september-2023.pdf",
+    "wikipedia:ITA_2023"
+  ]
+}

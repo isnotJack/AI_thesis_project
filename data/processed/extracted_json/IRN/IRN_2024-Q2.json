@@ -1,0 +1,47 @@
+{
+  "paese": "IRN",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Iran è coinvolto in conflitti armati e tensioni regionali, compresi attacchi missilistici contro Israele e attivismo di gruppi armati nella provincia di Sistan e Baluchistan. Vi sono anche incidenti di sicurezza interna, come attentati e attivismo di gruppi armati. Iran continua a sostenere attivismo armato regionale, inclusi attacchi contro Israele e gruppi armati locali. Iran è coinvolto in conflitti armati e tensioni regionali, compresi attacchi missilistici contro Israele e attivismo di gruppi armati nella provincia di Sistan e Baluchistan. Vi sono anche incidenti di sicurezza interna, come attentati e attivismo di gruppi armati. Iran continua a sostenere attivismo armato regionale, inclusi attacchi contro Israele e gruppi armati locali."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Iran ospita una delle più grandi popolazioni di rifugiati al mondo, con 3.4 milioni di rifugiati e persone in situazioni simili a quelle dei rifugiati. Il governo di Iran ha implementato politiche di inclusione per i rifugiati, supportando politiche di protezione e dialogo con partner. Iran ha generosamente ospitato rifugiati per decenni, con un'enfasi sulla protezione e la coesistenza con le comunità locali. Iran ha generosamente ospitato rifugiati per decenni, con un'enfasi sulla protezione e la coesistenza con le comunità locali."
+  },
+  "economia": {
+    "sintesi": "L'economia di Iran ha dimostrato una resilienza sorprendente negli ultimi quattro anni, nonostante le sanzioni economiche e la volatilità geopolitica. L'economia ha beneficiato di un miglioramento del tasso di cambio del petrolio, ma il settore non petrolifero, in particolare il settore dei servizi, è stato il principale motore di crescita. La produzione del settore tradizionale si è spostata verso la soddisfazione della domanda interna, mitigando l'impatto della crisi finanziaria. L'economia continua a fare fronte a sfide strutturali, inclusi i limiti del sistema bancario e le tensioni geopolitiche. L'economia continua a fare fronte a sfide strutturali, inclusi i limiti del sistema bancario e le tensioni geopolitiche."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iranian cyber actors"
+    ],
+    "settori_bersaglio": [
+      "IT",
+      "Education",
+      "Government",
+      "Defense",
+      "Healthcare",
+      "Finance",
+      "Manufacturing",
+      "Consumer Retail",
+      "Think tanks and NGOs"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Iran ha sperimentato una serie di eventi politici e di sicurezza nel 2024, inclusi cambiamenti di leadership, elezioni legislative e presidenziali, e tensioni regionali. Il paese ha continuato a fare fronte a sfide interne e esterne, compresi attacchi armati e incidenti di sicurezza. Iran ha sperimentato una serie di eventi politici e di sicurezza nel 2024, inclusi cambiamenti di leadership, elezioni legislative e presidenziali, e tensioni regionali. Il paese ha continuato a fare fronte a sfide interne e esterne, compresi attacchi armati e incidenti di sicurezza.",
+  "fonti": [
+    "IRN_2024Q2_2024-05-19_unhcr-iran-factsheet-january-march-2024.pdf",
+    "IRN_mpo_sm24.pdf",
+    "IRN_aa24-241a-iran-based-cyber-actors-enabling-ransomware-attacks-on-us-organizations_0.pdf",
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:IRN_2024"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "paese": "SAU",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Operation Parliament"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Operation Parliament"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In febbraio 2018, l'Arabia Saudita si è presentata davanti al Comitato delle Nazioni Unite per l'Eliminazione della Discriminazione contro le Donne per difendere il proprio record; il comitato ha chiesto riforme, inclusa l'abolizione della tutela maschile e l'adozione di un codice famigliare unificato. Nel marzo 2018, i Houthis hanno lanciato una serie di razzi contro l'Arabia Saudita, uccidendo un uomo egiziano e ferendo altri due a Riyadh.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/operation-parliament",
+    "wikipedia:SAU_2018"
+  ]
+}

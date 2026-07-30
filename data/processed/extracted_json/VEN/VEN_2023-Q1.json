@@ -1,0 +1,30 @@
+{
+  "paese": "VEN",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si registrano proteste e dimostrazioni da parte di insegnanti e lavoratori di SIDOR, richiedendo aumenti di salario e miglioramenti nelle condizioni di lavoro. Le proteste sono accompagnate da repressione da parte delle autorità, con l'arresto di alcuni leader sindacali. Viene riaperto il confine con Colombia, ma si registrano tensioni politiche tra il governo di Maduro e l'opposizione internazionale. L'opposizione internazionale continua a chiedere sanzioni contro il governo venezuelano, mentre il governo stesso chiede la revoca delle sanzioni. Viene riaperto il confine con il Venezuela, ma si registrano tensioni politiche tra il governo di Maduro e l'opposizione internazionale. L'opposizione internazionale continua a chiedere sanzioni contro il governo venezuelano, mentre il governo stesso chiede la revoca delle sanzioni."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, si registra un aumento delle attività criminali da parte di gruppi come il Tren de Aragua, con catture di membri del gruppo in territorio chileno. Si verifica un aumento delle attività criminali da parte di gruppi come il Tren de Aragua, con catture di membri del gruppo in territorio chileno."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il presidente Nicolás Maduro continua a governare, con Delcy Rodríguez come vicepresidente. Viene riaperto il confine con Colombia, ma si registrano tensioni politiche tra il governo di Maduro e l'opposizione internazionale. L'opposizione internazionale continua a chiedere sanzioni contro il governo venezuelano, mentre il governo stesso chiede la revoca delle sanzioni. Viene riaperto il confine con il Venezuela, ma si registrano tensioni politiche tra il governo di Maduro e l'opposizione internazionale. L'opposizione internazionale continua a chiedere sanzioni contro il governo venezuelano, mentre il governo stesso chiede la revoca delle sanzioni.",
+  "fonti": [
+    "wikipedia:VEN_2023",
+    "unhcr_reports (VEN_2023Q1_2023-03-28_evaluaci-n-del-desempe-o-de-la-coordinaci-n-del-cl-ster-plan.pdf)",
+    "ENISA_Threat_Landscape_2023.pdf"
+  ]
+}

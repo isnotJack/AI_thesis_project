@@ -1,0 +1,34 @@
+{
+  "paese": "ISR",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Pegasus spyware incident"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "NSO Group"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": null,
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:ISR_2021"
+  ]
+}

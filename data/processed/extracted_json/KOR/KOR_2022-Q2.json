@@ -1,0 +1,36 @@
+{
+  "paese": "KOR",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "APT29 (The Dukes/Nobelium) targeting organizations in the US and European IT supply chains"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "APT29 (The Dukes/Nobelium)"
+    ],
+    "settori_bersaglio": [
+      "Supply chains"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In Q2 2022, South Korea held the presidential election on March 9th, where Yoon Suk-yeol was narrowly elected as president. He was inaugurated on May 10th, becoming the 13th president of South Korea. The People Power Party, Yoon's party, decisively won the local elections held on June 1st.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:KOR_2022"
+  ]
+}

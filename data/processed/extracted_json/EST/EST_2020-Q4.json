@@ -1,0 +1,28 @@
+{
+  "paese": "EST",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2020, l'Estonia continuò a gestire le conseguenze della pandemia di COVID-19, che aveva avuto inizio nel paese a febbraio. L'attenzione del governo e delle autorità locali rimase concentrata sulla gestione sanitaria e sulle misure di contenimento del virus. Nel corso dell'anno, il paese aveva registrato un aumento dei casi di infezione, con un primo decesso rilevato a marzo. La leadership del paese era costituita da Kersti Kaljulaid come Presidente e Jüri Ratas come Primo Ministro. Nel trimestre, non sono stati riportati eventi specifici di rilievo oltre alla continua gestione della pandemia.",
+  "fonti": [
+    "wikipedia:EST_2020"
+  ]
+}

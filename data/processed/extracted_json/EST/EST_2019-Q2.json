@@ -1,0 +1,28 @@
+{
+  "paese": "EST",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, l'Estonia ha visto la formazione di un nuovo governo. Dopo le elezioni parlamentari del 3 marzo, le trattative per la formazione del governo si sono protratte per alcune settimane. Il 17 aprile, un accordo di coalizione è stato approvato con un voto di 55-44. Il 29 aprile, il secondo governo di Jüri Ratas è stato giurato. Inoltre, il 18 aprile, la presidente Kersti Kaljulaid ha incontrato Vladimir Putin a Mosca, segnando il primo incontro tra i leader dei due paesi dal 2011. L'Estonia ha espresso il desiderio di garantire l'assenza di veto da parte della Russia per l'elezione imminente del Consiglio di Sicurezza delle Nazioni Unite del 2019.",
+  "fonti": [
+    "wikipedia:EST_2019"
+  ]
+}

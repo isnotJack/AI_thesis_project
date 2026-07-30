@@ -1,0 +1,31 @@
+{
+  "paese": "KOR",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Operation PowerPowerShell Olympics"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2018, la Corea del Sud ha continuato a gestire le tensioni con la Corea del Nord, con un focus significativo sulle attività di cyber minaccia. L'attenzione si è concentrata anche su eventi interni, come lo scandalo di manipolazione delle opinioni politiche e proteste contro le compagnie aeree. Nel mese di agosto, la Corea del Sud ha ospitato la 5ª Carrom World Cup a Chuncheon.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "wikipedia:KOR_2018"
+  ]
+}

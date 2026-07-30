@@ -1,0 +1,29 @@
+{
+  "paese": "KOR",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2024, la Corea del Sud ha registrato tensioni con la Corea del Nord, con lanci di proiettili vicino all'isola di Yeonpyeong e l'uso di palloni per trasportare rifiuti verso il Sud. Queste azioni hanno portato a evacuazioni e all'innalzamento del livello di allerta terroristica. Inoltre, sono stati segnalati episodi di infiltrazioni di soldati nordcoreani attraverso la DMZ, con risposte militari da parte del Sud. L'atmosfera di tensione è stata ulteriormente accresciuta da eventi come l'annuncio di riprendere le trasmissioni sonore verso il Nord in risposta alle azioni del Nord."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, la Corea del Sud ha visto una serie di eventi politici e sociali significativi, inclusi tentativi di attentato contro il leader del partito Democratico, investimenti nel settore semiconduttore, e la partecipazione ai Giochi Olimpici Invernali. La tensione con la Corea del Nord è stata un tema ricorrente, con lanci di proiettili e azioni simboliche come l'uso di palloni per trasportare rifiuti. L'annuncio di investimenti nel settore semiconduttore e la partecipazione ai Giochi Olimpici hanno segnato sviluppi positivi, mentre la situazione politica interna è stata caratterizzata da dimissioni e cambiamenti di governo.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:KOR_2024"
+  ]
+}

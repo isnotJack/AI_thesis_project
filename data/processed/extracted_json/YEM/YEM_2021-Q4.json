@@ -1,0 +1,33 @@
+{
+  "paese": "YEM",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Yemen ha visto un aumento delle dimostrazioni pubbliche che spesso si sono concluse con violenza urbana. Le proteste sono state principalmente causate dalla deprezzazione del rial yemenita, che ha portato ad un aumento dei prezzi dei beni di consumo e a una peggioramento delle condizioni di vita. Le autorità hanno risposto con forza, con diversi incidenti di violenza registrati in varie governatorie. La situazione è stata ulteriormente complicata dalla continua lotta per il controllo della città di Marib e dalle tensioni tra le autorità nominalmente sotto il governo internazionalmente riconosciuto (IRG) e il Consiglio di Transizione del Sud (STC). Le proteste hanno coinvolto diverse parti della popolazione, inclusi lavoratori, commercianti e cittadini comuni, che hanno manifestato contro la mancanza di servizi pubblici, l'instabilità economica e la mancanza di sicurezza. La situazione è stata ulteriormente complicata dalla continua lotta per il controllo della città di Marib e dalle tensioni tra le autorità nominalmente sotto il governo internazionalmente riconosciuto (IRG) e il Consiglio di Transizione del Sud (STC)."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "I principali driver della carestia nel trimestre sono stati la deprezzazione della valuta, l'aumento dei prezzi dei beni di consumo, la mancanza di servizi pubblici e la continua instabilità economica. L'aumento dei prezzi dei beni di consumo, in particolare dei generi alimentari, ha pesantemente colpito la popolazione, riducendo la capacità di acquisto delle famiglie. La situazione è stata ulteriormente aggravata dalla mancanza di accesso ai servizi essenziali, come l'acqua e l'elettricità, e dalla continua instabilità economica. La carestia ha colpito in modo particolare le famiglie con redditi limitati e quelle che dipendono da trasferimenti di denaro da familiari all'estero."
+  },
+  "migrazione": {
+    "descrizione": "Le principali criticità di protezione per i migranti nel trimestre sono state legate alla mancanza di accesso ai servizi essenziali, come l'acqua e l'elettricità, e alla continua instabilità economica. I migranti hanno anche riscontrato ostacoli operativi nel ricevere assistenza umanitaria a causa delle tensioni politiche e della mancanza di infrastrutture funzionanti. La situazione è stata ulteriormente complicata dalla continua lotta per il controllo della città di Marib e dalle tensioni tra le autorità nominalmente sotto il governo internazionalmente riconosciuto (IRG) e il Consiglio di Transizione del Sud (STC)."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per il trimestre è stato negativo, con una continua deprezzazione della valuta e un aumento dei prezzi dei beni di consumo. La mancanza di accesso ai servizi essenziali, come l'acqua e l'elettricità, ha ulteriormente aggravato la situazione economica. La continua instabilità economica ha ridotto la capacità di acquisto delle famiglie e ha aumentato la povertà. La situazione è stata ulteriormente complicata dalla continua lotta per il controllo della città di Marib e dalle tensioni tra le autorità nominalmente sotto il governo internazionalmente riconosciuto (IRG) e il Consiglio di Transizione del Sud (STC)."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Yemen ha continuato a essere afflitto da una serie di problemi, inclusi la guerra civile, la pandemia di COVID-19 e la crisi umanitaria. La situazione è stata ulteriormente complicata dalla continua lotta per il controllo della città di Marib e dalle tensioni tra le autorità nominalmente sotto il governo internazionalmente riconosciuto (IRG) e il Consiglio di Transizione del Sud (STC). La mancanza di accesso ai servizi essenziali, come l'acqua e l'elettricità, ha ulteriormente aggravato la situazione. La continua instabilità economica ha ridotto la capacità di acquisto delle famiglie e ha aumentato la povertà. La situazione è stata ulteriormente complicata dalla continua lotta per il controllo della città di Marib e dalle tensioni tra le autorità nominalmente sotto il governo internazionalmente riconosciuto (IRG) e il Consiglio di Transizione del Sud (STC).",
+  "fonti": [
+    "YEM_2021-11-05_20211105_acaps_yah_simp_july_to_september_0.pdf",
+    "YEM_2021-11-29_20211129_acaps_anticipatrory_analysis_yemen_civil_unrest_in_the_south.pdf",
+    "YEM_2021-december_food-security-outlook-update.pdf",
+    "YEM_2021Q4_2021-12-31_unhcr-yemen-rapid-needs-and-vulnerability-assessment-update-.pdf",
+    "YEM_mpo_am21.pdf",
+    "wikipedia:YEM_2021"
+  ]
+}

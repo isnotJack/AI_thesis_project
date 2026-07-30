@@ -1,0 +1,45 @@
+{
+  "paese": "CHN",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita economica è moderato, con rischi fiscali ed esterni segnalati nei report. Si prevede una crescita economica contenuta, con attenzione ai trend strutturali di decelerazione. Il tasso di povertà è in fase di riduzione, ma con un ritmo più lento rispetto a periodi precedenti."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure (2024-02-07)",
+      "CISA and FBI Release Secure by Design Alert Urging Manufacturers to Eliminate Defects in SOHO Routers (2024-01-31)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Volt Typhoon"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Servizi di trasporto",
+      "Energia",
+      "Comunicazioni",
+      "Servizi finanziari"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, la Cina continua a essere guidata da Xi Jinping come Segretario Generale del Partito Comunista Cinese e Presidente. Vi sono diversi eventi significativi, tra cui incidenti naturali, incidenti industriali e sviluppi geopolitici. La Cina mantiene una posizione attiva in ambito internazionale, con incontri con leader di altri paesi e sviluppi in relazione alla politica estera e alle relazioni internazionali.",
+  "fonti": [
+    "CHN_aa24-038a_csa_prc_state_sponsored_actors_compromise_us_critical_infrastructure_3.pdf",
+    "CHN_mpo_am23.pdf",
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "https://www.cisa.gov/news-events/alerts/2024/01/31/cisa-and-fbi-release-secure-design-alert-urging-manufacturers-eliminate-defects-soho-routers",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-038a",
+    "wikipedia:CHN_2024"
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "paese": "SAU",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attack on Italian oil firm Saipem",
+      "APT 39",
+      "Targeting of Omar Abdulaziz"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "APT 39"
+    ],
+    "settori_bersaglio": [
+      "Telecommunications",
+      "Travel industry",
+      "Supporting IT firms",
+      "High-tech industry"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In ottobre, il giornalista saudita e colonna del Washington Post Jamal Khashoggi entra nel consolato saudita a Istanbul e viene assassinato. Le registrazioni della intelligence turca rivelano i dettagli che implicano funzionari sauditi. Il 23 ottobre, il Summit Future Investment Initiative (FII) a Riyadh vede la firma di accordi per oltre 50 miliardi di dollari nei settori dell'energia e dell'infrastruttura.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/apt-39",
+    "https://www.cfr.org/cyber-operations/attack-on-italian-oil-firm-saipem",
+    "https://www.cfr.org/cyber-operations/targeting-of-omar-abdulaziz",
+    "wikipedia:SAU_2018"
+  ]
+}

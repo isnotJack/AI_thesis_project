@@ -1,0 +1,42 @@
+{
+  "paese": "ISR",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2022, Israele ha continuato a fare fronte a tensioni e conflitti sia interni che esterni. All'interno del paese, ci sono stati episodi di violenza tra israeliani e palestinesi, con raid militari e scontri in varie zone della Cisgiordania. All'esterno, Israele ha mantenuto una posizione attiva nei confronti di minacce regionali, come l'Iran e il Libano, con azioni militari contro bersagli presunti legati a gruppi ostili. Il paese ha anche continuato a gestire le relazioni con paesi vicini, come l'Emirato Arabo Unito e l'Egitto, mantenendo un equilibrio tra collaborazione e cautela nei confronti di minacce esterne. La leadership israeliana ha continuato a cambiare, con Yair Lapid che ha assunto il ruolo di primo ministro a partire da metà del trimestre, seguito da Benjamin Netanyahu che ha ripreso il ruolo di primo ministro a fine trimestre. Le relazioni internazionali hanno continuato a essere influenzate dalle dinamiche regionali, con Israele che ha mantenuto una posizione attiva nei confronti delle minacce regionali e delle questioni di sicurezza nazionale."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco hacker al sito web del Jerusalem Post, attribuito all'Iran Cyber Army, con minacce contro il centro nucleare di Soreq e riferimenti a Qasem Soleimani",
+      "Attacco cibernetico di Altahrea Team contro siti web israeliani in reazione all'uccisione di Qasem Soleimani",
+      "Arresto di tre presunti spie israeliane in Iran, in collaborazione con l'intelligence turca"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Microsoft Threat Intelligence Center (MSTIC) advisory sulle attività di Altahrea Team"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iran Cyber Army",
+      "Altahrea Team"
+    ],
+    "settori_bersaglio": [
+      "Mediatici",
+      "Governativi"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, Israele ha continuato a fare fronte a una serie di sfide politiche, sociali e di sicurezza. La leadership del paese ha attraversato un periodo di transizione, con Yair Lapid che ha assunto il ruolo di primo ministro a partire da metà del trimestre, seguito da Benjamin Netanyahu che ha ripreso il ruolo di primo ministro a fine trimestre. Le relazioni internazionali hanno continuato a essere influenzate dalle dinamiche regionali, con Israele che ha mantenuto una posizione attiva nei confronti delle minacce regionali e delle questioni di sicurezza nazionale. All'interno del paese, ci sono stati episodi di violenza tra israeliani e palestinesi, con raid militari e scontri in varie zone della Cisgiordania. All'esterno, Israele ha continuato a gestire le relazioni con paesi vicini, come l'Emirato Arabo Unito e l'Egitto, mantenendo un equilibrio tra collaborazione e cautela nei confronti di minacce esterne. La situazione interna è stata caratterizzata da continue tensioni politiche e sociali, con cambiamenti di governo e dinamiche interne complesse.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:ISR_2022"
+  ]
+}

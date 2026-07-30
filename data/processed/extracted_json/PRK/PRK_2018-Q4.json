@@ -1,0 +1,37 @@
+{
+  "paese": "PRK",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Compromise of South Korean resettlement agency",
+      "Global bank attacks"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Resettlement agency",
+      "Financial institutions"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In 2018, North Korea focused on developing its international relationships, particularly with South Korea. Key events included the participation of North Korean athletes in the 2018 Winter Olympics, multiple meetings between Kim Jong Un and South Korean President Moon Jae-in, and diplomatic engagements with China and the United States. The year also saw the release of detained U.S. prisoners and the dismantling of North Korea's nuclear test site, indicating efforts to reduce regional tensions.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/compromise-of-south-korean-resettlement-agency",
+    "https://www.cfr.org/cyber-operations/global-bank-attacks",
+    "wikipedia:PRK_2018"
+  ]
+}

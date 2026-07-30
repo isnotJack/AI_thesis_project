@@ -1,0 +1,28 @@
+{
+  "paese": "KOR",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2023, la Corea del Sud ha continuato a gestire diverse sfide politiche e sociali. Tra le principali notizie, il governo ha preso misure per gestire eventi naturali, come l'evacuazione di partecipanti al 25º Jamboree mondiale dei boy scout a causa dell'arrivo del tifone Khanun. Inoltre, vi è stato un forte interesse verso la questione nucleare, con diverse dichiarazioni riguardanti la possibilità di considerare armi nucleari per la difesa contro la minaccia nordcoreana. Nel campo giudiziario, è stato emesso un ordine della Corte Suprema di Seul che richiede al Giappone di pagare compensazioni a delle ex lavoratrici di comfort durante la Seconda Guerra Mondiale, ribaltando una precedente decisione basata sull'immunità sovrana. Questi eventi riflettono una situazione politica e sociale dinamica, con un forte focus sulle relazioni internazionali e sulla sicurezza nazionale.",
+  "fonti": [
+    "wikipedia:KOR_2023"
+  ]
+}

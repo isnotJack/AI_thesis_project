@@ -1,0 +1,33 @@
+{
+  "paese": "EST",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Estonian government websites were temporarily blocked by DDoS attacks querying them several thousand times the normal traffic flow"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Government websites"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In the third quarter of 2022, Estonia experienced several significant events. On 14 July, Prime Minister Kaja Kallas resigned to form a new coalition government. A new three-party coalition government was formed on 18 July. Estonia and Latvia formally withdrew from the Cooperation between China and Central and Eastern European Countries group on 11 August, amid tensions with China over its human rights record and its support of Russia's war on Ukraine.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "wikipedia:EST_2022"
+  ]
+}

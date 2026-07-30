@@ -1,0 +1,46 @@
+{
+  "paese": "IRN",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, Iran ha continuato a essere coinvolto in conflitti interni ed esterni. All'interno del paese, ci sono stati episodi di violenza, inclusi attacchi contro le forze di polizia e incidenti stradali che hanno causato vittime. All'esterno, Iran ha mantenuto tensioni con paesi come Stati Uniti e Israele, con attacchi cibernetici attribuiti a gruppi affiliati all'IRGC contro infrastrutture statunitensi. Iran ha anche continuato a negoziare con la comunità internazionale sul nucleare, nonostante le accuse di violazione degli accordi. La regione del Sistan e Baluchistan ha visto attività di gruppi armati, con attacchi contro le forze di sicurezza iraniane. L'attivismo di protesta contro le politiche del governo è stato represso con arresti e condanne a morte per presunte violazioni di leggi sulla sicurezza nazionale."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Iran ha continuato ad essere un importante paese di accoglienza per rifugiati, principalmente afghani. Il paese ha fornito assistenza sanitaria, istruzione e protezione a un gran numero di rifugiati, garantendo loro accesso a servizi essenziali. Tuttavia, le condizioni di vita per i rifugiati rimangono un problema, con sfide legate alla documentazione e all'integrazione. L'UNHCR ha sostenuto il governo iraniano nel fornire assistenza ai rifugiati, garantendo che le loro esigenze di base siano soddisfatte."
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana ha continuato a mostrare segni di crescita moderata, nonostante le sanzioni internazionali. Il paese ha beneficiato di un aumento delle esportazioni di petrolio, che ha contribuito a ridurre il deficit del conto corrente. Tuttavia, le pressioni fiscali e le tensioni esterne hanno creato incertezza. L'inflazione rimane un problema, con effetti negativi sul potere d'acquisto delle famiglie. Le riforme economiche sono state intraprese per stimolare la crescita, ma le sfide legate alla governance e alla trasparenza rimangono significative."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro stazioni di servizio petrolifere iraniane",
+      "Attacco cibernetico contro infrastrutture statunitensi attribuito a gruppi affiliati all'IRGC"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities (2023-12-01)"
+    ],
+    "gruppi_minaccia_associati": [
+      "IRGC-affiliated cyber actors",
+      "Predator Sparrow"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Servizi di energia",
+      "Servizi di acqua e scorie"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, Iran ha continuato a essere guidato dal leader supremo Ali Khamenei e dal presidente Ebrahim Raisi. Il paese ha affrontato una serie di eventi significativi, inclusi terremoti, tensioni diplomatiche con paesi come Corea del Sud e azioni militari contro gruppi armati nella regione del Sistan e Baluchistan. Le negoziazioni sul nucleare hanno continuato, nonostante le accuse di violazione degli accordi. L'attivismo di protesta contro le politiche del governo è stato represso con arresti e condanne a morte. Iran ha anche continuato a gestire la situazione dei rifugiati, principalmente afghani, fornendo assistenza sanitaria e istruzione. Le tensioni con Stati Uniti e Israele sono state evidenziate da attacchi cibernetici e incidenti militari. L'economia ha mostrato segni di crescita moderata, ma con sfide legate all'inflazione e alle sanzioni internazionali.",
+  "fonti": [
+    "IRN_2023Q4_2023-12-13_iran-at-a-glance-november-2023.pdf",
+    "IRN_mpo_am23.pdf",
+    "IRN_aa23-335a-irgc-affiliated-cyber-actors-exploit-plcs-in-multiple-sectors.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "ENISA_Threat_Landscape_2023.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-335a",
+    "wikipedia:IRN_2023"
+  ]
+}

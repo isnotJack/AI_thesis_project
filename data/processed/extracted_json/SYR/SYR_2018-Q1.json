@@ -1,0 +1,31 @@
+{
+  "paese": "SYR",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2018, la Siria ha visto un'intensificazione delle ostilità tra il Governo Siriano (GoS) e i gruppi armati di opposizione. Le operazioni militari hanno causato un numero elevato di vittime civili e un aumento significativo di spostamenti interni. Le zone maggiormente colpite includono governatorati come Hama, Idleb e Aleppo meridionale. L'offensiva del governo per recuperare territori controllati da Hay'at Tahrir al-Sham (HTS) ha portato a un'ondata di spostamenti, con migliaia di persone che hanno lasciato le loro case. La situazione umanitaria si è rapidamente deteriorata, con crescenti esigenze di assistenza umanitaria. I combattimenti hanno coinvolto anche l'Isis, con continue azioni militari in diverse regioni. L'area di Idleb è stata particolarmente colpita, con un aumento significativo di spostamenti verso zone più distanti dalle linee di conflitto. Le violenze continue hanno esposto i civili a rischi di protezione, inclusi attacchi indiscriminati e insegne di sicurezza. L'offensiva del governo ha portato a un aumento delle violenze, con attacchi aerei e terrestri che hanno causato danni significativi alle infrastrutture e ai centri abitati. La situazione umanitaria è rimasta volatile e caotica a causa delle continue azioni militari e delle violenze. L'area di Idleb ha visto un aumento significativo di spostamenti verso zone più distanti dalle linee di conflitto, con un aumento delle esigenze di protezione e assistenza umanitaria. Le violenze continue hanno esposto i civili a rischi di protezione, inclusi attacchi indiscriminati e insegne di sicurezza. L'offensiva del governo ha portato a un aumento delle violenze, con attacchi aerei e terrestri che hanno causato danni significativi alle infrastrutture e ai centri abitati. La situazione umanitaria è rimasta volatile e caotica a causa delle continue azioni militari e delle violenze."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2018, la Siria ha visto un aumento significativo dei movimenti di sfollati interni, con migliaia di persone che hanno lasciato le loro case a causa delle continue ostilità. Gli sfollati hanno spostato verso zone più distanti dalle linee di conflitto, soprattutto verso Idleb e le sue regioni circostanti. Le esigenze di protezione sono aumentate, con sfollati esposti a rischi di sicurezza e violenze. Gli sfollati hanno trovato rifugio in campi temporanei, ma le condizioni sono state precarie, con carenze in ambito di alloggio, cibo e assistenza sanitaria. Gli sfollati hanno anche affrontato problemi di accesso all'istruzione e alla salute, con un aumento delle esigenze di assistenza umanitaria. Gli sfollati hanno continuato a spostarsi verso zone più distanti dalle linee di conflitto, con un aumento delle esigenze di protezione e assistenza umanitaria. Le violenze continue hanno esposto gli sfollati a rischi di protezione, inclusi attacchi indiscriminati e insegne di sicurezza. Gli sfollati hanno continuato a spostarsi verso zone più distanti dalle linee di conflitto, con un aumento delle esigenze di protezione e assistenza umanitaria. Le violenze continue hanno esposto gli sfollati a rischi di protezione, inclusi attacchi indiscriminati e insegne di sicurezza."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, la Siria ha continuato a essere caratterizzata da una situazione di conflitto armato persistente. Il presidente Bashar al-Assad ha mantenuto il suo ruolo di leader del paese, mentre il vicepresidente Najah al-Attar e il primo ministro Imad Khamis hanno continuato a ricoprire le loro posizioni. L'anno ha visto una serie di eventi legati alla guerra civile siriana, con continui scontri tra le forze governative e le varie fazioni di opposizione. Le operazioni militari hanno portato a un aumento dei movimenti di sfollati interni e a una crescente pressione umanitaria. La situazione politica e militare ha continuato a essere complessa, con negoziati internazionali che hanno cercato di trovare una soluzione al conflitto. Gli sforzi diplomatici hanno coinvolto diversi attori internazionali, ma la situazione sul terreno rimaneva instabile. La Siria ha continuato a essere un teatro di conflitto con diverse fazioni in lotta per il controllo del territorio, portando a un aumento delle violenze e delle sofferenze della popolazione civile.",
+  "fonti": [
+    "SYR_2018-01-22_20180122_acaps_briefing_note_displacement_in_northwestern_syria.pdf",
+    "SYR_2018Q1_2018-03-31_syria-idp-situation-monitoring-initiative-ismi-quarterly-tre.pdf",
+    "ENISA_Threat_Landscape_2018.pdf",
+    "wikipedia:SYR_2018"
+  ]
+}

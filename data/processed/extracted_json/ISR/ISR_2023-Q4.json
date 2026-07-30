@@ -1,0 +1,42 @@
+{
+  "paese": "ISR",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Il trimestre è caratterizzato da un conflitto intensificato tra Israele e Hamas, culminato con l'attacco di Hamas del 7 ottobre, che ha portato alla guerra di Gaza e all'invasione della Striscia di Gaza da parte di Israele. Il conflitto ha coinvolto attacchi reciproci con lanci di razzi, incursioni militari e operazioni di evacuazione. Numerose vittime civili sono state riportate sia in Israele che nella Striscia di Gaza, con un forte impatto umanitario e internazionale. Israele ha intensificato le sue operazioni militari, mentre le organizzazioni umanitarie hanno chiesto ripetutamente una tregua umanitaria. L'operazione militare israeliana ha coinvolto anche incursioni in territori vicini, come il Libano, con attacchi contro Hezbollah. Il conflitto ha generato una vasta reazione internazionale, con chiamate a una tregua e critiche verso le azioni di entrambe le parti."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco di Storm-1133 contro organizzazioni con legami pubblici con Israele, utilizzando tecniche di phishing mirato e backdoor per violare sistemi.",
+      "Attacco di Team Jorge, un gruppo legato a ex membri delle forze speciali israeliane, accusato di aver influenzato più di 30 elezioni in diversi paesi tramite una campagna di disinformazione."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Microsoft Digital Defense Report 2023: Threat actor Storm-1133 targeting Israeli organizations.",
+      "Microsoft Digital Defense Report 2023: Advisory on Team Jorge's disinformation campaign."
+    ],
+    "gruppi_minaccia_associati": [
+      "Storm-1133",
+      "Team Jorge"
+    ],
+    "settori_bersaglio": [
+      "Organizzazioni con legami pubblici con Israele",
+      "Mediante campagne di disinformazione"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel 2023-Q4, Israele è stato caratterizzato da un conflitto di grande intensità con Hamas, culminato con l'attacco del 7 ottobre e la conseguente guerra di Gaza. Il paese ha affrontato anche proteste contro le riforme giudiziarie proposte e ha continuato a gestire tensioni con il Libano e altri paesi vicini. La leadership del paese è rimasta stabile con Benjamin Netanyahu come primo ministro e Isaac Herzog come presidente. Il periodo è stato segnato da un'ampia reazione internazionale al conflitto, con chiamate a una tregua umanitaria e critiche verso le azioni di entrambe le parti.",
+  "fonti": [
+    "Microsoft Digital Defense Report 2023.pdf",
+    "ENISA Threat Landscape 2023.pdf",
+    "wikipedia:ISR_2023"
+  ]
+}

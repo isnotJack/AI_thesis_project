@@ -1,0 +1,32 @@
+{
+  "paese": "YEM",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua a essere intenso, con attivita' di combattimenti in diverse regioni del paese. I combattimenti principali si concentrano in governatorati come Hajjah, dove ci sono stati scontri tra forze pro-governo e forze Houthi. La violenza ha portato a un aumento dei dislocati interni, con migliaia di famiglie che hanno lasciato le loro case a causa delle ostilita'. La situazione è particolarmente critica in zone come Abs, dove ci sono stati scontri tra tribu locali e forze Houthi, con conseguenti spostamenti di popolazione. Il conflitto ha anche avuto un impatto significativo sulla sicurezza alimentare e sull'accesso ai servizi essenziali, come l'acqua e la salute. L'uso di armi pesanti e le azioni militari hanno causato danni a infrastrutture cruciali, come ponti e strade, limitando l'accesso alle aree colpite. La situazione è complessa e dinamica, con cambiamenti frequenti nei fronti di battaglia e nell'allocazione delle forze."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen è principalmente causata dal conflitto, che ha avuto un impatto devastante sulla sicurezza alimentare. La guerra ha interrotto le catene di approvvigionamento, aumentato i prezzi dei generi alimentari e ridotto l'accesso all'alimentazione. La situazione è peggiorata ulteriormente da problemi di accesso alle aree colpite, limitando la distribuzione di aiuti umanitari. La carestia è accentuata da fattori come la degradazione delle condizioni economiche, la mancanza di accesso all'acqua e ai servizi di salute, e l'aumento della malnutrizione. La carestia è particolarmente grave in alcune regioni, come Hajjah, dove le condizioni sono state classificate come emergenza IPC 4. La situazione è dinamica e richiede un'attenzione immediata per prevenire ulteriori degradazioni."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è un problema significativo a causa del conflitto. Migliaia di famiglie sono state dislocate internamente, cercando rifugio in aree più sicure. La mancanza di accesso ai servizi essenziali, come l'acqua, la salute e l'alimentazione, ha reso le condizioni di vita difficili per i dislocati. La protezione dei rifugiati e delle persone in movimento è una priorità, con rischi di violenza e abusi. I dislocati hanno bisogno di assistenza umanitaria, inclusa l'assistenza legale e psicosociale, per affrontare le sfide che incontrano. La situazione è complessa, con sfide continue per garantire la sicurezza e la protezione delle persone in movimento."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, Yemen continua a essere afflitto da un conflitto armato persistente che ha profonde implicazioni umanitarie e politiche. Il presidente Abdrabbuh Mansur Hadi e il vice presidente Ali Mohsen al-Ahmar continuano ad essere le figure di riferimento politiche. Il primo ministro Maeen Abdulmalik Saeed gestisce le operazioni di governo. Nel marzo 2019, un ospedale in un'area rurale del nord-ovest di Yemen è stato colpito da un attacco aereo, causando sette morti e otto feriti. A agosto, il Consiglio di Transizione del Sud ha preso il controllo di Aden e Zinjibar. La situazione politica e militare rimane instabile, con continue tensioni tra le varie fazioni in lotta per il controllo del paese.",
+  "fonti": [
+    "YEM_2019-04-15_20190415_acaps_yemen_analysis_hub_hajjah_conflict__0.pdf",
+    "YEM_2019-04-29_20190429_acaps_yemen_analysis_hub_analysis_ecosystem_in_yemen_0.pdf",
+    "YEM_2019-june_food-security-outlook.pdf",
+    "YEM_2019Q2_2019-06-30_yemen-fact-sheet-june-2019.pdf",
+    "wikipedia:YEM_2019"
+  ]
+}

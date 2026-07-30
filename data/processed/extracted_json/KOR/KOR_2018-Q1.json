@@ -1,0 +1,36 @@
+{
+  "paese": "KOR",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Compromise of computer networks associated with the 2018 Pyeongchang Winter Olympics",
+      "APT 37"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "APT 37"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In gennaio 2018, la Corea del Sud ha tenuto le prime trattative con la Corea del Nord a Panmunjom, dove la Corea del Nord ha accettato di inviare atleti alle Olimpiadi invernali del 2018. Il governo sudcoreano, insieme alla Cina e al Giappone, ha annunciato piani per reprimere le criptovalute come il Bitcoin, che ha subito una forte diminuzione di valore dopo l'annuncio. Le Olimpiadi invernali del 2018 sono state ospitate a Pyeongchang, in Corea del Sud, dal 9 al 25 febbraio.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/apt-37",
+    "https://www.cfr.org/cyber-operations/compromise-of-computer-networks-associated-with-the-2018-pyeongchang-winter-olympics",
+    "wikipedia:KOR_2018"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "paese": "UKR",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con violazioni del cessate il fuoco nel Donbass e tensioni lungo la frontiera con la Russia. Il paese registra incidenti armati e movimenti di truppe russe lungo il confine. L'Ucraina e la NATO tengono riunioni d'emergenza per discutere della situazione. Il paese accusa la Russia di provocare confronti armati con i separatisti pro-russi. Il conflitto è caratterizzato da movimenti di truppe e tensioni diplomatiche tra Ucraina, Russia e NATO."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Ucraina riceve fondi per le sue esigenze finanziarie, con un totale di 3,69 miliardi di USD raccolti. La maggior parte dei fondi è destinata a programmi specifici come il Programma Nazionale UN sulle Malattie di HIV/AIDS. L'Ucraina riceve anche contributi da paesi come gli Stati Uniti, Giappone, Svezia e altri. Il paese ha bisogno di ulteriori fondi per coprire le sue esigenze finanziarie."
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina si aspetta una contrazione significativa a causa della pandemia di COVID-19. Le prospettive di crescita sono compromesse, con rischi fiscali e pressioni inflazionistiche. L'inflazione è stata ridotta grazie a politiche monetarie e fiscali. L'economia si sta riprendendo grazie a una domanda domestica rinvigorita, ma rimangono vulnerabilità macroeconomiche."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, l'Ucraina continua a gestire la pandemia di COVID-19, con misure di lockdown e vaccinazioni in corso. Il paese riceve dosi di vaccini da varie fonti, inclusi AstraZeneca e Novavax. Ci sono tensioni lungo la frontiera con la Russia, con movimenti di truppe e dichiarazioni diplomatiche. L'Ucraina e la NATO tengono riunioni per discutere della situazione. Il paese continua a fare fronte alla guerra nel Donbass e alle violazioni del cessate il fuoco. Viene anche riaperto il dibattito sulla cooperazione con l'UE e la NATO, con richieste di accelerare l'adesione. L'Ucraina registra anche incidenti e sviluppi interni, come la demolizione di una statua di Vladimir Lenin e la legalizzazione del cannabis a fini medici.",
+  "fonti": [
+    "unhcr_reports (UKR_2021Q1_2021-03-30_unhcr-ukraine-2021-funding-update-as-of-30-march-2021.pdf)",
+    "worldbank_mpo (UKR_mpo_am20.pdf)",
+    "wikipedia:UKR_2021"
+  ]
+}

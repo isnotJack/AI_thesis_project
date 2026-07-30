@@ -1,0 +1,29 @@
+{
+  "paese": "EST",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, l'Estonia ha visto alcuni eventi significativi. Nel mese di giugno, il primo ministro Kaja Kallas è stata nominata Alta Rappresentante dell'Unione per gli Affari Esteri e la Politica di Sicurezza dell'Unione Europea. Il 28 giugno, il ministro per il clima Kristen Michal è stata nominata per sostituire Kaja Kallas come primo ministro. Inoltre, i leader della Polonia, della Lituania, della Lettonia e dell'Estonia hanno chiesto all'Unione Europea di costruire una linea di difesa da 2,5 miliardi di euro tra loro e la Russia e il Bielorussia per proteggere l'UE da minacce militari, economiche e legate ai migranti. Il 29 giugno, il primo ministro Kaja Kallas ha presentato le sue dimissioni per assumere il suo nuovo ruolo. Nel mese di luglio, i paesi baltici hanno annunciato il loro ritiro dalle reti elettriche della Russia e della Bielorussia, con piani per sincronizzare le loro reti con quella dell'Europa continentale a partire dal 9 febbraio 2025.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:EST_2024"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "paese": "RUS",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto russo-ucrainiano continua con intensità, con attivita' militari e incursioni reciproche. Incidenti aerei e terrestri sono frequenti, con attacchi aerei e incursioni da parte di forze ucraine e russe. Il governo russo dichiara che l'invasione è ora ufficialmente una 'guerra' e non più una 'operazione militare speciale'."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra un modesto recupero dopo l'impatto delle sanzioni, con un ritorno alla crescita nel 2023. Tuttavia, si prevede una diminuzione dell'economia nel 2024, con proiezioni di crescita che scendono al 2.2% nel 2024 e al 1.1% nei successivi anni. Le restrizioni sul commercio e la finanza hanno avuto un impatto significativo, con una riduzione delle esportazioni. L'inflazione rimane un problema, alimentata da fattori come la deprezzazione del rublo e le restrizioni sui beni tecnologici."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Russian Military Cyber Actors Target US and Global Critical Infrastructure (2024-09-05)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Unit 29155"
+    ],
+    "settori_bersaglio": [
+      "infrastrutture critiche",
+      "servizi di governo",
+      "servizi finanziari",
+      "trasporto",
+      "energia",
+      "salute"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, la Russia continua a essere coinvolta in un conflitto militare di larga portata con l'Ucraina. Il presidente Vladimir Putin è impegnato in un quinto mandato consecutivo, mentre il paese affronta sfide significative legate all'economia, alla sicurezza e alla relazione internazionale. L'attivita' militare continua con incursioni e attacchi reciproci, mentre si registrano anche incidenti interni come incendi e incidenti stradali. La situazione geopolitica resta tesa, con interventi militari e diplomatici in diversi paesi, inclusa la Siria. L'uso di tecnologie avanzate, come i droni, è un elemento significativo nei conflitti e nelle operazioni militari.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_sm24.pdf)",
+    "cisa (RUS_aa24-249a-russian-military-cyber-actors-target-us-and-global-critical-infrastructure.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-249a",
+    "wikipedia:RUS_2024"
+  ]
+}

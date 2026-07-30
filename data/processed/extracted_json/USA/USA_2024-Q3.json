@@ -1,0 +1,28 @@
+{
+  "paese": "USA",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre 2024-Q3, gli Stati Uniti hanno continuato a essere coinvolti in conflitti internazionali e interni. A livello internazionale, gli Stati Uniti hanno lanciato attacchi aerei contro obiettivi militari in Yemen, in risposta a attacchi precedenti contro navi nel Mar Rosso. Inoltre, gli Stati Uniti hanno continuato a fornire sostegno militare a Israele durante la guerra di Gaza, con aerei statunitensi che hanno iniziato a sganciare aiuti umanitari nella Striscia di Gaza. A livello interno, gli Stati Uniti hanno affrontato diverse situazioni di violenza, tra cui un tentato assassinio contro l'ex presidente Donald Trump durante un comizio a West Palm Beach, Florida, che è stato respinto senza che nessuno venisse ferito. Inoltre, gli Stati Uniti hanno continuato a gestire la crisi alla frontiera con il Messico, con il governo federale che ha imposto nuove restrizioni per gestire il flusso di migranti. Gli Stati Uniti hanno anche intensificato le sanzioni contro l'Iran, in risposta a attacchi di droni contro basi statunitensi in Medio Oriente."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2024-Q3, gli Stati Uniti hanno continuato a gestire una serie di sfide politiche, sociali e naturali. A livello politico, gli Stati Uniti hanno affrontato elezioni presidenziali, con Donald Trump che ha vinto la rielezione contro Kamala Harris. La campagna elettorale è stata caratterizzata da una serie di eventi significativi, tra cui tentati assassinii contro Trump e un'indagine su possibili interferenze elettorali. A livello sociale, gli Stati Uniti hanno continuato a gestire proteste legate alla guerra di Gaza, con manifestazioni contro Israele su vari campus universitari. A livello naturale, gli Stati Uniti hanno affrontato una serie di uragani e tornado, tra cui l'uragano Milton che ha causato danni significativi lungo la costa sud-orientale. Inoltre, gli Stati Uniti hanno continuato a gestire la crisi alla frontiera con il Messico, con il governo federale che ha imposto nuove restrizioni per gestire il flusso di migranti.",
+  "fonti": [
+    "wikipedia:USA_2024"
+  ]
+}

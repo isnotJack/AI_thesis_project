@@ -1,0 +1,32 @@
+{
+  "paese": "ETH",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Conflitti localizzati e sporadici sono presenti in diverse regioni, influenzando negativamente le condizioni di sicurezza e la stabilità. La regione di Benishangul-Gumuz è particolarmente interessata da conflitti etnici. La regione di Tigray è coinvolta in un conflitto più ampio, con tensioni che si estendono anche verso il governo federale. La presenza di gruppi armati e le azioni di forze di sicurezza hanno portato a spostamenti di popolazione e a situazioni di instabilità. Il conflitto ha anche implicazioni regionali, con tensioni che si estendono verso il Sudan e l'Eritrea. La situazione è complessa e dinamica, con eventi che si susseguono rapidamente e che influenzano significativamente le condizioni di vita delle popolazioni locali."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "Le principali cause della carestia sono il conflitto, le coltivazioni povere in alcune aree, l'infestazione di locuste del deserto e i prezzi alimentari elevati. La carestia è particolarmente accentuata nelle regioni orientali del paese, dove le condizioni di sicurezza e le coltivazioni povere hanno contribuito a creare situazioni di crisi alimentare. L'infestazione di locuste del deserto ha avuto un impatto significativo sulle coltivazioni e sul pascolo, influenzando negativamente le condizioni di sicurezza alimentare. I prezzi dei generi alimentari sono aumentati in modo atipico, limitando l'accesso alla cibo per le famiglie più povere. Le condizioni di crisi sono previste di continuare almeno fino a maggio 2020, con l'assistenza umanitaria che continua a prevenire esiti più gravi."
+  },
+  "migrazione": {
+    "descrizione": "La principale criticità di protezione per i rifugiati è legata alla pandemia di COVID-19. Le misure di contenimento, come il distanziamento sociale e l'isolamento, sono state implementate per proteggere la salute pubblica. Tuttavia, queste misure possono creare ostacoli operativi per i rifugiati, soprattutto in termini di accesso ai servizi essenziali e alla protezione. L'UNHCR ha adottato misure per garantire la continuità dei servizi e per proteggere i rifugiati durante la pandemia, ma le sfide rimangono significative."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, l'Etiopia ha affrontato una serie di sfide significative, tra cui conflitti localizzati e sporadici in diverse regioni, l'infestazione di locuste del deserto, la pandemia di COVID-19 e le conseguenti misure di contenimento. La regione di Benishangul-Gumuz è stata particolarmente interessata da conflitti etnici, mentre la regione di Tigray ha visto un conflitto più ampio che ha coinvolto anche il governo federale. La presenza di gruppi armati e le azioni di forze di sicurezza hanno portato a spostamenti di popolazione e a situazioni di instabilità. La pandemia di COVID-19 ha richiesto l'implementazione di misure di contenimento, che hanno creato sfide significative per la protezione dei rifugiati e per l'accesso ai servizi essenziali. Le condizioni di crisi alimentare sono state accentuate da conflitti, coltivazioni povere e prezzi alimentari elevati, con l'assistenza umanitaria che continua a prevenire esiti più gravi. L'economia è stata influenzata da queste sfide, ma non ci sono dati specifici disponibili per questo trimestre.",
+  "fonti": [
+    "ETH_2020-february_food-security-outlook.pdf",
+    "ETH_2020-january_key-message-update.pdf",
+    "ETH_2020-march_key-message-update.pdf",
+    "ETH_2020Q1_2020-03-29_message-to-all-refugees-in-ethiopia-on-covid-19-en-ar-fr-am-.pdf",
+    "wikipedia:ETH_2020"
+  ]
+}

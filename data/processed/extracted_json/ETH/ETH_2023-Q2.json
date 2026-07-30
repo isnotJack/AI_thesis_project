@@ -1,0 +1,32 @@
+{
+  "paese": "ETH",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Etiopia nel secondo trimestre del 2023 è stato caratterizzato da intensi scontri in diverse regioni, principalmente nella regione di Amhara. Le principali fonti di tensione includono le attività delle milizie Fano e Oromo Liberation Army (OLA), nonché le forze speciali etiopi. Sono state riportate violazioni dei diritti umani, inclusi arresti arbitrari e violenze contro civili. La regione di Benishangul-Gumuz ha visto un aumento di rifugiati provenienti dal Sudan, con sfollati che attraversano il confine per sfuggire alla violenza. La situazione è stata ulteriormente complicata da scontri tra milizie e forze di sicurezza, con un aumento dei dislocati interni. La regione di Gambela ha anche visto un aumento di violenze etniche, con conseguenti sfollamenti e tensioni. L'uso di armi pesanti e l'incremento di incidenti armati hanno contribuito a un clima di instabilità generale."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "I principali driver della carestia in Etiopia nel secondo trimestre del 2023 sono stati il conflitto e la siccità. La carestia è stata accentuata dalle violenze etniche e dalle migrazioni forzate, che hanno portato a una riduzione dell'accesso ai beni alimentari. La siccità ha ridotto la produzione agricola, aumentando la vulnerabilità delle popolazioni rurali. L'incremento dei prezzi dei beni di base, combinato con la riduzione dell'accesso ai mercati, ha ulteriormente aggravato la situazione. La carestia è stata particolarmente acuta nelle regioni di Amhara, Benishangul-Gumuz e Gambela, dove le popolazioni hanno subito un forte impatto delle condizioni di siccità e conflitto."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione in Etiopia nel secondo trimestre del 2023 è stata caratterizzata da un aumento significativo di rifugiati provenienti dal Sudan, che hanno attraversato il confine per sfuggire alla violenza. La regione di Benishangul-Gumuz ha visto un incremento di sfollati, con sfollati che hanno attraversato il confine per sfuggire alla violenza. La situazione è stata ulteriormente complicata da scontri tra milizie e forze di sicurezza, con un aumento dei dislocati interni. La regione di Gambela ha anche visto un aumento di violenze etniche, con conseguenti sfollamenti e tensioni. L'uso di armi pesanti e l'incremento di incidenti armati hanno contribuito a un clima di instabilità generale."
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana nel secondo trimestre del 2023 ha mostrato segni di crescita, ma è stata afflitta da rischi fiscali e esterni. La crescita economica è stata influenzata da fattori come la siccità e il conflitto, che hanno avuto un impatto negativo sulla produzione agricola e sulle attività economiche. I rischi fiscali sono aumentati a causa dell'aumento dei dislocati interni e delle esigenze di assistenza umanitaria. Gli indicatori economici hanno mostrato una certa resilienza, ma la situazione rimane fragile a causa delle continue sfide legate al conflitto e alla siccità. L'incremento dei prezzi dei beni di base e la riduzione dell'accesso ai mercati hanno ulteriormente aggravato la situazione economica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, l'Etiopia ha continuato a fare fronte a sfide significative legate al conflitto e alla siccità. La regione di Amhara ha visto un aumento di violenze etniche e scontri tra milizie e forze di sicurezza, con un incremento dei dislocati interni. La regione di Benishangul-Gumuz ha visto un aumento di rifugiati provenienti dal Sudan, che hanno attraversato il confine per sfuggire alla violenza. La situazione è stata ulteriormente complicata da scontri tra milizie e forze di sicurezza, con un aumento dei dislocati interni. La regione di Gambela ha anche visto un aumento di violenze etniche, con conseguenti sfollamenti e tensioni. L'uso di armi pesanti e l'incremento di incidenti armati hanno contribuito a un clima di instabilità generale. L'economia etiopiana ha mostrato segni di crescita, ma è stata afflitta da rischi fiscali e esterni. La crescita economica è stata influenzata da fattori come la siccità e il conflitto, che hanno avuto un impatto negativo sulla produzione agricola e sulle attività economiche.",
+  "fonti": [
+    "acaps (ETH_2023-06-30_20230630_ACAPS_Thematic_report_Ethiopia_humanitarian_situation_in_Guba_woreda__Benishangul_Gumuz.pdf)",
+    "fews_net (ETH_2023-june_food-security-outlook.pdf)",
+    "unhcr_reports (ETH_2023Q2_2023-06-30_ethiopia-refugee-population-by-camp-site-and-settlement-as-o.pdf)",
+    "worldbank_mpo (ETH_mpo_sm23.pdf)",
+    "wikipedia:ETH_2023"
+  ]
+}

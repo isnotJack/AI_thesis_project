@@ -1,0 +1,30 @@
+{
+  "paese": "SAU",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per l'Arabia Saudita prevede una crescita moderata, con rischi fiscali ed esterni legati alle decisioni di taglio della produzione petrolifera e alle condizioni finanziarie globali. La performance del settore non petrolifero è robusta, ma le prospettive a lungo termine dipendono dall'implementazione delle riforme strutturali. L'inflazione rimane controllata grazie alle politiche monetarie e alle agevolazioni. Le condizioni finanziarie globali e le tensioni regionali costituiscono rischi significativi per la crescita economica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, l'Arabia Saudita continua a essere attiva sul fronte economico e diplomatico. Il paese si impegna in riforme strutturali per diversificare l'economia, riducendo la dipendenza dal petrolio. Si assiste a un aumento delle attività nel settore non petrolifero, con un focus sullo sviluppo di infrastrutture e investimenti privati. Politicamente, l'Arabia Saudita mantiene una leadership stabile, con un ennesimo anno di eventi significativi che riflettono la sua posizione regionale e globale. L'apertura di un primo negozio di alcolici a Riyadh segna un cambiamento culturale e legale, mentre la partecipazione a eventi sportivi internazionali e culturali, come il Festival del Cinema di Cannes, dimostra l'apertura verso il mondo. L'annuncio di ospitare le Olimpiadi E-sport nel 2025 sottolinea l'interesse del paese nei confronti dello sport e della tecnologia.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_sm24.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:SAU_2024"
+  ]
+}

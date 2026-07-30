@@ -1,0 +1,29 @@
+{
+  "paese": "SYR",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2022, la Siria ha continuato a essere coinvolta in conflitti armati. Un evento significativo è stato la Battaglia di al-Hasakah, dove un attacco dell'Isis ha portato alla liberazione di numerosi prigionieri, inclusi importanti leader dell'Isis, da una prigione a Al-Hasakah. L'attacco è stato descritto come il più grande da quando l'Isis ha perso il suo ultimo territorio chiave nel 2019. Altri scontri sono stati segnalati tra fazioni del Syrian National Army, supportate da attori esterni. L'Isis ha mantenuto la sua presenza, come dimostrato dall'attacco a una prigione. La Siria ha anche espresso supporto alla decisione della Russia di riconoscere le Repubbliche Popolari di Donetsk e Luhansk come stati indipendenti."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria in Siria continua a essere critica. Il numero di rifugiati siriani è elevato, con migliaia di persone che hanno bisogno di assistenza umanitaria. La maggior parte dei rifugiati vive in condizioni precarie, con problemi di accesso a servizi fondamentali come l'acqua, l'alimentazione e l'assistenza sanitaria. La mancanza di documenti di identità è un problema comune, che limita l'accesso ai servizi e aumenta la vulnerabilità. La Siria è anche un paese di transito per molti migranti, con situazioni di sofferenza e pericolo lungo le rotte. L'UNHCR continua a fornire assistenza, ma le esigenze sono elevate e le risorse limitate."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, la Siria è stata caratterizzata da una leadership stabile con Bashar al-Assad come presidente, Najah al-Attar come vicepresidente e Hussein Arnous come primo ministro. L'anno ha visto diversi eventi significativi, inclusi scontri armati e attacchi da parte di gruppi armati come l'Isis. La Siria ha espresso supporto alla decisione della Russia di riconoscere le Repubbliche Popolari di Donetsk e Luhansk come stati indipendenti. L'Isis ha mantenuto la sua presenza con attacchi significativi, mentre la Siria ha continuato a fare fronte a sfide umanitarie e di sicurezza. La situazione generale rimane instabile, con continue minacce da parte di attori armati e sfide legate alla governance e alla stabilità del paese.",
+  "fonti": [
+    "SYR_2022Q1_2022-03-31_syrian-arab-republic-2022-strategy-and-response-plan-overvie.pdf",
+    "wikipedia:SYR_2022"
+  ]
+}

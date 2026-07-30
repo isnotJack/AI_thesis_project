@@ -1,0 +1,33 @@
+{
+  "paese": "VEN",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Venezuela è affronta una situazione di crisi politica e sociale, con tensioni che coinvolgono il governo di Nicolás Maduro e le opposizioni. Le proteste e le manifestazioni sono frequenti, spesso legate a richieste di miglioramenti salariali e condizioni di vita. L'uso della repressione da parte delle autorità è stato segnalato in alcuni casi, con arresti e detenzioni di manifestanti. La situazione è influenzata anche da eventi internazionali, come le sanzioni e le relazioni con gli Stati Uniti e altri paesi. La crisi energetica e le difficoltà economiche contribuiscono a mantenere un clima di instabilità. L'attivismo politico e le azioni di protesta continuano a essere un tema rilevante, con diverse organizzazioni e movimenti che cercano di influenzare la situazione politica e sociale del paese."
+  },
+  "carestia": {
+    "livello_ipc": "fase2_stressata",
+    "descrizione": "La carestia in Venezuela è principalmente causata da problemi economici, come la deprezzazione della valuta locale (VED) e l'aumento dei prezzi dei beni di base. L'accesso limitato ai beni importati e alle risorse finanziarie rende difficile per molte famiglie garantire la sicurezza alimentare. L'aumento dei prezzi dei generi alimentari, combinato con la crisi economica, ha reso la situazione di sicurezza alimentare ancora più precaria. La distribuzione di beni di prima necessità attraverso programmi come CLAP ha subito interruzioni, riducendo ulteriormente l'accesso ai beni essenziali per le famiglie più povere. L'incremento dei prezzi dei beni di base, inclusi i cereali, ha aggravato la situazione di carestia, con molte famiglie che lottano per garantire il sostentamento alimentare."
+  },
+  "migrazione": {
+    "descrizione": "Venezuela continua a essere un paese di origine per migrazioni verso paesi vicini come Colombia e altri paesi della regione. I ritorni di migranti venezuelani sono un fenomeno emergente, con alcuni ritorni motivati da fattori come la crisi economica nei paesi di destinazione o la speranza di una situazione politica e sociale migliore a casa. Tuttavia, i ritorni possono essere ostacolati da problemi legati alla mancanza di infrastrutture e servizi adeguati, nonché da continue tensioni politiche e sociali. I ritorni sono spesso accompagnati da sfide legate alla reintegrazione, inclusa la mancanza di accesso a servizi essenziali come l'assistenza sanitaria e l'istruzione. La situazione di protezione dei ritornanti è critica, con rischi legati alla mancanza di supporto e alle continue instabilità politiche e sociali."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2023, Venezuela continua a essere caratterizzato da una situazione politica e sociale complessa, con il presidente Nicolás Maduro al potere e diverse opposizioni che continuano a contestare la sua leadership. La crisi economica persistente, combinata con problemi di sicurezza alimentare e migrazione, ha creato un ambiente di instabilità. L'anno ha visto una serie di eventi significativi, inclusi accordi internazionali, proteste e manifestazioni, nonché sviluppi legati alla situazione dei diritti umani e alla gestione delle risorse naturali. La leadership del paese è impegnata in negoziati e accordi con altri paesi per risolvere le tensioni e le crisi, ma la situazione rimane fragile e soggetta a cambiamenti rapidi.",
+  "fonti": [
+    "acaps (VEN_2023-07-20_20230720_ACAPS_Anticipatory_note_Venezuela_flooding.pdf)",
+    "fews_net (VEN_2023-september_key-message-update.pdf)",
+    "fews_net (VEN_2023-july_key-message-update.pdf)",
+    "unhcr_reports (VEN_2023Q3_2023-08-25_historias-migratorias-de-los-venezolanos-que-vuelven-al-pais.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "wikipedia:VEN_2023"
+  ]
+}

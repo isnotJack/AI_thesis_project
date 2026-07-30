@@ -1,0 +1,29 @@
+{
+  "paese": "ITA",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il report dell'UNHCR evidenzia una situazione critica di protezione per i migranti, con un numero significativo di arrivi via mare in Italia. Viene menzionato il problema dei decessi e delle scomparse in mare, nonché la gestione delle richieste di asilo. I dati indicano una continuità nei flussi migratori, con una presenza di diversi paesi di origine, tra cui Tunisia, Pakistan, Costa d'Avorio, Algeria, Iraq e Iran. L'arrivo di migranti attraverso il Mar Mediterraneo continua a essere un tema di preoccupazione, con riferimenti specifici ai siti di sbarco e alle condizioni di accoglienza."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, l'Italia ha visto una serie di eventi significativi, tra cui la vittoria di Charles Leclerc nel Gran Premio d'Italia, il quale ha segnato il ritorno vincente della Ferrari a Monza dopo nove anni. In ottobre, il centro-destra ha ottenuto una vittoria nelle elezioni regionali in Umbria, segnando un cambio di governo dopo più di 50 anni. Nel dicembre, si sono tenute le Winter Deaflympics nella provincia di Sondrio. Durante questo periodo, la situazione politica ha continuato a essere dinamica, con cambiamenti di governo e tensioni politiche evidenziate da eventi come la richiesta di nuove elezioni da parte del vice primo ministro Matteo Salvini. L'attenzione verso le questioni ambientali è stata evidenziata dalle proteste globali per il clima, con migliaia di persone che hanno partecipato a manifestazioni in diverse città italiane.",
+  "fonti": [
+    "ITA_2019Q4_2019-12-29_unhcr-italy-weekly-snapshot-29-dec-2019.pdf",
+    "wikipedia:ITA_2019"
+  ]
+}

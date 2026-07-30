@@ -1,0 +1,29 @@
+{
+  "paese": "KOR",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, la Corea del Sud ha visto una serie di eventi politici e diplomatici di rilievo. Tra questi, spiccano le tensioni con la Corea del Nord, che hanno portato a diversi episodi di provocazione, inclusi il lancio di palloni con materiale di propaganda e l'accusa di interferenze con i segnali GPS. In ambito interno, il paese ha affrontato una crisi politica significativa con la dichiarazione di legge marziale da parte del presidente Yoon Suk Yeol, seguita da un'ampia reazione politica e giudiziaria. L'anno si è concluso con l'impeachment del presidente Yoon Suk Yeol, un evento senza precedenti nella storia della Corea del Sud.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:KOR_2024"
+  ]
+}

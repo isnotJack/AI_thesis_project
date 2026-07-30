@@ -1,0 +1,67 @@
+{
+  "paese": "RUS",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Compromise of the German Foreign Office (2018-03-16)",
+      "Targeting of a European defense agency (2018-03-15)",
+      "Targeting of U.S. energy and other critical infrastructure sectors (2018-03-15)",
+      "Compromise of an air-gapped German government network (2018-02-28)",
+      "Targeting of foreign ministries (2018-02-28)",
+      "Compromise of computer networks associated with the 2018 Pyeongchang Winter Olympics (2018-02-12)",
+      "Targeting of international sports federations (2018-01-12)",
+      "Targeting of consulates and embassies in Eastern Europe (2018-01-09)"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Compromise of the German Foreign Office",
+      "Targeting of a European defense agency",
+      "Targeting of U.S. energy and other critical infrastructure sectors",
+      "Compromise of an air-gapped German government network",
+      "Targeting of foreign ministries",
+      "Compromise of computer networks associated with the 2018 Pyeongchang Winter Olympics",
+      "Targeting of international sports federations",
+      "Targeting of consulates and embassies in Eastern Europe"
+    ],
+    "gruppi_minaccia_associati": [
+      "APT28 (also known as, Fancy Bear, Pawn Storm, Sofacy Group, Sednit, STRONTIUM and Tsar Team)"
+    ],
+    "settori_bersaglio": [
+      "Government networks",
+      "Defense agencies",
+      "Energy and critical infrastructure sectors",
+      "Foreign ministries",
+      "International sports federations",
+      "Consulates and embassies"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In gennaio, due giovani di 16 anni hanno attaccato studenti e un insegnante con coltelli, ferendo 15 persone. In marzo, Sergey Lavrov ha annunciato l'espulsione di diplomatici britannici in risposta all'espulsione di 23 diplomatici russi a causa dell'avvelenamento di Sergei Skripal e Yulia Skripal. Il 18 marzo, Vladimir Putin è stato rieletto per un quarto mandato presidenziale, ottenendo il 73,9% dei voti. Nel marzo, è avvenuto un incendio a Kemerovo, che ha causato numerose vittime.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/compromise-of-an-air-gapped-german-government-network",
+    "https://www.cfr.org/cyber-operations/compromise-of-computer-networks-associated-with-the-2018-pyeongchang-winter-olympics",
+    "https://www.cfr.org/cyber-operations/compromise-of-the-dukes",
+    "https://www.cfr.org/cyber-operations/compromise-of-the-german-foreign-office",
+    "https://www.cfr.org/cyber-operations/iron-tiger",
+    "https://www.cfr.org/cyber-operations/targeting-of-a-european-defense-agency",
+    "https://www.cfr.org/cyber-operations/targeting-of-consulates-and-embassies-in-eastern-europe",
+    "https://www.cfr.org/cyber-operations/targeting-of-foreign-ministries",
+    "https://www.cfr.org/cyber-operations/targeting-of-international-sports-federations",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-energy-and-other-critical-infrastructure-sectors",
+    "wikipedia:RUS_2018"
+  ]
+}

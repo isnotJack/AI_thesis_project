@@ -1,0 +1,64 @@
+{
+  "paese": "CHN",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Compromise of a U.S. Navy contractor",
+      "Compromise of Mongolian government data center",
+      "Targeting of South Korean actors prior to meeting of Donald J. Trump and Kim Jong-un",
+      "Targeting of Japanese companies"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "RedAlpha",
+      "Rancor",
+      "Thrip",
+      "Mustang Panda",
+      "Winnti Umbrella"
+    ],
+    "gruppi_minaccia_associati": [
+      "RedAlpha",
+      "Rancor",
+      "Thrip",
+      "Mustang Panda",
+      "Winnti Umbrella"
+    ],
+    "settori_bersaglio": [
+      "Tibetan organizations",
+      "Political organizations in Southeast Asia",
+      "Organizations in the satellite communications, telecommunications, geospatial-imaging, and defense sectors",
+      "Nongovernmental organizations",
+      "Software companies",
+      "Japanese media and defense companies"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In questo trimestre, la Cina ha visto l'apertura del 13th National People's Congress, con l'approvazione di una modifica costituzionale che ha rimosso i limiti di mandato per i suoi leader, conferendo a Xi Jinping lo status di 'Presidente per vita'. Il leader supremo della Corea del Nord, Kim Jong-un, ha incontrato il leader supremo della Cina, Xi Jinping, a Pechino, nel suo primo viaggio all'estero da quando è al potere. Inoltre, è stato programmato il lancio della missione di esplorazione lunare Chang'e 4.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/compromise-of-a-u-s-navy-contractor",
+    "https://www.cfr.org/cyber-operations/compromise-of-mongolian-government-data-center",
+    "https://www.cfr.org/cyber-operations/mustang-panda",
+    "https://www.cfr.org/cyber-operations/operation-ghostsecret",
+    "https://www.cfr.org/cyber-operations/rancor",
+    "https://www.cfr.org/cyber-operations/redalpha",
+    "https://www.cfr.org/cyber-operations/targeting-of-japanese-companies",
+    "https://www.cfr.org/cyber-operations/targeting-of-south-korean-actors-prior-to-meeting-of-donald-j-trump-and-kim-jong-un",
+    "https://www.cfr.org/cyber-operations/thrip",
+    "https://www.cfr.org/cyber-operations/winnti-umbrella",
+    "wikipedia:CHN_2018"
+  ]
+}

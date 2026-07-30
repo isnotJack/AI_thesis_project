@@ -1,0 +1,32 @@
+{
+  "paese": "UKR",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto tra Russia e Ucraina continua a influenzare significativamente la situazione nel paese. La guerra ha provocato la distruzione di strutture sanitarie, la fuga di personale medico e la riduzione dell'accesso ai servizi di salute, soprattutto nelle aree controllate dalla Russia. La situazione è particolarmente critica nei territori vicini alle linee del fronte, dove la mancanza di accesso ai servizi sanitari è accentuata. La guerra ha anche portato a una diminuzione della vita media e a una crescente pressione sui sistemi sanitari, con effetti significativi sulla salute mentale e fisica della popolazione. La situazione è peggiorata ulteriormente con la distruzione di infrastrutture essenziali, come le centrali elettriche, che hanno aumentato le difficoltà di accesso ai servizi essenziali."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è un problema significativo, soprattutto nelle aree vicine alle linee del fronte. L'accesso ai servizi sanitari è limitato, e la situazione alimentare è compromessa a causa delle difficoltà di trasporto e distribuzione. La carestia è aggravata dalla mancanza di accesso ai servizi sanitari e dalla scarsità di risorse, che influenzano negativamente la salute e il benessere della popolazione. La situazione è peggiorata ulteriormente con la distruzione di infrastrutture essenziali, come le centrali elettriche, che hanno aumentato le difficoltà di accesso ai servizi essenziali."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e internazionale è un problema significativo, con un numero crescente di persone che si spostano verso aree più sicure. La situazione è peggiorata ulteriormente con la distruzione di infrastrutture essenziali, come le centrali elettriche, che hanno aumentato le difficoltà di accesso ai servizi essenziali. La migrazione è anche influenzata dalla mancanza di accesso ai servizi sanitari e dalla scarsità di risorse, che influenzano negativamente la salute e il benessere della popolazione."
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina è stata pesantemente impattata dal conflitto, con una contrazione significativa del PIL. La situazione è peggiorata ulteriormente con la distruzione di infrastrutture essenziali, come le centrali elettriche, che hanno aumentato le difficoltà di accesso ai servizi essenziali. L'economia è stata ulteriormente indebolita dalla mancanza di accesso ai servizi sanitari e dalla scarsità di risorse, che influenzano negativamente la salute e il benessere della popolazione."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2023, l'Ucraina continua a essere coinvolta in un conflitto armato con la Russia. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal continuano a guidare il paese. Il conflitto ha avuto un impatto significativo sulla situazione politica, economica e sociale del paese, con effetti negativi sulla salute, l'economia e la sicurezza della popolazione. La situazione è peggiorata ulteriormente con la distruzione di infrastrutture essenziali, come le centrali elettriche, che hanno aumentato le difficoltà di accesso ai servizi essenziali. La mancanza di accesso ai servizi sanitari e la scarsità di risorse hanno ulteriormente indebolito la situazione economica e sociale del paese.",
+  "fonti": [
+    "acaps (UKR_2023-09-22_20230922_ACAPS_thematic_report_Ukraine_impact_of_the_conflict_on_healthcare_system_and_spotlight_on_specific_needs.pdf)",
+    "fews_net (UKR_2023-september_targeted-analysis.pdf)",
+    "unhcr_reports (UKR_2023Q3_2023-09-30_unhcr-ukraine-fact-sheet-september-2023.pdf)",
+    "worldbank_mpo (UKR_mpo_sm23.pdf)",
+    "wikipedia:UKR_2023"
+  ]
+}

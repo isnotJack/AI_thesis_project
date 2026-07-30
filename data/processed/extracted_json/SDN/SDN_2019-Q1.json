@@ -1,0 +1,33 @@
+{
+  "paese": "SDN",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Sudan è coinvolto in un periodo di instabilità politica e sociale, con proteste popolari che si sono intensificate a partire da dicembre 2018. Le proteste sono state risposte con violenza da parte delle forze di sicurezza, con molte vittime e arresti. La situazione è stata ulteriormente complicata da una crisi economica che ha portato a carenze di beni essenziali e a un aumento dei prezzi. La leadership del paese, con il presidente Omar al-Bashir, è stata messa sotto pressione da parte delle proteste, che hanno richiesto il suo dimissioni. La crisi ha anche avuto un impatto significativo sulle condizioni di vita delle popolazioni locali, con un aumento delle tensioni e delle violenze in alcune regioni. La situazione è stata ulteriormente complicata da una crisi economica che ha portato a carenze di beni essenziali e a un aumento dei prezzi. La leadership del paese, con il presidente Omar al-Bashir, è stata messa sotto pressione da parte delle proteste, che hanno richiesto il suo dimissioni. La crisi ha anche avuto un impatto significativo sulle condizioni di vita delle popolazioni locali, con un aumento delle tensioni e delle violenze in alcune regioni."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Sudan è stata influenzata da una combinazione di fattori, inclusi la crisi economica, l'aumento dei prezzi dei beni di base, le carenze di alimenti e le difficoltà di accesso ai mercati. La situazione è stata particolarmente critica in alcune regioni, come Darfur, Kordofan Meridionale, Kordofan Settentrionale, Nilo Bianco, Nilo Blu, Mar Rosso, Kassala, Gedaref, Red Sea, e Darfur. La crisi ha portato a un aumento significativo delle persone che dipendono dall'assistenza alimentare, con un numero stimato di 5.76 milioni di persone che si trovano in condizioni di crisi o peggio. L'aumento dei prezzi dei beni di base, come il grano e il sorgho, ha reso difficile per molte famiglie acquistare cibo sufficiente, mentre le carenze di beni essenziali hanno aggravato la situazione. La crisi ha anche avuto un impatto significativo sulle condizioni di vita delle popolazioni locali, con un aumento delle tensioni e delle violenze in alcune regioni."
+  },
+  "migrazione": {
+    "descrizione": "Sudan ha visto un aumento dei flussi di rifugiati provenienti dal Sudan del Sud, con un numero significativo di rifugiati registrati nel primo trimestre del 2019. La maggior parte dei rifugiati si trova in regioni come Darfur, Kordofan Meridionale, Kordofan Settentrionale, Nilo Bianco, Nilo Blu, Mar Rosso, Kassala, Gedaref, Red Sea, e Darfur. La situazione dei rifugiati è stata complicata da problemi di protezione, inclusi gli arresti e le violenze, nonché da limiti nell'accesso ai servizi essenziali come l'assistenza sanitaria e l'istruzione. La crisi ha anche portato a un aumento delle tensioni tra le comunità locali e i rifugiati, con alcune aree che hanno visto un aumento delle violenze e delle tensioni. La situazione dei rifugiati è stata ulteriormente complicata dalla mancanza di risorse e dalla limitata capacità di assistenza umanitaria, che ha reso difficile fornire supporto adeguato alle popolazioni in fuga."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, Sudan ha visto un periodo di instabilità politica e sociale, con proteste popolari che si sono intensificate a partire da dicembre 2018. Le proteste sono state risposte con violenza da parte delle forze di sicurezza, con molte vittime e arresti. La situazione è stata ulteriormente complicata da una crisi economica che ha portato a carenze di beni essenziali e a un aumento dei prezzi. La leadership del paese, con il presidente Omar al-Bashir, è stata messa sotto pressione da parte delle proteste, che hanno richiesto il suo dimissioni. La crisi ha anche avuto un impatto significativo sulle condizioni di vita delle popolazioni locali, con un aumento delle tensioni e delle violenze in alcune regioni. La situazione è stata ulteriormente complicata da una crisi economica che ha portato a carenze di beni essenziali e a un aumento dei prezzi. La leadership del paese, con il presidente Omar al-Bashir, è stata messa sotto pressione da parte delle proteste, che hanno richiesto il suo dimissioni. La crisi ha anche avuto un impatto significativo sulle condizioni di vita delle popolazioni locali, con un aumento delle tensioni e delle violenze in alcune regioni.",
+  "fonti": [
+    "SDN_2019-02-13_20190213_acaps_briefing_note_sudan_economic_crisis.pdf",
+    "SDN_2019-february_food-security-outlook.pdf",
+    "SDN_2019-january_key-message-update.pdf",
+    "SDN_2019-march_key-message-update.pdf",
+    "SDN_2019Q1_2019-03-31_sudan-east-darfur-population-dashboard-refugees-from-south-s.pdf",
+    "wikipedia:SDN_2019"
+  ]
+}

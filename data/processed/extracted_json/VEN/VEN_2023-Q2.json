@@ -1,0 +1,30 @@
+{
+  "paese": "VEN",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "Driver principali: aumenti consistenti dei prezzi nella valuta locale, bolívar digitale (VED), che riducono il potere d'acquisto delle famiglie povere che ricevono il loro reddito in valuta locale. La situazione è particolarmente difficile per coloro che non ricevono remessi e hanno accesso limitato al sistema di protezione sociale. Le famiglie che ricevono reddito in dollari e hanno accesso migliore ai programmi sociali e alle remessi sono classificate come sotto stress (IPC Fase 2)."
+  },
+  "migrazione": {
+    "descrizione": "Criticità di protezione: supporto fornito da UNHCR per la reintegrazione di rifugiati venezuelani, inclusi i ritorni volontari e la reintegrazione di rifugiati. Attività di protezione inclusa la mappatura dei bisogni di assistenza umanitaria, la registrazione di rifugiati e la gestione di servizi di protezione. Nuovi corridoi o ostacoli operativi: nessuno specificato nei documenti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, il presidente del Venezuela è Nicolás Maduro, con Delcy Rodríguez come vicepresidente. Vi sono sviluppi significativi legati alla pandemia di COVID-19, alla riapertura dei confini con Colombia e alla situazione politica interna, inclusi gli scontri tra il governo e l'opposizione. Eventi specifici del trimestre includono la riapertura del confine con Colombia, la nomina di un nuovo presidente della PDVSA, e le proteste dei lavoratori di SIDOR. Vi sono anche sviluppi legati alla situazione dei diritti umani, inclusi i rapporti sulla malnutrizione nei centri penitenziari e le azioni contro la corruzione all'interno della PDVSA.",
+  "fonti": [
+    "fews_net (VEN_2023-may_key-message-update.pdf)",
+    "unhcr_reports (VEN_2023Q2_2023-05-31_unhcr-venezuela-quarterly-report-jan-mar-2023.pdf)",
+    "wikipedia:VEN_2023"
+  ]
+}

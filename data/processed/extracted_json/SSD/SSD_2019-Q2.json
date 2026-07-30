@@ -1,0 +1,31 @@
+{
+  "paese": "SSD",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Sud Sudan continua a essere un problema significativo nel secondo trimestre del 2019. Vi sono stati diversi episodi di violenza, inclusi scontri tra le forze governative e le forze opposte, attacchi armati contro civili e incidenti di violenza intercomunale. La situazione è stata segnata da episodi di violenza in diverse regioni, come nel fiume Nilo, dove ci sono stati scontri tra le forze governative e le forze opposte. Vi sono stati anche attacchi contro civili e incidenti di violenza intercomunale, come quelli registrati a Yei River State e in altre regioni. La violenza ha portato a dislocazioni di popolazione e a una situazione di instabilità generale. Il conflitto ha avuto un impatto significativo sulla sicurezza alimentare e sulla stabilità del paese, con continue tensioni tra le parti in causa. La situazione è rimasta instabile con episodi di violenza che hanno coinvolto diverse parti del paese, influenzando negativamente la sicurezza alimentare e la stabilità generale del paese."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia nel Sud Sudan è stata un problema significativo nel secondo trimestre del 2019. I principali driver della carestia includono il conflitto, che ha portato a dislocazioni di popolazione e a una riduzione delle attività agricole. L'instabilità ha anche influenzato negativamente le condizioni di sicurezza alimentare, con una situazione di carestia (IPC Fase 5) che persiste in alcune aree. La produzione agricola è stata influenzata negativamente dal conflitto, con una riduzione delle attività agricole e delle coltivazioni. La situazione di carestia è stata aggravata dalla continua instabilità e dai problemi di accesso alle aree colpite, rendendo difficile la distribuzione di assistenza umanitaria. La carestia continua a essere un problema critico, con una situazione di carestia (IPC Fase 5) che persiste in alcune aree, influenzata negativamente dal conflitto e dalle dislocazioni di popolazione."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sud Sudan è stata un problema significativo nel secondo trimestre del 2019. Vi sono stati numerosi episodi di dislocazioni di popolazione a causa del conflitto e delle condizioni di sicurezza alimentare precarie. Le dislocazioni hanno coinvolto sia interni che esterni al paese, con migliaia di persone che hanno cercato rifugio in aree più sicure. Le condizioni di vita nei campi per sfollati sono state critiche, con problemi di approvvigionamento di cibo e assistenza umanitaria. La migrazione ha anche portato a tensioni nei campi per sfollati, con problemi di gestione e di integrazione delle nuove arrivate. La situazione di migrazione è stata influenzata negativamente dal conflitto e dalle condizioni di carestia, con migliaia di persone che hanno cercato rifugio in aree più sicure, creando tensioni nei campi per sfollati."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, il Sud Sudan ha continuato a essere caratterizzato da una situazione di instabilità politica e militare. Il paese ha visto una serie di scontri tra le forze governative e le forze opposte, con episodi di violenza che hanno coinvolto diverse parti del paese. La leadership del paese è stata segnata da tensioni e da tentativi di negoziati per una soluzione al conflitto. Il paese ha continuato a lottare con le conseguenze del conflitto, che hanno influenzato negativamente la sicurezza alimentare e la stabilità generale. La situazione di carestia è stata un problema critico, con una situazione di carestia (IPC Fase 5) che persiste in alcune aree. La migrazione ha anche costituito un problema significativo, con migliaia di persone che hanno cercato rifugio in aree più sicure, creando tensioni nei campi per sfollati. L'instabilità ha continuato a influenzare negativamente la situazione generale del paese, con una continua lotta per la pace e la stabilità.",
+  "fonti": [
+    "fews_net (SSD_2019-april_key-message-update.pdf)",
+    "fews_net (SSD_2019-june_food-security-outlook.pdf)",
+    "unhcr_reports (SSD_2019Q2_2019-06-30_south-sudan-camp-coordination-and-camp-management-cluster-si.pdf)",
+    "wikipedia:SSD_2019"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "paese": "SAU",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, Arabia Saudita ha continuato a gestire tensioni regionali, con eventi significativi come l'arresto di Rahaf Mohammed al-Qunun a Bangkok, che cercava di fuggire dalla sua famiglia e di ottenere asilo in Australia. L'arresto ha evidenziato le dinamiche di controllo familiare e i diritti umani in Arabia Saudita. In febbraio, il Principe ereditario Mohammad bin Salman ha inaugurato il porto di King Abdullah, un importante progetto di infrastruttura. Nel marzo, il re Salman ha revocato la cittadinanza a Hamza bin Laden, figlio di Osama bin Laden, legato all'organizzazione terroristica Al-Qaeda. Questi eventi riflettono la continua lotta contro il terrorismo e le dinamiche interne del paese."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, Arabia Saudita ha continuato sotto la leadership del re Salman e del Principe ereditario Mohammad bin Salman. Eventi significativi includono l'arresto di Rahaf Mohammed al-Qunun, che ha richiamato l'attenzione internazionale sui diritti umani, l'inaugurazione del porto di King Abdullah e la revoca della cittadinanza a Hamza bin Laden. Il paese ha anche continuato a promuovere iniziative di modernizzazione e sviluppo, come l'apertura di nuovi porti e la nomina di una donna ambasciatrice negli Stati Uniti. Questi eventi riflettono la continuità delle politiche di riforma e la lotta contro il terrorismo.",
+  "fonti": [
+    "wikipedia:SAU_2019"
+  ]
+}

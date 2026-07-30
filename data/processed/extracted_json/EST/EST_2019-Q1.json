@@ -1,0 +1,28 @@
+{
+  "paese": "EST",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, l'Estonia ha visto sviluppi significativi nel campo politico. Le elezioni parlamentari si sono tenute il 3 marzo, con un'alta partecipazione del 63.7% della popolazione. I risultati hanno mostrato una crescita del partito EKRE, mentre il partito Pro Patria e i Social-Democratici hanno subito una diminuzione. Le trattative per la formazione del governo hanno iniziato con discussioni tra il partito Reform e il partito Center, ma sono state rapidamente interrotte. Successivamente, il partito Reform ha avviato trattative con SDE e Pro Patria, mentre il partito Center ha iniziato trattative con EKRE e Pro Patria. Il 16 marzo, Jüri Ratas ha chiarito che l'inclusione di EKRE non metterà in pericolo la membership dell'Estonia nella NATO e nell'UE. Il 6 aprile, le trattative di coalizione hanno portato a un accordo. Il 29 aprile, il secondo governo di Jüri Ratas è stato giurato. Inoltre, il presidente Kersti Kaljulaid ha incontrato Vladimir Putin in Russia, segnando il primo incontro tra i leader dei due paesi dal 2011. L'Estonia ha espresso il desiderio di garantire l'assenza di veto da parte della Russia per l'elezione del Consiglio di Sicurezza delle Nazioni Unite in arrivo.",
+  "fonti": [
+    "wikipedia:EST_2019"
+  ]
+}

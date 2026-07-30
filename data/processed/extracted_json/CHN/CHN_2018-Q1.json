@@ -1,0 +1,43 @@
+{
+  "paese": "CHN",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "HenBox (2018-03-13, categoria=Espionage): sponsor=China, vittime=China, ruolo=entrambi. This threat actor targets Uighurs—a minority ethnic group located primarily in northwestern China—and devices from Chinese mobile phone manufacturer Xiaomi, for espionage purposes.",
+      "Iron Tiger (2018-02-01, categoria=Espionage): sponsor=nan, vittime=Australia, Canada, China, India, Iran (Islamic Republic of), Israel, Japan, Korea (Republic of), Russian Federation, Taiwan, Thailand, United States, ruolo=vittima. This threat actor targets governments as well as technology, education, and telecommunications companies primarily in Asia and the United States, for the purpose of espionage."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "HenBox",
+      "Iron Tiger"
+    ],
+    "settori_bersaglio": [
+      "Uighurs (minority ethnic group in northwestern China)",
+      "Devices from Chinese mobile phone manufacturer Xiaomi",
+      "Governments",
+      "Technology, education, and telecommunications companies"
+    ],
+    "ruolo": "entrambi"
+  },
+  "contesto_generale": "In gennaio, diverse province della Cina, tra cui Shaanxi, Henan, Hubei, Anhui e Jiangsu, sono state colpite da neve pesante o tempeste di neve, che hanno danneggiato infrastrutture come abitazioni, agricoltura e rete elettrica, bloccando il traffico in alcune aree. Nel corso del mese, la neve ha causato 10 morti in 5 province del centro e dell'est della Cina, con più di 567.000 persone colpite. Nel febbraio, la trasmissione della 'Gala della Festa della Primavera' di CCTV, che viene trasmessa a milioni di persone in tutto il paese, ha suscitato critiche generalizzate e accuse di razzismo dopo che un sketch comico ha presentato un'attrice asiatica in blackface con fianchi esagerati. Nel marzo, il 13º Congresso Nazionale del Popolo è stato aperto, e il Congresso Nazionale del Popolo ha approvato una modifica costituzionale che rimuove i limiti di mandato per i suoi leader, conferendo a Xi Jinping lo status di 'Presidente per la vita'.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/henbox",
+    "https://www.cfr.org/cyber-operations/iron-tiger",
+    "wikipedia:CHN_2018"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "paese": "SDN",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Sudan continua ad essere intenso, con scontri tra le forze armate sudanesi (SAF) e le forze di supporto rapido (RSF). I combattimenti si concentrano principalmente nelle regioni di Khartoum, Darfur, Kordofan e Sud Kordofan. Il controllo territoriale è frammentato, con entrambe le parti che cercano di consolidare le proprie posizioni. La violenza ha portato a un alto numero di vittime civili e a una crescente crisi umanitaria, con migliaia di persone sfollate all'interno del paese e nei paesi vicini. Le violazioni dei diritti umani sono frequenti, con attacchi a strutture mediche e scuole. Il conflitto ha anche avuto ripercussioni significative sulle infrastrutture e sulle attività economiche, causando ulteriori sofferenze alla popolazione."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia in Sudan è attribuita principalmente al conflitto, che ha distrutto le infrastrutture agricole e limitato l'accesso ai campi. La produzione agricola è stata gravemente compromessa, con molte famiglie che hanno perso l'accesso ai loro terreni. L'instabilità ha anche interferito con le attività di soccorso, rendendo difficile la distribuzione di aiuti alimentari. La carestia è peggiorata ulteriormente dalle condizioni climatiche avverse, come le inondazioni, che hanno distrutto ulteriormente le colture. La situazione è particolarmente critica nelle regioni di Darfur, Kordofan e Sud Kordofan, dove la carestia è stata dichiarata in alcune aree."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione forzata da Sudan è cresciuta significativamente a causa del conflitto. I rifugiati stanno fuggendo verso paesi vicini come Egitto, Libia, Ciad, Etiopia, Sud Sudan e Uganda. La protezione dei rifugiati è un problema critico, con molte persone che si trovano in condizioni precarie nei campi di rifugiati. I nuovi corridoi di migrazione sono emersi verso paesi come Egitto e Sud Sudan, mentre ci sono ostacoli operativi legati alla chiusura di alcuni punti di passaggio, come il confine con l'Egitto. La situazione è ulteriormente complicata dalle violazioni dei diritti umani e dalla mancanza di accesso adeguato a servizi fondamentali nei campi di rifugiati."
+  },
+  "economia": {
+    "sintesi": "L'economia di Sudan continua a soffrire a causa del conflitto, con una forte contrazione prevista per il 2024. I rischi fiscali e esterni sono elevati, con un ampio deficit fiscale e una crescente pressione inflazionistica. L'instabilità ha avuto un impatto significativo sulle esportazioni, in particolare nel settore petrolifero, che è stato gravemente colpito. La mancanza di accesso ai mercati internazionali e le sanzioni hanno ulteriormente indebolito la situazione economica. La povertà è in aumento, con un numero crescente di persone che vivono al di sotto della soglia di povertà. L'incertezza politica e la mancanza di un governo stabile continuano a ostacolare la ripresa economica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2024, il Sudan è stato caratterizzato da un conflitto civile intensificato tra le forze armate sudanesi (SAF) e le forze di supporto rapido (RSF). Il paese ha visto un aumento significativo di vittime civili e sfollati a causa delle continue azioni belliche. La leadership del paese è stata segnata da cambiamenti, con il presidente al-Burhan che ha effettuato un rimpasto del governo. Il paese ha anche affrontato gravi crisi umanitarie, con la dichiarazione di carestia in alcune regioni. Le relazioni esterne sono state influenzate dalle dinamiche del conflitto, con paesi come l'Emirato Arabo Unito accusati di supportare una delle parti in guerra. L'instabilità ha avuto un impatto significativo sulle condizioni economiche e sociali del paese, con crescenti problemi di povertà e carestia.",
+  "fonti": [
+    "acaps (SDN_2024-10-07_20241007_ACAPS_Scenarios_Sudan.pdf)",
+    "fews_net (SDN_2024-october_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2024Q4_2024-12-31_sudan-emergency-population-movements-from-sudan-29-december-.pdf)",
+    "worldbank_mpo (SDN_mpo_am24.pdf)",
+    "wikipedia:SDN_2024"
+  ]
+}

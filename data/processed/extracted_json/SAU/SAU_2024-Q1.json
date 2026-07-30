@@ -1,0 +1,30 @@
+{
+  "paese": "SAU",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita è attesa a contrarsi in 2023 a causa di decisioni consecutive di taglio della produzione di petrolio da parte dell'OPEC+, che hanno come obiettivo di supportare la stabilità dei prezzi. Si prevede un rallentamento della crescita economica a causa di questi tagli, con possibili effetti negativi sul bilancio fiscale. La prospettiva di crescita a lungo termine potrebbe essere ridotta a causa di questi fattori, nonché di una situazione fiscale scomoda. L'Arabia Saudita sta cercando di diversificare l'economia attraverso progetti di grande portata, ma i rischi legati alla stabilità dei prezzi del petrolio e alle condizioni finanziarie globali rimangono significativi."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, l'Arabia Saudita ha formalmente aderito al gruppo BRICS. Una nota di attualità è stata l'arresto e la condanna della femminista Manahel al-Otaibi per accuse di terrorismo, legate a tweet che criticavano il sistema di tutela maschile nel paese. Un altro evento significativo è stato l'apertura del primo negozio di alcolici a Riad, dopo un divieto di 72 anni. Questi eventi riflettono cambiamenti sociali e politici in corso nel paese, nonché la sua crescente apertura verso pratiche internazionali.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_am23.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:SAU_2024"
+  ]
+}

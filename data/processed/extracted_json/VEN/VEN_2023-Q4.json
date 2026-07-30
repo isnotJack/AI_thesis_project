@@ -1,0 +1,30 @@
+{
+  "paese": "VEN",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "Driver principali: miglioramenti stagionali nei redditi, stabilizzazione dei prezzi dei generi alimentari, aumento delle entrate governative grazie ai ricavi delle esportazioni di petrolio, interventi della banca centrale, disponibilità di importazioni e produzione locale."
+  },
+  "migrazione": {
+    "descrizione": "Criticità di protezione: presenza di organizzazioni come il Clúster de Protección Venezuela che opera in aree remote come l'Amazzonia venezuelana, fornendo protezione integrata con settori come salute, acqua, igiene e nutrizione. Nuovi corridoi o ostacoli operativi: nessuno specificato."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2023, il presidente del Venezuela è Nicolás Maduro, con Delcy Rodríguez come vicepresidente. L'anno è caratterizzato da eventi come la riapertura delle frontiere con Colombia e il rinnovo delle licenze generali da parte degli Stati Uniti. Si segnalano anche proteste di insegnanti e lavoratori, tensioni con la diaspora venezuelana e negoziati con Guyana sul territorio di Essequibo. L'anno si chiude con un referendum controverso sull'Essequibo e un scambio di prigionieri tra Venezuela e Stati Uniti.",
+  "fonti": [
+    "fews_net (VEN_2023-november_key-message-update.pdf)",
+    "unhcr_reports (VEN_2023Q4_2023-12-24_historias-de-impacto-de-socios-cl-ster-de-protecci-n-venezue.pdf)",
+    "wikipedia:VEN_2023"
+  ]
+}

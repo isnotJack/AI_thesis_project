@@ -1,0 +1,51 @@
+{
+  "paese": "PRK",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "#StopRansomware: Ransomware Attacks on Critical Infrastructure Fund DPRK Malicious Cyber Activities (2023-02-09)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Jade Sleet",
+      "Ruby Sleet",
+      "Diamond Sleet",
+      "Emerald Sleet",
+      "Citrine Sleet",
+      "Onyx Sleet",
+      "Sapphire Sleet"
+    ],
+    "settori_bersaglio": [
+      "Think tanks",
+      "NGOs",
+      "Education",
+      "Government",
+      "Defense",
+      "Inter-Government Organization",
+      "Manufacturing",
+      "Transportation",
+      "Other"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, la Corea del Nord ha continuato a mostrare un atteggiamento ostile nei confronti della Corea del Sud e degli Stati Uniti, come dimostrato da esercitazioni militari e minacce contro le forze statunitensi. Nel mese di marzo, la Corea del Nord ha condotto esercitazioni che simulavano un contrattacco nucleare in risposta a esercitazioni congiunte di ampio sbarco condotte dagli Stati Uniti e dalla Corea del Sud. Queste azioni riflettono la persistente tensione nella regione e la strategia di deterrenza nucleare della Corea del Nord.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2023.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-040a",
+    "wikipedia:PRK_2023"
+  ]
+}

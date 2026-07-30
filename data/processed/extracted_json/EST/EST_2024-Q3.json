@@ -1,0 +1,29 @@
+{
+  "paese": "EST",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, l'Estonia ha continuato a fare fronte a diverse sfide e sviluppi politici e diplomatici. Nel mese di settembre, si è tenuto il 2024 European Junior Judo Championships a Tallinn. In precedenti mesi del trimestre, l'Estonia ha mostrato una forte posizione nei confronti della Russia, come dimostrato dalla decisione di uscire dalle reti elettriche russe e bielorusse, con piani per sincronizzare la propria rete con quella dell'Europa continentale a partire dal 9 febbraio 2025. Questa decisione fa parte di un più ampio impegno delle nazioni baltiche per proteggersi da minacce militari, economiche e legate ai migranti. L'Estonia ha anche continuato a essere attiva sul fronte diplomatico, con la precedente premier Kaja Kallas che ha assunto il ruolo di Alto Rappresentante dell'Unione per gli Affari Esteri e la Politica di Sicurezza dell'Unione Europea. Nel corso del trimestre, l'Estonia ha mantenuto una leadership stabile, con Kristen Michal succedendo a Kaja Kallas come premier.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:EST_2024"
+  ]
+}

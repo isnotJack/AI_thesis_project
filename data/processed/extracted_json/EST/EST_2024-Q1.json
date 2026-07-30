@@ -1,0 +1,29 @@
+{
+  "paese": "EST",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, l'Estonia ha visto l'approvazione del matrimonio tra coppie dello stesso sesso, diventando il 36º paese al mondo a farlo. In febbraio, la Prima Ministra Kaja Kallas è stata inclusa nella lista dei ricercati del Ministero dell'Interno russo a causa della rimozione di monumenti della guerra sovietica, rendendola la prima leader di governo a essere aggiunta a tale lista. Nel mese di marzo, si sono tenuti importanti eventi sportivi come il 2024 Biathlon Junior World Championships e il 2024 Miss Valentine Tartu Grand Prix, oltre al 2024 IIHF Women's World Championship Division III B.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:EST_2024"
+  ]
+}

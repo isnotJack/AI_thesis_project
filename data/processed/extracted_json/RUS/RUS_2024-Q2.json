@@ -1,0 +1,50 @@
+{
+  "paese": "RUS",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto russo-ucrainiano continua con intensità, con attivita' militari e incursioni reciproche. Incidenti aerei e terrestri sono frequenti, inclusi attacchi con droni ucraini contro obiettivi russi. La Russia continua a sostenere l'uso di armi e tattiche offensive, mentre la situazione sul fronte militare rimane dinamica e instabile."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra segni di resilienza, con un ritorno al crescita dopo l'impatto iniziale delle sanzioni. Tuttavia, ci sono preoccupazioni riguardo alla stabilità fiscale e alle restrizioni sui flussi di capitali. L'export di beni energetici continua a essere un pilastro, ma le pressioni sanzionatorie e le restrizioni commerciali rimangono un rischio significativo per la crescita a medio-lungo termine."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cyber con WhisperGate contro infrastrutture critiche in Ucraina",
+      "Attacchi DDoS utilizzati come schermata per attacchi successivi",
+      "Attivita' di reconnaissance e scansione di reti da parte di attori affiliati al GRU Unit 29155",
+      "Attacchi ransomware e tentativi di esfiltrazione di dati da parte di attori affiliati al GRU Unit 29155"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Joint Cybersecurity Advisory: Russian Military Cyber Actors Target U.S. and Global Critical Infrastructure",
+      "ENISA Threat Landscape 2024",
+      "Microsoft Digital Defense Report 2024"
+    ],
+    "gruppi_minaccia_associati": [
+      "GRU Unit 29155",
+      "Cyber Army of Russia Reborn"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Servizi energetici",
+      "Servizi di trasporto",
+      "Servizi finanziari",
+      "Servizi governativi"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, la Russia continua a essere coinvolta in conflitti internazionali, principalmente con l'Ucraina. La leadership russa, con Vladimir Putin al vertice, gestisce una serie di eventi interni ed esterni, inclusi attacchi militari, incidenti aerei e terrestri, e tensioni diplomatiche. La situazione interna è segnata da eventi significativi come incendi, incidenti industriali e cambiamenti nella leadership regionale. L'attivita' cyber aggressiva continua a essere un tema importante, con attacchi mirati contro infrastrutture critiche e campagne di manipolazione dell'informazione.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_sm24.pdf)",
+    "cisa (RUS_aa24-249a-russian-military-cyber-actors-target-us-and-global-critical-infrastructure.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:RUS_2024"
+  ]
+}

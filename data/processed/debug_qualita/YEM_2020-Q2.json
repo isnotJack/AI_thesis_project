@@ -1,0 +1,33 @@
+{
+  "paese": "YEM",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua a essere intenso, con attivita' militari significative da parte delle forze Houthi e delle forze governative. Gli scontri includono attacchi aeree e terrestri, con alcune azioni specifiche come l'attacco a un campo militare a Marib e l'uso di droni. La situazione è complicata dalla presenza di attori diversi, inclusi gruppi come al-Qaeda in Penisola Arabica (AQAP). Il conflitto ha un impatto significativo sulle condizioni umanitarie, con crescenti preoccupazioni per la sicurezza alimentare e la protezione delle popolazioni civili. L'attivita' militare continua a influenzare la situazione umanitaria, con effetti negativi sulle condizioni di vita delle popolazioni locali."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "Le condizioni di sicurezza alimentare sono critiche, con un aumento delle preoccupazioni per la carestia. Il deterioramento delle condizioni macroeconomiche, l'aumento dei prezzi dei generi alimentari e la riduzione dell'accesso all'assistenza umanitaria stanno contribuendo a un peggioramento delle condizioni alimentari. L'instabilita' economica e il conflitto continuano a essere driver principali del deterioramento delle condizioni alimentari, con un rischio significativo di carestia in alcune aree."
+  },
+  "migrazione": {
+    "descrizione": "Le condizioni di protezione per i rifugiati e i dislocati interni sono critiche, con un numero significativo di famiglie che vivono in strutture di accoglienza precarie. Gli sfollati continuano a essere vulnerabili a varie forme di violenza e abuso, con un alto numero di famiglie che hanno almeno un membro con vulnerabilita' specifiche, come donne incinte, bambini e persone con disabilita'. La situazione di protezione e la mancanza di accesso adeguato a servizi fondamentali continuano a essere problematiche."
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere gravemente compromessa, con preoccupazioni significative riguardo alla stabilita' fiscale e esterna. Il conflitto e le condizioni macroeconomiche instabili stanno influenzando negativamente la crescita economica, con rischi di ulteriore deterioramento. La mancanza di stabilita' economica e la continua instabilita' politica stanno contribuendo a un ambiente economico difficile, con preoccupazioni per la poverta' e la sicurezza alimentare."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, Yemen continua a essere caratterizzato da un conflitto intenso e da una situazione umanitaria critica. Il governo del presidente Abdrabbuh Mansur Hadi e le forze Houthi continuano a essere gli attori principali del conflitto, con scontri frequenti in diverse regioni del paese. L'arrivo dei primi casi di COVID-19 nel paese ha aggiunto un ulteriore livello di complessita' alle sfide esistenti, con preoccupazioni riguardo all'impatto sulla salute pubblica e sulle condizioni umanitarie. La situazione politica rimane instabile, con continue tensioni tra le parti in conflitto e la mancanza di un accordo di pace duraturo. L'economia del paese continua a soffrire, con conseguenze negative sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni locali.",
+  "fonti": [
+    "YEM_2020-06-09_20200609_acaps_yemen_analysis_hub_end_of_saudi_financial_support_to_yemen_scenarios.pdf",
+    "YEM_2020-06-17_20200617_acaps_yemen_analysis_hub_the_houthi_supervisory_system_0.pdf",
+    "YEM_2020-june_food-security-outlook.pdf",
+    "YEM_2020Q2_2020-06-30_unhcr-yemen-idp-protection-monitoring-update-1-jan-2020-30-j.pdf",
+    "YEM_mpo_sm20.pdf",
+    "wikipedia:YEM_2020"
+  ]
+}

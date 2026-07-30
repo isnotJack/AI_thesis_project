@@ -1,0 +1,32 @@
+{
+  "paese": "SDN",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF) continua a intensificarsi, con violenze e scontri frequenti in diverse regioni del paese, inclusi Khartoum, Darfur, Kordofan e Blue Nile. Le violenze hanno portato a un elevato numero di vittime civili e hanno causato gravi danni all'infrastruttura, compresa l'interconnessione delle infrastrutture essenziali come l'energia, l'acqua, le telecomunicazioni e i trasporti. La situazione è particolarmente critica in aree urbane come Khartoum, dove i combattimenti hanno causato la distruzione di infrastrutture cruciali e la fuga di molti abitanti. Il conflitto ha anche portato a un aumento dei dislocamenti interni e all'estero, con migliaia di persone che cercano rifugio nei paesi vicini. La violenza è accompagnata da atti di saccheggio, distruzione di beni e violazioni dei diritti umani, inclusi atti di violenza sessuale e reclutamento di bambini soldati. La situazione è ulteriormente complicata dalla presenza di gruppi armati locali e dalla mancanza di accesso umanitario in alcune zone."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è principalmente causata dal conflitto armato, che ha distrutto le infrastrutture agricole e limitato l'accesso ai mercati. La situazione è peggiorata dalla mancanza di accesso umanitario e dalla degradazione delle condizioni di vita. La carestia è particolarmente grave nelle aree urbane e nei centri di dislocamento, dove le famiglie hanno poche risorse per procurarsi cibo e altri beni essenziali. L'incremento dei prezzi dei generi alimentari e la scarsità di risorse hanno reso difficile per molte famiglie garantire un'adeguata alimentazione. La situazione è ulteriormente complicata dalla mancanza di accesso ai servizi sanitari e all'assistenza umanitaria, che aumenta il rischio di malattie e malnutrizione."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione è principalmente causata dal conflitto armato, con migliaia di persone che fuggono dalle zone di combattimento verso aree più sicure. I dislocamenti interni sono significativi, con molte famiglie che cercano rifugio in campi per sfollati o presso familiari in altre regioni del paese. La migrazione verso paesi vicini, come Egitto, Sud Sudan e Chad, è anche elevata, con migliaia di rifugiati che cercano protezione nei paesi confinanti. La situazione è particolarmente critica nei campi per sfollati, dove le condizioni di vita sono spesso precarie e le risorse sono limitate. La mancanza di accesso umanitario e la degradazione delle condizioni di vita aumentano il rischio di malattie e malnutrizione nei campi per sfollati."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sudan è stata pesantemente colpita dal conflitto armato, con una contrazione significativa del PIL e un aumento dei rischi fiscali e esterni. La situazione economica è stata ulteriormente peggiorata dalla mancanza di accesso umanitario e dalla degradazione delle condizioni di vita. L'incremento dei prezzi dei generi alimentari e la scarsità di risorse hanno reso difficile per molte famiglie garantire un'adeguata alimentazione. La situazione è ulteriormente complicata dalla mancanza di accesso ai servizi sanitari e all'assistenza umanitaria, che aumenta il rischio di malattie e malnutrizione."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, il Sudan è stato teatro di un conflitto armato tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF), che ha causato un elevato numero di vittime civili e gravi danni all'infrastruttura. Il conflitto ha portato a un aumento dei dislocamenti interni e all'estero, con migliaia di persone che cercano rifugio nei paesi vicini. La situazione è particolarmente critica in aree urbane come Khartoum, dove i combattimenti hanno causato la distruzione di infrastrutture cruciali e la fuga di molti abitanti. La violenza è accompagnata da atti di saccheggio, distruzione di beni e violazioni dei diritti umani, inclusi atti di violenza sessuale e reclutamento di bambini soldati. La situazione è ulteriormente complicata dalla presenza di gruppi armati locali e dalla mancanza di accesso umanitario in alcune zone.",
+  "fonti": [
+    "acaps (SDN_2023-06-21_20230621_ACAPS_Thematic_report_Sudan_anticipated_impacts_of_the_2023_rainy_season.pdf)",
+    "fews_net (SDN_2023-june_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2023Q2_2023-06-30_darfur-protection-of-civilians-advocacy-note-saf-rsf-conflic.pdf)",
+    "worldbank_mpo (SDN_mpo_sm23.pdf)",
+    "wikipedia:SDN_2023"
+  ]
+}

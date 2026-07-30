@@ -1,0 +1,34 @@
+{
+  "paese": "SSD",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre Q3 2020, il Sud Sudan ha continuato a sperimentare un clima di violenza intercomunale e conflitti armati. I livelli di violenza intercomunale sono aumentati, con episodi di violenza che hanno coinvolto diverse regioni, inclusi Jonglei, Warrap, Lakes, Unity e Upper Nile. La violenza ha portato a spostamenti di popolazione e ha interferito con l'accesso ai servizi umanitari, compresa l'assistenza alimentare. La situazione è stata ulteriormente complicata dalla persistenza di conflitti armati tra forze governative e ribelli, nonché da tensioni tra gruppi etnici. La violenza ha anche interferito con le attività agricole, influenzando negativamente la produzione di cibo e aumentando la precarietà alimentare. La formazione del governo di transizione nel febbraio 2020 ha cercato di porre fine ai conflitti, ma i progressi verso la pace sono stati lenti e ostacolati da continue tensioni e violenze locali."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è stata principalmente causata da conflitti, inondazioni, crisi economica e l'effetto combinato della pandemia di COVID-19. La situazione alimentare è stata particolarmente critica nei mesi di agosto e settembre, con livelli di carestia che hanno raggiunto la fase 4 di emergenza in molte zone. Le inondazioni hanno devastato le coltivazioni e i raccolti, mentre i conflitti hanno ostacolato l'accesso all'assistenza umanitaria. La crisi economica ha aumentato i prezzi degli alimenti, rendendo l'acquisto di cibo sempre più difficile per le famiglie già vulnerabili. L'effetto della pandemia di COVID-19 ha ulteriormente complicato la situazione, con restrizioni che hanno limitato l'accesso ai mercati e alle risorse. L'assistenza umanitaria è stata cruciale per prevenire situazioni di carestia più gravi, ma le sfide logistiche e di sicurezza hanno reso difficile raggiungere le aree più remote."
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre Q3 2020, la migrazione interna e internazionale ha continuato a essere un problema significativo a causa dei conflitti e delle inondazioni. Le inondazioni hanno spinto migliaia di persone a spostarsi verso aree più elevate, creando tensioni nei campi per sfollati e aumentando la pressione sui servizi umanitari. I conflitti hanno portato a nuovi spostamenti di popolazione, con sfollati che cercano rifugio in aree più sicure. La situazione è stata ulteriormente complicata dalla presenza di sfollati interni e rifugiati provenienti da altre regioni, che hanno aumentato la pressione sui servizi esistenti. L'accesso alle aree di sfollamento è stato ostacolato da continue minacce di sicurezza, rendendo difficile la distribuzione di assistenza umanitaria."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan ha continuato a subire pressioni significative a causa della crisi politica, dei conflitti e dell'impatto della pandemia di COVID-19. La crescita economica è stata limitata, con una forte dipendenza dai redditi petroliferi che sono stati pesantemente colpiti dai bassi prezzi del petrolio. La crisi economica ha portato a una deprezzazione della valuta nazionale, aumentando i costi dei beni di importazione e mettendo a rischio la stabilità macroeconomica. I rischi fiscali e esterni sono aumentati a causa di un debito crescente e di una mancanza di riserve esterne. La situazione ha richiesto misure di austerity e riforme economiche per cercare di stabilizzare la situazione, ma le prospettive a breve termine rimangono incerte."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre Q3 2020, il Sud Sudan ha continuato a lottare con la persistente instabilità politica e la violenza intercomunale. La formazione del governo di transizione nel febbraio 2020 ha cercato di porre fine ai conflitti, ma i progressi verso la pace sono stati lenti e ostacolati da continue tensioni e violenze locali. La pandemia di COVID-19 ha ulteriormente complicato la situazione, con restrizioni che hanno limitato l'accesso ai mercati e alle risorse. Le inondazioni hanno devastato le coltivazioni e i raccolti, mentre i conflitti hanno ostacolato l'accesso all'assistenza umanitaria. La situazione economica è stata pesantemente colpita dalla crisi petrolifera e dalla deprezzazione della valuta nazionale, aumentando la precarietà delle famiglie già vulnerabili. L'assistenza umanitaria è stata cruciale per prevenire situazioni di carestia più gravi, ma le sfide logistiche e di sicurezza hanno reso difficile raggiungere le aree più remote.",
+  "fonti": [
+    "acaps (SSD_2020-08-12_20200812_acaps_scenarios_access_to_needs_and_services_south_sudan.pdf)",
+    "fews_net (SSD_2020-september_key-message-update.pdf)",
+    "fews_net (SSD_2020-august_food-security-outlook-update.pdf)",
+    "fews_net (SSD_2020-july_key-message-update.pdf)",
+    "unhcr_reports (SSD_2020Q3_2020-09-30_2020-south-sudan-regional-rrrp-regional-overview-of-the-sout.pdf)",
+    "worldbank_mpo (SSD_mpo_sm20.pdf)",
+    "wikipedia:SSD_2020"
+  ]
+}

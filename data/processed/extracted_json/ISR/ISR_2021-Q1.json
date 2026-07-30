@@ -1,0 +1,45 @@
+{
+  "paese": "ISR",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Israele ha condotto una serie di attacchi aerei contro obiettivi iraniani in Siria, inclusi raid su armi e depositi di armi. Ci sono stati anche scontri armati tra Israele e gruppi palestinesi, come Hamas, con scambi di fuoco e attacchi aerei. Israele ha anche condotto operazioni contro presunte minacce terroristiche all'interno della Cisgiordania. L'attività bellica è stata accompagnata da tensioni regionali, inclusi attacchi contro installazioni militari e civili in Siria e nel Golfo Persico, attribuiti a Iran e Hezbollah. Israele ha risposto con attacchi aerei contro obiettivi in Siria e nel Golfo Persico."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro il governo di Israele, attribuito a gruppi di hacker legati a Iran e Hezbollah, con l'uso di malware e attacchi DDoS.",
+      "Attacco cibernetico contro installazioni critiche in Israele, inclusi attacchi a infrastrutture di sicurezza nazionale e installazioni militari.",
+      "Attacco cibernetico contro un'azienda israeliana, con l'uso di ransomware per bloccare sistemi critici."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Advisory sulle minacce cibernetiche legate a Iran e Hezbollah, che menzionano Israele come bersaglio.",
+      "Advisory sulle minacce cibernetiche legate a attacchi ransomware, che menzionano Israele come bersaglio."
+    ],
+    "gruppi_minaccia_associati": [
+      "Iranian Cyber Threat Actors",
+      "Hezbollah Cyber Threat Actors",
+      "Ransomware Operators"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "Infrastrutture critiche",
+      "Aziende private"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Israele ha continuato a fare fronte a tensioni regionali e attività belliche, con attacchi aerei contro obiettivi in Siria e nel Golfo Persico. Sono state riportate violenze intercomunitarie e proteste contro le misure di lockdown legate alla pandemia di COVID-19. Israele ha anche condotto operazioni militari contro presunte minacce terroristiche all'interno della Cisgiordania. L'attività bellica è stata accompagnata da tensioni regionali, inclusi attacchi contro installazioni militari e civili in Siria e nel Golfo Persico, attribuiti a Iran e Hezbollah. Israele ha risposto con attacchi aerei contro obiettivi in Siria e nel Golfo Persico. Sono state riportate anche attività cibernetiche contro Israele, attribuite a Iran e Hezbollah, con l'uso di malware e attacchi DDoS.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:ISR_2021"
+  ]
+}

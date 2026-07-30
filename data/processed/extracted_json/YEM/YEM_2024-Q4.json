@@ -1,0 +1,31 @@
+{
+  "paese": "YEM",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua a intensificarsi, con scontri frequenti tra le forze del governo e i ribelli Houthis. Nel trimestre, ci sono state numerose azioni militari, incluse le operazioni aeree condotte dagli Stati Uniti e dall'Inghilterra contro i bersagli Houthi, nonché attacchi Houthi contro le navi commerciali nel Mar Rosso. La violenza ha portato a un aumento dei dislocamenti interni e alla degradazione delle condizioni umanitarie. I combattimenti hanno coinvolto anche gruppi come al-Qaeda in Penisola Arabica, che ha condotto attacchi contro le forze del Consiglio di Transizione Meridionale. La situazione è stata ulteriormente complicata da eventi climatici estremi, come alluvioni che hanno causato ulteriori perdite di vite umane e danni. Le tensioni tra le fazioni locali e le interferenze esterne hanno mantenuto un clima di instabilità e violenza."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria è caratterizzata da crescenti sfide di protezione, con un aumento dei dislocamenti interni a causa del conflitto e delle condizioni umanitarie precarie. I corridoi di migrazione sono ostacolati da continue minacce e violenze, rendendo il trasferimento di aiuti umanitari e la fuga delle popolazioni vulnerabili estremamente difficoltoso. Le autorità locali e le organizzazioni umanitarie continuano a fare fronte a sfide significative nel garantire la sicurezza e la protezione delle persone in movimento."
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a subire pressioni significative a causa del conflitto persistente e delle tensioni politiche. Le prospettive di crescita sono compromesse da una combinazione di fattori, inclusi il blocco delle esportazioni petrolifere, la dipendenza crescente dagli importi e le pressioni fiscali. L'economia non-oil è gravemente indebolita, con effetti negativi sulle condizioni di vita della popolazione. Le tensioni finanziarie e esterne aumentano, mettendo a rischio la stabilità economica del paese."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2024, Yemen continua a essere afflitto da un conflitto armato persistente che coinvolge le forze del governo, i ribelli Houthis e altri attori locali e regionali. Il paese è diviso tra le autorità del governo di Aden e quelle di Sanaa, con entrambe le fazioni che cercano di consolidare il proprio controllo territoriale. Il conflitto ha avuto ripercussioni significative sulle condizioni umanitarie, con un aumento dei dislocamenti interni e delle sofferenze della popolazione civile. Le azioni militari esterne, incluse le operazioni aeree condotte dagli Stati Uniti e dall'Inghilterra, hanno intensificato le tensioni. Le violenze continue e le minacce alla sicurezza hanno reso difficile la fornitura di aiuti umanitari e la stabilizzazione del paese. La situazione è ulteriormente complicata da eventi climatici estremi, come alluvioni, che hanno causato ulteriori perdite di vite umane e danni. La leadership del paese rimane divisa, con le autorità di Aden e Sanaa che continuano a competere per il controllo del territorio e delle risorse. Le tensioni regionali e le interferenze esterne continuano a influenzare significativamente la situazione in Yemen.",
+  "fonti": [
+    "YEM_2024-11-29_20241129_ACAPS_Yemen_joint_monitoring_report_issue_6_.pdf",
+    "YEM_2024Q4_2024-12-29_yemen-protection-cluster-newsletter-2024.pdf",
+    "YEM_mpo_am24.pdf",
+    "wikipedia:YEM_2024"
+  ]
+}

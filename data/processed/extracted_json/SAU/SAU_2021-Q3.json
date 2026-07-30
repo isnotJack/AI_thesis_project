@@ -1,0 +1,34 @@
+{
+  "paese": "SAU",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita è in via di ripresa dopo una contrazione profonda nel 2020. Si prevede un aumento della crescita economica, con un miglioramento delle condizioni globali e un progresso nel programma nazionale di vaccinazione. Le misure di austerità fiscale potrebbero rafforzare le posizioni fiscali e esterne. L'economia dipende ancora fortemente dal settore idrocarburi, ma ci sono progressi verso la diversificazione economica, inclusa la partecipazione delle donne al mercato del lavoro e lo sviluppo di settori non petroliferi. Il recupero è influenzato dalle dinamiche dei prezzi del petrolio e dalla gestione delle conseguenze della pandemia COVID-19."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco di phishing globale mirato contro la catena di approvvigionamento del vaccino COVID-19, avvenuto nel settembre 2020. L'attacco ha minacciato la fornitura del vaccino COVID-19, con hacker che hanno inviato messaggi di phishing a organizzazioni coinvolte nel trasporto del vaccino, fingendo di essere esecutivi di una società legittima coinvolta nella catena di approvvigionamento del vaccino."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Settori legati alla catena di approvvigionamento del vaccino COVID-19"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2021, l'Arabia Saudita ha continuato a gestire le conseguenze della pandemia COVID-19, con misure di rilassamento delle restrizioni e un aumento delle attività economiche. Il paese ha mantenuto la sua posizione di leader regionale, con continui sforzi per la stabilizzazione della regione, inclusa la proposta di una tregua in Yemen. L'economia si è ripresa grazie al miglioramento dei prezzi del petrolio e all'avanzamento del programma di vaccinazione nazionale. La leadership del paese, con il Re Salman e il Principe ereditario Mohammad bin Salman, ha continuato a guidare le politiche interne ed estere, mantenendo una presenza significativa nei negoziati regionali e internazionali.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_sm21.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "wikipedia:SAU_2021"
+  ]
+}

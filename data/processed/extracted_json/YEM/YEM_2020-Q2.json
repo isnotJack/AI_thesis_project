@@ -1,0 +1,33 @@
+{
+  "paese": "YEM",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con intensità significativa. I combattimenti principali coinvolgono le forze Houthi contro le forze governative e le coalizioni internazionali. Vi sono attacchi aerei condotti dalla coalizione guidata dall'Arabia Saudita, che include anche l'Emirato Arabo Unito. I combattimenti si concentrano su diverse regioni, incluse le province di Al-Jawf e Marib. L'attivismo delle milizie Houthi è evidente con azioni contro le forze governative e le coalizioni. Il conflitto è influenzato anche dalla dinamica interna tra le varie fazioni e dal ruolo delle milizie locali. L'attivismo delle milizie Houthi continua a essere un fattore significativo nel paesaggio del conflitto, con azioni contro le forze governative e le coalizioni internazionali. Il conflitto è influenzato anche dalla dinamica interna tra le varie fazioni e dal ruolo delle milizie locali."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen è aggravata da condizioni macroeconomiche deteriorate, che portano a un aumento dei prezzi dei generi alimentari e a una riduzione dell'accesso all'assistenza umanitaria. Il deterioramento delle condizioni macroeconomiche, combinato con il conflitto persistente, ha un impatto significativo sulla sicurezza alimentare. L'incremento dei prezzi dei generi alimentari e la riduzione dell'accesso all'assistenza umanitaria sono i principali driver della carestia. L'incremento dei prezzi dei generi alimentari e la riduzione dell'accesso all'assistenza umanitaria sono i principali driver della carestia."
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione dei rifugiati e dei dislocati interni è critica. Vi sono numerose sfide legate alla protezione dei rifugiati e dei dislocati interni, con un aumento dei casi di vulnerabilità, inclusi i bambini senza accompagnamento, le donne capofamiglia e le persone con disabilità. La situazione di protezione dei rifugiati e dei dislocati interni è critica. Vi sono numerose sfide legate alla protezione dei rifugiati e dei dislocati interni, con un aumento dei casi di vulnerabilità, inclusi i bambini senza accompagnamento, le donne capofamiglia e le persone con disabilità."
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere gravemente indebolita da fattori come la guerra, la carestia e la crisi umanitaria. L'instabilità politica e la mancanza di un governo unificato hanno un impatto significativo sulle prospettive di crescita economica. La mancanza di un governo unificato e la continua instabilità politica hanno un impatto significativo sulle prospettive di crescita economica. L'economia è gravemente indebolita da fattori come la guerra, la carestia e la crisi umanitaria."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, Yemen continua a essere afflitto da un conflitto armato persistente e da una grave crisi umanitaria. Il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar rimangono in carica, mentre il primo ministro Maeen Abdulmalik Saeed continua a guidare il governo. Nel mese di giugno, il Consiglio di Transizione del Sud ha preso il controllo dell'isola di Socotra, aggiungendo un'altra dimensione alla complessità politica e militare del paese. Il conflitto è influenzato da dinamiche interne tra le fazioni e dal ruolo delle milizie locali. L'attivismo delle milizie Houthi continua a essere un fattore significativo nel paesaggio del conflitto, con azioni contro le forze governative e le coalizioni internazionali. Il conflitto è influenzato anche dalla dinamica interna tra le varie fazioni e dal ruolo delle milizie locali.",
+  "fonti": [
+    "YEM_2020-06-09_20200609_acaps_yemen_analysis_hub_end_of_saudi_financial_support_to_yemen_scenarios.pdf",
+    "YEM_2020-06-17_20200617_acaps_yemen_analysis_hub_the_houthi_supervisory_system_0.pdf",
+    "YEM_2020-june_food-security-outlook.pdf",
+    "YEM_2020Q2_2020-06-30_unhcr-yemen-idp-protection-monitoring-update-1-jan-2020-30-j.pdf",
+    "YEM_mpo_sm20.pdf",
+    "wikipedia:YEM_2020"
+  ]
+}

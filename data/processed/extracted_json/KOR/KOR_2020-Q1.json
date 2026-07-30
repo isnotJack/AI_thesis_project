@@ -1,0 +1,29 @@
+{
+  "paese": "KOR",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, la Corea del Sud è stata colpita dall'epidemia di COVID-19, con il primo caso confermato il 20 gennaio. L'epidemia ha visto un aumento significativo di casi, soprattutto legati a un gruppo di culto a Daegu, che ha portato a misure di contenimento e chiusure di chiese. Il governo ha implementato diverse misure per gestire la pandemia, incluse le chiusure di luoghi di culto e controlli di viaggio. Nel marzo, si è tenuta l'elezione legislativa, con la vittoria schiacciante del Partito Democratico. L'epidemia ha anche portato a tensioni internazionali, con alcune nazioni che hanno limitato l'ingresso ai cittadini sudcoreani.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:KOR_2020"
+  ]
+}

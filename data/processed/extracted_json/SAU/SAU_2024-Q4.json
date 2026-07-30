@@ -1,0 +1,30 @@
+{
+  "paese": "SAU",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'Arabia Saudita sta implementando un ambizioso programma di diversificazione economica con l'agenda Visione 2030 per ridurre la dipendenza dall'olio. La crescita economica continua a essere frenata dalle riduzioni prolungate delle quote di produzione di petrolio, ma si prevede un graduale ripristino nel 2025. Il settore non petrolifero sta crescendo, ma la crescita è stata in parte alimentata da riduzioni nella produzione di non-olio piuttosto che da un aumento del PIL. I rischi fiscali sono presenti, con il rischio di un indebolimento della funzione di stabilizzazione macroeconomiche del Fondo Sovrano e di una potenziale malsicura nell'allocazione dei capitali verso progetti che non offrono un ritorno adeguato. L'incertezza regionale continua a rappresentare un rischio, con il conflitto nel Medio Oriente che potrebbe avere effetti di contagio su un conflitto regionale più ampio."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, l'Arabia Saudita ha continuato a sostenere il suo programma di diversificazione economica, con un focus sul settore non petrolifero. Il paese ha anche fatto progressi significativi in ambito culturale e sportivo, come l'annuncio di ospitare le Olimpiadi E-sport nel 2025. Nel campo delle relazioni internazionali, ci sono state evoluzioni significative, come la parziale sollevazione del divieto americano sulle vendite di armi all'Arabia Saudita. L'incertezza regionale continua a essere un tema importante, con il conflitto nel Medio Oriente che potrebbe avere effetti di contagio su un conflitto regionale più ampio.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_am24.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:SAU_2024"
+  ]
+}

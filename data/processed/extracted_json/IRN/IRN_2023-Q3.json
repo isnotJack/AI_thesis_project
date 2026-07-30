@@ -1,0 +1,47 @@
+{
+  "paese": "IRN",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si sono verificati diversi episodi di conflitto, inclusi attacchi armati e tensioni diplomatiche. Tra questi, vi è stato un attacco contro l'ambasciata azerbaigiana a Teheran, seguito da un'arresto del responsabile. Vi sono state anche tensioni con la Corea del Sud, con la chiamata reciproca degli ambasciatori. Inoltre, vi sono state azioni militari lungo la frontiera con il Pakistan, con perdite tra le forze di sicurezza iraniane. L'attivismo di gruppi etnici interni, come i baluchi, ha continuato a causare instabilità, con episodi di violenza e proteste. L'Iran ha anche continuato a sostenere gruppi armati esterni, come il Hezbollah, e ha avuto tensioni con Israele, con attacchi reciproci e minacce. Lo stato ha mantenuto una posizione di sfida nei confronti delle sanzioni internazionali e delle trattative nucleari, mantenendo una postura di sfida nei confronti delle potenze occidentali."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Iran continua ad essere un importante paese di accoglienza per rifugiati, con un'enfasi sulla protezione e l'integrazione dei rifugiati afghani. L'UNHCR ha sostenuto il governo iraniano nell'implementazione di politiche inclusiva per i rifugiati, con un focus sulle politiche di soluzioni per i rifugiati afghani. Vi è stato un sostegno significativo per la salute, l'istruzione e le opportunità di sussistenza per i rifugiati, con un'enfasi sulla copertura sanitaria e l'accesso all'istruzione per i bambini. L'Iran ha anche partecipato a programmi di risettlemento, con un numero significativo di rifugiati afghani in attesa di essere risettlati in altri paesi. Le sfide includono la gestione dei nuovi arrivi e la protezione dei rifugiati vulnerabili, nonché la necessità di fondi per mantenere i programmi di assistenza."
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana si è espansa, con un focus sulle esportazioni di idrocarburi e la diversificazione verso settori non petroliferi. Tuttavia, ci sono preoccupazioni riguardo al deficit fiscale e alle pressioni inflazionistiche. L'Iran ha continuato a fare fronte alle sanzioni internazionali, con un ennesimo sforzo per mantenere le entrate da esportazioni di petrolio e gas. Il governo ha implementato misure per stimolare la crescita economica, ma le prospettive a medio termine sono influenzate dalle incertezze legate alle sanzioni e alle trattative nucleari. L'inflazione rimane un problema significativo, con effetti negativi sul potere d'acquisto delle famiglie iraniane. Il governo ha cercato di mitigare l'impatto delle sanzioni attraverso la diversificazione economica e l'incremento delle esportazioni non petrolifere."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro stazioni di benzina nazionali, attribuito al gruppo Predator Sparrow legato ad Israele.",
+      "Attacco cibernetico contro sistemi di controllo programmabili (PLCs) in settori critici, attribuito a attori affiliati all'IRGC."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "IRGC-Affiliated Cyber Actors Exploit PLCs in Multiple Sectors, Including US Water and Wastewater Systems Facilities",
+      "Microsoft Digital Defense Report 2023: Iran's Cyber-Enabled Influence Operations"
+    ],
+    "gruppi_minaccia_associati": [
+      "IRGC (Islamic Revolutionary Guard Corps)",
+      "Predator Sparrow",
+      "CyberAvengers"
+    ],
+    "settori_bersaglio": [
+      "Sistemi di controllo programmabili (PLCs)",
+      "Infrastrutture critiche (acqua, energia, trasporto)",
+      "Ambasciate e istituzioni governative"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, l'Iran ha continuato a essere guidato dal Lider Supremo Ali Khamenei e dal Presidente Ebrahim Raisi. Il paese ha fatto fronte a diverse sfide, incluse le tensioni diplomatiche con paesi come la Corea del Sud e Israele, e le conseguenze delle sanzioni internazionali. L'Iran ha mantenuto una posizione di sfida nei confronti delle potenze occidentali, continuando a sostenere negoziati nucleari con una postura di resistenza. All'interno del paese, vi sono state proteste e tensioni etniche, con episodi di violenza in alcune regioni. Lo stato ha anche continuato a gestire la situazione dei rifugiati, con un ennesimo sforzo per mantenere la protezione e l'integrazione dei rifugiati afghani. L'economia ha mostrato segni di crescita, ma è stata influenzata dalle sanzioni e dall'inflazione. L'Iran ha mantenuto una postura di resistenza nei confronti delle pressioni esterne, cercando di mantenere la sua indipendenza e la sua influenza regionale.",
+  "fonti": [
+    "unhcr_reports (IRN_2023Q3_2023-09-20_iran-at-a-glance-august-2023.pdf)",
+    "worldbank_mpo (IRN_mpo_sm23.pdf)",
+    "cisa (IRN_aa23-335a-irgc-affiliated-cyber-actors-exploit-plcs-in-multiple-sectors.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "wikipedia:IRN_2023"
+  ]
+}

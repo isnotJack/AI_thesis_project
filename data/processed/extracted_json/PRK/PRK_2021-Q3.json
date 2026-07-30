@@ -1,0 +1,47 @@
+{
+  "paese": "PRK",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "ZINC",
+      "CERIUM",
+      "THALLIUM",
+      "OSMIUM"
+    ],
+    "settori_bersaglio": [
+      "Consumer",
+      "Government",
+      "NGOs and Think Tanks",
+      "Education",
+      "Utilities",
+      "Private Companies",
+      "Think Tanks",
+      "Security Researchers",
+      "Diplomatic Officials",
+      "Academics",
+      "Defense and Aerospace"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2021, la Corea del Nord ha continuato a svolgere attività di sviluppo militare, compresa la testa di un nuovo missile a lungo raggio. Lo stato ha anche dichiarato la sua intenzione di ripristinare le linee di comunicazione con la Corea del Sud, esprimendo un'intenzione di rafforzare i rapporti intercoreani. Durante questo periodo, il leader Kim Jong-un ha ammesso la situazione alimentare tesa causata da inondazioni e pandemia, ordinando sforzi più consistenti nell'agricoltura e nella gestione rurale. Lo stato ha anche lanciato una campagna per radere al suolo la cultura straniera, principalmente proveniente dalla Corea del Sud, e per eliminare tendenze capitalistiche, compresa la corruzione.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:PRK_2021"
+  ]
+}

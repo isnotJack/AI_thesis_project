@@ -1,0 +1,60 @@
+{
+  "paese": "RUS",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attempt to compromise Ukraine’s judicial system",
+      "Targeting of emails of German lawmakers, military officials, and embassy staff",
+      "Compromise of Ukrainian government",
+      "Targeting of the Organization for the Prohibition of Chemical Weapons",
+      "Compromise of the U.S. Anti-Doping Agency",
+      "Compromise of the Court of Arbitration for Sport",
+      "Compromise of the Canadian Centre for Ethics in Sport",
+      "Compromise of FIFA",
+      "Targeting of Westinghouse Electric Corporation"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Russian military intelligence (GRU)",
+      "Snake"
+    ],
+    "settori_bersaglio": [
+      "Government agencies",
+      "Judicial system",
+      "Email accounts",
+      "Sports organizations",
+      "Nuclear power developers",
+      "International organizations"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In ottobre, il manager di Pussy Riot, Pyotr Verzilov, è caduto gravemente malato misteriosamente dopo un'udienza in tribunale a Mosca. Lo stesso giorno, è stato annunciato un'espansione dei materiali considerati 'estremisti' in Russia, includendo l'aggiunta di 4,507 libri, video, siti web, pagine social media e composizioni musicali. Questa misura è stata descritta come un aumento seismico rispetto all'anno precedente.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/attempt-to-compromise-ukraines-judicial-system",
+    "https://www.cfr.org/cyber-operations/compromise-of-fifa",
+    "https://www.cfr.org/cyber-operations/compromise-of-the-canadian-centre-for-ethics-in-sport",
+    "https://www.cfr.org/cyber-operations/compromise-of-the-court-of-arbitration-for-sport",
+    "https://www.cfr.org/cyber-operations/compromise-of-the-u-s-anti-doping-agency",
+    "https://www.cfr.org/cyber-operations/compromise-of-ukrainian-government",
+    "https://www.cfr.org/cyber-operations/global-bank-attacks",
+    "https://www.cfr.org/cyber-operations/targeting-of-emails-of-german-lawmakers-military-officials-and-embassy-staff",
+    "https://www.cfr.org/cyber-operations/targeting-of-the-organization-for-the-prohibition-of-chemical-weapons",
+    "https://www.cfr.org/cyber-operations/targeting-of-westinghouse-electric-corporation",
+    "wikipedia:RUS_2018"
+  ]
+}

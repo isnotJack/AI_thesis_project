@@ -1,0 +1,32 @@
+{
+  "paese": "SDN",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF) continua intensamente, con attacchi e violenze che colpiscono diverse regioni del paese, inclusi Khartoum, Darfur, Kordofan e altre zone. Il conflitto ha portato a un aumento significativo di vittime civili, inclusi bambini, con attacchi a scuole e ospedali. La situazione è caratterizzata da violenze indiscriminate, inclusi omicidi, mutilazioni e abusi sessuali. Il numero di bambini in bisogno di assistenza umanitaria è aumentato drasticamente, raggiungendo livelli record. La guerra ha anche causato un allarme crescente per la salute mentale e fisica dei bambini, con un aumento di casi di malnutrizione e malattie. Le violazioni dei diritti umani sono state numerose, con attacchi a strutture essenziali e violenze contro civili."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è stata aggravata dal conflitto, con un aumento significativo di persone in condizioni di crisi alimentare. La produzione agricola è stata gravemente compromessa a causa delle violenze e delle distruzioni, con un aumento delle perdite di raccolto. La situazione è peggiorata ulteriormente dalla distruzione di infrastrutture agricole e dallo spostamento forzato di popolazioni, che hanno portato a una riduzione delle aree coltivate. La situazione è particolarmente critica nelle zone colpite dal conflitto, dove la produzione di cereali è stata gravemente ridotta. L'accesso ai mercati e alle risorse alimentari è stato limitato a causa delle violenze e delle barriere di accesso, aumentando la vulnerabilità delle popolazioni locali."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione forzata è aumentata drasticamente a causa del conflitto, con un numero crescente di persone che fuggono dalle zone di combattimento verso aree più sicure. I rifugiati stanno cercando rifugio in paesi vicini come Chad, Etiopia e Sud Sudan. La situazione è particolarmente critica nei campi profughi, dove le condizioni di vita sono precarie e le risorse umanitarie sono insufficienti. I rifugiati stanno affrontando problemi di malnutrizione, mancanza di accesso a servizi di base e violenze. La situazione è peggiorata ulteriormente dalla mancanza di accesso umanitario in alcune zone, rendendo difficile la distribuzione di aiuti essenziali."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sudan è stata gravemente colpita dal conflitto, con una contrazione significativa del PIL e un aumento dei rischi fiscali ed esterni. La situazione economica è stata ulteriormente peggiorata dalla deprezzazione della valuta nazionale e dalla mancanza di accesso ai mercati internazionali. La produzione agricola è stata gravemente compromessa, con un aumento delle perdite di raccolto e una riduzione delle aree coltivate. La situazione è peggiorata ulteriormente dalla distruzione di infrastrutture agricole e dallo spostamento forzato di popolazioni, che hanno portato a una riduzione delle risorse alimentari disponibili. L'accesso ai mercati e alle risorse alimentari è stato limitato a causa delle violenze e delle barriere di accesso, aumentando la vulnerabilità delle popolazioni locali."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2023, il Sudan è stato teatro di un conflitto armato intensificato tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF). Il conflitto ha portato a un aumento significativo di vittime civili, inclusi bambini, con attacchi a scuole e ospedali. La situazione è caratterizzata da violenze indiscriminate, inclusi omicidi, mutilazioni e abusi sessuali. Il numero di bambini in bisogno di assistenza umanitaria è aumentato drasticamente, raggiungendo livelli record. La guerra ha anche causato un allarme crescente per la salute mentale e fisica dei bambini, con un aumento di casi di malnutrizione e malattie. La situazione economica è stata gravemente colpita dal conflitto, con una contrazione significativa del PIL e un aumento dei rischi fiscali ed esterni. La situazione è peggiorata ulteriormente dalla deprezzazione della valuta nazionale e dalla mancanza di accesso ai mercati internazionali. La produzione agricola è stata gravemente compromessa, con un aumento delle perdite di raccolto e una riduzione delle aree coltivate. La situazione è peggiorata ulteriormente dalla distruzione di infrastrutture agricole e dallo spostamento forzato di popolazioni, che hanno portato a una riduzione delle risorse alimentari disponibili. L'accesso ai mercati e alle risorse alimentari è stato limitato a causa delle violenze e delle barriere di accesso, aumentando la vulnerabilità delle popolazioni locali. La migrazione forzata è aumentata drasticamente a causa del conflitto, con un numero crescente di persone che fuggono dalle zone di combattimento verso aree più sicure. I rifugiati stanno cercando rifugio in paesi vicini come Chad, Etiopia e Sud Sudan. La situazione è particolarmente critica nei campi profughi, dove le condizioni di vita sono precarie e le risorse umanitarie sono insufficienti. I rifugiati stanno affrontando problemi di malnutrizione, mancanza di accesso a servizi di base e violenze. La situazione è peggiorata ulteriormente dalla mancanza di accesso umanitario in alcune zone, rendendo difficile la distribuzione di aiuti essenziali.",
+  "fonti": [
+    "acaps (SDN_2023-11-17_20231117_ACAPS_Sudan_Analysis_Hub_Thematic_Report_Impact_of_the_conflict_on_children.pdf)",
+    "fews_net (SDN_2023-december_food-security-outlook-update.pdf)",
+    "unhcr_reports (SDN_2023Q4_2023-12-27_sudan-situation-unhcr-external-update-41-19-25-december-2023.pdf)",
+    "worldbank_mpo (SDN_mpo_am23.pdf)",
+    "wikipedia:SDN_2023"
+  ]
+}

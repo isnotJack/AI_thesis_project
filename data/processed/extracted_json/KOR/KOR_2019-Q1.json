@@ -1,0 +1,33 @@
+{
+  "paese": "KOR",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Global hijacking of domain name system (DNS) (2019-01-09, categoria=Espionage)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Iran (Islamic Republic of)"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, la Corea del Sud continuò a essere governata dal Presidente Moon Jae-in e dal Primo Ministro Lee Nak-yeon, mentre si sforzava di migliorare le relazioni intercoreane e affrontare sfide economiche domestiche. Tra gli eventi principali del trimestre, vi fu l'elezione di nuovi governatori in diverse province, come Lee Jae-myung per Gyeonggi e Choi Moon-soon per Gangwon. Inoltre, il 11 aprile, la Corte Costituzionale dichiarò che il divieto di aborto del 1953 era costituzionalmente illegittimo, avviando piani per la riforma legale. Questi sviluppi politici e sociali hanno reso il 2019 un anno significativo nella storia recente della Corea del Sud.",
+  "fonti": [
+    "https://www.cfr.org/cyber-operations/global-hijacking-of-domain-name-system-dns",
+    "wikipedia:KOR_2019"
+  ]
+}

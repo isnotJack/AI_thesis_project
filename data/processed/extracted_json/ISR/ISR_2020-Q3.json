@@ -1,0 +1,28 @@
+{
+  "paese": "ISR",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2020, Israele ha continuato a gestire tensioni con il movimento palestinese e con le autorità palestinesi. Nel mese di settembre, Israele ha imposto un secondo lockdown di due settimane in risposta alla pandemia di COVID-19. Nel corso del trimestre, ci sono state continue tensioni con il movimento palestinese, con episodi di violenza e scambi di fuoco lungo la frontiera con il Libano. Israele ha anche condotto raid aerei contro bersagli in Siria, accusati di essere legati all'Iran. Inoltre, il paese ha continuato a gestire le relazioni con i paesi arabi che hanno normalizzato le relazioni diplomatiche, come l'Emirato Arabo Unito e il Bahrein, con accordi di normalizzazione annunciati nel trimestre."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, Israele ha continuato a gestire una serie di sfide politiche, sociali e diplomatiche. Il primo ministro Benjamin Netanyahu ha continuato a fare fronte a proteste contro la sua leadership, accusato di corruzione e di gestione inadeguata della pandemia di COVID-19. Nel mese di settembre, Israele ha approvato un secondo lockdown per contenere la diffusione del virus. Sul fronte diplomatico, Israele ha continuato a consolidare le relazioni con paesi arabi, con l'annuncio di accordi di normalizzazione con l'Emirato Arabo Unito e il Bahrein. Inoltre, il paese ha continuato a gestire tensioni con il movimento palestinese e con le autorità palestinesi, con episodi di violenza e scambi di fuoco lungo le frontiere. Israele ha anche mantenuto una presenza militare attiva in Siria, con raid aerei contro bersagli legati all'Iran. Sul piano interno, il paese ha continuato a fare fronte alla pandemia di COVID-19, con misure di lockdown e vaccinazioni in corso.",
+  "fonti": [
+    "wikipedia:ISR_2020"
+  ]
+}

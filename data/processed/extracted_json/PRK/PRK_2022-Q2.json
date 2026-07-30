@@ -1,0 +1,53 @@
+{
+  "paese": "PRK",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2022, la Corea del Nord ha continuato a mantenere una posizione di sfida nei confronti degli Stati Uniti, accusandoli di essere responsabili del conflitto in Ucraina. Il paese ha anche effettuato un test di un missile balistico intercontinentale (ICBM) di lunga gittata, dimostrando la sua determinazione nel perseguire le sue ambizioni militari. In aggiunta, la Corea del Nord ha lanciato tre missili a corto raggio verso l'est del peninsula coreana, poco dopo l'insediamento del nuovo presidente sudcoreano Yoon Suk-yeol, evidenziando tensioni continue nella regione."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco con ransomware Maui contro il settore sanitario e della salute pubblica (HPH Sector)",
+      "Attacco con malware AppleJeus per il furto di criptovalute"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "TraderTraitor: North Korean State-Sponsored APT Targets Blockchain Companies (2022-04-18)",
+      "North Korean State-Sponsored Cyber Actors Use Maui Ransomware to Target the HPH Sector (2022-07-06)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Lazarus Group",
+      "APT38",
+      "BlueNoroff",
+      "Stardust Chollima",
+      "CERIUM",
+      "ZINC",
+      "DEV-0215",
+      "DEV-0530",
+      "OSMIUM"
+    ],
+    "settori_bersaglio": [
+      "Blockchain e criptovalute",
+      "Settore sanitario e della salute pubblica (HPH Sector)",
+      "Organizzazioni di difesa e aeronautica",
+      "Organizzazioni di assistenza umanitaria"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, la Corea del Nord ha mantenuto una posizione di sfida nei confronti degli Stati Uniti, accusandoli di essere responsabili del conflitto in Ucraina. Il paese ha effettuato un test di un missile balistico intercontinentale (ICBM) di lunga gittata, dimostrando la sua determinazione nel perseguire le sue ambizioni militari. In aggiunta, la Corea del Nord ha lanciato tre missili a corto raggio verso l'est del peninsula coreana, poco dopo l'insediamento del nuovo presidente sudcoreano Yoon Suk-yeol, evidenziando tensioni continue nella regione. Durante questo periodo, la Corea del Nord ha dichiarato un'emergenza nazionale severa dopo aver rilevato il primo caso di COVID-19, imponendo un lockdown nazionale e chiudendo i confini. Tuttavia, il commercio limitato con la Cina è continuato.",
+  "fonti": [
+    "cisa (PRK_AA22-108A-TraderTraitor-North_Korea_APT_Targets_Blockchain_Companies.pdf)",
+    "cisa (PRK_aa22-187a-north-korean state-sponsored-cyber-actors-use-maui-ransomware-to-target-the-hph-sector.pdf)",
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:PRK_2022"
+  ]
+}

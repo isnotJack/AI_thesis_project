@@ -1,0 +1,29 @@
+{
+  "paese": "VEN",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione per le persone in movimento è critica, con difficoltà di accesso ai servizi specializzati di protezione. La frontiera colombiano-venezuelana rimane altamente permeabile, con un aumento dei rischi di protezione, inclusi la violenza, il furto e la tratta di esseri umani. Le persone in movimento costituiscono una parte significativa del profilo dei beneficiari dei servizi di protezione."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2021, la situazione politica in Venezuela continua a essere caratterizzata da una crisi di leadership, con Nicolás Maduro come presidente riconosciuto dalla maggior parte delle autorità internazionali, mentre Juan Guaidó continua a rivendicare il ruolo di presidente interino. La situazione economica resta fragile, con continue sfide legate all'instabilità monetaria e alla scarsità di beni essenziali. L'accento resta sulla gestione delle migrazioni e dei flussi di rifugiati, con un'enfasi crescente sulla protezione delle persone in movimento e sulla gestione dei rischi legati alla frontiera con la Colombia.",
+  "fonti": [
+    "VEN_2021Q4_2021-12-13_cl-ster-de-protecci-n-venezuela-respuesta-noviembre-2021.pdf",
+    "wikipedia:VEN_2021"
+  ]
+}

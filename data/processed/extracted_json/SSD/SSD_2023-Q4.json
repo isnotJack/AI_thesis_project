@@ -1,0 +1,33 @@
+{
+  "paese": "SSD",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan ha visto un aumento delle tensioni e degli scontri armati in diverse regioni del paese. Le violenze sono state segnalate in aree come Unity, Abyei, Jonglei, Upper Nile, e Greater Pibor Administrative Area (GPAA). I conflitti sono stati causati da diverse dinamiche, tra cui rivalità tra comunità, attacchi di gruppi armati, e tensioni legate alla terra e alle risorse. Le violenze hanno portato a dislocazioni di popolazione, con conseguenti sfide per l'accesso ai servizi e alle risorse. L'insicurezza ha anche interferito con le attività umanitarie e il rifornimento di assistenza. Le autorità hanno tentato di contenere le tensioni, ma le dinamiche di conflitto continuano a essere volatili e complesse."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è stata influenzata da diversi fattori, tra cui il conflitto, le inondazioni, il ritorno dei rifugiati, i prezzi alti dei generi alimentari, le limitate opportunità di guadagno, le raccolte limitate e le coltivazioni mediamente basse. L'IPC Phase 4 (Emergenza) persiste in molte zone, con aree di maggiore preoccupazione che includono Unity, Jonglei, Upper Nile, e Greater Pibor Administrative Area (GPAA). La situazione è stata ulteriormente complicata dal ritorno di rifugiati, che hanno aumentato la pressione sui sistemi di sostentamento locali. Le condizioni sono previste per peggiorare ulteriormente durante il periodo post-raccolta, con l'IPC Phase 4 previsto di espandersi in altre zone. L'assistenza umanitaria continua a essere cruciale per mitigare la severità della carestia acuta."
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, il Sud Sudan ha visto un flusso continuo di ritornati da Sudan e Etiopia, con un numero significativo di rifugiati che hanno attraversato le frontiere. Questo flusso ha posto una pressione significativa sulle risorse locali, soprattutto nei centri di accoglienza e nei campi per sfollati. I ritornati hanno spesso pochi o nessun asset, limitate capacità di adattamento e poche connessioni sociali, aumentando la loro vulnerabilità. L'insicurezza ha reso difficile il loro reintegro nelle comunità di origine, con conseguenti sfide per l'accesso ai servizi e alle risorse. L'assistenza umanitaria è stata fornita per supportare questi ritornati, ma le risorse sono state limitate."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per il Sud Sudan è stato caratterizzato da sfide significative, tra cui la debolezza del settore petrolifero, la pressione fiscale e esterna, e la vulnerabilità alle condizioni macroeconomiche. Le prospettive di crescita sono state compromesse da fattori come la scarsità di risorse finanziarie, la dipendenza dal settore petrolifero e le pressioni fiscali. L'economia continua a essere vulnerabile a shock esterni, come le fluttuazioni dei prezzi del petrolio e le condizioni climatiche. Le prospettive di crescita sono state compromesse da fattori come la scarsità di risorse finanziarie, la dipendenza dal settore petrolifero e le pressioni fiscali. L'economia continua a essere vulnerabile a shock esterni, come le fluttuazioni dei prezzi del petrolio e le condizioni climatiche."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a essere caratterizzato da una leadership stabile con Salva Kiir Mayardit come Presidente e Riek Machar come Vice Presidente. L'anno ha visto l'evolversi di diversi eventi significativi, tra cui la continua gestione delle conseguenze della pandemia di COVID-19, le tensioni legate alla guerra civile, e le dinamiche di conflitto tra gruppi etnici. L'anno ha anche visto episodi specifici come il massacro di almeno 32 persone e l'uccisione di 20 altre in un massacro contro due villaggi in Abyei, un'area disputata tra Sudan e Sud Sudan. Questi eventi hanno contribuito a mantenere un clima di instabilità e insicurezza nel paese.",
+  "fonti": [
+    "fews_net (SSD_2023-december_food-security-outlook-update.pdf)",
+    "fews_net (SSD_2023-november_key-message-update.pdf)",
+    "fews_net (SSD_2023-october_food-security-outlook.pdf)",
+    "unhcr_reports (SSD_2023Q4_2023-12-15_south-sudan-2024-protection-needs-and-response-plan-strategy.pdf)",
+    "worldbank_mpo (SSD_mpo_am23.pdf)",
+    "wikipedia:SSD_2023"
+  ]
+}

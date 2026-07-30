@@ -1,0 +1,29 @@
+{
+  "paese": "VEN",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il documento UNHCR/ReliefWeb menziona attività di monitoraggio delle attività di protezione per le popolazioni vulnerabili, inclusi i rifugiati e i migranti, con l'obiettivo di garantire la protezione e la sicurezza delle comunità. Il documento fa riferimento al ruolo del Cluster di Protezione in Venezuela, che coordina le agenzie, fondi e programmi per fornire assistenza alle popolazioni vulnerabili."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, il Venezuela ha visto alcuni sviluppi significativi, inclusa la riapertura del confine con il Brasile dopo due anni di chiusura a causa della pandemia di COVID-19. Inoltre, gli Stati Uniti hanno iniziato negoziati con il Venezuela per l'acquisto di petrolio, cercando di sostituire il petrolio russo, anche se i negoziati hanno prodotto pochi risultati. Il presidente Joe Biden ha annunciato la liberazione di due americani detenuti in Venezuela. Nel mese di maggio, il Venezuela ha annunciato la vendita di azioni in alcune società di stato per finanziare le imprese statali. Gli Stati Uniti hanno sollevato alcune sanzioni economiche verso il Venezuela, permettendo a Chevron Corporation di negoziare la sua licenza con la PDVSA, la compagnia petrolifera di stato venezuelana, e rimuovendo alcuni funzionari venezuelani dalla lista di sanzioni. Nel mese di giugno, Iran e Venezuela hanno firmato un accordo di cooperazione economica a lungo termine.",
+  "fonti": [
+    "VEN_2022Q1_2022-03-18_cl-ster-de-protecci-n-venezuela-manual-de-monitoreo-de-activ.pdf",
+    "wikipedia:VEN_2022"
+  ]
+}

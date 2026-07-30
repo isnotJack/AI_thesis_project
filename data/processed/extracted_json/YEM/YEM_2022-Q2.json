@@ -1,0 +1,32 @@
+{
+  "paese": "YEM",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto in Yemen ha continuato con episodi significativi di violenza. Nel mese di gennaio, vi è stato un attacco aereo su un centro di detenzione a Saada che ha causato numerose vittime. Nel marzo, è stato firmato un memorandum per prevenire l'esplosione di un petroliero. Nel mese di aprile, è stato annunciato un cessate il fuoco di due mesi, che ha permesso il rinnovo di alcune attività essenziali come il trasporto di carburante e il ripristino dei voli all'aeroporto di Sana'a. Tuttavia, il conflitto ha continuato con episodi di violenza in alcune regioni, come gli scontri nel governatorato di Al Jawf. Nel mese di maggio, Yemen Airways ha operato il suo primo volo commerciale da Sana'a dal 2016, grazie al cessate il fuoco. Nel luglio, ci sono stati attacchi a Taizz, con conseguenti vittime civili. Nel mese di agosto, un giornalista è stato arrestato ad Aden. Nel settembre, un attacco di Al-Qaeda ha causato numerose vittime in Abyan. Il cessate il fuoco è terminato nel mese di ottobre, senza rinnovi da parte delle parti in conflitto."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "I principali driver della carestia in Yemen includono il conflitto, la riduzione dei livelli di assistenza umanitaria, la deprezzazione della valuta locale, le carenze di importazioni di alimenti essenziali e le crescenti pressioni economiche. La carestia è stata aggravata dalla riduzione dei rifornimenti di cibo e dei programmi di assistenza, nonché dalla continua instabilità economica e politica."
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione per i rifugiati e i profughi interni rimane critica, con continue minacce e violazioni dei diritti umani. I rifugiati somali e etiopi continuano a ricevere assistenza, ma la loro situazione rimane precaria. Gli sforzi di protezione includono servizi di prima assistenza psicosociale, protezione legale e assistenza per sopravviventi di violenza di genere. La mancanza di soluzioni di riintegrazione o di riorganizzazione permanente continua a costituire un problema significativo."
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere gravemente indebolita dal conflitto, con una forte deprezzazione della valuta locale, una riduzione delle importazioni di beni essenziali e una crescente pressione fiscale e esterna. La mancanza di una politica fiscale coerente e la scarsità di entrate da petrolio hanno ulteriormente indebolito le finanze pubbliche. La situazione economica è stata ulteriormente aggravata dalla pandemia di COVID-19 e dalle conseguenti restrizioni. L'outlook per la crescita economica rimane negativo, con rischi significativi legati alla continua instabilità politica e all'incertezza sul futuro del conflitto."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, Yemen ha continuato a essere caratterizzato da un conflitto in corso, con episodi di violenza e scontri armati in diverse regioni del paese. Il cessate il fuoco di due mesi, iniziato nel mese di aprile, ha portato a un breve periodo di calma, con la riapertura di alcuni servizi essenziali. Tuttavia, il conflitto ha ripreso dopo la fine del cessate il fuoco, con continue minacce alla sicurezza e alla stabilità del paese. La leadership del paese ha continuato a essere segnata da cambiamenti, con la trasferimento delle competenze presidenziali a un consiglio di leadership presidenziale. Gli sforzi diplomatici per risolvere il conflitto hanno continuato, ma senza risultati concreti. La situazione umanitaria rimane critica, con continue minacce alla sicurezza alimentare e alla protezione dei civili.",
+  "fonti": [
+    "YEM_2022-06-29_20220629_acaps_yah_simp_january_march_2022.pdf",
+    "YEM_2022-june_food-security-outlook.pdf",
+    "YEM_2022Q2_2022-06-30_yemen-fact-sheet-june-2022.pdf",
+    "YEM_mpo_sm22.pdf",
+    "wikipedia:YEM_2022"
+  ]
+}

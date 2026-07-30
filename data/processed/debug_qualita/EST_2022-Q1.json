@@ -1,0 +1,33 @@
+{
+  "paese": "EST",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Estonian government websites were temporarily blocked by DDoS attacks querying them several thousand times the normal traffic flow"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Government websites"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In the first quarter of 2022, Estonia continued to deal with the ongoing COVID-19 pandemic. On 18 February, Estonia delivered a shipment of U.S.-made FGM-148 Javelin anti-tank missiles to Ukraine. On 26 February, Estonia announced that it would close its airspace to all Russian airlines. On 2 March, Estonia voted on a United Nations resolution condemning Russia for its invasion of Ukraine. The Estonian cargo ship MV Helt sank near the Port of Odesa in the Black Sea on 3 March following an explosion, with all crew members rescued. An investigation into the incident was announced by Estonian Foreign Minister Eva-Maria Liimets.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "wikipedia:EST_2022"
+  ]
+}

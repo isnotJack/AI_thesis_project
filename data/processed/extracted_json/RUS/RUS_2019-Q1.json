@@ -1,0 +1,46 @@
+{
+  "paese": "RUS",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, la Russia ha lanciato una gara nazionale per parata di trofei bellici provenienti dall'intervento nella guerra civile siriana. Questo evento ha evidenziato la continuità dell'impegno militare russo in Siria. Inoltre, il 14 febbraio, il fondatore della società di private equity Baring Vostok Capital Partners, Michael Calvey, è stato arrestato per sospetti di frode. Questo episodio ha attirato l'attenzione sulla situazione giuridica e sulle pressioni esercitate sulle imprese private in Russia."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "2019 Indonesian elections",
+      "Whitefly",
+      "U.S. Cyber Command offensive attack of Russian troll farm",
+      "Targeting of U.S. and European think tanks",
+      "Attempted attack on the Democratic National Convention (DNC) during 2018 elections"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "health-care",
+      "media",
+      "telecommunications",
+      "engineering",
+      "defense",
+      "energy"
+    ],
+    "ruolo": "entrambi"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, la leadership russa era costituita da Vladimir Putin come Presidente e Dmitry Medvedev come Primo Ministro. Tra gli eventi principali, si segnala l'arresto di Michael Calvey, fondatore di Baring Vostok Capital Partners, per sospetti di frode. Inoltre, il Parlamento federale russo ha approvato una legge che criminalizza la pubblicazione di dichiarazioni online giudicate indecenti o disdicevoli nei confronti di funzionari dello stato o del governo russo, inclusi il presidente. Questa legge ha imposto sanzioni fino a 100.000 rubli per primi colpevoli e fino a 200.000 rubli o 15 giorni di carcere per ripetitori.",
+  "fonti": [
+    "https://www.cfr.org/cyber-operations/2019-indonesian-elections",
+    "https://www.cfr.org/cyber-operations/attempted-attack-on-the-democratic-national-convention-dnc-during-2018-elections",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-and-european-think-tanks",
+    "https://www.cfr.org/cyber-operations/u-s-cyber-command-offensive-attack-of-russian-troll-farm",
+    "https://www.cfr.org/cyber-operations/whitefly",
+    "wikipedia:RUS_2019"
+  ]
+}

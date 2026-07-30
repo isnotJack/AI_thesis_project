@@ -1,0 +1,62 @@
+{
+  "paese": "USA",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Targeting of U.S. defense contractors (2018-09-06, categoria=Espionage)",
+      "Targeting of the personal email accounts of U.S. Senators and staff (2018-09-19, categoria=Espionage)",
+      "Targeting of AMC Theatres (2018-09-06, categoria=Espionage)",
+      "Cobalt Dickens (2018-08-24, categoria=Espionage)",
+      "Targeting of organizations associated with trade activity with China (2018-08-16, categoria=Espionage)",
+      "Raspite (2018-08-02, categoria=Espionage)",
+      "Gorgon Group (2018-08-02, categoria=Espionage)",
+      "Targeting of the office of U.S. Senator Claire McCaskill (2018-07-26, categoria=Espionage)",
+      "Targeting of congressional campaigns for the 2018 U.S. midterm elections (2018-07-19, categoria=Espionage)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Korea (Democratic People's Republic of)",
+      "Iran (Islamic Republic of)",
+      "Russian Federation"
+    ],
+    "settori_bersaglio": [
+      "Defense contractors",
+      "Personal email accounts",
+      "Movie theater chains",
+      "Industrial control systems in the electric utility sector",
+      "Government entities",
+      "Congressional campaigns",
+      "Organizations with trade ties to China"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In questo trimestre, gli Stati Uniti hanno visto una serie di eventi significativi, inclusi attacchi cibernetici mirati, sviluppi politici interni e internazionali, e una serie di incidenti naturali. Gli attacchi cibernetici hanno coinvolto diversi settori, tra cui difesa, industria cinematografica, elettricità, e campagne elettorali. Politicamente, il paese ha affrontato questioni legate alle elezioni, alla politica estera e alle relazioni internazionali, con tensioni evidenti nei confronti di paesi come la Corea del Nord, l'Iran e la Russia. Inoltre, gli Stati Uniti hanno continuato a gestire sfide legate all'ambiente, come incendi boschivi e uragani, nonché a fare fronte a questioni interne come la salute mentale e la sicurezza nazionale.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/cobalt-dickens",
+    "https://www.cfr.org/cyber-operations/gorgon-group",
+    "https://www.cfr.org/cyber-operations/raspite",
+    "https://www.cfr.org/cyber-operations/targeting-of-amc-theatres",
+    "https://www.cfr.org/cyber-operations/targeting-of-congressional-campaigns-for-the-2018-u-s-midterm-elections",
+    "https://www.cfr.org/cyber-operations/targeting-of-organizations-associated-with-trade-activity-with-china",
+    "https://www.cfr.org/cyber-operations/targeting-of-the-office-of-u-s-senator-claire-mccaskill",
+    "https://www.cfr.org/cyber-operations/targeting-of-the-personal-email-accounts-of-u-s-senators-and-staff",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-defense-contractors",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-defense-contractors-2",
+    "wikipedia:USA_2018"
+  ]
+}

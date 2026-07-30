@@ -1,0 +1,30 @@
+{
+  "paese": "SYR",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la Siria ha visto un aumento significativo delle tensioni e delle attività militari nel nord-est del paese. L'offensiva militare turca contro le forze curde, denominate Forze Democratiche Siriane (SDF), ha portato a intensi combattimenti lungo la frontiera turco-siriana. Questi scontri hanno causato un numero significativo di vittime civili e hanno determinato un flusso di sfollati verso le governatorie di Hasakeh e Raqqa. Le città di Hasakeh e Raqqa sono state particolarmente colpite, con servizi sovraccaricati e infrastrutture danneggiate. L'escalation delle ostilità ha anche portato a gravi preoccupazioni per la protezione civile e l'accesso alle aree di conflitto, con limitazioni ai movimenti delle organizzazioni umanitarie. L'offensiva turca ha generato un'escalation delle tensioni regionali, con implicazioni significative per la sicurezza e la stabilità del paese."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, la Siria ha visto un aumento significativo dei flussi di sfollati a causa delle ostilità nel nord-est del paese. Le sfide principali includono la protezione dei civili, l'accesso alle aree di conflitto e la gestione delle crescenti esigenze umanitarie. Le organizzazioni umanitarie hanno fornito assistenza a un numero crescente di sfollati, con un focus particolare sulle esigenze di rifugiati e sfollati nei campi e nelle aree di accoglienza. Le sfide operative includono la limitazione dell'accesso alle aree di conflitto e la necessità di adeguare le risorse umanitarie per affrontare le crescenti esigenze. L'escalation delle ostilità ha portato a un aumento delle esigenze di protezione e assistenza, con un forte impatto sulle condizioni di vita dei civili."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, la Siria ha continuato a essere caratterizzata da una situazione di instabilità e conflitto. L'offensiva turca contro le forze curde nel nord-est del paese ha portato a un aumento delle tensioni e delle attività militari, con conseguenze significative per la popolazione civile. La leadership del paese, con Bashar al-Assad come presidente, ha continuato a gestire la situazione in un contesto di crescente instabilità regionale. Gli eventi principali del trimestre hanno riguardato l'escalation delle ostilità nel nord-est, con conseguenze dirette sulle condizioni di vita e la sicurezza delle popolazioni locali.",
+  "fonti": [
+    "SYR_2019-10-21_20191021_acaps_start_briefing_note_syria_displacement_in_the_northeast.pdf",
+    "SYR_2019Q4_2019-12-31_north-west-syria-cross-border-humanitarian-response-fact-she.pdf",
+    "wikipedia:SYR_2019"
+  ]
+}

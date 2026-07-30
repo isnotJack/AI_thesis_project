@@ -1,0 +1,49 @@
+{
+  "paese": "IRN",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Il paese è coinvolto in conflitti regionali, con azioni militari contro gruppi di opposizione nel Kurdistan Region of Iraq. Vi sono anche tensioni con Israele, evidenziate da attacchi cibernetici attribuiti a attori iraniani. L'IRGC ha lanciato attacchi missilistici contro basi di opposizione curda nel Kurdistan Region of Iraq. Esistono inoltre tensioni con l'Azerbaigian, con esercitazioni militari vicino al confine. L'Iran ha anche condotto operazioni militari contro gruppi di opposizione interni, come dimostrato dalle azioni contro i manifestanti a Qaleh-ye Sadri. Le autorità iraniane hanno arrestato attivisti e avvocati dei diritti umani, inclusi quelli impegnati in casi di responsabilità per l'incidente aereo di Ukraine International Airlines Flight 752. L'Iran ha anche condotto operazioni militari contro gruppi di opposizione interni, come dimostrato dalle azioni contro i manifestanti a Qaleh-ye Sadri. Le autorità iraniane hanno arrestato attivisti e avvocati dei diritti umani, inclusi quelli impegnati in casi di responsabilità per l'incidente aereo di Ukraine International Airlines Flight 752."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Iran ospita un numero significativo di rifugiati afghani, con un aumento di arrivi irregolari attraverso i confini. L'UNHCR ha fornito supporto vitale a migliaia di rifugiati interni e sfollati all'interno dell'Afghanistan. L'Iran ha anche iniziato a preparare la concessione di rifugio temporaneo per afghani in fuga dal conflitto con i talebani, mentre incoraggia molti rifugiati a tornare in Afghanistan a causa delle pressioni economiche. Esistono sfide significative per i rifugiati, inclusi i bisogni di documentazione, accesso a reddito e alloggio. L'Iran ha una lunga storia di accoglienza di rifugiati, ma le crescenti pressioni economiche stanno aumentando le sfide per i rifugiati e le autorità iraniane."
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana è stata influenzata da sanzioni internazionali e dalla pandemia di COVID-19, con conseguenze significative sulle finanze pubbliche e sulla crescita economica. L'Iran ha visto una contrazione del PIL, con una forte dipendenza dalle entrate petrolifere che ha subito un calo a causa delle sanzioni. L'inflazione è rimasta elevata, con effetti negativi sui consumatori e sulle imprese. Le misure di mitigazione del COVID-19 hanno aumentato il deficit fiscale, mentre le restrizioni sulle esportazioni di petrolio hanno ridotto le entrate governative. L'Iran ha anche visto un aumento dei debiti pubblici, con conseguenze negative per la stabilità finanziaria. Le prospettive di crescita economica sono compromesse da queste sfide, con rischi fiscali e esterni significativi."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacchi cibernetici contro Israele, inclusi attacchi ransomware e tentativi di compromettere sistemi critici.",
+      "Attacchi cibernetici contro aziende e infrastrutture critiche, utilizzando vulnerabilità in Microsoft Exchange e Fortinet.",
+      "Attacchi cibernetici contro attori privati, inclusi attacchi ransomware e tentativi di compromettere sistemi critici."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian Government-Sponsored APT Cyber Actors Exploiting Microsoft Exchange and Fortinet Vulnerabilities in Furtherance of Malicious Activities"
+    ],
+    "gruppi_minaccia_associati": [
+      "PHOSPHORUS",
+      "CURIM",
+      "RUBIDIUM"
+    ],
+    "settori_bersaglio": [
+      "Servizi di informazione e tecnologia",
+      "Servizi di trasporto",
+      "Servizi di salute",
+      "Servizi di energia",
+      "Servizi di finanza"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "L'Iran ha visto un cambiamento di leadership con l'elezione di Ebrahim Raisi come nuovo presidente. Ci sono state tensioni con Israele, evidenziate da attacchi cibernetici attribuiti a attori iraniani. L'Iran ha anche condotto operazioni militari contro gruppi di opposizione interni e esterni, come dimostrato dalle azioni contro i manifestanti a Qaleh-ye Sadri e dai lanci di missili contro basi di opposizione curda nel Kurdistan Region of Iraq. Esistono inoltre tensioni con l'Azerbaigian, con esercitazioni militari vicino al confine. L'Iran ha anche iniziato a preparare la concessione di rifugio temporaneo per afghani in fuga dal conflitto con i talebani, mentre incoraggia molti rifugiati a tornare in Afghanistan a causa delle pressioni economiche. Le autorità iraniane hanno arrestato attivisti e avvocati dei diritti umani, inclusi quelli impegnati in casi di responsabilità per l'incidente aereo di Ukraine International Airlines Flight 752. L'Iran ha anche condotto operazioni militari contro gruppi di opposizione interni, come dimostrato dalle azioni contro i manifestanti a Qaleh-ye Sadri. Le autorità iraniane hanno arrestato attivisti e avvocati dei diritti umani, inclusi quelli impegnati in casi di responsabilità per l'incidente aereo di Ukraine International Airlines Flight 752.",
+  "fonti": [
+    "unhcr_reports (IRN_2021Q3_2021-09-27_afghanistan-situation-emergency-preparedness-and-response-in.pdf)",
+    "worldbank_mpo (IRN_mpo_sm21.pdf)",
+    "cisa (IRN_AA21-321A-Iranian Government-Sponsored APT Actors Exploiting Vulnerabilities_1.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2021.pdf)",
+    "wikipedia:IRN_2021"
+  ]
+}

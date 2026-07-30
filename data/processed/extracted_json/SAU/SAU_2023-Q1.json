@@ -1,0 +1,31 @@
+{
+  "paese": "SAU",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita è in via di ripresa forte dal recupero dalla recessione indotta dalla pandemia durante il primo semestre del 2022. L'economia ha mostrato un forte aumento del PIL reale, principalmente supportato dall'incremento delle attività petrolifere. L'Arabia Saudita ha beneficiato di un aumento delle quote di produzione di petrolio in linea con gli accordi dell'OPEC+, che hanno contribuito a un aumento delle entrate fiscali. Tuttavia, ci sono rischi legati alla volatilità dei prezzi del petrolio e alle pressioni inflazionistiche. L'economia non petrolifera continua a crescere, ma rimane soggetta a rischi legati alla ripresa della pandemia e alle politiche monetarie globali. L'Arabia Saudita ha mantenuto un bilancio fiscale in surplus grazie alle entrate petrolifere, ma il governo ha mantenuto una politica fiscale prudente senza allentare il controllo sulle spese. L'inflazione è contenuta grazie a controlli sui prezzi e sussidi, ma rimane un rischio a lungo termine. L'occupazione continua a crescere, con un aumento del numero di cittadini sauditi impiegati nel settore privato. L'Arabia Saudita si sta concentrando sul raggiungimento delle sue priorità strategiche, come la diversificazione economica e la realizzazione delle iniziative del piano Vision 2030."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, l'Arabia Saudita ha continuato a gestire diversi eventi significativi. Nel mese di marzo, il principe ereditario Mohammed bin Salman ha annunciato ufficialmente la creazione di Riyadh Air, una nuova compagnia aerea di bandiera. Questo evento segna un importante sviluppo nel settore dei trasporti aerei del paese. In aprile, il ministro degli Esteri saudita Faisal bin Farhan ha effettuato una visita storica a Damasco, incontrando il presidente siriano Bashar al-Assad, segnando un rafforzamento delle relazioni diplomatiche dopo anni di tensioni. Nel mese di maggio, un incendio in un albergo a Makkah ha causato la morte di otto persone, evidenziando la necessità di migliorare le norme di sicurezza nei luoghi pubblici. Nel mese di giugno, un attacco armato vicino al consolato americano a Jeddah ha causato la morte di un agente di sicurezza e del responsabile dell'attacco. Questi eventi riflettono la continua attenzione del governo saudita verso la sicurezza interna e le relazioni internazionali.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_am22.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "wikipedia:SAU_2023"
+  ]
+}

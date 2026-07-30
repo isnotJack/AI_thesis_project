@@ -1,0 +1,38 @@
+{
+  "paese": "ISR",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Israele ha condotto operazioni militari contro bersagli in Siria, inclusi attacchi aérei contro obiettivi iraniani e missili contro Hamas in Gaza. Ci sono stati episodi di violenza intercomunitaria tra ebrei e arabi israeliani, con scontri a Lod e proteste in varie città. Israele ha anche risposto a lanci di razzi da Gaza con attacchi aérei. La situazione è stata caratterizzata da tensioni continue tra Israele e i movimenti palestinesi, con episodi di violenza e proteste in varie località."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro il software di sorveglianza Pegasus di NSO Group, rivelato da Amnesty International, che ha messo in discussione la sicurezza delle comunicazioni di attivisti, giornalisti e leader politici globali."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "NSO Group",
+      "DeathStalker"
+    ],
+    "settori_bersaglio": [
+      "Finanza",
+      "Legale"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Israele ha continuato a fare fronte a tensioni geopolitiche e conflitti regionali, con attacchi aérei contro obiettivi in Siria e in Gaza. La situazione interna è stata segnata da episodi di violenza intercomunitaria tra ebrei e arabi israeliani, con proteste e scontri in varie città. Israele ha anche risposto a lanci di razzi da Gaza con attacchi aérei. La situazione è stata caratterizzata da tensioni continue tra Israele e i movimenti palestinesi, con episodi di violenza e proteste in varie località. In ambito cibernetico, è stato rivelato un attacco contro il software di sorveglianza Pegasus di NSO Group, che ha messo in discussione la sicurezza delle comunicazioni di attivisti, giornalisti e leader politici globali.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:ISR_2021"
+  ]
+}

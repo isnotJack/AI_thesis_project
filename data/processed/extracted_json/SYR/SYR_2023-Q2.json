@@ -1,0 +1,31 @@
+{
+  "paese": "SYR",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Siria continua a essere un fattore significativo, con attivita' di gruppi armati come l'Isis che compiono attacchi contro civili e forze governative. L'Isis ha perpetrato diversi attacchi, inclusi massacri e ambuscate, contro truffatori di tartufi e civili in diverse governatorati. Le forze governative hanno risposto con attacchi aerei contro le posizioni dell'Isis. L'attivita' di gruppi armati ha portato a un aumento delle tensioni e delle minacce per la popolazione civile, specialmente nelle aree rurali. L'interferenza esterna, inclusi gli attacchi aerei israeliani contro infrastrutture militari e gruppi legati all'Iran, ha aggiunto un livello di complessita' al contesto di conflitto. La situazione ha portato a un aumento delle esigenze di protezione per la popolazione civile, con un rafforzamento delle misure di sicurezza e protezione nei centri di accoglienza e nei campi per sfollati."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e la sfollata interna continuano a essere un problema significativo a causa del conflitto e degli eventi recenti, come gli terremoti. La popolazione sfollata necessita' di assistenza umanitaria, inclusa la protezione, l'alloggio, l'assistenza psicosociale e l'assistenza legale. Gli sfollati sono particolarmente vulnerabili a rischi come la violenza di genere, l'abuso sessuale, il lavoro minorile e la violenza in generale. L'accesso alle risorse umanitarie e alle strutture di protezione e assistenza e' stato compromesso a causa delle barriere logistiche e dei problemi di accesso. L'UNHCR e' attivo nel fornire assistenza umanitaria, inclusa l'assistenza in denaro, i beni di prima necessita', l'assistenza legale e la protezione, ai sfollati interni e alle famiglie ospitanti. Gli sfollati continuano a vivere in condizioni difficili, con problemi di sovraffollamento e mancanza di privacy nei centri di accoglienza."
+  },
+  "economia": {
+    "sintesi": "Lo stato dell'economia siriana e' stato gravemente compromesso dal conflitto e dagli eventi recenti, inclusi gli terremoti. La situazione economica e' caratterizzata da una contrazione del PIL, un aumento dell'inflazione e un deterioramento delle condizioni di benessere economico. La deprezzazione della valuta nazionale ha portato a un aumento dei prezzi dei beni di prima necessita', come il cibo. La mancanza di risorse e la distruzione dell'infrastruttura hanno aumentato la vulnerabilita' economica della popolazione, con un aumento del numero di famiglie che devono adottare strategie di coping estreme per sopravvivere. L'assistenza umanitaria e' essenziale per sostenere la popolazione in queste condizioni difficili."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, la Siria continua a essere caratterizzata da un contesto di conflitto e instabilita'. Il presidente Bashar al-Assad e' rimasto in carica, mentre il paese affronta una serie di sfide, inclusi gli attacchi armati, gli terremoti e le conseguenti esigenze umanitarie. La leadership siriana ha risposto a questi eventi con una serie di misure, inclusi gli attacchi aerei contro le posizioni dell'Isis e la gestione delle conseguenze umanitarie degli terremoti. L'interferenza esterna, inclusi gli attacchi aerei israeliani contro infrastrutture militari e gruppi legati all'Iran, ha aggiunto un livello di complessita' al contesto di conflitto. La situazione economica e' rimasta fragile, con una contrazione del PIL e un aumento dell'inflazione. L'assistenza umanitaria e' stata essenziale per sostenere la popolazione sfollata e le famiglie ospitanti, con l'UNHCR e altre organizzazioni umanitarie che hanno fornito assistenza in denaro, beni di prima necessita' e protezione. La popolazione continua a vivere in condizioni difficili, con un aumento delle esigenze di protezione e assistenza umanitaria a causa del conflitto e degli eventi recenti.",
+  "fonti": [
+    "SYR_2023-06-16_20230616_acaps_thematic_report_syria_assessing_increased_protection_risks_and_vulnerabilities_after_the_earthq.pdf",
+    "SYR_2023Q2_2023-06-22_earthquake-emergency-response-whole-of-syria-final-report-ju.pdf",
+    "SYR_mpo_sm23.pdf",
+    "wikipedia:SYR_2023"
+  ]
+}

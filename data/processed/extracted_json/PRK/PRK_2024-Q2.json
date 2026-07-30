@@ -1,0 +1,44 @@
+{
+  "paese": "PRK",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "North Korea Cyber Group Conducts Global Espionage Campaign"
+    ],
+    "gruppi_minaccia_associati": [
+      "Andariel",
+      "Onyx Sleet",
+      "DarkSeoul",
+      "Silent Chollima",
+      "Stonefly/Clasiopa"
+    ],
+    "settori_bersaglio": [
+      "Difesa",
+      "Aerospazio",
+      "Nucleare",
+      "Ingegneria"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, la Corea del Nord ha continuato a mantenere tensioni elevate con la Corea del Sud, con diversi episodi di scambi di fuoco lungo la linea di demarcazione militare. Il paese ha anche condotto test di armi nucleari e balistiche, dimostrando la sua determinazione nel perseguire le sue ambizioni militari. Parallelamente, la Corea del Nord ha mantenuto una stretta alleanza con la Russia, rafforzando i legami strategici e militari. Nel campo delle relazioni esterne, il paese ha continuato a mantenere un atteggiamento ostile nei confronti del Giappone e degli Stati Uniti, rifiutando di intraprendere dialoghi diplomatici. Nel campo sportivo, la Corea del Nord ha ottenuto successi significativi, vincendo il campionato mondiale di calcio femminile Under-20. Tuttavia, il paese ha anche affrontato problemi interni, come alluvioni che hanno causato danni significativi in alcune regioni.",
+  "fonti": [
+    "cisa (PRK_aa24-207a-dprk-cyber-group-conducts-global-espionage-campaign_0.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:PRK_2024"
+  ]
+}

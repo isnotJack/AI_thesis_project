@@ -1,0 +1,56 @@
+{
+  "paese": "RUS",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto principale nel trimestre è rappresentato dalla guerra in corso tra la Russia e l'Ucraina. L'annuncio dell'annessione di alcune regioni ucraine da parte della Russia è stato un evento significativo, con la tenuta di referendums che hanno portato all'annessione delle regioni di Donetsk, Luhansk, Kherson e Zaporizhzhia. La Russia ha continuato a rafforzare le sue posizioni nei territori occupati, nonostante le critiche internazionali. L'annuncio di un nuovo reclutamento di militari da parte del presidente Putin è stato un ulteriore sviluppo importante, indicando la continuità delle operazioni militari. L'uso di propaganda e la manipolazione delle informazioni per supportare le operazioni militari è stato evidente, con campagne di disinformazione mirate a influenzare l'opinione pubblica internazionale e nazionale."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa ha mostrato una certa resilienza nonostante le sanzioni internazionali e le conseguenze della guerra. Ci sono stati segnali di crescita, anche se si prevede un rallentamento in futuro. I rischi fiscali e esterni sono stati segnalati, ma l'economia ha beneficiato di flussi di denaro provenienti dall'estero, principalmente dalla Russia, che hanno supportato la crescita. Le proiezioni indicano una crescita positiva, anche se si prevede un rallentamento nel 2023. L'inflazione è stata controllata grazie a politiche macroeconomiche efficaci, come il tasso di cambio flessibile e la gestione attiva dei tassi di interesse."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf",
+      "RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf"
+    ],
+    "gruppi_minaccia_associati": [
+      "FSB (Federal'noye Sluzhba Bezopasnosti)",
+      "SVR (Sluzhba Vneshney Razvedki)",
+      "GRU (Glavnoye Razvedyvatel'noye Upravleniye)",
+      "APT29 (Cozy Bear)",
+      "APT28 (Fancy Bear)",
+      "APT41",
+      "APT40"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Infrastrutture critiche",
+      "Servizi finanziari",
+      "Governo",
+      "Media",
+      "Sanità",
+      "Trasporto",
+      "Comunicazioni",
+      "Educazione",
+      "Ricerca",
+      "Produzione industriale"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, la leadership russa è rimasta stabile con Vladimir Putin come presidente, Mikhail Mishustin come primo ministro, Valentina Matvienko come presidente del Consiglio Federale e Vyacheslav Volodin come presidente della Duma di Stato. L'annessione di alcune regioni ucraine da parte della Russia è stata un evento chiave, con la tenuta di referendums che hanno portato all'annessione delle regioni di Donetsk, Luhansk, Kherson e Zaporizhzhia. La Russia ha continuato a rafforzare le sue posizioni nei territori occupati, nonostante le critiche internazionali. L'annuncio di un nuovo reclutamento di militari da parte del presidente Putin è stato un ulteriore sviluppo importante, indicando la continuità delle operazioni militari. L'uso di propaganda e la manipolazione delle informazioni per supportare le operazioni militari è stato evidente, con campagne di disinformazione mirate a influenzare l'opinione pubblica internazionale e nazionale.",
+  "fonti": [
+    "RUS_mpo_am22.pdf",
+    "RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+    "RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf",
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:RUS_2022"
+  ]
+}

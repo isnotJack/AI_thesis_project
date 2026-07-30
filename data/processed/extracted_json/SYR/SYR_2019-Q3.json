@@ -1,0 +1,29 @@
+{
+  "paese": "SYR",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2019, la Siria continuava a essere coinvolta in un conflitto armato di larga portata. L'attivismo delle forze governative e dei gruppi ribelli continuava a determinare situazioni di instabilità in diverse regioni del paese, con particolare riferimento a Idlib e altre zone del Nord. L'escalation delle ostilità ha portato a un aumento dei dislocamenti interni e alla necessità di assistenza umanitaria per i civili colpiti. L'assistenza umanitaria si è concentrata su aree come la protezione civile, la prevenzione della violenza di genere, l'assistenza psicologica e la protezione dei minori, evidenziando la crescente pressione sui servizi umanitari a causa delle continue sfide legate al conflitto."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel terzo trimestre del 2019, la Siria ha continuato a essere un punto focale per i movimenti di popolazione a causa del conflitto in corso. I dislocamenti interni sono stati significativi, con un aumento di persone che cercavano rifugio in aree più sicure, come Idlib e altre zone del Nord. L'assistenza umanitaria ha focalizzato l'attenzione sui bisogni dei dislocati, inclusi i servizi di protezione civile, la prevenzione della violenza di genere e la protezione dei minori. La situazione ha richiesto un coordinamento intensivo tra organizzazioni umanitarie per garantire l'accesso ai servizi essenziali ai civili colpiti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, la Siria continuava ad essere dominata dalla presidenza di Bashar al-Assad, con Najah al-Attar come Vice Presidente e Imad Khamis come Primo Ministro. Il paese era ancora profondamente coinvolto nella guerra civile, con continue ostilità che influenzavano significativamente la situazione umanitaria e le dinamiche politiche. L'escalation delle azioni militari ha portato a un aumento dei dislocamenti interni e alla necessità di un'assistenza umanitaria più intensa, soprattutto nelle regioni del Nord, come Idlib. Le organizzazioni umanitarie hanno continuato a svolgere un ruolo cruciale nel fornire protezione civile, assistenza psicologica e servizi di protezione ai minori, evidenziando la crescente pressione sulle risorse umanitarie a causa delle continue sfide legate al conflitto.",
+  "fonti": [
+    "SYR_2019Q3_2019-09-25_syria-protection-cluster-turkey-response-snapshot-as-of-30-s.pdf",
+    "wikipedia:SYR_2019"
+  ]
+}

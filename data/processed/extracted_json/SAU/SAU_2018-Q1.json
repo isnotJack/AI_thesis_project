@@ -1,0 +1,31 @@
+{
+  "paese": "SAU",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Muddy Water"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, l'Arabia Saudita ha introdotto per la prima volta un'imposta sul valore aggiunto (VAT) con esenzioni per necessità di base, servizi medici, culturali, educativi e finanziari. Nel mese di gennaio, le donne sono state ammesse per la prima volta a partecipare a un incontro di calcio a causa della rilassamento delle regole di separazione di genere. Verso la fine di gennaio, alcuni uomini sono stati arrestati dopo che un video presuntamente mostrava un matrimonio gay è circolato online. Il giornalista Salah al-Shehi è stato arrestato e successivamente condannato a cinque anni di prigione per aver accusato corruzione alla corte reale. Nel mese di febbraio, l'Arabia Saudita si è presentata davanti al Comitato delle Nazioni Unite per l'eliminazione della discriminazione contro le donne per difendere il suo record, con il comitato che ha chiesto riforme, inclusa l'abolizione della tutela maschile e l'adozione di un codice familiare unificato. Nel mese di marzo, i Houthis hanno lanciato una raffica di razzi contro l'Arabia Saudita, uccidendo un uomo egiziano e ferendo altri due a Riyadh.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "wikipedia:SAU_2018"
+  ]
+}

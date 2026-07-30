@@ -1,0 +1,31 @@
+{
+  "paese": "IRN",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Contributi finanziari per i rifugiati e le popolazioni di preoccupazione, con un focus sulle esigenze di finanziamento per l'Iran. L'UNHCR ha ricevuto contributi da diversi donatori, inclusi l'Unione Europea, il Giappone, la Germania, la Danimarca, la Corea del Sud, Qatar Airways, la Norvegia, la Russia e altri. I contributi sono diversificati tra fondi imprecisi, parzialmente imprecisi e specificamente destinati. L'indicatore di finanziamento mostra un gap significativo tra le esigenze finanziarie e le risorse disponibili."
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Iran continua a subire pressioni significative a causa delle sanzioni internazionali, della volatilità dei prezzi del petrolio e dell'impatto della pandemia di COVID-19. Le prospettive di crescita sono compromesse da fattori come la contrazione del PIL, la deprezzazione della valuta, l'aumento dell'inflazione e la riduzione delle riserve di valuta straniera. L'incertezza economica è accentuata da fattori interni ed esterni, inclusi i rischi fiscali e le tensioni esterne."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2020, l'Iran ha continuato a fare fronte a sfide significative legate alla pandemia di COVID-19, con un aumento dei casi positivi che ha portato il paese a superare il milione di infezioni. L'ambiente politico e economico è stato influenzato da continue sanzioni internazionali, che hanno contribuito a una situazione economica precaria. L'incertezza continua a influenzare le prospettive economiche e sociali del paese.",
+  "fonti": [
+    "IRN_2020Q4_2020-12-30_unhcr-iran-2020-funding-update-as-of-30-december-2020.pdf",
+    "IRN_mpo_am20.pdf",
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:IRN_2020"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "paese": "VEN",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione dei rifugiati venezuelani è critica, con crescenti flussi di migranti verso paesi vicini. L'UNHCR ha evidenziato la necessità di fondi per gestire la situazione, indicando un significativo gap finanziario. La situazione richiede attenzione per garantire la protezione e l'assistenza ai rifugiati."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2018, il Venezuela ha continuato a sperimentare una situazione politica e economica complessa. L'elezione del presidente Nicolás Maduro per un nuovo mandato ha suscitato tensioni internazionali. L'inflazione è stata estremamente alta, con previsioni di un aumento significativo entro la fine dell'anno. Eventi come l'attentato con droni armati contro il presidente Maduro hanno evidenziato la precaria situazione di sicurezza interna. La crisi economica ha avuto un impatto profondo sulla popolazione, con conseguenti flussi di migrazione verso paesi vicini.",
+  "fonti": [
+    "VEN_2018Q4_2018-12-11_unhcr-venezuela-situation-funding-update-2018-as-of-11-decem.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "wikipedia:VEN_2018"
+  ]
+}

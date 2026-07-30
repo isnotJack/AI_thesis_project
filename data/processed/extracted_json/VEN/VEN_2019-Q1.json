@@ -1,0 +1,30 @@
+{
+  "paese": "VEN",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, la crisi politica e socioeconomica in Venezuela si è intensificata, portando al collasso dei servizi, alla degradazione delle condizioni umanitarie e a una delle più grandi migrazioni di massa nella storia del Sud America. La situazione è caratterizzata da un'erosione delle istituzioni democratiche e da un crescente dissenso civile. Nel gennaio 2019, Juan Guaidó si è autoproclamato presidente, riconosciuto da molti paesi occidentali e latinoamericani, mentre Nicolás Maduro ha rifiutato di dimettersi e ha rotto i rapporti diplomatici con gli Stati Uniti. Le proteste anti-governo hanno portato a scontri violenti con le forze di sicurezza, con almeno 26 morti e 364 arresti. Nel marzo 2019, il paese ha subito il più grande black out nella sua storia, che ha colpito tutti gli stati e ha lasciato Caracas senza energia per tre giorni e gran parte del paese per una settimana. La crisi ha portato a un aumento delle tensioni internazionali e a un'escalation delle proteste armate."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La crisi in Venezuela ha portato a un aumento significativo dei rifugiati e migranti, con un numero che supera i 4 milioni, rendendo questa una delle più grandi crisi di sfollamento globali. La situazione di protezione dei migranti è critica, con ostacoli operativi alla distribuzione di aiuti umanitari, come il blocco dei carri armati di aiuto lungo i confini con Colombia e Brasile. La migrazione continua a crescere, con un flusso costante di venezuelani che lasciano il paese in cerca di opportunità economiche e di una vita migliore nei paesi vicini."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, la crisi politica in Venezuela si è intensificata con la proclamazione di Juan Guaidó come presidente, riconosciuto da molti paesi occidentali e latinoamericani, mentre Nicolás Maduro ha mantenuto il potere con il sostegno delle forze armate. La situazione è stata segnata da proteste anti-governo, scontri violenti con le forze di sicurezza, un black out nazionale di grande portata e un aumento significativo della migrazione verso paesi vicini. La leadership politica è stata caratterizzata da una doppia presidenza con Maduro e Guaidó, ciascuno rivendicando la legittimità. La crisi ha avuto un impatto profondo sulle condizioni socioeconomiche e umanitarie del paese, con conseguenze significative per la popolazione venezuelana.",
+  "fonti": [
+    "VEN_2019-03-28_20190328_acaps_briefing_note_venezuela_update_and_2019_outlook_.pdf",
+    "VEN_2019Q1_2019-03-06_unhcr-venezuela-situation-funding-update-2019-as-of-6-march-.pdf",
+    "wikipedia:VEN_2019"
+  ]
+}

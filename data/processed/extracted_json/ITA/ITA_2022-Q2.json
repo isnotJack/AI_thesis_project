@@ -1,0 +1,37 @@
+{
+  "paese": "ITA",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "L'Italia ha risposto all'invasione russa dell'Ucraina come membro della NATO, autorizzando l'invio di armi all'Ucraina. Il governo italiano ha anche chiuso lo spazio aereo italiano ai voli russi. L'Italia ha iniziato ad accogliere rifugiati ucraini, con i primi arrivi registrati a Trieste, Milano, Roma e Napoli. Il governo italiano ha inviato armi e attrezzature all'Ucraina, mentre i soldati italiani sono stati posizionati in Romania insieme a altre forze NATO."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Italia ha visto un aumento significativo degli arrivi di migranti via mare, con un aumento del 33% rispetto allo stesso periodo dell'anno precedente. I principali paesi di origine dei migranti includono Bangladesh, Tunisia, Egitto, Costa d'Avorio, Siria, Afghanistan, Libia e altri. L'Italia ha continuato ad accogliere rifugiati ucraini, con i primi arrivi registrati a Trieste, Milano, Roma e Napoli."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco DDoS al Port of London Authority, che ha portato al suo sito web offline per 24 ore. L'attacco è stato attribuito al gruppo Pro-Iran Altareh."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Pro-Iran Altareh"
+    ],
+    "settori_bersaglio": [
+      "Porti"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, l'Italia ha risposto all'invasione russa dell'Ucraina come membro della NATO, autorizzando l'invio di armi all'Ucraina e chiudendo lo spazio aereo italiano ai voli russi. L'Italia ha iniziato ad accogliere rifugiati ucraini, con i primi arrivi registrati a Trieste, Milano, Roma e Napoli. Il governo italiano ha inviato armi e attrezzature all'Ucraina, mentre i soldati italiani sono stati posizionati in Romania insieme a altre forze NATO. L'Italia ha anche visto un aumento significativo degli arrivi di migranti via mare, con un aumento del 33% rispetto allo stesso periodo dell'anno precedente. I principali paesi di origine dei migranti includono Bangladesh, Tunisia, Egitto, Costa d'Avorio, Siria, Afghanistan, Libia e altri. L'Italia ha continuato ad accogliere rifugiati ucraini, con i primi arrivi registrati a Trieste, Milano, Roma e Napoli. Inoltre, l'Italia ha subito un attacco DDoS al Port of London Authority, che ha portato al suo sito web offline per 24 ore. L'attacco è stato attribuito al gruppo Pro-Iran Altareh.",
+  "fonti": [
+    "ITA_2022Q2_2022-06-27_unhcr-italy-weekly-snapshot-20-jun-26-jun-2022.pdf",
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:ITA_2022"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "paese": "YEM",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2024, Yemen è stato teatro di intensi scontri armati, principalmente tra le forze del governo di Aden e i ribelli Houthis. Gli attacchi hanno coinvolto varie regioni, con esplosioni e attacchi aeree da parte di forze internazionali contro obiettivi Houthi. I combattimenti hanno causato danni significativi alle infrastrutture civili e hanno aumentato la precarietà delle condizioni umanitarie. Gli attacchi Houthi contro le navi nel Mar Rosso hanno provocato risposte militari da parte degli Stati Uniti e del Regno Unito, con l'uso di armi pesanti contro obiettivi Houthi. La situazione è stata ulteriormente complicata da attacchi di gruppi terroristici come Al-Qaeda in Penisola Arabica, che hanno colpito forze locali e civili. Le tensioni regionali sono state alimentate anche da attacchi contro Israele, con risposte militari da parte di Israele contro obiettivi Houthi in Yemen."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria in Yemen continua a essere critica, con un numero significativo di interni dislocati a causa dei combattimenti e delle condizioni umanitarie precarie. Gli IDP (Internally Displaced Persons) sono concentrati in diverse regioni, con un notevole numero di famiglie che vivono in campi di accoglienza. Le condizioni di protezione per gli IDP sono problematiche, con limitate risorse disponibili per garantire la loro sicurezza e benessere. La mancanza di accesso ai servizi fondamentali, come l'assistenza sanitaria e l'istruzione, aumenta la vulnerabilità di queste comunità. La presenza di gruppi armati e le continue minacce di violenza rendono difficile la gestione umanitaria e la protezione dei civili."
+  },
+  "economia": {
+    "sintesi": "L'economia yemenita continua a essere gravemente compromessa a causa del conflitto e delle tensioni regionali. Le prospettive di crescita sono compromesse da fattori come la deprezzazione della valuta locale, la scarsità di risorse finanziarie e la mancanza di investimenti esterni. Le pressioni fiscali e monetarie sono cresciute, con un aumento dei tassi di inflazione e una contrazione del PIL. La situazione finanziaria è ulteriormente complicata dalla mancanza di accesso alle riserve di valuta estera e dalla riduzione delle entrate governative. Le prospettive di ripresa economica sono limitate, con rischi significativi legati alla continua instabilità politica e militare."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, Yemen continua a essere afflitto da un conflitto armato persistente che coinvolge le forze del governo di Aden, i ribelli Houthis e altri attori armati. Le tensioni regionali sono cresciute a causa di attacchi contro le navi nel Mar Rosso e risposte militari da parte di paesi occidentali. Gli attacchi Houthi contro Israele hanno portato a ulteriori scambi di fuoco, complicando ulteriormente la situazione. La leadership politica rimane divisa, con il governo di Aden e il Consiglio Politico Supremo di Sanaa che continuano a operare separatamente. Le condizioni umanitarie sono precarie, con un numero significativo di civili a rischio di carestia e migrazione forzata. Le piogge torrenziali hanno causato inondazioni che hanno aggravato le condizioni di vita delle popolazioni locali, aumentando la vulnerabilità a malattie come il colera. Gli attacchi di gruppi terroristici come Al-Qaeda in Penisola Arabica hanno ulteriormente complicato la situazione, con attacchi contro forze locali e civili. La mancanza di infrastrutture funzionanti e la scarsità di servizi fondamentali continuano a essere un problema significativo.",
+  "fonti": [
+    "YEM_2024-05-28_20240528_ACAPS_briefing_note_Global_resurgence_of_cholera_aggravated_by_vaccine_shortage_and_El_Nino.pdf",
+    "YEM_2024-06-05_20240605_ACAPS_Yemen_joint_monitoring_report_issue_3.pdf",
+    "YEM_2024-06-14_20240614_ACAPS_Thematic_report_Yemen_Coping_strategies_from_Khanfar.pdf",
+    "YEM_2024Q2_2024-06-30_sa-ada-field-office-site-profile-june-2024.pdf",
+    "YEM_mpo_sm24.pdf",
+    "wikipedia:YEM_2024"
+  ]
+}

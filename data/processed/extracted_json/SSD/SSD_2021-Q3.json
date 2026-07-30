@@ -1,0 +1,32 @@
+{
+  "paese": "SSD",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan è stato caratterizzato da un'attività conflittuale significativa, con scontri tra fazioni rivali all'interno del movimento di opposizione SPLA-IO. Questi scontri hanno causato dislocazioni di popolazione e hanno interferito con le attività di raccolto e di assistenza umanitaria. La violenza è stata segnalata in diverse regioni, incluse l'area di Pibor, Jonglei, Warrap, Unity e le zone settentrionali del paese. Le tensioni tra le fazioni armate hanno continuato a minare la stabilità, con episodi di violenza che hanno coinvolto anche le forze di sicurezza e le comunità civili. L'insorgenza di conflitti tra gruppi armati ha creato un ambiente instabile, interferendo con le operazioni umanitarie e le attività di raccolto, aumentando la precarietà delle condizioni di sicurezza e di vita per le popolazioni locali."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è stata aggravata da conflitti e inondazioni, che hanno portato a migliaia di dislocazioni di popolazione e a una riduzione delle attività di raccolto. Le inondazioni hanno causato perdite significative di raccolto, mentre i conflitti hanno interferito con le attività agricole e il commercio. La situazione di carestia è stata ulteriormente complicata dalla mancanza di accesso alle aree remote, dove le popolazioni sono state isolate dai servizi umanitari. L'assistenza alimentare è stata critica per mitigare la carestia, ma le risorse disponibili sono state insufficienti per coprire le esigenze di un numero crescente di persone in difficoltà. La carestia è stata particolarmente acuta in aree come Pibor, Akobo, Tonj North, Tonj South, Warrap, e Northern Bahr el Ghazal, dove le condizioni di sicurezza hanno reso difficile l'accesso umanitario."
+  },
+  "migrazione": {
+    "descrizione": "Le migrazioni nel Sud Sudan sono state influenzate da conflitti e inondazioni, con migliaia di persone costrette a lasciare le loro case. Le autorità hanno registrato un aumento di rifugiati e richiedenti asilo, con un numero significativo di persone che hanno trovato rifugio in campi gestiti dall'UNHCR. Le sfide principali includono la protezione dei rifugiati, soprattutto donne e bambini, e l'accesso alle aree remote dove le popolazioni sono state isolate. I nuovi corridoi di migrazione sono emersi a causa delle condizioni di sicurezza, mentre gli ostacoli operativi hanno impedito un accesso completo alle aree più remote, dove le popolazioni sono state isolate dai servizi umanitari."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan è stata caratterizzata da una contrazione, con prospettive di crescita che si sono deteriorate a causa di shock concomitanti, inclusi conflitti, inondazioni e la pandemia di COVID-19. Le prospettive di crescita economica sono state compromesse da una combinazione di fattori, tra cui la riduzione della produzione di petrolio, la mancanza di riforme strutturali e la persistente instabilità politica. Il debito pubblico è stato un problema significativo, con le prospettive di riforme fiscali e monetarie che hanno incontrato ostacoli. L'economia ha mostrato segni di ripresa iniziale, ma rimane vulnerabile a ulteriori shock, con rischi fiscali e esterni che continuano a preoccupare."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a lottare con la persistente instabilità politica e la violenza interna. La leadership del paese, con il presidente Salva Kiir Mayardit e il vicepresidente Riek Machar, ha fatto dichiarazioni di pace, ma le tensioni tra le fazioni armate hanno continuato a minare la stabilità. L'anno ha visto anche l'approvazione di una risoluzione del Consiglio di Sicurezza delle Nazioni Unite che ha esteso l'embargo sulle armi fino al maggio 2022, a causa dell'aumento della violenza e delle violazioni dei diritti umani. L'economia del paese ha iniziato a riprendersi con il ripristino della produzione di petrolio, ma rimane vulnerabile a ulteriori shock. L'anno ha anche visto l'arrivo di vaccini COVID-19 e l'inizio di un'indagine della WHO su un'epidemia di malattia sconosciuta che ha causato decine di morti.",
+  "fonti": [
+    "fews_net (SSD_2021-september_key-message-update.pdf)",
+    "fews_net (SSD_2021-july_key-message-update.pdf)",
+    "unhcr_reports (SSD_2021Q3_2021-09-30_south-sudan-monthly-population-statistics-september-2021.pdf)",
+    "worldbank_mpo (SSD_mpo_sm21.pdf)",
+    "wikipedia:SSD_2021"
+  ]
+}

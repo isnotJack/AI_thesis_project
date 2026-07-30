@@ -1,0 +1,58 @@
+{
+  "paese": "IRN",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'UNHCR facilita il ritorno volontario di rifugiati afghani che desiderano tornare al loro paese d'origine, una volta stabilito che il loro ritorno è volontario, sicuro, dignitoso e duraturo. Dal 2002, l'UNHCR Iran ha supportato quasi un milione di rifugiati nel loro ritorno in Afghanistan. Tuttavia, poiché la situazione in Afghanistan rimane fragile, solo un piccolo numero di rifugiati afghani in Iran hanno mostrato la volontà e la capacità di tornare al loro paese d'origine. Finché rimangono in Iran, l'UNHCR supporta il governo ospitante nel fornire agli afghani opportunità di salute, educazione e sussistenza. Gli individui che sono in buona salute, istruiti e hanno competenze commerciali sono tipicamente più propensi a ritornare in sicurezza al loro paese d'origine e a sentirsi in grado di ricostruire le loro vite. Tuttavia, una soluzione politica a lungo termine per la crisi in Afghanistan è l'unico modo per garantire un ritorno volontario, sostenibile e volontario dei rifugiati."
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Iran sta lentamente emergendo da una stagnazione decennale causata da due periodi di sanzioni economiche, ciclicità dei prezzi del petrolio e la pandemia di COVID-19. Il PIL reale è cresciuto, ma rimane influenzato da fattori come la scarsità di acqua e energia, che hanno portato a carenze nei settori agricolo e industriale. L'economia è stata influenzata da una combinazione di fattori, inclusi la ripresa del settore petrolifero e dei servizi, nonché la crescita delle esportazioni non petrolifere. Tuttavia, le pressioni fiscali e monetarie, nonché la mancanza di efficienza e di equità, continuano a costituire sfide significative. L'economia rimane vincolata da inefficienze generalizzate e da una dipendenza crescente dal settore petrolifero."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Iranian threat actors compromised a Federal Civilian Executive Branch (FCEB) organization's network, exploiting the Log4Shell vulnerability in VMware Horizon servers. The actors installed XMRig cryptocurrency mining software and used Ngrok reverse proxies for persistence.",
+      "Iranian threat actors conducted cyber espionage and other malicious cyber operations targeting a range of organizations across sectors, including government, telecommunications, defense, local government, and oil and natural gas sectors in Asia, Africa, Europe, and North America."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian Government-Sponsored-Sponsored APT Actors Conduct Cyber Operations Against Global Government and Commercial Networks",
+      "Iranian Government-Sponsored-Sponsored APT Actors Compromise Federal Network, Deploy Crypto Miner, Credential Harvester"
+    ],
+    "gruppi_minaccia_associati": [
+      "MuddyWater",
+      "APT34 (OilRig)",
+      "APT35 (Charming Kitten)",
+      "APT41 (Tortoiseshell)",
+      "APT427 (OilRig)",
+      "APT428 (Charming Kitten)",
+      "APT452 (OilRig)",
+      "APT453 (Charming Kitten)",
+      "APT456 (Imperial Kitten)",
+      "APT465 (Tortoiseshell)"
+    ],
+    "settori_bersaglio": [
+      "Government",
+      "Telecommunications",
+      "Defense",
+      "Local Government",
+      "Oil and Natural Gas",
+      "Critical Infrastructure"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, la situazione in Iran rimane complessa e sfidante, con il paese che continua a defraudare le norme internazionali e a supportare i militanti all'estero. Nel 2018, l'amministrazione Trump si ritirò dall'accordo nucleare del 2015 con l'Iran e impose sanzioni come parte della campagna di 'pressione massima'. Nel 2020, l'Iran riprogettò la sua strategia dopo la morte di un alto comandante iraniano. Nel 2021, l'amministrazione Biden tentò di riavviare l'accordo nucleare, ma le trattative rimasero bloccate a autunno 2022. Le proteste iniziati nel 2021-2022, che iniziarono come proteste per abusi dei diritti umani e la morte di Mahsa Amini, si sono evolute in chiamate alla fine della Repubblica Islamica. L'US Institute of Peace continua a informare i politici sulle questioni iraniane e a fornire un forum per la diplomazia virtuale.",
+  "fonti": [
+    "unhcr_reports (IRN_2022Q2_2022-06-14_iran-voluntary-repatriation-since-january-2022-may-2022.pdf)",
+    "worldbank_mpo (IRN_mpo_sm22.pdf)",
+    "cisa (IRN_AA22-055A_Iranian_Government-Sponsored_Actors_Conduct_Cyber_Operations.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "cisa (IRN_aa22-320a_joint_csa_iranian_government-sponsored_apt_actors_compromise_federal network_deploy_crypto miner_credential_harvester.pdf)",
+    "wikipedia:IRN_2022"
+  ]
+}

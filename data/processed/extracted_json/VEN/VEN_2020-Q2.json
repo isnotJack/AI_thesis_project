@@ -1,0 +1,30 @@
+{
+  "paese": "VEN",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2020, il Venezuela ha continuato a sperimentare tensioni politiche e sociali. La leadership del paese è divisa tra Nicolás Maduro e Juan Guaidó, con Maduro che ha nominato nuovi ministri e Guaidó che ha ottenuto il controllo di alcuni attivi del governo venezuelano negli Stati Uniti. Ci sono stati episodi di violenza, come una rivolta in una prigione che ha causato decine di morti e feriti. Inoltre, ci sono state azioni militari, come l'arresto di desertori e la cattura di presunti spie. L'opposizione ha continuato a chiedere elezioni libere e il governo è stato accusato di violazioni dei diritti umani. L'interferenza estera, inclusa quella degli Stati Uniti, è rimasta un fattore significativo, con minacce di sanzioni e tentativi di rimuovere Maduro. La situazione è stata ulteriormente complicata dalla pandemia di COVID-19, che ha portato a ulteriori tensioni e misure di contenimento."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel secondo trimestre del 2020, la migrazione venezuelana ha continuato a essere un problema significativo. Ci sono stati ritorni di rifugiati e migranti venezuelani nei paesi di transito, come Colombia e Brasile, a causa delle misure di lockdown e delle difficoltà economiche. Questi ritorni hanno posto una pressione significativa sulle autorità di frontiera e hanno aumentato le preoccupazioni riguardo alla gestione delle condizioni di accoglienza e alla protezione dei migranti. La situazione è stata ulteriormente complicata dalla pandemia di COVID-19, che ha reso più difficile il controllo dei movimenti di persone e ha aumentato il rischio di trasmissione del virus."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, il Venezuela ha continuato a lottare con una crisi politica profonda, accentuata dalla pandemia di COVID-19. La leadership del paese è divisa tra Nicolás Maduro e Juan Guaidó, con Maduro che ha nominato nuovi ministri e Guaidó che ha ottenuto il controllo di alcuni attivi del governo venezuelano negli Stati Uniti. Ci sono stati episodi di violenza, come una rivolta in una prigione che ha causato decine di morti e feriti. Inoltre, ci sono state azioni militari, come l'arresto di desertori e la cattura di presunti spie. L'opposizione ha continuato a chiedere elezioni libere e il governo è stato accusato di violazioni dei diritti umani. L'interferenza estera, inclusa quella degli Stati Uniti, è rimasta un fattore significativo, con minacce di sanzioni e tentativi di rimuovere Maduro. La situazione è stata ulteriormente complicata dalla pandemia di COVID-19, che ha portato a ulteriori tensioni e misure di contenimento.",
+  "fonti": [
+    "VEN_2020-05-27_20200527_acaps_risk_report_covid-19_outbreak_in_venezuela_and_the_health_system.pdf",
+    "VEN_2020Q2_2020-04-29_unhcr-latin-america-2020-funding-update-as-of-29-april-2020.pdf",
+    "wikipedia:VEN_2020"
+  ]
+}

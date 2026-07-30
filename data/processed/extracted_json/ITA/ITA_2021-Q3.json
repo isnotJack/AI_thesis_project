@@ -1,0 +1,38 @@
+{
+  "paese": "ITA",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi arrivi di migranti via mare in aumento rispetto allo stesso periodo dell'anno precedente. Tunisia è il paese di origine più comune. Si evidenziano nuovi percorsi di arrivo verso le coste italiane, con un aumento significativo di approdi rispetto ai mesi precedenti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Incidente di SolarWinds (dicembre 2020)",
+      "Vulnerabilità in Akamai DNS (luglio 2021)",
+      "Vulnerabilità in Fastly CDN (giugno 2021)",
+      "Vulnerabilità in Microsoft Exchange Server (marzo 2021)",
+      "Vulnerabilità in Apple WebKit (aprile 2021)",
+      "Vulnerabilità in Google Chrome (luglio 2021)",
+      "Vulnerabilità in Adobe Acrobat e Reader (febbraio 2021)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "L'Italia nel terzo trimestre del 2021 continua a gestire le conseguenze della pandemia di COVID-19, con nuove misure di contenimento e proteste contro le restrizioni. Si registrano anche eventi sportivi di rilievo, come la vittoria dell'Italia nell'UEFA Euro 2020. L'attenzione è rivolta anche a questioni sociali, come le proteste contro la discriminazione e le violenze di genere. L'arrivo di migranti via mare resta un tema importante, con un aumento dei flussi rispetto ai periodi precedenti.",
+  "fonti": [
+    "ITA_2021Q3_2021-09-27_unhcr-italy-weekly-snapshot-20-26-sep-2021.pdf",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "wikipedia:ITA_2021"
+  ]
+}

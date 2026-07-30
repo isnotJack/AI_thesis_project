@@ -1,0 +1,32 @@
+{
+  "paese": "SDN",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Sudan è intensificato, con continue azioni militari tra le forze armate sudanesi (SAF) e le forze di supporto rapido (RSF). Vi sono scontri significativi in diverse regioni, inclusi Darfur, Kordofan e Khartoum. L'uso di armi pesanti e attacchi aerei è frequente, con conseguenti perdite civili. La situazione è aggravata da ostacoli all'accesso umanitario, che impediscono l'assistenza alle popolazioni colpite. Il conflitto ha anche portato a gravi conseguenze umanitarie, compresa la carestia e la migrazione forzata."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia in Sudan è attribuita principalmente al conflitto, che ha distrutto le infrastrutture agricole e limitato l'accesso all'alimentazione. La situazione è peggiorata a causa delle violenze e delle barriere all'assistenza umanitaria, che hanno reso difficile la distribuzione di aiuti alimentari. La carestia è particolarmente grave in alcune regioni, come Darfur, dove si è dichiarato uno stato di carestia."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione forzata è un problema significativo a causa del conflitto. Migliaia di persone sono state costrette a fuggire dalle zone di combattimento, cercando rifugio in campi per sfollati o in paesi vicini. Le condizioni nei campi sono precarie, con rischi per la salute e la sicurezza. La migrazione è anche complicata da ostacoli all'accesso umanitario, che rendono difficile la fornitura di assistenza ai rifugiati e ai sfollati interni."
+  },
+  "economia": {
+    "sintesi": "L'economia di Sudan è gravemente compromessa dal conflitto, con conseguenze negative sul PIL e sulla stabilità finanziaria. La produzione agricola è stata pesantemente colpita, influenzando negativamente la disponibilità di cibo e le condizioni di vita delle popolazioni locali. L'inflazione è alta e la situazione fiscale è critica, con limiti all'accesso ai fondi internazionali a causa delle sanzioni e delle violazioni dei diritti umani."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, il Sudan è stato caratterizzato da un'intensa attività bellica tra le forze armate sudanesi (SAF) e le forze di supporto rapido (RSF). Il conflitto ha causato gravi perdite civili e ha portato a una situazione umanitaria critica, con carestia e migrazione forzata. La leadership del paese è composta da Abdel Fattah al-Burhan come presidente del Consiglio di Sovranità di Transizione e Osman Hussein come primo ministro ad interim. Il paese ha sospeso la sua appartenenza all'Intergovernmental Authority on Development (IGAD) a causa di accuse di favoritismo verso il RSF. Il conflitto ha ricevuto attenzione internazionale, con varie nazioni che hanno offerto aiuti umanitari e chiesto un cessate il fuoco. L'economia è stata pesantemente colpita, con conseguenze negative sul PIL e sulla stabilità finanziaria.",
+  "fonti": [
+    "acaps (SDN_2024-06-20_20240620_ACAPS_Sudan_Analysis_Hub_Anticipated_impacts_of_the_rainy_season.pdf)",
+    "fews_net (SDN_2024-june_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2024Q2_2024-06-30_kordofan-protection-of-civilians-flash-update-west-kordofan-.pdf)",
+    "worldbank_mpo (SDN_mpo_sm24.pdf)",
+    "wikipedia:SDN_2024"
+  ]
+}

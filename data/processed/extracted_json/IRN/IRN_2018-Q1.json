@@ -1,0 +1,43 @@
+{
+  "paese": "IRN",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Proteste continue in gennaio con dieci morti, dimostrazioni pro-governo, e sanzioni USA contro programmi missilistici. Nel mese di gennaio, ci sono state continue proteste con dieci morti, seguite da dimostrazioni pro-governo per quattro giorni consecutivi. Nel mese di febbraio, un incidente aereo di Iran Aseman Airlines ha avuto luogo."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Indictment of officials from the Mabna Institute (2018-03-28, categoria=Espionage): sponsor=Iran (Islamic Republic of), vittime=Australia, Canada, Denmark, Finland, Germany, Ireland, Israel, Italy, Japan, Korea (Republic of), Malaysia, Netherlands, Norway, Poland, Singapore, Spain, Sweden, Switzerland, Turkey, United Kingdom, United States, ruolo=attore",
+      "Iron Tiger (2018-02-01, categoria=Espionage): sponsor=nan, vittime=Australia, Canada, China, India, Iran (Islamic Republic of), Israel, Japan, Korea (Republic of), Russian Federation, Taiwan, Thailand, United States, ruolo=vittima"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Mabna Institute"
+    ],
+    "settori_bersaglio": [
+      "Universities",
+      "Private sector",
+      "Government",
+      "Technology",
+      "Education",
+      "Telecommunications"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, l'Iran ha visto continue proteste in gennaio con dieci morti, seguite da dimostrazioni pro-governo. Nel mese di febbraio, un incidente aereo di Iran Aseman Airlines ha avuto luogo. Nel marzo, il governo degli Stati Uniti ha emesso un'ordinanza contro gli ufficiali dell'Istituto Mabna, accusati di aver condotto operazioni cyber a favore delle Guardie Revolutionarie Iraniane.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/indictment-of-officials-from-the-mabna-institute",
+    "https://www.cfr.org/cyber-operations/iron-tiger",
+    "wikipedia:IRN_2018"
+  ]
+}

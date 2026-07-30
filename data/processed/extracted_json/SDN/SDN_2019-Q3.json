@@ -1,0 +1,33 @@
+{
+  "paese": "SDN",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, Sudan ha continuato a sperimentare instabilità politica e tensioni, con un'atmosfera di incertezza persistente dopo il colpo di Stato del 11 aprile. La situazione è stata complicata da continue dimostrazioni e violenze contro i manifestanti, nonché da un'escalation delle tensioni tra le forze armate e le autorità. La regione di Darfur continua ad essere teatro di conflitti, con conseguenze significative per la popolazione locale."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è stata aggravata da fattori come il clima, con piogge eccessive che hanno causato inondazioni e danneggiato le coltivazioni. L'economia fragile e la deprezzazione della valuta hanno aumentato i prezzi dei generi alimentari, rendendo l'accesso alla nutrizione un problema crescente. La situazione è stata ulteriormente complicata dalla mancanza di infrastrutture e dalla scarsità di risorse, che hanno limitato l'assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e verso i campi rifugio è stata un problema significativo, con rifugiati sud-sudanesi e interni di Sudan che hanno bisogno di protezione e assistenza. La mancanza di accesso ai servizi fondamentali, come l'acqua potabile e l'assistenza sanitaria, ha aumentato la vulnerabilità di questi gruppi. La situazione è stata ulteriormente complicata da inondazioni che hanno danneggiato i campi e reso difficile l'accesso alle aree remote."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, Sudan ha continuato a navigare attraverso una fase di transizione politica incerta, con conseguenze significative sulla stabilità interna. L'atmosfera di incertezza ha portato a tensioni politiche e sociali, con continue dimostrazioni e violenze contro i manifestanti. La regione di Darfur continua ad essere un punto focale di conflitti, con conseguenze significative per la popolazione locale. L'economia fragile e la deprezzazione della valuta hanno aumentato i prezzi dei generi alimentari, rendendo l'accesso alla nutrizione un problema crescente. La situazione è stata ulteriormente complicata da inondazioni che hanno danneggiato le coltivazioni e reso difficile l'accesso alle aree remote.",
+  "fonti": [
+    "SDN_2019-08-22_20190822_acaps_start_briefing_note_floods_sudan_.pdf",
+    "SDN_2019-august_food-security-outlook-update.pdf",
+    "SDN_2019-july_key-message-update.pdf",
+    "SDN_2019-september_key-message-update.pdf",
+    "SDN_2019Q3_2019-09-26_south-sudan-regional-refugee-response-plan-sudan-2019-mid-ye.pdf",
+    "wikipedia:SDN_2019"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "paese": "EST",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2020-Q3, l'Estonia era guidata da Kersti Kaljulaid come Presidente e Jüri Ratas come Primo Ministro. L'anno 2020 fu caratterizzato dalla pandemia di COVID-19, che ebbe un impatto significativo sul paese. Nel mese di marzo, furono segnalati i primi casi di infezione da COVID-19, con individui che avevano viaggiato da zone a rischio, principalmente dall'Italia. La situazione si evolse rapidamente con un aumento dei casi, che portò alla chiusura di scuole e all'implementazione di nuove misure di testaggio. La pandemia continuò a influenzare la vita quotidiana e le politiche del paese per tutto il trimestre.",
+  "fonti": [
+    "wikipedia:EST_2020"
+  ]
+}

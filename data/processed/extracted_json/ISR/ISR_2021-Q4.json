@@ -1,0 +1,34 @@
+{
+  "paese": "ISR",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Pegasus spyware incident"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "NSO Group"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In ottobre, Israele ha introdotto una nuova regola che richiede una dose di booster del vaccino COVID-19 per essere considerato completamente vaccinato per tutti i soggetti di età 12 e oltre nel \"Green Pass\", diventando il primo paese a farlo. Il 4 ottobre, il Primo Ministro Bennett ha rivelato che il Mossad ha rapito un generale iraniano in Siria per scoprire informazioni sulle sorti del pilota scomparso Ron Arad. La polizia a Cipro ha arrestato un sospetto che stava \"pianificando attacchi contro persone israeliane\". Israele ha accusato l'Iran di orchestrare il piano, anche se l'Iran ha negato le accuse. Altre notizie suggeriscono che l'obiettivo del piano era l'imprenditore Teddy Sagi e potrebbe essere collegato a dispute commerciali coinvolgenti Sagi. Il 6 ottobre, durante una visita di stato in Ucraina, il Presidente israeliano Isaac Herzog, il Presidente ucraino Volodymyr Zelenskyy e il Presidente tedesco Frank-Walter Steinmeier hanno partecipato all'inaugurazione di un memoriale per le vittime di Babyn Yar, in occasione del 80º anniversario della strage di 33.000 ebrei in una collina vicino a Kiev nel settembre 1941. Il 7 ottobre, il padiglione israeliano all'Esposizione 2020 di Dubai è stato aperto dal Ministro del Turismo Yoel Razvozov in presenza di dignitari israeliani e emiratini e ospiti. Il 10 ottobre, durante la sua ottava e ultima visita in Israele come Cancelliere della Germania, Angela Merkel ha visitato Yad Vashem, si è incontrata con funzionari del governo e ha ribadito che la Germania preserverà il suo impegno post-Olocausto per la sicurezza di Israele. Il 14 ottobre, Ronen Bar è diventato il nuovo direttore del Shin Bet. Il 18 ottobre, la Ministro degli Affari Esteri svedese Ann Linde ha visitato Israele, mettendo fine a una pausa diplomatica di 7 anni dopo che la Svezia aveva ufficialmente riconosciuto uno stato palestinese nel 2014. Il 19 ottobre, Israele ha segnalato il primo caso del sottovariante Delta \"AY4.2\" in un ragazzo che era tornato da Moldavia. Il 20 ottobre, gli Emirati Arabi Uniti e Israele hanno annunciato piani per un accordo di esplorazione spaziale congiunto che includerà un secondo lancio della navicella israeliana Beresheet nel 2024. Il 22 ottobre, il Primo Ministro Naftali Bennett e il Presidente russo Vladimir Putin hanno tenuto il loro primo incontro ufficiale a Sochi, Russia, per discutere delle relazioni commerciali bilaterali, della coordinazione riguardo alla presenza russa in Siria e delle minacce regionali e nucleari poste dall'Iran. Il Ministro della Difesa Benny Gantz ha designato sei ONG palestinesi come organizzazioni terroristiche, in base al fatto che agiscono a favore del Fronte Popolare per la Liberazione della Palestina. Il Ministero della Difesa israeliano ha designato sei gruppi palestinesi, inclusi l'organizzazione dei diritti umani Al-Haq e l'organizzazione non-profit Union of Agricultural Work Committees, come \"organizzazioni terroristiche\" per le loro presunte connessioni con il Fronte Popolare per la Liberazione della Palestina. L'Autorità Nazionale Palestinese, l'Ufficio del Alto Commissario delle Nazioni Unite per i Diritti Umani e diverse organizzazioni per i diritti umani hanno criticato duramente le designazioni.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:ISR_2021"
+  ]
+}

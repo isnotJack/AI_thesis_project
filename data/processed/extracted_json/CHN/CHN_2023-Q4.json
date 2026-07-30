@@ -1,0 +1,53 @@
+{
+  "paese": "CHN",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita economica è moderato, con rischi fiscali e esterni segnalati. Si prevede una crescita economica contenuta, con attenzione ai trend negativi nel settore immobiliare e alla debilitazione della domanda interna. Le politiche monetarie e fiscali sono state leggermente allentate per supportare la ripresa, ma la crescita rimane limitata."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Microsoft - Quarterly Adversarial Threat Report - Q4 2022",
+      "Microsoft - Quarterly Adversarial Threat Report - Q1 2023",
+      "Microsoft - Quarterly Adversarial Threat Report - Q2 2023",
+      "Microsoft - Quarterly Adversarial Threat Report - Q3 2023",
+      "Microsoft - Quarterly Adversarial Threat Report - Q4 2023",
+      "Microsoft - Quarterly Adversarial Threat Report - Q1 2024",
+      "Microsoft - Quarterly Adversarial Threat Report - Q2 2024",
+      "Microsoft - Quarterly Adversarial Threat Report - Q3 2024",
+      "Microsoft - Quarterly Adversarial Threat Report - Q4 2024"
+    ],
+    "gruppi_minaccia_associati": [
+      "Raspberry Typhoon",
+      "Flax Typhoon"
+    ],
+    "settori_bersaglio": [
+      "tecnologia",
+      "finanza",
+      "banche",
+      "assicurazioni",
+      "istruzione",
+      "comunicazioni",
+      "infrastrutture critiche",
+      "militari"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2023, la Cina ha continuato a essere guidata da Xi Jinping, che ricopre il ruolo di Segretario Generale del Partito Comunista Cinese e Presidente della Repubblica. Nel corso del trimestre, si sono verificati diversi eventi significativi, tra cui incidenti stradali, crolli di edifici e alluvioni causate da eventi meteorologici estremi. L'attenzione è stata rivolta anche a questioni geopolitiche, come la visita del Presidente siriano Bashar al-Assad e la partecipazione di Viktor Orbán, Primo Ministro dell'Ungheria, al Forum dell'Iniziativa della Nuova Seta. Inoltre, si è assistito a un aumento delle attività di intelligence e propaganda da parte di gruppi affiliati alla Cina, con l'uso di tecnologie avanzate come l'intelligenza artificiale per generare contenuti visivi e audio.",
+  "fonti": [
+    "CHN_mpo_am23.pdf",
+    "ENISA_Threat_Landscape_2023.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "wikipedia:CHN_2023"
+  ]
+}

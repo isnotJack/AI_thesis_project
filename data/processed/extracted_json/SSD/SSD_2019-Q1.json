@@ -1,0 +1,32 @@
+{
+  "paese": "SSD",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, il Sud Sudan ha continuato a sperimentare conflitti interni, con episodi di violenza tra forze governative e ribelli, nonché tra gruppi etnici. I principali attori includono le forze governative, le fazioni ribelli come il SPLA-IO e altre milizie locali. I conflitti hanno coinvolto diverse regioni, tra cui Wau, Yei River, e Greater Upper Nile. Nel gennaio 2019, è stato raggiunto un cessate il fuoco tra le forze governative e il SPLA-IO nella regione di Wau, segnando un tentativo di ridurre la violenza. Tuttavia, episodi di violenza continuano a emergere, con attacchi reciproci tra le forze governative e le milizie locali, nonché tra gruppi etnici. La situazione è stata influenzata da dinamiche politiche, con negoziati in corso per la formazione di un governo di unità nazionale, che tuttavia non hanno portato a un accordo definitivo. La violenza ha portato a spostamenti di popolazione e a una crescente instabilità in alcune regioni."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia nel Sud Sudan è stata influenzata da diversi fattori, tra cui il conflitto, la scarsità di raccolto, e la degradazione delle condizioni economiche. Il conflitto ha limitato l'accesso alle risorse e ha ostacolato le attività agricole, riducendo la disponibilità di cibo. La scarsità di raccolto è stata attribuita a fattori climatici e alla mancanza di risorse per la coltivazione. L'economia debole ha aumentato i prezzi dei generi alimentari, rendendo difficile l'accesso ai beni di base per molte famiglie. L'assistenza umanitaria ha giocato un ruolo cruciale nel mitigare le conseguenze della carestia, ma la copertura è stata insufficiente per soddisfare le crescenti esigenze. La situazione è stata particolarmente critica in alcune regioni, come Greater Upper Nile, Unity, e Western Bahr el Ghazal, dove le condizioni di carestia sono state classificate come Fase 5 (Carestia)."
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2019, la migrazione interna e transfrontaliera nel Sud Sudan è stata influenzata principalmente dal conflitto e dalle condizioni di carestia. I principali flussi di migrazione sono stati verso le aree urbane e i campi per sfollati, dove le persone cercavano protezione e assistenza umanitaria. Alcuni sfollati hanno trovato rifugio nei campi gestiti dalle Nazioni Unite, mentre altri hanno cercato di spostarsi verso paesi vicini come l'Etiopia e la Repubblica Democratica del Congo. I corridoi di migrazione sono stati ostacolati da conflitti locali e da limitazioni di accesso, rendendo difficile la distribuzione di assistenza umanitaria. La protezione dei migranti è stata un problema significativo, con episodi di violenza e abusi nei confronti di sfollati e rifugiati. La situazione ha richiesto un coordinamento maggiore tra le organizzazioni umanitarie per garantire la sicurezza e l'assistenza ai migranti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, il Sud Sudan ha continuato a lottare con la crisi politica e umanitaria che ha caratterizzato il paese negli anni precedenti. La leadership del paese era costituita da Salva Kiir Mayardit come Presidente e James Wani Igga come Vice Presidente. Il paese ha continuato a essere coinvolto in conflitti interni, con negoziati in corso per la formazione di un governo di unità nazionale. Tuttavia, questi negoziati hanno incontrato ostacoli, con la formazione del governo di unità nazionale posticipata. La situazione umanitaria è stata critica, con crescenti livelli di carestia e migrazione interna e transfrontaliera. L'economia del paese ha continuato a soffrire, con problemi legati alla mancanza di risorse e alla scarsità di raccolto. La leadership ha cercato di gestire la crisi attraverso negoziati e accordi, ma la situazione rimaneva instabile a causa della persistente violenza e delle difficoltà economiche.",
+  "fonti": [
+    "fews_net (SSD_2019-march_key-message-update.pdf)",
+    "fews_net (SSD_2019-february_food-security-outlook.pdf)",
+    "fews_net (SSD_2019-january_key-message-update.pdf)",
+    "unhcr_reports (SSD_2019Q1_2019-03-31_south-sudan-camp-coordination-and-camp-management-cluster-qu.pdf)",
+    "wikipedia:SSD_2019"
+  ]
+}

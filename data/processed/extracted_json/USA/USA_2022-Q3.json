@@ -1,0 +1,30 @@
+{
+  "paese": "USA",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Nessun conflitto specifico rilevato nei documenti forniti per il trimestre 2022-Q3."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2022-Q3, gli Stati Uniti hanno continuato a essere caratterizzati da una cultura politica polarizzata, con l'aborto che è diventato un tema di particolare attenzione dopo la decisione della Corte Suprema di rovesciare la sentenza Roe v. Wade con la causa Dobbs v. Jackson Women's Health Organization. Ci sono stati anche sviluppi significativi in ambito tecnologico, con l'acquisizione di Twitter da parte di Elon Musk e la continua attenzione verso le questioni legate all'intelligenza artificiale e alla privacy. L'economia è stata influenzata dalla guerra in Ucraina, con conseguenze sulle forniture energetiche e sui prezzi. Nel campo della sicurezza, ci sono state indagini e sviluppi legati a eventi passati, come l'attacco al Capitolo del 6 gennaio 2021. L'attenzione è stata anche rivolta a questioni legate alla salute pubblica, con la fine dichiarata della pandemia di COVID-19 e la conseguente riduzione delle restrizioni.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:USA_2022"
+  ]
+}

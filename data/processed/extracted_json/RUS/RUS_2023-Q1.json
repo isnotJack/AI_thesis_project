@@ -1,0 +1,45 @@
+{
+  "paese": "RUS",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto principale nel trimestre è il conflitto Russo-Ucraino, che continua con intensità. Vi sono sviluppi significativi, inclusi l'annuncio della sospensione della partecipazione del trattato New START da parte della Russia, la sentenza di un studente di matematica per aver postato su Telegram informazioni su attacchi russi contro infrastrutture ucraine, e l'annuncio della Russia di stanziare armi nucleari tattiche in Bielorussia. L'attivismo e le proteste contro il conflitto continuano a essere repressi, con arresti e condanne di attivisti e giornalisti. L'attacco al caffè Street Food Bar №1 a San Pietroburgo, che ha causato la morte di un blogger militare russo, è un esempio di violenza legata al conflitto. L'annuncio di Putin di considerare la ritirata dal Black Sea Grain Deal è un ulteriore sviluppo significativo. L'attacco al gasdotto di Crimea e l'arresto di un giornalista per diffondere informazioni false sulle forze armate russe sono altri eventi rilevanti. L'annuncio di Putin di ritirare la ratifica del Trattato di Proibizione Globale dei Test Nucleari è un ulteriore sviluppo nel contesto del conflitto."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra un certo rafforzamento, con un aumento delle riserve di valuta e un aumento delle entrate da trasferimenti finanziari dall'estero. L'economia si aspetta di crescere del 7% nel 2022, con un rallentamento previsto per il 2023. Le riserve di valuta sono aumentate a 3,5 miliardi di dollari, mentre le entrate da trasferimenti finanziari sono aumentate del 4,5 volte nel primo trimestre del 2022. L'inflazione è aumentata nel 2022, ma si aspetta di diminuire nel 2023. Le riserve di valuta sono aumentate a 3,5 miliardi di dollari, mentre le entrate da trasferimenti finanziari sono aumentate del 4,5 volte nel primo trimestre del 2022. L'inflazione è aumentata nel 2022, ma si aspetta di diminuire nel 2023."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Exploit di Jetbrains TeamCity CVE-2023-42793 da parte del Servizio di Informazione Estero della Russia (SVR)",
+      "Attività di intelligence elettronica da parte del Servizio di Informazione Estero della Russia (SVR)"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Joint Cybersecurity Advisory: Hunting Russian Intelligence 'Snake' Malware",
+      "Joint Cybersecurity Advisory: Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally"
+    ],
+    "gruppi_minaccia_associati": [
+      "Servizio di Informazione Estero della Russia (SVR)",
+      "Gruppi affiliati al Servizio di Informazione Estero della Russia (SVR)"
+    ],
+    "settori_bersaglio": [
+      "Software di sviluppo (JetBrains TeamCity)",
+      "Servizi di intelligence elettronica"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, la leadership russa è rimasta stabile con Vladimir Putin come Presidente e Mikhail Mishustin come Primo Ministro. Il paese ha continuato a essere coinvolto in conflitti internazionali, inclusi il conflitto Russo-Ucraino e le relazioni tese con l'Armenia. L'annuncio della sospensione della partecipazione del trattato New START e l'annuncio di Putin di considerare la ritirata dal Black Sea Grain Deal sono stati sviluppi significativi. L'attivismo e le proteste contro il conflitto continuano a essere repressi, con arresti e condanne di attivisti e giornalisti. L'attacco al caffè Street Food Bar №1 a San Pietroburgo, che ha causato la morte di un blogger militare russo, è un esempio di violenza legata al conflitto. L'annuncio di Putin di ritirare la ratifica del Trattato di Proibizione Globale dei Test Nucleari è un ulteriore sviluppo nel contesto del conflitto.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_am22.pdf)",
+    "cisa (RUS_aa23-129a_snake_malware_2.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "cisa (RUS_aa23-347a-russian-foreign-intelligence-service-svr-exploiting-jetbrains-teamcity-cve-globally_0.pdf)",
+    "wikipedia:RUS_2023"
+  ]
+}

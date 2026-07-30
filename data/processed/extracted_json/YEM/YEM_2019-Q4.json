@@ -1,0 +1,34 @@
+{
+  "paese": "YEM",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua a essere intenso, con violenza e attività belliche che si verificano in diverse regioni del paese. Le zone più colpite includono Al Hodeidah, Sa'ada, Al Dali', Ta'izz, Al Hudaydah e Hajjah. Nel sud, le tensioni tra le forze del Consiglio di Transizione del Sud (STC) e le forze governative hanno portato a un aumento delle violenze. Nel nord, le operazioni militari continue hanno causato un numero significativo di vittime civili e hanno aumentato il numero di sfollati. Le violenze contro gli operatori umanitari sono aumentate, soprattutto in zone controllate dai Houthis. Le trattative di pace, come l'Accordo di Riad, hanno avuto un impatto limitato, con continue violazioni da parte di entrambe le parti. Le violenze continue hanno anche aumentato la pressione sui servizi umanitari, rendendo difficile l'accesso alle aree più colpite."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen è aggravata da diversi fattori, tra cui il conflitto, la crisi economica e le violenze contro gli operatori umanitari. I prezzi dei beni di base, come il cibo e il carburante, sono aumentati notevolmente, rendendo difficile l'accesso ai beni essenziali per la popolazione. La deprezzazione della valuta locale, il Rial yemenita, ha ulteriormente aumentato la pressione sui consumatori. Le importazioni di cibo e carburante sono state ostacolate da restrizioni e violenze, aumentando la vulnerabilità alimentare. L'agricoltura è stata gravemente colpita da eventi climatici, come cicloni, che hanno causato danni significativi alle colture e alle infrastrutture agricole. L'accesso alle aree controllate dai Houthis è stato limitato, rendendo difficile la distribuzione di aiuti umanitari."
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria in Yemen è caratterizzata da un aumento dei flussi di sfollati interni a causa delle continue violenze e del deterioramento delle condizioni di vita. Gli sfollati continuano a cercare rifugio in aree più sicure, ma la mancanza di risorse umanitarie e la scarsità di servizi fondamentali rendono la loro situazione precaria. Gli operatori umanitari hanno riferito di violenze contro gli sfollati, soprattutto in zone controllate dai Houthis. L'accesso alle aree controllate dai Houthis è stato limitato, rendendo difficile la distribuzione di aiuti umanitari ai sfollati. La mancanza di protezione e le violazioni dei diritti umani aumentano la vulnerabilità dei sfollati, soprattutto nei confronti di atti di violenza e abusi."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2019, Yemen è stato caratterizzato da un conflitto continuo e da una situazione umanitaria critica. Il presidente Abdrabbuh Mansur Hadi e il vice presidente Ali Mohsen al-Ahmar hanno continuato a governare il paese, mentre il primo ministro Maeen Abdulmalik Saeed ha gestito gli affari di governo. Nel corso del trimestre, si sono verificati diversi eventi significativi, tra cui un attacco aereo su un ospedale in una zona rurale del nord-ovest di Yemen, che ha causato numerosi morti e feriti. A ottobre, il Consiglio di Transizione del Sud (STC) ha preso il controllo di Aden e Zinjibar, aumentando le tensioni nel sud del paese. Il conflitto ha continuato a causare un numero significativo di vittime civili e sfollati, con un impatto devastante sulla popolazione e sulle infrastrutture del paese.",
+  "fonti": [
+    "YEM_2019-11-06_20191106_acaps_yemen_analysis_hub_scenarios_0.pdf",
+    "YEM_2019-11-14_20191114_acaps_yah_update_anticipatory_short_note_cyclones_0_0.pdf",
+    "YEM_2019-12-12_20191212_acaps_yemen_analysis_hub_crisis_impact_overview_august_-_october.pdf",
+    "YEM_2019-december_food-security-outlook-update.pdf",
+    "YEM_2019-november_key-message-update.pdf",
+    "YEM_2019Q4_2019-12-31_republic-of-yemen-shelter-nfis-fact-sheet-december-2019.pdf",
+    "wikipedia:YEM_2019"
+  ]
+}

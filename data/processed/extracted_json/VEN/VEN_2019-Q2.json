@@ -1,0 +1,29 @@
+{
+  "paese": "VEN",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si registrano scontri politici e tensioni tra le fazioni governative e di opposizione. L'opposizione, capeggiata da Juan Guaidó, continua a chiedere la rimozione di Nicolás Maduro, che rimane saldamente al potere con il sostegno delle forze armate. Viene segnalato l'uso di forza da parte delle forze di sicurezza contro manifestanti, con conseguenti decessi e arresti. L'opposizione tenta di organizzare un colpo di Stato, ma viene represso dalle autorità. L'opposizione continua a ricevere sostegno internazionale, con alcuni paesi che riconoscono Guaidó come presidente interino."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria continua a essere critica, con un numero crescente di rifugiati e migranti venezuelani che fuggono dal paese a causa delle difficoltà economiche e politiche. Il numero di rifugiati e migranti supera i 4 milioni, rendendo la crisi una delle più gravi al mondo. Si evidenziano problemi di protezione per i migranti, con sfide legate alla sicurezza e all'assistenza umanitaria nei paesi di accoglienza."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, la situazione politica in Venezuela è caratterizzata da una profonda crisi istituzionale e di leadership. Nicolás Maduro è riconfermato alla presidenza, ma Juan Guaidó si autoproclama presidente interino, riconosciuto da numerosi paesi occidentali e latinoamericani. La tensione politica si traduce in scontri e proteste, con l'uso di forza da parte delle forze di sicurezza contro i manifestanti. L'opposizione organizza un tentativo di colpo di Stato, che viene represso. La situazione economica e sociale continua a deteriorarsi, con conseguenze dirette sulla migrazione e sulla sicurezza umanitaria.",
+  "fonti": [
+    "unhcr_reports (VEN_2019Q2_2019-06-30_venezuela-t-rminos-de-referencia-cl-ster-de-protecci-n-equip.pdf)",
+    "wikipedia:VEN_2019"
+  ]
+}

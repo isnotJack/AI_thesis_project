@@ -1,0 +1,38 @@
+{
+  "paese": "CHN",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook economico prevede una forte ralentamento a causa dell'effetto del COVID-19. Si prevede un recupero graduale, ma con rischi significativi legati a ulteriori ondate di contagio e a una possibile riacutizzazione della crisi globale. Le misure fiscali e monetarie sono state adottate per mitigare l'impatto economico, ma persistono incertezze legate alla ripresa."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Zirconium",
+      "Strontium"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "Sicurezza",
+      "Sanità",
+      "Ricerca scientifica"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, la Cina ha continuato a gestire le conseguenze dell'epidemia di COVID-19, con un'attenta gestione delle misure di contenimento e un piano di ripresa economica. Nel frattempo, si sono verificati episodi di tensione internazionale, come lo scontro tra truppe cinesi e indiane lungo la linea di controllo in Himalaya. La leadership del paese, con Xi Jinping alla guida, ha mantenuto un ruolo centrale nella gestione delle politiche interne ed esterne.",
+  "fonti": [
+    "CHN_mpo_sm20.pdf",
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:CHN_2020"
+  ]
+}

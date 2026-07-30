@@ -1,0 +1,35 @@
+{
+  "paese": "CHN",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Zirconium"
+    ],
+    "settori_bersaglio": [
+      "Proprietary business information",
+      "Government correspondence",
+      "Individual contacts"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, la Cina è stata colpita dall'epidemia di COVID-19, che ha avuto origine nella città di Wuhan. Il governo ha adottato misure di contenimento, incluse l'estensione delle vacanze del Capodanno lunare e il lockdown di Wuhan. Il premier Li Keqiang ha visitato Wuhan per dirigere i lavori di prevenzione dell'epidemia. Nel mese di febbraio, sono stati completati rapidamente i lavori di costruzione degli ospedali Huoshenshan e Leishenshan. Nel marzo, il segretario generale del Partito Comunista Cinese, Xi Jinping, ha visitato Wuhan dopo il lockdown. Il governo ha dichiarato che la diffusione dell'epidemia era stata contenuta. Nel mese di aprile, è stato osservato un giorno di lutto nazionale per onorare le vittime del COVID-19.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:CHN_2020"
+  ]
+}

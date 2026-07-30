@@ -1,0 +1,59 @@
+{
+  "paese": "IRN",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Proteste continue in Iran, incluse le proteste alimentari e quelle legate alla morte di Mahsa Amini, che hanno evoluto in chiamate per la fine della Repubblica Islamica. L'insurrezione continua nella provincia di Sistan e Baluchestan. Eventi significativi includono l'uccisione di Mahsa Amini a Teheran per non aver indossato il velo correttamente, che ha scatenato proteste di larga scala. Altre situazioni di conflitto includono attacchi e incidenti significativi come l'incendio a Evin Prison e l'attacco a Shah Cheragh."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Contributi finanziari per i rifugiati in Iran sono stati forniti da diversi paesi, inclusi Germania, Italia, Unione Europea, Regno Unito, Giappone, Repubblica di Corea, e altri. Le contribuzioni sono state sia marcate che non marcate, con una parte significativa delle risorse direttamente legate alla situazione in Afghanistan."
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana ha continuato a subire pressioni significative a causa delle sanzioni USA, con un forte impatto sulle attività commerciali e sulle entrate petrolifere. L'inflazione e la deprezzazione della valuta hanno aumentato la pressione sui consumatori e sulle aziende. Le prospettive di crescita economica sono state compromesse da queste sfide, con rischi fiscali e esterni evidenziati."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco a un'organizzazione federale civile esecutiva statunitense (FCEB) tramite l'exploit Log4Shell, con l'installazione di software di minatore criptovaluta XMRig e l'uso di Ngrok come proxy inverso.",
+      "Attività di cyberespionaggio e informazioni condotte da attori sponsorizzati dal governo iraniano, inclusi gruppi come APT34 (OilRig), APT35 (Charming Kitten), e APT41 (Imperial Kitten)."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian Government-Sponsored Actors Conduct Cyber Operations Against Global Government and Commercial Networks (2022-02-24)",
+      "MAR–10369127–1.v1 – MuddyWater (2022-02-24)",
+      "Joint CSA Iranian Government-Sponsored APT Actors Compromise Federal Network, Deploy Crypto Miner, Credential Harvester (2022-11-16)"
+    ],
+    "gruppi_minaccia_associati": [
+      "APT34 (OilRig)",
+      "APT35 (Charming Kitten)",
+      "APT41 (Imperial Kitten)",
+      "MuddyWater",
+      "Mori",
+      "POWERSTATS",
+      "Canopy",
+      "Small Sieve",
+      "PowGoop"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Organizzazioni governative",
+      "Organizzazioni commerciali",
+      "Organizzazioni di ricerca e sviluppo",
+      "Organizzazioni di trasporto",
+      "Organizzazioni di energia",
+      "Organizzazioni di difesa"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In Iran, il leader supremo è Ali Khamenei e il presidente è Ebrahim Raisi. Il paese è dominato da proteste continue, incluse le proteste alimentari e quelle legate alla morte di Mahsa Amini, che hanno evoluto in chiamate per la fine della Repubblica Islamica. L'insurrezione continua nella provincia di Sistan e Baluchestan. L'anno è caratterizzato da una serie di eventi significativi, inclusi attacchi e incidenti che hanno avuto un impatto significativo sulla situazione interna del paese.",
+  "fonti": [
+    "unhcr_reports (IRN_2022Q1_2022-03-29_unhcr-iran-2022-funding-update-as-of-29-march-2022.pdf)",
+    "worldbank_mpo (IRN_mpo_am21.pdf)",
+    "cisa (IRN_AA22-055A_Iranian_Government-Sponsored_Actors_Conduct_Cyber_Operations.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "cisa (IRN_aa22-320a_joint_csa_iranian_government-sponsored_apt_actors_compromise_federal network_deploy_crypto miner_credential_harvester.pdf)",
+    "wikipedia:IRN_2022"
+  ]
+}

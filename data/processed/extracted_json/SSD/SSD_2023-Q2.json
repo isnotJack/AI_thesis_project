@@ -1,0 +1,34 @@
+{
+  "paese": "SSD",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il Sud Sudan è coinvolto in conflitti interni e transfrontalieri, con tensioni significative lungo la frontiera con il Sudan. L'arrivo di rifugiati sud-sudanesi dal Sudan ha aumentato le dinamiche di conflitto e di spostamento interno. Le tensioni sono accentuate dalle dinamiche di conflitto nel Sudan, che hanno portato a un aumento dei rifugiati e delle tensioni lungo la frontiera. L'intercomunale e le dinamiche di conflitto nel Sudan hanno un impatto significativo sulle dinamiche di spostamento e di conflitto nel Sud Sudan."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è principalmente causata da conflitti, inseguiti da sfollamenti interni e da un aumento dei rifugiati dal Sudan. L'arrivo di rifugiati ha aumentato la pressione sui sistemi di assistenza alimentare, con un aumento delle esigenze di assistenza alimentare. Le dinamiche di conflitto e di sfollamento hanno un impatto significativo sulle dinamiche di sicurezza alimentare, con un aumento delle esigenze di assistenza alimentare e di risorse umanitarie."
+  },
+  "migrazione": {
+    "descrizione": "Ci sono flussi significativi di rifugiati sud-sudanesi provenienti dal Sudan, con un aumento delle esigenze di assistenza umanitaria e di protezione. I rifugiati stanno arrivando principalmente nei centri di protezione civile, con un aumento delle esigenze di assistenza umanitaria e di protezione. Le dinamiche di conflitto nel Sudan hanno un impatto significativo sui flussi di rifugiati e sulle dinamiche di sfollamento nel Sud Sudan."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan è sotto forte pressione a causa dei conflitti interni e transfrontalieri, con un impatto significativo sulle dinamiche di crescita economica. Le dinamiche di conflitto hanno un impatto significativo sulle dinamiche di crescita economica, con un aumento delle esigenze di assistenza umanitaria e di risorse umanitarie. L'economia è particolarmente vulnerabile alle dinamiche di conflitto e di sfollamento, con un impatto significativo sulle dinamiche di crescita economica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2023, il Sud Sudan continua a essere caratterizzato da conflitti interni e transfrontalieri, con un aumento dei rifugiati dal Sudan. La leadership del paese è costituita da Salva Kiir Mayardit come Presidente e Riek Machar come Vice Presidente. Gli eventi principali includono la dichiarazione di Nairobi del 28 gennaio, le condizioni di carestia a Kapoeta nel maggio, e le tensioni lungo la frontiera con il Sudan. Le dinamiche di conflitto e di sfollamento hanno un impatto significativo sulle dinamiche di sicurezza alimentare e di assistenza umanitaria nel paese.",
+  "fonti": [
+    "SSD_2023-05-17_20230517_acaps_briefing_note_south_sudan_conflict_related_displacement___1_.pdf",
+    "SSD_2023-april_food-security-outlook-update.pdf",
+    "SSD_2023-june_food-security-outlook.pdf",
+    "SSD_2023-may_key-message-update.pdf",
+    "SSD_2023Q2_2023-06-27_2023-south-sudan-regional-rrrp-regional-overview-of-the-sout.pdf",
+    "SSD_mpo_sm23.pdf",
+    "wikipedia:SSD_2023"
+  ]
+}

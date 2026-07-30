@@ -1,0 +1,49 @@
+{
+  "paese": "RUS",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto russo-ucraino continua con intensità elevata. Viene riportato un aumento delle operazioni di cyberespionaggio e cyberattacchi, con attori affiliati alla Russia che utilizzano sofisticate tecniche per compromettere le reti e i sistemi delle vittime. L'uso di malware come Snake e la partecipazione di attori come SVR e FSB sono evidenziati. Il conflitto è accompagnato da una campagna di manipolazione delle informazioni per influenzare l'opinione pubblica internazionale e interna. L'uso di cyberattacchi per supportare le operazioni militari è evidente, con attacchi mirati a infrastrutture critiche e servizi essenziali. L'attività di cyberespionaggio è diretta verso l'acquisizione di informazioni sensibili per supportare le strategie militari e politiche. L'uso di attacchi DDoS e campagne di disinformazione continua a essere una strategia chiave per destabilizzare le vittime e influenzare l'opinione pubblica."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra segni di resilienza grazie a misure di sostegno fiscale e monetario, ma rimane vulnerabile alle sanzioni internazionali e alla dipendenza dai prezzi del petrolio e del gas. L'inflazione è in calo, ma rimane elevata. Il governo continua a investire in infrastrutture e riconoscimento territoriale, con un focus sulle aree liberate. Le prospettive di crescita economica sono limitate a causa della contrazione della produzione di petrolio non energetico e del declino delle esportazioni. L'investimento pubblico resta robusto, supportato da progetti di ricostruzione e sviluppo energetico. Le prospettive di crescita sono legate alla diversificazione economica e alla riduzione della dipendenza dagli hydrocarburi."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Exploit di JetBrains TeamCity CVE-2023-42793 da parte del Servizio di Informazione Estero Russo (SVR)",
+      "Campagna di phishing globale condotta da attori affiliati alla FSB russa"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally (2023-12-13)",
+      "Russian FSB Cyber Actor Star Blizzard Continues Worldwide Spearphishing Campaigns (2023-12-07)"
+    ],
+    "gruppi_minaccia_associati": [
+      "SVR (Servizio di Informazione Estero Russo)",
+      "FSB (Servizio Federale di Sicurezza)",
+      "Snake (malware)",
+      "Star Blizzard"
+    ],
+    "settori_bersaglio": [
+      "Software di sviluppo (JetBrains TeamCity)",
+      "Servizi di informazione e intelligence",
+      "Infrastrutture critiche",
+      "Servizi essenziali"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel 2023-Q4, la Russia continua a essere guidata da Vladimir Putin come Presidente e da Mikhail Mishustin come Primo Ministro. L'anno è caratterizzato da eventi significativi legati al conflitto russo-ucraino, inclusi l'annuncio della sospensione della partecipazione al trattato New START, la decisione di stabilire missili nucleari tattici in Bielorussia, e la partecipazione di attori come il gruppo Wagner a ribellioni interne. L'anno vede anche una serie di eventi interni, come la chiusura di organizzazioni di diritti umani, la promulgazione di leggi restrittive sulla salute transessuale, e la partecipazione di leader russi a summit internazionali. L'attività cyber continua a essere un elemento chiave delle strategie russe, con attacchi mirati e campagne di disinformazione che supportano le operazioni militari e politiche.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_am23.pdf)",
+    "cisa (RUS_aa23-129a_snake_malware_2.pdf)",
+    "cisa (RUS_aa23-347a-russian-foreign-intelligence-service-svr-exploiting-jetbrains-teamcity-cve-globally_0.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "wikipedia:RUS_2023"
+  ]
+}

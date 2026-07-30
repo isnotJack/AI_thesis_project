@@ -1,0 +1,30 @@
+{
+  "paese": "RUS",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook economico prevede una contrazione del PIL a causa dell'effetto combinato della pandemia COVID-19 e della caduta dei prezzi del petrolio. Si prevede una ripresa graduale nel 2021-2022, ma i rischi fiscali e esterni rimangono significativi. Le misure di supporto economico sono state introdotte per mitigare l'impatto negativo."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, la Russia ha continuato a gestire le conseguenze della pandemia di COVID-19, con misure di contenimento e supporto economico. L'agosto ha visto un evento significativo con l'arresto di un leader dell'opposizione, Alexei Navalny, che ha suscitato reazioni internazionali. La situazione politica è stata influenzata anche dalle elezioni locali e dalla campagna di vaccinazione contro il COVID-19, che ha iniziato nel dicembre.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_sm20.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2020.pdf)",
+    "wikipedia:RUS_2020"
+  ]
+}

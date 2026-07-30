@@ -1,0 +1,50 @@
+{
+  "paese": "PRK",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Ruby Sleet",
+      "Diamond Sleet",
+      "Jade Sleet",
+      "Emerald Sleet",
+      "Citrine Sleet",
+      "Onyx Sleet",
+      "Sapphire Sleet"
+    ],
+    "settori_bersaglio": [
+      "Think tanks",
+      "NGOs",
+      "Education",
+      "Government",
+      "Defense",
+      "Manufacturing",
+      "Transportation",
+      "Inter-Government Organization",
+      "Food, Agriculture",
+      "IT Organization",
+      "Other"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, la Corea del Nord ha condotto esercitazioni simulating a nuclear counterattack in risposta a esercitazioni congiunte di ambarissaggio da parte degli Stati Uniti e della Corea del Sud. Queste esercitazioni sono state seguite da ulteriori minacce contro gli aerei di ricognizione statunitensi, con la Corea del Nord che ha minacciato di abbattere qualsiasi aereo che violasse il suo spazio aereo. In aggiunta, la Corea del Nord ha lanciato un missile balistico intercontinentale Hwasong-18 verso le acque vicino al Giappone, in risposta alle minacce statunitensi. Nel mese di agosto, la Corea del Nord ha condotto ulteriori esercitazioni simulating a missile strike contro la Corea del Sud, in protesta contro le esercitazioni militari condotte dalla Corea del Sud con gli Stati Uniti.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2023.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "wikipedia:PRK_2023"
+  ]
+}

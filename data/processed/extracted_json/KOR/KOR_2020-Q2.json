@@ -1,0 +1,29 @@
+{
+  "paese": "KOR",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, la Corea del Sud è stata fortemente influenzata dalla pandemia di COVID-19. Il paese ha registrato un aumento significativo di casi, con un cluster significativo legato alla Chiesa Shincheonji a Daegu. La situazione ha portato a misure di controllo delle infezioni più rigide, inclusi i controlli di viaggio e la chiusura di molte chiese che hanno continuato a tenere servizi nonostante le ordinanze di distanziamento sociale. La Corea del Sud ha anche iniziato a rilasciare restrizioni in aprile, iniziando con i negozi e i servizi pubblici. Durante questo periodo, il paese ha anche esportato kit di test per il COVID-19 a più di 20 paesi come parte della sua 'diplomazia del coronavirus'.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:KOR_2020"
+  ]
+}

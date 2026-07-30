@@ -1,0 +1,32 @@
+{
+  "paese": "SSD",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": "Il Sud Sudan continua a essere afflitto da conflitti interni, con tensioni tra le forze governative e le milizie armate. Vi sono segnalazioni di violenze e scontri armati in diverse regioni, inclusi episodi di violenza armata che hanno causato perdite di vite umane. Le dinamiche di conflitto sono influenzate dalla mancanza di accordi definitivi sulle questioni territoriali e politiche interne, nonché dalla presenza di gruppi armati che operano in aree specifiche. La situazione di sicurezza rimane instabile, con continue minacce alla popolazione civile e ostacoli all'accesso umanitario."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è aggravata da una combinazione di fattori, inclusi conflitti, inondazioni e problemi di accesso all'aiuto umanitario. Le inondazioni hanno causato un aumento dei dislocamenti interni e hanno compromesso l'accesso ai campi di rifugio, aumentando le difficoltà di distribuzione di aiuti. La situazione è ulteriormente complicata dalla presenza di violenze armate che ostacolano l'accesso umanitario, rendendo difficile la distribuzione di cibo e assistenza vitale alle popolazioni colpite."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna nel Sud Sudan è significativa a causa delle inondazioni e dei conflitti. Le popolazioni stanno cercando rifugio in aree più sicure e lontane dalle zone di conflitto. L'accesso ai campi di rifugio è ostacolato da violenze armate e inondazioni, creando sfide significative per l'assistenza umanitaria. I dislocamenti interni sono accompagnati da crescenti problemi di sicurezza e accesso ai servizi essenziali."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan continua a essere debilitata da una combinazione di fattori, inclusi la crisi petrolifera, la deprezzazione della valuta nazionale e la scarsità di risorse finanziarie. L'incertezza politica e le tensioni interne hanno un impatto negativo sulle prospettive di crescita economica. L'inflazione rimane elevata, influenzata da fattori come la crisi petrolifera e la deprezzazione della valuta. Le prospettive di ripresa economica sono compromesse dalla mancanza di stabilità politica e dalla continua crisi umanitaria."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2020-Q4, il Sud Sudan continua a lottare con una combinazione di conflitti interni, inondazioni e crisi umanitarie. La leadership del paese, con il Presidente Salva Kiir Mayardit e il Vice Presidente Riek Machar, è impegnata in negoziati per risolvere le tensioni politiche e territoriali. Tuttavia, le dinamiche di conflitto rimangono instabili, con episodi di violenza armata che causano perdite di vite umane e sfidano l'accesso umanitario. L'arrivo della pandemia di COVID-19 ha aggiunto ulteriori complessità, con casi confermati e misure di contenimento che hanno un impatto sulle operazioni umanitarie e sulle dinamiche sociali. L'economia del paese rimane debilitata da fattori come la crisi petrolifera e la deprezzazione della valuta nazionale, influenzando negativamente le prospettive di crescita e la stabilità economica.",
+  "fonti": [
+    "SSD_2020-12-18_20201218_acaps_scenarios_on_south_sudan_january-june_2021.pdf",
+    "SSD_2020-october_key-message-update.pdf",
+    "SSD_2020Q4_2020-12-29_south-sudan-shelter-and-non-food-items-s-nfi-quarter-3-repor.pdf",
+    "SSD_mpo_am20.pdf",
+    "wikipedia:SSD_2020"
+  ]
+}

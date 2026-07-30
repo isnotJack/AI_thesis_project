@@ -1,0 +1,30 @@
+{
+  "paese": "USA",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, gli Stati Uniti continuano a essere al centro di sviluppi politici e sociali significativi. L'attenzione si concentra sulle elezioni presidenziali, con Donald Trump che ottiene un secondo mandato non consecutivo, sconfiggendo la candidata democratica Kamala Harris. L'elezione è seguita da un periodo di transizione durante il quale Trump nomina i membri del suo nuovo gabinetto. Nel campo esterno, gli Stati Uniti continuano a gestire le tensioni internazionali, tra cui le relazioni con Israele e il conflitto in Gaza, nonché le dinamiche geopolitiche legate all'Ucraina e all'Iran. L'attenzione si concentra anche su questioni interne come la sicurezza nazionale, la salute pubblica e le politiche di immigrazione. Nel campo tecnologico, gli Stati Uniti continuano a essere al centro di innovazioni legate all'intelligenza artificiale e alla tecnologia di difesa.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:USA_2024"
+  ]
+}

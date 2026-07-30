@@ -1,0 +1,41 @@
+{
+  "paese": "UKR",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con intensità elevata, con combattimenti intensi lungo le linee del fronte, principalmente nelle regioni di Donetsk, Kherson, Luhansk, Mykolaiv, e Zaporizhzhia. Le forze ucraine hanno intensificato le operazioni contro le forze russe, cercando di respingere le offensive russe e di prepararsi per una controffensiva. Le azioni militari hanno causato gravi danni all'infrastruttura civile, inclusi edifici residenziali, centri sanitari, e scuole. Il numero di civili uccisi e feriti è significativo, con molte vittime in città come Mariupol e Severodonetsk. Le forze ucraine hanno anche intensificato le operazioni contro le forze russe, cercando di respingere le offensive russe e di prepararsi per una controffensiva. Le azioni militari hanno causato gravi danni all'infrastruttura civile, inclusi edifici residenziali, centri sanitari, e scuole. Il numero di civili uccisi e feriti è significativo, con molte vittime in città come Mariupol e Severodonetsk."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Ucraina è stata aggravata dal conflitto, con la distruzione di infrastrutture agricole e di trasporto, che ha interferito con la raccolta e la distribuzione dei raccolti. La situazione è stata ulteriormente complicata dalla mancanza di accesso alle risorse agricole e alle tecnologie necessarie per mantenere la produzione alimentare. La carestia è stata ulteriormente aggravata dalla distruzione di infrastrutture agricole e di trasporto, che ha interferito con la raccolta e la distribuzione dei raccolti. La situazione è stata ulteriormente complicata dalla mancanza di accesso alle risorse agricole e alle tecnologie necessarie per mantenere la produzione alimentare."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione da Ucraina è stata massiccia, con milioni di rifugiati che hanno lasciato il paese per sfuggire al conflitto. I rifugiati hanno trovato rifugio in paesi vicini come Polonia, Romania, e Ungheria, nonché in altri paesi europei. La situazione dei rifugiati è stata complicata da problemi di protezione, inclusi i tentativi di deportazione forzata da parte delle forze russe. La migrazione da Ucraina è stata massiccia, con milioni di rifugiati che hanno lasciato il paese per sfuggire al conflitto. I rifugiati hanno trovato rifugio in paesi vicini come Polonia, Romania, e Ungheria, nonché in altri paesi europei. La situazione dei rifugiati è stata complicata da problemi di protezione, inclusi i tentativi di deportazione forzata da parte delle forze russe."
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina è stata gravemente colpita dal conflitto, con una forte contrazione del PIL e un aumento dei rischi fiscali ed esterni. La situazione economica è stata ulteriormente complicata dalla distruzione di infrastrutture cruciali, come impianti di produzione di energia elettrica, e dalla mancanza di accesso alle risorse finanziarie necessarie per riparare i danni. L'economia ucraina è stata gravemente colpita dal conflitto, con una forte contrazione del PIL e un aumento dei rischi fiscali ed esterni. La situazione economica è stata ulteriormente complicata dalla distruzione di infrastrutture cruciali, come impianti di produzione di energia elettrica, e dalla mancanza di accesso alle risorse finanziarie necessarie per riparare i danni."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cyber contro infrastrutture critiche, inclusi impianti di produzione di energia elettrica"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Advisory sulle minacce cyber associate al conflitto in Ucraina"
+    ],
+    "gruppi_minaccia_associati": [
+      "Gruppi minaccia associati al conflitto in Ucraina"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche, inclusi impianti di produzione di energia elettrica"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2022, la situazione in Ucraina è stata dominata dal conflitto armato in corso, con intensi combattimenti lungo le linee del fronte. Il presidente Volodymyr Zelenskyy ha continuato a guidare il paese nella difesa contro l'invasione russa, mentre il primo ministro Denys Shmyhal ha gestito le conseguenze economiche e sociali del conflitto. Il paese ha ricevuto sostegno internazionale significativo, inclusi aiuti militari e umanitari da parte di paesi occidentali. La situazione umanitaria è stata critica, con milioni di rifugiati interni e internazionali. Le operazioni militari hanno causato gravi danni all'infrastruttura civile, inclusi edifici residenziali, centri sanitari, e scuole. Il conflitto ha anche avuto un impatto significativo sull'economia, con una forte contrazione del PIL e un aumento dei rischi fiscali ed esterni. La situazione è stata ulteriormente complicata da problemi di sicurezza e di accesso alle risorse necessarie per riparare i danni. Il conflitto ha anche avuto un impatto significativo sull'economia, con una forte contrazione del PIL e un aumento dei rischi fiscali ed esterni. La situazione è stata ulteriormente complicata da problemi di sicurezza e di accesso alle risorse necessarie per riparare i danni.",
+  "fonti": [
+    "acaps (UKR_2022-09-13_20220913_acaps_ukraine_analysis_hub_thematic_report_context_and_trends_analysis_may_-_july_2022.pdf)",
+    "fews_net (UKR_2022-september_targeted-analysis.pdf)",
+    "unhcr_reports (UKR_2022Q3_2022-09-30_unhcr-europe-monthly-update-september-2022.pdf)",
+    "worldbank_mpo (UKR_mpo_sm22.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "wikipedia:UKR_2022"
+  ]
+}

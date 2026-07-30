@@ -1,0 +1,33 @@
+{
+  "paese": "ETH",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si sono verificati scontri in diverse regioni dell'Etiopia, inclusi Oromia e vicini, con violenza intercomunale che ha causato decine di vittime. La regione di Benishangul-Gumuz è stata coinvolta in conflitti continuativi. Vi è anche un'insurrezione in corso nell'Amhara Region, con attacchi contro le forze di sicurezza e cambiamenti di leadership regionale. La regione di Oromia ha visto scontri tra attivisti politici e forze di sicurezza, con conseguenze significative in termini di vittime civili e forze di sicurezza. La situazione è complessa e coinvolge diversi attori, inclusi gruppi etnici e forze di sicurezza."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è stata influenzata da fattori come l'invasione di locuste, che ha causato gravi danni alle coltivazioni e alle risorse pascolistiche, e dalla pioggia anomala che ha provocato inondazioni e danni alle coltivazioni. La situazione è peggiorata anche a causa di conflitti locali che hanno limitato l'accesso alle risorse e aumentato la precarietà alimentare. La produzione di Meher è stata compromessa, con conseguenze negative sulle condizioni di sicurezza alimentare, specialmente nelle zone rurali e nei campi per sfollati."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati eritrei in Etiopia è stata un tema importante nel trimestre, con un numero significativo di nuovi arrivi nei campi di rifugiati in Tigray e Afar. I rifugiati continuano a ricevere assistenza umanitaria, ma ci sono sfide significative legate alla protezione, inclusa la mancanza di strutture appropriate e la vulnerabilità dei minori non accompagnati. La situazione è complicata da conflitti locali e dalla mancanza di infrastrutture sufficienti per accogliere i rifugiati, con sfide specifiche legate alla salute, all'istruzione e all'assistenza sanitaria."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, l'Etiopia ha continuato a fare fronte a diversi sfide, inclusi conflitti interni, problemi di sicurezza alimentare e sfide legate alla migrazione. L'anno ha visto anche eventi significativi come la formazione del nuovo partito di governo, il Prosperity Party, e l'attivazione di un satellite sperimentale con l'aiuto della Cina. La leadership del Paese ha continuato a gestire questioni complesse, inclusi i rapporti con l'Eritrea e la gestione delle crisi interne. La situazione generale rimane instabile, con sfide significative legate alla sicurezza, alla governance e alla stabilità economica.",
+  "fonti": [
+    "ETH_2019-11-15_20191115_acaps_briefing_note_locusts_in_ethiopia.pdf",
+    "ETH_2019-december_food-security-outlook-update.pdf",
+    "ETH_2019-november_key-message-update.pdf",
+    "ETH_2019-october_food-security-outlook.pdf",
+    "ETH_2019Q4_2019-12-31_eritrean-refugees-in-ethiopia-tigray-amp-afar-regions-situat.pdf",
+    "wikipedia:ETH_2019"
+  ]
+}

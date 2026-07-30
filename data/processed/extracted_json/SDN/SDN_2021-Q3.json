@@ -1,0 +1,33 @@
+{
+  "paese": "SDN",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Sudan è afflitto da conflitti intercomunali crescenti, in particolare in Darfur, con violenze che hanno portato a dislocazioni di popolazione e a una situazione di instabilità. Le tensioni lungo la frontiera con l'Etiopia continuano, con l'Etiopia che ha rifiutato un'offerta di mediazione sul conflitto nel Tigray. Le violenze etniche in Darfur hanno causato dislocazioni di popolazione e tensioni significative. Il conflitto nel Tigray ha portato a un nuovo flusso di rifugiati verso il Sudan. Le violenze sono state seguite da proteste contro la situazione economica, che include inflazione elevata e debiti significativi. Il governo ha raggiunto un accordo con il Sudan People's Liberation Movement-North (SPLM-N) per negoziare la pace. Il conflitto nel Darfur continua a essere un problema significativo, con violenze etniche che hanno portato a dislocazioni di popolazione e tensioni significative."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia includono prezzi alimentari elevati, conflitti, inondazioni e crisi economica. I prezzi dei cereali sono rimasti significativamente elevati rispetto all'anno precedente e al livello medio a cinque anni. Le inondazioni hanno avuto un impatto significativo sulle condizioni di sicurezza alimentare, con effetti negativi sulle famiglie già vulnerabili. Le famiglie in aree colpite da conflitti, come Darfur, Kordofan e White Nile, continuano a essere particolarmente a rischio. Le famiglie che hanno esaurito le loro scorte di cibo e le famiglie povere urbane sono particolarmente vulnerabili. Le famiglie in aree colpite da conflitti continuano a essere a rischio di carestia."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati etiopi in Sudan è critica, con un flusso significativo di rifugiati provenienti dal Tigray. Le condizioni di protezione per i rifugiati sono problematiche, con sfide significative per garantire la sicurezza e l'assistenza ai rifugiati. I rifugiati etiopi stanno continuando ad arrivare in Sudan, con un numero significativo di nuovi arrivi registrati. Le autorità stanno facendo sforzi per registrare e assistere i rifugiati, ma le sfide continue includono la mancanza di risorse e le condizioni di vita difficili nei campi."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è negativo, con rischi fiscali e esterni significativi. La crisi economica continua a pesare, con inflazione elevata, deprezzamento della valuta nazionale e debiti esterni significativi. Le autorità stanno facendo sforzi per stabilizzare la situazione economica, ma le sfide rimangono significative. La devaliazione della valuta nazionale e la crisi dei rifugiati etiopi stanno mettendo ulteriori pressioni sul sistema economico. Le misure di stabilizzazione economica sono in corso, ma i rischi rimangono elevati."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre di luglio-settembre 2021, Sudan ha continuato a fare fronte a sfide significative, inclusi conflitti intercomunali crescenti, crisi economica, inondazioni e flussi di rifugiati etiopi. Il governo ha raggiunto un accordo con il Sudan People's Liberation Movement-North (SPLM-N) per negoziare la pace, ma le tensioni nel Darfur continuano. La situazione dei rifugiati etiopi è critica, con un flusso significativo di rifugiati provenienti dal Tigray. Le autorità stanno facendo sforzi per registrare e assistere i rifugiati, ma le sfide continue includono la mancanza di risorse e le condizioni di vita difficili nei campi. L'outlook economico è negativo, con rischi fiscali e esterni significativi. La crisi economica continua a pesare, con inflazione elevata, deprezzamento della valuta nazionale e debiti esterni significativi.",
+  "fonti": [
+    "fews_net (SDN_2021-september_key-message-update.pdf)",
+    "unhcr_reports (SDN_2021Q3_2021-09-30_ethiopian-emergency-situation-update-new-arrivals-east-sudan.pdf)",
+    "worldbank_mpo (SDN_mpo_sm21.pdf)",
+    "fews_net (SDN_2021-august_food-security-outlook-update.pdf)",
+    "fews_net (SDN_2021-july_key-message-update.pdf)",
+    "wikipedia:SDN_2021"
+  ]
+}

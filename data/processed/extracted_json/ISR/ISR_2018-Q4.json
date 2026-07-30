@@ -1,0 +1,31 @@
+{
+  "paese": "ISR",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Letter from the Israeli government addressed to US-based exploit developers"
+    ],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In ottobre, l'Esercito israeliano ha lanciato l'Operazione Scudo Settentrionale per distruggere i tunnel transfrontalieri costruiti dal Hezbollah lungo il confine con il Libano. In novembre, ci sono stati scontri tra Gaza e Israele. Nel dicembre, Israele ha annunciato il suo ritiro dall'UNESCO, affermando di essere vittima di un pregiudizio.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "wikipedia:ISR_2018"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "paese": "ISR",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Israele nel secondo trimestre del 2024 è caratterizzato da intensi scontri armati, principalmente tra Israele e gruppi palestinesi, con attivismo cyber legato ai conflitti geopolitici. Le operazioni militari includono raid aerei, attacchi con missili e operazioni terrestri. Il conflitto ha implicato anche attivismo cyber da parte di attori legati a Iran e Hezbollah, con attacchi mirati contro infrastrutture e servizi critici in Israele. L'attivismo cyber è stato utilizzato per supportare le operazioni militari e per diffondere propaganda politica. Gli attacchi cyber hanno coinvolto anche gruppi di attivisti digitali che hanno mirato a siti web e servizi di governo israeliani, con l'uso di tecniche come defacement e DDoS. L'attivismo cyber è stato anche utilizzato per influenzare le elezioni statunitensi, con campagne di disinformazione e propaganda mirate a influenzare l'opinione pubblica internazionale. L'attivismo cyber ha coinvolto attori legati a Iran e Hezbollah, con attacchi mirati contro infrastrutture e servizi critici in Israele. Gli attacchi cyber hanno coinvolto anche gruppi di attivisti digitali che hanno mirato a siti web e servizi di governo israeliani, con l'uso di tecniche come defacement e DDoS. L'attivismo cyber è stato anche utilizzato per influenzare le elezioni statunitensi, con campagne di disinformazione e propaganda mirate a influenzare l'opinione pubblica internazionale."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacchi DDoS e defacement contro siti web israeliani",
+      "Attacchi cyber da parte di attori legati a Iran e Hezbollah",
+      "Attacchi mirati contro infrastrutture critiche in Israele",
+      "Attacchi di disinformazione e propaganda politica legati al conflitto",
+      "Attacchi cyber contro servizi di governo israeliani",
+      "Attacchi di ransomware e wipers contro infrastrutture critiche",
+      "Attacchi di cyberespionaggio e intelligence operativa legati al conflitto"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Advisory sulle minacce di attivismo cyber legato al conflitto in Israele",
+      "Advisory sulle minacce di attacchi DDoS e defacement contro siti web israeliani",
+      "Advisory sulle minacce di attacchi cyber da parte di attori legati a Iran e Hezbollah",
+      "Advisory sulle minacce di attacchi di ransomware e wipers contro infrastrutture critiche in Israele",
+      "Advisory sulle minacce di cyberespionaggio e intelligence operativa legati al conflitto"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iran",
+      "Hezbollah",
+      "Gruppi di attivisti digitali legati al conflitto",
+      "Gruppi di attivismo cyber legati a Iran e Hezbollah"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Servizi di governo",
+      "Siti web governativi",
+      "Servizi di telecomunicazioni",
+      "Servizi di energia elettrica",
+      "Servizi di trasporto e logistica"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, Israele è stato coinvolto in intensi scontri armati, principalmente con gruppi palestinesi, con un'ampia campagna di attivismo cyber legata ai conflitti geopolitici. Il conflitto ha coinvolto attacchi aerei, missili e operazioni terrestri, con un coinvolgimento significativo di attori legati a Iran e Hezbollah. L'attivismo cyber ha giocato un ruolo importante, con attacchi mirati contro infrastrutture e servizi critici in Israele, nonché campagne di disinformazione e propaganda politica. Gli attacchi cyber hanno coinvolto anche gruppi di attivisti digitali che hanno mirato a siti web e servizi di governo israeliani, con l'uso di tecniche come defacement e DDoS. L'attivismo cyber è stato anche utilizzato per influenzare le elezioni statunitensi, con campagne di disinformazione e propaganda mirate a influenzare l'opinione pubblica internazionale.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:ISR_2024"
+  ]
+}

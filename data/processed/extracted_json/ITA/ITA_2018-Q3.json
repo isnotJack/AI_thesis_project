@@ -1,0 +1,29 @@
+{
+  "paese": "ITA",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, si è assistito a un calo significativo nei flussi di rifugiati e migranti che arrivano in Italia per mare. Gli arrivi sono diminuiti rispetto ai periodi precedenti, con un numero ridotto di persone che raggiungono le coste italiane. Ci sono state notevoli preoccupazioni riguardo alla sicurezza delle persone in transito, con un aumento del tasso di mortalità durante le traversate. L'UNHCR ha chiamato a un incremento delle capacità di ricerca e salvataggio nel Mediterraneo centrale, sottolineando la necessità di un'azione coordinata per garantire la protezione dei migranti. Gli arrivi di minori non accompagnati sono stati un tema di particolare attenzione, con l'UNHCR che ha sottolineato la necessità di un approccio coordinato per garantire la loro protezione. L'UNHCR ha anche incoraggiato l'istituzione di aree di sbarco prevedibili per le persone salvate in mare, promuovendo la collaborazione tra le autorità e le ONG."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2018, l'Italia ha visto una serie di sviluppi politici e sociali significativi. Il governo ha preso misure riguardanti l'immigrazione, con l'annuncio del ministro dell'Interno Matteo Salvini di chiudere i porti italiani per fermare l'immigrazione illegale. Ci sono state anche discussioni e azioni legate alla deportazione di persone rom non in possesso di documenti legali. In agosto, il ponte Morandi a Genova è crollato, causando numerose vittime. Politicamente, il governo di coalizione tra il Movimento 5 Stelle e la Lega ha continuato a governare, con il ministro per la famiglia e la disabilità Lorenzo Fontana che ha chiamato alla revoca della legge Mancino, una legge antifascista. L'anno ha visto anche eventi culturali e sportivi, come il campionato mondiale di pallavolo maschile, co-organizzato con la Bulgaria, con le semifinali e finali tenutesi a Torino.",
+  "fonti": [
+    "ITA_2018Q3_2018-09-30_italy-operational-update-september-2018.pdf",
+    "wikipedia:ITA_2018"
+  ]
+}

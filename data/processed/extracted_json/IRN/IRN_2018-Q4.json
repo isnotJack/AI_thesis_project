@@ -1,0 +1,41 @@
+{
+  "paese": "IRN",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attack on Italian oil firm Saipem (2018-12-20, categoria=Espionage): sponsor=Iran (Islamic Republic of), vittime=India, Italy, Kuwait, Saudi Arabia, United Arab Emirates, United Kingdom, ruolo=attore. An attack on the Italian oil firm Saipem targeted servers based in India, Kuwait, Saudi Arabia, Scotland, and the United Arab Emirates. Hackers used a variant of the Shamoon virus.",
+      "APT 39 (2018-12-12, categoria=nan): sponsor=Iran (Islamic Republic of), vittime=Australia, Egypt, Iraq, Korea (Republic of), Norway, Saudi Arabia, Spain, Turkey, ruolo=attore. This threat actor, operating since November 2014, focuses on the Middle East. It mainly targets the telecommunications industry, and also targets the travel industry and supporting IT firms, and the high-tech industry."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "APT 39"
+    ],
+    "settori_bersaglio": [
+      "Telecommunications",
+      "Travel industry",
+      "Supporting IT firms",
+      "High-tech industry"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In dicembre 2018, le forze di sicurezza hanno attaccato con gas lacrimogeno un raduno di insegnanti fuori dall'ufficio di istruzione a Isfahan, Iran centrale. Gli insegnanti stavano protestando per i loro stipendi bassi e l'arresto dei loro colleghi, che ora sono in carcere. Amnesty International ha chiesto al governo dell'Iran di chiarire cosa è successo ai detenuti politici nel paese. Amnesty ha chiesto alle Nazioni Unite di istituire un gruppo di indagine per scoprire i fatti dei crimini contro l'umanità in Iran.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/apt-39",
+    "https://www.cfr.org/cyber-operations/attack-on-italian-oil-firm-saipem",
+    "wikipedia:IRN_2018"
+  ]
+}

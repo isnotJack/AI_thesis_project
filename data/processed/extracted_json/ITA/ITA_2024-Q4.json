@@ -1,0 +1,31 @@
+{
+  "paese": "ITA",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi arrivi di migranti via mare in Italia, con un aumento significativo rispetto ai periodi precedenti. I dati indicano un incremento nei sbarcati, con origine principalmente da paesi come Bangladesh, Guinea, Siria, Tunisia, Costa d'Avorio, Egitto, Pakistan, Sudan, Eritrea, e Mali. La situazione evidenzia una crescente pressione sui corridoi di migrazione tradizionali, con un aumento dei casi di richiesta di asilo e un aumento delle decisioni di primo grado riguardanti le richieste di protezione internazionale."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, l'Italia ha continuato a fare fronte a diversi eventi significativi. Tra questi, vi è stato un aumento nei flussi migratori verso il paese, con un numero crescente di sbarcati via mare. In ambito politico, si sono svolti diversi eventi elettorali regionali, con cambiamenti nelle composizioni dei governi locali. Inoltre, sono stati segnalati alcuni incidenti e problemi legati alla sicurezza, come crolli di edifici e incidenti industriali. L'Italia ha anche continuato a gestire questioni legate alla politica migratoria, con decisioni riguardanti il trasferimento di migranti verso altri paesi e la gestione delle richieste di asilo. Nel campo della cultura, si sono tenuti eventi sportivi e culturali di rilievo, come il Giro d'Italia e le elezioni regionali. L'attenzione è stata rivolta anche a questioni legate alla sicurezza nazionale, con operazioni contro il crimine organizzato e la pirateria informatica.",
+  "fonti": [
+    "ITA_2024Q4_2024-12-30_italy-weekly-snapshot-23-dec-29-dec-2024.pdf",
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:ITA_2024"
+  ]
+}

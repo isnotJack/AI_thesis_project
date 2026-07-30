@@ -1,0 +1,33 @@
+{
+  "paese": "ETH",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Etiopia nel quarto trimestre del 2023 è caratterizzato da intensi scontri tra le forze armate etiopi e i gruppi armati regionali, come i Fano e il Fronte di Liberazione Oromo (OLA). Questi scontri hanno portato a un aumento dei decessi civili e di interni di rifugiati, soprattutto nella regione di Amhara. La situazione è stata ulteriormente complicata da un'intensa attività di reclutamento forzato e da una crescente instabilità politica, con proteste e violenze etniche che hanno coinvolto diverse regioni del paese. L'uso di violenza contro i civili e le violazioni dei diritti umani sono stati segnalati in diverse zone, con un aumento dei casi di violenza sessuale e di altre forme di abuso. La situazione ha portato a un allarme generale per la sicurezza umanitaria e la protezione dei civili, con un aumento dei bisogni di assistenza umanitaria."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Etiopia nel quarto trimestre del 2023 è stata principalmente causata da una combinazione di siccità, conflitti e crisi economica. La siccità ha gravemente ridotto le coltivazioni di cereali, portando a una diminuzione significativa delle riserve alimentari. Gli effetti del conflitto hanno ulteriormente aggravato la situazione, con migliaia di persone costrette a fuggire dalle zone di combattimento, aumentando il numero di rifugiati e di sfollati. La crisi economica ha reso difficile l'acquisto di cibo per molte famiglie, con un aumento dei prezzi dei generi alimentari. La combinazione di questi fattori ha portato a una situazione di emergenza alimentare in molte regioni del paese, con un aumento dei casi di malnutrizione acuta."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione in Etiopia nel quarto trimestre del 2023 è stata caratterizzata da un aumento significativo di rifugiati e sfollati a causa dei conflitti interni e delle condizioni di carestia. I rifugiati provenienti da paesi vicini, come il Sudan, hanno continuato ad affluire verso le zone di confine, aumentando la pressione sui campi di accoglienza già sovraffollati. All'interno del paese, le persone hanno continuato a sfollare dalle zone di combattimento verso aree più sicure, creando nuovi sfollati interni. La situazione è stata ulteriormente complicata da problemi di protezione, con segnalazioni di violazioni dei diritti umani e di abusi contro i rifugiati e i sfollati. L'assistenza umanitaria ha continuato a fornire supporto vitale, ma le risorse sono state spesso insufficienti per coprire le crescenti esigenze."
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana nel quarto trimestre del 2023 ha mostrato segni di debolezza, influenzata da una combinazione di fattori interni ed esterni. La crescita economica è stata rallentata da una combinazione di siccità, conflitti e crisi economica. La siccità ha gravemente ridotto le coltivazioni di cereali, influenzando negativamente il settore agricolo, che è fondamentale per l'economia del paese. Gli effetti del conflitto hanno ulteriormente aggravato la situazione, con un aumento dei costi logistici e delle barriere all'attività economica. La crisi economica ha reso difficile l'acquisto di cibo e di altri beni essenziali, con un aumento dei prezzi dei generi alimentari. La combinazione di questi fattori ha portato a una situazione di emergenza alimentare in molte regioni del paese, con un aumento dei casi di malnutrizione acuta."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2023, l'Etiopia ha continuato a fare i conti con una serie di sfide significative, tra cui conflitti interni, carestia e migrazione. La leadership del paese, con il presidente Sahle-Work Zewde e il primo ministro Abiy Ahmed, ha continuato a gestire la situazione, ma le tensioni politiche e etniche hanno portato a un aumento dei scontri armati e delle violazioni dei diritti umani. La siccità ha gravemente ridotto le coltivazioni di cereali, influenzando negativamente il settore agricolo, che è fondamentale per l'economia del paese. Gli effetti del conflitto hanno ulteriormente aggravato la situazione, con un aumento dei costi logistici e delle barriere all'attività economica. La crisi economica ha reso difficile l'acquisto di cibo e di altri beni essenziali, con un aumento dei prezzi dei generi alimentari. La combinazione di questi fattori ha portato a una situazione di emergenza alimentare in molte regioni del paese, con un aumento dei casi di malnutrizione acuta. L'assistenza umanitaria ha continuato a fornire supporto vitale, ma le risorse sono state spesso insufficienti per coprire le crescenti esigenze.",
+  "fonti": [
+    "ETH_2023-11-02_20231102_ACAPS_Thematic_Report_Ethiopia_Gender_Analysis_Roles_and_Needs_in_Humanitarian_Crises.pdf",
+    "ETH_2023-december_food-security-outlook-update.pdf",
+    "ETH_2023Q4_2023-12-21_ethiopia-update-9-resumption-of-general-food-distribution-to.pdf",
+    "ETH_mpo_am23.pdf",
+    "ENISA_Threat_Landscape_2023.pdf",
+    "wikipedia:ETH_2023"
+  ]
+}

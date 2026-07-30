@@ -1,0 +1,29 @@
+{
+  "paese": "UKR",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, l'Ucraina continuava a gestire situazioni di conflitto e tensione, con presenza di checkpoint di controllo tra aree governate dal governo ucraino e aree controllate da forze non governative. Le operazioni di monitoraggio dei checkpoint indicano un flusso di persone tra queste due zone, evidenziando la persistenza di una situazione di conflitto. L'UNHCR e altre organizzazioni internazionali erano coinvolte nel monitoraggio delle condizioni di attraversamento e dei diritti delle persone in movimento."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2019, la migrazione nell'Ucraina era caratterizzata da flussi di persone attraverso checkpoint controllati, tra aree governate dal governo ucraino e aree controllate da forze non governative. Le condizioni di attraversamento e le preoccupazioni legate alla protezione delle persone in movimento erano un tema di rilevanza, con monitoraggio da parte di organizzazioni internazionali come l'UNHCR. Le motivazioni per il attraversamento includevano la residenza, il ritorno, e la necessità di attraversare la linea di contatto per varie ragioni, evidenziando la complessità delle dinamiche di movimento di popolazione."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, l'Ucraina era guidata da Petro Poroshenko come Presidente fino al 2019, quando Volodymyr Zelenskyy ha assunto l'incarico. Volodymyr Groysman era il Primo Ministro. Un evento significativo del trimestre fu l'emanazione di un decreto formale da parte di Bartholomew I di Costantinopoli, che ha concesso l'indipendenza alla Chiesa Ortodossa d'Ucraina dalla Chiesa Ortodossa Russa. Le elezioni presidenziali ucraine si sono tenute il 31 marzo 2019, segnando un momento cruciale nella politica nazionale. La situazione geopolitica e le dinamiche di conflitto continuavano a influenzare la scena politica e sociale del paese.",
+  "fonti": [
+    "UKR_2019Q1_2019-03-31_eastern-ukraine-checkpoint-monitoring-report-january-march-2.pdf",
+    "wikipedia:UKR_2019"
+  ]
+}

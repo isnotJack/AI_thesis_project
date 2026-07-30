@@ -1,0 +1,42 @@
+{
+  "paese": "ISR",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il trimestre è caratterizzato da un aumento delle tensioni e degli scontri tra Israele e i gruppi palestinesi, con attacchi reciproci e operazioni militari. Israele effettua raid aerei e terrestri contro obiettivi palestinesi, mentre gruppi palestinesi lanciano razzi verso Israele. Sono riportati episodi di violenza in varie zone, comprese le zone di confine e le città occupate. La situazione è complessa e dinamica, con un aumento delle vittime civili e delle operazioni militari da entrambe le parti."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco di Storm-1133 contro terze parti con legami con Israele, utilizzando campagne di phishing mirate e tecniche di evasione per aggirare le difese.",
+      "Attacco di Storm-1133 contro organizzazioni israeliane nel settore energia, difesa, comunicazioni e tecnologia."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Microsoft Digital Defense Report 2023: 'Palestinian cyber threat actors'"
+    ],
+    "gruppi_minaccia_associati": [
+      "Storm-1133"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Difesa",
+      "Comunicazioni",
+      "Tecnologia"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel trimestre, Israele è caratterizzato da un clima politico e sociale turbolento, con proteste contro le riforme giudiziarie proposte e un aumento delle tensioni con i gruppi palestinesi. La leadership del paese resta stabile con Isaac Herzog come Presidente, Benjamin Netanyahu come Primo Ministro, Esther Hayut come Presidente della Corte Suprema e Herzi Halevi come Capo di Stato Maggiore. L'anno è segnato da eventi significativi come le proteste contro le riforme giudiziarie, gli scontri con i gruppi palestinesi e l'attacco di Hamas del 7 ottobre, che segna un punto di svolta nella situazione regionale.",
+  "fonti": [
+    "Microsoft Digital Defense Report 2023.pdf",
+    "ENISA Threat Landscape 2023.pdf",
+    "wikipedia:ISR_2023"
+  ]
+}

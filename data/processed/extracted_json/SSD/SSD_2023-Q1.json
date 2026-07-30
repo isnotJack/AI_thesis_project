@@ -1,0 +1,32 @@
+{
+  "paese": "SSD",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan è stato caratterizzato da un'attività conflittuale significativa, con scontri armati e violenza intercomunale che hanno coinvolto diverse regioni. I principali attori includono gruppi armati locali, forze di sicurezza e milizie. I scontri hanno portato a spostamenti forzati della popolazione, con migliaia di persone che hanno lasciato le loro case a causa della violenza. La situazione è stata particolarmente intensa in aree come Pibor, Jonglei e Unity, dove le tensioni etniche e le dispute territoriali hanno scatenato episodi di violenza. La presenza di gruppi armati ha anche interferito con l'accesso umanitario e le attività di assistenza, complicando ulteriormente la situazione umanitaria."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è stata principalmente causata da conflitti, insegurezza, condizioni macroeconomiche sfavorevoli e prezzi alimentari elevati. La carestia è stata aggravata dalla perdita di raccolti a causa di inondazioni e dalla riduzione delle risorse alimentari disponibili. L'assistenza alimentare è stata critica per prevenire situazioni di emergenza, ma l'accesso a tale assistenza è stato ostacolato da conflitti e insegurezza. La situazione è stata particolarmente grave in aree come Jonglei, Unity e Upper Nile, dove le famiglie hanno subito forti carenze alimentari."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sud Sudan è stata influenzata da conflitti e insegurezza, con migliaia di persone che hanno lasciato le loro case per sfuggire alla violenza. I flussi di sfollati interni hanno aumentato la pressione sui campi per sfollati e sulle comunità ospitanti, creando sfide significative per l'assistenza umanitaria. La protezione dei migranti è stata un problema critico, con numerosi casi di violenza e abusi riportati nei campi per sfollati. I corridoi di migrazione sono stati ostacolati da conflitti e insegurezza, rendendo difficile l'accesso umanitario e la distribuzione di assistenza."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan ha continuato a essere fragile, con rischi fiscali e esterni significativi. La crescita economica è stata ostacolata da conflitti, insegurezza e condizioni macroeconomiche sfavorevoli. I prezzi alimentari elevati e la scarsità di risorse hanno aggravato la situazione economica. L'assistenza umanitaria è stata critica per supportare la popolazione, ma la situazione economica generale rimane instabile a causa delle sfide continue."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a essere caratterizzato da instabilità politica e conflitti armati. La leadership del paese è rimasta costituita da Salva Kiir Mayardit come Presidente e Riek Machar come Vice Presidente. Gli eventi principali hanno incluso scontri armati e violenza intercomunale, che hanno portato a migliaia di sfollati interni e sfide significative per l'assistenza umanitaria. La pandemia di COVID-19 ha continuato a influenzare la situazione, mentre le conseguenze della guerra civile del 2013 hanno mantenuto un'impronta significativa sulla vita quotidiana. La situazione generale rimane instabile, con continue sfide per la pace e la stabilità.",
+  "fonti": [
+    "fews_net (SSD_2023-march_key-message-update.pdf)",
+    "unhcr_reports (SSD_2023Q1_2023-03-31_south-sudan-refugee-statistics-population-by-country-of-orig.pdf)",
+    "worldbank_mpo (SSD_mpo_am22.pdf)",
+    "fews_net (SSD_2023-february_key-message-update.pdf)",
+    "wikipedia:SSD_2023"
+  ]
+}

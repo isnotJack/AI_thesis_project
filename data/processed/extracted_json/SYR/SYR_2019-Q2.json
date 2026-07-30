@@ -1,0 +1,30 @@
+{
+  "paese": "SYR",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto in Siria ha continuato a intensificarsi, con scontri tra le forze del governo siriano e i gruppi armati di opposizione. Le operazioni militari hanno causato un numero significativo di vittime civili e hanno portato a un aumento dei dislocamenti interni. L'area di Idlib è stata particolarmente colpita, con un'ondata di sfollati che hanno cercato rifugio in zone controllate dall'opposizione. Le operazioni militari hanno anche danneggiato strutture civili, compresi ospedali e scuole, aumentando le esigenze umanitarie. L'escalation delle ostilità ha portato a un deterioramento delle condizioni umanitarie, con limiti all'accesso alle aree colpite e a un aumento delle esigenze di protezione e assistenza umanitaria."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, ci sono stati numerosi dislocamenti interni a causa dell'escalation delle ostilità, con migliaia di persone che hanno lasciato le loro case per cercare rifugio in aree più sicure. Le condizioni dei rifugiati interni sono state critiche, con limiti all'accesso ai servizi umanitari, problemi di alloggio e carenze in termini di assistenza. La mancanza di documenti di stato civile ha costituito un ostacolo significativo per molti sfollati, limitando l'accesso ai servizi essenziali. La situazione ha richiesto un'attenzione particolare per le esigenze di protezione, soprattutto per i gruppi vulnerabili come i bambini, le donne e le persone con disabilità."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, la leadership siriana è rimasta stabile con Bashar al-Assad come presidente, Najah al-Attar come vicepresidente e Imad Khamis come primo ministro. Il paese ha continuato a essere coinvolto in conflitti armati, con scontri intensi tra le forze del governo e i gruppi di opposizione. L'escalation delle ostilità ha portato a un aumento dei dislocamenti interni e a un deterioramento delle condizioni umanitarie, con un forte impatto sulle popolazioni civili. Le operazioni militari hanno causato danni significativi alle infrastrutture civili, aumentando le esigenze di assistenza umanitaria e protezione.",
+  "fonti": [
+    "SYR_2019-05-09_20190509_acaps_start_briefing_note_displacement_northwest_syria_1.pdf",
+    "SYR_2019Q2_2019-06-30_protection-monitoring-quarterly-report-april-june-2019.pdf",
+    "wikipedia:SYR_2019"
+  ]
+}

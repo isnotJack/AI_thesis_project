@@ -1,0 +1,29 @@
+{
+  "paese": "VEN",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il report evidenzia la presenza di un cluster di protezione che si occupa di organizzare e coordinare le risposte alle situazioni di vulnerabilità legate alla migrazione, inclusa la protezione delle persone coinvolte nella tratta di esseri umani. Il cluster collabora con varie organizzazioni per fornire assistenza e protezione alle vittime di tratta, specialmente donne e bambini. Il report menziona anche la collaborazione con il Gruppo di Lavoro Tratta di Persone (GTTdP) per migliorare le risposte e prevenire la tratta."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2022-Q3, il Venezuela ha continuato a essere caratterizzato da una situazione politica complessa, con la presidenza di Nicolás Maduro e la crisi presidenziale che coinvolge anche Juan Guaidó. L'economia del paese rimane sotto pressione, con continue discussioni e negoziati con gli Stati Uniti riguardo alle sanzioni e all'export di petrolio. Nel mese di giugno, il Venezuela ha firmato un accordo di cooperazione economica a lungo termine con l'Iran. Nel campo della sicurezza, sono state confermate azioni contro i dissidenti del FARC, mentre la situazione umanitaria continua a richiedere attenzione, come dimostrato dalle iniziative del cluster di protezione per affrontare la tratta di esseri umani.",
+  "fonti": [
+    "unhcr_reports (VEN_2022Q3_2022-09-30_cl-ster-de-protecci-n-venezuela-bolet-n-trata-de-personas-n-.pdf)",
+    "wikipedia:VEN_2022"
+  ]
+}

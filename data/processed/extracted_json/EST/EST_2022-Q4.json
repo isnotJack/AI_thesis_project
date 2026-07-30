@@ -1,0 +1,33 @@
+{
+  "paese": "EST",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Estonian government websites were temporarily blocked by DDoS attacks querying them several thousand times the normal traffic flow"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Government websites"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In the fourth quarter of 2022, Estonia continued to face challenges related to its geopolitical stance, particularly in response to the ongoing conflict in Ukraine. Estonia's leadership, including President Alar Karis and Prime Minister Kaja Kallas, remained active in international affairs, with the country maintaining its support for Ukraine and taking measures against Russia. Estonia's political landscape saw some changes, including the collapse of the coalition agreement in June and the subsequent formation of a new three-party coalition government in July. Estonia also reported its first case of monkeypox in June, indicating ongoing health monitoring and response efforts.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "wikipedia:EST_2022"
+  ]
+}

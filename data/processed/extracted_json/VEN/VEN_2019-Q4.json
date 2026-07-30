@@ -1,0 +1,29 @@
+{
+  "paese": "VEN",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Venezuela è caratterizzato da una situazione di crisi politica e di tensioni continue tra il presidente Nicolás Maduro e il leader dell'opposizione Juan Guaidó, riconosciuto come presidente interino da alcuni paesi occidentali. Le proteste anti-governative continuano, con forti reazioni da parte delle forze di sicurezza. Vi sono anche sviluppi significativi come l'arresto di funzionari di governo e oppositori, nonché tentativi di ribellione militare che vengono repressi. La situazione rimane instabile con continui scontri tra le parti in causa."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il report dell'UNHCR evidenzia una crescente crisi di migrazione da Venezuela, con un numero significativo di rifugiati e migranti che supera i 4 milioni, rendendo la situazione una delle più gravi crisi di sfollamento globali. La pressione sui paesi di accoglienza è elevata, con sfide significative per la protezione e l'integrazione dei migranti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Venezuela continua a essere segnato da una profonda crisi politica, economica e sociale. La leadership è divisa tra Nicolás Maduro, riconosciuto internamente, e Juan Guaidó, riconosciuto da alcuni paesi come presidente interino. Le tensioni politiche si traducono in proteste popolari e tentativi di ribellione militare, che vengono repressi dalle forze di sicurezza. La situazione è ulteriormente complicata da problemi strutturali come la mancanza di energia elettrica, che ha portato a blackouts di larga scala. La crisi economica e la carenza di beni di base continuano a essere preoccupanti, con conseguenze dirette sulla popolazione. La situazione internazionale è tesa, con sanzioni e azioni diplomatiche da parte di paesi occidentali contro il governo Maduro.",
+  "fonti": [
+    "wikipedia:VEN_2019",
+    "VEN_2019Q4_2019-11-26_unhcr-latin-america-2019-funding-update-as-of-26-november-20.pdf"
+  ]
+}

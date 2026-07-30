@@ -1,0 +1,48 @@
+{
+  "paese": "CHN",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia continua a ristabilirsi, con un recupero del settore dei servizi che si rafforza, alimentato da una domanda dei consumatori in ritardo. Le politiche economiche, ancorate alla partecipazione del Cambogia in accordi di libero scambio bilaterali e regionali, sono attese per supportare ulteriori crescita a livello esportato. Rischi a breve termine sono incluse una marcata ralentamento della domanda esterna, tensioni finanziarie e un nuovo shock dei prezzi del petrolio. L'apertura della Cina presenta un'opportunità per il settore turismo e per attrarre investimenti diretti stranieri."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "People's Republic of China State-Sponsored Cyber Actor Living off the Land to Evade Detection"
+    ],
+    "gruppi_minaccia_associati": [
+      "Raspberry Typhoon",
+      "Flax Typhoon"
+    ],
+    "settori_bersaglio": [
+      "Servizi finanziari",
+      "Telecomunicazioni",
+      "Educazione",
+      "Governo",
+      "Infrastrutture critiche",
+      "Intelligence",
+      "Intelligence economica",
+      "Intelligence militare",
+      "Intelligence politica",
+      "Intelligence tecnologica"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, la Cina ha continuato a essere guidata da Xi Jinping, che ricopre il ruolo di Segretario Generale del Partito Comunista Cinese e Presidente. Nel mese di aprile, l'India ha superato la Cina come paese più popolato al mondo. Nel corso del trimestre, sono stati segnalati diversi incidenti, inclusi un incidente stradale a Nanchang County, un attacco con un veicolo a Guangzhou, un incidente ferroviario a Beijing e un'esplosione di gas a Yinchuan. Nel mese di luglio, un terremoto di magnitudo 6.2 ha causato numerose vittime a Gansu e Qinghai. La Cina ha anche continuato a essere attiva in ambito internazionale, con visite di Stato da parte del Presidente siriano Bashar al-Assad e del Primo Ministro ungherese Viktor Orbán. Nel mese di ottobre, il Ministro della Difesa Li Shangfu è stato rimosso dal suo incarico.",
+  "fonti": [
+    "CHN_mpo_sm23.pdf",
+    "ENISA_Threat_Landscape_2023.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-144a",
+    "wikipedia:CHN_2023"
+  ]
+}

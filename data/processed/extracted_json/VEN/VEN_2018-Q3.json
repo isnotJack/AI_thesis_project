@@ -1,0 +1,31 @@
+{
+  "paese": "VEN",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "La crisi politica e socio-economica in Venezuela ha portato a un aumento significativo dei dislocamenti di massa verso paesi vicini. La situazione interna continua a deteriorarsi, con conseguenze dirette sulla popolazione locale e sui rifugiati. La regione risponde in gran parte in modo reattivo, con strategie per affrontare l'immigrazione venezuelana, piuttosto che proattive. I paesi ospitanti stanno implementando restrizioni di ingresso più severe o rendendo più difficile ottenere lo status legale per i migranti venezuelani."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Vi è un aumento significativo della migrazione venezuelana verso paesi vicini, con sfide di protezione per i migranti, inclusi rischi di esclusione, xenofobia, sfruttamento, tratta di esseri umani e violenza sessuale. I paesi ospitanti stanno implementando misure per gestire l'afflusso, come richiesta di passaporto per l'ingresso, che ha reso più difficile l'accesso ai servizi di base per i migranti. Vi sono anche crescenti problemi di xenofobia e discriminazione nei confronti dei venezuelani nei paesi di accoglienza."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2018, la situazione in Venezuela è stata caratterizzata da una crescente crisi politica e socio-economica, con un aumento significativo dei dislocamenti di massa verso paesi vicini. L'8 agosto, almeno due droni armati con esplosivi hanno detonato nell'area dove il presidente Nicolás Maduro stava tenendo un discorso ai funzionari militari. La crisi ha portato a una serie di reazioni da parte dei paesi vicini, inclusa l'implementazione di restrizioni di ingresso più severe per i migranti venezuelani.",
+  "fonti": [
+    "VEN_2018-09-05_20180905_acaps_short_note_venezuela_regional_update.pdf",
+    "VEN_2018Q3_2018-08-15_unhcr-venezuela-situation-funding-update-2018-as-of-15-augus.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "wikipedia:VEN_2018"
+  ]
+}

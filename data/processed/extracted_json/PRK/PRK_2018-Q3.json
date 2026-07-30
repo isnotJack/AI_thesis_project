@@ -1,0 +1,41 @@
+{
+  "paese": "PRK",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Targeting of U.S. defense contractors (2018-09-06, categoria=Espionage)",
+      "Targeting of AMC Theatres (2018-09-06, categoria=Espionage)",
+      "Targeting of Mammoth Screen (2018-09-06, categoria=Espionage)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "U.S. defense contractors",
+      "U.S. movie theater chain",
+      "UK production company"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2018, la Corea del Nord ha continuato a cercare di sviluppare le sue relazioni internazionali, in particolare con la Corea del Sud. Nel mese di settembre, un grande parata militare è stata tenuta a Pyongyang in onore del 70º anniversario della fondazione della Repubblica Popolare Democratica della Corea. La parata è stata frequentata da delegazioni di vari paesi, inclusi la Russia, la Mauritania, Cuba, la Siria, il Libano, la Palestina, la Repubblica Dominicana, l'Uganda e la Sudafrica. Inoltre, il 18-20 settembre è stato tenuto il vertice intercoreano di settembre 2018.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/targeting-of-amc-theatres",
+    "https://www.cfr.org/cyber-operations/targeting-of-mammoth-screen",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-defense-contractors",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-defense-contractors-2",
+    "wikipedia:PRK_2018"
+  ]
+}

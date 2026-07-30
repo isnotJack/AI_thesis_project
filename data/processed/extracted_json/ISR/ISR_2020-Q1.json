@@ -1,0 +1,28 @@
+{
+  "paese": "ISR",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2020, Israele ha continuato a gestire tensioni con i suoi vicini regionali. Nel gennaio, Israele ha iniziato le operazioni complete del campo di gas naturale Leviathan. Nel febbraio, ci sono stati attacchi da parte di militanti islamici contro un gasdotto tra Egitto e Israele nel Sinai settentrionale. Lo stesso mese, Israele ha condotto raid aerei contro obiettivi in Siria, causando la morte di militanti. Nel marzo, Israele ha ordinato il blocco di esportazioni agricole palestinesi dal West Bank a causa di limitazioni imposte dalle autorità palestinesi sull'importazione di bestiame israeliano. Nel marzo, Israele ha anche ordinato a tutti gli arrivi dall'estero di mettersi in quarantena per combattere la diffusione del COVID-19. Nel corso del trimestre, ci sono stati episodi di violenza tra forze israeliane e palestinesi nel West Bank e a Gerusalemme Est."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, Israele ha continuato sotto la leadership del Presidente Reuven Rivlin e del Primo Ministro Benjamin Netanyahu. Il paese ha affrontato una serie di sviluppi politici, diplomatici e di sicurezza. Nel gennaio, il Primo Ministro Netanyahu ha richiesto l'immunità parlamentare dalle accuse di corruzione. Nello stesso mese, Israele ha iniziato le operazioni complete del campo di gas naturale Leviathan. Nel febbraio, Israele ha condotto raid aerei contro obiettivi in Siria e ha risposto a attacchi da parte di militanti islamici nel Sinai settentrionale. Nel marzo, Israele ha ordinato il blocco di esportazioni agricole palestinesi dal West Bank e ha messo in quarantena tutti gli arrivi dall'estero per combattere la diffusione del COVID-19. Nel corso del trimestre, ci sono stati episodi di violenza tra forze israeliane e palestinesi nel West Bank e a Gerusalemme Est.",
+  "fonti": [
+    "wikipedia:ISR_2020"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "paese": "SAU",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la situazione di conflitto in Arabia Saudita è caratterizzata da continue tensioni con il movimento Houthi in Yemen. Vi sono stati diversi attacchi da parte dei Houthi contro le infrastrutture energetiche saudite, inclusi attacchi con missili e droni contro le installazioni di ARAMCO. La coalizione guidata dall'Arabia Saudita ha risposto con raid aerei contro i bersagli nel Yemen. Inoltre, ci sono stati sviluppi significativi nei negoziati con l'Iran, con dichiarazioni del Principe ereditario Mohammed bin Salman che indicano un continuo dialogo per raggiungere un accordo tra i due paesi. L'Arabia Saudita ha anche sospeso temporaneamente le attività militari nel Yemen in risposta a un cessate il fuoco mediato dalle Nazioni Unite."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita mostra un outlook positivo con una crescita accelerata stimata per il 2022, supportata da un aumento dei prezzi del petrolio e da un recupero del settore non petrolifero. Il governo continua a diversificare l'economia attraverso iniziative come Vision 2030, con un focus sullo sviluppo di settori non petroliferi. Tuttavia, ci sono rischi fiscali e esterni legati alla volatilità dei prezzi del petrolio e alle condizioni finanziarie globali. Il deficit di bilancio si è ridotto grazie a un aumento delle entrate petrolifere, e il paese si sta muovendo verso un bilancio in surplus. L'inflazione è stata contenuta, e ci sono prospettive positive per la crescita economica a medio termine."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, l'Arabia Saudita ha continuato a gestire la pandemia di COVID-19, con la decisione di alzare le restrizioni, inclusi i requisiti di test PCR e le richieste di quarantena per i viaggiatori. Ci sono stati sviluppi significativi nei negoziati con l'Iran, con dichiarazioni del Principe ereditario Mohammed bin Salman che indicano un continuo dialogo per raggiungere un accordo tra i due paesi. L'Arabia Saudita ha anche sospeso temporaneamente le attività militari nel Yemen in risposta a un cessate il fuoco mediato dalle Nazioni Unite. Inoltre, ci sono stati sviluppi nella situazione interna, con sentenze severe contro attivisti e blogger per attività di dissidenza online.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_sm22.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "wikipedia:SAU_2022"
+  ]
+}

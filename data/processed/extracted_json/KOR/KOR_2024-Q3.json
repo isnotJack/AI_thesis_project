@@ -1,0 +1,29 @@
+{
+  "paese": "KOR",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, la Corea del Sud ha continuato a gestire tensioni con la Corea del Nord, evidenziate da episodi come l'invio di palloni con rifiuti verso il Sud e l'accusa di invio di droni con propaganda. L'attenzione internazionale è stata attirata da eventi come la dichiarazione di legge marziale da parte del presidente Yoon Suk Yeol, che ha generato turbolenze politiche e istituzionali. In ambito internazionale, la Corea del Sud ha mantenuto rapporti strategici con paesi come Nuova Zelanda e Slovacchia, e ha partecipato a sommosse globali come la crisi tra Israele e Iran. All'interno del paese, sono stati risolti alcuni casi giudiziari di rilievo, inclusi quelli relativi a corruzione e abuso di potere da parte di funzionari pubblici.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:KOR_2024"
+  ]
+}

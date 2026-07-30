@@ -1,0 +1,31 @@
+{
+  "paese": "SAU",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2023, l'Arabia Saudita ha fatto fronte a diversi sviluppi legati al conflitto. Un attacco da parte dei miliziani Houthis ha causato la morte di quattro truppe saudite nella provincia di Jazan, vicino alla frontiera con il Yemen. In risposta, l'Arabia Saudita ha dichiarato uno stato di allerta elevata e ha abbattuto un missile balistico lanciato verso Israele. In precedenza, nel mese di ottobre, il paese aveva richiesto ai suoi cittadini di lasciare immediatamente il Libano a causa della situazione di sicurezza in peggioramento nel sud del paese. Questi eventi riflettono la continua tensione regionale e le minacce di sicurezza che l'Arabia Saudita affronta."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per l'Arabia Saudita nel quarto trimestre del 2023 indica una crescita moderata, con rischi fiscali ed esterni legati alla volatilità dei prezzi del petrolio e alle decisioni di taglio delle quote di produzione dell'OPEC+. L'economia continua a beneficiare degli sforzi di diversificazione, ma le prospettive di crescita a lungo termine sono legate alla realizzazione dei piani di riforma strutturale e alla stabilità dei mercati petroliferi. Il paese fa affidamento su investimenti pubblici e privati per promuovere la crescita inclusiva e sostenibile, nonostante le incertezze legate alla politica monetaria globale e alla volatilità dei mercati finanziari."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2023, l'Arabia Saudita ha continuato a fare fronte a diversi sfide e sviluppi significativi. Il paese ha mantenuto una posizione di leadership regionale, come dimostrato dalla sua partecipazione attiva ai negoziati politici e alla gestione delle tensioni con il Yemen e il Libano. L'economia saudita, fortemente legata al settore petrolifero, ha continuato a essere influenzata dalle dinamiche dei mercati globali, con l'OPEC+ che ha preso decisioni cruciali sulle quote di produzione. Nel settore dello spazio, l'Arabia Saudita ha continuato a fare progressi, con astronauti partecipanti a missioni spaziali internazionali. Nel campo sportivo, il paese ha ospitato importanti eventi, come il Rally Dakar e il Campionato Mondiale di Sollevamento Pesi. Tuttavia, la sicurezza interna e regionale rimane una priorità, come evidenziato dagli attacchi da parte dei miliziani Houthis e dalle misure di sicurezza adottate nei confronti del Libano.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_am23.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "wikipedia:SAU_2023"
+  ]
+}

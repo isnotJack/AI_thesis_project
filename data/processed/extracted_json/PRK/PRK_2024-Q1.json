@@ -1,0 +1,44 @@
+{
+  "paese": "PRK",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2024, la Corea del Nord ha intensificato le tensioni con la Corea del Sud attraverso una serie di azioni militari e retoriche. Il 5 gennaio, la Corea del Nord ha sparato 200 proiettili d'artiglieria vicino all'isola di Yeonpyeong della Corea del Sud, causando evacuazioni. Il 15 gennaio, il leader supremo Kim Jong Un ha dichiarato che la riunificazione della penisola coreana non è più possibile e ha chiesto all'Assemblea Suprema del Popolo di emendare la costituzione per riconoscere formalmente la Corea del Sud come uno stato separato. Il 16 gennaio, Kim Jong Un ha dichiarato la Corea del Sud come il 'nemico principale', rifiutando la riunificazione e chiamando alla pianificazione della guerra, spezzando i legami e chiudendo le organizzazioni a causa delle crescenti tensioni. Il 19 gennaio, la Corea del Nord ha annunciato di aver testato una bomba nucleare trasportata da un drone sottomarino non equipaggiato nel Mar del Giappone. Tra il 19 e il 23 gennaio, l'Arco della Riunificazione è stato demolito, come rivelato da immagini satellitari. Nel marzo, la Corea del Nord ha rifiutato qualsiasi dialogo con il Giappone, dopo che il primo ministro giapponese Fumio Kishida ha dichiarato la sua disponibilità a incontrare Kim Jong Un di persona. La Russia ha bloccato la continuazione del monitoraggio delle sanzioni ONU sul programma nucleare della Corea del Nord."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "North Korea Cyber Group Conducts Global Espionage Campaign"
+    ],
+    "gruppi_minaccia_associati": [
+      "Andariel",
+      "Onyx Sleet",
+      "DarkSeoul",
+      "Silent Chollima",
+      "Stonefly/Clasiopa"
+    ],
+    "settori_bersaglio": [
+      "Difesa",
+      "Aerospazio",
+      "Nucleare",
+      "Ingegneria"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, la Corea del Nord ha continuato a mostrare un atteggiamento aggressivo nei confronti della Corea del Sud, con una serie di azioni militari e dichiarazioni retoriche che hanno intensificato le tensioni tra le due nazioni. Il leader supremo Kim Jong Un ha dichiarato la Corea del Sud come il 'nemico principale' e ha chiamato alla pianificazione della guerra, spezzando i legami e chiudendo le organizzazioni a causa delle crescenti tensioni. La Corea del Nord ha anche testato una bomba nucleare trasportata da un drone sottomarino non equipaggiato nel Mar del Giappone. Inoltre, la Corea del Nord ha rifiutato qualsiasi dialogo con il Giappone, dopo che il primo ministro giapponese Fumio Kishida ha dichiarato la sua disponibilità a incontrare Kim Jong Un di persona. La Russia ha bloccato la continuazione del monitoraggio delle sanzioni ONU sul programma nucleare della Corea del Nord.",
+  "fonti": [
+    "cisa (PRK_aa24-207a-dprk-cyber-group-conducts-global-espionage-campaign_0.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:PRK_2024"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "paese": "PRK",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, la Corea del Nord ha continuato sotto la leadership di Kim Jong-un. Tra gli eventi principali, il 21 luglio si sono tenute le elezioni locali in Corea del Nord. In precedenti mesi del trimestre, il paese ha partecipato a un summit con la Russia, dove Kim Jong-un ha incontrato Vladimir Putin per discutere del programma nucleare nordcoreano e cercare il sostegno russo per le trattative con gli Stati Uniti. Putin ha accettato l'invito di Kim per una visita in Corea del Nord. Nel corso del trimestre, la Corea del Nord ha anche partecipato a un Universal Periodic Review presso il Consiglio dei Diritti Umani delle Nazioni Unite, accettando alcune raccomandazioni sulle questioni dei diritti umani. Inoltre, è stato organizzato un summit improvvisato tra Kim Jong-un, il presidente sudcoreano Moon Jae-in e il presidente degli Stati Uniti Donald Trump. Nel mese di novembre, due pescatori nordcoreani sono stati espulsi dalla Corea del Sud per affrontare accuse di omicidio in Corea del Nord.",
+  "fonti": [
+    "wikipedia:PRK_2019"
+  ]
+}

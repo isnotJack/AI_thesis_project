@@ -1,0 +1,29 @@
+{
+  "paese": "EST",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, l'Estonia ha continuato a fare fronte a diverse sfide e sviluppi significativi. Tra questi, l'incidente del cavo sottomarino Estlink-2, che collega l'Estonia alla Finlandia attraverso il Golfo di Finlandia, ha causato una significativa diminuzione dell'approvvigionamento elettrico del paese. L'incidente ha suscitato sospetti che un'imbarcazione legata alla Russia potrebbe essere responsabile. Questo episodio ha evidenziato le vulnerabilità infrastrutturali dell'Estonia e le tensioni con la Russia. In precedenza, nel trimestre, l'Estonia aveva annunciato il suo allontanamento dalle reti elettriche di Russia e Bielorussia, con piani per sincronizzare la propria rete con quella dell'Europa continentale a partire dal 9 febbraio 2025. Questa decisione era parte di un più ampio impegno dei paesi baltici per proteggersi dalle minacce militari, economiche e legate ai migranti provenienti dalla Russia e dalla Bielorussia. L'Estonia ha continuato a mantenere una leadership stabile, con Kristen Michal succedendo a Kaja Kallas come Primo Ministro. L'anno ha visto anche l'adesione dell'Estonia all'Organizzazione Europea per la Ricerca Nucleare (CERN), confermando il suo impegno nella ricerca scientifica internazionale.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:EST_2024"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "paese": "VEN",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": "La crisi economica e politica in Venezuela ha portato a una situazione di instabilità, con problemi legati alla mancanza di accesso ai beni di base e alla salute. La crisi ha esacerbato le tensioni politiche, con un'erosione delle istituzioni democratiche. La situazione è stata ulteriormente complicata da un aumento dei prezzi e dalla scarsità di beni essenziali, che hanno portato a proteste e tensioni sociali. La crisi ha anche avuto un impatto significativo sulla salute, con problemi di accesso ai servizi medici e alla mancanza di medicinali."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La crisi in Venezuela ha portato a un aumento significativo dei flussi migratori verso paesi vicini, come Colombia, Brasile e Perù. I motivi principali della migrazione includono la mancanza di accesso a cibo, lavoro, servizi di salute e la paura di violenza. La situazione ha creato crescenti preoccupazioni per la protezione dei migranti, con paesi di accoglienza che stanno affrontando pressioni crescenti a causa dell'arrivo di un numero crescente di rifugiati. La mancanza di documenti di identità e la paura di persecuzione sono stati citati come motivi per la fuga da Venezuela."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2018, la situazione in Venezuela è stata caratterizzata da una crescente crisi economica e politica. La leadership del paese era guidata da Nicolás Maduro, con una serie di eventi che hanno segnato il periodo, inclusi i tentativi di sanzioni da parte dell'Unione Europea contro alcuni funzionari venezuelani. La crisi ha portato a un aumento dei prezzi e alla scarsità di beni essenziali, con conseguenti effetti sulla salute e sulla sicurezza alimentare della popolazione. La situazione politica è stata ulteriormente complicata da elezioni presidenziali, che hanno visto la rielezione di Maduro. La crisi ha anche avuto un impatto significativo sulla migrazione, con un numero crescente di venezuelani che hanno lasciato il paese in cerca di opportunità economiche e di una vita migliore nei paesi vicini.",
+  "fonti": [
+    "VEN_2018-05-23_20180523_acaps_thematic_report_humanitarian_crisis_in_venezuela.pdf",
+    "VEN_2018Q2_2018-06-13_unhcr-venezuela-situation-2018-funding-update-as-of-13-june-.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "wikipedia:VEN_2018"
+  ]
+}

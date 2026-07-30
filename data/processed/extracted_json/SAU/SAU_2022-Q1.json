@@ -1,0 +1,39 @@
+{
+  "paese": "SAU",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2022, l'Arabia Saudita ha continuato a essere coinvolta in conflitti regionali, principalmente legati alla situazione in Yemen. L'esercito saudita ha condotto diversi raid aerei contro i bersagli dei ribelli Houthis in Yemen, in risposta a attacchi contro le infrastrutture energetiche saudite. Un attacco aereo ha colpito un aeroporto internazionale in Abha, causando feriti. Inoltre, il paese ha partecipato a negoziati di pace con i Houthis, culminando in un cessate il fuoco nazionale mediato dall'ONU. L'Arabia Saudita ha anche mantenuto la sua posizione nei confronti dell'Iran, dichiarando la volontà di continuare le trattative per raggiungere un accordo tra i due paesi."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita si sta riprendendo dopo la recessione del 2020, con segni di ripresa nel primo trimestre del 2022. Il paese sta implementando riforme strutturali per promuovere un crescita sostenibile, inclusiva, verde e guidata dal servizio, come parte del piano di diversificazione Vision 2030. Tuttavia, ci sono rischi fiscali ed esterni legati alla ripresa, inclusi i rischi legati alla ripresa del COVID-19 e alle condizioni finanziarie globali. L'Arabia Saudita sta anche facendo progressi nella trasformazione del modello di crescita, con un'attenzione particolare alla riduzione dell'incidenza della povertà e all'incremento della partecipazione femminile al mercato del lavoro."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro una compagnia petrolifera saudita"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian targeting of critical infrastructure"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iranian threat actors"
+    ],
+    "settori_bersaglio": [
+      "Energy sector",
+      "Critical infrastructure"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, l'Arabia Saudita ha continuato a fare fronte a diversi sfide, comprese le conseguenze della pandemia di COVID-19 e i conflitti regionali. Il paese ha mantenuto la sua leadership politica con il Principe ereditario Mohammed bin Salman al centro delle decisioni strategiche. Sono stati segnalati diversi eventi significativi, inclusi attacchi contro infrastrutture energetiche, negoziati di pace con i ribelli Houthis in Yemen e la liberazione di un blogger saudita dopo una lunga detenzione. L'Arabia Saudita ha anche mantenuto la sua posizione nei confronti dell'Iran, dichiarando la volontà di continuare le trattative per raggiungere un accordo tra i due paesi. Inoltre, il paese ha iniziato a sollevare le restrizioni legate al COVID-19, segno di una ripresa economica e sociale.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_am21.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "wikipedia:SAU_2022"
+  ]
+}

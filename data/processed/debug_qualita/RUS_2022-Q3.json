@@ -1,0 +1,51 @@
+{
+  "paese": "RUS",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto principale nel trimestre è rappresentato dalla guerra in Ucraina, con l'annessione di territori ucraini da parte della Russia. Vi sono stati sviluppi significativi, inclusi i riferimenti a referendumi per l'annessione di regioni ucraine, la mobilitazione russa e le critiche internazionali. L'attività bellica continua con azioni militari e dichiarazioni politiche legate alla guerra."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra segni di resilienza nonostante le sanzioni internazionali, con un forte recupero dopo la contrazione del 2020. Tuttavia, ci sono rischi fiscali e esterni legati alla guerra in Ucraina e alle conseguenti sanzioni. La crescita economica è influenzata da fattori come il turismo, le esportazioni di beni e il recupero del settore energetico."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+      "RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf"
+    ],
+    "gruppi_minaccia_associati": [
+      "FSB",
+      "SVR",
+      "GRU",
+      "TsNIIKhM",
+      "APT40",
+      "APT28",
+      "APT29"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Infrastrutture critiche",
+      "Servizi finanziari",
+      "Governo",
+      "Militare",
+      "Media"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, la leadership russa è rimasta stabile con Vladimir Putin come Presidente, Mikhail Mishustin come Primo Ministro, Valentina Matvienko come Presidente del Consiglio Federale e Vyacheslav Volodin come Presidente della Duma di Stato. L'evento principale è la guerra in Ucraina, che ha portato a una serie di sviluppi politici e militari, inclusi i riferimenti a referendumi per l'annessione di territori ucraini, la mobilitazione russa e le critiche internazionali. L'attività bellica continua con azioni militari e dichiarazioni politiche legate alla guerra.",
+  "fonti": [
+    "RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+    "RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf",
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "RUS_mpo_sm22.pdf",
+    "wikipedia:RUS_2022"
+  ]
+}

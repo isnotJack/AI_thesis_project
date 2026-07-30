@@ -1,0 +1,53 @@
+{
+  "paese": "CHN",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita economica per la Cina indica una crescita moderata con rischi fiscali e esterni significativi. Si prevede una crescita lenta a causa di headwinds esterni e sfide domestiche, con un rallentamento del PIL prospettico. Si evidenziano rischi legati alla politica fiscale, alla situazione del mercato immobiliare e all'incertezza legata alla pandemia di COVID-19."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "People’s Republic of China State-Sponsored Cyber Actors Exploit Network Providers and Devices (2022-06-07)"
+    ],
+    "gruppi_minaccia_associati": [
+      "APT29",
+      "HoneyMyte",
+      "GADOLINIUM",
+      "RADIUM",
+      "GALLIUM",
+      "NICKEL"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "Diplomatico",
+      "NGO",
+      "Think tanks/NGOs",
+      "Media",
+      "IT",
+      "Educazione",
+      "Informatica",
+      "Servizi",
+      "Energia",
+      "Telecomunicazioni"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, la Cina ha continuato a gestire sfide legate alla pandemia di COVID-19, con nuove misure di controllo e lockdown in alcune aree. Si è assistito a eventi significativi come il 90º anniversario dell'istituzione del Manchukuo e l'annuncio di Hainan che proibisce la vendita di nuove automobili a combustione interna entro il 2030. L'anno ha visto anche l'inizio del 20º Congresso Nazionale del Partito Comunista Cinese, con Xi Jinping rieletto come Segretario Generale. Nel contesto economico, si è registrato un rallentamento della crescita, con preoccupazioni legate alla situazione del mercato immobiliare e alla politica fiscale.",
+  "fonti": [
+    "CHN_mpo_sm22.pdf",
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-158a",
+    "wikipedia:CHN_2022"
+  ]
+}

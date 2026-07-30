@@ -1,0 +1,31 @@
+{
+  "paese": "VEN",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si è assistito a diversi episodi di conflitto, inclusi scontri tra gruppi armati e forze di sicurezza venezuelane. Questi episodi hanno coinvolto principalmente aree come Apure, dove si sono verificati scontri tra il FARC e le forze di sicurezza venezuelane. Inoltre, sono stati segnalati conflitti armati in Colombia, che hanno potenzialmente influenzato la situazione lungo la frontiera con Venezuela. La presenza di gruppi armati e le tensioni lungo la frontiera hanno aumentato le preoccupazioni per la sicurezza e la protezione delle persone in transito, inclusi i caminantantes."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La migrazione da Venezuela verso paesi vicini, come Colombia, Ecuador, Perù e altri, è stata influenzata da fattori come la crisi economica, la carenza di servizi di base e la mancanza di opportunità. I caminantantes, ovvero migranti e rifugiati che viaggiano a piedi, hanno affrontato significativi rischi di protezione durante il loro viaggio, inclusi l'estorsione, l'esposizione a violenze fisiche e sessuali, e la mancanza di accesso ai servizi di base. La chiusura delle frontiere e le restrizioni di movimento legate alla pandemia di COVID-19 hanno reso più difficoltoso il viaggio per i caminantantes, costringendoli a usare percorsi non ufficiali e a correre maggiori rischi. La situazione ha richiesto un aumento dei servizi umanitari per fornire assistenza ai migranti e rifugiati in transito."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, la situazione politica a Venezuela è stata caratterizzata da continue tensioni tra il presidente Nicolás Maduro e Juan Guaidó, riconosciuto come presidente interino da alcuni paesi occidentali. La leadership del paese è stata segnata da una crisi politica duratura, con Maduro che continua a governare mentre Guaidó cerca di ottenere riconoscimento internazionale. La situazione economica è rimasta fragile, con continue difficoltà finanziarie e problemi di accesso ai servizi di base. La pandemia di COVID-19 ha aggiunto ulteriori sfide, con restrizioni di movimento e problemi legati alla distribuzione di vaccini. La situazione ha avuto un impatto significativo sulla popolazione, con migliaia di venezuelani che hanno continuato a lasciare il paese in cerca di opportunità economiche e di una vita migliore.",
+  "fonti": [
+    "VEN_2021-01-21_20210121_acaps_thematic_report_caminantes_in_colombia_and_venezuela.pdf",
+    "VEN_2021-01-21_20210121_acaps_thematic_report_caminantes_in_colombia_and_venezuela_spanish.pdf",
+    "VEN_2021Q1_2021-03-31_hoja-resumen-respuesta-venezuela-cl-ster-de-protecci-n-febre.pdf",
+    "wikipedia:VEN_2021"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "paese": "KOR",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Compromise of South Korean resettlement agency (2018-12-28, categoria=Doxing): sponsor=Korea (Democratic People's Republic of), vittime=Korea (Republic of), ruolo=vittima. The personal information of nearly one thousand North Koreans who defected to South Korea was leaked after unknown hackers gained access to the database of South Korea’s resettlement agency."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "APT 39"
+    ],
+    "settori_bersaglio": [
+      "Resettlement agency"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In ottobre 2018, la Corea del Sud ha continuato a gestire le tensioni con la Corea del Nord, mantenendo un dialogo diplomatico. L'attenzione si è concentrata sulle sanzioni economiche internazionali contro la Corea del Nord e sulle attività di non-proliferazione nucleare. Internamente, la Corea del Sud ha affrontato questioni politiche e sociali, incluse le proteste contro le compagnie aeree e le discussioni sulle migrazioni. L'attenzione internazionale ha continuato a focalizzarsi sulle relazioni tra le due Coree e sulle strategie di contenimento del programma nucleare nordcoreano.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/apt-39",
+    "https://www.cfr.org/cyber-operations/compromise-of-south-korean-resettlement-agency",
+    "wikipedia:KOR_2018"
+  ]
+}

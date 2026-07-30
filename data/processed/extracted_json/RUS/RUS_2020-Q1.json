@@ -1,0 +1,33 @@
+{
+  "paese": "RUS",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "STRONTIUM"
+    ],
+    "settori_bersaglio": [
+      "sporting and anti-doping organizations"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In Russia, the COVID-19 pandemic was a significant ongoing event during the first quarter of 2020. The country implemented various measures to prevent the spread of the virus, including closing its land border with China and suspending the entry of Chinese citizens for employment, private, educational, and tourist purposes. The relatively low number of confirmed COVID-19 cases in Moscow was attributed to a low level of testing. Additionally, there were concerns about the spread of the virus, leading to the closure of various venues and parks, which were turned into temporary hospitals. The government also decided to close all border checkpoints, including on the Belarus border, with exceptions similar to those for air travel restrictions.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:RUS_2020"
+  ]
+}

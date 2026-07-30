@@ -1,0 +1,31 @@
+{
+  "paese": "SSD",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan è stato caratterizzato da un'attività conflittuale significativa, con scontri tra gruppi etnici e attivismo armato. I combattimenti tra Dinka e Murle hanno causato violenze significative, mentre le tensioni tra le forze governative e l'opposizione hanno portato a attacchi reciproci. La regione di Abyei è stata teatro di attacchi da parte di milizie arabe, con conseguenze tragiche. La situazione è stata ulteriormente complicata da conflitti tra tribù che hanno portato a un aumento dei dislocati interni. L'ambiente di instabilità continua a influenzare negativamente la sicurezza e la stabilità del paese."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia nel Sud Sudan è stata attribuita principalmente a fattori come la siccità, il conflitto e la crisi economica. Le condizioni di sicurezza hanno limitato l'accesso alle aree remote, rendendo difficile la distribuzione di aiuti umanitari. La deplezione delle scorte alimentari, l'insufficienza di raccolti e la mancanza di accesso ai mercati hanno contribuito a una situazione di grave carestia in diverse regioni del paese."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è stata un problema significativo, con un numero crescente di dislocati interni a causa dei conflitti etnici e delle violenze. La mancanza di protezione e le barriere operative hanno reso difficile la gestione delle campagne di assistenza nei campi per sfollati. La situazione dei dislocati interni è stata particolarmente critica, con sfide legate all'assistenza e alla sicurezza."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan si è rivelata fragile, con rischi fiscali e esterni evidenziati. La dipendenza dal settore petrolifero ha continuato a pesare, con conseguenze negative sulla crescita economica. Le prospettive di crescita sono state compromesse da fattori come la scarsità di risorse finanziarie e la mancanza di diversificazione economica. La povertà resta un problema persistente, con livelli elevati di popolazione vulnerabile."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a essere afflitto da instabilità politica e conflitti etnici. La leadership del paese, con il presidente Salva Kiir e il vicepresidente Riek Machar, ha fatto fronte a sfide significative, incluse le tensioni interne e le relazioni con il Sudan. L'anno ha visto una serie di eventi che hanno contribuito a mantenere un clima di instabilità, tra cui attacchi armati, conflitti etnici e problemi legati alla governance. La pandemia di COVID-19 ha continuato a influenzare la situazione, aggiungendo ulteriori sfide alla già fragile situazione umanitaria e economica del paese.",
+  "fonti": [
+    "fews_net (SSD_2022-march_key-message-update.pdf)",
+    "unhcr_reports (SSD_2022Q1_2022-03-25_cccm-cluster-south-sudan-bentiu-idp-camp-service-provision-m.pdf)",
+    "worldbank_mpo (SSD_mpo_am21.pdf)",
+    "wikipedia:SSD_2022"
+  ]
+}

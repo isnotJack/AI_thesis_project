@@ -1,0 +1,47 @@
+{
+  "paese": "CHN",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Compromise of Managed Service Providers and technology companies",
+      "Compromise of the EU’s diplomatic communication network",
+      "Targeting of U.S. Navy contractors",
+      "Compromise of Marriott International",
+      "Compromise of American aerospace companies"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "technology companies",
+      "diplomatic communication network",
+      "U.S. Navy contractors",
+      "Marriott International",
+      "American aerospace companies"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "In ottobre, le autorità della Cina popolare hanno ordinato a Fan Bingbing e alle società che controlla di pagare intorno a 883 milioni di yuan (circa 129 milioni di dollari) in tasse, multe e sanzioni. Lei ha anche rotto il silenzio sul suo account Weibo per scusarsi per ciò che aveva fatto. Nel novembre, è stato inaugurato con grande pompa l'esposizione 'Great Change – A Large-Scale Exhibition Celebrating the 40th Anniversary of Reform and Opening-up' al Museo Nazionale della Repubblica Popolare Cinese. Nel pomeriggio dello stesso giorno, Xi Jinping è venuto a visitare l'esposizione, rivedendo il glorioso percorso dei 40 anni di riforme e apertura, e proclamando la determinazione ferma di proseguire con le riforme e l'apertura.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/compromise-of-american-aerospace-companies",
+    "https://www.cfr.org/cyber-operations/compromise-of-managed-service-providers-and-technology-companies",
+    "https://www.cfr.org/cyber-operations/compromise-of-marriott-international",
+    "https://www.cfr.org/cyber-operations/compromise-of-the-eus-diplomatic-communication-network",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-navy-contractors",
+    "wikipedia:CHN_2018"
+  ]
+}

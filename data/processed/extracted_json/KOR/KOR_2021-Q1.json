@@ -1,0 +1,30 @@
+{
+  "paese": "KOR",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, la Corea del Sud ha visto la leadership politica con il presidente Moon Jae-in al potere. Il primo ministro Kim Boo-kyum è entrato in carica a partire dal 14 maggio 2021. Durante questo periodo, il governo sudcoreano ha espresso proteste e rammarico per la decisione del governo giapponese di scaricare le acque radioattive della centrale nucleare di Fukushima nel Pacifico. Questi eventi riflettono le dinamiche politiche e le relazioni internazionali del paese durante il trimestre.",
+  "fonti": [
+    "wikipedia:KOR_2021",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf"
+  ]
+}

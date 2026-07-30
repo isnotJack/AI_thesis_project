@@ -1,0 +1,30 @@
+{
+  "paese": "SYR",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2022, la Siria ha continuato a essere coinvolta in conflitti interni e esterni. All'interno del paese, ci sono state tensioni tra fazioni armate, come le scaramucce tra Ahrar al-Sham e il Levant Front, entrambe appoggiate dalla Turchia. All'esterno, la Siria ha espresso supporto alla Russia per la sua riconoscenza delle Repubbliche Popolari di Donetsk e Luhansk. Inoltre, ci sono state azioni militari da parte di Israele contro posizioni militari siriane vicino Damasco, causando perdite tra le forze governative siriane."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'UNHCR ha riferito di un crescente bisogno di assistenza umanitaria in Siria, con un aumento del 9% rispetto all'anno precedente. L'agenzia ha fornito protezione e assistenza a rifugiati, membri della comunità di accoglienza, persone internamente sfollate, ritornate e senza stato. L'UNHCR ha anche condotto valutazioni partecipative per comprendere meglio le esigenze e le vulnerabilità delle popolazioni coinvolte, inclusi i gruppi più vulnerabili come le donne, i bambini e le persone con disabilità. L'agenzia ha anche sostenuto iniziative comunitarie per promuovere la partecipazione delle donne e la sensibilizzazione sui diritti umani."
+  },
+  "economia": {
+    "sintesi": "L'economia siriana continua a subire gravi pressioni, con inflazione a tre cifre che colpisce in modo disproporzionato i poveri e le persone vulnerabili. L'aumento dei prezzi dei generi alimentari ha reso difficile per le famiglie acquistare il cibo di base. Il governo siriano ha ridotto i sussidi per contenere le spese, ma ciò ha ulteriormente deteriorato le condizioni di vita delle persone. L'economia è particolarmente vulnerabile alle fluttuazioni dei prezzi dei beni di consumo essenziali, come cibo e carburante, e alla dipendenza da importazioni. L'inflazione è prevista di rimanere alta a breve termine, con rischi fiscali e esterni significativi."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, la Siria ha continuato a essere governata da Bashar al-Assad, con Najah al-Attar come Vice Presidente e Hussein Arnous come Primo Ministro. L'anno ha visto diversi eventi significativi, inclusi attacchi da parte di gruppi armati interni e azioni militari da parte di paesi esterni. La Siria ha espresso supporto alla Russia per la sua riconoscenza delle Repubbliche Popolari di Donetsk e Luhansk. Ci sono state anche azioni militari da parte di Israele contro posizioni militari siriane vicino Damasco. L'economia siriana continua a subire gravi pressioni, con inflazione a tre cifre e crescenti bisogni umanitari. L'UNHCR ha riferito di un aumento del bisogno di assistenza umanitaria, con un focus particolare sulla protezione delle donne, dei bambini e delle persone con disabilità.",
+  "fonti": [
+    "SYR_2022Q2_2022-06-30_unhcr-syria-briefing-note-good-practices-in-gender-sensitive.pdf",
+    "SYR_mpo_sm22.pdf",
+    "wikipedia:SYR_2022"
+  ]
+}

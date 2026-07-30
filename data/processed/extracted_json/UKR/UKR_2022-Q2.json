@@ -1,0 +1,32 @@
+{
+  "paese": "UKR",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con intensità elevata, con attacchi e movimenti di truppe in diverse regioni. Le operazioni militari si concentrano principalmente sulle regioni di Luhansk, Donetsk, Zaporizhzhia e Kherson. Il fronte è relativamente stabile dopo le controffensive ucraine a est e a sud, ma le operazioni continue causano danni significativi alle infrastrutture civili e alla popolazione locale. Le operazioni militari includono attacchi aerei, bombardamenti e movimenti di truppe, con alcune zone come Severodonetsk e Sloviansk che sono oggetto di intensi combattimenti. Le forze ucraine continuano a respingere gli attacchi russi, mantenendo la resistenza in alcune zone chiave. Il conflitto ha anche implicazioni significative per la sicurezza alimentare a livello globale a causa dell'interferenza con l'esportazione di grano ucraino."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": "Non specificato nei documenti forniti."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione da Ucraina continua a essere significativa, con un flusso di rifugiati verso i paesi vicini e in Europa. Le autorità ucraine e internazionali continuano a gestire i flussi di rifugiati, con attenzione ai corridoi umanitari e alle condizioni di protezione. I rifugiati continuano a fuggire dalle zone di conflitto, cercando sicurezza e assistenza nei paesi vicini e in Europa. Le autorità ucraine e internazionali continuano a monitorare e gestire le condizioni di accoglienza e protezione per i rifugiati, con attenzione ai corridoi umanitari e alle condizioni di protezione."
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina è gravemente impattata dal conflitto, con preoccupazioni riguardo alla crescita economica e alla stabilità finanziaria. Le restrizioni sul commercio con la Russia e le sanzioni economiche hanno un impatto significativo sulle esportazioni e sull'economia in generale. Le prospettive di crescita sono compromesse dalle continue turbolenze legate al conflitto, con rischi fiscali ed esterni che aumentano. L'economia ucraina lotta per mantenere la stabilità in un ambiente di crescente instabilità finanziaria e commerciale."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, l'Ucraina continua a essere coinvolta in un conflitto armato di larga scala con la Russia. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal continuano a guidare le risposte nazionali al conflitto. Il paese affronta sfide significative legate al conflitto, inclusi i danni alle infrastrutture, la migrazione interna ed esterna, e le conseguenze economiche. Il conflitto ha anche implicazioni significative a livello internazionale, con supporti militari e umanitari da parte di vari paesi, nonché sanzioni economiche contro la Russia. Le operazioni militari continuano in diverse regioni, con attacchi e movimenti di truppe che influenzano la situazione sul terreno. Le autorità ucraine continuano a gestire le conseguenze del conflitto, inclusi i rifugiati, le esigenze umanitarie e le risposte economiche.",
+  "fonti": [
+    "acaps (UKR_2022-06-30_20220630_acaps_thematic_report_ukraine_subnational_access_constraints.pdf)",
+    "fews_net (UKR_2022-june_key-message-update.pdf)",
+    "unhcr_reports (UKR_2022Q2_2022-06-30_unhcr-europe-monthly-update-june-2022.pdf)",
+    "worldbank_mpo (UKR_mpo_sm22.pdf)",
+    "wikipedia:UKR_2022"
+  ]
+}

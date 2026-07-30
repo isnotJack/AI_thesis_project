@@ -1,0 +1,32 @@
+{
+  "paese": "ETH",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono stati sviluppi significativi legati al conflitto. Nel mese di giugno, ci sono stati eventi legati alla regione Amhara, inclusi l'assassinio del presidente regionale Ambachew Mekonnen e del capo di stato maggiore delle forze armate etiopi, Se'are Mekonnen, da parte di un guardia del corpo nazionalista amhara. Questi eventi hanno portato a tensioni significative all'interno della regione. Inoltre, ci sono stati scontri in corso nella regione Benishangul-Gumuz e nell'insurrezione OLA. L'insurrezione OLA continua a rappresentare una minaccia per la stabilità regionale."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è stata influenzata da fattori come la scarsità di pioggia, che ha ridotto la produzione agricola e la disponibilità di pascolo per il bestiame. La situazione è peggiorata a causa di piogge irregolari e insufficienti durante la stagione delle piogge Gu/Genna/Belg, che hanno ridotto la regenerazione delle risorse pascolistiche e idriche. Ci sono anche stati problemi di accesso ai mercati e aumenti dei prezzi dei cereali, che hanno ulteriormente aggravato la situazione di sicurezza alimentare. La carestia è stata particolarmente grave nelle zone pastorali meridionali e sud-orientali, come Oromia, Somali e Amhara."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione è stata influenzata da fattori come la carestia e il conflitto. Ci sono stati rifugiati provenienti da Sud Sudan e Somalia, con un numero significativo di richiedenti asilo registrati. La situazione dei rifugiati è stata complicata da problemi di sicurezza e accesso ai servizi umanitari. Alcuni rifugiati hanno iniziato a tornare alle loro case, ma la situazione rimane instabile a causa delle continue minacce e delle difficoltà di reintegrazione."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, l'Etiopia ha continuato a fare fronte a sfide significative legate alla sicurezza alimentare, alla migrazione e al conflitto. La regione Amhara ha visto sviluppi drammatici con l'assassinio di figure chiave, aumentando le tensioni interne. La carestia ha continuato a essere un problema critico, influenzato da piogge insufficienti e irregolari, che hanno ridotto la produzione agricola e la disponibilità di pascolo. La migrazione ha continuato a essere influenzata da fattori come la carestia e il conflitto, con rifugiati provenienti da Sud Sudan e Somalia. L'insurrezione OLA e il conflitto nella regione Benishangul-Gumuz hanno mantenuto un clima di instabilità nel paese.",
+  "fonti": [
+    "ETH_2019-april_food-security-outlook-update.pdf",
+    "ETH_2019-june_food-security-outlook.pdf",
+    "ETH_2019-may_key-message-update.pdf",
+    "ETH_2019Q2_2019-06-30_unhcr-ethiopia-funding-update-2019-as-of-30-june-2019.pdf",
+    "wikipedia:ETH_2019"
+  ]
+}

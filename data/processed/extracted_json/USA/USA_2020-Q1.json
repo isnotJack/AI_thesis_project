@@ -1,0 +1,29 @@
+{
+  "paese": "USA",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, gli Stati Uniti furono pesantemente colpiti dall'epidemia di COVID-19, che causò un numero significativo di decessi. L'anno fu caratterizzato da una crescente tensione politica, inclusi movimenti di protesta legati alla giustizia razziale e alla brutalità polizia. Donald Trump era il presidente in carica, impegnato in una campagna elettorale che si svolgeva contro lo sfondo di una pandemia globale. L'anno fu descritto da alcuni come uno dei più turbolenti nella storia americana.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:USA_2020"
+  ]
+}

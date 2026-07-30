@@ -1,0 +1,29 @@
+{
+  "paese": "ITA",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il report dell'UNHCR evidenzia una situazione critica di protezione per i migranti arrivati in Italia, con un aumento significativo di arrivi via mare rispetto al periodo precedente. Si segnalano problemi operativi legati alla gestione delle imbarcazioni in difficoltà e alla mancanza di strutture di accoglienza sufficienti. Inoltre, si rilevano incidenti in mare con perdite di vite umane, evidenziando la gravità delle condizioni di viaggio per i migranti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, l'Italia è stata profondamente influenzata dalla pandemia di COVID-19, che ha portato a un lockdown nazionale e a misure restrittive per contenere la diffusione del virus. Il governo ha preso decisioni importanti per la gestione della crisi, come la chiusura delle scuole e l'attivazione di un lockdown in tutta la nazione. L'economia e la vita quotidiana sono state gravemente impattate, con conseguenze significative sulle attività sportive, culturali e lavorative. Nel contesto migratorio, la situazione è rimasta critica con un aumento di arrivi via mare e incidenti in mare, evidenziando la continua sfida di gestire flussi migratori in sicurezza.",
+  "fonti": [
+    "ITA_2020Q2_2020-06-29_unhcr-italy-weekly-snapshot-28-jun-2020.pdf",
+    "wikipedia:ITA_2020"
+  ]
+}

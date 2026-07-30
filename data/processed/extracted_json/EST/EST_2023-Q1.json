@@ -1,0 +1,28 @@
+{
+  "paese": "EST",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2023, l'Estonia ha annunciato l'espulsione dell'ambasciatore russo a Tallinn in risposta all'espulsione dell'ambasciatore estone a Mosca, a causa di una 'degradazione' delle relazioni. Entrambi gli inviati hanno lasciato le loro rispettive missioni il 7 febbraio."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, l'Estonia ha continuato a gestire la pandemia di COVID-19. Un evento significativo è stato l'annuncio dell'espulsione dell'ambasciatore russo a Tallinn, in risposta all'espulsione dell'ambasciatore estone a Mosca. Nel marzo dello stesso trimestre, le elezioni parlamentari hanno visto la vittoria del Partito della Riforma, guidato da Kaja Kallas, che ha ottenuto la maggioranza dei seggi al Riigikogu. Successivamente, tre partiti, guidati dalla Prima Ministra Kaja Kallas, hanno raggiunto un accordo per formare una nuova coalizione governativa cinque settimane dopo le elezioni.",
+  "fonti": [
+    "wikipedia:EST_2023"
+  ]
+}

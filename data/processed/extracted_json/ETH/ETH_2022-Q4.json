@@ -1,0 +1,34 @@
+{
+  "paese": "ETH",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2022, l'Etiopia ha continuato a fare i conti con conflitti significativi, principalmente nella regione del Tigray. Il conflitto ha visto un'intensificazione delle azioni militari, con episodi di violenza che hanno portato a gravi conseguenze umanitarie. La situazione è stata seguita da accordi per la cessazione delle ostilità, ma la pace rimane fragile. Il conflitto ha avuto un impatto significativo sulle dinamiche di spostamento delle popolazioni, con migliaia di persone costrette a lasciare le loro case. L'accesso umanitario è stato gravemente ostacolato, con limitazioni nei trasporti e negli aiuti. La regione del Tigray ha visto un aumento delle tensioni, con episodi di violenza che hanno portato a gravi conseguenze umanitarie. Il conflitto ha avuto un impatto significativo sulle dinamiche di spostamento delle popolazioni, con migliaia di persone costrette a lasciare le loro case. L'accesso umanitario è stato gravemente ostacolato, con limitazioni nei trasporti e negli aiuti."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Etiopia nel quarto trimestre del 2022 è stata principalmente causata da una combinazione di siccità e conflitti. La siccità ha avuto un impatto significativo sulle coltivazioni e sulle condizioni pastorali, riducendo la disponibilità di cibo e aumentando la malnutrizione. Il conflitto ha ulteriormente complicato la situazione, limitando l'accesso ai mercati e ai servizi umanitari. La carestia è stata particolarmente grave nelle regioni pastorali del sud e sud-est, dove le popolazioni hanno subito gravi carenze alimentari. L'assistenza umanitaria ha mitigato in parte le conseguenze, ma le condizioni restano critiche."
+  },
+  "migrazione": {
+    "descrizione": "Nel quarto trimestre del 2022, la migrazione interna e internazionale in Etiopia è stata influenzata principalmente dai conflitti e dalle condizioni umanitarie. Migliaia di persone hanno continuato a spostarsi all'interno del paese in cerca di sicurezza e assistenza. Gli ostacoli principali alla protezione dei rifugiati sono stati legati all'accesso ai servizi e alle infrastrutture. I nuovi corridoi di spostamento sono stati segnalati, mentre gli ostacoli operativi hanno incluso la mancanza di infrastrutture e servizi adeguati per accogliere i rifugiati. La situazione dei rifugiati è rimasta critica, con bisogni significativi in termini di protezione e assistenza."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per l'Etiopia nel quarto trimestre del 2022 è stato caratterizzato da una crescita moderata, con rischi fiscali e esterni significativi. La crescita economica è stata ostacolata da fattori come la siccità, il conflitto e le pressioni inflazionistiche. Il paese ha continuato a fare i conti con un deficit fiscale e un debito crescente, nonché con una debolezza delle riserve di cambio. Le prospettive di crescita sono state influenzate da queste dinamiche, con un aumento delle incertezze economiche. L'inflazione ha continuato a essere un problema, con effetti negativi sul potere d'acquisto delle famiglie etiopi."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2022, l'Etiopia ha continuato a fare i conti con una serie di sfide significative, principalmente legate ai conflitti interni e alle condizioni umanitarie. Il paese ha visto un'intensificazione delle azioni militari nella regione del Tigray, con episodi di violenza che hanno portato a gravi conseguenze umanitarie. La situazione è stata seguita da accordi per la cessazione delle ostilità, ma la pace rimane fragile. La leadership del paese, con il Presidente Sahle-Work Zewde e il Primo Ministro Abiy Ahmed, ha continuato a gestire queste sfide complesse. Altri conflitti, come il conflitto di Benishangul-Gumuz e l'insurrezione OLA, hanno continuato a influenzare la situazione generale. La pandemia di COVID-19 ha continuato a essere un fattore di sfida, con conseguenze sia dirette che indirette sulle dinamiche sociali e economiche del paese.",
+  "fonti": [
+    "ETH_2022-11-03_20221103_acaps_thematic_report_northern_ethiopia_two_years_into_the_crisis_0.pdf",
+    "ETH_2022-december_food-security-outlook-update.pdf",
+    "ETH_2022-november_key-message-update.pdf",
+    "ETH_2022-october_food-security-outlook.pdf",
+    "ETH_2022Q4_2022-12-31_ethiopia-operation-refugee-settlement-profile-alemwach-updat.pdf",
+    "ETH_mpo_am22.pdf",
+    "wikipedia:ETH_2022"
+  ]
+}

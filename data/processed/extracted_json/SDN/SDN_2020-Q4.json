@@ -1,0 +1,34 @@
+{
+  "paese": "SDN",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": "Sudan è afflitto da conflitti protracted, inclusi quelli in Darfur, con un aumento di violenza e attacchi. Il paese ha firmato un accordo di pace con dieci gruppi ribelli, mettendo fine a 17 anni di guerra. Tuttavia, la violenza etnica continua, come dimostrato da un recente scontro a South Darfur che ha causato 15 morti in un litigio sui diritti all'acqua. L'attivismo contro il dittatore Omar al-Bashir continua, con artisti condannati per disturbo pubblico. Il paese continua a lottare con la guerra in Darfur, nonostante l'accordo di pace firmato, con chiamate a estendere la missione UNAMID."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è aggravata da un combinato di fattori, inclusi il conflitto, la crisi economica, le inondazioni e l'arrivo di rifugiati etiopi. I prezzi dei cereali sono aumentati atipicamente durante la stagione di raccolto principale, influenzati da elevati costi di produzione, mancanza di manodopera, carburante e altri input agricoli. Le inondazioni hanno causato danni significativi alla coltivazione e alla raccolta, influenzando negativamente la disponibilità di cibo. L'arrivo di rifugiati etiopi aumenta ulteriormente le esigenze di assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "Sudan sta ospitando un numero crescente di rifugiati etiopi fuggiti dalla regione di Tigray. L'arrivo di questi rifugiati è significativo, con migliaia di persone che attraversano quotidianamente i confini. La situazione è complicata da restrizioni di movimento legate alla pandemia di COVID-19, che influenzano sia l'arrivo che la gestione dei rifugiati. L'assistenza umanitaria deve affrontare sfide logistiche e di accesso, nonché la necessità di proteggere i rifugiati in un contesto di crescente instabilità."
+  },
+  "economia": {
+    "sintesi": "L'economia di Sudan continua a deteriorarsi rapidamente, con una recessione che si protrae. La crisi macroeconomico è accentuata dalla continua deprezzazione della valuta nazionale, il Sudanese Pound, e dalla crescente inflazione. Le misure di contenimento del COVID-19 hanno ulteriormente impattato la situazione economica, riducendo le opportunità di guadagno e aumentando la povertà. Il paese fa fronte a gravi difficoltà finanziarie, con riserve di valuta estera a un livello estremamente basso e crescenti difficoltà a importare beni essenziali."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2020-Q4, Sudan ha continuato a fare fronte a una serie di sfide significative, inclusi conflitti interni, crisi umanitarie e problemi economici. Il paese ha firmato un accordo di pace con dieci gruppi ribelli, mettendo fine a 17 anni di guerra, ma la violenza etnica continua, come dimostrato da un recente scontro a South Darfur. L'arrivo di rifugiati etiopi fuggiti dalla regione di Tigray ha aumentato le esigenze di assistenza umanitaria. L'economia è in recessione, con una crescente crisi macroeconomico e una deprezzazione della valuta nazionale. Le inondazioni hanno causato danni significativi alla coltivazione e alla raccolta, influenzando negativamente la disponibilità di cibo. La pandemia di COVID-19 ha ulteriormente complicato la situazione, con restrizioni di movimento che hanno impattato sia l'arrivo che la gestione dei rifugiati e le attività economiche. Il paese continua a lottare con la guerra in Darfur, nonostante l'accordo di pace firmato, con chiamate a estendere la missione UNAMID.",
+  "fonti": [
+    "SDN_2020-11-24_20201124_acaps_briefing_note_sudan_impact_of_multiple_crises.pdf",
+    "SDN_2020-december_food-security-outlook-update.pdf",
+    "SDN_2020-november_key-message-update.pdf",
+    "SDN_2020-october_food-security-outlook.pdf",
+    "SDN_2020Q4_2020-12-31_sudan-refugees-from-south-sudan-in-sudan-as-of-31-december-2.pdf",
+    "SDN_mpo_am20.pdf",
+    "wikipedia:SDN_2020"
+  ]
+}

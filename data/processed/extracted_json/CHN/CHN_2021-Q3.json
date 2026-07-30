@@ -1,0 +1,49 @@
+{
+  "paese": "CHN",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "La Cina ha continuato a gestire le dispute territoriali di lunga data. Un incidente diplomatico con le Filippine è avvenuto nel Mar Cinese Meridionale nel mese di aprile. Le dispute sulla riconoscenza di Taiwan hanno incluso la possibilità di un riconoscimento da parte della Lituania, portando a una crisi diplomatica nel mese di agosto. Altre dispute diplomatiche comprendono le dispute sull'area economica esclusiva (EEZ) nel Mar Cinese Orientale, scontri lungo il confine con l'India e la continua guerra commerciale con gli Stati Uniti. La Cina ha rafforzato i suoi rapporti con l'Afghanistan, l'Iran e la Russia nel 2021."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "La crescita economica è proiettata a rincorrere, riflettendo tendenze strutturali a medio termine. Le disparità regionali, la crescita della produttività, il debito corporativo e le tensioni economiche legate alla liquidità sono stati evidenziati come sfide. La riduzione della povertà è prevista, con una riduzione del tasso di povertà in linea con le proiezioni. Le riforme strutturali per riequilibrare la crescita economica sono considerate cruciali per garantire ulteriori guadagni nel reddito a base ampia."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico a operatori di reti di gas naturali negli Stati Uniti tra il 2011 e il 2013, attribuito ad attori cibernetici sponsorizzati dallo Stato Cinese.",
+      "Attacco cibernetico a servizi di posta elettronica di Microsoft Exchange Server, attribuito al gruppo HAFNIUM, sponsorizzato dallo Stato Cinese."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Chinese Gas Pipeline Intrusion Campaign, 2011 to 2013 (2021-07-20)",
+      "Tactics, Techniques, and Procedures of Indicted APT40 Actors Associated with China’s MSS Hainan State Security Department (2021-07-19)",
+      "Chinese State-Sponsored Cyber Operations: Observed TTPs (2021-07-19)"
+    ],
+    "gruppi_minaccia_associati": [
+      "HAFNIUM",
+      "APT40"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Servizi di posta elettronica",
+      "Reti di gas naturali"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel 2021, la Cina ha continuato a gestire la pandemia di COVID-19 con la politica Zero-COVID, che ha significativamente ridotto la trasmissione attraverso lockdown di grande scala e test di massa. La Cina ha raggiunto un record di 55 missioni spaziali nel 2021, incluse lo sviluppo della stazione spaziale Tiangong e il primo sbarco cinese su Marte. Preoccupazioni legate alla diminuzione delle nascite hanno portato il governo nazionale a sostituire la politica dei due figli con quella dei tre figli nel mese di maggio 2021. La Cina ha continuato a rafforzare i suoi rapporti con l'Afghanistan, l'Iran e la Russia nel 2021. Un'ondata di riforme politiche ha continuato nel 2021, applicando restrizioni o bando a criptovalute, grattacieli, tutoraggio privato, pettegolezzi sui celebrità e giochi video. Le aziende tecnologiche sono state sottoposte a un'attenzione crescente da parte del governo cinese nel 2021. Le misure anti-monopolio sono state messe in atto, e diverse grandi aziende hanno visto sanzioni significative durante l'anno. Una crisi nel settore immobiliare che ha coinvolto aziende come Evergrande nel 2021 ha provocato difficoltà economiche in Cina. Le riforme politiche a Hong Kong hanno limitato la democrazia e ridotto le elezioni a candidati approvati dal Partito Comunista Cinese. I giornali e i gruppi pro-democrazia a Hong Kong sono stati chiusi. Le presunte violazioni dei diritti umani in Xinjiang sono continuate, incluse le accuse di genocidio.",
+  "fonti": [
+    "CHN_AA21-201A_Chinese_Gas_Pipeline_Intrusion_Campaign_2011_to_2013 (1).pdf",
+    "CHN_mpo_sm21.pdf",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-200a",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-200b",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-201a",
+    "wikipedia:CHN_2021"
+  ]
+}

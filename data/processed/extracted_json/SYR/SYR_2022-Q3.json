@@ -1,0 +1,32 @@
+{
+  "paese": "SYR",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2022, la Siria ha continuato a essere coinvolta in conflitti armati. Vi sono stati scontri tra fazioni all'interno del territorio siriano, inclusi combattimenti tra Ahrar al-Sham e il Levant Front, entrambi affiliati alla Syrian National Army sostenuta dalla Turchia. L'attacco di al-Hasakah, che ha visto l'Isis liberare numerosi prigionieri, rappresenta un evento significativo. Inoltre, vi sono state azioni militari da parte di Israele contro posizioni militari siriane vicino Damasco, causando perdite tra le forze governative siriane. Lo scenario di guerra civile continua a influenzare la situazione nel paese, con conseguenze dirette sulla popolazione e sulle infrastrutture."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel terzo trimestre del 2022, la Siria ha continuato a essere un paese di origine e transito per i migranti. Vi sono stati episodi significativi, come la tragedia di un'imbarcazione che trasportava migranti da Libano che si è capovolta lungo la costa siriana, causando un numero significativo di vittime. La situazione dei rifugiati interni e dei profughi siriani continua a essere critica, con sfide legate all'assistenza umanitaria e alle condizioni di vita nei campi."
+  },
+  "economia": {
+    "sintesi": "Nel terzo trimestre del 2022, l'economia siriana ha continuato a mostrare segni di debolezza, con una prospettiva di crescita limitata. I rischi fiscali e esterni sono stati segnalati, con una situazione finanziaria che rimane fragile. L'inflazione ha continuato a essere un problema significativo, influenzando negativamente la qualità di vita della popolazione. La mancanza di accesso a fondi e le sanzioni internazionali hanno ulteriormente complicato la situazione economica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2022, la Siria è stata caratterizzata da una leadership stabile con Bashar al-Assad come presidente, Najah al-Attar come vicepresidente e Hussein Arnous come primo ministro. Lo scenario politico è stato influenzato da eventi internazionali, come il sostegno formale della Siria alla decisione della Russia di riconoscere le repubbliche popolari di Donetsk e Luhansk come stati indipendenti. La situazione umanitaria è rimasta critica, con sfide legate alla salute pubblica, come l'epidemia di colera, e alla sicurezza, con continue azioni militari e incidenti tragici. La Siria continua a essere un paese profondamente influenzato dalla guerra civile e dalle conseguenze delle azioni esterne.",
+  "fonti": [
+    "acaps (SYR_2022-09-27_20220927_acaps_start_briefing_note_syria_cholera_outbreak_0.pdf)",
+    "unhcr_reports (SYR_2022Q3_2022-09-28_north-west-syria-winterization-2022-2023.pdf)",
+    "worldbank_mpo (SYR_mpo_sm22.pdf)",
+    "wikipedia:SYR_2022",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)"
+  ]
+}

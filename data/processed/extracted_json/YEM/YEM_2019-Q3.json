@@ -1,0 +1,34 @@
+{
+  "paese": "YEM",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto in Yemen è stato caratterizzato da un aumento delle tensioni a Aden, dove le forze fedeli al Consiglio di Transizione del Sud hanno preso il controllo della città. Ci sono state violazioni del cessate il fuoco e intensi combattimenti tra le forze pro-Hadi e le forze separatiste. Il conflitto ha causato un aumento dei dislocati e ha avuto un impatto significativo sulle infrastrutture civili, inclusi porti e aeroporti. Le violenze tribali e le rappresaglie hanno aumentato il rischio di violenza contro civili, con un aumento delle deportazioni forzate di nordestini. Il rischio di un aumento delle violenze è elevato, con potenziali conseguenze negative per la popolazione civile."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Yemen è stata influenzata da diversi fattori, tra cui il conflitto, le violazioni del cessate il fuoco e le difficoltà di accesso ai servizi umanitari. La situazione alimentare è stata particolarmente critica in alcune regioni, con un rischio persistente di carestia in alcune aree. Le riduzioni temporanee delle razioni alimentari hanno limitato l'accesso ai beni essenziali, aumentando la vulnerabilità delle popolazioni locali. Il rischio di carestia è stato accentuato dalle interruzioni nei servizi umanitari e dalle difficoltà di accesso ai porti e ai mercati."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è stata influenzata dalle violenze e dalle deportazioni forzate, con un aumento dei dislocati interni a causa delle tensioni a Aden e altrove. Le deportazioni forzate di nordestini hanno creato sfide significative per la protezione dei dislocati, con limiti all'accesso ai servizi umanitari e alle infrastrutture essenziali. La situazione dei dislocati interni è stata particolarmente critica, con bisogno di assistenza umanitaria per sfuggire alle violenze e trovare rifugio sicuro."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar hanno continuato ad essere le figure di riferimento politiche. Il primo ministro Maeen Abdulmalik Saeed ha gestito le questioni di governo. Il trimestre ha visto un aumento delle tensioni a Aden, con il Consiglio di Transizione del Sud che ha preso il controllo della città. Il conflitto ha continuato a influenzare significativamente la situazione umanitaria e politica del paese, con violazioni del cessate il fuoco e intensi combattimenti. L'intero paese ha continuato a lottare con le conseguenze del conflitto, inclusi i problemi di accesso ai servizi umanitari e alle infrastrutture essenziali.",
+  "fonti": [
+    "YEM_2019-07-31_20190731_acaps_yemen_risk_overview_jul-dec_2019_0.pdf",
+    "YEM_2019-08-16_20190816_acaps_yah_anticipatory_briefing_note_collapse_of_ceasefire_in_aden_0_0.pdf",
+    "YEM_2019-09-25_20190925_yemen_crisis_impact_overview_june_august_2019_0.pdf",
+    "YEM_2019-august_food-security-outlook-update.pdf",
+    "YEM_2019-september_key-message-update.pdf",
+    "YEM_2019Q3_2019-09-30_republic-of-yemen-shelter-nfis-fact-sheet-september-2019.pdf",
+    "wikipedia:YEM_2019"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "paese": "ETH",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": "Etiopia sta affrontando un aumento dei conflitti etnici e delle violenze intercomunali, principalmente nelle regioni di Benishangul-Gumuz e Oromia. Questi conflitti hanno portato a un significativo aumento dei dislocati interni, con migliaia di persone che hanno lasciato le loro case a causa della violenza. Le tensioni sono state accentuate da dispute su terre e confini, e le violenze hanno coinvolto diversi gruppi etnici. L'accesso alle aree colpite è stato reso difficile da blocchi stradali imposti da gruppi rivali, limitando l'assistenza umanitaria. Le autorità hanno tentato di mitigare la situazione con dichiarazioni di pace e accordi, ma le violenze continuano a influenzare la sicurezza e la stabilità del paese."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Etiopia è stata influenzata da una combinazione di fattori, inclusi la scarsità di pioggia stagionale, le violenze etniche e i conflitti che hanno interferito con l'accesso ai campi e alle risorse. Le proiezioni indicano che le aree pastorali meridionali continueranno a lottare con le conseguenze di piogge stagionali insufficienti, mentre le aree colpite da conflitti etnici vedranno un aumento dei livelli di carestia. La situazione è peggiorata da un'inadeguata distribuzione delle risorse e dalla mancanza di accesso alle aree colpite a causa delle violenze. L'IPC ha classificato diverse regioni in stato di crisi, con proiezioni di peggioramento nei prossimi mesi."
+  },
+  "migrazione": {
+    "descrizione": "Etiopia continua ad essere un importante paese di accoglienza per rifugiati, con un numero significativo di rifugiati provenienti da paesi vicini come Sud Sudan, Somalia, Eritrea e altri. Il paese ha mostrato un impegno crescente verso l'inclusione dei rifugiati, con iniziative come l'adozione di un nuovo Global Compact on Refugees. Tuttavia, le violenze intercomunali e le tensioni etniche interne hanno portato a un aumento dei dislocati interni, che richiedono assistenza umanitaria. L'UNHCR ha evidenziato il bisogno di supporto per le comunità ospitanti e per i rifugiati, nonché l'importanza di integrare i rifugiati nelle strutture nazionali di assistenza."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2018-Q4, Etiopia ha visto un periodo di significative trasformazioni politiche e sociali. Il primo ministro Abiy Ahmed ha continuato a guidare il paese verso riforme politiche e sociali, cercando di promuovere la pace e la riconciliazione nazionale. Tuttavia, le tensioni etniche e le violenze intercomunali hanno continuato a essere un problema persistente, influenzando la sicurezza e la stabilità del paese. L'annuncio di pace con l'Eritrea ha segnato un momento cruciale, seguito da una visita di Abiy Ahmed a Asmara. Tuttavia, le violenze interne hanno continuato a causare dislocazioni e problemi umanitari, influenzando la situazione di sicurezza e la risposta umanitaria. L'economia del paese è stata influenzata da queste dinamiche, con conseguenze sulla sicurezza alimentare e sulle migrazioni interne ed esterne.",
+  "fonti": [
+    "ETH_2018-10-15_20181015_acaps_start_briefing_note_displacement_in_ethiopia.pdf",
+    "ETH_2018-december_food-security-outlook-update.pdf",
+    "ETH_2018-november_key-message-update.pdf",
+    "ETH_2018-october_food-security-outlook.pdf",
+    "ETH_2018Q4_2018-12-31_unhcr-ethiopia-operational-update-december-2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "wikipedia:ETH_2018"
+  ]
+}

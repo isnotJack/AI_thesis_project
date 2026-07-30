@@ -1,0 +1,33 @@
+{
+  "paese": "SDN",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Darfur continua a essere un problema significativo, con episodi di violenza tra gruppi etnici che causano morti e feriti. L'attivismo contro il dittatore Omar al-Bashir continua, con artisti condannati per proteste. Il governo ha firmato un'amnistia per i combattenti della guerra civile, esclusi quelli accusati di crimini di guerra. L'attivismo contro il dittatore Omar al-Bashir continua, con artisti condannati per proteste. Il governo ha firmato un'amnistia per i combattenti della guerra civile, esclusi quelli accusati di crimini di guerra."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è aggravata da un aumento significativo dei prezzi dei cereali, come il sorghum e il miglio, che sono molto al di sopra delle medie recenti. Le misure di controllo del COVID-19 limitano l'accesso ai mercati e riducono le opportunità di lavoro, aumentando la vulnerabilità alimentare. Le condizioni di carestia sono peggiori nei centri urbani e nei centri di accoglienza per sfollati, con numerose persone che richiedono assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati è critica, con sfollati interni e rifugiati provenienti da paesi vicini che continuano a ricevere assistenza umanitaria. Le misure di controllo del COVID-19 hanno reso più difficile l'accesso ai servizi e alle risorse, aumentando la vulnerabilità dei rifugiati. I corridoi di migrazione sono ostacolati dalle restrizioni di movimento e dalla mancanza di risorse."
+  },
+  "economia": {
+    "sintesi": "L'economia è in crisi, con una crescita negativa prevista a causa della pandemia di COVID-19 e delle misure di controllo. Le proiezioni indicano una contrazione significativa del PIL, con rischi fiscali e esterni aumentati. La povertà è in aumento, con un numero crescente di persone che vivono al di sotto della linea della povertà."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, il Sudan continua a fare fronte a sfide significative, tra cui il conflitto in Darfur, la pandemia di COVID-19 e le conseguenti misure di controllo. Il governo ha firmato un'amnistia per i combattenti della guerra civile, esclusi quelli accusati di crimini di guerra. L'attivismo contro il dittatore Omar al-Bashir continua, con artisti condannati per proteste. Le condizioni economiche sono difficili, con una crisi finanziaria che si intensifica a causa della pandemia. La situazione dei rifugiati è critica, con sfollati interni e rifugiati provenienti da paesi vicini che continuano a ricevere assistenza umanitaria.",
+  "fonti": [
+    "fews_net (SDN_2020-june_food-security-outlook.pdf)",
+    "fews_net (SDN_2020-may_key-message-update.pdf)",
+    "fews_net (SDN_2020-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (SDN_2020Q2_2020-06-30_sudan-country-refugee-response-plan-2020-mid-year-report.pdf)",
+    "worldbank_mpo (SDN_mpo_sm20.pdf)",
+    "wikipedia:SDN_2020"
+  ]
+}

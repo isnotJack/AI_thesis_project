@@ -1,0 +1,30 @@
+{
+  "paese": "SYR",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si è registrato un aumento delle ostilità tra le forze governative siriane e i gruppi armati di opposizione nel governatorato di Dar'a. Queste ostilità hanno portato a un significativo spostamento di popolazione verso governatorati vicini, come Quneitra e As-Sweida. Le operazioni militari hanno causato danni significativi alle infrastrutture civili, inclusi ospedali e scuole, aumentando le difficoltà per i civili. L'accesso umanitario è stato gravemente limitato a causa delle continue ostilità, rendendo difficile la distribuzione di assistenza vitale ai civili colpiti. La situazione è stata ulteriormente complicata dalla chiusura delle frontiere con la Giordania e Israele, che hanno reso difficile il trasferimento di aiuti e la fuga dei civili verso territori più sicuri."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il conflitto ha portato a un significativo aumento dei flussi di sfollati interni verso governatorati vicini, come Quneitra e As-Sweida. La chiusura delle frontiere con la Giordania e Israele ha reso difficile il trasferimento di aiuti e la fuga dei civili verso territori più sicuri. I rifugiati hanno riscontrato difficoltà significative nell'ottenere protezione adeguata, con molte persone costrette a vivere in condizioni precarie, spesso senza accesso a servizi di base come l'acqua potabile e l'assistenza sanitaria. L'accesso alle aree di confine è stato limitato a causa delle ostilità, rendendo difficile la valutazione esatta del numero di sfollati e la loro situazione."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, la Siria ha continuato a essere caratterizzata da un clima di instabilità e conflitto. Il presidente Bashar al-Assad ha mantenuto il suo ruolo di leader del paese, mentre le tensioni tra le forze governative e le opposizioni armate hanno continuato a scatenare violenze. L'anno ha visto un aumento delle ostilità nel sud del paese, con conseguenti sfollamenti di massa e gravi conseguenze umanitarie. La situazione ha richiesto un coinvolgimento internazionale crescente, con tentativi di mediazione e di fornire assistenza umanitaria ai civili colpiti. Le dinamiche geopolitiche regionali hanno continuato a influenzare la situazione, con la presenza di attori esterni che hanno cercato di influenzare l'esito del conflitto.",
+  "fonti": [
+    "SYR_2018-07-02_20180702_acaps_start_syria_displacement_in_the_south_0.pdf",
+    "SYR_2018Q3_2018-09-30_northern-syria-shelter-and-nfi-assessment-report-september-2.pdf",
+    "wikipedia:SYR_2018"
+  ]
+}

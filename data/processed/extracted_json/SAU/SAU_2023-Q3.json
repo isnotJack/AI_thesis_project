@@ -1,0 +1,31 @@
+{
+  "paese": "SAU",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la situazione di conflitto è stata caratterizzata da un attacco da parte di milizie Houthi contro truppe saudite nella provincia di Jazan, vicino alla frontiera con il Yemen. L'attacco ha causato la morte di quattro soldati sauditi, portando il paese a dichiarare uno stato di allerta elevata. Inoltre, un missile balistico lanciato dai Houthi è stato intercettato dalle difese aeree saudite mentre si dirigeva verso Israele. Questi eventi riflettono la persistente tensione lungo la frontiera con il Yemen e la collaborazione di difesa regionale tra Arabia Saudita e Israele."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita mostra un andamento positivo, con un forte supporto proveniente dal settore petrolifero. L'aumento dei prezzi del petrolio ha contribuito a un surplus delle entrate di bilancio, riducendo il debito pubblico. Tuttavia, esistono rischi legati alla volatilità dei prezzi del petrolio e alle condizioni finanziarie globali. Il paese continua a promuovere la diversificazione economica attraverso iniziative come Vision 2030, con un focus sul turismo e l'investimento locale. Le prospettive di crescita sono positive, ma dipendono dalla stabilità dei prezzi del petrolio e dalla riuscita delle riforme strutturali."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2023, l'Arabia Saudita ha continuato a gestire diversi fronti, inclusi gli sforzi di riforma economica e la gestione delle tensioni regionali. L'annuncio di Jeddah come sede dell'Esposizione Mondiale 2030 ha segnato un importante successo internazionale. Nel campo della difesa, la collaborazione con Israele è stata evidenziata dai sistemi di difesa aerea che hanno intercettato un missile balistico diretto verso Israele. La situazione di sicurezza lungo la frontiera con il Yemen è rimasta tesa, con attacchi da parte delle milizie Houthi. In ambito sportivo, l'Arabia Saudita ha ospitato importanti eventi come il Rally Dakar, dimostrando la sua crescente posizione come destinazione di eventi internazionali.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_sm23.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "wikipedia:SAU_2023"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "paese": "UKR",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2020, la situazione di conflitto in Ucraina è stata caratterizzata da una continua presenza di tensioni legate alla guerra in Donbass. Il governo ucraino ha introdotto nuove misure legislative per gestire le conseguenze del conflitto, come la strategia per soluzioni durature per i dislocati interni (IDPs) e la protezione di persone internate. Inoltre, sono stati introdotti nuovi protocolli per il attraversamento dei punti di controllo umanitari (EECPs) in caso di emergenze, evidenziando la continuità delle operazioni di controllo lungo la linea di contatto. La situazione è rimasta complessa, con un continuo monitoraggio delle attività militari e umanitarie lungo la linea di demarcazione."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel quarto trimestre del 2020, la situazione migratoria in Ucraina ha visto l'introduzione di nuove misure legislative per gestire i rifugiati e i migranti. Sono state approvate leggi per la creazione di centri di accoglienza temporanea per rifugiati e centri di custodia per migranti irregolari, con l'accesso limitato a servizi di assistenza legale solo per lavoratori umanitari. Inoltre, è stato introdotto un sistema di passaporti elettronici nazionali e per viaggi all'estero, evidenziando un'attenzione crescente verso la gestione e la protezione dei movimenti migratori. La situazione è stata influenzata anche dalle restrizioni legate alla pandemia di COVID-19, che hanno impattato i flussi migratori e le operazioni umanitarie."
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina ha subito un contrazione significativa nel 2020 a causa della pandemia di COVID-19, con un forte impatto sul PIL. Tuttavia, si prevede una ripresa graduale nel 2021, con un aumento delle esportazioni e un miglioramento delle condizioni finanziarie. I rischi fiscali e esterni sono stati segnalati, con un aumento delle esigenze di finanziamento nel medio termine. La povertà è rimasta un problema, con un aumento previsto nei tassi di povertà a livello nazionale, anche se le misure di sostegno economico hanno contribuito a mitigare l'impatto negativo. L'economia continua a dipendere da investimenti esterni e riforme strutturali per garantire una crescita sostenibile a medio termine."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2020, l'Ucraina ha continuato a gestire le conseguenze della pandemia di COVID-19, con un aumento dei casi e misure restrittive per contenere l'epidemia. La leadership del paese, con il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmygal, ha introdotto nuove leggi e misure per affrontare le sfide legate alla pandemia, al conflitto in Donbass e alla gestione dei flussi migratori. La situazione politica e sociale è stata influenzata dalle continue tensioni con la Russia e dalle conseguenze della guerra in Donbass, con un continuo monitoraggio delle attività militari e umanitarie lungo la linea di demarcazione. L'economia ha subito un impatto significativo, con una contrazione del PIL e misure di sostegno per mitigare l'impatto negativo. L'attenzione è stata rivolta anche alla protezione dei dislocati interni e dei rifugiati, con l'introduzione di nuove strategie e protocolli per gestire le conseguenze del conflitto e delle migrazioni.",
+  "fonti": [
+    "unhcr_reports (UKR_2020Q4_2020-12-28_ukraine-legislative-update-november-2020-en-uk.pdf)",
+    "worldbank_mpo (UKR_mpo_am20.pdf)",
+    "wikipedia:UKR_2020"
+  ]
+}

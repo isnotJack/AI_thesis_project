@@ -1,0 +1,33 @@
+{
+  "paese": "SSD",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": "Il Sud Sudan è caratterizzato da un'atmosfera di conflitto persistente, con violenze etniche e tensioni politiche che continuano a minare la stabilità del paese. Nel trimestre, ci sono state diverse manifestazioni di violenza, incluse le scaramucce tra fazioni rivali all'interno del movimento di opposizione SPLA-IO, che hanno causato perdite di vite umane. La situazione è ulteriormente complicata dalla presenza di gruppi armati che operano in aree remote, come nel nord di Jonglei, dove le tensioni sono elevate. La leadership del paese, composta da Salva Kiir Mayardit come presidente e Riek Machar come vicepresidente, continua a lottare per mantenere la pace, ma le promesse di pace sono state ostacolate da continue violazioni dei diritti umani e da un'escalation della violenza. L'offerta di pace da parte del presidente Kiir a Machar, fatta in occasione dell'indipendenza, è stata accolta con scetticismo a causa della mancanza di progressi significativi verso la pace. Le tensioni sono accentuate dalle divisioni etniche e politiche, che hanno portato a un clima di instabilità persistente."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è principalmente causata da conflitti, inondazioni e sfide macroeconomiche. Le inondazioni hanno avuto un impatto significativo, causando la perdita di raccolti e aumentando la precarietà alimentare. La carestia è aggravata dalla persistente instabilità politica e dalle violenze etniche, che hanno portato a migrazioni forzate e a una riduzione dell'accesso ai mercati. L'economia del paese è stata ulteriormente indebolita da questi fattori, influenzando negativamente la disponibilità di cibo e le possibilità di auto-sufficienza alimentare. L'assistenza umanitaria continua a essere cruciale per mitigare le conseguenze della carestia, ma le sfide di accesso e la scarsità di risorse limitano l'impatto di tali iniziative."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sud Sudan è caratterizzata da sfide significative legate alla protezione dei migranti. Le inondazioni hanno portato a un aumento dei flussi di sfollati interni, con migliaia di persone costrette a lasciare le loro case. Le sfide principali includono l'accesso limitato ai servizi di base, come l'assistenza sanitaria e l'alloggio, nonché la vulnerabilità a violenze e abusi. Le tensioni politiche e le violenze etniche hanno anche contribuito a un aumento dei movimenti di popolazione, con sfollati che cercano rifugio in aree più sicure. L'assistenza umanitaria deve affrontare ostacoli operativi, inclusi l'accesso alle aree remote e la mancanza di infrastrutture di base, per fornire aiuto ai migranti e ai sfollati interni."
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan continua a essere fragile, con rischi fiscali e esterni significativi. La ripresa economica è stata ostacolata da una combinazione di conflitti, inondazioni e sfide macroeconomiche. L'industria petrolifera, che è il pilastro principale dell'economia, ha ripreso la produzione dopo un lungo periodo di sospensione, ma i livelli di produzione sono ancora bassi rispetto alle aspettative. La povertà rimane elevata, con una grande parte della popolazione che vive al di sotto della soglia di povertà. L'instabilità politica e le violazioni dei diritti umani hanno creato un clima di incertezza che ha ostacolato gli investimenti e la crescita economica. L'economia continua a dipendere fortemente dall'assistenza internazionale per affrontare le sfide finanziarie e stabilizzare la situazione economica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2021, il Sud Sudan ha continuato a lottare con una combinazione di conflitti interni, inondazioni e sfide macroeconomiche. La leadership del paese, con Salva Kiir Mayardit come presidente e Riek Machar come vicepresidente, ha fatto sforzi per promuovere la pace, ma le tensioni politiche e etniche hanno ostacolato i progressi verso la stabilità. L'offerta di pace da parte del presidente Kiir a Machar, fatta in occasione dell'indipendenza, è stata accolta con scetticismo a causa della mancanza di progressi significativi verso la pace. Le violenze continue e le violazioni dei diritti umani hanno creato un clima di instabilità persistente, che ha avuto un impatto significativo sulla popolazione. L'economia del paese è rimasta fragile, con una dipendenza crescente dall'assistenza internazionale per affrontare le sfide finanziarie e stabilizzare la situazione economica. Le inondazioni hanno causato perdite di raccolti e hanno aumentato la precarietà alimentare, mentre le tensioni politiche e le violenze etniche hanno portato a migrazioni forzate e a una riduzione dell'accesso ai mercati. L'assistenza umanitaria continua a essere cruciale per mitigare le conseguenze della carestia e delle sfide di migrazione, ma le sfide di accesso e la scarsità di risorse limitano l'impatto di tali iniziative.",
+  "fonti": [
+    "fews_net (SSD_2021-december_food-security-outlook-update.pdf)",
+    "fews_net (SSD_2021-november_key-message-update.pdf)",
+    "fews_net (SSD_2021-october_food-security-outlook.pdf)",
+    "unhcr_reports (SSD_2021Q4_2021-12-31_south-sudan-protection-cluster-monthly-update-december-2021.pdf)",
+    "worldbank_mpo (SSD_mpo_am21.pdf)",
+    "wikipedia:SSD_2021"
+  ]
+}

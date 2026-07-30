@@ -1,0 +1,44 @@
+{
+  "paese": "PRK",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "North Korea Cyber Group Conducts Global Espionage Campaign"
+    ],
+    "gruppi_minaccia_associati": [
+      "Andariel",
+      "Onyx Sleet",
+      "DarkSeoul",
+      "Silent Chollima",
+      "Stonefly/Clasiopa"
+    ],
+    "settori_bersaglio": [
+      "Difesa",
+      "Aerospazio",
+      "Nucleare",
+      "Ingegneria"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre 2024-Q4, la Corea del Nord ha continuato a mostrare tensioni con la Corea del Sud, con episodi di scambi di fuoco lungo la linea di demarcazione militare (DMZ). Il paese ha anche condotto test missilistici e nucleari, dimostrando la sua determinazione nel perseguire le sue ambizioni militari e nucleari. La Corea del Nord ha mantenuto una stretta alleanza con la Russia, rafforzando i legami militari e politici. Nel campo delle relazioni estere, il paese ha ripristinato contatti con alcuni paesi occidentali, come la Svezia e la Polonia, dopo la pausa causata dalla pandemia di COVID-19. Tuttavia, le tensioni con la Corea del Sud e gli Stati Uniti continuano a essere un tema dominante.",
+  "fonti": [
+    "cisa (PRK_aa24-207a-dprk-cyber-group-conducts-global-espionage-campaign_0.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:PRK_2024"
+  ]
+}

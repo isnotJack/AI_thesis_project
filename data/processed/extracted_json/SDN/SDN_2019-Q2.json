@@ -1,0 +1,33 @@
+{
+  "paese": "SDN",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2019, il Sudan ha visto un'escalation significativa della violenza, con scontri tra forze di sicurezza e dimostranti. Le dimostrazioni contro il governo militare provvisorio hanno portato a violenze eccessive da parte delle forze di sicurezza, con molte vittime civili. La situazione è stata particolarmente intensa a Khartoum, dove le forze di sicurezza hanno disperso pacifici manifestanti con violenza. La crisi ha coinvolto anche la regione di Darfur, con conflitti tra gruppi armati e forze di sicurezza. La situazione è rimasta instabile, con continue tensioni tra le varie fazioni e la mancanza di un governo civile stabile. Le violenze hanno avuto un impatto significativo sulla popolazione civile, con molte vittime e feriti, oltre a un aumento dei rifugiati interni e delle preoccupazioni per la protezione civile."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia nel Sudan è stata influenzata da una combinazione di fattori, inclusi la crisi economica, la violenza e le difficoltà di accesso ai mercati. Il report FEWS NET ha evidenziato che la situazione di sicurezza instabile ha limitato l'accesso ai mercati, aumentando i prezzi dei generi alimentari. La carestia è stata particolarmente acuta nelle regioni di Darfur, Kordofan Meridionale e Kordofan Settentrionale, dove le condizioni di sicurezza hanno reso difficile l'accesso ai campi e ai mercati. L'escalation della violenza ha anche aumentato il numero di rifugiati interni, aumentando la pressione sui sistemi di assistenza alimentare. La carestia è stata aggravata dalla continua instabilità politica e dalle conseguenti difficoltà di importazione di generi alimentari essenziali."
+  },
+  "migrazione": {
+    "descrizione": "Nel secondo trimestre del 2019, la migrazione nel Sudan ha visto un aumento significativo di rifugiati interni a causa dell'escalation della violenza. I rifugiati hanno fuggito dalle zone di conflitto, come Khartoum e Darfur, verso aree più sicure. La situazione dei rifugiati è stata complicata da ostacoli operativi, inclusi i blocchi di campi da parte delle comunità locali e la mancanza di accesso adeguato a servizi essenziali come l'assistenza sanitaria e l'istruzione. La violenza ha anche portato a un aumento dei rifugiati provenienti dal Sud Sudan, con crescenti tensioni tra le comunità locali e i rifugiati. La mancanza di sicurezza ha reso difficile l'assistenza umanitaria, con molte organizzazioni che hanno dovuto evacuare il personale per motivi di sicurezza."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, il Sudan ha continuato a essere caratterizzato da una situazione politica instabile dopo la caduta del presidente Omar al-Bashir nel mese di aprile. Il paese ha visto una transizione verso un governo militare provvisorio, con continue dimostrazioni e scontri tra forze di sicurezza e dimostranti. La regione di Darfur ha continuato a essere teatro di conflitti armati, con tensioni tra varie fazioni. La mancanza di un governo civile stabile ha portato a una situazione di incertezza politica e a una continua instabilità, con conseguenze significative sulla sicurezza e sulla stabilità del paese.",
+  "fonti": [
+    "SDN_2019-06-17_20190617_acaps_briefing_note_escalation_of_violence_in_sudan.pdf",
+    "SDN_2019-april_food-security-outlook-update.pdf",
+    "SDN_2019-june_food-security-outlook.pdf",
+    "SDN_2019-may_key-message-update.pdf",
+    "SDN_2019Q2_2019-06-30_sudan-population-amp-operational-update-south-sudanese-refug.pdf",
+    "wikipedia:SDN_2019"
+  ]
+}

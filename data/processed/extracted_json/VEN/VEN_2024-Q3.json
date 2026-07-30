@@ -1,0 +1,33 @@
+{
+  "paese": "VEN",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Venezuela è in preda a una crisi civile persistente, con proteste e scontri violenti scoppiati dopo le elezioni presidenziali del 28 luglio 2024. Le proteste sono state rese violente dalla risposta del governo, che ha utilizzato gas lacrimogeni e armi da fuoco per reprimere i manifestanti. I protestatori accusano il governo di frode elettorale, mentre il governo afferma la legittimità dei risultati. Le proteste si sono estese in molte città del paese, con molte vittime e feriti. Il governo ha imposto un coprifuoco e ha arrestato numerosi manifestanti, alcuni dei quali sono rimasti incontrollati. I rapporti indicano che almeno quattro sindaci sono stati detenuti o rimosse dai loro incarichi a causa del loro sostegno all'opposizione. La situazione è caratterizzata da una crescente tensione politica e sociale, con un aumento delle proteste e delle violenze. Le autorità hanno anche bloccato l'accesso a internet e hanno introdotto nuove leggi per controllare le organizzazioni non governative e i media. La situazione è complessa e dinamica, con un aumento delle tensioni e delle violenze a seguito delle elezioni presidenziali."
+  },
+  "carestia": {
+    "livello_ipc": "fase2_stressata",
+    "descrizione": "La crisi economica continua a influenzare negativamente la situazione di sicurezza alimentare, mantenendo livelli di stress (IPC Fase 2) in gran parte del paese. Nonostante le migliorie economiche, come la riduzione dell'inflazione e la stabilità del tasso di cambio, una parte delle famiglie più povere nelle aree urbane e periurbane continua a subire conseguenze negative a causa dell'insufficiente accesso a redditi in USD e programmi sociali. La crisi alimentare è aggravata dalla mancanza di copertura costante dei programmi sociali, che influisce negativamente sul potere d'acquisto delle famiglie. Nonostante le migliorie nella produzione agricola e le importazioni di cereali, rischi di carestia persistono a causa della situazione economica complessiva."
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione per i migranti venezuelani è critica, con crescenti ostacoli operativi e nuovi corridoi di migrazione. Le autorità hanno intensificato le deportazioni di migranti venezuelani, con un aumento significativo di casi di espulsione. Le autorità locali hanno richiesto supporto per gestire l'afflusso di migranti e rifugiati venezuelani, evidenziando la mancanza di risorse finanziarie e logistichhe. La situazione di protezione è particolarmente critica in aree di transito, come il Darién Gap, dove si prevede un aumento dei flussi migratori. Le autorità hanno introdotto nuove restrizioni, come controlli più severi e requisiti di visto, che aumentano le difficoltà per i migranti. La situazione è complessa, con crescenti tensioni locali e rischi per la sicurezza dei migranti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, Venezuela è stata caratterizzata da una crescente instabilità politica e sociale a seguito delle elezioni presidenziali del 28 luglio. Le proteste e le tensioni politiche hanno portato a un aumento delle violenze e delle repressioni da parte del governo. La situazione economica continua a essere critica, con conseguenze negative sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni più vulnerabili. La migrazione internazionale è un problema crescente, con crescenti ostacoli per i migranti venezuelani nei paesi di transito e di destinazione. Le autorità hanno introdotto nuove misure di controllo, come la chiusura di accessi internet e la restrizione dei programmi sociali, che hanno ulteriormente aggravato la situazione. La leadership del paese, con Nicolás Maduro come presidente, ha continuato a gestire la crisi con misure di repressione e controllo, mentre le tensioni internazionali hanno aumentato la pressione sul governo venezuelano.",
+  "fonti": [
+    "VEN_2024-08-23_20240823_ACAPS_Venezuela_-_Anticipation_of_continuing_civil_unrest.pdf",
+    "VEN_2024-august_key-message-update.pdf",
+    "VEN_2024-july_key-message-update.pdf",
+    "VEN_2024-september_key-message-update.pdf",
+    "VEN_2024Q3_2024-09-30_cl-ster-de-protecci-n-venezuela-reporte-mensual-agosto-2024.pdf",
+    "wikipedia:VEN_2024"
+  ]
+}

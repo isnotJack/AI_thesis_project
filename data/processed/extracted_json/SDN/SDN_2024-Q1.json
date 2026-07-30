@@ -1,0 +1,32 @@
+{
+  "paese": "SDN",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF) continua a intensificarsi, con combattimenti in diverse regioni del paese, inclusi Aj Jazirah, Khartoum, Darfur e Kordofan. Le azioni militari includono attacchi aerei, combattimenti terrestri e l'uso di armi pesanti. Il conflitto ha portato a un aumento significativo dei dislocati interni e esterni, con un impatto significativo sulla popolazione civile. Le violazioni dei diritti umani, compresi atti di violenza contro civili, scomparsi forzati e violenze sessuali, sono state segnalate. L'accesso umanitario è stato ostacolato a causa delle tensioni e delle violenze, aumentando i rischi per la popolazione in difficoltà."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia è stata dichiarata in alcune regioni di Sudan, principalmente a causa del conflitto che ha aggravato le condizioni di sicurezza alimentare. Il conflitto ha interferito con le attività agricole, limitando l'accesso ai campi e ai mercati. L'aumento dei prezzi dei generi alimentari e la scarsità di cibo hanno portato a un allarme crescente sulla sicurezza alimentare. La situazione è peggiorata ulteriormente dalle difficoltà di accesso umanitario, che hanno reso difficile la distribuzione di aiuti alimentari e la fornitura di assistenza vitale."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati e dei dislocati interni è critica. Il numero di dislocati interni è aumentato significativamente, con molte persone che cercano rifugio in aree urbane e campi di rifugiati. La protezione dei rifugiati e dei dislocati interni è un problema di primo piano, con rischi di violenza, malnutrizione e malattie. L'accesso ai servizi di base, come l'assistenza sanitaria e l'istruzione, è limitato. La situazione è ulteriormente complicata dalle tensioni tra le comunità ospitanti e i rifugiati, che aumentano a causa della crescente pressione sui risorse limitate."
+  },
+  "economia": {
+    "sintesi": "L'economia di Sudan è sotto forte pressione a causa del conflitto, che ha provocato una contrazione significativa. Le tensioni finanziarie e la mancanza di accesso ai fondi esterni hanno peggiorato la situazione. L'inflazione è alta e continua a crescere, influenzata dai costi crescenti dei beni di base. La deprezzazione della valuta locale ha reso più costosi gli importi, aumentando la pressione sui consumatori. La produzione agricola è stata gravemente compromessa, influenzando negativamente la disponibilità di cibo e i prezzi. Le prospettive di ripresa economica sono compromesse a causa delle continue turbolenze e delle violazioni dei diritti umani."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, Sudan continua a essere afflitto da un conflitto armato tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF). Il paese è governato dal Consiglio di Sovranità di Transizione, con Abdel Fattah al-Burhan come Presidente del Consiglio. Il conflitto ha portato a un aumento significativo dei dislocati interni e esterni, con un impatto significativo sulla popolazione civile. Il paese ha sospeso la sua appartenenza all'Intergovernmental Authority on Development (IGAD) a causa di accuse di favoritismo verso le Forze di Supporto Rapido. Il conflitto ha anche portato a un aumento delle tensioni con paesi vicini, come l'Emirato Arabo Unito, accusato di armare le Forze di Supporto Rapido. La situazione umanitaria è critica, con un aumento dei casi di malnutrizione e malattie, e un allarme crescente sulla sicurezza alimentare. L'accesso umanitario è stato ostacolato a causa delle tensioni e delle violenze, aumentando i rischi per la popolazione in difficoltà.",
+  "fonti": [
+    "acaps (SDN_2024-03-08_20240308_ACAPS_Sudan_Impact_of_long-term_displacement_in_the_East.pdf)",
+    "fews_net (SDN_2024-march_key-message-update.pdf)",
+    "unhcr_reports (SDN_2024Q1_2024-03-28_unhcr-sudan-operational-update-march-2024.pdf)",
+    "worldbank_mpo (SDN_mpo_am23.pdf)",
+    "wikipedia:SDN_2024"
+  ]
+}

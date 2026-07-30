@@ -1,0 +1,32 @@
+{
+  "paese": "ETH",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto continua a essere un fattore significativo nel paese, portando a un alto livello di spostamenti interni. Le zone interessate includono Gedeo, Guji, Oromia, Wellega, e parti di Amhara. I dislocamenti hanno portato a popolazioni IDP (Internally Displaced Persons) che sono vulnerabili alla fame, con bisogno di assistenza umanitaria continua. Le tensioni etniche e le violenze continue limitano l'accesso umanitario e ostacolano il ritorno dei rifugiati nei loro luoghi di origine."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è principalmente causata da conflitti che portano a spostamenti interni, limitando le opportunità di sussistenza. La riserva nazionale di sicurezza alimentare è in diminuzione, con livelli criticamente bassi a causa delle crescenti esigenze. Le coltivazioni di Belg sono state insufficienti, influenzando negativamente la disponibilità di cibo. I prezzi dei cereali di base sono aumentati significativamente, aggravando la situazione di carestia."
+  },
+  "migrazione": {
+    "descrizione": "I rifugiati interni (IDPs) continuano a crescere a causa dei conflitti, con preoccupazioni crescenti per la loro sicurezza e la mancanza di accesso alle risorse fondamentali come cibo, abitazioni e assistenza sanitaria. I ritorni sono ostacolati da preoccupazioni di sicurezza, distruzione delle case e occupazione delle terre. I bisogni prioritari dopo il ritorno includono rifugi, cibo, vestiti e attrezzature essenziali."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, l'Etiopia ha continuato a fare i conti con conflitti interni che hanno portato a spostamenti di massa e situazioni di instabilità. L'attenzione è stata rivolta alla sicurezza alimentare, con crescenti esigenze di assistenza umanitaria a causa delle carenze di cibo e delle condizioni di crisi. I tentativi di risoluzione dei conflitti e la gestione delle conseguenze umanitarie sono stati al centro delle preoccupazioni del governo e delle organizzazioni internazionali.",
+  "fonti": [
+    "ETH_2019-march_key-message-update.pdf",
+    "ETH_2019Q1_2019-03-31_ethiopia-gedeo-west-guji-idp-protection-monitoring-dashboard.pdf",
+    "ETH_2019-february_food-security-outlook.pdf",
+    "ETH_2019-january_key-message-update.pdf",
+    "wikipedia:ETH_2019"
+  ]
+}

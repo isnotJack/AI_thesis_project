@@ -1,0 +1,56 @@
+{
+  "paese": "RUS",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Il trimestre è caratterizzato da un conflitto in corso tra la Russia e l'Ucraina, con la Russia che riconosce le Repubbliche Popolari di Donetsk e Luhansk come entità indipendenti. Viene lanciata una grande invasione della Russia contro l'Ucraina, seguita da varie azioni diplomatiche e sanzioni da parte di altri paesi. La Russia risponde con misure contro i media stranieri, come la chiusura della sede di Deutsche Welle a Mosca. Viene anche approvata una legge che espande il divieto di propaganda di relazioni sessuali non tradizionali a tutti gli età, vietando risorse di media e online, incluse film, libri e produzioni teatrali. L'annessione di territori ucraini occupati dalla Russia è annunciata, con voti a favore di tale annessione in alcune regioni. Viene anche approvata una legge che espande il divieto di propaganda di relazioni sessuali non tradizionali a tutti gli età, vietando risorse di media e online, incluse film, libri e produzioni teatrali."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra un recupero dopo la pandemia, con un forte aumento del PIL. Tuttavia, ci sono preoccupazioni riguardo all'impatto a lungo termine della pandemia sui potenziali di crescita. La Russia continua a dipendere pesantemente dalle esportazioni di materie prime, in particolare dal petrolio e dal gas, per il suo PIL. Il governo ha intrapreso sforzi significativi di stabilizzazione macrofiscale prima della pandemia, ma queste misure hanno compromesso la capacità della Russia di rispondere efficacemente agli impatti sociali e economici negativi del COVID-19. La transizione a una crescita a basso contenuto di carbonio costituirà un grande sfida per l'economia russa, a meno che il governo non adotti misure preclusive per facilitare una crescita incentrata sulle persone."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Tactics, Techniques, and Procedures of Indicted State-Sponsored Russian Cyber Actors Targeting the Energy Sector (2022-03-24)",
+      "Strengthening Cybersecurity of SATCOM Network Providers and Customers (2022-03-17)",
+      "Russian State-Sponsored Cyber Actors Gain Network Access by Exploiting Default Multifactor Authentication Protocols and “PrintNightmare” Vulnerability (2022-03-15)",
+      "Update: Destructive Malware Targeting Organizations in Ukraine (2022-02-26)",
+      "Russian State-Sponsored Cyber Actors Target Cleared Defense Contractor Networks to Obtain Sensitive U.S. Defense Information and Technology (2022-02-16)",
+      "Understanding and Mitigating Russian State-Sponsored Cyber Threats to U.S. Critical Infrastructure (2022-01-11)"
+    ],
+    "gruppi_minaccia_associati": [
+      "FSB (Federal Security Service of Russia)",
+      "SVR (Foreign Intelligence Service of Russia)",
+      "GRU (Main Intelligence Directorate of the General Staff of the Armed Forces of the Russian Federation)",
+      "APT29 (Cozy Bear)",
+      "APT28 (Fancy Bear)",
+      "APT41",
+      "APT40"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Infrastrutture critiche",
+      "Settori governativi",
+      "Settori militari",
+      "Settori finanziari",
+      "Settori tecnologici",
+      "Settori industriali"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, la leadership russa è composta da Vladimir Putin come Presidente, Mikhail Mishustin come Primo Ministro, Valentina Matvienko come Presidente del Consiglio Federale e Vyacheslav Volodin come Presidente della Duma di Stato. Il trimestre è segnato da eventi significativi legati alla guerra in Ucraina, inclusa la riconoscenza delle Repubbliche Popolari di Donetsk e Luhansk come entità indipendenti e l'invasione della Russia contro l'Ucraina. Viene anche approvata una legge che espande il divieto di propaganda di relazioni sessuali non tradizionali a tutti gli età, vietando risorse di media e online, incluse film, libri e produzioni teatrali. L'annessione di territori ucraini occupati dalla Russia è annunciata, con voti a favore di tale annessione in alcune regioni. Viene anche approvata una legge che espande il divieto di propaganda di relazioni sessuali non tradizionali a tutti gli età, vietando risorse di media e online, incluse film, libri e produzioni teatrali.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_am21.pdf)",
+    "cisa (RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "cisa (RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf)",
+    "wikipedia:RUS_2022"
+  ]
+}

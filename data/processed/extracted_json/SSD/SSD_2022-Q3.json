@@ -1,0 +1,33 @@
+{
+  "paese": "SSD",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan è stato caratterizzato da un'ampia diffusione di conflitti e insicurezza, con episodi di violenza che hanno coinvolto diverse regioni del paese. I principali attori includono le forze governative, gruppi armati opposti e tribù locali. I conflitti hanno portato a spostamenti di popolazione, distruzioni di infrastrutture e interferenze con le attività di sopravvivenza. La regione di Upper Nile-Jonglei è stata un punto focale di tensioni, con attacchi armati e scontri tra tribù. In Unity State, le tensioni hanno aumentato la precarietà delle condizioni umanitarie. L'insicurezza ha anche interferito con le attività di assistenza umanitaria, limitando l'accesso a certe aree."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è stata principalmente causata da conflitti, inondazioni e sfide macroeconomiche. Le condizioni di carestia sono state aggravate dalla perdita di raccolti a causa delle inondazioni e dalla limitata accessibilità all'assistenza umanitaria. L'incremento dei prezzi dei generi alimentari e la deprezzazione della valuta nazionale hanno ulteriormente peggiorato la situazione. L'assistenza umanitaria ha mitigato in parte la gravità della carestia, ma molte famiglie continuano a subire carenze alimentari significative."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e verso i paesi vicini è stata un fenomeno significativo, con migliaia di persone spostate a causa dei conflitti e delle inondazioni. Le principali destinazioni sono stati i paesi vicini come Uganda, Sudan, Etiopia e Kenya. Gli sfollati hanno affrontato sfide di protezione, inclusi i rischi di violenza e la mancanza di accesso ai servizi essenziali. L'insicurezza ha ostacolato l'assistenza umanitaria, rendendo difficile il rifornimento di aiuti ai rifugiati e sfollati."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è stato negativo, con rischi fiscali ed esterni evidenziati. La deprezzazione della valuta nazionale e l'aumento dei prezzi dei generi alimentari hanno contribuito a una situazione economica precaria. Le prospettive di crescita sono state compromesse dalle sfide macroeconomiche e dalle incertezze politiche. L'assistenza umanitaria ha giocato un ruolo cruciale nel sostegno delle famiglie più vulnerabili."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a essere afflitto da conflitti interni, inondazioni e sfide economiche. La leadership del paese, con il presidente Salva Kiir Mayardit e il vicepresidente Riek Machar, ha affrontato sfide significative legate alla governance e alla stabilità. I conflitti tribali e le tensioni politiche hanno contribuito a un clima di instabilità, mentre le inondazioni hanno aggravato le condizioni umanitarie. L'assistenza internazionale ha cercato di mitigare le conseguenze delle crisi, ma le sfide rimangono significative.",
+  "fonti": [
+    "fews_net (SSD_2022-september_key-message-update.pdf)",
+    "fews_net (SSD_2022-august_food-security-outlook-update.pdf)",
+    "fews_net (SSD_2022-july_key-message-update.pdf)",
+    "unhcr_reports (SSD_2022Q3_2022-09-30_2022-south-sudan-regional-rrrp-regional-overview-of-the-sout.pdf)",
+    "worldbank_mpo (SSD_mpo_sm22.pdf)",
+    "wikipedia:SSD_2022"
+  ]
+}

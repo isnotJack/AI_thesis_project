@@ -1,0 +1,46 @@
+{
+  "paese": "PRK",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "FASTCash 2.0: North Korea's BeagleBoyzz Robbing Banks",
+      "North Korean Advanced Persistent Threat Focus: Kimsuky"
+    ],
+    "gruppi_minaccia_associati": [
+      "BeagleBoyzz",
+      "Kimsuky"
+    ],
+    "settori_bersaglio": [
+      "Banche",
+      "Servizi finanziari",
+      "Organizzazioni internazionali",
+      "Organizzazioni governative",
+      "Organizzazioni non governative",
+      "Servizi professionali",
+      "Fornitori di tecnologia IT",
+      "Istituzioni di istruzione superiore"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2020, la Corea del Nord ha continuato a svolgere attività di sviluppo delle sue armi, compresa la presentazione di nuovi missili durante la parata per il 75º anniversario del Partito dei Lavoratori di Corea. Il paese ha anche affrontato problemi legati alle inondazioni causate da diversi tifoni, che hanno provocato danni significativi e richiesto interventi di recupero da parte delle autorità. La leadership del paese, con Kim Jong Un alla guida, ha continuato a gestire le relazioni internazionali, che hanno mostrato tensioni con gli Stati Uniti e la Corea del Sud, nonché con la comunità internazionale in merito alle violazioni dei diritti umani e alle sanzioni. La Corea del Nord ha anche introdotto nuove misure per il controllo economico e ha continuato a svolgere attività di cyber-espulsione, come evidenziato da report di hacking di gruppi nordcoreani contro aziende legate alla produzione del vaccino COVID-19.",
+  "fonti": [
+    "cisa (PRK_AA20-239A_FASTCash2.0_508.pdf)",
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-301a",
+    "wikipedia:PRK_2020"
+  ]
+}

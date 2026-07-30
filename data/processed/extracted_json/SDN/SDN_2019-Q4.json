@@ -1,0 +1,32 @@
+{
+  "paese": "SDN",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Il Sudan è coinvolto in conflitti persistenti, principalmente nella regione di Darfur, dove le tensioni continuano. L'insorgenza armata e le azioni di gruppi armati locali contribuiscono a mantenere un clima di instabilità. La regione di Darfur è ancora segnata da violenze e scontri, con conseguenze significative sulla popolazione locale. L'insorgenza armata continua a essere un fattore di instabilità, con effetti diretti sulla sicurezza e la stabilità del paese. La presenza di gruppi armati locali e la loro attività continuano a influenzare negativamente la situazione di sicurezza nel paese."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia nel Sudan è principalmente causata da fattori come conflitti, inondazioni, carenze alimentari e prezzi elevati dei generi alimentari di base. Le inondazioni hanno causato perdite di vite umane e di beni, influenzando negativamente la sicurezza alimentare. I prezzi dei generi alimentari di base, come il sorghum e il miglio, sono aumentati significativamente, influenzando negativamente la capacità delle famiglie di accedere a cibo sufficiente. La carestia è accentuata dalle condizioni economiche difficili, con una deprezzazione della valuta nazionale e un aumento dei prezzi dei beni di consumo. La situazione è peggiorata anche a causa delle inondazioni che hanno distrutto le colture e ridotto la disponibilità di cibo. La carestia è concentrata in aree specifiche, come Darfur, Kordofan Meridionale e Jebel Marra, dove le condizioni sono particolarmente critiche."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sudan è caratterizzata da un flusso significativo di rifugiati provenienti dal Sud Sudan, con un numero crescente di nuovi arrivi. I rifugiati sono principalmente concentrati in aree specifiche, come Darfur, Kordofan Meridionale e Jebel Marra. La situazione dei rifugiati è complicata da problemi di sicurezza e accesso ai servizi essenziali. I rifugiati continuano a ricevere assistenza umanitaria, ma le condizioni di vita rimangono difficili. La presenza di rifugiati aumenta la pressione sui servizi locali e sulle risorse disponibili, creando sfide significative per le comunità ospitanti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2019, il Sudan ha visto un cambiamento significativo nella leadership politica con l'overthrow di Omar al-Bashir in un colpo di Stato. Questo evento ha avviato un periodo di transizione politica, con nuove figure al governo. La situazione politica è stata influenzata da proteste e movimenti di opposizione, che hanno richiesto cambiamenti significativi. La transizione politica ha portato a un nuovo governo di transizione, con Motazz Moussa come primo ministro. La leadership del paese è stata segnata da questi cambiamenti, con Bakri Hassan Saleh e Osman Kebir come vice presidenti. La situazione politica è stata influenzata da questi eventi, che hanno avuto un impatto significativo sul paese. La transizione politica ha portato a un nuovo governo di transizione, con nuove figure al governo. La situazione politica è stata influenzata da questi cambiamenti, con nuove figure al governo. La leadership del paese è stata segnata da questi cambiamenti, con nuove figure al governo. La situazione politica è stata influenzata da questi eventi, che hanno avuto un impatto significativo sul paese.",
+  "fonti": [
+    "fews_net (SDN_2019-december_food-security-outlook-update.pdf)",
+    "fews_net (SDN_2019-november_key-message-update.pdf)",
+    "fews_net (SDN_2019-october_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2019Q4_2019-12-31_sudan-south-sudanese-refugee-response-population-amp-operati.pdf)",
+    "wikipedia:SDN_2019"
+  ]
+}

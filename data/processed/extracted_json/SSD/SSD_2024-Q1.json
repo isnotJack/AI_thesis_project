@@ -1,0 +1,32 @@
+{
+  "paese": "SSD",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan ha visto un aumento dell'incidenza di conflitti, con un rialzo nei rapporti di ambuscate e attacchi di rivalsa. Le tensioni sono cresciute a causa delle risorse naturali scarse e delle condizioni economiche deteriorate. Hotspot di conflitti sono stati evidenziati in aree come Equatoria Settentrionale, con molte ambuscate riportate su convogli umanitari e governativi, causando perdite di vite umane e interferendo con la preposizione di aiuti. Attacchi armati sono stati segnalati in diverse regioni, inclusi attacchi contro convogli umanitari e attacchi tra tribù nomadi e agricoltori. La situazione è rimasta instabile, con continue minacce di violenza e conflitti localizzati."
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia è stata aggravata da una combinazione di fattori, inclusi il deterioramento delle condizioni macroeconomiche, l'aumento dei prezzi dei beni, le incertezze legate all'export di petrolio e le conseguenze del conflitto. Le condizioni di carestia sono state particolarmente severe in aree come Unity, Upper Nile e Bahr el Ghazal, con proiezioni di carestia catastrofica in alcune zone. L'aumento dei prezzi dei beni di base, la scarsità di cibo e le difficoltà di accesso ai mercati hanno contribuito a peggiorare la situazione alimentare."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione ha continuato a essere un problema significativo, con un flusso di rifugiati sudanesi provenienti dal Sudan. Il numero di nuovi arrivi è stato elevato, con rifugiati che attraversano il confine verso il Sud Sudan. La protezione dei rifugiati è stata criticata, con problemi di sicurezza e accesso ai servizi umanitari. La situazione dei rifugiati è stata complicata da ostacoli operativi, inclusi attacchi contro convogli umanitari e tensioni tra rifugiati e popolazioni locali."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è stato negativo, con preoccupazioni legate alla stabilità macroeconomica, alla gestione delle finanze pubbliche e alla dipendenza dal settore petrolifero. Le prospettive di crescita sono state compromesse da fattori come la volatilità dei prezzi del petrolio, le pressioni inflazionistiche e le difficoltà di finanziamento. Le riforme economiche e fiscali sono state necessarie per promuovere la stabilità e la crescita a medio termine."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a lottare con sfide significative, incluse le tensioni politiche, le difficoltà economiche e le crisi umanitarie. L'leadership del paese, con il presidente Salva Kiir Mayardit e il vicepresidente Riek Machar, ha affrontato decisioni cruciali riguardanti la governance e la stabilità. Eventi come la chiusura delle scuole a causa di un'ondata di caldo estremo e incidenti aerei hanno evidenziato le vulnerabilità del paese. La situazione generale è stata caratterizzata da instabilità e sfide continue, con un forte impatto sulle condizioni di vita della popolazione.",
+  "fonti": [
+    "fews_net (SSD_2024-march_key-message-update.pdf)",
+    "fews_net (SSD_2024-january_key-message-update.pdf)",
+    "unhcr_reports (SSD_2024Q1_2024-03-31_2024-south-sudan-regional-rrrp-regional-overview-of-the-sout.pdf)",
+    "worldbank_mpo (SSD_mpo_am23.pdf)",
+    "wikipedia:SSD_2024"
+  ]
+}

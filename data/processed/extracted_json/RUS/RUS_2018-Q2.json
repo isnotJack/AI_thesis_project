@@ -1,0 +1,56 @@
+{
+  "paese": "RUS",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Targeting of financial and chemical organizations in Europe",
+      "Targeting of German critical infrastructure sectors",
+      "Alleged Russian compromise of networking equipment",
+      "Operation Parliament"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "https://www.cfr.org/cyber-operations/alleged-russian-compromise-of-networking-equipment",
+      "https://www.cfr.org/cyber-operations/operation-parliament",
+      "https://www.cfr.org/cyber-operations/targeting-of-financial-and-chemical-organizations-in-europe",
+      "https://www.cfr.org/cyber-operations/targeting-of-german-critical-infrastructure-sectors"
+    ],
+    "gruppi_minaccia_associati": [
+      "DustSquad",
+      "APT27",
+      "APT28",
+      "Fancy Bear"
+    ],
+    "settori_bersaglio": [
+      "Financial organizations",
+      "Biological and chemical laboratories",
+      "Critical infrastructure sectors (energy, water, telecommunications)",
+      "Networking equipment (routers, switches)",
+      "Parliaments, government ministries, academics, media organizations"
+    ],
+    "ruolo": "entrambi"
+  },
+  "contesto_generale": "In the second quarter of 2018, Russia saw several significant events. In March, Sergey Lavrov announced that Russia would expel diplomats from the United Kingdom in response to the expulsion of Russian envoys due to the poisoning of Sergei Skripal and Yulia Skripal. Vladimir Putin was elected for a fourth term as President of Russia, winning a substantial majority of the vote. In May, protests were held in various cities against Putin's re-election and government plans to increase the retirement age. The opening ceremonies of the 2018 FIFA World Cup were held in June, and the Russian State Duma adopted a bill making education in languages other than Russian optional, which was seen by some as a policy of Russification. Protests against the pension age hike continued throughout the quarter.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/alleged-russian-compromise-of-networking-equipment",
+    "https://www.cfr.org/cyber-operations/operation-parliament",
+    "https://www.cfr.org/cyber-operations/targeting-of-financial-and-chemical-organizations-in-europe",
+    "https://www.cfr.org/cyber-operations/targeting-of-german-critical-infrastructure-sectors",
+    "https://www.cfr.org/cyber-operations/targeting-of-south-korean-actors-prior-to-meeting-of-donald-j-trump-and-kim-jong-un",
+    "wikipedia:RUS_2018"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "paese": "IRN",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2021, l'Iran ha continuato a sperimentare tensioni politiche e sociali significative. Eventi di rilievo includono l'arresto di un fotoreporter per propaganda contro lo stato, l'apertura di fuoco lungo la strada di confine Eskan, e proteste in varie regioni del paese, spesso legate a questioni economiche e sociali. Inoltre, ci sono state azioni militari contro basi di opposizione curda in Iraq e tensioni con Israele, che hanno portato a un presunto cyberattacco contro un sito nucleare iraniano. L'Iran ha anche iniziato a discutere con gli Stati Uniti e le nazioni europee per ripristinare un accordo nucleare, mentre ha continuato a sviluppare programmi nucleari. Le proteste contro la carenza d'acqua e le tensioni con l'Azerbaigian hanno aggiunto ulteriori elementi di instabilità al contesto geopolitico."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Iran ha continuato a fornire supporto umanitario ai rifugiati, inclusi i rifugiati afghani, nonostante le pressioni economiche interne. L'UNHCR ha collaborato con le autorità iraniane per fornire assistenza ai rifugiati, inclusi i rifugiati afghani, e ha continuato a monitorare le condizioni di vulnerabilità e le esigenze di protezione. L'Iran ha anche iniziato a prepararsi per fornire rifugio temporaneo ai rifugiati afghani fuggiti dal conflitto, mentre incoraggiava molti rifugiati a tornare nei loro paesi d'origine a causa delle pressioni economiche."
+  },
+  "economia": {
+    "sintesi": "L'Iran ha continuato a sperimentare sfide significative a livello economico, influenzate da sanzioni internazionali, crisi finanziarie e problemi di governance. Le prospettive di crescita economica sono state compromesse da fattori come la volatilità dei prezzi del petrolio, le pressioni inflazionistiche e le difficoltà nel settore finanziario. L'Iran ha anche continuato a fare fronte a problemi di bilancio e debito pubblico, nonché a una crescente povertà e disuguaglianze sociali. Le misure di politica economica, incluse le riforme strutturali e le strategie di diversificazione economica, hanno incontrato ostacoli a causa delle sanzioni e delle pressioni esterne."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco di ransomware tramite vulnerabilità Microsoft Exchange ProxyShell (CVE-2021-34473)",
+      "Attacco di ransomware tramite vulnerabilità Fortinet (CVE-2018-13379, CVE-2020-12812, CVE-2019-5591)",
+      "Attacco di ransomware tramite vulnerabilità Microsoft Exchange (CVE-2021-34473)"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "AA21-321A: Iranian Government-Sponsored APT Actors Exploiting Vulnerabilities"
+    ],
+    "gruppi_minaccia_associati": [
+      "APT41/WICKED PANDA",
+      "Lazarus",
+      "RUBIDIUM",
+      "CURIM",
+      "PHOSPHORUS"
+    ],
+    "settori_bersaglio": [
+      "Servizi di informazione e tecnologia",
+      "Servizi di sicurezza",
+      "Servizi di trasporto",
+      "Servizi di salute",
+      "Servizi di energia",
+      "Servizi di finanza"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2021, l'Iran ha continuato a sperimentare una leadership politica in transizione, con Ebrahim Raisi che è stato eletto come nuovo presidente. Il paese ha continuato a fare fronte a sfide significative, incluse le tensioni geopolitiche con Israele e gli Stati Uniti, le negoziazioni nucleari, le pressioni economiche interne e le conseguenze della pandemia di COVID-19. L'Iran ha anche continuato a gestire questioni interne, incluse le proteste sociali, le tensioni etniche e le pressioni per la riforma economica e politica. Le sanzioni internazionali hanno continuato a influenzare significativamente le prospettive economiche e politiche del paese.",
+  "fonti": [
+    "unhcr_reports (IRN_2021Q2_2021-06-30_covid-19-response-in-the-islamic-republic-of-iran-june-2021.pdf)",
+    "worldbank_mpo (IRN_mpo_sm21.pdf)",
+    "cisa (IRN_AA21-321A-Iranian Government-Sponsored APT Actors Exploiting Vulnerabilities_1.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2021.pdf)",
+    "wikipedia:IRN_2021"
+  ]
+}

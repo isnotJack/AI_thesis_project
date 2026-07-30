@@ -1,0 +1,28 @@
+{
+  "paese": "EST",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2019-Q3, non sono stati riportati eventi specifici per l'Estonia. Tuttavia, in generale, l'Estonia ha continuato a fare fronte a questioni di salute pubblica, come l'aumento delle percentuali di sovrappeso e obesità, come spiegato da Haidi Kanamäe, capo di nutrizione e attività fisica all'Instituto Nazionale per lo Sviluppo della Salute. La leadership del paese comprendeva Kersti Kaljulaid come Presidente e Jüri Ratas come Primo Ministro. Nel periodo precedente al trimestre, si erano svolti importanti eventi politici, come le elezioni parlamentari e la formazione del governo, ma non ci sono stati sviluppi specifici rilevanti nel Q3.",
+  "fonti": [
+    "wikipedia:EST_2019"
+  ]
+}

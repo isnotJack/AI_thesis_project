@@ -1,0 +1,28 @@
+{
+  "paese": "ISR",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre 2024-Q3, Israele è coinvolto in conflitti intensi con diversi attori, principalmente legati alla guerra di Gaza e all'operazione militare nel West Bank. Tra i principali eventi: l'operazione militare israeliana nel West Bank, l'assassinio di Ismail Haniyeh a Teheran, l'attacco di Hezbollah contro Israele, e le continue azioni militari in territori limitrofi come il Libano e la Siria. Il conflitto è caratterizzato da raid aerei, attacchi con droni, e scontri armati. Israele continua a operare contro Hamas e Hezbollah, mentre le proteste interne si intensificano a causa delle politiche di guerra e delle condizioni umanitarie a Gaza. Il conflitto coinvolge anche attori regionali come l'Iran, il Libano e la Siria, con scambi di attacchi e tensioni crescenti lungo le frontiere. La situazione è complessa e dinamica, con un continuo scambio di azioni militari tra Israele e i suoi avversari regionali."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2024-Q3, Israele è caratterizzato da una leadership stabile con Isaac Herzog come Presidente, Benjamin Netanyahu come Primo Ministro, e Yitzhak Amit come Presidente della Corte Suprema. Il paese affronta una serie di sfide significative, tra cui la guerra di Gaza, l'operazione militare nel West Bank, e le tensioni regionali con l'Iran, Hezbollah e altri attori. La situazione interna è segnata da proteste contro il governo Netanyahu, da tensioni interne tra settori religiosi e politici, e da un clima di instabilità legato alla guerra. La leadership israeliana continua a gestire la crisi umanitaria a Gaza, le operazioni militari nel Libano e la difesa contro le minacce regionali. La situazione è complessa, con un mix di conflitti armati, proteste interne, e dinamiche politiche che influenzano la stabilità del paese.",
+  "fonti": [
+    "wikipedia:ISR_2024"
+  ]
+}

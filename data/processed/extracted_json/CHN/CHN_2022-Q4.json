@@ -1,0 +1,57 @@
+{
+  "paese": "CHN",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita economica è moderato con rischi fiscali e esterni segnalati. Si prevede una crescita economica rallentata, con pressioni inflazionistiche contenute. La povertà è in diminuzione, ma la situazione economica interna è sotto pressione."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Top CVEs Actively Exploited By People’s Republic of China State-Sponsored Cyber Actors (2022-10-06)"
+    ],
+    "gruppi_minaccia_associati": [
+      "APT29",
+      "HoneyMyte",
+      "GADOLINIUM",
+      "RADIUM",
+      "GALLIUM",
+      "NICKEL"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "Diplomatico",
+      "NGO",
+      "Think tanks/NGOs",
+      "Media",
+      "IT",
+      "Educazione",
+      "Servizi di informazione",
+      "Servizi di sicurezza",
+      "Servizi di energia",
+      "Servizi di telecomunicazioni",
+      "Servizi di trasporto",
+      "Servizi di finanza",
+      "Servizi di sanità",
+      "Servizi di difesa"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2022, la Cina ha continuato a sostenere la sua leadership politica con Xi Jinping come Segretario Generale del Partito Comunista Cinese e Presidente. L'ottavo Congresso Nazionale del Partito Comunista Cinese si è tenuto a ottobre, con Xi Jinping rieletto come Segretario Generale. Nel corso del trimestre, sono emerse proteste legate alla pandemia di COVID-19, evidenziando tensioni sociali. L'economia cinese ha continuato a mostrare segni di rilento, con pressioni su settori chiave come l'immobiliare e l'energia. La Cina ha anche mantenuto la sua strategia di espansione globale, con accenti sulla cooperazione internazionale e la promozione della sua influenza in ambiti come la tecnologia e la sicurezza cibernetica.",
+  "fonti": [
+    "worldbank_mpo (CHN_mpo_am22.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa22-279a",
+    "wikipedia:CHN_2022"
+  ]
+}

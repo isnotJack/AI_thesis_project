@@ -1,0 +1,31 @@
+{
+  "paese": "SDN",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono stati sviluppi significativi legati ai conflitti interni. Vi sono state violenze intercomunitarie e intertribali in diverse regioni, incluse Darfur, Kordofan, Senar, Nilo Blu, Mar Rosso e Kassala. Questi conflitti hanno portato a un aumento dei dislocati interni (IDPs) e hanno creato tensioni tra le comunità locali. In particolare, le regioni di Darfur e Kordofan hanno visto un aumento dei disordini, con conseguenti effetti sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni locali."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia includono la scarsità di raccolto, i prezzi elevati dei cereali e delle non-cereali, le carenze di importazioni di cereali e le condizioni macroeconomiche difficili. La carestia è aggravata dalla continua instabilità politica e dai conflitti interni, che hanno portato a un aumento dei dislocati interni e a una riduzione delle opportunità di reddito. La situazione è peggiorata ulteriormente dalla deprezzazione della valuta locale e dall'inflazione elevata, che hanno reso ancora più costosi i beni di base."
+  },
+  "migrazione": {
+    "descrizione": "Le principali sfide legate alla migrazione includono la protezione dei rifugiati e delle persone di concernenza, nonché la gestione delle intercettazioni di migranti. Vi sono stati sforzi per costruire capacità e canali di condivisione delle informazioni con le autorità governative, nonché per sensibilizzare sulle rischi legati ai movimenti misti. La situazione è complicata dalla presenza di arresti di stranieri in certe aree, come Khartoum, che hanno portato all'arresto di centinaia di rifugiati e richiedenti asilo. Inoltre, ci sono stati sforzi per fornire assistenza legale e protezione a queste persone."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è caratterizzato da una situazione macroeconomiche difficile, con una continua deprezzazione della valuta locale e un'elevata inflazione. Ci sono stati sforzi per consolidare le finanze pubbliche e ridurre il deficit fiscale, ma la situazione rimane fragile a causa delle carenze di riserve di valuta straniera e delle limitate opportunità di accesso ai fondi esterni. L'economia è stata ulteriormente stressata dalla crisi dei prezzi dei cereali e dalle conseguenti pressioni sulla sicurezza alimentare."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sudan ha continuato a essere caratterizzato da una situazione politica instabile, con continui cambiamenti di governo e tensioni interne. La leadership è stata segnata da un'instabilità cronica, con cambiamenti frequenti nei ruoli chiave. Gli eventi principali includono conflitti tribali e intercomunitari in diverse regioni, che hanno portato a un aumento dei dislocati interni e a una crescente pressione sulla sicurezza alimentare. La situazione è stata ulteriormente complicata da eventi climatici, come inondazioni, che hanno causato danni significativi e aumentato le difficoltà delle popolazioni locali.",
+  "fonti": [
+    "fews_net (SDN_2022-june_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2022Q2_2022-06-30_unhcr-sudan-fact-sheet-on-mixed-movements-january-june-2022.pdf)",
+    "worldbank_mpo (SDN_mpo_am21.pdf)",
+    "wikipedia:SDN_2022"
+  ]
+}

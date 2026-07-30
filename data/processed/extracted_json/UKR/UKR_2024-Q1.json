@@ -1,0 +1,32 @@
+{
+  "paese": "UKR",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con intensità significativa. Le azioni militari includono attacchi aerei su obiettivi civili e infrastruttura, con un aumento di attacchi in alcune regioni. La situazione di sicurezza rimane instabile, con continue azioni militari e minacce di ulteriori conflitti. Le dinamiche di conflitto mostrano un aumento delle azioni militari, con attacchi aerei su obiettivi civili e infrastruttura, e un aumento di attacchi in alcune regioni. La situazione di sicurezza rimane instabile, con continue azioni militari e minacce di ulteriori conflitti."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Ucraina è classificata come crisi (fase 3) secondo i criteri IPC. I principali driver sono il conflitto, che ha un impatto significativo sulla disponibilità di cibo e sulle condizioni economiche, e la scarsità di risorse alimentari. L'accesso ai servizi essenziali è limitato, e ci sono preoccupazioni riguardo all'incremento delle esigenze di assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "La situazione di migrazione in Ucraina continua a essere critica. Ci sono preoccupazioni riguardo alla protezione dei rifugiati e delle persone internamente sfollate, con ostacoli operativi legati all'accesso alle aree occupate e alle limitazioni nei trasferimenti di fondi. I rifugiati continuano a ricevere assistenza umanitaria, ma le esigenze di protezione e di accesso continuano a essere un problema significativo."
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina mostra segni di ripresa, ma rimane fragile a causa del conflitto. Ci sono preoccupazioni riguardo alla stabilità finanziaria, con rischi fiscali e esterni significativi. L'inflazione rimane un problema, e ci sono preoccupazioni riguardo alla povertà e alla disoccupazione. L'economia continua a beneficiare di aiuti esterni, ma la situazione rimane instabile a causa del conflitto."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, l'Ucraina continua a essere coinvolta in un conflitto armato con la Russia. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal rimangono in carica. Ci sono sviluppi significativi nel conflitto, inclusi scambi di prigionieri e negoziati internazionali. L'Ucraina riceve sostegno finanziario e militare da vari paesi, mentre continua a fare fronte a sfide economiche e umanitarie. Il paese si impegna anche in negoziati per l'adesione all'Unione Europea e riceve supporto internazionale per la sua difesa e la ricostruzione.",
+  "fonti": [
+    "acaps (UKR_2024-02-29_20240229_ACAPS_Ukraine_Analysis_Hub_update_on_scenarios_and_outlook_into_2024_01.pdf)",
+    "fews_net (UKR_2024-march_key-message-update.pdf)",
+    "unhcr_reports (UKR_2024Q1_2024-03-29_ukraine-protection-cluster-national-meeting-minutes-13-march.pdf)",
+    "worldbank_mpo (UKR_mpo_am23.pdf)",
+    "wikipedia:UKR_2024"
+  ]
+}

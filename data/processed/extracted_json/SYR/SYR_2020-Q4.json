@@ -1,0 +1,29 @@
+{
+  "paese": "SYR",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Siria continua a essere un tema centrale nel trimestre. La situazione è caratterizzata da insicurezza e conflitti che hanno costretto un gran numero di individui a lasciare le loro abitazioni originarie. I dislocamenti forzati sono frequenti, con molte persone che cercano rifugio in varie strutture di accoglienza, comprese tende, strutture auto-costruite e edifici abbandonati. La mancanza di documentazione formale per la terra e le proprietà complica ulteriormente la situazione, aumentando la vulnerabilità delle persone sfollate. Le forze de facto e le autorità locali sono coinvolte in decisioni riguardanti gli sgomberi forzati, che spesso avvengono senza notifica adeguata o senza alternative di ricollocazione appropriate. Gli sgomberi forzati possono portare a gravi conseguenze, come la perdita di proprietà, il trauma psicologico e la separazione familiare."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, la migrazione interna è un problema significativo a causa degli sgomberi forzati. Più di 2.7 milioni di Persone Internamente Sfrattate (IDPs) risiedono nella Siria nord-occidentale, cercando rifugio in varie strutture di accoglienza. La mancanza di documentazione formale per la terra e le proprietà rende le persone sfollate vulnerabili a ulteriori sgomberi forzati. Le procedure per gli sgomberi rimangono opache, rendendo le situazioni di forzamento più probabili. Gli sgomberi forzati possono portare a gravi conseguenze, come la perdita di proprietà, il trauma psicologico e la separazione familiare. Le autorità locali e le forze de facto sono coinvolte in decisioni riguardanti gli sgomberi, che spesso avvengono senza notifica adeguata o senza alternative di ricollocazione appropriate."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2020, la Siria continua a essere dominata dalla presidenza di Bashar al-Assad, con Najah al-Attar come Vice Presidente e Hussein Arnous come Primo Ministro a partire dal 11 giugno. La leadership del paese rimane stabile, ma la situazione politica e sociale è ancora influenzata dalla guerra civile in corso. Gli eventi specifici del trimestre 2020-Q4 non sono chiaramente delineati, ma la situazione generale dell'anno mostra una continuità di conflitti e sfide legate alla guerra civile. La presenza di forze de facto e le dinamiche politiche locali continuano a influenzare la situazione sul territorio.",
+  "fonti": [
+    "SYR_2020Q4_2020-12-31_guidelines-on-mitigating-harm-and-suffering-during-forced-ev.pdf",
+    "wikipedia:SYR_2020"
+  ]
+}

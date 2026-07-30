@@ -1,0 +1,28 @@
+{
+  "paese": "ISR",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2020, Israele ha continuato a gestire tensioni con i suoi vicini regionali. Nel febbraio, un attacco aereo israeliano ha colpito obiettivi in Siria, causando la morte di dodici militanti. Nel marzo, Israele ha ordinato a tutti gli arrivi dall'estero di mettersi in quarantena per combattere la diffusione del COVID-19. Nel maggio, Israele ha continuato a sostenere la sua posizione nei confronti della Palestina, con incidenti armati e proteste continue. Nel giugno, Israele ha espresso condoglianze per la morte di un uomo palestinese a causa di un'azione delle forze di sicurezza israeliane. Nel luglio, ci sono stati scambi di fuoco tra Israele e Hezbollah lungo il confine con il Libano, con nessuna vittima israeliana rilevata. Nel luglio, Israele ha approvato un piano per la costruzione di un gasdotto sottomarino EastMed, che fornirà gas naturale all'Europa. Nel luglio, ci sono state proteste contro il primo ministro Benjamin Netanyahu a causa delle sue gestioni del COVID-19 e delle accuse di corruzione. Nel luglio, Israele ha condotto un'operazione aerea contro un obiettivo di Hezbollah in Siria, causando la morte di un militante di Hezbollah. Nel luglio, ci sono state proteste contro il primo ministro Netanyahu a causa delle sue gestioni del COVID-19 e delle accuse di corruzione. Nel luglio, Israele ha approvato un piano per la costruzione di un gasdotto sottomarino EastMed, che fornirà gas naturale all'Europa."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, Israele ha continuato a gestire tensioni con i suoi vicini regionali, con incidenti armati e proteste continue. Il primo ministro Benjamin Netanyahu ha continuato a fare politica interna e estera, con tensioni con la Palestina e negoziati con paesi arabi. Israele ha anche affrontato la pandemia di COVID-19, mettendo in quarantena gli arrivi dall'estero e approvando misure per combattere la diffusione del virus. Nel luglio, Israele ha approvato un piano per la costruzione di un gasdotto sottomarino EastMed, che fornirà gas naturale all'Europa. Nel luglio, ci sono state proteste contro il primo ministro Netanyahu a causa delle sue gestioni del COVID-19 e delle accuse di corruzione. Nel luglio, Israele ha condotto un'operazione aerea contro un obiettivo di Hezbollah in Siria, causando la morte di un militante di Hezbollah. Nel luglio, ci sono state proteste contro il primo ministro Netanyahu a causa delle sue gestioni del COVID-19 e delle accuse di corruzione. Nel luglio, Israele ha approvato un piano per la costruzione di un gasdotto sottomarino EastMed, che fornirà gas naturale all'Europa.",
+  "fonti": [
+    "wikipedia:ISR_2020"
+  ]
+}

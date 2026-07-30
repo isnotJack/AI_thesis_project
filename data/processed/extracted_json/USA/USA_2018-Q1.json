@@ -1,0 +1,53 @@
+{
+  "paese": "USA",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Indictment of officials from the Mabna Institute (2018-03-28, categoria=Espionage)",
+      "Targeting of U.S. energy and other critical infrastructure sectors (2018-03-15, categoria=Espionage)",
+      "Iron Tiger (2018-02-01, categoria=Espionage)",
+      "Targeting of individuals of interest to the government of Lebanon (2018-01-18, categoria=Espionage)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Mabna Institute",
+      "Iranian Revolutionary Guards",
+      "Russian government-sponsored threat actor",
+      "Dark Caracal"
+    ],
+    "settori_bersaglio": [
+      "Education",
+      "Technology",
+      "Telecommunications",
+      "Energy",
+      "Nuclear power",
+      "Water",
+      "Aviation",
+      "Critical manufacturing"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In gennaio 2018, il Presidente Donald Trump ha fatto diverse dichiarazioni, tra cui una che ha suscitato controversie. Il 3 gennaio, ha affermato di possedere un pulsante nucleare molto più grande e potente di quello del leader nordcoreano Kim Jong-un. Nello stesso mese, è stato riferito che il 2017 è stato l'anno più costoso per le catastrofi climatiche e meteorologiche negli Stati Uniti. Il 13 gennaio, il Presidente ha accettato un invito da Kim Jong-un per un incontro previsto per maggio. Nel febbraio 2018, il Philadelphia Eagles ha vinto il Super Bowl LII, mettendo fine a un secolo di sconfitte. Il 14 febbraio, un massacro è avvenuto alla Marjory Stoneman Douglas High School in Florida, con 17 vittime. Nel marzo 2018, il Presidente ha annunciato tariffe del 25% sulle importazioni di acciaio e del 10% su quelle di alluminio. Il 18 marzo, tre americani detenuti in Corea del Nord sono stati liberati e ricevuti a Joint Base Andrews in Maryland.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/indictment-of-officials-from-the-mabna-institute",
+    "https://www.cfr.org/cyber-operations/iron-tiger",
+    "https://www.cfr.org/cyber-operations/targeting-of-individuals-of-interest-to-the-government-of-lebanon",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-energy-and-other-critical-infrastructure-sectors",
+    "wikipedia:USA_2018"
+  ]
+}

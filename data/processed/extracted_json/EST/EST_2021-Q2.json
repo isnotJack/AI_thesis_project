@@ -1,0 +1,29 @@
+{
+  "paese": "EST",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, l'Estonia ha visto un cambio di governo con Kaja Kallas che è diventata la nuova Prima Ministra il 26 gennaio, dopo la dimissioni di Jüri Ratas. La pandemia di COVID-19 continua a essere un evento significativo in corso. Nel secondo trimestre, non ci sono eventi specifici riportati per l'Estonia nella fonte disponibile.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:EST_2021"
+  ]
+}

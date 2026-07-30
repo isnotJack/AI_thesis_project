@@ -1,0 +1,50 @@
+{
+  "paese": "KOR",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Targeting of South Korean actors prior to meeting of Donald J. Trump and Kim Jong-un",
+      "Targeting of North Korean defectors and journalists",
+      "Winnti Umbrella",
+      "Operation Parliament"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "China",
+      "Russian Federation",
+      "Korea (Democratic People's Republic of)"
+    ],
+    "settori_bersaglio": [
+      "Government organizations",
+      "Software companies",
+      "Political organizations",
+      "Parliaments",
+      "Government ministries",
+      "Academics",
+      "Media organizations"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In the second quarter of 2018, South Korea experienced several notable events. In April, a major opinion rigging scandal erupted, leading to a significant political clash among parties. In May, a protest rally was held against abuse at Korea Air, calling for the resignation of Cho Yang-ho. The 2018 South Korean local and by-elections took place in June. Additionally, the United States called to suspend military exercises due to a lack of funding, following a summit meeting between U.S. President Donald Trump and North Korean leader Kim Jong Un.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/operation-parliament",
+    "https://www.cfr.org/cyber-operations/targeting-of-north-korean-defectors-and-journalists",
+    "https://www.cfr.org/cyber-operations/targeting-of-south-korean-actors-prior-to-meeting-of-donald-j-trump-and-kim-jong-un",
+    "https://www.cfr.org/cyber-operations/winnti-umbrella",
+    "wikipedia:KOR_2018"
+  ]
+}

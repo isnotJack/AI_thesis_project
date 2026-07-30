@@ -1,0 +1,48 @@
+{
+  "paese": "USA",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, gli Stati Uniti hanno continuato a gestire diverse questioni politiche interne, tra cui la chiusura del governo federale, che è diventata la più lunga nella storia del paese. La chiusura ha coinvolto diverse agenzie federali e ha lasciato senza stipendio 800.000 dipendenti governativi. Il presidente Donald Trump ha avanzato proposte per un muro di confine con il Messico, che hanno generato dibattiti politici intensi. Inoltre, il governo ha continuato a gestire questioni legate alla sicurezza nazionale, come l'indagine speciale sulle interferenze russe nelle elezioni presidenziali del 2016 e le tensioni con la Cina, culminate con l'accusa di frode contro la Huawei."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Targeting of universities’ maritime military secrets (2019-03-05, categoria=Espionage): sponsor=China, vittime=Canada, United States, ruolo=vittima. Chinese hackers targeted twenty-seven universities in the United States, Canada, and Southeast Asia as part of a scheme to steal research about maritime technology under development for military use.",
+      "U.S. Cyber Command offensive attack of Russian troll farm (2019-02-27, categoria=Denial of service): sponsor=United States, vittime=Russian Federation, ruolo=attore. In November 2018, the U.S. Cyber Command launched an offensive campaign to combat a Russian troll operation known for using disinformation tactics.",
+      "Targeting of U.S. and European think tanks (2019-01-31, categoria=Espionage): sponsor=Russian Federation, vittime=Germany, United States, ruolo=vittima. Hackers set up fake login pages or sent spoof e-mails to people who work with the think tanks in an attempt to trick them into handing over information, such as passwords.",
+      "Attempted attack on the Democratic National Convention (DNC) during 2018 elections (2019-01-18, categoria=Espionage): sponsor=Russian Federation, vittime=United States, ruolo=vittima. The DNC alleged it was targeted in an unsuccessful cyberattack eight days after the 2018 elections in an attempted spear-phishing campaign.",
+      "Global hijacking of domain name system (DNS) (2019-01-09, categoria=Espionage): sponsor=Iran (Islamic Republic of), vittime=Canada, Korea (Republic of), Lebanon, United Arab Emirates, United States, ruolo=vittima. An unknown actor with a connection to Iran hijacked DNS records to target the traffic of governments and telecommunications organizations around the world."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "China",
+      "Russian Federation",
+      "Iran (Islamic Republic of)"
+    ],
+    "settori_bersaglio": [
+      "universities",
+      "think tanks",
+      "Democratic National Convention (DNC)",
+      "governments and telecommunications organizations"
+    ],
+    "ruolo": "entrambi"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, gli Stati Uniti hanno affrontato una serie di questioni politiche e sociali di rilievo. La leadership federale era composta da Donald Trump come presidente, Mike Pence come vicepresidente, e Nancy Pelosi come Speaker of the House. Il paese ha visto l'inizio di un nuovo Congresso, con i Democratici che hanno preso il controllo della Camera dei Rappresentanti. Numerose candidature presidenziali hanno iniziato a emergere, con diverse personalità che hanno annunciato la loro intenzione di partecipare alle primarie presidenziali del 2020. Inoltre, il paese ha affrontato questioni legate alla sicurezza nazionale, come le tensioni con la Cina e la continua indagine sulle interferenze russe nelle elezioni del 2016. La chiusura del governo federale ha creato tensioni politiche e ha avuto un impatto significativo sulle agenzie federali e sui loro dipendenti.",
+  "fonti": [
+    "https://www.cfr.org/cyber-operations/attempted-attack-on-the-democratic-national-convention-dnc-during-2018-elections",
+    "https://www.cfr.org/cyber-operations/global-hijacking-of-domain-name-system-dns",
+    "https://www.cfr.org/cyber-operations/targeting-of-u-s-and-european-think-tanks",
+    "https://www.cfr.org/cyber-operations/targeting-of-universities-maritime-military-secrets",
+    "https://www.cfr.org/cyber-operations/u-s-cyber-command-offensive-attack-of-russian-troll-farm",
+    "wikipedia:USA_2019"
+  ]
+}

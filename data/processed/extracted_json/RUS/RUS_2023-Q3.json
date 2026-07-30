@@ -1,0 +1,45 @@
+{
+  "paese": "RUS",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto principale nel trimestre è il conflitto Russo-Ucraino, che continua con intensità. Vi sono sviluppi significativi, inclusi l'annuncio di Vladimir Putin sulle armi nucleari, la sentenza contro un studente per posti su Telegram riguardanti attacchi russi, e l'annuncio di armi nucleari tattiche in Bielorussia. Vi è anche un tentativo di ribellione da parte del gruppo Wagner, che è stato poi fermato. L'uso di armi nucleari tattiche e le tensioni con l'Ucraina continuano a essere temi centrali."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra segni di resilienza, con un focus sulle esportazioni non petrolifere e l'investimento. Tuttavia, ci sono preoccupazioni riguardo all'inflazione e alla povertà, con un aumento delle misure di sostegno economico. L'economia continua a dipendere pesantemente dalle risorse naturali, ma ci sono sforzi per diversificare."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Exploit di Jetbrains TeamCity CVE-2023-42793 da parte del Servizio di Informazione Estero della Russia (SVR)",
+      "Attività di intelligence cibernetica da parte del Servizio di Informazione Estero della Russia (SVR)"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "RUS_aa23-347a-russian-foreign-intelligence-service-svr-exploiting-jetbrains-teamcity-cve-globally_0.pdf",
+      "RUS_aa23-129a_snake_malware_2.pdf"
+    ],
+    "gruppi_minaccia_associati": [
+      "Servizio di Informazione Estero della Russia (SVR)",
+      "Gruppo Wagner"
+    ],
+    "settori_bersaglio": [
+      "Software di sviluppo (Jetbrains TeamCity)",
+      "Servizi di intelligence e cyber"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, la leadership russa è rimasta stabile con Vladimir Putin come Presidente e Mikhail Mishustin come Primo Ministro. Vi sono stati sviluppi significativi legati al conflitto Russo-Ucraino, inclusi dichiarazioni su armi nucleari, tensioni con l'Ucraina e altri paesi, e un tentativo di ribellione da parte del gruppo Wagner. Ci sono anche cambiamenti legislativi e politici interni, come la revoca della ratifica del Trattato di Proibizione Globale delle Prove Nucleare e la chiusura di organizzazioni di diritti umani. L'economia mostra segni di resilienza ma con preoccupazioni riguardo all'inflazione e alla povertà.",
+  "fonti": [
+    "RUS_mpo_sm23.pdf",
+    "RUS_aa23-129a_snake_malware_2.pdf",
+    "RUS_aa23-347a-russian-foreign-intelligence-service-svr-exploiting-jetbrains-teamcity-cve-globally_0.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "ENISA_Threat_Landscape_2023.pdf",
+    "wikipedia:RUS_2023"
+  ]
+}

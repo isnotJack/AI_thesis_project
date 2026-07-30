@@ -1,0 +1,68 @@
+{
+  "paese": "USA",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Thrip (2018-06-19, categoria=Espionage): sponsor=China, vittime=United States, ruolo=vittima",
+      "Mustang Panda (2018-06-15, categoria=Espionage): sponsor=China, vittime=United States, ruolo=vittima",
+      "Compromise of a U.S. Navy contractor (2018-06-08, categoria=Espionage): sponsor=China, vittime=United States, ruolo=vittima",
+      "Covellite (2018-05-31, categoria=Espionage): sponsor=nan, vittime=United States, ruolo=vittima",
+      "Stealth Mango and Tangelo (2018-05-15, categoria=Espionage): sponsor=Pakistan, vittime=Afghanistan, Australia, Germany, India, Iraq, Pakistan, United Arab Emirates, United States, ruolo=vittima",
+      "Winnti Umbrella (2018-05-03, categoria=Espionage): sponsor=China, vittime=China, Hong Kong, Japan, Korea (Republic of), United Kingdom, United States, ruolo=vittima",
+      "Operation GhostSecret (2018-04-24, categoria=Espionage): sponsor=Korea (Democratic People's Republic of), vittime=Australia, Bangladesh, Brazil, Canada, China, France, Germany, Guatemala, Hong Kong, India, Japan, Thailand, United Kingdom, United States, ruolo=vittima",
+      "Alleged Russian compromise of networking equipment (2018-04-16, categoria=Sabotage): sponsor=Russian Federation, vittime=Ukraine, United Kingdom, United States, ruolo=vittima",
+      "Operation Parliament (2018-04-12, categoria=Espionage): sponsor=nan, vittime=Afghanistan, Canada, Chile, Denmark, Djibouti, Egypt, Germany, India, Iran (Islamic Republic of), Iraq, Israel, Jordan, Korea (Republic of), Kuwait, Lebanon, Morocco, Oman, Palestine, State of, Qatar, Russian Federation, Saudi Arabia, Serbia, Somalia, Syrian Arab Republic, United Arab Emirates, United Kingdom, United States, ruolo=vittima"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Thrip",
+      "Mustang Panda",
+      "Winnti Umbrella",
+      "Operation GhostSecret",
+      "Operation Parliament",
+      "Stealth Mango",
+      "Tangelo",
+      "Covellite"
+    ],
+    "settori_bersaglio": [
+      "satellite communications",
+      "telecommunications",
+      "geospatial-imaging",
+      "defense sectors",
+      "software companies",
+      "political organizations",
+      "critical infrastructure",
+      "organizations in the entertainment, finance, health-care, education, and telecommunications sectors",
+      "companies involved in electric power"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In questo trimestre, gli Stati Uniti hanno visto una serie di eventi significativi, inclusi sviluppi politici, incidenti naturali e attività di cyber. Nel campo politico, si è assistito a varie nomination e dimissioni di figure chiave, come la nomination di Brett Kavanaugh per la Corte Suprema e la dimissione di Jeff Sessions. Sono stati anche registrati diversi incidenti naturali, come l'eruzione del vulcano Kīlauea a Hawaii e l'uragano Florence che ha colpito la Carolina del Nord. Nel campo della cyber, sono stati segnalati diversi attacchi di spionaggio e sabotaggio, principalmente attribuiti a attori minaccia affiliati a paesi come la Cina, la Corea del Nord e il Pakistan. L'attenzione è stata rivolta anche a questioni di sicurezza nazionale, con l'annuncio di sanzioni contro la Corea del Nord e la Russia. In generale, il trimestre è stato caratterizzato da una combinazione di attività politiche, naturali e cyber, che hanno influenzato la situazione generale del paese.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/alleged-russian-compromise-of-networking-equipment",
+    "https://www.cfr.org/cyber-operations/compromise-of-a-u-s-navy-contractor",
+    "https://www.cfr.org/cyber-operations/covellite",
+    "https://www.cfr.org/cyber-operations/mustang-panda",
+    "https://www.cfr.org/cyber-operations/operation-ghostsecret",
+    "https://www.cfr.org/cyber-operations/operation-parliament",
+    "https://www.cfr.org/cyber-operations/stealth-mango-and-tangelo",
+    "https://www.cfr.org/cyber-operations/thrip",
+    "https://www.cfr.org/cyber-operations/winnti-umbrella",
+    "wikipedia:USA_2018"
+  ]
+}

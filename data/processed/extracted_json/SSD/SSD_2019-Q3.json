@@ -1,0 +1,32 @@
+{
+  "paese": "SSD",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono stati diversi episodi di conflitto armato tra le forze governative e le forze ribelli, nonché tra gruppi etnici. I combattimenti hanno coinvolto principalmente le regioni di Yei River State, Greater Bahr el Ghazal, e Greater Upper Nile. Vi sono state anche incursioni di bande armate che hanno causato perdite di vite umane e di bestiame. I combattimenti hanno portato a spostamenti di popolazione e a un aumento dei rifugiati interni e nei paesi vicini. Il governo e le forze ribelli hanno continuato a negoziare per la formazione di un governo di unità nazionale, ma senza raggiungere un accordo definitivo. I combattimenti hanno anche interferito con l'accesso umanitario e con le attività di rifornimento di cibo e assistenza."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia è stata principalmente causata da conflitti, inaccessibilità alle aree remote, e condizioni economiche precarie. La situazione di carestia è stata particolarmente grave in alcune zone, con la presenza di casi di catastrofe (IPC Fase 5). L'assistenza umanitaria ha contribuito a prevenire risultati ancora più estremi, ma la situazione rimane critica. La produzione agricola è stata influenzata negativamente dai conflitti e dalle condizioni climatiche, con conseguenze sulla disponibilità di cibo. L'accesso ai mercati e alle fonti di cibo naturali è stato limitato a causa delle continue tensioni e dei blocchi di accesso. La malnutrizione acuta è rimasta critica in alcune zone, con livelli elevati di malnutrizione globale acuta (GAM)."
+  },
+  "migrazione": {
+    "descrizione": "Ci sono stati ritorni spontanei di rifugiati verso il Sud Sudan, ma la situazione di protezione rimane critica. Alcuni ritorni sono stati ostacolati da continue minacce e inaccessibilità. I rifugiati hanno continuato a ricevere assistenza umanitaria nei paesi di accoglienza, ma la situazione di protezione resta problematica a causa delle continue minacce e delle violazioni dei diritti umani. Alcuni rifugiati hanno continuato a tornare nel paese di origine, ma la situazione di protezione rimane critica. L'assistenza umanitaria ha continuato a fornire supporto vitale ai rifugiati e ai dislocati interni, ma la situazione di protezione resta problematica."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a essere caratterizzato da conflitti armati tra le forze governative e le forze ribelli, nonché da tensioni etniche. Il governo e le forze ribelli hanno continuato a negoziare per la formazione di un governo di unità nazionale, ma senza raggiungere un accordo definitivo. I combattimenti hanno portato a spostamenti di popolazione e a un aumento dei rifugiati interni e nei paesi vicini. La situazione umanitaria è rimasta critica, con livelli elevati di malnutrizione e carestia in alcune zone. L'assistenza umanitaria ha continuato a fornire supporto vitale ai rifugiati e ai dislocati interni, ma la situazione di protezione rimane problematica. La produzione agricola è stata influenzata negativamente dai conflitti e dalle condizioni climatiche, con conseguenze sulla disponibilità di cibo. L'accesso ai mercati e alle fonti di cibo naturali è stato limitato a causa delle continue tensioni e dei blocchi di accesso.",
+  "fonti": [
+    "fews_net (SSD_2019-september_food-security-outlook-update.pdf)",
+    "fews_net (SSD_2019-august_key-message-update.pdf)",
+    "fews_net (SSD_2019-july_key-message-update.pdf)",
+    "unhcr_reports (SSD_2019Q3_2019-09-30_south-sudan-situation-unhcr-regional-update-1-30-september-2.pdf)",
+    "wikipedia:SSD_2019"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "paese": "SDN",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Darfur continua a essere un tema significativo. La situazione è caratterizzata da tensioni e movimenti di popolazione, con rifugiati provenienti dal Sud Sudan che continuano ad affluire in Sudan. La presenza di forze armate e gruppi armati locali contribuisce alla persistenza delle tensioni. La regione di Darfur è particolarmente colpita, con sfide legate alla sicurezza e alla protezione delle popolazioni civili. L'arrivo di rifugiati dal Sud Sudan aumenta la pressione sui servizi e le risorse locali, complicando ulteriormente la situazione di sicurezza e stabilità."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è principalmente causata da fattori come la siccità, il conflitto e la crisi economica. La rimozione delle sovvenzioni al grano e la devalutazione della moneta hanno portato ad un aumento dei prezzi dei generi alimentari di base, rendendo difficile l'accesso alla nutrizione per molte famiglie. La situazione è peggiorata anche a causa delle perdite di raccolto dovute alla siccità e alla mancanza di opportunità agricole. La carestia è più acuta nelle aree controllate da gruppi armati, dove le popolazioni sono particolarmente vulnerabili."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione è dominata dall'afflusso di rifugiati dal Sud Sudan, che fuggono da conflitti e carestia. La situazione dei rifugiati è critica, con sfide legate alla protezione, all'accesso ai servizi e alle risorse. I nuovi corridoi di migrazione sono attivi, con rifugiati che attraversano principalmente attraverso le regioni di Darfur. Gli ostacoli operativi includono la mancanza di infrastrutture sufficienti per accogliere i rifugiati, nonché le tensioni locali che possono aumentare a causa dell'arrivo di nuove popolazioni."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, il Sudan è guidato da Omar al-Bashir come Presidente e Bakri Hassan Saleh come Primo Ministro. La leadership del paese rimane stabile, ma la situazione interna è segnata da continue tensioni, soprattutto nella regione di Darfur. L'arrivo di rifugiati dal Sud Sudan continua a essere un problema significativo, aumentando la pressione sui servizi e le risorse locali. La devalutazione della moneta e l'aumento dei prezzi dei generi alimentari di base complicano ulteriormente la situazione economica e sociale del paese.",
+  "fonti": [
+    "fews_net (SDN_2018-march_key-message-update.pdf)",
+    "unhcr_reports (SDN_2018Q1_2018-03-31_sudan-population-amp-operational-update-south-sudanese-refug.pdf)",
+    "fews_net (SDN_2018-february_food-security-outlook.pdf)",
+    "fews_net (SDN_2018-january_key-message-update.pdf)",
+    "wikipedia:SDN_2018"
+  ]
+}

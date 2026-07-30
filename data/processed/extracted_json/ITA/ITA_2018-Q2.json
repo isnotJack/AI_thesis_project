@@ -1,0 +1,29 @@
+{
+  "paese": "ITA",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione dei migranti in arrivo in Italia via mare mostra una diminuzione significativa rispetto all'anno precedente. Gli arrivi via mare sono in calo, con una riduzione del 80% rispetto al periodo analogo del 2017. La maggior parte dei migranti proviene da paesi come Tunisia, Eritrea, Sudan, Nigeria, Costa d'Avorio, Mali, Guinea, Pakistan, Iraq e Algeria. La principale rotta di partenza rimane la Libia, anche se la proporzionale di partenze dalla Libia è in calo rispetto ai periodi precedenti. L'arrivo di minori non accompagnati è un problema di rilievo, con un numero significativo di minori giunti in Italia. La situazione mostra una riduzione dei flussi migratori rispetto ai periodi precedenti, ma continua a richiedere attenzione per la protezione dei migranti."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2018, l'Italia ha visto l'insediamento del nuovo governo, la Coalizione del Cambiamento, formato dalla Lega e dal Movimento 5 Stelle, sotto la leadership di Giuseppe Conte. Il ministro dell'Interno Matteo Salvini ha preso posizioni rigide sulla questione dell'immigrazione, annunciando la chiusura dei porti italiani ai soccorsi di barconi di migranti e promuovendo misure contro l'immigrazione clandestina. Queste decisioni hanno generato dibattiti e critiche sia all'interno che all'esterno del paese. Inoltre, il trimestre ha visto anche l'annuncio di un censimento dei Rom per scopi di espulsione, una misura che è stata criticata come costituzionalmente dubbia. L'atmosfera politica è stata segnata da tensioni legate all'immigrazione e alle politiche restrittive adottate dal governo.",
+  "fonti": [
+    "ITA_2018Q2_2018-06-30_italy-sea-arrivals-dashboard-june-2018.pdf",
+    "wikipedia:ITA_2018"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "paese": "SYR",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2022, la Siria ha continuato a sperimentare tensioni e conflitti. Eventi significativi includono un attacco da parte di Isil (Islamic State) che ha portato alla liberazione di numerosi prigionieri, inclusi importanti leader, da una prigione a Al-Hasakah. Un raid speciale statunitense ha portato alla morte del leader di Isil, Abu Ibrahim al-Qurashi. La Siria ha espresso sostegno per la decisione della Russia di riconoscere le repubbliche popolari di Donetsk e Luhansk come stati indipendenti. Un incidente aereo della Forza Aerea Siriana è avvenuto a Hama, con la perdita di tutte le persone a bordo. Un'epidemia di colera ha richiesto l'intervento dell'Organizzazione Mondiale della Sanità, con un aumento del numero di vittime e casi, principalmente nell'area di Aleppo. Un incidente marittimo ha causato la morte di almeno 71 migranti. Un incidente stradale coinvolgendo un veicolo militare turco ha provocato proteste nella provincia di Aleppo."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La Siria continua a sperimentare sfide significative legate alla migrazione. Il paese ospita un numero significativo di rifugiati e sfollati interni, con un'enfasi sulle esigenze di protezione e assistenza umanitaria. La mancanza di accesso adeguato a servizi fondamentali come l'acqua, l'igiene e l'assistenza sanitaria aumenta le vulnerabilità dei rifugiati e delle comunità ospitanti. La situazione di sfollamento è aggravata dalle condizioni climatiche severe, come l'inverno, che aumentano le esigenze di assistenza umanitaria. La mancanza di strutture di accoglienza appropriate e le limitazioni di accesso ai servizi fondamentali aumentano le vulnerabilità dei rifugiati e delle comunità ospitanti."
+  },
+  "economia": {
+    "sintesi": "L'economia siriana continua a essere afflitta da gravi problemi, con una prospettiva di crescita negativa. I rischi fiscali e esterni sono significativi, con una crescente dipendenza da importazioni e una debolezza delle riserve di cambio. L'inflazione è in aumento, influenzata da fattori come la crisi energetica globale e le sanzioni internazionali. La situazione economica è ulteriormente complicata dalla mancanza di accesso a finanziamenti internazionali e dalla scarsità di risorse finanziarie per sostenere le esigenze fondamentali della popolazione."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2022, la Siria è stata caratterizzata da una leadership stabile con Bashar al-Assad come presidente, Najah al-Attar come vicepresidente e Hussein Arnous come primo ministro. L'anno ha visto una serie di eventi significativi, inclusi attacchi da parte di gruppi terroristici, scontri tra fazioni armate, e interventi militari esterni. La situazione umanitaria è rimasta critica, con una crescente epidemia di colera e un aumento dei bisogni di assistenza umanitaria. Le relazioni esterne hanno mostrato cambiamenti significativi, con la Siria che ha espresso sostegno per le decisioni della Russia riguardo all'Ucraina e ha sospeso le relazioni diplomatiche con l'Ucraina. L'anno ha anche visto incidenti aerei e terrestri che hanno causato perdite di vite umane.",
+  "fonti": [
+    "acaps (SYR_2022-12-14_20221214_acaps_start_anticipatory_note_syria_impact_of_winter_in_the_northwest_1.pdf)",
+    "unhcr_reports (SYR_2022Q4_2022-12-31_unhcr-syria-key-figures-january-december-2022.pdf)",
+    "worldbank_mpo (SYR_mpo_am22.pdf)",
+    "wikipedia:SYR_2022"
+  ]
+}

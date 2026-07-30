@@ -1,0 +1,36 @@
+{
+  "paese": "SAU",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita è in via di ripresa, con segni di crescita nel primo semestre 2021 dopo una contrazione nel 2020. Il settore petrolifero ha recuperato parte delle sue perdite durante il secondo trimestre 2021, mentre i settori non petroliferi mostrano segni di ripresa. Rischi fiscali e esterni rimangono presenti, con la possibilità di un ritiro graduale dei programmi di supporto COVID-19. L'economia continua a beneficiare di un miglioramento delle condizioni globali e di un aumento dei prezzi del petrolio."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico mirato contro individui che partecipavano a due importanti conferenze di sicurezza: la 'Munich Security Conference' in Germania e il 'Think 20 Summit' in Arabia Saudita. Gli hacker hanno rubato le credenziali di molti dei loro bersagli, e secondo ricercatori di Microsoft, gli attacchi erano eseguiti per scopi di intelligence."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "NSO Group"
+    ],
+    "settori_bersaglio": [
+      "Settori di intelligence e informazioni"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2021, l'Arabia Saudita ha continuato a gestire la pandemia di COVID-19 con misure di controllo delle frontiere e restrizioni di viaggio. Il paese ha anche affrontato attacchi da parte dei ribelli Houthi contro le sue infrastrutture, inclusi aeroporti e installazioni petrolifere. L'Arabia Saudita ha proposto un cessate il fuoco in Yemen per porre fine al conflitto contro il movimento Houthi. Il paese ha anche continuato a gestire le relazioni diplomatiche con paesi vicini, come l'Emirati Arabi Uniti e il Libano, nonché con l'Iran. L'economia si è ripresa grazie all'aumento dei prezzi del petrolio e a misure di diversificazione economica.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_am21.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "wikipedia:SAU_2021"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "paese": "PRK",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, la Corea del Nord ha visto alcuni cambiamenti significativi nella leadership. Il 11 aprile, durante la prima sessione dell'14ª Assemblea Suprema del Popolo, Kim Jae-ryong è stato nominato primo ministro, sostituendo Pak Pong-ju dopo 6 anni. Choe Ryong-hae è stato nominato presidente del presidio, sostituendo Kim Yong-nam dopo 21 anni. Il 25 aprile, Kim Jong-un ha incontrato Vladimir Putin a Vladivostok per discutere del programma nucleare della Corea del Nord e cercare il sostegno russo per i negoziati con gli Stati Uniti. Putin ha accettato l'invito di Kim per una visita in Corea del Nord. Il 9 maggio, la Corea del Nord ha sottoposto un'Universal Periodic Review presso il Consiglio dei Diritti Umani delle Nazioni Unite, accettando 132 delle 262 raccomandazioni riguardanti le questioni dei diritti umani.",
+  "fonti": [
+    "wikipedia:PRK_2019"
+  ]
+}

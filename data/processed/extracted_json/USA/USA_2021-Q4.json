@@ -1,0 +1,42 @@
+{
+  "paese": "USA",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "The U.S. government, with its allies, took a stance against the Chinese government and partners, issuing a statement that China's malicious cyber operation poses a major threat to the United States and its allies' economic and national security. The statement attributed HAFNIUM with a high level of confidence in their cyber activities."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Colonial Pipeline cyberattack: An oil pipeline in Houston was hacked by DarkSide, causing the pipeline operator to shut down its entire network, affecting nearly half of the U.S. East Coast's fuel supply.",
+      "JBS S.A. cyberattack: A ransomware cyberattack hit several beef processing plants and slaughterhouses in Utah, Texas, Wisconsin, Nebraska, and Pennsylvania. Russian firm REvil was accused of being the perpetrators of the attack."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "2021-10-30_unhcr-welcomes-u-s-renewed-effort-to-end-policy-that-endange.pdf"
+    ],
+    "gruppi_minaccia_associati": [
+      "HAFNIUM"
+    ],
+    "settori_bersaglio": [
+      "Supply chain, IoT, and security sectors",
+      "Healthcare industry",
+      "Government operations and foreign ministries"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "The U.S. government, with its allies, took a stance against the Chinese government and partners, issuing a statement that China's malicious cyber operation poses a major threat to the United States and its allies' economic and national security. The statement attributed HAFNIUM with a high level of confidence in their cyber activities.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "USA_2021Q4_2021-10-30_unhcr-welcomes-u-s-renewed-effort-to-end-policy-that-endange.pdf",
+    "wikipedia:USA_2021"
+  ]
+}

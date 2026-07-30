@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei minori non accompagnati e separati (UASC) in Italia mostra un aumento significativo rispetto ai periodi precedenti. Gli arrivi di minori non accompagnati via mare sono aumentati, con una maggiore presenza di bambini rispetto agli adulti. Le nazionalità più comuni degli arrivi sono Tunisia, Eritrea, Guinea, Iraq, Pakistan, Sudan, Costa d'Avorio, Mali, Somalia, Nigeria e Libia. La proporzione di UASC tra gli arrivi totali via mare è aumentata rispetto agli anni precedenti, evidenziando una crescente criticità di protezione per questi minori."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attack on Italian oil firm Saipem"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Iran (Islamic Republic of)"
+    ],
+    "settori_bersaglio": [
+      "Energia"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2018, l'Italia ha continuato a fare fronte a questioni legate all'immigrazione e alla politica interna. L'annuncio del Ministro dell'Interno Matteo Salvini di chiudere i porti italiani per fermare l'immigrazione illegale ha generato dibattiti internazionali. Inoltre, il governo ha fatto dichiarazioni riguardanti la deportazione di Romani non in possesso di permesso di soggiorno, una misura che è stata criticata come costituzionalmente dubbia. L'incidente del crollo del ponte Morandi a Genova ha causato numerose vittime, mettendo in luce questioni legate all'infrastruttura nazionale. Nel campo della cyber, è stato segnalato un attacco contro l'azienda italiana Saipem, con implicazioni per la sicurezza energetica.",
+  "fonti": [
+    "ITA_2018Q4_2018-12-31_italy-unaccompanied-and-separated-children-uasc-dashboard-de.pdf",
+    "https://www.cfr.org/cyber-operations/attack-on-italian-oil-firm-saipem",
+    "wikipedia:ITA_2018"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "paese": "ISR",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2018, Israele ha continuato a gestire tensioni con il movimento Hamas e con il governo palestinese. Vi sono stati scontri armati lungo la frontiera con la Striscia di Gaza, con l'esercito israeliano che ha sparato a manifestanti palestinesi. L'Israele ha anche condotto operazioni militari contro presunte posizioni iraniane in Siria. Inoltre, vi sono stati episodi di violenza interna, come l'omicidio di un rabbino israeliano da parte di un arabo israeliano. L'Israele ha mantenuto la sua politica di costruzione di insediamenti e demolizione di strutture palestinesi nel Territorio Occupato. La situazione è stata caratterizzata da continue tensioni e scambi di accuse tra Israele e le autorità palestinesi, con Israele che accusa i palestinesi di usare civili come scudi umani e i palestinesi che accusano Israele di violazioni dei diritti umani."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Chrysene (2018-05-17, categoria=Espionage): sponsor=nan, vittime=Iraq, Israel, Pakistan, United Kingdom, ruolo=vittima",
+      "Operation Parliament (2018-04-12, categoria=Espionage): sponsor=nan, vittime=Afghanistan, Canada, Chile, Denmark, Djibouti, Egypt, Germany, India, Iran (Islamic Republic of), Iraq, Israel, Jordan, Korea (Republic of), Kuwait, Lebanon, Morocco, Oman, Palestine, State of, Qatar, Russian Federation, Saudi Arabia, Serbia, Somalia, Syrian Arab Republic, United Arab Emirates, United Kingdom, United States, ruolo=vittima"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2018, Israele ha continuato a gestire tensioni con il movimento Hamas e con il governo palestinese. Vi sono stati scontri armati lungo la frontiera con la Striscia di Gaza, con l'esercito israeliano che ha sparato a manifestanti palestinesi. L'Israele ha anche condotto operazioni militari contro presunte posizioni iraniane in Siria. Inoltre, vi sono stati episodi di violenza interna, come l'omicidio di un rabbino israeliano da parte di un arabo israeliano. L'Israele ha mantenuto la sua politica di costruzione di insediamenti e demolizione di strutture palestinesi nel Territorio Occupato. La situazione è stata caratterizzata da continue tensioni e scambi di accuse tra Israele e le autorità palestinesi, con Israele che accusa i palestinesi di usare civili come scudi umani e i palestinesi che accusano Israele di violazioni dei diritti umani.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/chrysene",
+    "https://www.cfr.org/cyber-operations/operation-parliament",
+    "wikipedia:ISR_2018"
+  ]
+}

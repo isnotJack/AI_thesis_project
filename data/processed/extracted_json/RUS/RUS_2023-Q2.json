@@ -1,0 +1,48 @@
+{
+  "paese": "RUS",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto principale nel trimestre è il conflitto Russo-Ucraino, che continua con intensità. Vi sono sviluppi significativi, inclusi l'annuncio della sospensione della partecipazione del trattato New START da parte della Russia, l'annuncio di Vladimir Putin riguardo alla stazione di armi nucleari tattiche in Bielorussia, e l'apertura di un caso penale contro un residente di Mosca per aver partecipato a un sondaggio di Radio Liberty. Vi è anche un attentato contro il blogger militare Vladlen Tatarsky a San Pietroburgo, che ha causato molte vittime. In aggiunta, c'è un tentativo di ribellione da parte del gruppo Wagner, che è stato poi fermato con l'intervento di Alexander Lukashenko. L'annuncio di Putin riguardo alla possibilità di ritirarsi dal trattato sul grano del Mar Nero è un altro sviluppo significativo. Vi sono anche sviluppi legati alla sicurezza interna, come la chiusura del SOVA Center e la detenzione di un avvocato di Alexei Navalny."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra segni di resilienza, con un focus sulle riforme strutturali per promuovere la crescita a medio termine. Ci sono preoccupazioni riguardo alla stabilità fiscale e alle pressioni esterne, ma si prevede un certo grado di crescita nonostante le sfide. Il paese continua a fare affidamento sulle entrate petrolifere, ma si stanno prendendo misure per diversificare le fonti di reddito e ridurre la dipendenza dagli investimenti esteri. Si prevede un aumento delle tariffe energetiche e delle tasse per contenere il deficit fiscale."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Exploit di vulnerabilità in JetBrains TeamCity",
+      "Attività di intelligence cibernetica da parte del Servizio di Informazione Estero della Russia (SVR)"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Hunting Russian Intelligence “Snake” Malware (2023-05-09)",
+      "APT28 Exploits Known Vulnerability to Carry Out Reconnaissance and Deploy Malware on Cisco Routers (2023-04-18)",
+      "Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally (2023-12-13)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Snake (FSB)",
+      "APT28",
+      "SVR"
+    ],
+    "settori_bersaglio": [
+      "Software di sviluppo (JetBrains TeamCity)",
+      "Infrastrutture critiche",
+      "Servizi di intelligence"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, la leadership russa è rimasta stabile con Vladimir Putin come Presidente e Mikhail Mishustin come Primo Ministro. Vi sono stati sviluppi significativi legati al conflitto Russo-Ucraino, inclusi dichiarazioni riguardanti il trattato New START, la situazione nucleare e la cooperazione con la Bielorussia. Vi sono anche sviluppi interni, come la chiusura di organizzazioni di monitoraggio dei movimenti nazionalisti e razzisti, e la detenzione di attivisti e giornalisti per diffamazione. In aggiunta, ci sono stati eventi legati alla sicurezza interna, come l'attentato contro il blogger militare Vladlen Tatarsky e la ribellione del gruppo Wagner. L'annuncio di Putin riguardo alla possibilità di ritirarsi dal trattato sul grano del Mar Nero è un altro sviluppo significativo. Vi sono anche sviluppi legati alla politica interna, come la decisione del Parlamento di revocare la ratifica del trattato di proibizione dei test nucleari.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_sm23.pdf)",
+    "cisa (RUS_aa23-129a_snake_malware_2.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "cisa (RUS_aa23-347a-russian-foreign-intelligence-service-svr-exploiting-jetbrains-teamcity-cve-globally_0.pdf)",
+    "wikipedia:RUS_2023"
+  ]
+}

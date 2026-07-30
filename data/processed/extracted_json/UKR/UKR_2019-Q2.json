@@ -1,0 +1,29 @@
+{
+  "paese": "UKR",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2019, l'Ucraina ha continuato a gestire situazioni legate alle terre temporaneamente occupate e alle persone internamente sfollate (IDPs). Il documento riporta l'operatività di centri collettivi per IDPs, con un numero significativo di individui alloggiati in strutture come città modulari, dormitori e sanatori. L'Ucraina ha anche avviato procedure per l'istituzione di un fondo di sussidi alle amministrazioni locali per il sostegno degli IDPs, con l'allocazione di fondi per l'acquisto di appartamenti e la ricostruzione di edifici. L'accento è posto sulla strategia di integrazione e soluzioni durature per gli IDPs, con l'introduzione di meccanismi per la fornitura di alloggi temporanei basati su criteri di vulnerabilità."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il documento evidenzia la gestione delle persone internamente sfollate (IDPs) nell'Ucraina, con un focus sulle condizioni di alloggio in centri collettivi. Viene descritto il processo di sussidi alle amministrazioni locali per il sostegno degli IDPs, inclusi l'acquisto di appartamenti e la ricostruzione di edifici. L'Ucraina ha introdotto procedure per l'istituzione di un fondo di sussidi per fornire alloggi temporanei agli IDPs, basati su criteri di vulnerabilità. L'attenzione è rivolta alla strategia di integrazione e soluzioni durature per gli IDPs."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, l'Ucraina ha visto l'elezione presidenziale il 31 marzo, con la successiva elezione parlamentare il 21 luglio. Questi eventi politici hanno segnato un momento cruciale per la leadership del paese, con la presidenza di Petro Poroshenko che si avvicinava alla fine del mandato e l'ascesa di Volodymyr Zelenskyy. Durante questo periodo, l'Ucraina ha continuato a gestire situazioni legate alle terre temporaneamente occupate e alle persone internamente sfollate, con un focus sul sostegno e l'integrazione degli IDPs.",
+  "fonti": [
+    "UKR_2019Q2_2019-06-30_ukraine-shelter-and-nfi-sector-factsheet-april-june-2019.pdf",
+    "wikipedia:UKR_2019"
+  ]
+}

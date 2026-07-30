@@ -1,0 +1,48 @@
+{
+  "paese": "PRK",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "TraderTraitor: North Korean State State-Sponsored APT Targets Blockchain Companies",
+      "North Korean State State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector"
+    ],
+    "gruppi_minaccia_associati": [
+      "Lazarus Group",
+      "APT38",
+      "BlueNoroff",
+      "Stardust Chollima",
+      "CERIUM",
+      "ZINC",
+      "DEV-0215",
+      "DEV-0530",
+      "OSMIUM"
+    ],
+    "settori_bersaglio": [
+      "Blockchain",
+      "Cryptocurrency",
+      "Healthcare and Public Health"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": null,
+  "fonti": [
+    "cisa (PRK_AA22-108A-TraderTraitor-North_Korea_APT_Targets_Blockchain_Companies.pdf)",
+    "cisa (PRK_aa22-187a-north-korean state-sponsored-cyber-actors-use-maui-ransomware-to-target-the-hph-sector.pdf)",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "ENISA_Threat_Landscape_2022.pdf"
+  ]
+}

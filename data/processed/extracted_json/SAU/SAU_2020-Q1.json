@@ -1,0 +1,29 @@
+{
+  "paese": "SAU",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, l'Arabia Saudita ha continuato sotto la leadership del re Salman e del principe ereditario Mohammad bin Salman. Tra gli eventi principali del trimestre, si segnala l'inizio degli sforzi per ricostruire le centrali elettriche in Yemen da parte dell'Arabia Saudita a gennaio. Nel marzo 2020, è stato confermato il primo caso di COVID-19 a Qatif, segnando l'inizio della pandemia nel paese.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:SAU_2020"
+  ]
+}

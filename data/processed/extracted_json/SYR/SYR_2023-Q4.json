@@ -1,0 +1,30 @@
+{
+  "paese": "SYR",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2023, la Siria ha continuato a essere caratterizzata da un'instabilità persistente legata al conflitto in corso. Attivita' di gruppi armati, come l'ISIS, hanno causato incidenti significativi, inclusi attacchi contro civili e forze di sicurezza. L'attivita' di gruppi armati ha portato a violenze localizzate, con esplosioni di mine e attacchi contro truffatori di funghi. Risposte militari, comprese le azioni della forza aerea israeliana contro obiettivi legati all'Iran e all'ISIS, hanno contribuito a un ambiente di tensione. L'attivita' di gruppi armati e le risposte militari hanno mantenuto un clima di instabilita' nel paese."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel quarto trimestre del 2023, la Siria ha continuato a gestire sfide significative legate alla migrazione interna e all'assistenza umanitaria. L'attivita' umanitaria ha coinvolto diverse organizzazioni, tra cui ACTED, MHD, HAI, TRC, White Helmets, SDI, AHA e Bahar, che hanno fornito assistenza a siti di IDP. Le sfide principali comprendevano la gestione dei campi, la promozione della resilienza comunitaria, la mitigazione dei rischi e la prevenzione degli incendi. L'assistenza umanitaria ha cercato di affrontare le esigenze dei profughi interni, nonostante le continue sfide logistiche e di sicurezza."
+  },
+  "economia": {
+    "sintesi": "Nel quarto trimestre del 2023, l'economia siriana ha continuato a mostrare segni di debolezza, con proiezioni di contrazione del PIL reale. I rischi fiscali e esterni sono stati segnalati, con un deficit fiscale significativo previsto per il 2023. L'inflazione ha continuato a essere un problema, con effetti negativi sulle famiglie siriane. Le politiche di riduzione delle sovvenzioni hanno esacerbato le condizioni economiche difficili, con conseguenze negative sulle entrate reali delle famiglie. L'economia si e' mostrata vulnerabile a ulteriori shock, con rischi di ulteriore contrazione se le condizioni di conflitto e ricostruzione non migliorano."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2023, la Siria ha continuato a essere caratterizzata da una leadership stabile con Bashar al-Assad come presidente, Najah al-Attar come vicepresidente e Hussein Arnous come primo ministro. L'anno ha visto una serie di eventi significativi, inclusi attacchi armati, proteste contro il governo e interventi militari esterni. L'attivita' di gruppi armati e le risposte militari hanno mantenuto un clima di instabilita' nel paese. L'economia ha continuato a mostrare segni di debolezza, con conseguenze negative sulle condizioni di vita delle popolazioni locali. L'assistenza umanitaria ha cercato di affrontare le sfide legate alla migrazione interna e alla gestione dei campi profughi, nonostante le continue sfide logistiche e di sicurezza.",
+  "fonti": [
+    "SYR_2023Q4_2023-12-31_syria-4ws-activities-for-4ws-activities-for-december-2023-co.pdf",
+    "SYR_mpo_am23.pdf",
+    "wikipedia:SYR_2023"
+  ]
+}

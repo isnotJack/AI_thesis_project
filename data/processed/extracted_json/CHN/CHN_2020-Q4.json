@@ -1,0 +1,43 @@
+{
+  "paese": "CHN",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia cinese ha iniziato a riprendersi dopo una contrazione iniziale, con un ritorno al rialzo nel primo trimestre. Tuttavia, la ripresa rimane irregolare, con un recupero più rapido nei settori industriali e dell'infrastruttura rispetto ai servizi, al consumo e all'investimento privato. L'investimento in infrastrutture ha contribuito significativamente alla ripresa, mentre il consumo privato continua a contrarsi. L'occupazione e il reddito domestico hanno mostrato un ritorno, ma la disoccupazione urbana è aumentata. Le proiezioni indicano una crescita moderata per il 2020, con rischi fiscali e di debito che continuano a pesare."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Potential for China Cyber Response to Heightened U.S.–China Tensions"
+    ],
+    "gruppi_minaccia_associati": [
+      "Zirconium",
+      "Strontium",
+      "Phosphorus"
+    ],
+    "settori_bersaglio": [
+      "Organizzazioni governative",
+      "Organizzazioni di ricerca medica",
+      "Organizzazioni di difesa anti-doping",
+      "Organizzazioni di ingegneria sociale",
+      "Organizzazioni di assistenza umanitaria"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2020, la Cina ha continuato a gestire le conseguenze della pandemia di COVID-19, con un ennesimo annuncio di politiche ambientali da parte del presidente Xi Jinping durante l'Assemblea Generale delle Nazioni Unite. L'attenzione è stata rivolta anche a questioni di sicurezza cibernetica, con l'accento su possibili risposte cibernetiche a tensioni crescenti tra Stati Uniti e Cina. L'attenzione internazionale si è concentrata su questioni legate ai diritti umani e alla sicurezza cibernetica, con richiami a ritirare la bozza della legge sulla sicurezza nazionale per Hong Kong.",
+  "fonti": [
+    "CHN_mpo_am20.pdf",
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-275a",
+    "wikipedia:CHN_2020"
+  ]
+}

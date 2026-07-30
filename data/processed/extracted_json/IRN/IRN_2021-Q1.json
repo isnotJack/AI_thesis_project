@@ -1,0 +1,47 @@
+{
+  "paese": "IRN",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2021, l'Iran ha continuato a sostenere azioni militari e tensioni regionali, inclusi gli attacchi contro le forze curde in Iraq e le dimostrazioni di forza lungo il confine con l'Azerbaigian. L'IRGC ha bloccato la strada di frontiera di Eskan a Saravan, causando violenze e perdite di vite umane. L'Iran ha anche continuato a sostenere gruppi armati regionali, come il Hezbollah, e ha mantenuto tensioni con Israele, con un presunto attacco cibernetico israeliano contro un sito nucleare iraniano. Le negoziazioni indirette tra l'Iran e gli Stati Uniti a Vienna hanno iniziato a riprendere, ma senza raggiungere un accordo definitivo."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Iran ha continuato ad accogliere rifugiati afghani, con un numero significativo di rifugiati che hanno ricevuto carte Amayesh per regolarizzare il loro status. Tuttavia, le autorità iraniane hanno anche iniziato a incoraggiare il ritorno dei rifugiati afghani verso l'Afghanistan, a causa delle pressioni economiche e della situazione politica interna. L'Iran ha anche continuato a gestire la presenza di rifugiati iracheni e siriani, con un numero significativo di rifugiati che hanno ricevuto passaporti iraniani."
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana ha continuato a subire pressioni significative a causa delle sanzioni internazionali, con un rallentamento del PIL e un aumento della povertà. L'Iran ha continuato a dipendere fortemente dall'export di petrolio, ma le sanzioni hanno limitato le sue capacità di vendita. L'inflazione ha continuato ad essere un problema, con un aumento dei prezzi che ha colpito la popolazione più vulnerabile. L'Iran ha anche continuato a lottare con la crisi finanziaria, con un debito crescente e una mancanza di investimenti esteri."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro un sito nucleare iraniano, presuntamente attribuito a Israele, nel mese di aprile.",
+      "Attacco cibernetico contro un sistema di sicurezza di un'azienda di trasporto marittimo, attribuito a attori sponsorizzati dal governo iraniano."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian Government-Sponsored APT Actors Exploiting Vulnerabilities",
+      "APT Actors Exploit Vulnerabilities to Gain Initial Access for Malicious Activity"
+    ],
+    "gruppi_minaccia_associati": [
+      "PHOSPHORUS",
+      "CURIM",
+      "RUBIDIUM"
+    ],
+    "settori_bersaglio": [
+      "Servizi di informazione e intelligence",
+      "Sicurezza nazionale",
+      "Sicurezza informatica"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, l'Iran ha continuato a essere guidato dal leader supremo Ali Khamenei e dal presidente Hassan Rouhani, fino al 3 agosto quando Ebrahim Raisi è stato eletto come nuovo presidente. L'Iran ha continuato a lottare con la pandemia di COVID-19, approvando il vaccino Sputnik V russo per l'importazione e la produzione locale. L'Iran ha anche continuato a sostenere azioni militari e tensioni regionali, con attacchi contro le forze curde in Iraq e dimostrazioni di forza lungo il confine con l'Azerbaigian. Le negoziazioni indirette tra l'Iran e gli Stati Uniti a Vienna hanno iniziato a riprendere, ma senza raggiungere un accordo definitivo. L'Iran ha anche continuato a gestire la presenza di rifugiati afghani, iracheni e siriani, con un numero significativo di rifugiati che hanno ricevuto carte Amayesh o passaporti iraniani. L'economia iraniana ha continuato a subire pressioni significative a causa delle sanzioni internazionali, con un rallentamento del PIL e un aumento della povertà.",
+  "fonti": [
+    "IRN_2021Q1_2021-03-31_afghan-population-movement-snapshot-march-2021.pdf",
+    "IRN_mpo_am20.pdf",
+    "IRN_AA21-321A-Iranian Government-Sponsored APT Actors Exploiting Vulnerabilities_1.pdf",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:IRN_2021"
+  ]
+}

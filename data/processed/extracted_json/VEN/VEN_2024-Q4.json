@@ -1,0 +1,29 @@
+{
+  "paese": "VEN",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il report menziona attività di protezione e assistenza per le persone in movimento, inclusi i rifugiati e i migranti. Si evidenzia l'importanza di garantire la protezione e la sicurezza per le persone vulnerabili, come donne, bambini e adolescenti. Viene anche menzionato il ruolo delle organizzazioni umanitarie nel fornire assistenza e supporto a queste popolazioni. L'accento è posto sulla cooperazione interagenziale e sulla collaborazione con le autorità locali per garantire una risposta efficace alle esigenze di protezione."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, il Venezuela continua a essere caratterizzato da una situazione politica complessa, con tensioni tra il governo e l'opposizione. L'anno è segnato da eventi significativi come le elezioni presidenziali, che hanno generato contestazioni e proteste. Il paese affronta sfide legate alla governance, alla sicurezza e alla cooperazione internazionale, con un'attenzione particolare alla protezione delle popolazioni vulnerabili e alla risposta umanitaria. L'interazione con le organizzazioni internazionali e le autorità locali resta cruciale per affrontare le sfide emergenti.",
+  "fonti": [
+    "VEN_2024Q4_2024-12-23_cl-ster-de-protecci-n-venezuela-reporte-mensual-noviembre-20.pdf",
+    "wikipedia:VEN_2024"
+  ]
+}

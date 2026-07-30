@@ -1,0 +1,29 @@
+{
+  "paese": "SYR",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si è assistito a un aumento significativo di sfollati interni a causa di eventi climatici, come piogge intense che hanno distrutto tende, cibo e beni personali in diverse zone del paese. L'incremento di sfollati ha richiesto una risposta umanitaria intensificata, con un focus sulle aree di Idlib e Aleppo. L'attivismo umanitario è stato particolarmente concentrato sul fornire rifugi e assistenza non alimentare (NFI) ai sfollati, evidenziando la persistenza del conflitto e delle sue conseguenze umanitarie."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, si è registrato un aumento significativo di sfollati interni a causa di eventi climatici, come piogge intense che hanno distrutto tende, cibo e beni personali in diverse zone del paese. L'incremento di sfollati ha richiesto una risposta umanitaria intensificata, con un focus sulle aree di Idlib e Aleppo. L'attivismo umanitario è stato particolarmente concentrato sul fornire rifugi e assistenza non alimentare (NFI) ai sfollati, evidenziando la persistenza del conflitto e delle sue conseguenze umanitarie."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, la Siria ha continuato a essere caratterizzata da una situazione politica instabile e da una pandemia in corso. L'elezione presidenziale ha avuto luogo nel mese di maggio, con la riconferma di Bashar al-Assad come presidente. Tuttavia, l'elezione è stata considerata illegittima da parte di molti osservatori internazionali. Nel mese di aprile, sono arrivate vaccini AstraZeneca sotto l'iniziativa COVAX, con la maggior parte delle dosi consegnate a Damasco e una parte a nord-ovest del paese. L'attivismo umanitario è stato particolarmente concentrato sul fornire assistenza ai sfollati interni, evidenziando la persistenza del conflitto e delle sue conseguenze umanitarie.",
+  "fonti": [
+    "SYR_2021Q2_2021-06-30_north-west-syria-shelter-amp-nfi-emergency-overview-june-202.pdf",
+    "wikipedia:SYR_2021"
+  ]
+}

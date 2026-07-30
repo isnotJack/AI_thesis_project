@@ -1,0 +1,34 @@
+{
+  "paese": "YEM",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con episodi di violenza, inclusi attacchi armati e scontri tra le forze governative e le milizie Houthi. La situazione è caratterizzata da un aumento delle restrizioni sociali, in particolare nelle aree controllate dai Houthi, con un maggiore controllo sulle movimentazioni delle donne e delle ragazze. Le tensioni locali, soprattutto legate alle risorse naturali e alle dispute territoriali, sono cresciute, portando a conflitti armati tra tribù e comunità. La presenza di mine e ordigni non esplosi continua a rappresentare una minaccia per la popolazione civile. L'attivismo delle donne per ottenere maggiore autonomia e partecipazione economica è ostacolato da norme sociali e religiose che limitano la loro mobilità e accesso ai servizi. Le autorità Houthi hanno intensificato le misure di controllo sociale, imponendo restrizioni ai movimenti delle donne e richiedendo la presenza di un mahram (guardiano maschio) per le attività quotidiane. Le violazioni dei diritti umani, comprese le violenze contro le donne e i bambini, sono state segnalate in diverse aree del paese. L'uso di armi pesanti e le azioni militari continue hanno portato a un aumento dei rifugiati interni e delle condizioni di precarietà per la popolazione civile. Le autorità hanno anche intensificato le azioni contro i gruppi armati, con scontri armati che hanno portato a perdite umane e materiali. La situazione umanitaria resta critica, con migliaia di famiglie che continuano a subire le conseguenze dirette del conflitto, inclusi i danni alle infrastrutture e le difficoltà di accesso ai servizi essenziali."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Le sfide legate alla migrazione in Yemen continuano a essere significative, con migliaia di famiglie che si spostano all'interno del paese in cerca di sicurezza e assistenza umanitaria. Le autorità hanno segnalato un aumento dei rifugiati interni a causa delle continue azioni militari e delle violazioni dei diritti umani. Le condizioni di precarietà e la mancanza di accesso ai servizi fondamentali, come l'acqua e la salute, hanno portato a un aumento dei flussi di popolazione verso aree considerate più sicure. Le autorità hanno anche segnalato un aumento dei casi di violenza contro le donne e i bambini nei campi per rifugiati interni, evidenziando la necessità di misure di protezione specifiche. Le autorità hanno intensificato gli sforzi per fornire assistenza umanitaria alle famiglie colpite dal conflitto, ma le difficoltà di accesso e la mancanza di risorse continuano a rappresentare un ostacolo significativo. Le autorità hanno anche segnalato un aumento dei casi di malnutrizione e malattie tra i rifugiati interni, evidenziando la necessità di interventi urgenti per garantire la sopravvivenza e la salute delle popolazioni vulnerabili."
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere gravemente compromessa a causa del conflitto, con una situazione macroeconomiche che rimane instabile. Le condizioni economiche sono caratterizzate da una forte instabilità, con una crescente dipendenza da aiuti esterni per sostenere le attività economiche fondamentali. Le autorità hanno segnalato un aumento delle pressioni inflazionistiche e una degradazione delle condizioni di vita per la maggior parte della popolazione. Le restrizioni imposte dalle autorità Houthi hanno limitato l'accesso ai servizi finanziari e alle risorse economiche, rendendo difficile per le imprese e le famiglie mantenere le attività economiche. Le autorità hanno anche segnalato un aumento delle violazioni dei diritti umani, comprese le violenze contro le donne e i bambini, che hanno un impatto significativo sulle condizioni economiche e sociali del paese. Le autorità hanno intensificato gli sforzi per fornire assistenza umanitaria alle famiglie colpite dal conflitto, ma le difficoltà di accesso e la mancanza di risorse continuano a rappresentare un ostacolo significativo. Le autorità hanno anche segnalato un aumento dei casi di malnutrizione e malattie tra i rifugiati interni, evidenziando la necessità di interventi urgenti per garantire la sopravvivenza e la salute delle popolazioni vulnerabili."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2023, Yemen continua a essere afflitto da un conflitto armato persistente, con scontri tra le forze governative e le milizie Houthi. Il paese è diviso tra le autorità di Aden e quelle di Sanaa, con continue azioni militari e violazioni dei diritti umani. L'attivismo delle donne per ottenere maggiore autonomia e partecipazione economica è ostacolato da norme sociali e religiose che limitano la loro mobilità e accesso ai servizi. Le autorità Houthi hanno intensificato le misure di controllo sociale, imponendo restrizioni ai movimenti delle donne e richiedendo la presenza di un mahram (guardiano maschio) per le attività quotidiane. Le violazioni dei diritti umani, comprese le violenze contro le donne e i bambini, sono state segnalate in diverse aree del paese. L'uso di armi pesanti e le azioni militari continue hanno portato a un aumento dei rifugiati interni e delle condizioni di precarietà per la popolazione civile. Le autorità hanno anche intensificato le azioni contro i gruppi armati, con scontri armati che hanno portato a perdite umane e materiali. La situazione umanitaria resta critica, con migliaia di famiglie che continuano a subire le conseguenze dirette del conflitto, inclusi i danni alle infrastrutture e le difficoltà di accesso ai servizi essenziali.",
+  "fonti": [
+    "YEM_2023-04-14_20230414_ACAPS_Yemen_challenges_to_housing_land_and_property_rights.pdf",
+    "YEM_2023-05-05_20230505_acaps_thematic_report_yemen_social_impact_overview_2022.pdf",
+    "YEM_2023-06-06_20230606_acaps_thematic_report_yemen_womens_economic_empowerment_in_the_yemeni_context.pdf",
+    "YEM_2023-06-20_20230620_ACAPS_Thematic_report_Yemen_social_impact_monitoring_project_report_January-March_2023.pdf",
+    "YEM_2023Q2_2023-06-27_shelter-cluster-yemen-flood-mitigation-and-response-update-0.pdf",
+    "YEM_mpo_sm23.pdf",
+    "wikipedia:YEM_2023"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "paese": "SSD",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto continua in molte aree del Sud Sudan, con episodi di violenza che, sebbene meno frequenti rispetto al mese precedente, continuano a limitare l'accesso umanitario e a generare sfollamenti interni. Vi sono segni di dialogo e costruzione di fiducia tra le parti in conflitto, ma la situazione rimane instabile. In alcune zone, come Jonglei, ci sono ritorni di rifugiati interni, mentre in altre, come Mugwo di Yei, si registrano nuovi sfollamenti. La violenza continua a restringere il movimento delle famiglie e l'accesso umanitario, con conseguenze negative sulla sicurezza alimentare e la protezione delle popolazioni civili."
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "Il rischio di carestia (IPC Fase 5) persiste, con aree di maggiore preoccupazione come Greater Baggari, Leer, Mayendit, Yirol, Pigi/Canal e Panyikang. L'insicurezza continua a limitare l'accesso umanitario, rendendo difficile la distribuzione di assistenza alimentare. La sicurezza alimentare si è migliorata in alcune zone tra le famiglie che hanno raccolto la loro coltivazione, ma le migliorie sono minime nelle aree di maggiore preoccupazione. L'assistenza alimentare umanitaria continua a giocare un ruolo chiave nel ridurre il rischio di carestia, ma la pianificazione delle attività di assistenza è limitata dalla mancanza di fondi e dall'accesso limitato."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati sudanensi continua a essere critica, con un numero significativo di rifugiati che fuggono dal paese a causa del conflitto. La protezione dei rifugiati è un problema significativo, con molte famiglie che hanno bisogno di assistenza per sfuggire alla violenza. Nuovi corridoi di migrazione sono emersi, mentre gli ostacoli operativi continuano a limitare l'accesso umanitario e la distribuzione di assistenza. La situazione dei rifugiati è particolarmente critica nei paesi di accoglienza, dove la mancanza di fondi e le limitazioni di accesso continuano a compromettere la fornitura di assistenza essenziale."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2018, il Sud Sudan continua a essere afflitto da conflitti interni, con episodi di violenza che hanno portato a sfollamenti interni e migrazione verso paesi vicini. La leadership del paese è costituita da Salva Kiir Mayardit come Presidente e James Wani Igga come Vice Presidente. Gli eventi principali del periodo comprendono continue tensioni tra le fazioni armate, con episodi di violenza che hanno portato a sfollamenti e limitazioni all'accesso umanitario. La situazione umanitaria rimane critica, con gravi problemi di sicurezza alimentare e protezione dei civili. Gli sforzi di pace continuano, ma la situazione rimane instabile.",
+  "fonti": [
+    "SSD_2018-november_key-message-update.pdf",
+    "SSD_2018-october_food-security-outlook.pdf",
+    "SSD_2018Q4_2018-12-31_south-sudan-regional-rrp-2018-end-of-year-report-january-dec.pdf",
+    "wikipedia:SSD_2018"
+  ]
+}

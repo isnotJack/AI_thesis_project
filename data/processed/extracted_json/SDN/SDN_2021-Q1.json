@@ -1,0 +1,34 @@
+{
+  "paese": "SDN",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono stati scontri intercomunitari intensi in Darfur, principalmente tra tribù Masalit e Arabi, che hanno portato a un numero significativo di decessi e feriti. Le tensioni intercomunitarie hanno causato dislocamenti di massa, con migliaia di persone sfollate nei centri di accoglienza. La violenza ha coinvolto anche tribù come Falata e Rizeigat, con conseguenti decessi e feriti. L'uso di armi pesanti e la presenza di milizie armate hanno aggravato la situazione, con continue minacce di ulteriori violenze. L'area di Ag Geneina è stata particolarmente colpita, con attacchi su civili e tensioni elevate. La situazione di sicurezza è rimasta instabile, con continue proteste e tentativi di bloccare le vie di accesso e i rifornimenti verso le zone colpite. L'area di Kordofan è stata anche interessata da violenze, con sfollamenti e tensioni. L'area di Darfur è stata segnata da violenze intertribali, con sfollamenti e tensioni. L'area di Kordofan è stata anche interessata da violenze, con sfollamenti e tensioni. L'area di Darfur è stata segnata da violenze intertribali, con sfollamenti e tensioni."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia includono i prezzi alti e in aumento dei generi alimentari, la crisi economica, le difficoltà di accesso ai mercati e le conseguenti limitazioni nell'acquisto di cibo. La deprezzazione della valuta nazionale ha ulteriormente aumentato i costi dei beni di base, rendendo l'accesso ai generi alimentari ancora più difficile per le famiglie vulnerabili. Le violenze intercomunitarie hanno anche contribuito a limitare l'accesso ai mercati e alle risorse agricole, aggravando la situazione di sicurezza alimentare. La stagione secca e le conseguenti difficoltà di accesso all'acqua hanno ulteriormente complicato la situazione, con effetti negativi sulla salute e la nutrizione delle popolazioni colpite."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione è stata caratterizzata da un flusso significativo di rifugiati etiopi verso il Sudan, principalmente a causa della situazione di crisi nel Tigray. Le tensioni lungo il confine tra Sudan e Etiopia sono aumentate, con accuse reciproche di violazioni dell'aria e del territorio. La situazione di protezione dei rifugiati è stata critica, con sfollamenti verso campi di accoglienza e la necessità di supporto umanitario. L'arrivo di rifugiati etiopi ha posto ulteriori pressioni sui servizi esistenti, con bisogno di assistenza alimentare e sanitaria. La situazione di instabilità lungo il confine ha creato ostacoli operativi per l'assistenza umanitaria, con limitazioni nei trasporti e negoziati per l'accesso alle aree colpite."
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è stato negativo, con una crisi macroeconomiche che ha portato a una deprezzazione della valuta nazionale e a un aumento dei prezzi dei beni di base. La situazione fiscale è stata critica, con un deficit crescente e una riduzione delle riserve di valuta estera. L'inflazione è stata elevata, con effetti negativi sulla capacità di acquisto delle famiglie. La crisi economica ha avuto un impatto significativo sulla povertà, con un aumento del numero di persone che vivono al di sotto della linea della povertà. Le prospettive di crescita economica sono state compromesse dalla continua instabilità politica e dalla mancanza di riforme strutturali. La situazione fiscale è stata ulteriormente complicata dalla necessità di rimborsare debiti internazionali e dalla mancanza di accesso ai finanziamenti esterni."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, il Sudan ha continuato a fare fronte a sfide significative, tra cui la guerra in Darfur e la pandemia di COVID-19. Il paese ha firmato gli Accordi di Abraham, avviando un percorso verso la normalizzazione delle relazioni con Israele e il rilascio di un prestito da parte del World Bank. La situazione economica è stata critica, con un'elevata inflazione e un debito di 60 miliardi di dollari. Il paese ha anche fatto fronte a tensioni lungo il confine con l'Etiopia, con l'offerta di mediazione da parte del Sud Sudan. La situazione politica è stata segnata da incontri tra il governo sudanese e rappresentanti israeliani, nonché da un'incontro tra il presidente egiziano e il governo sudanese. Il paese ha anche fatto fronte a un'offerta di mediazione da parte del Sud Sudan per la crisi etiope. La situazione economica è stata ulteriormente complicata dalla deprezzazione della valuta nazionale e dalla necessità di rimborsare debiti internazionali.",
+  "fonti": [
+    "SDN_2021-02-08_20210208_acaps_briefing_note_on_sudan_displacement_resulting_from_conflict.pdf",
+    "SDN_2021-february_food-security-outlook.pdf",
+    "SDN_2021-january_key-message-update.pdf",
+    "SDN_2021-march_key-message-update.pdf",
+    "SDN_2021Q1_2021-03-30_sudan-eastern-border-ethiopia-emergency-situation-arrivals-u.pdf",
+    "SDN_mpo_am20.pdf",
+    "wikipedia:SDN_2021"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "paese": "SYR",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Rapporti di protezione critici, inclusi problemi legati alla documentazione di stato civile, accesso alla giustizia, coesione sociale, servizi di base come istruzione, sanità, acqua, assistenza umanitaria, vulnerabilità, struttura comunitaria e meccanismi di adattamento. Si evidenziano anche le problematiche legate al movimento delle persone, inclusi i profughi interni (IDPs), e la necessità di supportare le comunità nella costruzione di infrastrutture WASH (acqua, igiene e sanità) appropriate e sicure. L'accesso ai servizi di base e la salute sono particolarmente critici, con riferimenti a servizi di sanità di qualità a basso costo e lotta contro le malattie trasmissibili. Si evidenzia anche la necessità di migliorare l'accesso all'istruzione e la protezione dei diritti umani, inclusi quelli dei bambini e delle persone con disabilità."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Operation Parliament (2018-04-12, categoria=Espionage): sponsor=nan, vittime=Afghanistan, Canada, Chile, Denmark, Djibouti, Egypt, Germany, India, Iran (Islamic Republic of), Iraq, Israel, Jordan, Korea (Republic of), Kuwait, Lebanon, Morocco, Oman, Palestine, State of, Qatar, Russian Federation, Saudi Arabia, Serbia, Somalia, Syrian Arab Republic, United Arab Emirates, United Kingdom, United States, ruolo=vittima",
+      "UK targeting of the Islamic State group (2018-04-12, categoria=Sabotage): sponsor=United Kingdom, vittime=Syrian Arab Republic, ruolo=vittima"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2018, la Siria continua a essere caratterizzata da una situazione politica e militare complessa. Il presidente Bashar al-Assad rimane al potere, con Najah al-Attar come vicepresidente e Imad Khamis come primo ministro. L'anno è segnato da eventi legati alla guerra civile siriana, con continui scontri e cambiamenti nel terreno. Nel contesto cyber, la Siria è stata identificata come vittima di operazioni cibernetiche, inclusa l'operazione 'Operation Parliament' e l'azione del Regno Unito contro il gruppo Islamic State. Questi eventi riflettono la persistente instabilità e le minacce cibernetiche nel paese.",
+  "fonti": [
+    "SYR_2018Q2_2018-06-30_protection-monitoring-quarterly-report-april-june-2018.pdf",
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/operation-parliament",
+    "https://www.cfr.org/cyber-operations/uk-targeting-of-the-islamic-state-group",
+    "wikipedia:SYR_2018"
+  ]
+}

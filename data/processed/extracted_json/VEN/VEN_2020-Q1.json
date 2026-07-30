@@ -1,0 +1,29 @@
+{
+  "paese": "VEN",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2020, il Venezuela è stato caratterizzato da una situazione politica instabile con una crisi di leadership tra Nicolás Maduro e Juan Guaidó. Eventi significativi includono l'elezione del Comitato Delegato dell'Assemblea Nazionale, con l'impedimento di accesso da parte delle forze governative all'opposizione. Vi è stata anche una tensione internazionale con l'invio di navi e aerei di intelligence statunitensi vicino alle coste venezuelane. Un incendio a Cagua ha causato undici morti. L'International Monetary Fund ha rifiutato una richiesta di prestito da parte del Venezuela per affrontare la pandemia di COVID-19. L'opposizione ha accusato Maduro di tentato colpo di Stato e attentato all'assassinio, con la scoperta di un arsenale di armi in Colombia. L'opposizione ha anche approvato un piano per pagare i medici e gli infermieri durante la pandemia."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il Venezuela ha visto una crescente criticità di protezione per i rifugiati e le popolazioni di interesse, con ostacoli operativi evidenziati nei rapporti dell'UNHCR. La situazione di migrazione è stata influenzata dalla crisi politica e economica interna, con rifugiati che fanno fronte a sfide significative nella regione."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, il Venezuela è stato caratterizzato da una profonda crisi politica con una leadership divisa tra Nicolás Maduro e Juan Guaidó. La situazione è stata complicata da tensioni internazionali, inclusi gli sforzi statunitensi per aumentare la pressione su Maduro e la risposta del governo venezuelano con la preparazione di artiglieria per un possibile attacco. La pandemia di COVID-19 ha aggiunto ulteriori sfide, con problemi di liquidità e carenze di beni essenziali. L'opposizione ha approvato un piano per pagare i medici e gli infermieri durante la crisi sanitaria, mentre il governo ha fatto fronte a accuse di corruzione e violazioni dei diritti umani.",
+  "fonti": [
+    "VEN_2020Q1_2020-03-10_unhcr-latin-america-2020-funding-update-as-of-10-march-2020.pdf",
+    "wikipedia:VEN_2020"
+  ]
+}

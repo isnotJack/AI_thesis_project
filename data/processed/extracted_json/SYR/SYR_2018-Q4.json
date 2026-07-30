@@ -1,0 +1,29 @@
+{
+  "paese": "SYR",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre 2018-Q4, la Siria continuava ad essere coinvolta in un conflitto armato. Il governo siriano, guidato da Bashar al-Assad, era impegnato in operazioni contro le forze ribelli e gruppi armati non statali. L'area di controllo del governo siriano era in espansione, mentre le forze ribelli continuavano a resistere in alcune regioni. L'attivismo delle forze armate siriane e delle milizie aliene al governo ha portato a continue tensioni e combattimenti, con conseguenze significative sulla popolazione civile."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre 2018-Q4, la Siria continuava ad affrontare sfide significative legate alla migrazione e alla protezione dei rifugiati. I rifugiati siriani continuavano a cercare rifugio nei paesi vicini, come la Turchia e il Libano, a causa delle continue violenze e delle condizioni difficili all'interno del paese. I corridoi di migrazione erano ostacolati da tensioni politiche e da limitazioni imposte dai paesi di accoglienza. La mancanza di documenti di identità e la difficoltà di accesso ai servizi fondamentali continuavano a essere problemi cruciali per i rifugiati siriani."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2018-Q4, la Siria continuava ad essere caratterizzata da un clima politico e militare instabile. Il presidente Bashar al-Assad manteneva il suo ruolo di leader del paese, mentre il paese era diviso tra le forze governative e le forze ribelli. L'attivismo delle forze armate siriane e delle milizie aliene al governo ha portato a continue tensioni e combattimenti, con conseguenze significative sulla popolazione civile. La situazione umanitaria rimaneva critica, con migliaia di rifugiati siriani che cercavano rifugio nei paesi vicini a causa delle continue violenze e delle condizioni difficili all'interno del paese.",
+  "fonti": [
+    "SYR_2018Q4_2018-12-31_protection-monitoring-quarterly-report-october-december-2018.pdf",
+    "wikipedia:SYR_2018"
+  ]
+}

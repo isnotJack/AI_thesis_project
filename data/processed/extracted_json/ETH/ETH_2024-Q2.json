@@ -1,0 +1,33 @@
+{
+  "paese": "ETH",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto in Etiopia continua a essere dominato da scontri in diverse regioni, inclusi Amhara, Oromia e Tigray. I principali attori includono le forze governative, le milizie Fano e l'Oromo Liberation Army (OLA). Sono stati segnalati scontri armati, attacchi aerei e incidenti che hanno causato perdite civili. La situazione è particolarmente intensa in zone come Bahir Dar, Addis Ababa e Amhara Region, dove ci sono stati episodi di violenza significativi. La regione di Tigray continua a essere un punto focale di tensione, con scontri tra le forze governative e le milizie locali. In Oromia, ci sono stati progressi verso la pace con l'inizio di trattative mediate da Tanzania, ma la situazione rimane instabile. La regione di Amhara è stata teatro di scontri tra le forze governative e le milizie Fano, con episodi di violenza che hanno causato perdite civili. L'insurrezione Fano e l'insurrezione OLA continuano a rappresentare sfide significative per la stabilità del paese."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Etiopia è principalmente causata da conflitti, siccità e crisi economica. Le aree più colpite includono le regioni di Tigray, Amhara e le zone pastorali del sud e sud-est. La situazione è aggravata dalla persistente instabilità e dai problemi di accesso ai beni alimentari. L'agricoltura è stata pesantemente influenzata da condizioni climatiche sfavorevoli e dalla mancanza di accesso ai mercati. La carestia è accentuata dalla scarsità di risorse umanitarie e dalla difficoltà di distribuzione di aiuti alimentari in zone controllate dal conflitto. La situazione è particolarmente critica per le famiglie più povere, che dipendono pesantemente dall'assistenza umanitaria per sopravvivere."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e internazionale è influenzata da conflitti e carestia. Ci sono stati spostamenti di popolazione significativi verso zone più sicure e con accesso a risorse. I corridoi di migrazione sono ostacolati da conflitti e violenza, rendendo difficile il trasferimento di popolazioni verso aree di rifugio. La protezione dei migranti è una preoccupazione critica, con rischi di abuso e violenza. La mancanza di infrastrutture e servizi di base nei campi di rifugio aumenta le vulnerabilità dei migranti. La situazione è particolarmente critica per le famiglie con bambini e le donne, che sono più esposte a rischi di violenza e abuso."
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana continua a essere influenzata da sfide fiscali e esterne. Ci sono preoccupazioni riguardo alla stabilità finanziaria e alla gestione delle risorse. L'andamento della crescita economica è influenzato da fattori interni ed esterni, inclusi i conflitti e le condizioni climatiche. La povertà rimane un problema significativo, con una parte significativa della popolazione che vive al di sotto della linea della povertà. Le riforme economiche sono in corso, ma la loro implementazione è ostacolata da vari fattori, inclusi la mancanza di risorse e la persistente instabilità politica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre, Etiopia ha continuato a fare fronte a sfide significative legate alla stabilità politica e alla sicurezza. La leadership del paese è stata segnata da cambiamenti, con Taye Atskeselassie eletto come nuovo presidente. L'economia etiopiana continua a essere influenzata da sfide fiscali e esterne, con preoccupazioni riguardo alla stabilità finanziaria e alla gestione delle risorse. La situazione umanitaria è rimasta critica, con conflitti e carestia che hanno causato spostamenti di popolazione e aumentato le vulnerabilità delle comunità locali. L'insurrezione Fano e l'insurrezione OLA continuano a rappresentare sfide significative per la stabilità del paese, con episodi di violenza che hanno causato perdite civili. La regione di Tigray continua a essere un punto focale di tensione, con scontri tra le forze governative e le milizie locali. In Oromia, ci sono stati progressi verso la pace con l'inizio di trattative mediate da Tanzania, ma la situazione rimane instabile. La regione di Amhara è stata teatro di scontri tra le forze governative e le milizie Fano, con episodi di violenza che hanno causato perdite civili. L'insurrezione Fano e l'insurrezione OLA continuano a rappresentare sfide significative per la stabilità del paese.",
+  "fonti": [
+    "fews_net (ETH_2024-june_food-security-outlook.pdf)",
+    "fews_net (ETH_2024-may_key-message-update.pdf)",
+    "fews_net (ETH_2024-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (ETH_2024Q2_2024-06-30_protection-cluster-ethiopia-monthly-protection-overview-june.pdf)",
+    "worldbank_mpo (ETH_mpo_sm24.pdf)",
+    "wikipedia:ETH_2024"
+  ]
+}

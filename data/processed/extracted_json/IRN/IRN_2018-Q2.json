@@ -1,0 +1,32 @@
+{
+  "paese": "IRN",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Operation Parliament"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "In febbraio 2018, un incidente aereo è avvenuto con l'incidente di Iran Aseman Airlines Flight 3704. Nel mese di maggio, ci sono state preoccupazioni internazionali riguardo alla decisione degli Stati Uniti di ritirarsi dall'accordo nucleare con l'Iran, con conseguenze potenziali per il mercato petrolifero internazionale. L'Iran ha risposto con proteste e la bruciatura della bandiera americana, esprimendo rabbia nei confronti della decisione presa dagli Stati Uniti.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/operation-parliament",
+    "wikipedia:IRN_2018"
+  ]
+}

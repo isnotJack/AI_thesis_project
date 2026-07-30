@@ -1,0 +1,34 @@
+{
+  "paese": "ISR",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2018, Israele ha continuato a gestire tensioni con il movimento Hamas e la Palestina, con episodi di violenza lungo la frontiera di Gaza. L'11 marzo, due palestinesi sono stati uccisi in scontri con l'esercito israeliano. Il 30 marzo, sono iniziati i protesti di frontiera a Gaza, con Israele accusato di responsabilità per le morti di manifestanti. L'11 novembre, ci sono stati ulteriori scontri a Gaza. Israele ha mantenuto la sua strategia di rispondere con forza ai movimenti di Hamas e ai tentativi di violazione della frontiera."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Cobalt Dickens (2018-08-24): Sponsor Iran, vittime include Israele, attacco di spionaggio mirato a università intorno al mondo."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Cobalt Dickens"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2018, Israele ha continuato a gestire tensioni politiche e militari con il movimento Hamas e la Palestina, con episodi di violenza lungo la frontiera di Gaza. L'11 marzo, due palestinesi sono stati uccisi in scontri con l'esercito israeliano. Il 30 marzo, sono iniziati i protesti di frontiera a Gaza, con Israele accusato di responsabilità per le morti di manifestanti. L'11 novembre, ci sono stati ulteriori scontri a Gaza. Israele ha mantenuto la sua strategia di rispondere con forza ai movimenti di Hamas e ai tentativi di violazione della frontiera. Inoltre, Israele ha continuato a gestire le sue relazioni internazionali, con episodi significativi come l'apertura dell'ambasciata degli Stati Uniti a Gerusalemme il 14 maggio e la decisione di lasciare l'UNESCO a dicembre.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/cobalt-dickens",
+    "wikipedia:ISR_2018"
+  ]
+}

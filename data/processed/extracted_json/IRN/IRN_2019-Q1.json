@@ -1,0 +1,31 @@
+{
+  "paese": "IRN",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, un attentato suicida a Zahedan, nel sud-est dell'Iran, ha causato la morte di almeno 27 membri delle Guardie Revolutionarie. L'attacco è stato descritto come uno dei più letali in Iran negli ultimi anni. Gli attori principali sono stati identificati come gruppi terroristici, con conseguenze significative sulla sicurezza interna del paese."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Global hijacking of domain name system (DNS) (2019-01-09)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, l'Iran ha visto l'insediamento di Ebrahim Raisi come capo del sistema giudiziario a partire dal 7 marzo. Un tragico incidente aereo di Saha Airlines si è verificato il 14 gennaio, mentre un attentato suicida a Zahedan ha causato numerose vittime tra le Guardie Revolutionarie il 13 febbraio. La leadership del paese rimane costituita da Ali Khamenei come Líder Supremo, Hassan Rouhani come Presidente e Ali Larijani come Parlamento.",
+  "fonti": [
+    "https://www.cfr.org/cyber-operations/global-hijacking-of-domain-name-system-dns",
+    "wikipedia:IRN_2019"
+  ]
+}

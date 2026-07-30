@@ -1,0 +1,54 @@
+{
+  "paese": "RUS",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Il trimestre è caratterizzato da un conflitto in corso tra la Russia e l'Ucraina, con sviluppi significativi come la riconoscenza delle Repubbliche Popolari di Donetsk e Luhansk come entità indipendenti, l'annuncio di un'ampliata mobilitazione russa e la tenuta di referendumi per l'annessione di territori ucraini occupati. L'attività bellica continua con eventi come l'attacco a un ospedale maternità a Mariupol e la dichiarazione di territori ucraini come entità indipendenti. La Russia risponde alle sanzioni occidentali con misure contro i media stranieri, come la chiusura della sede di Deutsche Welle a Mosca. L'opposizione interna russa continua a essere repressa con arresti e condanne a lunghe pene di prigione per i critici del conflitto. L'annessione di territori ucraini occupati è stata proclamata, con voti a favore in regioni controllate dalla Russia, ma considerati illegittimi dalla comunità internazionale."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra segni di resilienza nonostante le sanzioni internazionali, con un forte recupero dopo la contrazione del 2020. La crescita economica è supportata da un aumento delle esportazioni di beni, nonostante le pressioni inflazionistiche. Le proiezioni indicano una crescita moderata nei prossimi anni, con rischi legati all'incertezza geopolitica e alle sanzioni. La povertà è in diminuzione, ma rimangono preoccupazioni per la stabilità fiscale a medio termine."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco a un ospedale maternità a Mariupol",
+      "Attacco cibernetico contro la rete internet ucraina",
+      "Attacco cibernetico contro infrastrutture critiche ucraine"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Joint Cybersecurity Advisory: Russian State-Sponsored and Criminal Cyber Threats to Critical Infrastructure",
+      "Tactics, Techniques, Techniques, Techniques, and Procedures of Indicted State-Sponsored Russian Cyber Actors Targeting the Energy Sector"
+    ],
+    "gruppi_minaccia_associati": [
+      "FSB (Federal'noye Sluzhba Bezopasnosti)",
+      "SVR (Sluzhba Vneshney Razvedki)",
+      "GRU (Glavnoye Razvedyvatel'noye Upravleniye)",
+      "APT29 (Cozy Bear)",
+      "APT28 (Fancy Bear)",
+      "APT41",
+      "APT40"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Infrastrutture critiche",
+      "Media",
+      "Governi",
+      "Organizzazioni internazionali"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, la leadership russa è costituita da Vladimir Putin come Presidente, Mikhail Mishustin come Primo Ministro, Valentina Matvienko come Presidente del Consiglio Federale e Vyacheslav Volodin come Presidente della Duma di Stato. L'anno è contraddistinto da eventi significativi legati al conflitto russo-ucraino, come la riconoscenza delle Repubbliche Popolari di Donetsk e Luhansk, l'annuncio di un'ampliata mobilitazione e la tenuta di referendumi per l'annessione di territori ucraini occupati. La Russia risponde alle sanzioni occidentali con misure contro i media stranieri, come la chiusura della sede di Deutsche Welle a Mosca. L'opposizione interna russa continua a essere repressa con arresti e condanne a lunghe pene di prigione per i critici del conflitto. L'annessione di territori ucraini occupati è stata proclamata, con voti a favore in regioni controllate dalla Russia, ma considerati illegittimi dalla comunità internazionale.",
+  "fonti": [
+    "RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+    "RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf",
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "RUS_mpo_sm22.pdf",
+    "wikipedia:RUS_2022"
+  ]
+}

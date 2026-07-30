@@ -1,0 +1,33 @@
+{
+  "paese": "YEM",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con intensità, con attacchi frequenti da parte dei Houthis contro le navi nel Mar Rosso, risposte militari da parte degli Stati Uniti e del Regno Unito, e proteste contro gli attacchi. Gli attacchi includono missili contro navi commerciali e infrastrutture, con risposte aeree da parte delle forze internazionali. La situazione è complicata da attacchi reciproci tra le fazioni interne e da azioni di gruppi terroristici come al-Qaeda in Arabia Petrolifera."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione per i rifugiati e le persone internamente sfollate è critica, con crescenti sfide legate alla mancanza di accesso ai servizi umanitari e alle crescenti tensioni. Il numero di internamente sfollati è elevato, con sfide significative per garantire la sicurezza e l'assistenza ai rifugiati. La mancanza di risorse umanitarie e le crescenti tensioni aumentano le vulnerabilità delle popolazioni sfollate."
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere gravemente compromessa da fattori come la guerra, la carestia e le crescenti pressioni economiche. L'instabilità politica e la mancanza di infrastrutture funzionanti impediscono lo sviluppo economico. Le prospettive di crescita sono limitate, con rischi fiscali e esterni significativi. L'economia è pesantemente dipendente dall'assistenza internazionale e dalle risorse umanitarie per affrontare le crescenti sfide."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, Yemen continua a essere afflitto da conflitti armati e tensioni politiche. Gli attacchi dei Houthis contro le navi nel Mar Rosso provocano risposte militari da parte degli Stati Uniti e del Regno Unito. La situazione umanitaria è critica, con crescenti sfide per i rifugiati e le persone internamente sfollate. L'economia è gravemente compromessa, con crescenti pressioni fiscali e esterne. Le tensioni interne e le azioni di gruppi terroristici come al-Qaeda in Arabia Petrolifera complicano ulteriormente la situazione.",
+  "fonti": [
+    "YEM_2024-02-09_20240209_ACAPS_Yemen_analysis_hub_Coping_strategies_in_al_Habilin_and_Al_Jiblah.pdf",
+    "YEM_2024-02-29_20240229_ACAPS_Yemen_Analysis_Hub_Increased_DFA_intervention_in_the_private_sector_.pdf",
+    "YEM_2024-03-28_20240328_ACAPS_Yemen_analysis_hub_Social_Impact_Monitoring_Report__Oct_2023_-_Feb_2024_01.pdf",
+    "YEM_2024Q1_2024-03-29_yemen-crisis-9-years-of-conflict-economic-strain-and-environ.pdf",
+    "YEM_mpo_am23.pdf",
+    "wikipedia:YEM_2024"
+  ]
+}

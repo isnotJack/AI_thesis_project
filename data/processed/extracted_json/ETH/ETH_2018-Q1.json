@@ -1,0 +1,30 @@
+{
+  "paese": "ETH",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2018, l'Etiopia ha visto una serie di sviluppi significativi legati al conflitto. Il 15 febbraio, il Primo Ministro Hailemariam Desalegn ha presentato le dimissioni, un evento senza precedenti nella storia moderna dell'Etiopia. Il 2 aprile, Abiy Ahmed è stato eletto come nuovo Primo Ministro, segnando un cambiamento di leadership significativo. Nel corso del trimestre, ci sono state tensioni e scontri locali, come quelli registrati a Woldiya, Amhara Region, dove sette persone sono state uccise in scontri tra forze di sicurezza e fedeli ortodossi etiopi durante la cerimonia di Timkat. Inoltre, ci sono state attività di gruppi armati provenienti dalla Somalia che hanno attaccato la zona di East Hararghe nel Regione Oromia, causando almeno 40 vittime. Questi eventi indicano una situazione di instabilità locale e tensioni interne."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2018, l'Etiopia ha continuato ad affrontare sfide significative legate alla migrazione. Il paese ha ospitato un numero crescente di rifugiati, con un aumento del tasso di iscrizione degli studenti rifugiati nelle scuole primarie. Ci sono stati progressi nella inclusione educativa dei rifugiati, con un aumento del tasso di iscrizione nei livelli primario e secondario. Tuttavia, ci sono ancora sfide significative, come la mancanza di fondi e la sovraffollazione delle classi, che influenzano la qualità dell'istruzione offerta ai rifugiati. L'assistenza umanitaria continua a essere cruciale per garantire l'accesso all'istruzione e alle risorse essenziali per i rifugiati."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, l'Etiopia ha visto un periodo di cambiamento politico significativo con la dimissioni del Primo Ministro Hailemariam Desalegn e l'elezione di Abiy Ahmed come nuovo Primo Ministro. Questi eventi hanno segnato un momento cruciale nella leadership del paese. Parallelamente, ci sono state tensioni locali e scontri, come quelli registrati a Woldiya e attacchi da parte di gruppi armati provenienti dalla Somalia. L'Etiopia ha continuato a gestire sfide legate alla migrazione e all'istruzione dei rifugiati, con un aumento del numero di studenti rifugiati nelle scuole. La situazione politica e la gestione delle sfide interne hanno costituito il contesto generale del paese durante questo trimestre.",
+  "fonti": [
+    "ETH_2018-02-26_20180226_acaps_thematic_report_food_insecurity_final.pdf",
+    "ETH_2018Q1_2018-03-31_unhcr-ethiopia-education-factsheet-march-2018.pdf",
+    "wikipedia:ETH_2018"
+  ]
+}

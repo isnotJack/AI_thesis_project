@@ -1,0 +1,29 @@
+{
+  "paese": "ITA",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2019, l'Italia ha visto un aumento significativo di arrivi di rifugiati e migranti, sia per via marittima che terrestre. Gli arrivi per via marittima hanno raggiunto il numero più alto del periodo, con un notevole incremento rispetto ai mesi precedenti. Gli arrivi per via terrestre sono stati costanti, con un aumento della presenza di persone provenienti da paesi africani e asiatici. L'Italia ha continuato a gestire sfide significative legate alla protezione dei migranti, inclusi i problemi legati all'accesso ai procedimenti di asilo e alle condizioni di accoglienza. L'operatività delle organizzazioni umanitarie, come Sea Eye, è stata ostacolata da restrizioni governative, con incidenti specifici come l'arresto del capitano di Sea-Watch. L'Italia ha anche continuato a collaborare con altre autorità, come quelle libiche, per gestire le procedure di ricerca e salvataggio, nonostante le critiche riguardanti la sicurezza delle procedure di sbarco in Libia."
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, l'Italia ha visto una serie di eventi significativi, inclusi la dimissioni del Ministro delle Affari Europei Paolo Savona a marzo, seguite da un cambio di leadership con Lorenzo Fontana che ne ha preso il posto. L'Italia ha continuato a gestire sfide legate alla politica europea e alle relazioni internazionali, con discussioni su politiche di bilancio e tensioni con l'Unione Europea. L'attenzione è stata anche rivolta a questioni legate alla cultura e allo sport, con eventi come il Festival di Sanremo e la vittoria di Vanoli Cremona nella Coppa Italiana di Basket. L'Italia ha continuato a fare fronte a sfide legate all'immigrazione e alla protezione dei rifugiati, con un aumento di arrivi e tensioni legate alle politiche di accoglienza e sbarco.",
+  "fonti": [
+    "ITA_2019Q1_2019-03-31_unhcr-italy-factsheet-march-2019.pdf",
+    "wikipedia:ITA_2019"
+  ]
+}

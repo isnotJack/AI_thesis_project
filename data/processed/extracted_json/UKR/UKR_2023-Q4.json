@@ -1,0 +1,32 @@
+{
+  "paese": "UKR",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con intensità significativa. L'invasione russa continua a influenzare la situazione, con attacchi e movimenti strategici da entrambe le parti. Il conflitto ha portato a un flusso significativo di rifugiati verso i paesi vicini, come Polonia, Cecoslovacchia, Slovacchia, Romania e Moldavia. L'Unione Europea ha risposto con misure di protezione temporanea per i rifugiati ucraini, garantendo loro accesso ai servizi essenziali e protezione temporanea. La situazione è complessa e continua a evolversi, con sfide significative per la popolazione locale e i rifugiati."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Ci sono numerose sfide legate alla migrazione, inclusa la protezione dei rifugiati ucraini nei paesi vicini. I rifugiati continuano a cercare rifugio nei paesi limitrofi, con sfide significative legate all'accesso ai servizi, all'integrazione e alla protezione. La situazione richiede un coordinamento continuo tra le autorità locali e internazionali per garantire la protezione e l'integrazione dei rifugiati."
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina continua a essere influenzata dal conflitto, con rischi fiscali e esterni significativi. La crescita economica è compromessa dalle conseguenze del conflitto, che include danni alle infrastrutture e alla produzione. L'inflazione rimane un problema, con rischi di ulteriori aumenti. La situazione richiede un monitoraggio attento e misure di sostegno per mitigare gli effetti negativi sulle famiglie e le imprese."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel 2023, l'Ucraina continua a essere coinvolta in un conflitto significativo con la Russia. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal continuano a guidare il paese attraverso questa crisi. Eventi importanti includono la continua resistenza ucraina contro l'invasione russa, la partecipazione di leader internazionali in visite di sostegno e la continua lotta contro la corruzione interna. La situazione interna è complessa, con sfide legate alla sicurezza, all'economia e alla governance. Il conflitto continua a influenzare significativamente la vita quotidiana e le politiche del paese.",
+  "fonti": [
+    "acaps (UKR_2023-11-28_20231128_ACAPS_Ukraine_hub_regional_overview_refugees_in_host_countries_Polish.pdf)",
+    "fews_net (UKR_2023-december_key-message-update.pdf)",
+    "unhcr_reports (UKR_2023Q4_2023-12-31_unhcr-europe-monthly-update-december-2023.pdf)",
+    "worldbank_mpo (UKR_mpo_am23.pdf)",
+    "wikipedia:UKR_2023"
+  ]
+}

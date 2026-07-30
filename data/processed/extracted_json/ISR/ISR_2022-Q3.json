@@ -1,0 +1,47 @@
+{
+  "paese": "ISR",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre Q3 2022, Israele ha continuato a sperimentare tensioni e conflitti, principalmente con il movimento Hamas e altri gruppi palestinesi. Ci sono stati episodi di violenza reciproca, inclusi attacchi con razzi da Gaza e risposte militari da parte delle forze israeliane. Inoltre, ci sono state azioni militari contro obiettivi in Siria, con raid aerei contro presunte installazioni legate all'Iran. Le tensioni regionali sono state alimentate anche da minacce e attività di gruppi cyber legati all'Iran, che hanno mirato a Israele con attacchi cibernetici. Il contesto geopolitico è stato influenzato dalla crisi in Ucraina, con Israele che ha espresso solidarietà verso l'Ucraina e criticato l'invasione russa. Le relazioni con paesi arabi, come l'Emirato Arabo Unito e l'Egitto, hanno continuato a mostrare segni di rafforzamento, con collaborazioni in ambito energetico e di sicurezza. Tuttavia, le tensioni con l'Iran sono state un tema ricorrente, con minacce di rappresaglia e attività cyber mirate a Israele. Le dinamiche interne hanno visto anche un cambio di governo, con Benjamin Netanyahu che ha ripreso la carica di primo ministro, influenzando ulteriormente le politiche esterne e di sicurezza del paese."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro il sito del Jerusalem Post, attribuito all'Iran Cyber Army, con minacce contro il Shimon Peres Negev Nuclear Research Center",
+      "Attacco cibernetico da parte di Altahrea Team, un gruppo hacker iracheno, contro siti web israeliani in reazione all'uccisione di Qasem Soleimani",
+      "Arresto di presunti spie israeliane in Iran, accusati di pianificare un attentato contro un imprenditore israeliano a Istanbul in collaborazione con l'agenzia di intelligence turca MIT",
+      "Attività di gruppi cyber legati all'Iran, inclusi attacchi mirati a Israele e tentativi di infiltrazione in infrastrutture critiche"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Advisory sulle minacce cibernetiche legate all'Iran e al suo supporto a gruppi cyber aggressivi contro Israele",
+      "Advisory sulle vulnerabilità di Pegasus spyware utilizzate contro attivisti e giornalisti israeliani",
+      "Advisory sulle attività di gruppi cyber legati all'Iran, inclusi attacchi mirati a Israele e tentativi di infiltrazione in infrastrutture critiche"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iran Cyber Army",
+      "Altahrea Team",
+      "Gruppi cyber legati all'Iran"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Siti web di media",
+      "Organizzazioni di attivisti e giornalisti"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel trimestre Q3 2022, Israele ha continuato a navigare in un contesto geopolitico complesso, caratterizzato da tensioni regionali e dinamiche interne. Il paese ha affrontato sfide sia sul fronte militare che cibernetico, con attacchi da parte di gruppi palestinesi e attività cyber mirate da parte di attori legati all'Iran. Le relazioni con paesi arabi hanno mostrato segni di rafforzamento, con accordi energetici e di sicurezza con l'Emirato Arabo Unito e l'Egitto. Tuttavia, le tensioni con l'Iran sono state un tema ricorrente, con minacce di rappresaglia e attività cyber mirate a Israele. Internamente, il paese ha visto un cambio di governo con Benjamin Netanyahu che ha ripreso la carica di primo ministro, influenzando ulteriormente le politiche esterne e di sicurezza. Le dinamiche regionali sono state ulteriormente complicate dalla crisi in Ucraina, con Israele che ha espresso solidarietà verso l'Ucraina e criticato l'invasione russa.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:ISR_2022"
+  ]
+}

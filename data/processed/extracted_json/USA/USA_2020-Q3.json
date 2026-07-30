@@ -1,0 +1,45 @@
+{
+  "paese": "USA",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "STRONTIUM",
+      "NICKEL",
+      "YTRIUM",
+      "DUBNIUM",
+      "ZINC",
+      "PHOSPHORUS",
+      "THALLIUM",
+      "MERCURY"
+    ],
+    "settori_bersaglio": [
+      "Non-governmental organizations",
+      "Government organizations",
+      "Information technology firms",
+      "Higher education",
+      "Professional services",
+      "International organizations"
+    ],
+    "ruolo": "vittima"
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, gli Stati Uniti furono pesantemente colpiti dalla pandemia di COVID-19, che causò un numero significativo di decessi. L'anno fu caratterizzato da una serie di eventi politici e sociali di rilievo, inclusi movimenti di protesta legati alla giustizia razziale e alla brutalità polizia. La leadership politica era dominata da Donald Trump, che era impegnato in una campagna presidenziale. L'anno fu anche segnato da importanti sviluppi legati alla pandemia, come la chiusura di scuole e attività commerciali, e da una serie di eventi legati alle elezioni presidenziali. La situazione politica e sociale fu turbolenta, con una serie di proteste e manifestazioni legate a questioni razziali e di giustizia.",
+  "fonti": [
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "wikipedia:USA_2020"
+  ]
+}

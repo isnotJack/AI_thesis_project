@@ -1,0 +1,32 @@
+{
+  "paese": "ETH",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2020, l'Etiopia ha visto un'intensa attività di conflitto, principalmente legata alla guerra nel Tigray. Il conflitto ha coinvolto forze federali etiopi, forze regionali del Tigray e forze eritree. Sono state riportate diverse azioni militari, incluse incursioni aeree e combattimenti terrestri, con conseguenti perdite civili. La situazione ha portato a un notevole spostamento di popolazione, con migliaia di sfollati verso il Sudan e all'interno del paese. Il conflitto ha anche avuto ripercussioni significative sulle condizioni di sicurezza e accesso umanitario in alcune aree del Tigray. Inoltre, la regione Benishangul-Gumuz ha continuato a essere teatro di tensioni etniche, con episodi di violenza che hanno causato morti e sfollati. L'interferenza esterna, inclusa quella dell'Eritrea, ha aumentato la complessità della situazione. Il governo etiope ha dichiarato lo stato di emergenza in alcune aree, limitando ulteriormente la libertà di movimento e l'accesso alle informazioni."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "Le principali cause della carestia in Etiopia nel quarto trimestre del 2020 sono state il conflitto nel Tigray, che ha gravemente interferito con le attività di assistenza umanitaria e il flusso di merci, portando a carenze di cibo e accesso limitato ai beni essenziali. In aggiunta, le condizioni meteorologiche avverse, come la siccità in alcune aree pastorali, hanno ridotto la disponibilità di pascolo e acqua, influenzando negativamente le condizioni di nutrizione delle popolazioni pastorali. L'economia locale, già compromessa da fattori come la pandemia di COVID-19, ha visto ulteriori pressioni con l'aumento dei prezzi dei generi alimentari e la riduzione delle attività economiche. La combinazione di conflitto, condizioni climatiche sfavorevoli e problemi economici ha portato a una situazione di crisi alimentare, con un aumento significativo delle aree affette da carestia."
+  },
+  "migrazione": {
+    "descrizione": "Nel quarto trimestre del 2020, la migrazione interna e transfrontaliera in Etiopia è stata fortemente influenzata dal conflitto nel Tigray. Migliaia di persone hanno fuggito verso il Sudan e verso altre regioni etiopi per sfuggire alla violenza. La situazione ha creato una pressione significativa sui campi profughi e sui centri di accoglienza, con sfollati che hanno bisogno di assistenza umanitaria immediata. La protezione dei rifugiati è stata un problema critico, con limiti all'accesso umanitario e alla distribuzione di aiuti in alcune aree. Inoltre, le autorità hanno fatto fatica a gestire il flusso di sfollati, con alcuni campi che hanno superato la loro capacità di accoglienza. La situazione ha richiesto un coordinamento intensivo tra le organizzazioni umanitarie per garantire che i rifugiati ricevessero cibo, assistenza sanitaria e protezione."
+  },
+  "economia": {
+    "sintesi": "L'economia etiope nel quarto trimestre del 2020 ha continuato a mostrare segni di debolezza, influenzata negativamente dal conflitto nel Tigray e dalla persistente crisi del COVID-19. Le prospettive di crescita sono state compromesse da fattori come l'aumento dei prezzi dei generi alimentari, la riduzione delle attività economiche e la limitazione dei movimenti di merci e persone. Il governo ha dovuto affrontare sfide significative nel mantenere la stabilità macroeconomica, con preoccupazioni legate al debito pubblico e alle condizioni finanziarie. La situazione ha richiesto misure di contenimento fiscali e monetari per gestire i rischi di instabilità economica. L'incertezza legata al conflitto ha ulteriormente indebolito la fiducia degli investitori e ha ridotto le prospettive di ripresa economica."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel quarto trimestre del 2020, l'Etiopia ha continuato a essere caratterizzata da una situazione politica e sociale complessa, dominata dal conflitto nel Tigray. Il governo etiope, guidato dal Primo Ministro Abiy Ahmed, ha affrontato sfide significative legate alla gestione del conflitto e alla risoluzione delle tensioni interne. Il conflitto ha avuto ripercussioni significative sulle condizioni umanitarie, con migliaia di sfollati e un aumento delle esigenze di assistenza. In aggiunta, la pandemia di COVID-19 ha continuato a influenzare la situazione, con restrizioni di movimento e misure di contenimento che hanno avuto un impatto sulle attività economiche e sociali. Le tensioni etniche in alcune regioni, come Benishangul-Gumuz, hanno aggiunto ulteriori complessità alla situazione generale. Il governo ha cercato di mantenere la stabilità attraverso misure di sicurezza e di gestione delle crisi, ma le sfide rimangono significative.",
+  "fonti": [
+    "ETH_2020-december_food-security-outlook-update.pdf",
+    "ETH_2020-october_food-security-outlook.pdf",
+    "ETH_2020Q4_2020-12-31_unhcr-ethiopia-fact-sheet-december-2020.pdf",
+    "ETH_mpo_am20.pdf",
+    "wikipedia:ETH_2020"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "paese": "SAU",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": null
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita è prevista per crescere in modo solido, supportata da un forte settore petrolifero. Tuttavia, ci sono rischi fiscali ed esterni legati alla volatilità dei prezzi del petrolio e delle condizioni finanziarie globali. Il paese continua a promuovere la diversificazione economica attraverso iniziative come Vision 2030."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, l'Arabia Saudita ha continuato a fare progressi verso la diversificazione economica, con un forte focus sul settore petrolifero. Eventi significativi includono l'annuncio del nuovo aeroporto di Riyadh e la partecipazione di astronauti sauditi alla missione spaziale Axiom. La situazione geopolitica rimane dinamica, con sviluppi nelle relazioni con la Siria e l'annuncio di un 'stato di allerta elevata' a seguito di un attacco da parte dei ribelli houthis. L'economia continua a beneficiare dei prezzi elevati del petrolio, ma rimangono rischi legati alla volatilità dei mercati globali.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_sm23.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "wikipedia:SAU_2023"
+  ]
+}
