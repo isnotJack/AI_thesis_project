@@ -68,4 +68,3 @@ for iso3, periodo in CASI:
 
 print("\n\nFatto. Nuove versioni in data/processed/seconda_passata_test/")
 print("Confronta con le originali in data/processed/extracted_json/<PAESE>/")
-EOF
