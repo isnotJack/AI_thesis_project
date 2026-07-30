@@ -498,5 +498,80 @@ SDN: 9/10 (manca solo sm22)
      effettivamente risolve il problema; gli altri due restano come
      prima linea.
 
+## 2026-07-30 - Estrazione completa + verifica qualita' + indagine "seconda passata"
+
+Questa nota riassume la metodologia dell'intero Blocco A, cosa abbiamo
+ottenuto e le scelte finali. Utile per la sezione metodologica della tesi.
+
+### Perche' tutti questi test (il metodo)
+L'estrazione LMM ha molti parametri non ovvi (quante immagini per chiamata,
+a che risoluzione, quale modello, come selezionare i documenti quando sono
+troppi). Nessuno di questi ha un valore "giusto" a priori: dipendono
+dall'interazione fra modello, hardware e dati reali. Invece di indovinare,
+abbiamo deciso ogni parametro **misurandolo** su casi reali rappresentativi
+(paesi di crisi come YEM/SDN/UKR, attori cyber come RUS/IRN, casi di
+controllo come EST) e confrontando gli output, tenendo il resto fisso. E'
+il motivo per cui i test sono tanti: ognuno isola una variabile.
+
+### Cosa abbiamo ottenuto
+476/476 profili (17 paesi x 28 trimestri), tutti validi a schema, con
+paese/periodo corretti. Verifica di qualita' sull'intero batch:
+- zero anomalie residue (nessuna stringa "null", nessuna cascata APT,
+  nessun duplicato) grazie al post-processing;
+- zero allucinazioni reali: i campi cyber "pieni senza immagini" si sono
+  rivelati tutti provenienti dagli incidenti CFR datati (testo), corretti;
+- tassi di riempimento coerenti con la copertura delle fonti (contesto 99%,
+  conflitto 58%, migrazione 51%, economia 38%, cyber 36%, carestia 24% -
+  quest'ultima bassa perche' FEWS NET copre solo ~6 paesi);
+- le 4 dimensioni "principali" (conflitto/carestia/migrazione/economia) non
+  sono MAI vuote quando c'erano documenti: la rotazione fra fonti le ha
+  protette. Restano vuote solo dove la fonte non esiste (gap reale).
+
+### Le scelte di parametro (con la ragione)
+- Modello: **qwen2.5vl:32b** (q4). Il 7b allucinava (inventava cyber dove
+  non c'era, non leggeva l'IPC, confondeva le dimensioni); il 32b no.
+- **16 immagini/chiamata, DPI 170, num_ctx 65536, repeat_penalty 1.3,
+  Flash Attention on.** Il tetto 16 e' emerso da: oltre ~24 immagini il
+  tempo esplode (cliff) e la qualita' *diluisce* (descrizioni piu' generiche,
+  IPC instabile); 16 e' il punto in cui la rotazione copre tutte le
+  dimensioni presenti e i tempi restano gestibili (~80-120s/chiamata).
+- Selezione documenti **a rotazione fra fonti** invece che greedy: garantisce
+  che ogni dimensione con un documento sia rappresentata prima che una
+  singola fonte (i tanti ACAPS di un trimestre di crisi) saturi il budget.
+
+### L'indagine "seconda passata" (testata e RESPINTA)
+Domanda: i nodi che a 16 hanno perso documenti (104 nodi, 348 doc totali)
+guadagnerebbero da una seconda passata con piu' documenti? Analisi:
+- il 74% dei documenti persi (139 ACAPS + 120 FEWS) erano report *aggiuntivi*
+  di dimensioni gia' coperte -> ridondanti;
+- l'unico valore non ridondante erano gli advisory CISA distinti sui 12
+  trimestri degli attori cyber (RUS 2022, IRN 2022/2024).
+Test a tetto=32 su 3 nodi: sui paesi di crisi (YEM/UKR) la qualita'
+PEGGIORAVA (descrizioni generiche, IPC che regredisce, UKR perdeva
+addirittura il cyber). Sul solo RUS 2022-Q3 il cyber migliorava (2->6
+advisory). Ipotesi: conviene una seconda passata mirata SOLO sul cyber dei
+12 trimestri attori, sostituendo solo il blocco cyber.
+Esito reale della passata mirata (9 aggiornati, 3 in timeout): **mixed**.
+~2 miglioramenti netti (RUS 2022-Q1 gruppi piu' puliti, IRN 2022-Q3 piu'
+ricco), ~2 regressioni nette (IRN 2022-Q1 perde 9 gruppi reali e 2
+incidenti; RUS 2022-Q2 guadagna 5 advisory ma perde gruppi reali come
+Dragonfly/TRITON/Conti), il resto pareggio. Motivo: a 32 immagini la
+diluizione colpisce anche il cyber, in modo non monotono.
+**Decisione: seconda passata RESPINTA, si torna alle versioni uniformi a
+tetto=16** (`git checkout` dei 9 file). Un dataset uniforme e riproducibile
+vale piu' di un mix scelto a mano che a volte peggiora. Le versioni a 16,
+grazie a rotazione + testo CFR, catturavano gia' adeguatamente il cyber
+degli attori. Gli script `test_seconda_passata.py` e `seconda_passata_cyber.py`
+restano nel repo come traccia dell'indagine.
+
+### Limiti noti accettati (da dichiarare in tesi)
+- ~2.5% dei `contesto_generale` (12/476) restano in inglese (il modello
+  specchia il testo Wikipedia inglese dei paesi "di controllo"): cosmetico.
+- Alcuni advisory/gruppi possono avere piccole imprecisioni di
+  formattazione (es. sigle APT non-consecutive non catturate dal filtro):
+  sui 4 paesi attori vale una revisione umana finale, sono pochi.
+- Perdita di *dettaglio* (non di dimensione) nei trimestri di crisi con
+  molti report: accettata, perche' recuperarlo diluisce (dimostrato).
+
 
 
