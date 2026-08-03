@@ -1,0 +1,43 @@
+{
+  "paese": "ISR",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Il trimestre è caratterizzato da continue tensioni e conflitti tra Israele e i suoi vicini, con attivita' militari e incursioni in territori palestinesi. Israele effettua raid aerei e incursioni terrestri in territori palestinesi, mentre gruppi palestinesi rispondono con attacchi contro Israele. Vi sono anche conflitti con gruppi armati come Hezbollah in Libano e tensioni con stati vicini come il Sudan e il Qatar. Il governo israeliano approva una legge contro la giustizia, causando proteste interne. Israele effettua attacchi contro obiettivi in Siria e Libano, con risposte da parte di gruppi armati locali. Il governo israeliano effettua anche azioni contro gruppi palestinesi all'interno del territorio israeliano, con arresti e incursioni in aree palestinesi. Il governo israeliano effettua anche azioni contro gruppi palestinesi all'interno del territorio israeliano, con arresti e incursioni in aree palestinesi.",
+    "n_eventi_violenti": 14,
+    "n_vittime": 3
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 855,
+    "richiedenti_asilo": 1232,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Storm-1133"
+    ],
+    "settori_bersaglio": [
+      "settore privato",
+      "settore pubblico",
+      "infrastrutture critiche"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In Israele, il primo trimestre del 2023 è caratterizzato da proteste contro una proposta di riforma giudiziaria e da un'ampia gamma di conflitti e tensioni con i suoi vicini. Il governo israeliano approva una legge contro la giustizia, causando proteste interne. Vi sono continue incursioni e attacchi tra Israele e i suoi vicini, con Israele che effettua raid aerei e incursioni terrestri in territori palestinesi, mentre gruppi palestinesi rispondono con attacchi contro Israele. Il governo israeliano effettua anche azioni contro gruppi palestinesi all'interno del territorio israeliano, con arresti e incursioni in aree palestinesi. Vi sono anche conflitti con gruppi armati come Hezbollah in Libano e tensioni con stati vicini come il Sudan e il Qatar.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2023.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "wikipedia:ISR_2023"
+  ]
+}

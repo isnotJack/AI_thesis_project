@@ -1,0 +1,39 @@
+{
+  "paese": "YEM",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto in Yemen è continuato con intensità, con focolai significativi in diverse regioni, inclusi Al Hudaydah, Ta'iz e Hajjah. Le azioni militari hanno causato danni significativi all'infrastruttura, inclusi i porti di Al Hudaydah e Salif, che rimangono aperti ma sono soggetti a tensioni. Le operazioni militari hanno anche portato a dislocazioni di popolazione e a una riduzione dell'accesso umanitario in alcune aree. L'intensità delle azioni militari ha aumentato la precarietà delle condizioni umanitarie, con conseguenze dirette sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni locali.",
+    "n_eventi_violenti": 2795,
+    "n_vittime": 9006
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen è stata influenzata da diversi fattori, tra cui la deprezzazione della valuta locale, il conflitto armato e le limitazioni nei trasporti e importazioni. La deprezzazione della valuta ha portato a un aumento significativo dei prezzi dei generi alimentari di base, come la farina di grano, che ha aumentato la pressione sulla sicurezza alimentare. Il conflitto ha causato interruzioni nei trasporti e negli scambi commerciali, riducendo l'accesso ai beni essenziali. L'accesso umanitario è stato limitato in alcune aree, aumentando la vulnerabilità delle popolazioni locali."
+  },
+  "migrazione": {
+    "descrizione": "Le migrazioni interne e le dislocazioni di popolazione sono state un problema significativo a causa del conflitto. Numerosi civili hanno dovuto lasciare le loro case a causa delle azioni militari, con un aumento delle dislocazioni nei governatorati di Al Hudaydah, Ta'iz e Hajjah. Le condizioni di vita nei campi per sfollati sono state difficili, con limiti nell'accesso ai servizi essenziali come l'acqua, l'alimentazione e l'assistenza sanitaria. L'accesso umanitario alle aree di conflitto è stato ostacolato, rendendo difficile la protezione e l'assistenza alle popolazioni sfollate.",
+    "rifugiati": 31145,
+    "richiedenti_asilo": 35876,
+    "sfollati_interni": 2144719
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il paese è stato caratterizzato da un'intensa attività militare e umanitaria. Il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar hanno continuato ad essere le figure di riferimento politiche. Il primo ministro Ahmed Obeid bin Daghr è stato in carica fino a ottobre, quando è stato sostituito da Maeen Abdulmalik Saeed. Il conflitto ha continuato con azioni militari significative, inclusi attacchi aeree e combattimenti in diverse regioni. L'assistenza umanitaria ha cercato di mitigare le conseguenze del conflitto, ma le limitazioni di accesso hanno reso difficile la distribuzione di aiuti. L'interesse internazionale, inclusi i paesi della coalizione guidata dall'Arabia Saudita, è rimasto alto, con continue discussioni e azioni volte a risolvere la crisi.",
+  "fonti": [
+    "fews_net (YEM_2018-september_key-message-update.pdf)",
+    "unhcr_reports (YEM_2018Q3_2018-09-30_shelter-nfi-cccm-cluster-monthly-situation-report-september-.pdf)",
+    "fews_net (YEM_2018-august_food-security-outlook-update.pdf)",
+    "fews_net (YEM_2018-july_key-message-update.pdf)",
+    "wikipedia:YEM_2018"
+  ]
+}

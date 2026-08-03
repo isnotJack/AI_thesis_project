@@ -1,0 +1,41 @@
+{
+  "paese": "SAU",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2021, l'Arabia Saudita ha continuato a gestire conflitti regionali, principalmente legati alla situazione in Yemen. I Houthi hanno lanciato diversi attacchi con droni contro obiettivi sauditi, inclusi aeroporti e basi militari. La coalizione guidata dall'Arabia Saudita ha risposto con raid aerei contro i Houthi. Inoltre, vi sono stati sviluppi significativi nella crisi diplomatica con il Qatar, con la riapertura dell'ambasciata saudita a Doha dopo tre anni di rotture diplomatiche. L'Arabia Saudita ha anche proposto una tregua in Yemen per porre fine al conflitto con i Houthi.",
+    "n_eventi_violenti": 31,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 2167,
+    "richiedenti_asilo": 1541,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'Arabia Saudita si trova in una fase di ripresa economica dopo la crisi causata dalla pandemia di COVID-19 e dai bassi prezzi del petrolio. Il paese ha intrapreso misure di diversificazione economica come parte della Visione 2030, ma continua a dipendere pesantemente dalle entrate petrolifere. L'aumento dei prezzi del petrolio ha contribuito a migliorare le prospettive economiche, ma il paese affronta ancora sfide fiscali e di bilancio a causa delle spese pubbliche elevate e delle politiche di contenimento del COVID-19. La ripresa economica è moderata e dipende in parte dalla ripresa globale e dalla stabilità dei prezzi del petrolio.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco di phishing globale mirato contro la catena di approvvigionamento del vaccino COVID-19, che ha coinvolto organizzazioni associate al trasporto del vaccino. Gli attacchi sono stati eseguiti da hacker che fingevano di essere esecutivi di una legittima azienda coinvolta nella catena di approvvigionamento del vaccino COVID-19."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Salute"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, l'Arabia Saudita ha continuato a gestire diversi sfide e sviluppi significativi. Il re Salman e il principe ereditario Mohammad bin Salman hanno mantenuto la loro leadership. L'Arabia Saudita ha ripreso i suoi confini e i voli internazionali dopo averli chiusi per prevenire la diffusione di nuove varianti del COVID-19. Il paese ha anche continuato a gestire la pandemia di COVID-19 con misure di contenimento, incluso il lancio della vaccinazione. Nel campo diplomatico, vi sono stati sviluppi significativi, come la riapertura dell'ambasciata saudita a Doha dopo una crisi diplomatica di tre anni. L'Arabia Saudita ha anche proposto una tregua in Yemen per porre fine al conflitto con i Houthi. Inoltre, il paese ha continuato a gestire la situazione in Yemen con raid aerei contro i Houthi in risposta agli attacchi con droni. L'Arabia Saudita ha anche continuato a fare fronte alla crisi umanitaria causata dalla pandemia, con misure di sostegno economico e sociale per i cittadini e i residenti.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_am20.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "wikipedia:SAU_2021"
+  ]
+}

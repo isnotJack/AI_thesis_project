@@ -1,0 +1,39 @@
+{
+  "paese": "SSD",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2020, il Sud Sudan è stato caratterizzato da conflitti intercomunali intensi in diverse regioni, inclusi Jonglei, Upper Nile, Northern Bahr el Ghazal, Lakes, Central Equatoria e Eastern Equatoria. Questi conflitti hanno causato perdite di vite umane, perdita di beni domestici, interruzioni nei flussi commerciali e ostacoli all'erogazione di assistenza umanitaria. In particolare, le regioni di Pibor e Tonj South hanno visto un aumento significativo di violenze, con migliaia di persone nuovamente sfollate. Inoltre, ci sono state violazioni dell'accordo di cessate il fuoco tra il governo e i gruppi ribelli in alcune zone, come Kajo-Keji, Lainya, Yei e Morobo. Questi conflitti hanno avuto un impatto significativo sulla sicurezza alimentare e hanno ostacolato l'erogazione di assistenza umanitaria, aumentando il rischio di carestia in alcune aree.",
+    "n_eventi_violenti": 168,
+    "n_vittime": 456
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia nel Sud Sudan è stata principalmente causata da conflitti intercomunali, perdita di beni domestici, perdita di raccolti e allevamento, e flussi di sfollati. Le perdite di raccolto e allevamento sono state particolarmente gravi a causa delle inondazioni del 2019, che hanno distrutto beni domestici e interrotto i flussi commerciali. L'assistenza umanitaria è stata ostacolata dai conflitti, riducendo l'accesso ai beni alimentari. La carestia è stata più acuta in alcune aree, come Akobo e Duk, dove le perdite di raccolto e allevamento hanno avuto un impatto significativo sulla sicurezza alimentare."
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2020, ci sono stati flussi significativi di sfollati interni e rifugiati di ritorno nel Sud Sudan. Numerosi rifugiati hanno iniziato a tornare spontaneamente dal confine con l'Uganda, mentre i conflitti interni hanno causato nuovi sfollamenti interni. Le violenze in alcune aree, come Pibor e Tonj South, hanno portato a migliaia di nuovi sfollati. L'assistenza umanitaria ai rifugiati di ritorno e ai sfollati interni è stata ostacolata dai conflitti, aumentando il rischio di carestia in queste aree.",
+    "rifugiati": 2188785,
+    "richiedenti_asilo": 4858,
+    "sfollati_interni": 1600254
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, il Sud Sudan ha continuato a essere caratterizzato da conflitti interni e violenze etniche. Il governo e i ribelli hanno continuato a negoziare sul numero e sulle frontiere degli stati, senza raggiungere un accordo. Ci sono state accuse contro il governo per la mancata attenzione a rapporti che collegavano la contaminazione petrolifera a difetti congeniti in alcune regioni. In febbraio, le locuste hanno invaso il paese provenienti dall'Uganda. Nel marzo, il governo e i ribelli hanno raggiunto un accordo di pace. Nel corso del trimestre, ci sono state violenze significative in alcune aree, come Tonj East e Romich, che hanno causato perdite di vite umane e sfollamenti. L'assistenza umanitaria è stata ostacolata dai conflitti, aumentando il rischio di carestia in alcune regioni.",
+  "fonti": [
+    "fews_net (SSD_2020-march_key-message-update.pdf)",
+    "unhcr_reports (SSD_2020Q1_2020-03-31_south-sudan-camp-coordination-and-camp-management-cluster-mo.pdf)",
+    "fews_net (SSD_2020-february_food-security-outlook.pdf)",
+    "fews_net (SSD_2020-january_key-message-update.pdf)",
+    "wikipedia:SSD_2020"
+  ]
+}

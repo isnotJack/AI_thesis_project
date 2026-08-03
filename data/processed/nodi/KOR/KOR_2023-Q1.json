@@ -1,0 +1,37 @@
+{
+  "paese": "KOR",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2023, la Corea del Sud ha espresso preoccupazioni riguardo alla minaccia nucleare proveniente dalla Corea del Nord. Il presidente Yoon Suk Yeol ha dichiarato che, in caso di ulteriore deterioramento della situazione di sicurezza, la Corea del Sud potrebbe considerare la costruzione delle proprie armi nucleari o la richiesta di un ripristino delle armi nucleari statunitensi nel paese. Queste dichiarazioni sono state fatte in risposta alla crescente tensione regionale. Inoltre, vi è stato uno scambio di ambasciatori tra la Corea del Sud e l'Iran, a causa di commenti del presidente Yoon Suk-yeol che aveva definito l'Iran come 'nemico degli Emirati Arabi Uniti'.",
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 107,
+    "richiedenti_asilo": 939,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, la Corea del Sud ha affrontato diverse sfide, tra cui la crescente tensione con la Corea del Nord a causa della minaccia nucleare. Il presidente Yoon Suk Yeol ha fatto dichiarazioni riguardo alla possibilità di sviluppare armi nucleari o richiedere il ripristino delle armi statunitensi nel paese. Ci sono state anche tensioni diplomatiche con l'Iran, con lo scambio di ambasciatori a causa di commenti del presidente Yoon Suk-yeol. Inoltre, la Corea del Sud ha concordato di pagare compensi ai cittadini coinvolti nel lavoro forzato durante la Seconda Guerra Mondiale. Nel mese di febbraio, un ex ministro della Giustizia è stato condannato a due anni di carcere per abuso di potere e aiuto per i suoi figli a entrare in scuole prestigiose con credenziali false. Nel mese di marzo, la Corea del Sud ha iniziato a pagare compensi ai cittadini coinvolti nel lavoro forzato durante la Seconda Guerra Mondiale.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2023.pdf",
+    "Microsoft_Digital_Defense_Report_2023.pdf",
+    "wikipedia:KOR_2023"
+  ]
+}

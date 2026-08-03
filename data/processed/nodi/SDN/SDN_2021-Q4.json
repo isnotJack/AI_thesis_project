@@ -1,0 +1,40 @@
+{
+  "paese": "SDN",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": "Il Sudan è caratterizzato da un'instabilità politica e conflitti intercomunali, con violenze significative in Darfur e Kordofan. Le tensioni sono aumentate a causa di scontri tra tribù e gruppi armati, con conseguenti spostamenti di popolazione. La situazione è stata ulteriormente complicata dalla crisi politica che ha portato all'arresto del primo ministro Hamdok e alla presa del potere da parte del generale Burhan. I scontri hanno causato morti, feriti e migliaia di sfollati, con effetti significativi sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni locali.",
+    "n_eventi_violenti": 146,
+    "n_vittime": 394
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è stata influenzata da conflitti intercomunali, crisi politica, elevati prezzi degli alimenti e una crisi economica. Le violenze hanno portato a un aumento dei prezzi dei generi alimentari, riducendo l'accesso alimentare delle famiglie più vulnerabili. La situazione è stata aggravata dalla mancanza di accesso ai mercati e dalla riduzione delle opportunità di lavoro, con conseguenze dirette sulla sicurezza alimentare."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione è stata influenzata da conflitti interni e da flussi di rifugiati etiopi. La situazione dei rifugiati etiopi è stata critica, con bisogno di assistenza umanitaria. Gli sfollati interni hanno aumentato la pressione sui servizi e sulle risorse locali, con sfide significative per l'assistenza umanitaria e la protezione dei diritti umani.",
+    "rifugiati": 825290,
+    "richiedenti_asilo": 75164,
+    "sfollati_interni": 3036590
+  },
+  "economia": {
+    "sintesi": "L'economia è stata influenzata da una crisi politica, conflitti interni e una situazione macroeconomiche difficile. La crisi politica ha portato a una sospensione dell'assistenza economica internazionale, con conseguenze negative sulle finanze pubbliche e sulla stabilità economica. L'inflazione è rimasta elevata, con effetti negativi sul potere d'acquisto delle famiglie. La situazione fiscale e esterna è stata segnalata come problematica, con rischi per la stabilità economica a medio termine.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2021-Q4, il Sudan ha continuato a essere caratterizzato da una situazione politica instabile, con un'importante crisi che ha portato all'arresto del primo ministro Hamdok e alla presa del potere da parte del generale Burhan. La crisi ha avuto effetti significativi sulla situazione economica e sociale, con conseguenze dirette sulla sicurezza alimentare e sulla migrazione interna e internazionale. I conflitti interni, in particolare in Darfur e Kordofan, hanno continuato a causare violenze e spostamenti di popolazione, con effetti negativi sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni locali. La situazione dei rifugiati etiopi è stata critica, con bisogno di assistenza umanitaria. L'economia è stata influenzata da una crisi politica, conflitti interni e una situazione macroeconomiche difficile, con rischi per la stabilità economica a medio termine.",
+  "fonti": [
+    "fews_net (SDN_2021-december_food-security-outlook-update.pdf)",
+    "fews_net (SDN_2021-november_key-message-update.pdf)",
+    "fews_net (SDN_2021-october_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2021Q4_2021-12-31_sudan-eastern-sudan-partner-coverage-who-doing-what-and-wher.pdf)",
+    "worldbank_mpo (SDN_mpo_am21.pdf)",
+    "wikipedia:SDN_2021"
+  ]
+}

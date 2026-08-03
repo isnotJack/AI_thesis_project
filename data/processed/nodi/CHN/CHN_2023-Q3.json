@@ -1,0 +1,52 @@
+{
+  "paese": "CHN",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "La Cina ha continuato a mostrare un interesse significativo nell'investimento in Afghanistan, come parte del più ampio iniziativa Belt and Road. La Cina ha esteso elementi dell'Iniziativa Corridoio Economico Cina-Pakistan (CPEC) fino ad Afghanistan, con un accordo per estendere il progetto CPEC di 60 miliardi di dollari. La Cina ha anche mostrato interesse nell'estrazione mineraria in Afghanistan, con accordi per l'estrazione di petrolio e minerali come il litio. La Cina ha anche fornito aiuto umanitario ad Afghanistan, con donazioni dirette dallo stato, dal governo della regione di Xinjiang e da privati cinesi. L'interesse cinese in Afghanistan è anche legato alla sua posizione strategica per la sicurezza e la stabilità regionale, nonché alla sua ricchezza mineraria.",
+    "n_eventi_violenti": 36,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 160565,
+    "richiedenti_asilo": 137143,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "La Cina ha mostrato un'attenzione significativa verso l'investimento in Afghanistan, con accordi per progetti di infrastruttura e l'estrazione di risorse naturali. La Cina ha anche fornito aiuto umanitario ad Afghanistan, con donazioni dirette dallo stato, dal governo della regione di Xinjiang e da privati cinesi. L'interesse cinese in Afghanistan è anche legato alla sua posizione strategica per la sicurezza e la stabilità regionale, nonché alla sua ricchezza mineraria.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "People's Republic of China-Linked Cyber Actors Hide in Router Firmware (2023-09-27)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Raspberry Typhoon",
+      "Flax Typhoon"
+    ],
+    "settori_bersaglio": [
+      "Servizi di telecomunicazioni",
+      "Servizi di informazione",
+      "Servizi di trasporto",
+      "Servizi di energia",
+      "Servizi di finanza",
+      "Servizi di governo"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2023, la Cina ha continuato a mostrare un'attenzione significativa verso l'investimento in Afghanistan, con accordi per progetti di infrastruttura e l'estrazione di risorse naturali. La Cina ha anche fornito aiuto umanitario ad Afghanistan, con donazioni dirette dallo stato, dal governo della regione di Xinjiang e da privati cinesi. L'interesse cinese in Afghanistan è anche legato alla sua posizione strategica per la sicurezza e la stabilità regionale, nonché alla sua ricchezza mineraria. Nel campo cyber, la Cina è stata attiva con campagne di intelligence elettronica, mirando a diversi settori critici. L'attivismo cinese nel cyberspazio è stato evidenziato da un advisory CISA che ha rilevato attività di attori cinesi nascosti nel firmware dei router.",
+  "fonti": [
+    "acaps (CHN_2023-07-31_20230731_ACAPS_Thematic_report_Afghanistan_China_s_humanitarian_aid_and_economic_investments.pdf)",
+    "worldbank_mpo (CHN_mpo_sm23.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-270a",
+    "wikipedia:CHN_2023"
+  ]
+}

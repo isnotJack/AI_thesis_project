@@ -1,0 +1,36 @@
+{
+  "paese": "SSD",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la situazione di conflitto in Sud Sudan continua a essere preoccupante. Viene riportato che la situazione nel paese rimane altamente imprevedibile, con un'insorgenza di rifugiati che continua a essere un problema significativo. Si evidenzia la necessità di sviluppare un piano di contingenza per rispondere a una peggiore scenari. Il report menziona anche la presenza di violazioni del cessate il fuoco e la persistenza di importanti questioni contese. L'UNHCR ha sottolineato l'importanza di promuovere un'iniziativa africana rafforzata per la pace e la riconciliazione, con l'endorsement di rappresentanti dell'Unione Africana e dell'Unione Europea.",
+    "n_eventi_violenti": 144,
+    "n_vittime": 360
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, la situazione dei rifugiati sud sudanesi è rimasta critica. Il numero di rifugiati nel paese e nella regione è elevato, con un alto numero di nuovi arrivi. Viene evidenziato che il 63% dei rifugiati sono bambini. La mancanza di fondi ha portato a sovraffollamento in scuole e centri sanitari, riduzione delle razioni alimentari e carenza di strutture temporanee. I rifugiati hanno chiesto ulteriore supporto internazionale per affrontare le sfide. I nuovi arrivi sono principalmente provenienti da Sud Kordofan e Blue Nile in Sudan. L'UNHCR ha registrato nuovi arrivi e nascite di bambini rifugiati, evidenziando la continua fuga verso la regione.",
+    "rifugiati": 2285301,
+    "richiedenti_asilo": 12701,
+    "sfollati_interni": 1878154
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la leadership del Sud Sudan è rimasta stabile con Salva Kiir Mayardit come Presidente e James Wani Igga come Vice Presidente. La situazione di conflitto continua a essere un tema centrale, con violazioni del cessate il fuoco e importanti questioni contese. L'UNHCR ha organizzato eventi per celebrare il 20º anniversario delle Guiding Principles di Internally Displaced Persons e ha sottolineato l'importanza di un piano di contingenza per la situazione imprevedibile. Viene anche menzionato un dialogo tra rifugiati sud sudanesi e rappresentanti di diversi paesi per promuovere la partecipazione dei rifugiati nel processo di pace.",
+  "fonti": [
+    "unhcr_reports (SSD_2018Q3_2018-09-30_south-sudan-situation-unhcr-regional-update-1-30-september-2.pdf)",
+    "wikipedia:SSD_2018"
+  ]
+}

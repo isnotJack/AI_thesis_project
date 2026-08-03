@@ -1,0 +1,54 @@
+{
+  "paese": "PRK",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 6,
+    "n_vittime": 21
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 267,
+    "richiedenti_asilo": 127,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "TraderTraitor: North Korean State State-Sponsored APT Targets Blockchain Companies",
+      "North Korean State State-Sponsored Cyber Actors Use Maui Ransomware to Target the Healthcare and Public Health Sector"
+    ],
+    "gruppi_minaccia_associati": [
+      "Lazarus Group",
+      "APT38",
+      "BlueNoroff",
+      "Stardust Chollima",
+      "CERIUM",
+      "ZINC",
+      "DEV-0215",
+      "DEV-0530",
+      "OSMIUM"
+    ],
+    "settori_bersaglio": [
+      "Blockchain",
+      "Cryptocurrency",
+      "Healthcare and Public Health"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In febbraio, il Ministero degli Esteri della Corea del Nord ha accusato gli Stati Uniti per il conflitto in Ucraina, citando la loro ricerca di supremazia militare a discapito della sicurezza della Russia. In marzo, la Corea del Nord ha testato il suo missile balistico intercontinentale (ICBM) di lunga gittata. Nel mese di maggio, Pyongyang ha dichiarato un'emergenza nazionale severa dopo aver confermato il primo caso di COVID-19, imponendo un lockdown nazionale e chiudendo i confini. Tuttavia, il commercio limitato con la Cina continua.",
+  "fonti": [
+    "cisa (PRK_AA22-108A-TraderTraitor-North_Korea_APT_Targets_Blockchain_Companies.pdf)",
+    "cisa (PRK_aa22-187a-north-korean state-sponsored-cyber-actors-use-maui-ransomware-to-target-the-hph-sector.pdf)",
+    "wikipedia:PRK_2022"
+  ]
+}

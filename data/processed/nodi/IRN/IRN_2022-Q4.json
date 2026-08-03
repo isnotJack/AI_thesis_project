@@ -1,0 +1,64 @@
+{
+  "paese": "IRN",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Proteste continue in Iran, incluse le proteste alimentari e quelle legate alla morte di Mahsa Amini, che hanno evoluto in chiamate per la fine della Repubblica Islamica. Eventi significativi includono l'uccisione di Mahsa Amini per non aver indossato il velo correttamente, che ha scatenato proteste di larga portata. Altri eventi di rilievo includono attacchi e incidenti, come l'incendio a Evin Prison e l'attentato al mausoleo di Imam Reza.",
+    "n_eventi_violenti": 97,
+    "n_vittime": 111
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il numero di rifugiati afghani che hanno voluto ripatriarsi in Afghanistan da Iran è diminuito significativamente a causa delle condizioni instabili e della situazione umanitaria deteriorata in Afghanistan. L'UNHCR ha facilitato il ritorno di alcuni studenti afghani per ottenere visure di studio in Iran, ma la volontà di ritorno è stata influenzata negativamente dalle condizioni in Afghanistan.",
+    "rifugiati": 122764,
+    "richiedenti_asilo": 69237,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'outlook economico di Iran mostra una crescita moderata, con rischi fiscali e esterni legati alla continua instabilità politica e alle sanzioni internazionali. L'economia è influenzata dalle tensioni politiche e dalle proteste interne, nonché dalle conseguenze delle sanzioni internazionali.",
+    "tasso_poverta_pct": 2.8
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Iranian Government-Sponsored APT Actors Compromise Federal Network, Deploy Crypto Miner, Credential Harvester"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian Government-Sponsored APT Actors Compromise Federal Network, Deploy Crypto Miner, Credential Harvester"
+    ],
+    "gruppi_minaccia_associati": [
+      "MuddyWater",
+      "APT34 (OilRig)",
+      "APT35 (Charming Kitten)",
+      "APT41 (Turla)",
+      "APT453 (Gamaredon)",
+      "APT456 (Imperial Kitten)",
+      "APT40 (OilRig)",
+      "APT28 (Sofacy)"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Organizzazioni governative",
+      "Organizzazioni di ricerca",
+      "Organizzazioni di difesa",
+      "Organizzazioni di sicurezza",
+      "Organizzazioni di trasporto",
+      "Organizzazioni di energia",
+      "Organizzazioni di comunicazione",
+      "Organizzazioni di finanza"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In Iran, le proteste continue e le tensioni politiche hanno caratterizzato il 2022, con un aumento delle chiamate per la fine della Repubblica Islamica. La leadership è rimasta stabile con Ali Khamenei come Líder Supremo e Ebrahim Raisi come Presidente. L'anno è stato segnato da eventi significativi come l'uccisione di Mahsa Amini, che ha scatenato proteste di larga portata, e da diversi incidenti e attacchi, inclusi attacchi contro infrastrutture critiche e attacchi cibernetici.",
+  "fonti": [
+    "unhcr_reports (IRN_2022Q4_2022-12-19_iran-voluntary-repatriation-since-january-to-november-2022.pdf)",
+    "worldbank_mpo (IRN_mpo_am22.pdf)",
+    "cisa (IRN_AA22-055A_Iranian_Government-Sponsored_Actors_Conduct_Cyber_Operations.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "cisa (IRN_aa22-320a_joint_csa_iranian_government-sponsored_apt_actors_compromise_federal network_deploy_crypto miner_credential_harvester.pdf)",
+    "wikipedia:IRN_2022"
+  ]
+}

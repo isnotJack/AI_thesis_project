@@ -1,0 +1,35 @@
+{
+  "paese": "ISR",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2019, Israele ha continuato a gestire tensioni con diversi attori regionali. Nel mese di marzo, due razzi sono stati lanciati dalla Striscia di Gaza verso Tel Aviv, senza essere intercettati dal sistema di difesa Iron Dome. In risposta, Israele ha lanciato centinaia di attacchi contro Khan Yunis. Successivamente, un attacco aereo israeliano ha colpito un ufficio di un alto funzionario di Hamas, Ismail Haniyeh, e la sede dell'intelligence militare di Gaza City. Nel mese di aprile, il lancio accidentale di razzi dalla Striscia di Gaza verso Tel Aviv ha portato a un aumento delle tensioni. Nel mese di maggio, ci sono stati scontri a Gaza, con Israele che ha risposto con attacchi aerei. Nel mese di giugno, un poliziotto israeliano ha ucciso un giovane etiope-israeliano a Kiryat Haim, causando proteste e scontri in tutto il paese. Nel mese di luglio, Israele ha condotto attacchi aerei contro obiettivi iraniani e siriani vicino Damasco e Homs, causando numerosi morti e feriti. Nel mese di agosto, Israele ha continuato gli attacchi aerei contro obiettivi iraniani e siriani, con un drone israeliano che ha colpito un deposito armi vicino alla base aerea di Balad in Iraq. Nel mese di settembre, Israele ha condotto un attacco aereo contro un magazzino sospettato di essere utilizzato dalle Forze di Mobilitazione Popolare vicino alla città di Hit in Iraq, causando la morte di 21 militanti. Nel mese di ottobre, Israele ha continuato gli attacchi aerei contro obiettivi siriani e iraniani, con un missile israeliano che ha colpito un magazzino di armi vicino Damasco. Nel mese di novembre, Israele ha condotto una serie di attacchi aerei contro obiettivi in Gaza, causando numerosi morti e feriti. Nel mese di dicembre, Israele ha continuato gli attacchi aerei contro obiettivi siriani e iraniani, con un missile israeliano che ha colpito un magazzino di armi vicino Damasco.",
+    "n_eventi_violenti": 91,
+    "n_vittime": 5
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 452,
+    "richiedenti_asilo": 690,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, Israele ha continuato a gestire tensioni politiche interne e regionali. Nel mese di febbraio, il ministro dell'intelligence Israel Katz è stato nominato ministro degli esteri, mentre il primo ministro Benjamin Netanyahu ha mantenuto i ruoli di ministro della difesa e della sanità. Il 28 febbraio, l'Avvocato Generale di Israele Avichai Mandelblit ha deciso di accusare il primo ministro Benjamin Netanyahu per corruzione, frode e violazione della fiducia. Nel mese di marzo, il presidente degli Stati Uniti Donald Trump ha firmato una proclamazione riconoscendo le alture del Golan come territorio sovrano di Israele, provocando reazioni negative da parte della Siria e dell'Arab League. Nel mese di aprile, le elezioni legislative israeliane si sono tenute il 9 aprile. Nel mese di maggio, il concorso Eurovision Song Contest 2019 si è tenuto a Tel Aviv. Nel mese di giugno, un poliziotto israeliano ha ucciso un giovane etiope-israeliano a Kiryat Haim, causando proteste e scontri in tutto il paese. Nel mese di luglio, Israele ha condotto attacchi aerei contro obiettivi iraniani e siriani vicino Damasco e Homs, causando numerosi morti e feriti. Nel mese di agosto, Israele ha continuato gli attacchi aerei contro obiettivi iraniani e siriani, con un drone israeliano che ha colpito un deposito armi vicino alla base aerea di Balad in Iraq. Nel mese di settembre, Israele ha condotto un attacco aereo contro un magazzino sospettato di essere utilizzato dalle Forze di Mobilitazione Popolare vicino alla città di Hit in Iraq, causando la morte di 21 militanti. Nel mese di ottobre, Israele ha continuato gli attacchi aerei contro obiettivi siriani e iraniani, con un missile israeliano che ha colpito un magazzino di armi vicino Damasco. Nel mese di novembre, Israele ha condotto una serie di attacchi aerei contro obiettivi in Gaza, causando numerosi morti e feriti. Nel mese di dicembre, Israele ha continuato gli attacchi aerei contro obiettivi siriani e iraniani, con un missile israeliano che ha colpito un magazzino di armi vicino Damasco.",
+  "fonti": [
+    "wikipedia:ISR_2019"
+  ]
+}

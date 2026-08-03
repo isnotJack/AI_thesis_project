@@ -1,0 +1,36 @@
+{
+  "paese": "VEN",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si registrano tensioni politiche e militari tra le fazioni rivali. Il governo di Maduro affronta pressioni esterne, inclusi scontri diplomatici con Stati Uniti e altri paesi. Viene segnalata una situazione di instabilità interna con episodi di violenza e proteste. Il governo accusa oppositori di complotti e tentativi di colpo di stato, mentre le forze di sicurezza reprimono manifestazioni. La crisi politica continua a influenzare la situazione generale del paese.",
+    "n_eventi_violenti": 321,
+    "n_vittime": 368
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e verso i paesi vicini continua a essere un problema significativo. Si evidenziano criticità di protezione per i migranti, inclusi minori, con riferimenti specifici a aree come Táchira, Zulia e Bolívar. Si segnalano ostacoli operativi e nuovi corridoi di migrazione, con un focus sulle risposte umanitarie coordinate per affrontare le esigenze dei migranti.",
+    "rifugiati": 171112,
+    "richiedenti_asilo": 851265,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la leadership politica di Venezuela continua a essere segnata dalla presidenza di Nicolás Maduro e dalla situazione di crisi politica. Si registrano tensioni internazionali, con pressioni da parte degli Stati Uniti e altri paesi. La situazione economica e sociale è influenzata dalla pandemia di COVID-19, che aggrava le condizioni esistenti. Le autorità governative e le forze di sicurezza sono impegnate in azioni contro le opposizioni, mentre si assiste a una continua instabilità interna.",
+  "fonti": [
+    "VEN_2020Q4_2020-12-14_hoja-resumen-venezuela-cl-ster-de-protecci-n-noviembre-2020.pdf",
+    "wikipedia:VEN_2020"
+  ]
+}

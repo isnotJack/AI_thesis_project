@@ -1,0 +1,39 @@
+{
+  "paese": "SYR",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si sono verificati diversi attacchi aerei israeliani contro obiettivi in Siria, inclusi centri di ricerca iraniani e posti militari. Gli attacchi hanno causato perdite umane e materiali. Inoltre, ci sono stati scontri tra forze governative e ribelli, con cambiamenti significativi nel controllo territoriale, inclusa la caduta di città chiave come Homs e Damasco. L'opposizione ha lanciato offensive contro posizioni governative, con successi significativi in diverse regioni. L'attivismo digitale ha portato a ulteriori tensioni, con attacchi online contro attiviste e figure pubbliche. La situazione è stata ulteriormente complicata da eventi come l'apertura di ambasciate da parte di paesi come Italia e Qatar, segno di cambiamenti nelle dinamiche diplomatiche.",
+    "n_eventi_violenti": 2964,
+    "n_vittime": 1184
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Ci sono stati flussi significativi di rifugiati da Libano verso la Siria, principalmente a causa degli attacchi israeliani in Libano. L'UNHCR ha fornito assistenza ai nuovi arrivi, inclusi rifugiati siriani e libanesi, con un aumento di servizi di base come cibo, acqua e riparo. La situazione ha richiesto un'accelerazione dei supporti umanitari per gestire il flusso crescente di persone in fuga dai conflitti.",
+    "rifugiati": 5952174,
+    "richiedenti_asilo": 167334,
+    "sfollati_interni": 7408909
+  },
+  "economia": {
+    "sintesi": "L'economia siriana continua a essere gravemente indebolita, con una contrazione significativa prevista per il 2024. I rischi fiscali e esterni sono accentuati dalle continue tensioni politiche e militari, nonché dalla deprezzazione della valuta nazionale. L'inflazione rimane elevata, influenzando negativamente il tenore di vita della popolazione. La povertà è in aumento, con una maggiore percentuale della popolazione che vive sotto la linea della povertà internazionale.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la Siria ha visto un cambiamento significativo nella leadership politica, con la fuga del presidente Bashar al-Assad verso la Russia, dove ha ottenuto asilo politico. Ahmed al-Sharaa è diventato il leader de facto del paese, seguito da un periodo di transizione verso un governo di transizione. L'anno ha visto una serie di eventi politici e militari, inclusi attacchi aerei israeliani, scontri tra forze governative e ribelli, e cambiamenti nei confini di controllo territoriale. L'attivismo digitale ha portato a ulteriori tensioni, con attacchi online contro attiviste e figure pubbliche. La situazione è stata ulteriormente complicata da eventi diplomatici, come l'apertura di ambasciate da parte di paesi come Italia e Qatar, segno di cambiamenti nelle dinamiche diplomatiche.",
+  "fonti": [
+    "acaps (SYR_2024-09-09_20240909_ACAPS_Middle_East_Hub__technology-facilitated_gender-based_violence_01.pdf)",
+    "unhcr_reports (SYR_2024Q3_2024-09-30_unhcr-syria-flash-update-4-response-to-displacement-from-leb.pdf)",
+    "worldbank_mpo (SYR_mpo_sm24.pdf)",
+    "wikipedia:SYR_2024",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)"
+  ]
+}

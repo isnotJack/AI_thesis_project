@@ -1,0 +1,36 @@
+{
+  "paese": "SYR",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la situazione di conflitto in Siria continua a essere marcata dalla presenza di campi profughi e insediamenti informali, con un crescente bisogno di assistenza umanitaria. L'accento è posto sull'assistenza invernale, con un numero significativo di persone in Siria che necessitano di supporto per affrontare le condizioni climatiche rigide. L'assistenza umanitaria è focalizzata su fornire coperte, cibo, combustibile e altri beni essenziali per proteggere le persone più vulnerabili. L'incremento del bisogno di assistenza è attribuito a fattori come il proscioglimento prolungato, la fluttuazione della valuta, le limitate opportunità di lavoro e l'impatto della pandemia di COVID-19.",
+    "n_eventi_violenti": 2073,
+    "n_vittime": 1220
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna in Siria continua a essere un problema significativo, con migliaia di persone spostate a causa delle condizioni climatiche e delle difficoltà umanitarie. L'assistenza umanitaria è concentrata su aree specifiche come Aleppo, Idlib, e altre zone dove le condizioni sono particolarmente difficili. L'accento è posto sulla distribuzione di beni essenziali come cibo, coperte e combustibile per affrontare le condizioni invernali. La situazione dei profughi interni è particolarmente critica, con un numero crescente di persone che necessitano di supporto immediato.",
+    "rifugiati": 6848865,
+    "richiedenti_asilo": 139754,
+    "sfollati_interni": 6865308
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la leadership siriana è rimasta stabile con Bashar al-Assad come presidente. L'anno ha visto eventi significativi come l'elezione presidenziale, che ha confermato Assad alla presidenza, e l'arrivo di vaccini COVID-19 sotto l'iniziativa COVAX. La situazione umanitaria continua a essere critica, con un forte bisogno di assistenza invernale per le popolazioni vulnerabili. L'accento è posto sulla distribuzione di beni essenziali e sul supporto alle aree più colpite dal conflitto e dalle conseguenze del COVID-19.",
+  "fonti": [
+    "unhcr_reports (SYR_2021Q4_2021-12-27_syrian-arab-republic-whole-of-syria-shelter-and-nfi-sectors-.pdf)",
+    "wikipedia:SYR_2021"
+  ]
+}

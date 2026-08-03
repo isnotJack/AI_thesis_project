@@ -1,0 +1,40 @@
+{
+  "paese": "SDN",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": "Il Sudan è coinvolto in conflitti interni, principalmente nella regione di Darfur, dove si registrano attacchi e violenze tra gruppi etnici. Il governo ha dichiarato un stato di emergenza a causa delle inondazioni, che hanno causato morti e danni significativi. Vi sono anche tensioni lungo la frontiera con l'Etiopia, con episodi di violenza tra le forze armate dei due paesi. Il governo ha firmato un accordo di pace con alcuni gruppi ribelli, ma la situazione rimane instabile in alcune aree.",
+    "n_eventi_violenti": 101,
+    "n_vittime": 327
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è aggravata da inondazioni, crisi macroeconomiche, prezzo elevati dei generi alimentari di base, e la pandemia di COVID-19. Le famiglie povere in aree colpite dalle inondazioni, i rifugiati interni protracted in Darfur e altre regioni, e le famiglie in Red Sea, Kassala, e North Darfur stanno affrontando situazioni di crisi (IPC Fase 3) o peggio. L'assistenza umanitaria è necessaria a causa dell'elevato costo dei generi alimentari di base, delle perdite di beni e delle sfide macroeconomiche che hanno ridotto il potere d'acquisto delle famiglie."
+  },
+  "migrazione": {
+    "descrizione": "I rifugiati sono concentrati principalmente nello stato di Kassala e Gedaref, con un numero significativo di rifugiati in queste aree. Le sfide principali includono la protezione dei rifugiati, la gestione delle risorse limitate e l'accesso alle aree di accoglienza. Le partnership con organizzazioni umanitarie sono essenziali per fornire assistenza adeguata.",
+    "rifugiati": 787823,
+    "richiedenti_asilo": 70049,
+    "sfollati_interni": 2552174
+  },
+  "economia": {
+    "sintesi": "Il Sudan sta affrontando una crisi macroeconomiche, con una deprezzazione continua della valuta nazionale, un aumento significativo dell'inflazione e una riduzione del potere d'acquisto delle famiglie. La crisi è aggravata dalla pandemia di COVID-19, che ha limitato l'attività economica e aumentato la pressione sui mercati dei generi alimentari. Le prospettive di crescita economica sono compromesse, con rischi fiscali e esterni evidenziati nei rapporti.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, il Sudan ha continuato a fare fronte a sfide significative, incluse le inondazioni che hanno causato morti e danni, la crisi macroeconomiche, e la pandemia di COVID-19. Il governo ha firmato un accordo di pace con alcuni gruppi ribelli, ma la situazione rimane instabile in alcune aree. La leadership del paese è composta da Abdel Fattah al-Burhan come Presidente del Consiglio di Sovranità e Abdalla Hamdok come Primo Ministro. Il paese ha anche iniziato a normalizzare le relazioni con Israele, con accordi significativi come l'accordo di normalizzazione con Israele e l'uso di Port Sudan come base navale per la Russia.",
+  "fonti": [
+    "fews_net (SDN_2020-september_key-message-update.pdf)",
+    "unhcr_reports (SDN_2020Q3_2020-09-30_sudan-partner-coverage-who-does-what-and-where-3ws-kassala-g.pdf)",
+    "worldbank_mpo (SDN_mpo_sm20.pdf)",
+    "fews_net (SDN_2020-august_food-security-outlook-update.pdf)",
+    "fews_net (SDN_2020-july_food-security-outlook.pdf)",
+    "wikipedia:SDN_2020"
+  ]
+}

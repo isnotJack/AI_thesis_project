@@ -1,0 +1,44 @@
+{
+  "paese": "YEM",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, il conflitto in Yemen continua a essere intenso, con attivita' belliche segnalate in diverse governatorati, inclusi Hajjah, Sa'ada, Taizz, Al Hudaydah, e Ad-Dali. I partner locali hanno riportato danni e evacuazioni di infrastrutture civili chiave, come ospedali vicino ai centri di conflitto. La situazione a Hajjah e Sa'ada è particolarmente critica, con un aumento delle violenze. Alcuni governatorati, come Al Hudaydah, hanno visto una riduzione delle violenze rispetto ai livelli precedenti all'accordo di Stoccolma, ma la tensione rimane alta. Le violenze hanno portato a un aumento dei dislocati interni, con migliaia di famiglie che hanno lasciato le loro case. La situazione a Taizz è stata particolarmente drammatica, con un doppio aumento dei decessi civili rispetto ai mesi precedenti. La presenza di attivita' belliche continua a creare ostacoli all'accesso umanitario, in particolare nei governatorati di Hajjah e Taizz.",
+    "n_eventi_violenti": 3252,
+    "n_vittime": 8164
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen è stata attribuita principalmente al conflitto, che ha creato grandi lacune nel consumo di cibo e una deplezione estrema delle risorse di sussistenza. La mancanza di assistenza umanitaria alimentare continua a essere un fattore chiave nel mantenere elevati i livelli di insicurezza alimentare. La situazione è particolarmente critica in governatorati come Sa'ada e Hajjah, classificati in Emergenza (IPC Fase 4). L'assenza di assistenza umanitaria potenzia ulteriormente la carestia, con la prospettiva di una carestia (IPC Fase 5) in alcune aree in caso di interruzione dei flussi commerciali e umanitari attraverso Al Hudaydah."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati e dei migranti in Yemen è critica, con un numero significativo di persone in bisogno di protezione. Gli IDP (Internally Displaced Persons) sono in aumento, con migliaia di famiglie che hanno lasciato le loro case a causa del conflitto. La protezione dei rifugiati e degli sfollati è un problema di primo piano, con alcune aree inaccessibili ai servizi umanitari. L'UNHCR e i suoi partner continuano a fornire assistenza vitale, inclusi i kit di emergenza e i sussidi di rifugio, ma l'accesso umanitario rimane un ostacolo significativo in alcune zone. La situazione dei rifugiati somali e etiopi è particolarmente problematica, con un numero crescente di ritorni forzati.",
+    "rifugiati": 36522,
+    "richiedenti_asilo": 34328,
+    "sfollati_interni": 3625716
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Cyber espionage by the United Arab Emirates (UAE) (2019-01-30, categoria=Espionage): sponsor=United Arab Emirates, vittime=Qatar, Turkey, Yemen, ruolo=vittima. Former U.S. government intelligence operatives working for the UAE used the spying tool Karma to hack the iPhones of activists, diplomats, and rival foreign leaders."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "United Arab Emirates"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 1
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, Yemen continua a essere caratterizzato da un clima politico e militare instabile. Il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar mantengono le loro posizioni. Il primo trimestre è stato segnato da eventi bellici significativi, inclusi attacchi aerei che hanno causato vittime civili. La situazione umanitaria è rimasta critica, con un aumento dei dislocati interni e delle esigenze di assistenza. La leadership del paese continua a fare fronte a sfide significative legate al conflitto e alla gestione delle conseguenze umanitarie.",
+  "fonti": [
+    "fews_net (YEM_2019-march_key-message-update.pdf)",
+    "unhcr_reports (YEM_2019Q1_2019-03-31_yemen-fact-sheet-march-2019.pdf)",
+    "fews_net (YEM_2019-february_food-security-outlook.pdf)",
+    "fews_net (YEM_2019-january_key-message-update.pdf)",
+    "https://www.cfr.org/cyber-operations/cyber-espionage-by-the-united-arab-emirates-uae",
+    "wikipedia:YEM_2019"
+  ]
+}

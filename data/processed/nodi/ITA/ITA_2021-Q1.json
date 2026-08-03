@@ -1,0 +1,45 @@
+{
+  "paese": "ITA",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 2,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi arrivi di migranti via mare in Italia, con un aumento significativo rispetto ai periodi precedenti. I paesi di origine principali includono Tunisia, Bangladesh, Côte d'Ivoire, Algeria, Guinea, Eritrea, Sudan e Mali. L'arrivo di migranti continua a essere un fenomeno di rilevanza, con un aumento notevole rispetto ai dati del 2020.",
+    "rifugiati": 61,
+    "richiedenti_asilo": 639,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Incidente di SolarWinds (dicembre 2020)",
+      "Vulnerabilità in Exchange Server di Microsoft (marzo 2021)",
+      "Vulnerabilità in WebKit di Apple (aprile 2021)",
+      "Vulnerabilità in Chrome di Google (giugno 2021)",
+      "Outage di Fastly (giugno 2021)",
+      "Vulnerabilità in DNS di Akamai (luglio 2021)",
+      "Breach di Aruba (giugno 2021)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, l'Italia è stata segnata dalla continua presenza della pandemia di COVID-19, con conseguenti misure di contenimento e proteste contro le politiche di lockdown. Il paese ha assistito anche a cambiamenti politici significativi, con la formazione del nuovo governo Draghi a febbraio. L'anno è stato contraddistinto da eventi sportivi di rilievo, come la vittoria dell'Italia alla UEFA Euro 2020, e da questioni sociali, tra cui le proteste contro la discriminazione e le violenze di genere. L'arrivo di migranti via mare è stato un tema di rilievo, con un aumento dei flussi rispetto ai periodi precedenti.",
+  "fonti": [
+    "ITA_2021Q1_2021-03-29_unhcr-italy-weekly-snapshot-21-mar-28-mar-2021.pdf",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "wikipedia:ITA_2021"
+  ]
+}

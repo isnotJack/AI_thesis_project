@@ -1,0 +1,40 @@
+{
+  "paese": "SSD",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan è caratterizzato da un'attività conflittuale che include violenze intercomunali e insicurezza persistente in diverse regioni. Le tensioni tra erboristi e agricoltori continuano a causare incidenti armati, con attacchi che coinvolgono aree come Twic-Abyei, Lakes, Jonglei e Unity. La presenza di forze di sicurezza è stata incrementata lungo la frontiera con il Sudan, ma le violenze persistono. L'insicurezza ha un impatto significativo sulle attività di produzione agricola e allevamento, limitando l'accesso ai pascoli e ostacolando le attività di coltivazione. L'insicurezza ha anche un impatto negativo sulle operazioni umanitarie, rendendo difficile il trasporto di aiuti e la distribuzione di assistenza alimentare.",
+    "n_eventi_violenti": 333,
+    "n_vittime": 588
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è principalmente causata da conflitti, ritorno di rifugiati, inondazioni e condizioni economiche deteriorate. Le proiezioni indicano un aumento delle esigenze di assistenza alimentare, con un rischio elevato di carestia (fase 5) in alcune aree. Le inondazioni previste per la stagione delle piogge potrebbero peggiorare ulteriormente la situazione, con un impatto significativo sulle attività agricole e sulle condizioni di sicurezza alimentare. L'insufficiente accesso ai mercati e le barriere logistiche aumentano la vulnerabilità delle popolazioni locali."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sud Sudan è caratterizzata da un flusso significativo di ritornati e rifugiati provenienti dal Sudan. La situazione di protezione per questi gruppi è critica, con sfide legate all'accesso ai servizi e alle risorse. L'arrivo di ritornati e rifugiati aumenta la pressione sui sistemi locali, con rischi di conflitti per la scarsità di risorse. L'insicurezza e le violenze intercomunali ostacolano le operazioni di assistenza e il rientro pacifico dei rifugiati.",
+    "rifugiati": 2290622,
+    "richiedenti_asilo": 32841,
+    "sfollati_interni": 944631
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan continua a essere gravemente compromessa da fattori come la perdita di entrate petrolifere, la degradazione delle condizioni macroeconomiche e l'insufficiente diversificazione delle fonti di reddito. L'incapacità di raccogliere entrate non petrolifere e la dipendenza dal petrolio come principale fonte di reddito hanno portato a una situazione di crisi finanziaria. L'instabilità politica e le tensioni interne hanno un impatto negativo sul clima di affari e sulle prospettive di crescita economica.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan è caratterizzato da una leadership stabile con il presidente Salva Kiir Mayardit al potere. Tuttavia, il paese continua a fare fronte a sfide significative, incluse le tensioni politiche interne, le violenze intercomunali e le conseguenze della crisi umanitaria. L'insicurezza persistente e le violazioni dei diritti umani continuano a essere preoccupanti. L'annuncio di un ritardo nelle elezioni generali, inizialmente previste per dicembre, riflette le difficoltà nel completare i processi istituzionali necessari. L'insicurezza alimentare e la carestia rimangono tra le principali preoccupazioni, con un aumento delle esigenze di assistenza umanitaria. L'insicurezza e le violenze hanno un impatto significativo sulle condizioni di vita delle popolazioni locali, con conseguenze negative sulle attività agricole e sulle condizioni di sicurezza alimentare.",
+  "fonti": [
+    "fews_net (SSD_2024-june_food-security-outlook.pdf)",
+    "fews_net (SSD_2024-may_key-message-update.pdf)",
+    "fews_net (SSD_2024-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (SSD_2024Q2_2024-06-30_2024-south-sudan-regional-rrp-regional-overview-of-the-south.pdf)",
+    "worldbank_mpo (SSD_mpo_sm24.pdf)",
+    "wikipedia:SSD_2024"
+  ]
+}

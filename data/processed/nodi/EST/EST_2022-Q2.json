@@ -1,0 +1,40 @@
+{
+  "paese": "EST",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 45,
+    "richiedenti_asilo": 61,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.5
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Estonian government websites were temporarily blocked by DDoS attacks querying them several thousand times the normal traffic flow"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Government websites"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In the second quarter of 2022, Estonia continued to face challenges related to the ongoing COVID-19 pandemic. The country also took a firm stance against Russia's actions in Ukraine, as evidenced by its decision to close its airspace to all Russian airlines on February 26. Estonia's political landscape experienced a significant shift when the coalition agreement collapsed on June 3 due to a disagreement over a government bill on primary education, leading to the formation of a new three-party coalition government on July 18. Estonia also reported its first case of monkeypox on June 29.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "wikipedia:EST_2022"
+  ]
+}

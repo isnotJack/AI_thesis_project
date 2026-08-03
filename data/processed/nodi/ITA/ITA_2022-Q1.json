@@ -1,0 +1,38 @@
+{
+  "paese": "ITA",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "L'Italia ha risposto all'invasione russa dell'Ucraina come membro della NATO, autorizzando l'invio di armi all'Ucraina. Il primo ministro Mario Draghi ha dichiarato che l'aggressione contro l'Ucraina è barbarica e una minaccia per tutta l'Europa, sottolineando l'esigenza di una reazione determinata dall'Unione Europea. L'Italia ha iniziato a inviare armi ed equipaggiamenti all'Ucraina, mentre i soldati italiani sono stati posizionati in Romania insieme a altre forze NATO. Il paese ha anche accolto i rifugiati ucraini, con i primi arrivi registrati a fine febbraio.",
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Italia ha visto un aumento significativo di arrivi di rifugiati ucraini fuggiti dall'invasione russa. Gli arrivi sono principalmente attraverso i confini terrestri con Slovenia e Austria, con un numero significativo di persone che hanno attraversato il confine per raggiungere la Slovenia e poi l'Italia. L'UNHCR ha fornito assistenza e informazioni ai nuovi arrivati, sottolineando la necessità di proteggere i rifugiati, in particolare le donne e i bambini, e di prevenire la violenza di genere. L'Italia ha anche assistito i rifugiati con informazioni sulle procedure di asilo e ha fornito servizi di consulenza.",
+    "rifugiati": 151,
+    "richiedenti_asilo": 670,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.7
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, l'Italia ha continuato a gestire le conseguenze della pandemia di COVID-19, con misure di contenimento che hanno influenzato l'economia e la vita quotidiana. Il presidente Sergio Mattarella è stato rieletto per un secondo mandato. L'Italia ha risposto all'invasione russa dell'Ucraina come membro della NATO, autorizzando l'invio di armi all'Ucraina. Il primo ministro Mario Draghi ha dichiarato che l'aggressione contro l'Ucraina è una minaccia per tutta l'Europa, sottolineando l'esigenza di una reazione determinata dall'Unione Europea. L'Italia ha iniziato a inviare armi ed equipaggiamenti all'Ucraina, mentre i soldati italiani sono stati posizionati in Romania insieme a altre forze NATO. Il paese ha anche accolto i rifugiati ucraini, con i primi arrivi registrati a fine febbraio. L'Italia ha continuato a fare fronte a varie sfide interne, incluse le proteste contro le politiche COVID-19 e le tensioni sociali. L'economia italiana ha continuato a essere influenzata dalla crisi globale dell'inflazione e dalla crisi energetica legata alla guerra in Ucraina.",
+  "fonti": [
+    "ITA_2022Q1_2022-03-31_unhcr-italy-factsheet-march-2022.pdf",
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:ITA_2022"
+  ]
+}

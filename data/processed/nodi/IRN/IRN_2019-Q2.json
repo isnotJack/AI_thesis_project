@@ -1,0 +1,46 @@
+{
+  "paese": "IRN",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2019, in Iran si è verificato un attentato suicida a Zahedan, nel sud-est del paese, dove un'esplosione ha causato la morte di almeno 27 membri delle Guardie Revolutionarie. L'attentato è stato considerato uno dei più mortali in Iran negli ultimi anni.",
+    "n_eventi_violenti": 14,
+    "n_vittime": 7
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 128998,
+    "richiedenti_asilo": 86093,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 4.3
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attack on Iranian computer systems (2019-06-22, categoria=Sabotage)",
+      "Attacks on private U.S. companies (2019-06-22, categoria=Data destruction)",
+      "Compromise of British infrastructure (2019-04-02, categoria=Espionage)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Sistemi di lancio di razzi e missili",
+      "Private U.S. companies",
+      "British Post Office e reti di governo locale"
+    ],
+    "ruolo": "entrambi",
+    "n_incidenti_datati": 3
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, in Iran si è verificato un attentato suicida a Zahedan, nel sud-est del paese, dove un'esplosione ha causato la morte di almeno 27 membri delle Guardie Revolutionarie. L'attentato è stato considerato uno dei più mortali in Iran negli ultimi anni. Nel corso del trimestre, il paese ha continuato a essere guidato da Ali Khamenei come Líder Supremo, Hassan Rouhani come Presidente e Ali Larijani come Parlamento. Nel mese di marzo, Ebrahim Raisi è diventato il nuovo capo del sistema giudiziario iraniano.",
+  "fonti": [
+    "https://www.cfr.org/cyber-operations/attack-on-iranian-computer-systems",
+    "https://www.cfr.org/cyber-operations/attacks-on-private-u-s-companies",
+    "https://www.cfr.org/cyber-operations/compromise-of-british-infrastructure",
+    "wikipedia:IRN_2019"
+  ]
+}

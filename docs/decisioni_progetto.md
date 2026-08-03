@@ -573,5 +573,63 @@ restano nel repo come traccia dell'indagine.
 - Perdita di *dettaglio* (non di dimensione) nei trimestri di crisi con
   molti report: accettata, perche' recuperarlo diluisce (dimostrato).
 
+## 2026-08-03 - Blocco B (parte 1): arricchimento numerico dei nodi
+
+### Cosa e perche'
+Un nodo del grafo = (paese, trimestre). Il Blocco A ne ha prodotto la
+parte QUALITATIVA (descrizioni, IPC, cyber narrativo) via LLM, salvata in
+`data/processed/extracted_json/`. Un nodo pero' ha bisogno anche della
+parte NUMERICA ("quanto"), che di proposito NON e' passata dall'LLM: i
+numeri stanno nei CSV puliti. Questo passo prende i numeri dai CSV e li
+affianca a ogni nodo. I due livelli restano campi diversi dello stesso
+nodo: il qualitativo (testo) descrive, il numerico misura. Non c'e'
+fusione ne' conflitto, perche' l'LLM per costruzione non produce numeri
+(regola del prompt) - la verita' numerica viene solo dai CSV.
+
+### Mappa fonte -> campo numerico (per dimensione)
+- conflitto  <- ACLED: `n_eventi_violenti`, `n_vittime` (trimestrali)
+- migrazione <- UNHCR: `rifugiati`, `richiedenti_asilo`, `sfollati_interni`
+               (annuali)
+- economia   <- World Bank: `tasso_poverta_pct` (annuale)
+- cyber      <- CFR: `n_incidenti_datati` (trimestrale, incidenti con data nota)
+- carestia   <- nessun dato numerico esiste (solo qualitativo, IPC dall'LLM)
+
+### Scelte prese
+- **"Eventi di conflitto" = violenza politica**: dal file ACLED dettagliato
+  si contano solo i tipi Battles + Explosions/Remote violence + Violence
+  against civilians (esclusi Protests, Riots, Strategic developments).
+  Verificato che coincide col conteggio trimestrale ufficiale gia'
+  raccolto (SDN 2023-Q2: 1267 violenti vs 1280 ufficiali). Vittime =
+  somma `fatalities` degli stessi eventi, per trimestre (piu' preciso
+  dell'annuale). Un totale per campo, niente scomposizione per tipo (si
+  potra' aggiungere se servira').
+- **Valori annuali spalmati sui 4 trimestri**: migrazione e poverta' sono
+  annuali -> stesso valore su ogni trimestre dell'anno.
+- **Valori mancanti = null**, non zero: e' un gap reale della fonte. La
+  poverta' World Bank esiste solo per 11 paesi su 17 (assente per PRK,
+  SAU, SDN, SSD, VEN, YEM).
+- **extracted_json resta intatto** (registro grezzo dell'LLM); i nodi
+  completi vanno in una cartella nuova `data/processed/nodi/<ISO3>/`.
+
+### Codice ed esecuzione
+- `src/graph/build_nodes.py`: una funzione per fonte (`_acled`, `_unhcr`,
+  `_poverta`, `_cfr_n_incidenti`), `arricchisci(iso3, periodo)` che carica
+  il profilo qualitativo e vi affianca i campi numerici, `costruisci_tutti()`
+  che scrive i 476 nodi. Eseguito `python3 -m src.graph.build_nodes` ->
+  476/476 nodi scritti in `data/processed/nodi/`.
+
+### Verifiche fatte
+- copertura campi: ACLED/UNHCR/CFR valorizzati 476/476 (100%); poverta'
+  200/476 (42%), coerente con i 6 paesi senza dato.
+- sanity dei valori: classifica per eventi violenti totali 2018-2024 =
+  UKR (191k) > SYR > YEM > RUS > SDN, plausibile (Ucraina la piu' intensa).
+- integrita': tutti i nodi mantengono i campi qualitativi; verificato che
+  `extracted_json` NON e' stato modificato (nessun campo numerico aggiunto la').
+
+### Cosa manca del Blocco B
+Gli ARCHI del grafo (relazioni tra paesi): cyber attaccante->vittima dal
+CFR strutturato, migrazione origine->destinazione da UNHCR. Rimandati:
+prima vanno ridefinite le connessioni (deciso col relatore).
+
 
 

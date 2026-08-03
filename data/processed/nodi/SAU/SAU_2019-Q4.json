@@ -1,0 +1,35 @@
+{
+  "paese": "SAU",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la situazione di conflitto è stata caratterizzata da attacchi da parte dei ribelli Houthis contro infrastrutture saudite. Il 14 settembre, le installazioni petrolifere di Abqaiq e Khurais sono state bersaglio di un attacco con droni, causando incendi ma nessuna vittima. Il 29 settembre, i ribelli Houthis hanno rivendicato di aver catturato migliaia di truppe saudite durante combattimenti a Najran. In agosto, il movimento Houthi ha attaccato la struttura di liquefazione del gas naturale di Shaybah con droni, causando un piccolo incendio senza lesioni. L'attacco contro l'aeroporto internazionale di Abha, avvenuto a giugno, è stato anche opera dei ribelli Houthis. Questi episodi dimostrano la persistenza delle tensioni e delle azioni militari nel contesto del conflitto in Yemen.",
+    "n_eventi_violenti": 7,
+    "n_vittime": 14
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 1721,
+    "richiedenti_asilo": 1410,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, l'Arabia Saudita ha continuato a fare affari di rilievo, come l'annuncio di un piano per l'offerta pubblica iniziale (IPO) di Saudi Aramco in borsa, che si attende essere la più grande del mondo. Il paese ha anche ospitato importanti eventi internazionali, come la Future Investment Initiative (FII) a Riyadh. In ambito politico, sono stati nominati nuovi ministri e funzionari, tra cui la prima donna ambasciatrice negli Stati Uniti e la prima donna portavoce del Ministero dell'Educazione. In agosto, sono state introdotte nuove libertà per le donne, come il viaggio all'estero, la registrazione di divorzi e matrimoni, e la richiesta di documenti ufficiali senza il consenso di un tutore maschio. Nel campo diplomatico, l'Arabia Saudita è stata eletta al consiglio esecutivo dell'UNESCO e al comitato patrimonio mondiale dell'UNESCO. Inoltre, il paese ha ospitato negoziati tra il governo yemenita e i separatisti, culminati con un accordo di condivisione del potere a Riad.",
+  "fonti": [
+    "wikipedia:SAU_2019"
+  ]
+}

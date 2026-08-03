@@ -1,0 +1,59 @@
+{
+  "paese": "IRN",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": "Iran è coinvolto in conflitti armati e tensioni regionali, con attacchi missilistici contro Israele e attivismo di gruppi armati interni. L'IRGC è attivo in operazioni militari contro gruppi armati interni e nel supporto a gruppi armati regionali. Esistono tensioni con Paesi vicini come Pakistan e Azerbaijan, con scambi di fuoco e operazioni militari. Iran continua a sostenere gruppi armati regionali come Hezbollah e Hamas, con attacchi missilistici contro Israele. Esistono anche tensioni con gli Stati Uniti e l'Europa, con accuse di ciberattacchi e sanzioni. Iran è coinvolto in conflitti interni con gruppi separatisti come il Baluch Liberation Front e il Balochistan Liberation Army, con attacchi reciproci. Esistono anche tensioni con l'Ucraina, con l'invio di armi e missili a Russia. Iran continua a sostenere gruppi armati regionali come Hezbollah e Hamas, con attacchi missilistici contro Israele. Esistono anche tensioni con gli Stati Uniti e l'Europa, con accuse di ciberattacchi e sanzioni. Iran è coinvolto in conflitti interni con gruppi separatisti come il Baluch Liberation Front e il Balochistan Liberation Army, con attacchi reciproci. Esistono anche tensioni con l'Ucraina, con l'invio di armi e missili a Russia.",
+    "n_eventi_violenti": 45,
+    "n_vittime": 98
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Iran ospita un numero significativo di rifugiati, principalmente afghani e iracheni, con un totale di circa 3.8 milioni di persone di varie condizioni di forzata. L'UNHCR supporta il governo iraniano nella gestione dei rifugiati, fornendo assistenza sanitaria, educativa e di sostegno economico. Esistono programmi di inclusione per i rifugiati, con accesso all'istruzione e servizi sanitari. Esistono anche iniziative di reinserimento e riabilitazione per i rifugiati, con focus sulle opportunità di lavoro e formazione professionale. Iran collabora con l'UNHCR per la gestione dei rifugiati, con programmi di assistenza e protezione. Esistono anche iniziative di reinserimento e riabilitazione per i rifugiati, con focus sulle opportunità di lavoro e formazione professionale. Iran collabora con l'UNHCR per la gestione dei rifugiati, con programmi di assistenza e protezione. Esistono anche iniziative di reinserimento e riabilitazione per i rifugiati, con focus sulle opportunità di lavoro e formazione professionale.",
+    "rifugiati": 158171,
+    "richiedenti_asilo": 61176,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana è influenzata da sanzioni internazionali, con un rallentamento del PIL e una crescita moderata. Esistono rischi fiscali e di bilancio, con un deficit crescente. L'inflazione è alta, con un aumento dei prezzi dei beni di base. Esistono anche problemi di disoccupazione, con un tasso elevato di disoccupazione giovanile. L'economia è influenzata da sanzioni internazionali, con un rallentamento del PIL e una crescita moderata. Esistono rischi fiscali e di bilancio, con un deficit crescente. L'inflazione è alta, con un aumento dei prezzi dei beni di base. Esistono anche problemi di disoccupazione, con un tasso elevato di disoccupazione giovanile. L'economia è influenzata da sanzioni internazionali, con un rallentamento del PIL e una crescita moderata. Esistono rischi fiscali e di bilancio, con un deficit crescente. L'inflazione è alta, con un aumento dei prezzi dei beni di base. Esistono anche problemi di disoccupazione, con un tasso elevato di disoccupazione giovanile.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian Cyber Actors’ Brute Force and Credential Access Activity Compromises Critical Infrastructure Organizations (2024-10-16)",
+      "Iranian Cyber Actors Conduct Brute Force and Credential Access Activity (2024-10-16)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iranian Cyber Actors"
+    ],
+    "settori_bersaglio": [
+      "Critical Infrastructure Organizations",
+      "Healthcare and Public Health (HPH)",
+      "Government",
+      "Information Technology (IT)",
+      "Education",
+      "Manufacturing",
+      "Transportation",
+      "Energy",
+      "Communications",
+      "Finance",
+      "Consumer Retail",
+      "Think Tanks and NGOs"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In questo trimestre, Iran ha visto un cambio di presidenza con l'elezione di Masoud Pezeshkian, che ha preso il posto di Ebrahim Raisi. Esistono tensioni con Israele, con attacchi missilistici reciproci. Iran continua a sostenere gruppi armati regionali come Hezbollah e Hamas, con attacchi missilistici contro Israele. Esistono anche tensioni con gli Stati Uniti e l'Europa, con accuse di ciberattacchi e sanzioni. Iran è coinvolto in conflitti interni con gruppi separatisti come il Baluch Liberation Front e il Balochistan Liberation Army, con attacchi reciproci. Esistono anche tensioni con l'Ucraina, con l'invio di armi e missili a Russia. Iran continua a sostenere gruppi armati regionali come Hezbollah e Hamas, con attacchi missilistici contro Israele. Esistono anche tensioni con gli Stati Uniti e l'Europa, con accuse di ciberattacchi e sanzioni. Iran è coinvolto in conflitti interni con gruppi separatisti come il Baluch Liberation Front e il Balochistan Liberation Army, con attacchi reciproci. Esistono anche tensioni con l'Ucraina, con l'invio di armi e missili a Russia.",
+  "fonti": [
+    "unhcr_reports (IRN_2024Q4_2024-11-12_iran-at-a-glance-october-2024.pdf)",
+    "worldbank_mpo (IRN_mpo_am24.pdf)",
+    "cisa (IRN_aa24-241a-iran-based-cyber-actors-enabling-ransomware-attacks-on-us-organizations_0.pdf)",
+    "cisa (IRN_aa24-290a-iranian-cyber-actors-conduct-brute-force-and-credential-access-activity.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:IRN_2024"
+  ]
+}

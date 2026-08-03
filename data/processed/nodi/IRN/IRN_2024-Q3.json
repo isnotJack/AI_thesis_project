@@ -1,0 +1,60 @@
+{
+  "paese": "IRN",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Iran è coinvolto in conflitti con diversi attori, inclusi attacchi missilistici contro Israele e attivismo hacker contro Israele e altri paesi. Iran continua a sostenere attivisti hacker che mirano a destabilizzare Israele e altri paesi, utilizzando attacchi cibernetici per influenzare le elezioni e creare divisioni politiche. Iran è anche coinvolto in conflitti territoriali con Pakistan e Afghanistan, con attacchi missilistici e operazioni militari. Iran continua a sostenere gruppi terroristici come Hezbollah e Hamas, che conducono attacchi contro Israele. Iran è coinvolto in conflitti interni con gruppi separatisti come il Baluch Liberation Front e il Balochistan Liberation Army, con attacchi e operazioni militari. Iran continua a sostenere attivisti hacker che mirano a destabilizzare Israele e altri paesi, utilizzando attacchi cibernetici per influenzare le elezioni e creare divisioni politiche. Iran è anche coinvolto in conflitti territoriali con Pakistan e Afghanistan, con attacchi missilistici e operazioni militari. Iran continua a sostenere gruppi terroristici come Hezbollah e Hamas, che conducono attacchi contro Israele. Iran è coinvolto in conflitti interni con gruppi separatisti come il Baluch Liberation Front e il Balochistan Liberation Army, con attacchi e operazioni militari.",
+    "n_eventi_violenti": 24,
+    "n_vittime": 27
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Iran ospita un gran numero di rifugiati, principalmente afghani e iracheni, con un totale di circa 3.8 milioni di persone forzatamente sfollate. Iran ha implementato politiche inclusive per i rifugiati, garantendo loro accesso alla salute, all'istruzione e all'assistenza. Iran ha anche facilitato la repatriazione di alcuni rifugiati afghani, con un aumento del 36% rispetto all'anno precedente. Iran ha implementato politiche inclusive per i rifugiati, garantendo loro accesso alla salute, all'istruzione e all'assistenza. Iran ha anche facilitato la repatriazione di alcuni rifugiati afghani, con un aumento del 36% rispetto all'anno precedente.",
+    "rifugiati": 158171,
+    "richiedenti_asilo": 61176,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia di Iran ha dimostrato una resilienza sorprendente negli ultimi quattro anni, nonostante le sanzioni economiche e la volatilità geopolitica. L'economia è stata favorita dall'incremento del settore dei servizi e dall'industria non petrolifera, che hanno contribuito al crescita economica. L'inflazione è rimasta elevata, ma ha iniziato a diminuire. L'economia è stata favorita dall'incremento del settore dei servizi e dall'industria non petrolifera, che hanno contribuito al crescita economica. L'inflazione è rimasta elevata, ma ha iniziato a diminuire.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Iran-based Cyber Actors Enabling Ransomware Attacks on US Organizations (2024-08-28)",
+      "Iranian Cyber Actors Conduct Brute Force and Credential Access Activity"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iranian Cyber Actors",
+      "Iranian threat actors"
+    ],
+    "settori_bersaglio": [
+      "IT",
+      "Education",
+      "Government",
+      "Transportation",
+      "Manufacturing",
+      "Consumer Manufacturing",
+      "Finance",
+      "Communications",
+      "South Asia",
+      "Think tanks and NGOs",
+      "Energy",
+      "Health"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In questo trimestre, Iran ha continuato a essere guidato dal Lider Supremo Ali Khamenei e dal Presidente Masoud Pezeshkian. Iran ha continuato a sostenere attivisti hacker che mirano a destabilizzare Israele e altri paesi, utilizzando attacchi cibernetici per influenzare le elezioni e creare divisioni politiche. Iran è anche coinvolto in conflitti territoriali con Pakistan e Afghanistan, con attacchi missilistici e operazioni militari. Iran continua a sostenere gruppi terroristici come Hezbollah e Hamas, che conducono attacchi contro Israele. Iran è coinvolto in conflitti interni con gruppi separatisti come il Baluch Liberation Front e il Balochistan Liberation Army, con attacchi e operazioni militari. Iran ha ospitato un gran numero di rifugiati, principalmente afghani e iracheni, con un totale di circa 3.8 milioni di persone forzatamente sfollate. Iran ha implementato politiche inclusive per i rifugiati, garantendo loro accesso alla salute, all'istruzione e all'assistenza. Iran ha anche facilitato la repatriazione di alcuni rifugiati afghani, con un aumento del 36% rispetto all'anno precedente. L'economia di Iran ha dimostrato una resilienza sorprendente negli ultimi quattro anni, nonostante le sanzioni economiche e la volatilità geopolitica. L'economia è stata favorita dall'incremento del settore dei servizi e dall'industria non petrolifera, che hanno contribuito al crescita economica. L'inflazione è rimasta elevata, ma ha iniziato a diminuire.",
+  "fonti": [
+    "unhcr_reports (IRN_2024Q3_2024-09-09_iran-at-a-glance-august-2024.pdf)",
+    "worldbank_mpo (IRN_mpo_sm24.pdf)",
+    "cisa (IRN_aa24-241a-iran-based-cyber-actors-enabling-ransomware-attacks-on-us-organizations_0.pdf)",
+    "cisa (IRN_aa24-290a-iranian-cyber-actors-conduct-brute-force-and-credential-access-activity.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:IRN_2024"
+  ]
+}

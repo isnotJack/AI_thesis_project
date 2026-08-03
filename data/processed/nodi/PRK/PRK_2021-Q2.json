@@ -1,0 +1,50 @@
+{
+  "paese": "PRK",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 7,
+    "n_vittime": 4
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 528,
+    "richiedenti_asilo": 108,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "ZINC",
+      "CERIUM",
+      "THALLIUM",
+      "OSMIUM"
+    ],
+    "settori_bersaglio": [
+      "Think Tanks",
+      "Diplomatic Officials",
+      "Academics",
+      "Defense and Aerospace",
+      "Utilities",
+      "Private Companies",
+      "Security Researchers"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In questo trimestre, la Corea del Nord ha continuato a mostrare un'attività significativa nel campo della cyberintelligence, con attori affiliati al governo che hanno mirato a diversi settori, inclusi think tanks, ufficiali diplomatici, accademici e settori legati alla difesa e all'aerospazio. L'attenzione è stata rivolta anche a aziende private e ricercatori di sicurezza. Nel contesto generale, la Corea del Nord ha mantenuto una posizione di leadership con Kim Jong Un come segretario generale del Partito dei Lavoratori di Corea. Nel mese di marzo, la Corea del Nord ha lanciato due missili balistici nel Mar del Giappone, il primo test di questo tipo durante l'amministrazione Biden degli Stati Uniti. Questi eventi riflettono la continuità delle tensioni e delle attività militari nel paese.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:PRK_2021"
+  ]
+}

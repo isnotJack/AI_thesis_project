@@ -1,0 +1,35 @@
+{
+  "paese": "EST",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 277,
+    "richiedenti_asilo": 43,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.4
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, l'Estonia ha iniziato a registrare i primi casi di COVID-19. Il primo caso è stato segnalato il 27 febbraio, con ulteriori casi confermati nei giorni successivi, principalmente legati a viaggiatori provenienti da zone a rischio in Italia. Nel corso del mese di marzo, il numero di casi è aumentato significativamente, con la conferma della trasmissione locale del virus. Nel marzo 2020, sono stati chiusi alcuni istituti scolastici, come la Kristiine High School a Tallinn, dopo che un allievo che aveva viaggiato in Italia settentrionale è stato inviato a scuola malgrado i sintomi. La situazione ha portato alla modifica dei criteri di testaggio, concentrando le analisi su persone con sintomi gravi, gruppi a rischio, operatori sanitari e lavoratori essenziali. Il 25 marzo, è stato registrato il primo decesso da COVID-19 nel paese.",
+  "fonti": [
+    "wikipedia:EST_2020"
+  ]
+}

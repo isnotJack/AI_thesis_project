@@ -1,0 +1,44 @@
+{
+  "paese": "PRK",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 2,
+    "n_vittime": 4
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 689,
+    "richiedenti_asilo": 88,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "FASTCash 2.0: North Korea's BeagleBoyzz Robbing Banks"
+    ],
+    "gruppi_minaccia_associati": [
+      "BeagleBoyzz"
+    ],
+    "settori_bersaglio": [
+      "Bancario",
+      "Servizi finanziari"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, la Corea del Nord ha dichiarato terminato il suo autoimposto moratoria nucleare il 1º gennaio. Kim Jong Un ha accusato gli Stati Uniti di ritardare le trattative per i propri interessi politici e ha dichiarato che la Corea del Nord rivelerebbe una nuova 'arma strategica' a meno che non venissero sollevate le sanzioni. Il 9 gennaio, il Alto Commissario delle Nazioni Unite per i Diritti Umani, Michelle Bachelet, ha chiesto alla Corea del Nord di creare un piano d'azione per i diritti umani e di ratificare le convenzioni chiave sulla protezione dei rifugiati e contro l'uso della tortura. Il 18 gennaio, la Russia ha invitato i capi delle organizzazioni di aiuto delle Nazioni Unite e Kim In Ryong, vice ambasciatore della Corea del Nord presso le Nazioni Unite, a chiedere alle Nazioni Unite di sollevare le sanzioni contro la Corea del Nord. Il 24 gennaio, Ri Son-gwon è stato nominato ministro degli Esteri della Corea del Nord. Ri, un ex ufficiale dell'Esercito Popolare di Corea, aveva precedentemente condotto negoziati di alto livello tra Nord e Sud Corea. Gli analisti hanno ritenuto che la sua nomina segnasse un approccio più duro da parte della Corea del Nord nei negoziati con gli Stati Uniti. Il 26 gennaio, l'zia di Kim Jong Un, Kim Kyong-hui, è riapparsa in pubblico. Kim Kyong-hui non era stata vista dal 2013, quando il marito Jang Song-thaek è stato eseguito, dando luogo a speculazioni che fosse stata purgata insieme a lui. Il 30 gennaio, sia la Corea del Nord che la Corea del Sud hanno deciso di chiudere l'Ufficio di Collegamento Intercoreano a causa delle preoccupazioni legate alla pandemia di COVID-19. A fine gennaio, la Corea del Nord ha chiuso i suoi confini a causa della pandemia di COVID-19.",
+  "fonti": [
+    "cisa (PRK_AA20-239A_FASTCash2.0_508.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2020.pdf)",
+    "wikipedia:PRK_2020"
+  ]
+}

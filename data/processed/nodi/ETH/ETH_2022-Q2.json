@@ -1,0 +1,39 @@
+{
+  "paese": "ETH",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto nel Tigray continua a essere un fattore significativo, con alcune aree che registrano un aumento di attività belliche. La situazione di sicurezza nel Tigray rimane relativamente calma, con pochi incidenti di conflitto tra le forze governative e le forze tigrayane. Tuttavia, ci sono stati scontri sporadici lungo le frontiere tra Amhara e Tigray, nonché in alcune zone di Oromia. La situazione di conflitto in Benishangul-Gumuz continua, con episodi di violenza che hanno causato perdite umane. La guerra nel Tigray ha avuto un impatto significativo sulle dinamiche di sicurezza e umanitarie, con conseguenze dirette sulla sicurezza alimentare e la migrazione interna.",
+    "n_eventi_violenti": 278,
+    "n_vittime": 1795
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Etiopia è principalmente causata da una combinazione di siccità, conflitto e crisi economica. La siccità ha avuto un impatto significativo sulle condizioni di sicurezza alimentare, con aree come il Tigray, Amhara, Oromia, Somali Region, SNNPR e Sidama che sono particolarmente colpite. Il conflitto ha aumentato la precarietà alimentare, limitando l'accesso ai beni essenziali e ostacolando le attività agricole. La crisi economica, inclusa l'instabilità dei prezzi dei beni di base, ha ulteriormente aggravato la situazione. La siccità ha ridotto la disponibilità di pascolo e acqua, influenzando negativamente le condizioni delle popolazioni pastorali."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è un problema significativo, con migliaia di persone che si spostano in cerca di cibo e assistenza umanitaria. La carestia e il conflitto sono i principali driver della migrazione interna. Le condizioni di protezione per i rifugiati e le persone internamente sfollate sono critiche, con limiti all'accesso umanitario in alcune aree. La situazione di sfollamento è particolarmente drammatica nel Tigray e nelle zone limitrofe, dove le persone sfollate hanno bisogno di assistenza umanitaria immediata.",
+    "rifugiati": 149603,
+    "richiedenti_asilo": 121362,
+    "sfollati_interni": 2730000
+  },
+  "economia": {
+    "sintesi": "L'outlook economico presenta rischi significativi, con inflazione elevata e pressioni sui conti esterni. L'economia è influenzata da fattori come la siccità, il conflitto e la crisi economica globale. L'inflazione è stata alimentata da aumenti nei prezzi dei beni di base, come l'olio di cucina, il pane e i prodotti agricoli. I conti esterni sono sotto pressione a causa dell'importazione di beni essenziali, come fertilizzanti e cereali, che sono aumentati a causa della crisi ucraina. L'economia è in difficoltà a mantenere la stabilità macroeconomica, con rischi fiscali e esterni che richiedono attenzione.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la leadership etiopiana è rimasta stabile con Sahle-Work Zewde come Presidente e Abiy Ahmed come Primo Ministro. Il Tigray War continua a essere un tema centrale, con discussioni e negoziati in corso per una soluzione pacifica. La siccità e le conseguenti difficoltà alimentari hanno aggravato la situazione umanitaria. La pandemia di COVID-19 continua a influenzare le dinamiche sociali e economiche, anche se con un impatto meno visibile rispetto ai primi anni. La regione di Benishangul-Gumuz è stata teatro di conflitti che hanno causato perdite umane. L'Oromo Liberation Army (OLA) ha continuato le sue attività, con un episodio di violenza contro civili amhara. L'invasione di al-Shabaab in Somalia ha avuto conseguenze sulle dinamiche di sicurezza nella regione di Somali. Le tensioni continue tra le regioni etiopi hanno mantenuto un clima di instabilità politica e sociale.",
+  "fonti": [
+    "fews_net (ETH_2022-june_food-security-outlook.pdf)",
+    "fews_net (ETH_2022-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (ETH_2022Q2_2022-06-30_ethiopia-refugees-and-internally-displaced-persons-by-region.pdf)",
+    "worldbank_mpo (ETH_mpo_sm22.pdf)",
+    "wikipedia:ETH_2022"
+  ]
+}

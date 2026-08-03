@@ -1,0 +1,41 @@
+{
+  "paese": "VEN",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 170,
+    "n_vittime": 194
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'UNHCR ha riferito di un'unità di terreno che ha accompagnato la comunità indigena di Mana Kru nell'inaugurazione di una nuova sede dell'organizzazione IRFA a Santa Elena de Uairén. L'UNHCR ha anche collaborato con la Secretaría de Salud del Estado Falcón per la riapertura di un ambulatorio medico a Colina, che offre servizi di protezione e assistenza sanitaria. L'organizzazione ha fornito supporto per la riabilitazione dell'ambulatorio e ha donato attrezzature mediche e materiali di protezione personale (EPP).",
+    "rifugiati": 230393,
+    "richiedenti_asilo": 1137162,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "A Venezuelan was charged for using and selling ransomware associated with Iran"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iran"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, il Venezuela ha continuato a gestire sfide politiche e diplomatiche, con riferimenti a negoziati con gli Stati Uniti riguardo all'olio venezuelano sotto sanzioni. Nel mese di giugno, il Venezuela e l'Iran hanno firmato un accordo di cooperazione economica a lungo termine. Nel frattempo, il paese ha continuato a fornire assistenza umanitaria e protezione ai rifugiati e alle comunità locali, come documentato dalle attività dell'UNHCR.",
+  "fonti": [
+    "unhcr_reports (VEN_2022Q2_2022-06-15_venezuela-bolet-n-mensual-mayo-2022.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "wikipedia:VEN_2022"
+  ]
+}

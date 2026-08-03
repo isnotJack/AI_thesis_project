@@ -1,0 +1,56 @@
+{
+  "paese": "RUS",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 59,
+    "n_vittime": 25
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 61457,
+    "richiedenti_asilo": 43268,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Gorgon Group (2018-08-02, categoria=Espionage)",
+      "Targeting of the office of U.S. Senator Claire McCaskill (2018-07-26, categoria=Espionage)",
+      "Targeting of congressional campaigns for the 2018 U.S. midterm elections (2018-07-19, categoria=Espionage)",
+      "Targeting of chemical research and media organizations in Germany (2018-07-12, categoria=Espionage)",
+      "Targeting of a chemical plant in Ukraine (2018-07-11, categoria=Sabotage)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Gorgon Group (also known as Aggah)"
+    ],
+    "settori_bersaglio": [
+      "Government entities in the United States and Europe",
+      "U.S. Senator Claire McCaskill's office",
+      "Campaigns of candidates running for Congress in the 2018 U.S. midterm elections",
+      "German media companies and organizations involved in chemical weapons research",
+      "Chemical plant in eastern Ukraine"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 5
+  },
+  "contesto_generale": "In settembre 2018, Pyotr Verzilov, manager di Pussy Riot, si ammalò gravemente in modo misterioso dopo un'udienza in tribunale a Mosca. Lo stesso giorno, era previsto che ricevesse informazioni vitali da 'servizi stranieri' sulle morti di diversi giornalisti che stavano riferendo sulle azioni del Battaglione Wagner in Repubblica Centrafricana. Lo stesso mese, il Ministro della Giustizia russo Alexander Konovalov annunciò un'espansione dei materiali considerati 'estremisti', includendo l'aggiunta di 4,507 libri, video, siti web, pagine social media e composizioni musicali. Questa misura è stata descritta come un aumento seismico rispetto all'anno precedente.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/gorgon-group",
+    "https://www.cfr.org/cyber-operations/targeting-of-a-chemical-plant-in-ukraine",
+    "https://www.cfr.org/cyber-operations/targeting-of-chemical-research-and-media-organizations-in-germany",
+    "https://www.cfr.org/cyber-operations/targeting-of-congressional-campaigns-for-the-2018-u-s-midterm-elections",
+    "https://www.cfr.org/cyber-operations/targeting-of-the-office-of-u-s-senator-claire-mccaskill",
+    "wikipedia:RUS_2018"
+  ]
+}

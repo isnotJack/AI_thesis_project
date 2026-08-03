@@ -1,0 +1,38 @@
+{
+  "paese": "SYR",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Siria continua a essere intenso, con attivita' militari da parte di diversi attori, inclusi Israele, Stati Uniti e gruppi affiliati all'Iran. Gli attacchi aerei e le operazioni militari sono frequenti, con un aumento delle tensioni lungo le frontiere e nei territori controllati da varie fazioni. La situazione è complessa, con dinamiche di potere in costante cambiamento e nuovi sviluppi che influenzano la stabilita' regionale.",
+    "n_eventi_violenti": 2582,
+    "n_vittime": 1244
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria rimane critica, con un numero significativo di rifugiati e sfollati interni che continuano a richiedere assistenza umanitaria. L'UNHCR continua a fornire supporto a rifugiati, richiedenti asilo, ritornati e sfollati interni, nonché a membri delle comunità ospitanti. Le sfide principali includono la protezione dei rifugiati, l'inclusione e la ricerca di soluzioni durature, nonché la gestione delle ritornate spontanee.",
+    "rifugiati": 5952174,
+    "richiedenti_asilo": 167334,
+    "sfollati_interni": 7408909
+  },
+  "economia": {
+    "sintesi": "L'economia siriana continua a essere debilitata da fattori come la guerra, la crisi umanitaria e le sanzioni internazionali. L'inflazione rimane elevata, mentre la crescita economica è compromessa da problemi strutturali e da una situazione fiscale precaria. I rischi fiscali e esterni sono significativi, con una prospettiva di crescita che rimane fragile.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, la Siria continua a essere caratterizzata da una situazione politica e militare instabile. Il regime di Bashar al-Assad ha continuato a fronteggiare sfide significative, con attivita' militari da parte di diversi attori regionali e internazionali. La leadership del paese ha subito cambiamenti significativi, con la fuga di Bashar al-Assad verso la Russia, dove ha ottenuto asilo politico. Nuovi leader, come Ahmed al-Sharaa, hanno preso il controllo del paese, introducendo un periodo di transizione politica. La situazione umanitaria resta critica, con un numero elevato di sfollati interni e rifugiati che richiedono assistenza. Le tensioni regionali, inclusi gli attacchi aerei e le operazioni militari, continuano a influenzare la stabilita' del paese.",
+  "fonti": [
+    "SYR_2024Q2_2024-06-30_unhcr-syria-fact-sheet-june-2024-en-ar.pdf",
+    "SYR_mpo_sm24.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:SYR_2024"
+  ]
+}

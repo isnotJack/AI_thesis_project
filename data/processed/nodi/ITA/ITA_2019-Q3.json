@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel terzo trimestre del 2019, l'Italia ha visto un aumento significativo di arrivi di rifugiati e migranti, principalmente provenienti dal Mar Mediterraneo. Gli arrivi via mare hanno raggiunto livelli elevati, con una notevole presenza di rifugiati provenienti da Tunisia, seguiti da altre nazioni come Costa d'Avorio, Algeria, Iraq, Sudan e Pakistan. L'operatività delle navi di soccorso di ONG ha continuato, con la partecipazione di vascelli come l'Ocean Viking e l'Eleonore. Si sono verificati negoziati post-sbarco per il trasferimento di rifugiati, con l'Italia che ha collaborato con altri paesi europei per gestire questi flussi. L'evacuazione umanitaria di rifugiati da Libia a Italia è stata un altro sviluppo importante, con un numero significativo di persone evacuate. Inoltre, sono stati segnalati casi di violenza e abusi nei confronti di rifugiati durante il trasferimento, evidenziando criticità di protezione.",
+    "rifugiati": 76,
+    "richiedenti_asilo": 431,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 1.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, l'Italia ha visto la formazione del Conte II Cabinet il 4 settembre, sotto la leadership di Giuseppe Conte. Questo ha portato a un nuovo governo che ha chiamato per una risposta europea ai flussi di rifugiati e migranti. Durante il trimestre, sono stati organizzati diversi eventi culturali e sportivi, come la 76ª Mostra Internazionale d'Arte Cinematografica di Venezia. Inoltre, si sono verificati movimenti significativi legati alla politica, come la richiesta di nuove elezioni da parte del vice primo ministro Matteo Salvini e la dimissioni del primo ministro Giuseppe Conte. L'Italia ha anche partecipato alle proteste globali per il clima, con migliaia di persone che hanno partecipato alle manifestazioni nel paese.",
+  "fonti": [
+    "ITA_2019Q3_2019-09-30_unhcr-italy-factsheet-september-2019.pdf",
+    "wikipedia:ITA_2019"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "paese": "SSD",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono state continue azioni belliche tra le forze governative e le forze di opposizione, con conflitti armati in corso nella regione di Wau State. Ci sono state anche incursioni di nomadi sudanesi, che hanno portato a scontri e movimenti forzati delle popolazioni. La situazione di conflitto ha avuto un impatto significativo sulle dinamiche di movimento delle persone e sulla sicurezza umanitaria.",
+    "n_eventi_violenti": 234,
+    "n_vittime": 562
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia è stata principalmente causata da conflitti armati che hanno limitato l'accesso ai beni alimentari e alle risorse. La siccità e le malattie animali, come la febbre della valle del Rift, hanno ulteriormente aggravato la situazione alimentare. La mancanza di assistenza umanitaria a larga scala ha contribuito al peggioramento delle condizioni di sicurezza alimentare."
+  },
+  "migrazione": {
+    "descrizione": "Ci sono stati nuovi flussi di rifugiati verso paesi vicini come Uganda, Sudan, Etiopia, Kenya e Repubblica Democratica del Congo. I rifugiati hanno fatto fronte a sfide significative, inclusi i costi elevati per accedere ai servizi umanitari e le barriere di movimento causate dai conflitti. Alcuni rifugiati hanno anche fatto fronte a violenze e abusi durante il loro viaggio verso i campi di rifugiati.",
+    "rifugiati": 2285301,
+    "richiedenti_asilo": 12701,
+    "sfollati_interni": 1878154
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il presidente Salva Kiir Mayardit e il vicepresidente James Wani Igga hanno continuato a guidare il paese. La situazione politica è stata caratterizzata da conflitti armati in corso, inclusi scontri tra le forze governative e le forze di opposizione, nonché incursioni di nomadi sudanesi. La regione di Wau State ha visto continui scontri armati. L'incidente aereo di Yirol, avvenuto in settembre, è stato un evento significativo, ma non rientra nel trimestre in questione.",
+  "fonti": [
+    "fews_net (SSD_2018-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (SSD_2018Q2_2018-06-30_south-sudan-situation-unhcr-regional-update-may-june-2018.pdf)",
+    "wikipedia:SSD_2018"
+  ]
+}

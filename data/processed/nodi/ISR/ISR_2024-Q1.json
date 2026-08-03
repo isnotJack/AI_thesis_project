@@ -1,0 +1,47 @@
+{
+  "paese": "ISR",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Israele nel primo trimestre del 2024 è caratterizzato da intensi scontri armati, principalmente tra Israele e gruppi palestinesi, con attivita' militari significative in diverse regioni, inclusi il territorio di Gaza e la Striscia di Gaza. Gli scontri hanno coinvolto attacchi aerei, incursioni terrestri e azioni di forze speciali. Il conflitto ha visto anche l'impiego di armi pesanti e missili, con conseguenti perdite civili e militari. L'attivita' bellica ha coinvolto anche attori regionali come Hezbollah e altri gruppi armati, con scambi di fuoco lungo le frontiere con il Libano e la Siria. L'attivita' di guerra ha portato a una situazione di instabilita' e tensione regionale, con conseguenze significative per la popolazione civile e le infrastrutture. Gli sforzi di mediazione e di pace sono stati intermittenti, con negoziati di tregua e scambi di prigionieri che hanno avuto esiti limitati. L'attivita' di guerra ha continuato a influenzare la situazione politica interna e internazionale, con reazioni da parte di diversi attori globali e regionali.",
+    "n_eventi_violenti": 587,
+    "n_vittime": 16
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 1307,
+    "richiedenti_asilo": 1659,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco di CyberAv3ngers contro infrastrutture critiche israeliane",
+      "Attacco di CyberAv3ngers contro siti web israeliani"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "CISA Advisory AA23-335a"
+    ],
+    "gruppi_minaccia_associati": [
+      "CyberAv3ngers"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Siti web"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, Israele ha continuato a essere caratterizzato da una situazione politica e sociale complessa, con un governo guidato da Benjamin Netanyahu che affronta sfide sia interne che esterne. La leadership politica e le dinamiche interne hanno continuato a essere influenzate dalla situazione di conflitto e guerra, con conseguenze significative per la vita politica e la stabilita' interna. L'attivita' di guerra ha avuto un impatto significativo sulla situazione economica e sociale, con conseguenze per la popolazione civile e le infrastrutture. La situazione internazionale ha continuato a essere influenzata dalle dinamiche regionali e globali, con reazioni da parte di diversi attori globali e regionali. L'attivita' di guerra ha continuato a influenzare la situazione politica interna e internazionale, con reazioni da parte di diversi attori globali e regionali.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:ISR_2024"
+  ]
+}

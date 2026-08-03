@@ -1,0 +1,53 @@
+{
+  "paese": "PRK",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 7,
+    "n_vittime": 9
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 528,
+    "richiedenti_asilo": 108,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "AppleJeus: Analysis of North Korea’s Cryptocurrency Malware (2021-02-17)"
+    ],
+    "gruppi_minaccia_associati": [
+      "ZINC",
+      "THALLIUM",
+      "CERIUM",
+      "OSMIUM"
+    ],
+    "settori_bersaglio": [
+      "Think tanks",
+      "Diplomatic officials",
+      "Academics",
+      "Defense and aerospace",
+      "Utilities",
+      "Private companies",
+      "Security researchers"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In gennaio 2021, la Corea del Nord ha presentato una richiesta per ottenere vaccini contro il coronavirus attraverso un programma globale che assiste i paesi a basso reddito. Dal 5 gennaio, si è tenuto il 8º Congresso del Partito dei Lavoratori di Corea. Il 8 gennaio, il leader nordcoreano Kim Jong-un ha dichiarato il suo impegno a lavorare sulle relazioni intercoreane per ampliare l'engagement diplomatico e ha ospitato un raro congresso del partito. Il 10 gennaio, il congresso ha restaurato le funzioni operative del Segretario Generale del Partito dei Lavoratori di Corea, un titolo precedentemente conferito 'eternamente' a Kim Jong Il, e ha eletto Kim Jong Un a tale posizione. Il 14 gennaio, è stata tenuta una parata militare in Piazza Kim Il-sung, durante la quale sono stati rivelati missili balistici, dopo una riunione del Partito dei Lavoratori di Corea presieduta da Kim Jong Un per opporsi all'aumentante 'ostilità USA'. L'agenzia di notizie centrale coreana ha annunciato che le armi nucleari mostrate potevano 'distruggere pre-emptivamente e completamente qualsiasi nemico al di fuori del nostro territorio'.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa21-048a",
+    "wikipedia:PRK_2021"
+  ]
+}

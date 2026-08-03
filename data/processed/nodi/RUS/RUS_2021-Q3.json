@@ -1,0 +1,89 @@
+{
+  "paese": "RUS",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 51,
+    "n_vittime": 7
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 68547,
+    "richiedenti_asilo": 42959,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita economica è stato influenzato da un contrazione iniziale seguita da un rapido rilascio delle restrizioni COVID-19. Le prospettive di crescita sono state riviste in modo significativo, con un aumento delle previsioni per il 2021 e il 2022. Si prevede una riduzione del tasso di povertà, ma rimane al di sopra dei livelli pre-pandemia fino al 2022. Rischi fiscali e esterni sono stati segnalati, con un'attenzione particolare alla consolidazione fiscale e alla gestione delle riserve.",
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco SolarWinds",
+      "Attacco EMA (European Medicines Agency)",
+      "Attacco a fornitori di terze parti legati a fornitori di software",
+      "Attacco a sistemi di posta elettronica"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "RUS_AA21-116A_Russian_Foreign_Intelligence_Service_Cyber_Operations_508C.pdf",
+      "RUS_AA21-077A-Detecting_Post-Compromise_Threat_Activity_Using_CHIRP_508.pdf"
+    ],
+    "gruppi_minaccia_associati": [
+      "NOBELIUM",
+      "STRONTIUM",
+      "BROMINE",
+      "APT28",
+      "Fancy Bear",
+      "UNC2452",
+      "Ghostwriter",
+      "UNC1151"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "NGOs e Think Tanks",
+      "IT Services",
+      "Government Agencies",
+      "Healthcare",
+      "Defense",
+      "Energy",
+      "Civil Aviation",
+      "Defense Industrial Base",
+      "Vaccine Development",
+      "Pharmaceuticals",
+      "Telecommunications",
+      "Think Tanks",
+      "NGOs",
+      "Defense Contractors",
+      "IT Software and Services",
+      "Universities",
+      "Research Institutions",
+      "Government Entities",
+      "Defense-Related Entities",
+      "Foreign Entities",
+      "Cloud-Based Resources",
+      "On-Premises Servers",
+      "Network Infrastructure",
+      "Supply Chain",
+      "IoT",
+      "Hybrid Workforce",
+      "Workforce Security",
+      "Disinformation",
+      "Actionable Insights",
+      "Teams"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2021, la Russia ha continuato a gestire una serie di eventi significativi, inclusi incidenti naturali, proteste politiche e attività di intelligence. L'8 luglio, un incidente aereo ha causato la morte di 28 persone, tra cui la sindaca di Palana. All'inizio di agosto, un tornado ha causato la morte di tre persone nella regione di Tver. Un incidente di elicottero in Kamchatka ha provocato la morte di otto persone. Nel mese di settembre, un incidente aereo ha causato la morte di quattro persone. Un attacco a una scuola a Perm ha causato la morte di sei persone e ferito 47. La Russia ha anche arrestato 106 sostenitori di un presunto gruppo neonazista ucraino che pianificava attacchi e omicidi di massa.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_sm21.pdf)",
+    "cisa (RUS_AA21-077A-Detecting_Post-Compromise_Threat_Activity_Using_CHIRP_508.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2021.pdf)",
+    "cisa (RUS_AA21-116A_Russian_Foreign_Intelligence_Service_Cyber_Operations_508C.pdf)",
+    "wikipedia:RUS_2021"
+  ]
+}

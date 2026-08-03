@@ -1,0 +1,38 @@
+{
+  "paese": "ETH",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Tigray continua a essere un tema significativo, con tensioni tra le forze federali etiopi e le autorità regionali del Tigray. Vi sono segnalazioni di attacchi e violenze, inclusi episodi di massacri e scontri armati. La situazione è complessa, con implicazioni regionali e internazionali, e la presenza di forze esterne come l'Eritrea. Altre aree del paese, come Benishangul-Gumuz, mostrano anche segni di conflitto etnico e violenza. La guerra nel Tigray ha portato a migrazioni forzate verso il Sudan e ad altri paesi vicini, aumentando la pressione sui rifugiati e le comunità ospitanti.",
+    "n_eventi_violenti": 39,
+    "n_vittime": 145
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è influenzata da una combinazione di fattori, inclusi le piogge sopra la media durante la stagione kiremt, che hanno causato inondazioni e conseguenti perdite di raccolto e di vita animale. L'incremento dei prezzi dei generi alimentari, la perdita di accesso all'occupazione e alla migrazione interna, e la persistenza di conflitti locali hanno contribuito a mantenere elevati i livelli di insicurezza alimentare. La situazione è peggiorata ulteriormente a causa dell'effetto combinato delle inondazioni, delle locuste e delle restrizioni legate alla pandemia di COVID-19, che hanno ridotto l'accesso ai mercati e alle opportunità di lavoro."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è aumentata a causa delle inondazioni e delle violenze legate al conflitto nel Tigray, con migliaia di persone che hanno dovuto lasciare le loro case. La situazione dei rifugiati è complessa, con bisogno di assistenza umanitaria crescente. L'UNHCR continua a fornire supporto, inclusi servizi di protezione, assistenza sanitaria e approvvigionamento di acqua e igiene. La presenza di rifugiati somali e altri gruppi vulnerabili continua a richiedere attenzione, con sfide legate all'accesso ai servizi e alla protezione.",
+    "rifugiati": 151426,
+    "richiedenti_asilo": 125072,
+    "sfollati_interni": 2733628
+  },
+  "economia": {
+    "sintesi": "L'economia etiopica è sotto pressione a causa di fattori come la pandemia di COVID-19, le inondazioni e le locuste. La crescita economica è stata influenzata negativamente, con preoccupazioni riguardo all'inflazione e al debito pubblico. Le restrizioni legate alla pandemia hanno ridotto l'attività economica, influenzando settori come il turismo, l'agricoltura e il commercio. Le proiezioni indicano una crescita rallentata, con rischi fiscali e esterni che richiedono attenzione. La situazione dei rifugiati e delle popolazioni vulnerabili ha ulteriormente complicato la situazione economica.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, l'Etiopia ha continuato a fare fronte a sfide significative, tra cui il conflitto nel Tigray, le inondazioni, le locuste e le conseguenze della pandemia di COVID-19. Il presidente è Sahle-Work Zewde e il primo ministro è Abiy Ahmed. Il conflitto nel Tigray ha portato a migrazioni forzate verso il Sudan e ad altri paesi vicini, aumentando la pressione sui rifugiati e le comunità ospitanti. Le inondazioni hanno causato perdite di raccolto e di vita animale, mentre le locuste hanno ulteriormente compromesso la sicurezza alimentare. La pandemia di COVID-19 ha influenzato negativamente l'attività economica, con restrizioni che hanno ridotto l'accesso ai mercati e alle opportunità di lavoro. L'interazione tra questi fattori ha creato un ambiente complesso e sfidante per il paese.",
+  "fonti": [
+    "fews_net (ETH_2020-september_key-message-update.pdf)",
+    "unhcr_reports (ETH_2020Q3_2020-09-21_unhcr-ethiopia-fact-sheet-august-2020.pdf)",
+    "worldbank_mpo (ETH_mpo_sm20.pdf)",
+    "wikipedia:ETH_2020"
+  ]
+}

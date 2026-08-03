@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Tigray continua a essere un tema centrale, con livelli significativi di violenza e spostamenti di popolazione. Il governo etiope dichiara che le forze etiopi si ritirano da Mekelle, la capitale del Tigray, mentre le forze tigrayane avanzano. Il conflitto ha portato a gravi violazioni dei diritti umani, incluse accuse di stupri e atti di violenza contro civili. Il governo etiope ha anche dichiarato che ci sono 'accuse credibili di atrocità e abusi dei diritti umani' legati all'incidente di Aksum. Il conflitto ha anche generato tensioni etniche in altre regioni, come Benishangul-Gumuz e Oromia, con accuse di pulizia etnica e violenze contro civili. Il governo etiope ha promesso di riparare alcuni monumenti religiosi danneggiati durante il conflitto. Il conflitto ha anche avuto ripercussioni sulla sicurezza alimentare e sulle condizioni umanitarie, con migliaia di civili spostati e in condizioni precarie.",
+    "n_eventi_violenti": 479,
+    "n_vittime": 1495
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "Le principali cause della carestia sono il conflitto nel Tigray, che ha limitato l'accesso alle risorse alimentari e ai servizi umanitari, e le condizioni climatiche sfavorevoli. Il conflitto ha portato a una riduzione significativa delle attività agricole e commerciali, influenzando negativamente la disponibilità di cibo. Le violazioni dei diritti umani, incluse le violenze contro civili, hanno ulteriormente aggravato la situazione umanitaria. La carestia è particolarmente grave nel Tigray, dove si prevede che le condizioni peggioreranno ulteriormente a causa del persistere del conflitto e delle limitazioni di accesso umanitario."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione è stata fortemente influenzata dal conflitto nel Tigray, con migliaia di civili che hanno dovuto spostarsi all'interno del paese e nei paesi vicini. Il numero di rifugiati etiopi in Sudan è aumentato significativamente, con migliaia di persone che hanno attraversato il confine per sfuggire alla violenza. All'interno del Tigray, ci sono stati spostamenti di popolazione verso zone di rifugio, con un aumento dei campi per sfollati interni. L'accesso umanitario ai rifugiati e ai sfollati interni è stato ostacolato a causa delle tensioni e delle violenze associate al conflitto. La situazione dei rifugiati eritrei nel Tigray è anche critica, con limitazioni di accesso ai campi e ai servizi umanitari.",
+    "rifugiati": 149130,
+    "richiedenti_asilo": 139211,
+    "sfollati_interni": 3646267
+  },
+  "economia": {
+    "sintesi": "L'economia etiope è stata pesantemente impattata dal conflitto nel Tigray e dalla pandemia di COVID-19. Il conflitto ha causato una riduzione delle attività economiche, influenzando negativamente la crescita economica. La pandemia ha ulteriormente aggravato la situazione, con restrizioni di movimento e chiusure di attività commerciali. Le prospettive di crescita sono compromesse a causa delle tensioni politiche e delle violazioni dei diritti umani associate al conflitto. Il governo etiope ha adottato misure fiscali e monetarie per mitigare gli effetti della crisi, ma le prospettive di ripresa sono incerte a causa delle continue turbolenze politiche e della crisi umanitaria.",
+    "tasso_poverta_pct": 38.6
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, l'Etiopia è stata caratterizzata da un conflitto persistente nel Tigray, che ha avuto ripercussioni significative sulla situazione umanitaria, economica e politica del paese. Il governo etiope, guidato dal Primo Ministro Abiy Ahmed, ha continuato a fare fronte alle sfide legate al conflitto, inclusi gli sforzi per riparare alcuni monumenti religiosi danneggiati. Il conflitto ha anche generato tensioni etniche in altre regioni, come Benishangul-Gumuz e Oromia, con accuse di violenze contro civili. La pandemia di COVID-19 ha continuato a influenzare la situazione, con restrizioni di movimento e chiusure di attività commerciali. Il governo etiope ha promesso di riparare alcuni monumenti religiosi danneggiati durante il conflitto, mostrando un tentativo di riparare i danni causati dallo scontro. Il paese si trova in una situazione di crisi umanitaria e politica, con gravi violazioni dei diritti umani e un clima di instabilità che continua a influenzare la vita quotidiana dei cittadini.",
+  "fonti": [
+    "ETH_2021-02-23_20210223_acaps_secondary_data_review_ethiopia_pre-crisis_situation_in_tigray.pdf",
+    "ETH_2021-february_food-security-outlook.pdf",
+    "ETH_2021-march_key-message-update.pdf",
+    "ETH_2021Q1_2021-03-24_unhcr-regional-update-13-ethiopia-situation-tigray-region-1-.pdf",
+    "ETH_mpo_am20.pdf",
+    "wikipedia:ETH_2021"
+  ]
+}

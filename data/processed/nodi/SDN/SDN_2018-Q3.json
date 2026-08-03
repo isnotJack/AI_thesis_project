@@ -1,0 +1,40 @@
+{
+  "paese": "SDN",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sudan ha continuato a essere caratterizzato da conflitti, principalmente nella regione di Darfur. Le tensioni sono state alimentate da problemi legati alla sicurezza e alla governance, con continue minacce alla stabilità. L'area di Darfur è rimasta un punto focale di instabilità, con continue sfide legate alla sicurezza e alla governance. L'area di Darfur è rimasta un punto focale di instabilità, con continue sfide legate alla sicurezza e alla governance.",
+    "n_eventi_violenti": 113,
+    "n_vittime": 188
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia nel trimestre sono stati il conflitto, le inondazioni e le condizioni macroeconomiche sfavorevoli. Le inondazioni hanno causato danni significativi alle coltivazioni e alle infrastrutture, influenzando negativamente la disponibilità di cibo. Le condizioni macroeconomiche, incluse l'inflazione e la devalutazione della valuta locale, hanno aumentato i costi dei beni di base, rendendo difficile l'accesso ai prodotti alimentari per le famiglie più vulnerabili. Il conflitto ha ulteriormente complicato la situazione, limitando l'accesso alle aree colpite e aumentando la precarietà delle popolazioni locali."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e la fuga di rifugiati da Sud Sudan hanno continuato a essere un problema significativo. Le condizioni di protezione per i rifugiati sono state critiche, con sfide legate all'accesso ai servizi essenziali e alla sicurezza. L'arrivo di nuovi rifugiati da Sud Sudan ha aumentato la pressione sui campi esistenti, creando sfide per la gestione delle risorse e l'assistenza umanitaria. L'accesso alle aree colpite dalle inondazioni ha presentato ostacoli operativi, complicando l'assistenza alle popolazioni locali.",
+    "rifugiati": 724787,
+    "richiedenti_asilo": 67433,
+    "sfollati_interni": 1864195
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sudan ha continuato a essere governato da Omar al-Bashir come Presidente e Bakri Hassan Saleh come Primo Ministro. L'area di Darfur è rimasta un punto focale di instabilità, con continue sfide legate alla sicurezza e alla governance. L'arrivo di rifugiati da Sud Sudan ha continuato a essere un problema significativo, aumentando la pressione sui campi esistenti e complicando la gestione delle risorse umanitarie. Le inondazioni hanno causato danni significativi alle coltivazioni e alle infrastrutture, influenzando negativamente la disponibilità di cibo e le condizioni economiche locali.",
+  "fonti": [
+    "SDN_2018-08-17_20180817_sudan_floods_west_kordofan.pdf",
+    "SDN_2018-august_key-message-update.pdf",
+    "SDN_2018-july_key-message-update.pdf",
+    "SDN_2018-september_food-security-outlook-update.pdf",
+    "SDN_2018Q3_2018-09-30_standardized-expanded-nutrition-survey-sens-final-report-sou.pdf",
+    "wikipedia:SDN_2018"
+  ]
+}

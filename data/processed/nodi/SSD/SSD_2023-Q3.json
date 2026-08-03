@@ -1,0 +1,40 @@
+{
+  "paese": "SSD",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si sono verificati episodi di conflitto sporadico e attacchi armati in diverse aree del Sud Sudan, inclusi scontri tra gruppi armati e attacchi contro civili. Questi eventi hanno portato a tensioni all'interno delle comunità, interferendo con la mobilità domestica e i flussi di commercio. In particolare, sono stati segnalati attacchi contro commercianti e capi locali, che hanno potuto scatenare reazioni a catena di attacchi di rappresaglia. La presenza di ritornati sud-sudanesi ha anche contribuito a aumentare le tensioni, con conflitti legati alla terra e alle risorse. Inoltre, sono stati segnalati episodi di rapine di bestiame e attacchi di rappresaglia, che hanno ulteriormente aggravato le dinamiche di conflitto. La situazione è stata ulteriormente complicata da incursioni di gruppi armati e attacchi contro infrastrutture, come la strada Torit-Kapoeta, che hanno interferito con il movimento delle persone e delle merci. La presenza di forze di sicurezza, come le forze di protezione popolare sud-sudanesi (SSPDF), ha cercato di de-escalare le tensioni in alcune zone, ma le dinamiche di conflitto continuano a essere un fattore significativo di instabilità.",
+    "n_eventi_violenti": 286,
+    "n_vittime": 438
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "I principali driver della carestia nel trimestre sono stati il conflitto, la degradazione delle condizioni di vita, la scarsità di risorse e le elevate quote di malnutrizione acuta. La persistenza di livelli elevati di malnutrizione acuta, soprattutto nelle aree settentrionali, è stata attribuita a fattori come la perdita di risorse, la scarsità di cibo e le condizioni di povertà. L'arrivo di ritornati sud-sudanesi ha ulteriormente aggravato le situazioni di carestia, con la competizione per le risorse limitate e la degradazione delle condizioni di vita. La carestia è stata ulteriormente esacerbata da fattori come la perdita di risorse, la scarsità di cibo e le condizioni di povertà, con alcuni ritornati che hanno subito attacchi e rapine di bestiame. La situazione è stata ulteriormente complicata da episodi di violenza e conflitti legati alla terra e alle risorse, che hanno interferito con l'accesso ai beni essenziali."
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, si è assistito a un flusso significativo di ritornati sud-sudanesi provenienti dal Sudan, con un numero elevato di persone che hanno attraversato il confine. Questi ritornati hanno portato a tensioni all'interno delle comunità di accoglienza, con problemi legati alla competizione per le risorse e alla degradazione delle condizioni di vita. La presenza di ritornati ha anche portato a situazioni di sovraccarico nei campi di protezione civile, con problemi di accesso ai servizi essenziali. In alcune zone, sono state aperte nuove vie di passaggio per gestire il flusso di ritornati, ma le condizioni di protezione rimangono critiche, con episodi di violenza e rapine di bestiame che hanno interferito con il movimento delle persone. La situazione è stata ulteriormente complicata da episodi di violenza e conflitti legati alla terra e alle risorse, che hanno interferito con l'accesso ai beni essenziali.",
+    "rifugiati": 2292482,
+    "richiedenti_asilo": 24596,
+    "sfollati_interni": 1236672
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per il Sud Sudan indica una situazione di fragilità, con rischi fiscali e esterni significativi. La dipendenza dall'export di petrolio continua a essere un fattore di vulnerabilità, con preoccupazioni legate alla gestione delle entrate petrolifere e alla trasparenza delle finanze pubbliche. La situazione fiscale è stata ulteriormente complicata da dinamiche di inflazione e deprezzamento della valuta locale, che hanno influenzato negativamente l'accesso ai beni essenziali. La crescita economica è stata limitata, con preoccupazioni legate alla gestione delle entrate petrolifere e alla trasparenza delle finanze pubbliche. La situazione fiscale è stata ulteriormente complicata da dinamiche di inflazione e deprezzamento della valuta locale, che hanno influenzato negativamente l'accesso ai beni essenziali.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a fare fronte a sfide significative legate alla leadership e alla governance. La presidenza di Salva Kiir Mayardit e la vicepresidenza di Riek Machar hanno continuato a gestire le dinamiche politiche interne, con un contesto di instabilità persistente. L'aftermath della guerra civile sud-sudanese continua a influenzare la situazione, con tensioni etniche e conflitti legati alla terra e alle risorse che rimangono un fattore significativo di instabilità. L'epidemia di COVID-19 ha continuato a influenzare la situazione, con effetti sulla salute pubblica e sulle dinamiche socio-economiche. La situazione generale è stata ulteriormente complicata da dinamiche di conflitto e violenza, con episodi specifici come gli scontri a Malakal e gli attacchi a Abyei che hanno contribuito a mantenere un clima di instabilità.",
+  "fonti": [
+    "fews_net (SSD_2023-september_key-message-update.pdf)",
+    "fews_net (SSD_2023-august_food-security-outlook-update.pdf)",
+    "fews_net (SSD_2023-july_key-message-update.pdf)",
+    "unhcr_reports (SSD_2023Q3_2023-09-30_2023-south-sudan-regional-rrrp-regional-overview-of-the-sout.pdf)",
+    "worldbank_mpo (SSD_mpo_sm23.pdf)",
+    "wikipedia:SSD_2023"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "paese": "YEM",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2018, il conflitto in Yemen continuava a essere intenso, con attivita' militari significative nei governatorati di Al Hudaydah, Ta'izz, e Sa'ada. Le forze guidate dall'Arabia Saudita e dall'Emirato Arabo Unito hanno continuato le loro operazioni per riprendere il controllo della città di Al Hudaydah, che rimaneva un punto focale del conflitto. I combattimenti hanno portato a nuovi spostamenti di popolazione, con migliaia di famiglie che hanno lasciato le loro case a causa delle ostilita'. La violenza ha anche causato danni significativi all'infrastruttura, compresa la chiusura temporanea di alcuni porti cruciali per le importazioni di beni essenziali. L'attivita' militare ha avuto un impatto significativo sulle condizioni umanitarie, aumentando la vulnerabilita' delle popolazioni locali.",
+    "n_eventi_violenti": 2626,
+    "n_vittime": 7991
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen continuava a essere un problema critico, con grandi popolazioni che continuavano a subire crisi di livello IPC Fase 3 (Crisi) o IPC Fase 4 (Emergenza). Il conflitto ha avuto un impatto significativo sulla sicurezza alimentare, con le popolazioni piu' vulnerabili che hanno iniziato a esaurire le loro capacità di reazione. Le importazioni commerciali di alimenti essenziali, come farina di grano e carburante, hanno subito un calo, aumentando la pressione sui prezzi e riducendo l'accesso ai beni essenziali. La scarsita' di gas da cucina e l'aumento dei prezzi dei beni alimentari hanno ulteriormente aggravato la situazione. L'assistenza umanitaria continua a giocare un ruolo cruciale nel prevenire una deteriorazione ulteriore delle condizioni di sicurezza alimentare."
+  },
+  "migrazione": {
+    "descrizione": "Il conflitto ha portato a nuovi spostamenti di popolazione, con migliaia di famiglie che hanno lasciato le loro case a causa delle ostilita'. Le autorita' umanitarie hanno segnalato un aumento dei casi di vulnerabilita' tra le popolazioni sfollate, con problemi di protezione e accesso ai servizi essenziali. I nuovi corridoi di spostamento e le barriere operative hanno reso piu' difficile l'assistenza umanitaria, aumentando la vulnerabilita' delle popolazioni sfollate.",
+    "rifugiati": 31145,
+    "richiedenti_asilo": 35876,
+    "sfollati_interni": 2144719
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2018, Yemen continuava a essere afflitto da un conflitto armato persistente, con le forze guidate dall'Arabia Saudita e dall'Emirato Arabo Unito impegnate in operazioni militari per riprendere il controllo di territori chiave. Il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar continuavano ad essere le figure di riferimento politiche. Il primo ministro era Ahmed Obeid bin Daghr, in carica fino a ottobre 2018. Il conflitto ha avuto un impatto significativo sulla vita quotidiana, con continue ostilita' e spostamenti di popolazione. L'assistenza umanitaria continuava a giocare un ruolo cruciale nel supportare le popolazioni piu' vulnerabili, ma le barriere operative e l'aumento della violenza hanno reso piu' difficile l'erogazione di aiuti. La situazione generale rimaneva instabile, con continue sfide per la sicurezza alimentare e la protezione delle popolazioni civili.",
+  "fonti": [
+    "fews_net (YEM_2018-june_food-security-outlook.pdf)",
+    "fews_net (YEM_2018-may_key-message-update.pdf)",
+    "fews_net (YEM_2018-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (YEM_2018Q2_2018-06-30_yemen-situation-report-june-2018-en-ar.pdf)",
+    "wikipedia:YEM_2018"
+  ]
+}

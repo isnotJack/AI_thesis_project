@@ -1,0 +1,35 @@
+{
+  "paese": "EST",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 281,
+    "richiedenti_asilo": 37,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.4
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2018, Kersti Kaljulaid era la presidente e Jüri Ratas era il primo ministro dell'Estonia. Non sono stati riportati eventi specifici per il trimestre Q3 2018.",
+  "fonti": [
+    "wikipedia:EST_2018"
+  ]
+}

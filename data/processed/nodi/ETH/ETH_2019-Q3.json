@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la regione del Benishangul-Gumuz è stata teatro di conflitti in corso. Vi sono state tensioni significative, incluse l'uccisione del Presidente della Regione Amara Ambachew Mekonnen e del Capo di Stato Maggiore delle Forze di Difesa Nazionale Etiopiche, Generale Se'are Mekonnen, da parte di un corpo di guardia nazionalista amhara. Questi eventi hanno portato a un'atmosfera di instabilità politica e tensione regionale. Inoltre, vi sono stati scontri in Regione Oromia e nei suoi dintorni, seguiti da un post sul Facebook di un attivista politico oromo, Jawar Mohammed, che ha affermato di essere circondato da agenti di polizia a casa sua. Gli scontri che ne sono seguiti tra i suoi sostenitori e le forze di sicurezza federali hanno causato un numero significativo di vittime, sia tra i civili che tra le forze di sicurezza. L'insurrezione OLA continua a rappresentare una minaccia alla stabilità regionale. L'insediamento di nuovi partiti politici, come il Partito della Prosperità, riflette anche cambiamenti politici significativi nel paese.",
+    "n_eventi_violenti": 21,
+    "n_vittime": 89
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è stata principalmente causata da condizioni di siccità, che hanno avuto un impatto significativo sulla produzione agricola e sulle condizioni di vita delle popolazioni rurali. La siccità ha ridotto la disponibilità di foraggio e acqua, influenzando negativamente le condizioni delle popolazioni pastorali e agricole. Le precipitazioni sono state al di sotto della media, influenzando negativamente la stagione delle piogge di Belg e Deyr/Hagaya, che hanno avuto un impatto significativo sulla produzione agricola. Le condizioni di siccità hanno anche portato a un aumento dei prezzi dei generi alimentari, rendendo difficile l'accesso alla cibo per le famiglie più vulnerabili. La situazione è stata ulteriormente complicata da conflitti e instabilità politica, che hanno reso più difficile l'assistenza umanitaria e l'accesso ai mercati."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è stata influenzata da fattori come la siccità e la carestia, che hanno spinto molte famiglie a spostarsi in cerca di cibo, acqua e assistenza umanitaria. Gli sfollati interni (IDPs) hanno continuato a ritornare alle loro aree di origine, ma la loro reintegrazione è stata ostacolata da problemi di accesso all'assistenza umanitaria e alle risorse essenziali. La mancanza di accesso all'acqua e ai servizi di base ha aumentato la vulnerabilità di queste popolazioni. La situazione di protezione per i ritornati è stata critica, con limiti all'accesso ai servizi essenziali e alla terra. La mancanza di infrastrutture appropriate e la scarsità di risorse hanno reso difficile la reintegrazione dei ritornati nelle loro comunità di origine.",
+    "rifugiati": 93467,
+    "richiedenti_asilo": 135267,
+    "sfollati_interni": 1733628
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, l'Etiopia ha visto una serie di eventi significativi che hanno influenzato la sua situazione politica e sociale. Tra questi, vi è stato l'assassinio del Presidente della Regione Amara Ambachew Mekonnen e del Capo di Stato Maggiore delle Forze di Difesa Nazionale Etiopiche, Generale Se'are Mekonnen, da parte di un corpo di guardia nazionalista amhara. Questi eventi hanno portato a un'atmosfera di instabilità politica e tensione regionale. Inoltre, vi sono stati scontri in Regione Oromia e nei suoi dintorni, seguiti da un post sul Facebook di un attivista politico oromo, Jawar Mohammed, che ha affermato di essere circondato da agenti di polizia a casa sua. Gli scontri che ne sono seguiti tra i suoi sostenitori e le forze di sicurezza federali hanno causato un numero significativo di vittime, sia tra i civili che tra le forze di sicurezza. L'insediamento di nuovi partiti politici, come il Partito della Prosperità, riflette anche cambiamenti politici significativi nel paese. La situazione di carestia e siccità ha continuato a essere un problema significativo, influenzando negativamente la produzione agricola e le condizioni di vita delle popolazioni rurali. La migrazione interna è stata influenzata da questi fattori, con molte famiglie che si sono spostate in cerca di cibo, acqua e assistenza umanitaria.",
+  "fonti": [
+    "ETH_2019-07-22_20190722_acaps_start_thematic_report_horn_of_africa_drought_0.pdf",
+    "ETH_2019-august_food-security-outlook-update.pdf",
+    "ETH_2019-july_key-message-update.pdf",
+    "ETH_2019-september_key-message-update.pdf",
+    "ETH_2019Q3_2019-09-30_returnee-response-gap-analysis-september-2019.pdf",
+    "wikipedia:ETH_2019"
+  ]
+}

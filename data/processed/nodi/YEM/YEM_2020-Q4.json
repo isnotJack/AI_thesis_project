@@ -1,0 +1,41 @@
+{
+  "paese": "YEM",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua a essere intenso, con scontri frequenti tra le forze del governo e i ribelli Houthi. L'area di Marib è particolarmente coinvolta, con tentativi di avanzamento delle forze Houthi che intensificano il conflitto, causando spostamenti di popolazione e aumentando la pressione umanitaria. Le tensioni tra le parti in conflitto continuano a influenzare la situazione, con effetti significativi sulla popolazione locale. L'area di Al Hudaydah è anche teatro di scontri, con conseguenze negative per la popolazione civile. L'arrivo di un nuovo governo nel sud del paese ha portato a un aumento delle tensioni, con esplosioni vicino all'aeroporto di Aden che evidenziano la precarietà della situazione. Le operazioni militari continue hanno un impatto significativo sulle condizioni umanitarie, con migliaia di famiglie che continuano a essere sfollate a causa dei combattimenti. L'area di Marib è particolarmente critica, con un numero crescente di sfollati che richiede un'attenzione umanitaria immediata.",
+    "n_eventi_violenti": 2250,
+    "n_vittime": 4299
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Yemen è alimentata da una combinazione di fattori, inclusi il conflitto, la deprezzazione della valuta locale, l'aumento dei prezzi dei generi alimentari e le difficoltà di accesso ai servizi essenziali. L'inflazione è in aumento a causa della deprezzazione della rial, che riduce il potere d'acquisto delle famiglie. L'aumento dei prezzi dei generi alimentari e dei problemi di accesso ai servizi essenziali, come l'acqua e l'elettricità, peggiorano le condizioni di vita delle popolazioni vulnerabili. L'accesso ai servizi di base, come l'assistenza sanitaria, è limitato, con molte famiglie che non possono permettersi di pagare i servizi essenziali. L'aumento dei prezzi dei generi alimentari e la mancanza di accesso ai servizi essenziali, come l'acqua e l'elettricità, peggiorano le condizioni di vita delle popolazioni vulnerabili. L'accesso ai servizi di base, come l'assistenza sanitaria, è limitato, con molte famiglie che non possono permettersi di pagare i servizi essenziali."
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria in Yemen è critica, con migliaia di famiglie sfollate a causa dei combattimenti. Le autorità locali stanno facendo fatica a gestire il flusso di sfollati, che richiede un'attenzione umanitaria immediata. L'area di Marib è particolarmente afflitta, con un numero crescente di sfollati che richiede un'attenzione umanitaria immediata. Le condizioni di vita nei campi per sfollati sono difficili, con problemi di accesso ai servizi essenziali come l'acqua, l'alimentazione e l'assistenza sanitaria. L'arrivo di nuovi sfollati continua a mettere sotto pressione le risorse limitate disponibili nei campi.",
+    "rifugiati": 32433,
+    "richiedenti_asilo": 34870,
+    "sfollati_interni": 4002012
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere gravemente compromessa dal conflitto, con una deprezzazione significativa della valuta locale e una crescente inflazione. Le condizioni macroeconomiche sono peggiorate, con una riduzione delle entrate governative e un aumento delle spese. L'aumento dei prezzi dei generi alimentari e dei problemi di accesso ai servizi essenziali, come l'acqua e l'elettricità, peggiorano le condizioni di vita delle popolazioni vulnerabili. L'accesso ai servizi di base, come l'assistenza sanitaria, è limitato, con molte famiglie che non possono permettersi di pagare i servizi essenziali. L'aumento dei prezzi dei generi alimentari e la mancanza di accesso ai servizi essenziali, come l'acqua e l'elettricità, peggiorano le condizioni di vita delle popolazioni vulnerabili. L'accesso ai servizi di base, come l'assistenza sanitaria, è limitato, con molte famiglie che non possono permettersi di pagare i servizi essenziali.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2020, Yemen continua a essere afflitto da un conflitto persistente che ha profonde conseguenze umanitarie. Il paese è governato da Abdrabbuh Mansur Hadi come presidente, con Ali Mohsen al-Ahmar come vicepresidente e Maeen Abdulmalik Saeed come primo ministro. Nel corso dell'anno, ci sono stati diversi sviluppi significativi, inclusi attacchi aeree, scontri armati e tentativi di mediazione. Il conflitto ha portato a una situazione umanitaria critica, con migliaia di civili uccisi e feriti, e milioni di sfollati. Le tensioni tra le parti in conflitto continuano a crescere, con l'arrivo di un nuovo governo nel sud del paese che ha portato a ulteriori scontri. L'accesso umanitario è stato ostacolato da attacchi e minacce, rendendo difficile la distribuzione di aiuti vitale alle popolazioni vulnerabili. Le condizioni economiche sono peggiorate, con una crescente inflazione e una deprezzazione della valuta locale. L'aumento dei prezzi dei generi alimentari e dei problemi di accesso ai servizi essenziali, come l'acqua e l'elettricità, peggiorano le condizioni di vita delle popolazioni vulnerabili. L'accesso ai servizi di base, come l'assistenza sanitaria, è limitato, con molte famiglie che non possono permettersi di pagare i servizi essenziali. L'aumento dei prezzi dei generi alimentari e la mancanza di accesso ai servizi essenziali, come l'acqua e l'elettricità, peggiorano le condizioni di vita delle popolazioni vulnerabili. L'accesso ai servizi di base, come l'assistenza sanitaria, è limitato, con molte famiglie che non possono permettersi di pagare i servizi essenziali.",
+  "fonti": [
+    "YEM_2020-12-31_20201231_yemen_risk_overview_december_20_may_21_0_0.pdf",
+    "YEM_2020-december_food-security-outlook-update.pdf",
+    "YEM_2020Q4_2020-12-31_cccm-cluster-yemen-idp-hosting-sites-overview-december-2020.pdf",
+    "YEM_mpo_am20.pdf",
+    "YEM_2020-12-18_20201218_acaps_yemen_analysis_hub_marib_districs_profile_arabic.pdf",
+    "YEM_2020-november_key-message-update.pdf",
+    "wikipedia:YEM_2020"
+  ]
+}

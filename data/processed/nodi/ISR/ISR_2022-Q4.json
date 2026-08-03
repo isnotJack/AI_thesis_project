@@ -1,0 +1,53 @@
+{
+  "paese": "ISR",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre Q4 2022, Israele ha continuato a fare fronte a tensioni e conflitti sia interni che esterni. All'interno del paese, le tensioni tra israeliani e palestinesi hanno continuato a manifestarsi con episodi di violenza, inclusi raid militari, attacchi armati e scontri a mano armata. All'esterno, Israele ha mantenuto una posizione di confronto con l'Iran, evidenziata da attacchi cibernetici e minacce reciproche. Inoltre, Israele ha continuato a gestire le relazioni con i paesi vicini, come l'Egitto, la Giordania e i paesi del Golfo, mantenendo un equilibrio complesso tra alleanze e tensioni. La situazione internazionale, inclusa la guerra in Ucraina, ha anche influenzato le dinamiche geopolitiche in cui Israele è coinvolto, con Israele che ha espresso solidarietà verso l'Ucraina e continuato a monitorare attentamente le mosse della Russia e dell'Iran nella regione.",
+    "n_eventi_violenti": 11,
+    "n_vittime": 4
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 902,
+    "richiedenti_asilo": 813,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.4
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro il sito del Jerusalem Post, attribuito all'Iran Cyber Army, con minacce contro il centro nucleare di Dimona",
+      "Attacco cibernetico da parte di Altahrea Team contro numerosi siti web israeliani in reazione all'uccisione di Qasem Soleimani",
+      "Arresto di presunti spie israeliane in Iran, accusati di pianificare un attentato contro un imprenditore israeliano a Istanbul",
+      "Attacco cibernetico da parte di gruppi affiliati all'Iran contro infrastrutture critiche israeliane, inclusi attacchi tramite ransomware e malware"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Advisory sulle minacce cibernetiche iraniane contro Israele",
+      "Advisory sulle attività di spionaggio e cyber-esplosioni legate all'Iran e Israele"
+    ],
+    "gruppi_minaccia_associati": [
+      "Iran Cyber Army",
+      "Altahrea Team",
+      "Gruppi affiliati all'Iran, inclusi attori legati al regime iraniano"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Siti web governativi e mediatici",
+      "Organizzazioni private e commerciali"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre Q4 2022, Israele ha continuato a gestire una serie di sfide politiche, sociali e geopolitiche. All'interno del paese, le tensioni tra israeliani e palestinesi hanno continuato a manifestarsi con episodi di violenza, inclusi raid militari, attacchi armati e scontri a mano armata. All'esterno, Israele ha mantenuto una posizione di confronto con l'Iran, evidenziata da attacchi cibernetici e minacce reciproche. Inoltre, Israele ha continuato a monitorare attentamente le dinamiche regionali, inclusa la guerra in Ucraina, esprimendo solidarietà verso l'Ucraina e mantenendo un equilibrio complesso tra alleanze e tensioni con paesi vicini come l'Egitto, la Giordania e i paesi del Golfo. La situazione internazionale ha influenzato le dinamiche geopolitiche in cui Israele è coinvolto, con Israele che ha continuato a mantenere un ruolo attivo nella regione, sia in termini di relazioni diplomatiche che di attività militari e cibernetiche.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:ISR_2022"
+  ]
+}

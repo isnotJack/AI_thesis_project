@@ -1,0 +1,40 @@
+{
+  "paese": "YEM",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con episodi di violenza intermittente. Le autorità del DFA hanno intensificato le restrizioni sulle donne e ragazze yemenite, imponendo regole rigide sul mahram (guardiano maschio) e la conformità all'abbigliamento tradizionale. Le autorità del DFA hanno anche condotto campagne per sensibilizzare i negozi di abaya sulle nuove regole di vestiario. Il truce tra le autorità internazionalmente riconosciute e le autorità del DFA è stato esteso, ma non è stato rinnovato. Le autorità del DFA hanno intensificato le restrizioni sulle donne e ragazze yemenite, imponendo regole rigide sul mahram (guardiano maschio) e la conformità all'abbigliamento tradizionale. Le autorità del DFA hanno anche condotto campagne per sensibilizzare i negozi di abaya sulle nuove regole di vestiario.",
+    "n_eventi_violenti": 1361,
+    "n_vittime": 1023
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "Le condizioni di carestia sono state influenzate da un aumento dei prezzi dei generi alimentari a causa di un aumento dei tassi di cambio per le merci di importazione. Le autorità del DFA hanno adottato misure per compensare la perdita di entrate da esportazioni petrolifere, come l'aumento dei tassi di cambio per le merci di importazione. Le autorità del DFA hanno anche adottato misure per compensare la perdita di entrate da esportazioni petrolifere, come l'aumento dei tassi di cambio per le merci di importazione."
+  },
+  "migrazione": {
+    "descrizione": "Le condizioni di protezione per i rifugiati e i migranti sono state critiche, con un numero significativo di rifugiati e migranti in Yemen. Le autorità del DFA hanno intensificato le restrizioni sulle donne e ragazze yemenite, imponendo regole rigide sul mahram (guardiano maschio) e la conformità all'abbigliamento tradizionale. Le autorità del DFA hanno anche condotto campagne per sensibilizzare i negozi di abaya sulle nuove regole di vestiario. Le autorità del DFA hanno intensificato le restrizioni sulle donne e ragazze yemenite, imponendo regole rigide sul mahram (guardiano maschio) e la conformità all'abbigliamento tradizionale. Le autorità del DFA hanno anche condotto campagne per sensibilizzare i negozi di abaya sulle nuove regole di vestiario.",
+    "rifugiati": 48044,
+    "richiedenti_asilo": 33521,
+    "sfollati_interni": 4516341
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen è stata influenzata da una combinazione di fattori, inclusi l'aumento dei prezzi dei generi alimentari, le restrizioni sulle esportazioni petrolifere e le misure adottate dalle autorità del DFA per compensare la perdita di entrate. Le autorità del DFA hanno adottato misure per compensare la perdita di entrate da esportazioni petrolifere, come l'aumento dei tassi di cambio per le merci di importazione. Le autorità del DFA hanno anche adottato misure per compensare la perdita di entrate da esportazioni petrolifere, come l'aumento dei tassi di cambio per le merci di importazione.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, Yemen ha continuato a essere caratterizzato da un clima di instabilità e conflitto. Le autorità del DFA hanno intensificato le restrizioni sulle donne e ragazze yemenite, imponendo regole rigide sul mahram (guardiano maschio) e la conformità all'abbigliamento tradizionale. Le autorità del DFA hanno anche condotto campagne per sensibilizzare i negozi di abaya sulle nuove regole di vestiario. Le autorità del DFA hanno intensificato le restrizioni sulle donne e ragazze yemenite, imponendo regole rigide sul mahram (guardiano maschio) e la conformità all'abbigliamento tradizionale. Le autorità del DFA hanno anche condotto campagne per sensibilizzare i negozi di abaya sulle nuove regole di vestiario.",
+  "fonti": [
+    "YEM_2023-01-03_20230103_acaps_yemen_analysis_hub_yeti_bi-monthly_economic_update_september_to_october.pdf",
+    "YEM_2023-03-02_20230302_acaps_yah_simp_october_to_december_2022.pdf",
+    "YEM_2023-january_key-message-update.pdf",
+    "YEM_2023Q1_2023-03-31_yemen-fact-sheet-january-march-2023.pdf",
+    "YEM_mpo_am22.pdf",
+    "wikipedia:YEM_2023"
+  ]
+}

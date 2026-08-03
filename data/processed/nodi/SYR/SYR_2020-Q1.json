@@ -1,0 +1,37 @@
+{
+  "paese": "SYR",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la situazione di conflitto in Siria continua a essere critica, con insicurezza generalizzata e violenza persistente. L'area di Afrin, in particolare, è caratterizzata da un alto livello di instabilità, con continue minacce alla sicurezza e violazioni dei diritti umani. L'operazione Olive Branch del 2018 ha portato a un aumento significativo dei profughi interni, che continuano a soffrire di gravi carenze di assistenza umanitaria. L'insicurezza è accentuata da attacchi frequenti, inclusi esplosioni e attentati, che mettono a rischio la vita delle popolazioni locali. La presenza di forze armate locali e la mancanza di un governo centrale efficace contribuiscono a mantenere un clima di instabilità. I combattimenti e le violazioni dei diritti umani continuano a essere un problema significativo, con effetti devastanti sulla popolazione civile.",
+    "n_eventi_violenti": 3437,
+    "n_vittime": 3158
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna in Siria continua a essere un problema critico, con un numero significativo di profughi interni che si spostano all'interno del paese in cerca di sicurezza e assistenza. La situazione di protezione per questi profughi è particolarmente problematica, con gravi carenze di servizi fondamentali come alimenti, acqua, sanità e protezione. La mancanza di infrastrutture appropriate e la scarsità di risorse umanitarie rendono la situazione dei profughi ancora più difficile. Gli ostacoli operativi includono la mancanza di accesso alle aree di crisi e la limitata capacità di fornire assistenza umanitaria in modo efficace.",
+    "rifugiati": 6702910,
+    "richiedenti_asilo": 107085,
+    "sfollati_interni": 6701972
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, la Siria continua a essere caratterizzata da una situazione di crisi politica e umanitaria a causa del conflitto in corso. Il presidente Bashar al-Assad rimane al potere, mentre il paese affronta gravi sfide legate alla guerra civile. L'insicurezza e le violazioni dei diritti umani sono persistenti, con continue minacce alla sicurezza delle popolazioni civili. La situazione umanitaria è particolarmente critica, con un numero significativo di profughi interni che soffrono di carenze di assistenza fondamentale. L'economia del paese è gravemente compromessa, con effetti negativi sulla qualità di vita della popolazione. La leadership del paese continua a fare fronte a sfide significative legate alla guerra civile e alle conseguenze umanitarie del conflitto.",
+  "fonti": [
+    "SYR_2020-03-02_20200302_acaps_short_note_syria_huamitarian_needs_in_afrin.pdf",
+    "SYR_2020Q1_2020-03-31_syria-arab-republic-whole-of-syria-shelter-nfi-sector-quarte.pdf",
+    "wikipedia:SYR_2020"
+  ]
+}

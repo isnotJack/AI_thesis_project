@@ -1,0 +1,39 @@
+{
+  "paese": "SDN",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sudan ha visto un aumento significativo di violenze intercomunali e conflitti armati, principalmente nella regione di Darfur. Queste violenze hanno portato a un numero crescente di decessi e di sfollati interni. La situazione è stata aggravata da problemi strutturali come la povertà, la scarsità di risorse e la mancanza di infrastrutture. La regione di Darfur è stata particolarmente colpita da conflitti etnici e tribali, con sfollati che hanno trovato rifugio in campi temporanei che rischiano di diventare permanenti. La mancanza di sicurezza ha reso difficile l'accesso alle aree colpite per le organizzazioni umanitarie, limitando la fornitura di assistenza ai bisognosi.",
+    "n_eventi_violenti": 169,
+    "n_vittime": 382
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia nel Sudan è stata principalmente causata da conflitti, inondazioni e problemi di accesso all'alimentazione. Le inondazioni hanno distrutto campi agricoli e compromesso la produzione di cibo, aumentando la vulnerabilità alimentare. La situazione è stata ulteriormente complicata dalla mancanza di infrastrutture e dalla scarsità di risorse, rendendo difficile la distribuzione di aiuti alimentari. La carestia ha colpito in modo significativo le popolazioni sfollate e quelle che vivono in aree rurali, dove le risorse sono già limitate."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna nel Sudan è stata influenzata da conflitti e inondazioni, con un numero crescente di sfollati che cercano rifugio in aree più sicure. I campi per sfollati sono sovraffollati e mancano di infrastrutture essenziali, aumentando il rischio di malattie e violenze. La mancanza di protezione adeguata ha reso le popolazioni sfollate particolarmente vulnerabili a violenze e abusi, con sfollati che spesso vivono in condizioni precarie e senza accesso a servizi di base.",
+    "rifugiati": 837188,
+    "richiedenti_asilo": 86838,
+    "sfollati_interni": 3552717
+  },
+  "economia": {
+    "sintesi": "L'economia del Sudan ha continuato a subire pressioni significative a causa di problemi strutturali, conflitti e crisi umanitarie. La mancanza di stabilità politica e la scarsità di risorse hanno limitato la crescita economica, mentre la povertà e la disoccupazione continuano a essere problemi gravi. L'inflazione e la deprezzazione della valuta hanno aumentato il costo della vita, rendendo difficile l'accesso a beni essenziali per la popolazione. La situazione economica è stata ulteriormente complicata da problemi di governance e corruzione, che hanno ostacolato gli sforzi di sviluppo economico.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sudan ha continuato a lottare con problemi di governance, conflitti interni e crisi umanitarie. La leadership del paese è stata caratterizzata da cambiamenti frequenti, con una transizione di potere che ha portato a instabilità politica. Gli eventi principali hanno incluso inondazioni che hanno causato danni significativi e un aumento di conflitti etnici e tribali, principalmente nella regione di Darfur. La mancanza di infrastrutture e la scarsità di risorse hanno reso difficile la gestione delle crisi umanitarie, con sfollati che vivono in condizioni precarie e senza accesso a servizi di base. La situazione economica è stata ulteriormente complicata da problemi di inflazione e deprezzazione della valuta, aumentando la vulnerabilità della popolazione.",
+  "fonti": [
+    "acaps (SDN_2022-09-09_20220909_acaps_rapid_analysis_team_briefing_note_sudan_floods_0.pdf)",
+    "fews_net (SDN_2022-september_key-message-update.pdf)",
+    "unhcr_reports (SDN_2022Q3_2022-09-29_sudan-snfi-cluster-coordination-meeting-september-2022-meeti.pdf)",
+    "worldbank_mpo (SDN_mpo_am21.pdf)",
+    "wikipedia:SDN_2022"
+  ]
+}

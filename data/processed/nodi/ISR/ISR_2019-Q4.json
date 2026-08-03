@@ -1,0 +1,35 @@
+{
+  "paese": "ISR",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2019, Israele è stato coinvolto in diverse azioni militari e tensioni regionali. Nel settembre, l'Israele ha condotto raid aerei contro obiettivi legati alle Forze di Mobilitazione Popolare (PMF) in Iraq, causando numerosi morti tra i militanti. Nel novembre, l'Israele ha continuato le operazioni militari contro il Hamas e l'Islamic Jihad in Gaza, con raid aerei che hanno causato morti tra i militanti e le loro famiglie. Nel dicembre, un raid israeliano ha colpito un deposito armi dell'IRGC in Siria, con la negazione di coinvolgimento da parte degli Stati Uniti. Parallelamente, il governo israeliano ha continuato a fare dichiarazioni riguardanti l'annessione di parti della Cisgiordania, suscitando critiche da parte della Palestina e di altri paesi. L'Israele ha anche continuato a gestire tensioni con il Libano e la Siria, con scambi di fuoco lungo i confini e raid aerei contro obiettivi legati a Hezbollah e all'IRGC.",
+    "n_eventi_violenti": 28,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 452,
+    "richiedenti_asilo": 690,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, Israele ha continuato a fare fronte a una serie di sfide politiche, militari e diplomatiche. Sul piano politico, il primo ministro Benjamin Netanyahu ha affrontato accuse di corruzione, con un'indagine che ha portato all'indagine contro di lui. Sul piano militare, Israele ha condotto numerose operazioni contro obiettivi legati a gruppi armati in Gaza, Iraq e Siria, causando morti tra i militanti e le loro famiglie. Sul piano diplomatico, Israele ha continuato a gestire tensioni con i paesi vicini, come il Libano e la Siria, con scambi di fuoco e raid aerei. Inoltre, Israele ha continuato a fare dichiarazioni riguardanti l'annessione di parti della Cisgiordania, suscitando critiche da parte della Palestina e di altri paesi. Sul piano interno, Israele ha continuato a gestire tensioni etniche, con episodi di violenza tra comunità etniche. In dicembre, il parlamento israeliano ha votato per sciogliersi e convocare un'ennesima elezione, segnando un momento di incertezza politica nel paese.",
+  "fonti": [
+    "wikipedia:ISR_2019"
+  ]
+}

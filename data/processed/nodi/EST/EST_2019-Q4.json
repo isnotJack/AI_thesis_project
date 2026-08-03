@@ -1,0 +1,35 @@
+{
+  "paese": "EST",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 274,
+    "richiedenti_asilo": 55,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.7
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, l'Estonia continuava a fare fronte a questioni politiche e sociali significative. A livello politico, il paese aveva recentemente attraversato un processo di formazione del governo, con negoziati complessi tra i partiti. La leadership del paese era rappresentata da Kersti Kaljulaid come Presidente e Jüri Ratas come Primo Ministro. A livello sociale, si segnalava un aumento delle percentuali di sovrappeso e obesità nella popolazione, un fenomeno che stava crescendo rapidamente. Nel contesto internazionale, l'Estonia manteneva rapporti attivi con la Russia, come dimostrato dalla visita di Kersti Kaljulaid a Mosca, dove incontrò Vladimir Putin. Questo incontro era il primo di questo tipo tra i leader dei due paesi dal 2011, evidenziando la volontà dell'Estonia di mantenere buoni rapporti con la Russia, nonostante le sfide geopolitiche.",
+  "fonti": [
+    "wikipedia:EST_2019"
+  ]
+}

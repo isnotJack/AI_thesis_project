@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Etiopia sta affrontando una serie di sfide significative, incluse la pandemia di COVID-19, l'insorgenza di locuste, e la crisi alimentare. Le misure governative per contenere il COVID-19 hanno influenzato la risposta all'insorgenza di locuste, limitando la mobilità e le operazioni di controllo. La situazione è complessificata dalla presenza di sfollati somali nei campi di rifugio, dove le misure di quarantena sono state implementate per prevenire l'espansione del virus. L'insorgenza di locuste ha avuto un impatto significativo sulla sicurezza alimentare, con proiezioni di crisi (IPC Fase 3) in alcune aree. Le restrizioni di movimento hanno anche limitato l'accesso ai servizi di assistenza umanitaria e ai mercati, aumentando la vulnerabilità delle popolazioni locali. L'economia è stata ulteriormente indebolita dalla combinazione di questi fattori, con preoccupazioni riguardo all'inflazione e alla stabilità finanziaria. La situazione è ulteriormente complicata dalla presenza di conflitti interni, come la guerra nel Tigray, che ha portato a migrazioni forzate e tensioni regionali. Le autorità stanno cercando di gestire queste sfide con un mix di misure di controllo, assistenza umanitaria e strategie di risposta, ma le sfide rimangono significative.",
+    "n_eventi_violenti": 57,
+    "n_vittime": 124
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Etiopia è stata principalmente causata dalla combinazione di una grave insorgenza di locuste, la pandemia di COVID-19 e le conseguenti restrizioni di movimento. La carestia è stata aggravata dalla perdita di raccolti dovuta all'insorgenza di locuste, che ha colpito aree significative del paese. Le proiezioni indicano che la crisi (IPC Fase 3) è presente in alcune regioni, con la possibilità di peggioramento nei prossimi mesi. La situazione è ulteriormente complicata dalla diminuzione dell'accesso ai mercati e alle risorse, nonché dall'aumento dei prezzi alimentari. Le misure di quarantena e di controllo del COVID-19 hanno limitato l'accesso ai servizi di assistenza umanitaria, aumentando la vulnerabilità delle popolazioni locali. L'insorgenza di locuste continua a minacciare la sicurezza alimentare, con la possibilità di ulteriori perdite di raccolti nei prossimi mesi."
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria in Etiopia è stata influenzata dalla presenza di sfollati somali nei campi di rifugio, dove le misure di quarantena sono state implementate per prevenire l'espansione del COVID-19. Le autorità hanno intensificato le campagne di sensibilizzazione e di prevenzione all'interno dei campi di rifugio per contenere la diffusione del virus. La mobilità dei rifugiati è stata limitata, con restrizioni sulle attività di controllo delle locuste e sulle operazioni umanitarie. La situazione è ulteriormente complicata dalla guerra nel Tigray, che ha portato a migrazioni forzate e tensioni regionali. Le autorità stanno cercando di gestire queste sfide con un mix di misure di controllo, assistenza umanitaria e strategie di risposta, ma le sfide rimangono significative.",
+    "rifugiati": 151426,
+    "richiedenti_asilo": 125072,
+    "sfollati_interni": 2733628
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana è stata indebolita dalla combinazione di una grave insorgenza di locuste, la pandemia di COVID-19 e le conseguenti restrizioni di movimento. Le proiezioni indicano una diminuzione della crescita economica, con preoccupazioni riguardo all'inflazione e alla stabilità finanziaria. L'insorgenza di locuste ha avuto un impatto significativo sulla produzione agricola, mentre la pandemia di COVID-19 ha limitato l'accesso ai mercati e alle risorse. Le misure di quarantena e di controllo del COVID-19 hanno anche limitato l'attività economica, con conseguenze negative sul settore turistico e sulle attività commerciali. L'economia è ulteriormente indebolita dalla guerra nel Tigray, che ha portato a migrazioni forzate e tensioni regionali. Le autorità stanno cercando di gestire queste sfide con un mix di misure di controllo, assistenza umanitaria e strategie di risposta, ma le sfide rimangono significative.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, Etiopia ha affrontato una serie di sfide significative, incluse la pandemia di COVID-19, l'insorgenza di locuste, e la crisi alimentare. La situazione è stata ulteriormente complicata dalla guerra nel Tigray, che ha portato a migrazioni forzate e tensioni regionali. Le autorità hanno implementato misure di quarantena e di controllo per contenere la diffusione del COVID-19, che hanno influenzato la risposta all'insorgenza di locuste e limitato l'accesso ai servizi di assistenza umanitaria. La situazione è ulteriormente complicata dalla presenza di sfollati somali nei campi di rifugio, dove le misure di quarantena sono state implementate per prevenire l'espansione del virus. L'economia è stata indebolita dalla combinazione di questi fattori, con preoccupazioni riguardo all'inflazione e alla stabilità finanziaria. Le autorità stanno cercando di gestire queste sfide con un mix di misure di controllo, assistenza umanitaria e strategie di risposta, ma le sfide rimangono significative.",
+  "fonti": [
+    "ETH_2020-05-14_20200514_acaps_covid19_government_measures_locust_impact_0.pdf",
+    "ETH_2020-june_food-security-outlook.pdf",
+    "ETH_2020-may_key-message-update.pdf",
+    "ETH_2020Q2_2020-06-30_somali-refugees-in-ethiopia-jijiga-region-situational-update.pdf",
+    "ETH_mpo_sm20.pdf",
+    "wikipedia:ETH_2020"
+  ]
+}

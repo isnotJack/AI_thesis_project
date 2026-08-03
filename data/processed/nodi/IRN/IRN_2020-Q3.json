@@ -1,0 +1,60 @@
+{
+  "paese": "IRN",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 60,
+    "n_vittime": 73
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Refugiati e comunità di accoglienza in Iran hanno subito un aumento delle difficoltà economiche a causa dell'inflazione e della devalutazione della valuta nazionale. L'assistenza umanitaria internazionale è essenziale per sostenere le politiche inclusive verso i rifugiati, nonché per fornire servizi essenziali come test gratuiti per COVID-19.",
+    "rifugiati": 135018,
+    "richiedenti_asilo": 77229,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana è contratta a causa di sanzioni USA, bassi prezzi del petrolio e l'effetto combinato della pandemia di COVID-19. Si prevede una contrazione del PIL, con rischi fiscali e esterni legati alla diminuzione delle riserve di cambio e al progetto di deficit fiscale.",
+    "tasso_poverta_pct": 4.6
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "MAR-10297887-1.v2 – Iranian Web Shells",
+      "Iran-Based Threat Actor Exploits VPN Vulnerabilities"
+    ],
+    "gruppi_minaccia_associati": [
+      "STRONTIUM",
+      "PHOSPHORUS",
+      "BARIUM",
+      "THALLIUM",
+      "ZINC",
+      "NICKEL",
+      "MANGANESE",
+      "MERCURY",
+      "DUBNIUM"
+    ],
+    "settori_bersaglio": [
+      "Non-governativi",
+      "Servizi professionali",
+      "Organizzazioni governative",
+      "Organizzazioni internazionali",
+      "Aziende di tecnologia dell'informazione",
+      "Educazione superiore"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, l'Iran ha continuato a fare fronte a sfide significative, incluse le conseguenze delle sanzioni USA, la crisi economica e la pandemia di COVID-19. L'attenzione è stata rivolta alla gestione delle condizioni economiche difficili e alla protezione dei rifugiati, nonché alla risposta alle minacce cibernetiche. L'ambiente geopolitico resta complesso, con continui sviluppi legati alle relazioni internazionali e alle dinamiche interne.",
+  "fonti": [
+    "IRN_2020Q3_2020-09-30_unhcr-iran-factsheet-july-september-2020.pdf",
+    "IRN_mpo_sm20.pdf",
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "https://www.cisa.gov/news-events/analysis-reports/ar20-259a",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-259a",
+    "wikipedia:IRN_2020"
+  ]
+}

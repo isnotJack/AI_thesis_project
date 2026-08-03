@@ -1,0 +1,35 @@
+{
+  "paese": "CHN",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 80,
+    "n_vittime": 3
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 212863,
+    "richiedenti_asilo": 104248,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, la Cina ha celebrato il 70º anniversario della fondazione della Repubblica Popolare Cinese il 1º ottobre. Durante questo periodo, la città di Wuhan, nella provincia di Hubei, ha ospitato la 2019 Military World Games dal 18 al 27 ottobre. A dicembre, l'Organizzazione Mondiale della Sanità è stata informata di un cluster di casi di polmonite di causa sconosciuta a Wuhan, che sarebbe stato identificato come la malattia da coronavirus 2019 (COVID-19).",
+  "fonti": [
+    "wikipedia:CHN_2019"
+  ]
+}

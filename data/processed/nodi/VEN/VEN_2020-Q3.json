@@ -1,0 +1,36 @@
+{
+  "paese": "VEN",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il paese è stato caratterizzato da una situazione di crisi politica e tensioni interne. Sono stati segnalati episodi di violenza, inclusi scontri armati e proteste. La leadership politica è divisa tra Nicolás Maduro e Juan Guaidó, con continue accuse reciproche. Sono state riportate azioni militari e tentativi di infiltrazione da parte di forze esterne. La situazione è stata ulteriormente complicata dalla pandemia di COVID-19, che ha aumentato le tensioni sociali e politiche.",
+    "n_eventi_violenti": 322,
+    "n_vittime": 465
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il paese ha visto un flusso significativo di migranti verso paesi vicini, come Colombia, a causa delle continue crisi politiche, economiche e sociali. I migranti hanno affrontato ostacoli operativi, inclusi blocchi di strade da parte di protestanti e difficoltà di accesso ai servizi essenziali nei paesi di destinazione. La situazione di protezione dei migranti è stata critica, con crescenti problemi legati alla mancanza di risorse e alla precaria situazione umanitaria.",
+    "rifugiati": 171112,
+    "richiedenti_asilo": 851265,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Venezuela ha continuato a essere caratterizzato da una profonda crisi politica, con una leadership divisa tra Nicolás Maduro e Juan Guaidó. La situazione è stata ulteriormente complicata dalla pandemia di COVID-19, che ha portato a ulteriori tensioni sociali e economiche. Sono state riportate azioni militari e tentativi di infiltrazione da parte di forze esterne, aumentando le tensioni internazionali. La mancanza di risorse e le continue crisi hanno reso la situazione umanitaria sempre più critica.",
+  "fonti": [
+    "wikipedia:VEN_2020",
+    "unhcr_reports (VEN_2020Q3_2020-09-22_unhcr-latin-america-2020-funding-update-as-of-22-july-2020.pdf)"
+  ]
+}

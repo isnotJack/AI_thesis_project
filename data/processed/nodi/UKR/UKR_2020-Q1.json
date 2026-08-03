@@ -1,0 +1,36 @@
+{
+  "paese": "UKR",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2020, la situazione lungo la linea di contatto in Ucraina è stata caratterizzata da una tensione persistente. Il conflitto tra le forze ucraine e i separatisti russi continua, con episodi di violenza sporadica. La presenza di infrastrutture deboli e la mancanza di servizi fondamentali, come l'acqua pulita e i servizi medici, sono state evidenziate nei rapporti. La situazione è ulteriormente complicata dalla pandemia di COVID-19, che ha aumentato le pressioni su queste comunità già vulnerabili.",
+    "n_eventi_violenti": 3495,
+    "n_vittime": 44
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2020, le autorità ucraine hanno fatto fronte a sfide significative legate alla migrazione. Il ritorno di migranti, inclusi lavoratori e studenti, da paesi esteri verso le aree rurali lungo la linea di contatto ha creato preoccupazioni legate alla propagazione di COVID-19. Alcuni ritornati hanno rispettato le misure di autoisolamento, mentre altri non hanno seguito le raccomandazioni, aumentando il rischio di diffusione del virus. La mancanza di servizi di trasporto pubblico ha reso difficile la gestione di queste situazioni.",
+    "rifugiati": 35156,
+    "richiedenti_asilo": 21426,
+    "sfollati_interni": 734000
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, l'Ucraina ha continuato a fare fronte a sfide significative legate al conflitto in corso nel Donbass e alla pandemia di COVID-19. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmygal hanno guidato le risposte governative a queste sfide. L'attacco aereo iraniano all'aereo di linea ucraino nel gennaio ha avuto un impatto significativo, mentre la situazione lungo la linea di contatto è rimasta tesa con episodi di violenza sporadica. La pandemia ha ulteriormente complicato le condizioni esistenti, mettendo a dura prova le comunità lungo la linea di contatto e le infrastrutture già deboli.",
+  "fonti": [
+    "unhcr_reports (UKR_2020Q1_2020-03-31_ukraine-protection-monitoring-report-of-settlements-along-th.pdf)",
+    "wikipedia:UKR_2020"
+  ]
+}

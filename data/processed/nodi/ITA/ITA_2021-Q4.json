@@ -1,0 +1,44 @@
+{
+  "paese": "ITA",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi arrivi di migranti via mare in aumento rispetto all'anno precedente. I principali paesi di origine includono Tunisia, Bangladesh, Egitto, Costa d'Avorio, Iran, Pakistan, Egitto, Iraq, Guinea, Eritrea, Marocco, Arabia Saudita, Afghanistan e Somalia. L'incremento suggerisce una crescita nei flussi migratori verso l'Italia, con una maggiore presenza di migranti provenienti da paesi africani e asiatici.",
+    "rifugiati": 61,
+    "richiedenti_asilo": 639,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Incidente di SolarWinds (2020): Un attacco di supply chain che ha coinvolto la soluzione di monitoraggio Orion di SolarWinds, con conseguenze significative per varie organizzazioni, compresa l'Italia.",
+      "Vulnerabilità di Akamai (2021): Un problema nel server DNS di Akamai ha causato un'interruzione di servizio per numerosi siti web e applicazioni globali.",
+      "Vulnerabilità di Fastly (2021): Un problema nel CDN di Fastly ha portato a un'interruzione di servizio per molte piattaforme web globali.",
+      "Vulnerabilità di Microsoft Exchange Server (2021): Vulnerabilità zero-day in Microsoft Exchange Server, con possibili attacchi mirati.",
+      "Vulnerabilità di Apple WebKit (2021): Vulnerabilità zero-day in Apple WebKit, con patch rilasciati per correggere la situazione.",
+      "Vulnerabilità di Google Chrome (2021): Patch rilasciati per correggere varie vulnerabilità, incluse alcune zero-day, in Google Chrome."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2021, l'Italia ha continuato a gestire le conseguenze della pandemia di COVID-19, con misure di contenimento e vaccinazioni che hanno influenzato la vita quotidiana. L'attenzione è stata rivolta anche a questioni sociali e politiche, come le dimostrazioni contro le misure anti-COVID e le tensioni legate alla salute pubblica. L'anno ha visto anche eventi sportivi di rilievo, come la vittoria dell'Italia nella UEFA Euro 2020, e sviluppi culturali e politici significativi.",
+  "fonti": [
+    "ITA_2021Q4_2021-12-28_unhcr-italy-weekly-snapshot-20-dec-26-dec-2021.pdf",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "wikipedia:ITA_2021"
+  ]
+}

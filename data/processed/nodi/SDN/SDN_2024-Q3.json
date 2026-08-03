@@ -1,0 +1,41 @@
+{
+  "paese": "SDN",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Sudan è intensificato dallo scontro tra le forze armate sudanesi (SAF) e le forze di supporto rapido (RSF). La capitale Khartoum è al centro delle ostilità, con entrambe le parti che controllano diverse zone della città. La violenza ha portato a una grave degradazione dell'ordine sociale e amministrativo, con lo sfondamento di mercati e negozi, il saccheggio di impianti di produzione e la distruzione di infrastrutture civili. La violenza ha anche portato a un aumento dei dislocamenti interni, con migliaia di persone che cercano rifugio in altre zone del paese. La situazione è aggravata dalla mancanza di accesso umanitario e dalla riduzione dei servizi essenziali, come l'assistenza sanitaria e l'istruzione. La violenza continua a minacciare la sicurezza delle popolazioni civili, con attacchi a ospedali e scuole, e la situazione è ulteriormente complicata dalla presenza di gruppi armati che utilizzano la violenza contro i civili. La guerra ha anche portato a un aumento della violenza sessuale e di altre violazioni dei diritti umani, con entrambe le parti accusate di tali atti. La situazione è ulteriormente complicata dalla presenza di armi pesanti e dalla degradazione delle infrastrutture civili, che hanno portato a un aumento delle violazioni dei diritti umani e alla riduzione dell'accesso ai servizi essenziali.",
+    "n_eventi_violenti": 1427,
+    "n_vittime": 3079
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati sudanesi in Etiopia è critica, con migliaia di persone che hanno trovato rifugio nei campi di Kumer e Awlala nella regione di Amhara. Tuttavia, molte di queste persone hanno lasciato i campi a causa di violazioni dei diritti umani, mancanza di servizi adeguati e insegurezza. Alcuni rifugiati hanno chiesto di essere ricollocati in un luogo più sicuro, mentre altri hanno espresso il desiderio di tornare in Sudan. La situazione è ulteriormente complicata dalla chiusura dei campi da parte del governo etiopico, che ha identificato un nuovo sito di insediamento chiamato Aftit. Tuttavia, i piani e i tempi per il ricollocamento dei rifugiati non sono ancora stati comunicati, e la sicurezza del nuovo sito è incerta. L'accesso ai servizi umanitari è stato limitato a causa delle violazioni dei diritti umani e della mancanza di servizi adeguati nei campi di rifugiati. La situazione è ulteriormente complicata dalla chiusura dei campi da parte del governo etiopico, che ha identificato un nuovo sito di insediamento chiamato Aftit. Tuttavia, i piani e i tempi per il ricollocamento dei rifugiati non sono ancora stati comunicati, e la sicurezza del nuovo sito è incerta.",
+    "rifugiati": 2094373,
+    "richiedenti_asilo": 682535,
+    "sfollati_interni": 11559970
+  },
+  "economia": {
+    "sintesi": "La crisi economica nel Sudan è profonda, con una contrazione significativa dell'economia prevista per il 2024. La crisi è stata aggravata dal conflitto, che ha portato a una debolezza economica, una crisi finanziaria e una crisi umanitaria. La situazione è ulteriormente complicata dalla devaliazione della valuta nazionale, dall'aumento dell'inflazione e dalla riduzione delle riserve di valuta straniera. La crisi ha anche portato a una riduzione dell'accesso ai servizi finanziari, con la popolazione che si trova a fare affidamento su remessas e altri mezzi di sostentamento. La situazione è ulteriormente complicata dalla presenza di barriere all'accesso ai servizi umanitari e alla riduzione dei servizi essenziali, come l'assistenza sanitaria e l'istruzione. La crisi economica ha anche portato a un aumento della povertà e della disoccupazione, con la popolazione che si trova a fare affidamento su remessas e altri mezzi di sostentamento.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2024, il Sudan è stato caratterizzato da un conflitto civile intensificato tra le forze armate sudanesi (SAF) e le forze di supporto rapido (RSF). La capitale Khartoum è stata al centro delle ostilità, con entrambe le parti che controllano diverse zone della città. La violenza ha portato a una grave degradazione dell'ordine sociale e amministrativo, con lo sfondamento di mercati e negozi, il saccheggio di impianti di produzione e la distruzione di infrastrutture civili. La violenza ha anche portato a un aumento dei dislocamenti interni, con migliaia di persone che cercano rifugio in altre zone del paese. La situazione è aggravata dalla mancanza di accesso umanitario e dalla riduzione dei servizi essenziali, come l'assistenza sanitaria e l'istruzione. La violenza continua a minacciare la sicurezza delle popolazioni civili, con attacchi a ospedali e scuole, e la situazione è ulteriormente complicata dalla presenza di gruppi armati che utilizzano la violenza contro i civili. La guerra ha anche portato a un aumento della violenza sessuale e di altre violazioni dei diritti umani, con entrambe le parti accusate di tali atti. La situazione è ulteriormente complicata dalla presenza di armi pesanti e dalla degradazione delle infrastrutture civili, che hanno portato a un aumento delle violazioni dei diritti umani e alla riduzione dell'accesso ai servizi essenziali.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2024.pdf",
+    "SDN_2024-07-05_20240705_ACAPS_Briefing_note_Ethiopia_Sudanese_refugees.pdf",
+    "SDN_2024-08-07_20240807_ACAPS_Sudan_Analysis_hub_Food_Security_Situation.pdf",
+    "SDN_2024-08-14_20240814_ACAPS_Sudan_-_Situational_update_Khartoum_state.pdf",
+    "SDN_2024Q3_2024-09-30_sudan-population-dashboard-overview-of-refugees-and-asylum-s.pdf",
+    "SDN_mpo_sm24.pdf",
+    "wikipedia:SDN_2024"
+  ]
+}

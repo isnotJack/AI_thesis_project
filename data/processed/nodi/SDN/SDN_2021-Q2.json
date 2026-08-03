@@ -1,0 +1,40 @@
+{
+  "paese": "SDN",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono stati episodi di violenza intercomunale in Darfur, con un aumento dei conflitti tra tribù. Questi episodi hanno portato a spostamenti di popolazione e a un aumento dei rifugiati interni. La situazione è stata particolarmente intensa in West Darfur, dove ci sono state violenze tra Masalit e nomadi arabi, con conseguenti perdite di vite umane e feriti. Inoltre, ci sono stati scontri tra tribù in diverse regioni, inclusi episodi di violenza a Darfur e Kordofan. La presenza di gruppi armati, come il Sudan People's Liberation Movement-North (SPLM-N), continua a essere un fattore di instabilità. La situazione è stata complicata anche dalla presenza di rifugiati etiopi e sudanese del Sud, che hanno aumentato la tensione nei confini. La presenza di forze armate e la continua violenza hanno creato un ambiente instabile, con spostamenti di popolazione e conflitti che hanno impatto sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni locali.",
+    "n_eventi_violenti": 146,
+    "n_vittime": 435
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia includono la crisi macroeconomiche, i conflitti intercomunali che hanno portato allo spostamento di popolazioni, la devalutazione della valuta nazionale, l'aumento dei prezzi alimentari e dei costi di trasporto, e la scarsità di acquisto di cibo da parte delle famiglie. La carestia è stata particolarmente accentuata nelle regioni di Darfur, Kordofan, Sud Sudan, Red Sea e Kassala, dove le condizioni di povertà e la mancanza di accesso ai beni di base sono state più gravi. L'aumento dei prezzi dei cereali e delle altre merci essenziali, unito alla devalutazione della valuta nazionale, ha reso difficile per molte famiglie acquistare cibo sufficiente. La situazione è stata peggiorata anche dalla presenza di rifugiati etiopi e sudanese del Sud, che hanno aumentato la pressione sui sistemi di assistenza e sui mercati locali."
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria è stata caratterizzata da un aumento dei rifugiati interni e di rifugiati provenienti da paesi vicini, come l'Etiopia e il Sud Sudan. Gli spostamenti di popolazione sono stati principalmente causati da conflitti intercomunali e dalla situazione di crisi generale. La presenza di rifugiati ha aumentato la pressione sui sistemi di assistenza e sui mercati locali, complicando ulteriormente la situazione di carestia. I rifugiati hanno trovato rifugio in diverse regioni del Sudan, inclusi campi di rifugiati e aree urbane, dove la loro presenza ha creato sfide per l'assistenza umanitaria e la gestione delle risorse locali.",
+    "rifugiati": 825290,
+    "richiedenti_asilo": 75164,
+    "sfollati_interni": 3036590
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è stato negativo, con una crisi macroeconomiche che ha portato a una devalutazione della valuta nazionale, un aumento dei prezzi alimentari e dei costi di trasporto, e una situazione di povertà crescente. La devalutazione della valuta nazionale ha reso più costosi gli importi di beni essenziali, come cereali e altri alimenti, aumentando la pressione sui consumatori. L'economia è stata ulteriormente indebolita dalla crisi finanziaria e dalla mancanza di accesso ai finanziamenti esterni. La situazione di povertà ha aumentato la vulnerabilità delle famiglie, rendendole più dipendenti dai mercati locali e dalle forme di assistenza umanitaria.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sudan ha continuato a fare fronte a una serie di sfide, inclusi conflitti intercomunali, crisi macroeconomiche, carestia e migrazione. La leadership del paese, composta dal Presidente del Consiglio di Sovranità Abdel Fattah al-Burhan e dal Primo Ministro Abdalla Hamdok, ha cercato di gestire queste sfide, ma la situazione rimane complessa. La guerra in Darfur continua a essere un problema significativo, con episodi di violenza che hanno portato a spostamenti di popolazione e a un aumento dei rifugiati interni. La pandemia di COVID-19 ha continuato a influenzare la situazione, con misure di controllo che hanno avuto un impatto sulle attività economiche e sociali. La situazione economica è stata particolarmente difficile, con una devalutazione della valuta nazionale e un aumento dei prezzi alimentari che hanno aumentato la povertà e la vulnerabilità delle famiglie. La presenza di rifugiati etiopi e sudanese del Sud ha complicato ulteriormente la situazione, aumentando la pressione sui sistemi di assistenza e sui mercati locali.",
+  "fonti": [
+    "fews_net (SDN_2021-june_food-security-outlook.pdf)",
+    "fews_net (SDN_2021-may_key-message-update.pdf)",
+    "fews_net (SDN_2021-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (SDN_2021Q2_2021-06-30_sudan-situation-population-of-concern-to-unhcr-as-of-30-june.pdf)",
+    "worldbank_mpo (SDN_mpo_sm21.pdf)",
+    "wikipedia:SDN_2021"
+  ]
+}

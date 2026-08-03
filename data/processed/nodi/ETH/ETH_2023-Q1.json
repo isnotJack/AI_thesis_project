@@ -1,0 +1,41 @@
+{
+  "paese": "ETH",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Il trimestre è caratterizzato da conflitti persistenti in diverse regioni dell'Etiopia, inclusi la regione di Amhara, Oromia e Tigray. I principali attori includono le forze speciali orome, le forze speciali amhara, il Fronte di Liberazione del Tigray (TPLF) e i gruppi di milizie etniche come il Fano e l'OLA. I conflitti sono accompagnati da violazioni dei diritti umani, inclusi arresti arbitrari, violenze contro civili e deportazioni di rifugiati. La situazione è particolarmente critica nella regione di Amhara, dove ci sono stati numerosi attacchi e violenze contro civili, con un aumento dei decessi e delle lesioni. La regione di Oromia è interessata da conflitti etnici, mentre la regione di Tigray continua a lottare con le conseguenze di un conflitto a lungo termine. L'uso di forze speciali e milizie etniche sembra essere un fattore significativo nei conflitti, con le forze speciali orome coinvolte in attacchi contro civili amhara. La regione di Gambela è interessata da violenze etniche e da un aumento dei rifugiati provenienti dal Sudan. La situazione è complessa e dinamica, con continue violenze e spostamenti di popolazione.",
+    "n_eventi_violenti": 185,
+    "n_vittime": 476
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia è principalmente causata da una combinazione di siccità cronica, conflitti e crisi economica. La siccità ha avuto un impatto significativo sulla produzione agricola e sulle condizioni di vita delle popolazioni rurali, con un aumento dei decessi di bestiame e una riduzione delle riserve di cibo. I conflitti hanno ulteriormente aggravato la situazione, limitando l'accesso ai mercati e alle risorse. La crisi economica, inclusa l'inflazione e la riduzione dei sussidi, ha aumentato il costo dei beni di base, rendendo difficile l'accesso ai cibi per le famiglie più vulnerabili. La combinazione di questi fattori ha portato a un aumento significativo delle persone che necessitano di assistenza alimentare, con livelli di malnutrizione acuta che superano i livelli di emergenza in molte zone. La situazione è particolarmente critica nelle regioni di Oromia, Somali e Amhara, dove la siccità e i conflitti hanno avuto un impatto significativo."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione è influenzata da conflitti, siccità e violenze etniche. Ci sono stati numerosi spostamenti di popolazione all'interno dell'Etiopia, con migliaia di interni dislocati che cercano rifugio in zone più sicure e con accesso a risorse. La regione di Amhara ha visto un aumento significativo di interni dislocati a causa dei conflitti etnici e delle violenze contro civili. La regione di Gambela è interessata da un flusso di rifugiati provenienti dal Sudan, con un aumento significativo di rifugiati somali che hanno attraversato il confine. La situazione dei rifugiati è complessa, con limiti all'accesso umanitario e problemi di sicurezza che ostacolano l'assistenza. La presenza di rifugiati e interni dislocati aumenta la pressione sui servizi locali e sulle risorse, creando tensioni con le comunità di accoglienza.",
+    "rifugiati": 158344,
+    "richiedenti_asilo": 139424,
+    "sfollati_interni": 2561497
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana è caratterizzata da condizioni economiche difficili, influenzate da una combinazione di bassi introiti governativi, costi di importazione elevati e inflazione. L'inflazione è rimasta elevata, con un aumento dei prezzi dei beni di base che ha aumentato la pressione sui consumatori. La riduzione dei sussidi petroliferi ha portato a un aumento dei prezzi dei combustibili, influenzando i costi di trasporto e, di conseguenza, i prezzi dei beni. La situazione economica è ulteriormente complicata da conflitti e siccità, che hanno un impatto negativo sulla produzione agricola e sulle condizioni di vita delle popolazioni rurali. L'economia è in difficoltà a mantenere la crescita, con rischi fiscali e esterni che aumentano. La necessità di finanziamenti esterni per la ricostruzione delle regioni settentrionali, come Afar, Amhara e Tigray, è evidente, con stime di bisogni finanziari che superano i 20 miliardi di dollari. La situazione economica è complessa e richiede interventi significativi per promuovere la stabilità e la crescita.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, l'Etiopia ha continuato a lottare con una combinazione di conflitti interni, siccità cronica e crisi economica. La leadership del paese è rimasta stabile con Sahle-Work Zewde come Presidente e Abiy Ahmed come Primo Ministro. I principali eventi del trimestre includono conflitti etnici intensi nella regione di Amhara, con attacchi contro civili e un aumento dei decessi. La regione di Oromia è stata interessata da violenze etniche e dalla presenza di milizie etniche. La regione di Tigray continua a lottare con le conseguenze di un conflitto a lungo termine. La siccità ha avuto un impatto significativo sulla produzione agricola e sulle condizioni di vita delle popolazioni rurali, con un aumento dei decessi di bestiame e una riduzione delle riserve di cibo. La situazione economica è stata influenzata da bassi introiti governativi, costi di importazione elevati e inflazione. La migrazione interna e la presenza di rifugiati sono aumentate a causa di conflitti e siccità, con tensioni crescenti tra le comunità di accoglienza e i rifugiati. L'assistenza umanitaria continua a essere cruciale per affrontare le conseguenze di questi sfide, ma è ostacolata da limiti all'accesso e da violenze contro civili. La situazione è complessa e dinamica, con continue violenze e spostamenti di popolazione.",
+  "fonti": [
+    "ETH_2023-02-07_20230207_acaps_thematic_report_horn_of_africa_analysis_ethiopia_impact_of_drought_oromia_and_somali_regions.pdf",
+    "ETH_2023-february_key-message-update.pdf",
+    "ETH_2023-january_key-message-update.pdf",
+    "ETH_2023-march_key-message-update.pdf",
+    "ETH_2023Q1_2023-03-31_ethiopia-refugees-and-internally-displaced-persons-by-region.pdf",
+    "ETH_mpo_am22.pdf",
+    "wikipedia:ETH_2023"
+  ]
+}

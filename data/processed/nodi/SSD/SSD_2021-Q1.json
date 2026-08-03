@@ -1,0 +1,38 @@
+{
+  "paese": "SSD",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2021, il Sud Sudan è stato caratterizzato da un'attività conflittuale significativa, con eventi di violenza intercomunale e intracomunitaria che hanno coinvolto diverse regioni del paese. Le zone di maggiore preoccupazione includono Warrap, Unity, Upper Nile, e parti di Central e Eastern Equatoria. I combattimenti hanno portato a spostamenti di popolazione e a una riduzione delle attività di sussistenza. La situazione di conflitto continua a limitare l'accesso alla terra e alle risorse, influenzando negativamente la sicurezza alimentare e la stabilità delle comunità locali.",
+    "n_eventi_violenti": 564,
+    "n_vittime": 1031
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia nel Sud Sudan è stata principalmente causata da conflitti protractedi, crisi economica, e problemi di accesso ai beni alimentari. La situazione è peggiorata a causa di eventi climatici estremi come inondazioni e siccità, che hanno influenzato la produzione agricola. L'IPC ha classificato la situazione come 'Carestia Probabile' (IPC Fase 5) in alcune aree, con un rischio elevato di degrado ulteriore in altre zone. La carestia è stata aggravata dalla scarsità di cibo e delle fonti di reddito, nonché dalla mancanza di assistenza umanitaria adeguata."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sud Sudan è stata influenzata da fattori come la carestia, la violenza e la mancanza di sicurezza. Ci sono stati spostamenti significativi di popolazione verso le regioni limitrofe, come l'Etiopia, a causa delle condizioni difficili. La mancanza di protezione per i rifugiati e i dislocati interni ha aumentato la vulnerabilità di queste popolazioni. L'accesso all'assistenza umanitaria è stato ostacolato da problemi logistici e da violazioni dei diritti umani.",
+    "rifugiati": 2362759,
+    "richiedenti_asilo": 5037,
+    "sfollati_interni": 2017236
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per il Sud Sudan è stato negativo, con proiezioni di contrazione del PIL. I rischi fiscali e esterni sono stati segnalati a causa della dipendenza dal settore petrolifero e delle pressioni sulle finanze pubbliche. La povertà è rimasta elevata, con una significativa parte della popolazione che vive al di sotto della linea della povertà. La ripresa economica dipende da fattori come la stabilità politica, la risoluzione dei conflitti e l'incremento delle entrate petrolifere.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, il Sud Sudan ha continuato a lottare con la guerra civile e le conseguenze della pandemia di COVID-19. Il paese ha offerto di mediare una disputa di confine tra il Sudan e l'Etiopia. Vi sono stati problemi finanziari con hotel a Juba, dove politici di diversi gruppi hanno accumulato debiti significativi. L'UNICEF ha lanciato una campagna di vaccinazione contro la polio. Un incidente aereo è stato registrato in Jonglei State, e ci sono stati sviluppi in relazione all'accordo tra il governo sudanese di transizione e il Sudan People's Liberation Movement-North. L'ONU ha approvato una risoluzione per estendere l'embargo sulle armi contro il Sud Sudan a causa della violenza e delle violazioni dei diritti umani. Il paese ha ripreso la produzione di petrolio dopo un lungo periodo di sospensione. Il presidente Salva Kiir Mayardit ha offerto la pace a Riek Machar, leader dell'opposizione, in occasione dell'indipendenza del paese. Ci sono stati scontri tra fazioni rivali del SPLA-IO, con conseguenti perdite di vite umane. Il paese ha ricevuto la prima spedizione di vaccini COVID-19. Il Sudan ha ripreso l'importazione di petrolio dal Sud Sudan dopo una sospensione temporanea. Un incidente aereo è stato registrato a Juba, e l'OMS ha iniziato un'indagine su un'epidemia causata da una malattia sconosciuta.",
+  "fonti": [
+    "fews_net (SSD_2021-february_food-security-outlook.pdf)",
+    "unhcr_reports (SSD_2021Q1_2021-03-30_unhcr-south-sudan-2021-funding-update-as-of-30-march-2021.pdf)",
+    "worldbank_mpo (SSD_mpo_am20.pdf)",
+    "wikipedia:SSD_2021"
+  ]
+}

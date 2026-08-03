@@ -1,0 +1,38 @@
+{
+  "paese": "RUS",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 9,
+    "n_vittime": 6
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 62353,
+    "richiedenti_asilo": 48282,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.3
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Dridex Malware (2019-12-05)"
+    ],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, la Russia ha visto l'incidente nucleare di Nyonoksa, che ha causato 5 morti immediati. In aggiunta, ci sono state proteste a Mosca legate alle elezioni della Duma di Mosca. Il 7 settembre, un scambio di prigionieri tra l'Ucraina e la Russia ha visto la liberazione del regista Oleh Sentsov e altri 66 prigionieri.",
+  "fonti": [
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa19-339a",
+    "wikipedia:RUS_2019"
+  ]
+}

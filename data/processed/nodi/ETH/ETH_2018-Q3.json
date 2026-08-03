@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "Intercomunali conflitti tra gruppi etnici hanno causato un'intensa violenza lungo la frontiera tra le regioni di Oromia e Somali, con sfuggite di armi e attacchi contro civili. La situazione ha portato a un significativo aumento di sfollati interni, con migliaia di persone che hanno lasciato le loro case per sfuggire alla violenza. Le aree più colpite sono Jijiga nella regione di Somali e East Hararghe nella regione di Oromia, dove sono state riportate morti tra la popolazione. La violenza ha continuato a scatenarsi, con nuovi episodi di violenza segnalati dopo il 28 agosto, che hanno portato a ulteriori sfollamenti e tensioni. La situazione ha creato un'urgenza di assistenza umanitaria, con sfollati che hanno bisogno di rifugi, assistenza sanitaria e protezione. La violenza ha anche causato problemi di sicurezza che hanno limitato l'accesso delle organizzazioni umanitarie alle aree colpite.",
+    "n_eventi_violenti": 103,
+    "n_vittime": 399
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è stata aggravata da una combinazione di siccità, conflitti e problemi di accesso. La siccità ha ridotto la produzione agricola, mentre i conflitti hanno limitato l'accesso alle fonti di cibo e reddito. La situazione è peggiorata a causa di problemi di sicurezza che hanno ostacolato l'assistenza umanitaria. La carestia è stata particolarmente intensa nelle regioni di Somali, Oromia e Tigray, dove le condizioni di sicurezza hanno reso difficile l'accesso alle aree colpite. La carestia ha anche causato problemi di malnutrizione, con un aumento dei casi di malnutrizione acuta grave nei campi di rifugiati. La situazione è peggiorata a causa di problemi di sicurezza che hanno ostacolato l'assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è stata un problema significativo a causa dei conflitti e della carestia. Migliaia di persone hanno lasciato le loro case per sfuggire alla violenza e alla carestia, con sfollati che hanno bisogno di rifugi, assistenza sanitaria e protezione. La situazione ha creato un'urgenza di assistenza umanitaria, con sfollati che hanno bisogno di rifugi, assistenza sanitaria e protezione. La violenza ha anche causato problemi di sicurezza che hanno limitato l'accesso delle organizzazioni umanitarie alle aree colpite.",
+    "rifugiati": 92232,
+    "richiedenti_asilo": 133254,
+    "sfollati_interni": 2615800
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2018, l'Etiopia ha visto un aumento dei conflitti intercomunali tra gruppi etnici lungo la frontiera tra le regioni di Oromia e Somali. Questi conflitti hanno portato a un significativo aumento di sfollati interni, con migliaia di persone che hanno lasciato le loro case per sfuggire alla violenza. La situazione ha creato un'urgenza di assistenza umanitaria, con sfollati che hanno bisogno di rifugi, assistenza sanitaria e protezione. La violenza ha anche causato problemi di sicurezza che hanno limitato l'accesso delle organizzazioni umanitarie alle aree colpite. Inoltre, la siccità ha aggravato la situazione di carestia, con un aumento dei casi di malnutrizione acuta grave nei campi di rifugiati. La situazione ha creato un'urgenza di assistenza umanitaria, con sfollati che hanno bisogno di rifugi, assistenza sanitaria e protezione. La violenza ha anche causato problemi di sicurezza che hanno limitato l'accesso delle organizzazioni umanitarie alle aree colpite.",
+  "fonti": [
+    "ETH_2018-08-31_20180831_acaps_start_briefing_note_ethiopia_displacement.pdf",
+    "ETH_2018-august_food-security-outlook-update.pdf",
+    "ETH_2018-september_key-message-update.pdf",
+    "ETH_2018Q3_2018-09-30_standardized-expanded-nutrition-survey-sens-in-melkadida-ref.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "wikipedia:ETH_2018"
+  ]
+}

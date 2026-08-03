@@ -1,0 +1,39 @@
+{
+  "paese": "UKR",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2024, la situazione di conflitto in Ucraina continua a essere intensa, con azioni militari significative da entrambe le parti. Le regioni di Donetsk, Kharkiv, Zaporizhzhia, Luhansk e Kherson sono particolarmente colpite, con elevati livelli di conflitto. Nel mese di giugno, si è registrato un aumento significativo nel numero di vittime civili e feriti a causa di attacchi missilistici, soprattutto su infrastrutture cruciali come ospedali, scuole e impianti energetici. La dinamica del conflitto mostra un'intensificazione delle operazioni militari, con entrambe le parti impegnate in azioni offensive e difensive. La situazione è caratterizzata da continue azioni belliche, inclusi attacchi aerei e terrestri, con un aumento delle vittime civili e delle infrastrutture danneggiate. Le regioni di Donetsk, Kharkiv, Zaporizhzhia, Luhansk e Kherson continuano ad essere le più colpite, con elevati livelli di conflitto e conseguenti effetti umanitari e logistici. L'incremento delle azioni militari ha portato a un aumento delle vittime civili e delle infrastrutture danneggiate, con un impatto significativo sulle condizioni delle popolazioni locali.",
+    "n_eventi_violenti": 11859,
+    "n_vittime": 20808
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "Nel secondo trimestre del 2024, la situazione di carestia in Ucraina è stata segnalata come di livello crisi (fase 3) a causa di diverse sfide, tra cui la scarsità di energia e le conseguenti difficoltà di inverno. L'Ucraina ha fatto fronte a un aumento delle esigenze di invernoizzazione atipiche a causa delle carenze energetiche, con un forte impatto sulle famiglie vulnerabili. Le preoccupazioni riguardano principalmente le esigenze di invernoizzazione, con un aumento delle necessità di riscaldamento e illuminazione a causa delle interruzioni continue dell'approvvigionamento energetico. La carestia è stata accentuata dalle conseguenze del conflitto, che hanno ridotto l'accesso a risorse essenziali come cibo, acqua e servizi essenziali. L'incremento delle esigenze di invernoizzazione ha portato a un aumento delle difficoltà per le famiglie, soprattutto in aree colpite dal conflitto, dove le infrastrutture sono state gravemente danneggiate."
+  },
+  "migrazione": {
+    "descrizione": "Nel secondo trimestre del 2024, la situazione migratoria in Ucraina continua a essere critica, con sfide significative legate alla protezione dei rifugiati e alle condizioni di vita nei campi. Le famiglie ucraine che hanno dato alla luce figli in Ungheria dopo il loro spostamento dal paese di origine stanno affrontando complessità procedurali per la registrazione dei nati. Le procedure di registrazione sono complesse e richiedono documenti specifici, inclusi certificati di nascita e dichiarazioni di paternità. La mancanza di documenti ucraini tradotti in ungherese può creare ostacoli significativi. Inoltre, la mancanza di un'identità ucraina temporanea può complicare ulteriormente la situazione. Le famiglie stanno affrontando sfide significative per ottenere la registrazione dei loro figli, con procedure che richiedono traduzioni ufficiali e conferme di paternità. Queste complessità procedurali stanno creando ostacoli per le famiglie ucraine che cercano di stabilizzarsi in Ungheria.",
+    "rifugiati": 5120036,
+    "richiedenti_asilo": 44349,
+    "sfollati_interni": 3665000
+  },
+  "economia": {
+    "sintesi": "Nel secondo trimestre del 2024, l'economia ucraina continua a mostrare segni di resilienza, nonostante le sfide legate al conflitto e alle pressioni fiscali. L'Ucraina ha mantenuto un flusso significativo di esportazioni di cereali e olio di semi, mantenendo livelli simili a quelli prebellici. Le esportazioni hanno continuato a essere un pilastro importante per il bilancio del paese, contribuendo a mantenere le entrate. Tuttavia, le pressioni fiscali e le esigenze di finanziamento per le attività belliche continuano a essere un problema, con la necessità di gestire il debito pubblico e le spese militari. L'economia ucraina mostra segni di resilienza grazie alle esportazioni di cereali e olio di semi, che hanno mantenuto livelli prebellici. Tuttavia, le sfide fiscali e le esigenze di finanziamento per le attività belliche continuano a essere preoccupanti, con un forte impatto sul debito pubblico e sulle spese militari. L'Ucraina deve continuare a gestire queste sfide per mantenere la sua stabilità economica.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2024, l'Ucraina continua a essere coinvolta in un conflitto di larga scala con la Russia. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal continuano a guidare il paese attraverso questa crisi. Nel mese di giugno, l'Ucraina ha ricevuto un sostegno significativo da parte della comunità internazionale, con accordi di aiuto militare e finanziario da parte degli Stati Uniti, dell'Unione Europea e di altri paesi. L'Ucraina ha anche avanzato le sue aspirazioni verso l'adesione all'Unione Europea, con negoziati ufficiali avviati. Tuttavia, la situazione rimane complessa, con continue azioni militari e sfide legate alla gestione delle conseguenze del conflitto, inclusi i rifugiati, le esigenze umanitarie e le pressioni economiche. L'Ucraina continua a fare fronte a sfide significative legate al conflitto, con un sostegno internazionale crescente ma complessità continue legate alla gestione delle conseguenze del conflitto, inclusi i rifugiati, le esigenze umanitarie e le pressioni economiche. Il paese sta cercando di mantenere la sua resilienza economica e politica, nonostante le sfide continue.",
+  "fonti": [
+    "acaps (UKR_2024-06-03_20240603_ACAPS_Ukraine_analysis_hub_crisis_severity_in_administrative_regions.pdf)",
+    "fews_net (UKR_2024-june_key-message-update.pdf)",
+    "unhcr_reports (UKR_2024Q2_2024-06-30_hungary-2024.pdf)",
+    "worldbank_mpo (UKR_mpo_sm24.pdf)",
+    "wikipedia:UKR_2024"
+  ]
+}

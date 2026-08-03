@@ -1,0 +1,39 @@
+{
+  "paese": "YEM",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con intensità, con attivita' militari da parte delle forze SBA contro le aree controllate dal governo internazionalmente riconosciuto (IRG). Le forze SBA hanno continuato a mirare alle infrastrutture di esportazione di petrolio e hanno minacciato di riprendere le operazioni militari se non vengono soddisfatte le loro richieste, incluse le richieste di pagamenti per i salari dei funzionari civili e una maggiore quota delle entrate petrolifere. Ci sono stati attacchi contro le posizioni IRG, inclusi attacchi aeree e incursioni con droni. Le autorita' IRG hanno risposto con attacchi aerei contro le forze SBA. Il conflitto ha causato dislocamenti interni e ha aumentato la pressione sui servizi umanitari.",
+    "n_eventi_violenti": 1002,
+    "n_vittime": 1106
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen è aggravata da fattori come la deprezzazione della valuta locale, l'aumento dei prezzi dei beni di base, la scarsità di alimenti e la mancanza di accesso ai servizi umanitari. L'aumento dei prezzi dei beni di base, inclusi i cereali e gli alimenti essenziali, ha reso difficile l'accesso all'alimentazione per molte famiglie. La carestia è peggiorata anche a causa delle interruzioni nei servizi umanitari e delle difficoltà di accesso ai territori controllati dalle varie fazioni in conflitto."
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria è critica a causa delle continue minacce e delle violazioni dei diritti umani nei campi per sfollati interni. Gli sfollati continuano a subire violenze e mancanza di accesso ai servizi essenziali. Le autorità IRG hanno continuato a limitare l'accesso ai campi per sfollati interni, aumentando la vulnerabilità di queste popolazioni. Gli sfollati continuano a essere soggetti a violenze e mancanza di accesso ai servizi essenziali.",
+    "rifugiati": 40147,
+    "richiedenti_asilo": 33524,
+    "sfollati_interni": 4523022
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere fragile a causa del conflitto, della deprezzazione della valuta locale e dell'aumento dei prezzi dei beni di base. L'economia è pesantemente dipendente dalle entrate petrolifere, ma queste sono state interrotte a causa del conflitto. L'aumento dei prezzi dei beni di base ha reso difficile l'accesso all'alimentazione per molte famiglie. L'economia è in recessione e si prevede che continuerà a deteriorarsi a meno che non si verifichino cambiamenti significativi.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2022, il Yemen continua a essere afflitto da un conflitto armato persistente, con continue tensioni tra le forze SBA e le autorità IRG. Il paese è rimasto profondamente diviso, con diverse fazioni in lotta per il controllo del territorio. Il conflitto ha causato un grave impatto umanitario, con migliaia di civili sfollati e privati di accesso ai servizi essenziali. Le violazioni dei diritti umani continuano a essere un problema significativo, con molte vittime civili e violenze contro gli sfollati interni. Il paese continua a lottare con la carestia e la mancanza di accesso ai servizi umanitari a causa delle continue ostilità.",
+  "fonti": [
+    "acaps (YEM_2022-12-21_20221221_acaps_global_analysis_ripple_effects_of_the_conflict_in_ukraine_0.pdf)",
+    "fews_net (YEM_2022-december_food-security-outlook-update.pdf)",
+    "unhcr_reports (YEM_2022Q4_2022-12-19_cccm-yemen-cluster-situation-overview-november-2022.pdf)",
+    "worldbank_mpo (YEM_mpo_am22.pdf)",
+    "wikipedia:YEM_2022"
+  ]
+}

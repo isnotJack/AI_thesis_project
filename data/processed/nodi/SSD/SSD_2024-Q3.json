@@ -1,0 +1,39 @@
+{
+  "paese": "SSD",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "South Sudan grappiglia con una serie di sfide multifacettate, comprese instabilità politiche, fragilità economica e conflitti intercomunitari. La violenza intercomunitaria persiste, con incidenti di violenza che hanno portato a morti e spostamenti di popolazione. La violenza è alimentata da dispute tribali, alleanze politiche e scontri tra gruppi pastorali. L'incidenza di violenza intercomunitaria è aumentata del 24% tra gennaio e marzo 2024 rispetto allo stesso periodo del 2023. L'accesso umanitario è ostacolato da attacchi contro lavoratori umanitari, asset e forniture. Le tensioni sono accentuate dalla mancanza di un governo unificato, che ha permesso che le dispute locali si trasformino in conflitti più ampi. Le elezioni previste per dicembre 2024 sono un punto focale di tensione, con diverse fazioni che competono per il potere. La situazione è ulteriormente complicata dalla continua fuga di rifugiati dal Sudan vicino, che aumenta la pressione sui rifugiati e le comunità di accoglienza.",
+    "n_eventi_violenti": 288,
+    "n_vittime": 526
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "I risultati di emergenza (IPC Fase 4) rimangono diffusi in tutto il paese durante la stagione delle piogge principale di settembre 2024, causati da una combinazione di shock, inclusi allagamenti in espansione, crisi macroeconomiche, conflitti continuati, instabilità e alta pressione di ritorno. Le condizioni di insegna di carestia (IPC Fase 5) sono probabili tra alcune famiglie in Pibor; tra i rifugiati e i ritornati in aree difficilmente accessibili di Renk, Rubkona e Aweil East; e probabilmente tra alcuni rifugiati e ritornati in aree di transito in parti di Upper Nile e Northern Bahr el Ghazal. La carestia è alimentata da allagamenti, conflitti, crisi economica, elevati prezzi dei generi alimentari, alta pressione di ritorno e instabilità."
+  },
+  "migrazione": {
+    "descrizione": "South Sudan ha visto un flusso continuo di rifugiati e ritornati dal Sudan vicino, con un aumento significativo di persone che fuggono dal conflitto in Sudan. Questo ha aumentato la pressione sui rifugiati e le comunità di accoglienza, che già lottano con le sfide di sicurezza e accesso umanitario. La situazione è ulteriormente complicata dalla mancanza di un governo unificato, che ha permesso che le dispute locali si trasformino in conflitti più ampi. Le elezioni previste per dicembre 2024 sono un punto focale di tensione, con diverse fazioni che competono per il potere. La situazione è ulteriormente complicata dalla continua fuga di rifugiati dal Sudan vicino, che aumenta la pressione sui rifugiati e le comunità di accoglienza.",
+    "rifugiati": 2290622,
+    "richiedenti_asilo": 32841,
+    "sfollati_interni": 944631
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan continua a essere fragile, con una dipendenza significativa dal settore petrolifero. La crescita economica è stata ostacolata da una serie di fattori, inclusi la crisi macroeconomica, la deprezzazione della valuta, i prezzi alti dei generi alimentari e la pressione di ritorno. L'incertezza politica e le tensioni legate alle elezioni previste per dicembre 2024 hanno ulteriormente indebolito la situazione economica. La mancanza di un governo unificato ha reso difficile la gestione delle risorse e la promozione di investimenti. La crisi economica è stata ulteriormente aggravata dalla continua fuga di rifugiati dal Sudan vicino, che aumenta la pressione sui rifugiati e le comunità di accoglienza.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, il Sud Sudan continua a lottare con una serie di sfide, comprese instabilità politiche, fragilità economica e conflitti intercomunitari. La leadership del paese è costituita da Presidente Salva Kiir Mayardit e Vice Presidente Riek Machar. Nel mese di agosto, due persone sono state uccise dopo che aerei da guerra sudanesi hanno invaso lo spazio aereo sud-sudanese e hanno bombardato la città di Khortumbak nello Stato di Upper Nile. Il 9 agosto, Petronas ha abbandonato il Sud Sudan dopo 14 anni di operazioni, citando cambiamenti nell'ambiente industriale. Il 15 agosto, un decreto che consente arresti senza mandato è diventato legge dopo più di 30 giorni dalla sua invio al Presidente Kiir. Il 19 agosto, il Presidente Salva Kiir Mayardit ha ordinato la destituzione di Joseph Bangasi Bakosoro come ministro per gli affari presidenziali e la sua sostituzione con Chol Mawut Ajonga. Il 25 agosto, Peter Mabior Riiny Lual ha dimesso la sua carica di membro del Parlamento Nazionale, citando la mancanza di azione del governo per affrontare i crescenti problemi socio-economici. Il 27 agosto, il Sud Sudan ha sospeso l'esportazione di petrolio attraverso il Sudan a causa del conflitto civile in corso nel paese. Nel mese di settembre, le autorità hanno ordinato il rinvio delle elezioni generali previste per dicembre a dicembre 2026, citando la necessità di completare processi istituzionali come la creazione di un censimento e una costituzione permanente e la registrazione dei partiti politici.",
+  "fonti": [
+    "SSD_2024-08-19_20240819_ACAPS_South_Sudan_-_Key_crises_to_watch.pdf",
+    "SSD_2024-september_key-message-update.pdf",
+    "SSD_2024Q3_2024-09-25_south-sudan-protection-monitoring-spotlight-july-august-2024.pdf",
+    "SSD_mpo_sm24.pdf",
+    "wikipedia:SSD_2024"
+  ]
+}

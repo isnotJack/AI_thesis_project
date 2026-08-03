@@ -1,0 +1,47 @@
+{
+  "paese": "UKR",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Donbass continua con violazioni del cessate il fuoco e movimenti di truppe russe lungo il confine. L'Ucraina denuncia la presenza di truppe russe e richiede il sostegno di NATO per contrastare la minaccia russa. Viene riportato un aumento delle tensioni lungo il confine con la Russia, con l'Ucraina che accusa la Russia di preparare un colpo di stato contro il presidente Zelenskyy. L'Ucraina effettua attacchi con droni contro le forze separatiste pro-russe nel Donbass, causando perdite tra le forze separatiste. L'Ucraina denuncia anche attacchi cibernetici da parte della Russia, inclusi tentativi di diffondere notizie false e documenti falsi riguardanti esercitazioni navali con NATO e nazioni del Mar Nero. L'Ucraina effettua esercitazioni militari e aumenta la presenza militare lungo il confine con la Bielorussia per prevenire possibili tentativi di migranti di raggiungere l'UE. L'Ucraina denuncia anche la presenza di gruppi estremisti neo-nazisti finanziati dalla Russia.",
+    "n_eventi_violenti": 2042,
+    "n_vittime": 61
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "I flussi di migrazione attraverso i punti di controllo tra le aree controllate dal governo ucraino e quelle controllate dalle forze separatiste continuano, con preoccupazioni legate alla sicurezza e alla protezione dei civili. I residenti delle aree controllate dal governo ucraino attraversano i punti di controllo per visitare familiari, ritirare soldi, ottenere certificati medici e per motivi legati alla proprietà. Viene segnalato un aumento delle preoccupazioni legate ai permessi di attraversamento e alle lunghe code nei punti di controllo. Il processo di attraversamento dei punti di controllo è complesso e richiede controlli manuali dettagliati, inclusi controlli di bagagli e documenti. I residenti delle aree controllate dalle forze separatiste attraversano i punti di controllo per motivi legati alla proprietà e per ricevere benefici sociali. Viene segnalato un aumento delle preoccupazioni legate ai permessi di attraversamento e alle lunghe code nei punti di controllo.",
+    "rifugiati": 27562,
+    "richiedenti_asilo": 19426,
+    "sfollati_interni": 854000
+  },
+  "economia": {
+    "sintesi": "L'Ucraina si riprende lentamente dopo la contrazione causata dalla pandemia di COVID-19, con un aumento delle esportazioni e dell'attività economica. Tuttavia, ci sono preoccupazioni legate alla stabilità fiscale e alle vulnerabilità macroeconomiche. L'Ucraina continua a ricevere vaccini COVID-19 attraverso l'iniziativa COVAX, con un aumento del numero di dosi ricevute. L'Ucraina denuncia anche la presenza di gruppi estremisti neo-nazisti finanziati dalla Russia, che potrebbero avere un impatto negativo sull'immagine internazionale del paese e sulle sue relazioni con l'UE e NATO.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico contro il Ministero della Difesa ucraino, con la pubblicazione di notizie false e documenti falsi riguardanti esercitazioni navali con NATO e nazioni del Mar Nero."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Advisory sulle minacce cibernetiche associate con la Russia e l'Ucraina."
+    ],
+    "gruppi_minaccia_associati": [
+      "Gruppi cibernetici associati con la Russia, inclusi quelli che hanno effettuato attacchi contro il Ministero della Difesa ucraino."
+    ],
+    "settori_bersaglio": [
+      "Settori governativi, in particolare il Ministero della Difesa."
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2021, l'Ucraina continua a fare fronte a una serie di sfide, tra cui il conflitto nel Donbass, la presenza di truppe russe lungo il confine, le tensioni con la Russia e la Bielorussia, e le conseguenze della pandemia di COVID-19. L'Ucraina effettua esercitazioni militari e aumenta la presenza militare lungo il confine con la Bielorussia per prevenire possibili tentativi di migranti di raggiungere l'UE. L'Ucraina denuncia anche la presenza di gruppi estremisti neo-nazisti finanziati dalla Russia, che potrebbero avere un impatto negativo sull'immagine internazionale del paese e sulle sue relazioni con l'UE e NATO. L'Ucraina continua a ricevere vaccini COVID-19 attraverso l'iniziativa COVAX, con un aumento del numero di dosi ricevute. L'Ucraina denuncia anche attacchi cibernetici da parte della Russia, inclusi tentativi di diffondere notizie false e documenti falsi riguardanti esercitazioni navali con NATO e nazioni del Mar Nero.",
+  "fonti": [
+    "unhcr_reports (UKR_2021Q2_2021-06-18_crossing-the-contact-line-may-2021-snapshot-en-uk.pdf)",
+    "worldbank_mpo (UKR_mpo_sm21.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2021.pdf)",
+    "wikipedia:UKR_2021"
+  ]
+}

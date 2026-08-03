@@ -1,0 +1,39 @@
+{
+  "paese": "KOR",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 117,
+    "richiedenti_asilo": 893,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.1
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Magniber ransomware targeting victims in South Korea"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In questo trimestre, la Corea del Sud ha continuato sotto la presidenza di Moon Jae-in. Non ci sono eventi specifici rilevanti per il trimestre Q3 del 2021 riportati nei documenti forniti.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:KOR_2021"
+  ]
+}

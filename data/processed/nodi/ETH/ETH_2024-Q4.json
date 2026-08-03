@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": "Conflitti persistono in diverse regioni, inclusi Amhara, Oromia e Tigray. Le tensioni tra le forze governative e i gruppi armati come Fano e Oromo Liberation Army (OLA) continuano. Nel mese di dicembre, ci sono state azioni militari significative, incluse le operazioni di chiusura del confine con la Somalia e gli scontri in zone rurali. La violenza ha portato a sfollamenti di civili, con centinaia di persone, compresi bambini, che hanno lasciato le loro case. Le autorità hanno dichiarato che le azioni militari sono state necessarie dopo l'uccisione di un capo locale della sicurezza e dei suoi guardie del corpo. Le operazioni militari hanno anche coinvolto la chiusura temporanea di strade, influenzando il flusso di merci e la vita quotidiana.",
+    "n_eventi_violenti": 628,
+    "n_vittime": 2013
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è persistente in molte aree dell'Etiopia, con fattori come conflitti, siccità e carenze di reddito che contribuiscono alla situazione. Le proiezioni indicano che le condizioni di sicurezza alimentare peggioreranno fino a metà del 2025 in alcune zone, con l'IPC Phase 4 (Emergenza) atteso in zone specifiche di Afar e Tigray. Le famiglie povere e dislocate continuano a dipendere pesantemente dai propri stocks alimentari e tenute di bestiame, con limiti significativi nei confronti di altre fonti di sostentamento. Le previsioni di pioggia sono al di sotto della media, influenzando negativamente la salute e la vendibilità del bestiame."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati e delle persone internamente sfollate continua a essere critica. Il numero di rifugiati e richiedenti asilo provenienti dal Sudan è aumentato, portando il totale a oltre 65.000. Le sfide principali includono la protezione, la registrazione e la documentazione, nonché la gestione delle violenze basate sul genere. I rifugiati continuano a ricevere supporto per la protezione, inclusi servizi di consulenza, salute e assistenza umanitaria. La situazione di sicurezza rimane un problema, con sfide specifiche nella regione di Amhara. Si stanno facendo progressi in ambito di risiedenza e documentazione, con un aumento dei permessi di residenza rilasciati. Le attività di prevenzione delle violenze basate sul genere continuano, con sessioni di formazione e supporto psicosociale offerti ai rifugiati.",
+    "rifugiati": 164423,
+    "richiedenti_asilo": 158142,
+    "sfollati_interni": 2272533
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana continua a fare fronte a sfide significative, incluse le pressioni inflazionistiche e le restrizioni di politica monetaria. Le riforme economiche, incluse la liberalizzazione del cambio e la riforma del sistema bancario, stanno avendo un impatto significativo. Tuttavia, le tensioni politiche e le crisi umanitarie continuano a influenzare negativamente le prospettive economiche. Le riforme monetarie hanno portato a una deprezzazione della valuta nazionale, con conseguenze sulle importazioni e sulle esportazioni. Le misure di mitigazione, come i controlli dei prezzi e le sovvenzioni, sono state adottate per alleviare le pressioni economiche sui consumatori.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, l'Etiopia continua a fare fronte a sfide significative, incluse le tensioni politiche, le crisi umanitarie e le condizioni di sicurezza alimentare precarie. Le riforme economiche e monetarie hanno avuto un impatto significativo sulle dinamiche economiche nazionali, con conseguenze sia positive che negative. Le tensioni regionali, incluse le operazioni militari e le chiusure di confini, hanno aumentato la precarietà delle condizioni umanitarie. La leadership nazionale continua a gestire queste sfide complesse, con un mix di riforme e risposte umanitarie per affrontare le sfide emergenti.",
+  "fonti": [
+    "fews_net (ETH_2024-december_key-message-update.pdf)",
+    "fews_net (ETH_2024-november_key-message-update.pdf)",
+    "fews_net (ETH_2024-october_food-security-outlook.pdf)",
+    "unhcr_reports (ETH_2024Q4_2024-12-31_ethiopia-unhcr-operational-update-november-2024.pdf)",
+    "worldbank_mpo (ETH_mpo_am24.pdf)",
+    "wikipedia:ETH_2024"
+  ]
+}

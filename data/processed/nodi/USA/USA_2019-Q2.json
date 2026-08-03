@@ -1,0 +1,42 @@
+{
+  "paese": "USA",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 297,
+    "richiedenti_asilo": 2940,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 1.0
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Compromise of Yandex (2019-06-27, categoria=Espionage): sponsor=Australia, Canada, New Zealand, United Kingdom, United States, vittime=Russian Federation, ruolo=attore",
+      "Attack on Iranian computer systems (2019-06-22, categoria=Sabotage): sponsor=United States, vittime=Iran (Islamic Republic of), ruolo=attore",
+      "Attacks on private U.S. companies (2019-06-22, categoria=Data destruction): sponsor=Iran (Islamic Republic of), vittime=United States, ruolo=vittima"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "attore",
+    "n_incidenti_datati": 3
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, gli Stati Uniti hanno visto una serie di eventi politici e sociali significativi. Tra questi, spiccano le elezioni primarie presidenziali, con numerosi candidati che si sono presentati per le elezioni presidenziali del 2020. Il governo federale ha continuato a gestire questioni legate alla sicurezza nazionale, come la crisi con l'Iran e le tensioni con la Cina. Sono stati anche approvati nuovi provvedimenti legislativi, tra cui la legalizzazione dell'aborto in alcuni stati e la regolamentazione delle armi da fuoco. Inoltre, si sono verificati diversi eventi legati alla salute pubblica, come l'epidemia di sarampana e le crescenti preoccupazioni riguardo all'uso di elettronici. La leadership federale era composta da Donald Trump come presidente, Mike Pence come vicepresidente e Nancy Pelosi come Speaker of the House.",
+  "fonti": [
+    "https://www.cfr.org/cyber-operations/attack-on-iranian-computer-systems",
+    "https://www.cfr.org/cyber-operations/attacks-on-private-u-s-companies",
+    "https://www.cfr.org/cyber-operations/compromise-of-yandex",
+    "wikipedia:USA_2019"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "paese": "ETH",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2022, l'Etiopia ha continuato a essere caratterizzata da conflitti significativi in diverse regioni. La guerra del Tigray è rimasta un fattore chiave, con continue tensioni e spostamenti di popolazione. La regione di Benishangul-Gumuz ha visto un aumento delle tensioni etniche, mentre la regione di Oromia ha registrato conflitti tra gruppi etnici. Inoltre, le tensioni lungo la frontiera con il Sudan hanno portato a episodi di violenza. L'intensità dei conflitti ha portato a un aumento dei dislocati interni e alla degradazione delle condizioni umanitarie in molte aree.",
+    "n_eventi_violenti": 287,
+    "n_vittime": 1031
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Etiopia è stata principalmente causata da conflitti, siccità e crisi economica. La guerra del Tigray ha gravemente compromesso l'accesso ai beni alimentari, mentre la siccità ha ridotto la produzione agricola in molte regioni. L'aumento dei prezzi dei generi alimentari e la degradazione delle condizioni economiche hanno ulteriormente aggravato la situazione. Le proiezioni indicano che le condizioni di carestia potrebbero peggiorare nei mesi successivi, soprattutto nelle aree colpite dalla siccità e dai conflitti."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è stata significativa a causa dei conflitti e delle condizioni umanitarie precarie. Numerosi dislocati interni hanno cercato rifugio in aree più sicure, mentre alcuni hanno attraversato le frontiere verso il Sudan e la Somalia. Le condizioni di protezione per i rifugiati e i dislocati interni sono state critiche, con limiti all'accesso umanitario in alcune zone. La presenza di rifugiati etiopi in regioni come Gambella ha richiesto un sostegno significativo da parte delle organizzazioni umanitarie.",
+    "rifugiati": 149603,
+    "richiedenti_asilo": 121362,
+    "sfollati_interni": 2730000
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per l'Etiopia nel primo trimestre del 2022 è stato influenzato da una combinazione di fattori, inclusi i conflitti interni, la siccità e la crisi economica. L'inflazione è aumentata a causa dell'aumento dei prezzi dei generi alimentari e delle difficoltà di accesso ai beni essenziali. Le proiezioni indicano una crescita economica limitata a causa delle sfide continue. I rischi fiscali e esterni sono aumentati a causa delle crescenti esigenze di assistenza umanitaria e delle difficoltà di accesso ai mercati internazionali.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, l'Etiopia ha continuato a essere guidata dal Presidente Sahle-Work Zewde e dal Primo Ministro Abiy Ahmed. I principali eventi del trimestre hanno incluso la guerra del Tigray, con continue tensioni e spostamenti di popolazione. La regione di Benishangul-Gumuz ha visto un aumento delle tensioni etniche, mentre la regione di Oromia ha registrato conflitti tra gruppi etnici. Inoltre, le tensioni lungo la frontiera con il Sudan hanno portato a episodi di violenza. L'aumento dei prezzi dei generi alimentari e la degradazione delle condizioni economiche hanno ulteriormente aggravato la situazione umanitaria. Le proiezioni indicano che le condizioni di carestia potrebbero peggiorare nei mesi successivi, soprattutto nelle aree colpite dalla siccità e dai conflitti.",
+  "fonti": [
+    "ETH_2022-01-24_20220124_acaps_thematic_report_ethiopia_understanding_humanitarian_concerns_across_the_country.pdf",
+    "ETH_2022-february_food-security-outlook.pdf",
+    "ETH_2022-january_key-message-update.pdf",
+    "ETH_2022-march_key-message-update.pdf",
+    "ETH_2022Q1_2022-03-31_ethiopia-refugees-in-gambella-sub-office-and-internally-disp.pdf",
+    "ETH_mpo_am21.pdf",
+    "wikipedia:ETH_2022"
+  ]
+}

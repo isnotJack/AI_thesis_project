@@ -1,0 +1,40 @@
+{
+  "paese": "SSD",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan è stato caratterizzato da un'attività conflittuale significativa, con scontri sporadici tra gruppi armati, attacchi contro civili e tensioni generalizzate. Le aree di maggiore preoccupazione includono Unity, Jonglei, Warrap, Upper Nile e Greater Equatoria. Le tensioni tra le forze governative e quelle dell'opposizione sono state elevate, con episodi di violenza in Unity centrale e sud-orientale. I conflitti intercomunali e le incursioni armate hanno continuato, influenzati da dispute territoriali, conflitti di potere e dinamiche tribali. L'agricoltura, l'allevamento e le attività commerciali sono stati gravemente compromessi a causa di queste tensioni, con conseguenze negative sulle attività di produzione e distribuzione di cibo. Le autorità e gli operatori umanitari hanno cercato di contenere la mobilitazione di gruppi armati, ma le violenze continue hanno ostacolato l'accesso umanitario e le operazioni di assistenza.",
+    "n_eventi_violenti": 392,
+    "n_vittime": 1198
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è stata influenzata da conflitti, inondazioni e sfide economiche. Il paese ha visto un aumento significativo di famiglie in emergenza o peggio, con una forte dipendenza dall'assistenza umanitaria. Le inondazioni continue hanno aggravato la situazione, limitando l'accesso ai campi agricoli e alle aree di allevamento. L'assistenza umanitaria è stata insufficiente a coprire le crescenti esigenze, con solo una piccola parte della popolazione in crisi o peggio ricevendo assistenza. La carestia è stata particolarmente grave in aree come Jonglei, Unity, Warrap, Upper Nile e parti di Lakes. L'incapacità di produrre o acquistare cibo, unita ai costi crescenti dell'assistenza, ha ulteriormente peggiorato la situazione."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e transfrontaliera è stata influenzata da conflitti e inondazioni. Numerosi civili hanno continuato a sfollare verso aree di maggior sicurezza, aumentando la pressione sui campi per sfollati e le risorse locali. Le sfide di protezione hanno incluso l'accesso limitato a servizi essenziali e la vulnerabilità a violenze. I corridoi di migrazione sono stati ostacolati da conflitti e inondazioni, rendendo difficile il trasferimento di assistenza umanitaria. Le aree di maggior preoccupazione per la migrazione sono state Unity, Jonglei e Warrap, dove le tensioni sono state più elevate.",
+    "rifugiati": 2295082,
+    "richiedenti_asilo": 5228,
+    "sfollati_interni": 1474679
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è stato negativo, con preoccupazioni riguardo alla crescita economica, al debito e alle vulnerabilità fiscali. L'economia è stata influenzata da conflitti, inondazioni e shock macroeconomici, come quelli legati alla crisi Ucraina-Russia. Le prospettive di crescita sono state compromesse da queste sfide, con un forte impatto sulle risorse finanziarie e sulle capacità di risposta del governo. Le prospettive di ripresa sono state ostacolate da una combinazione di fattori, inclusi i costi crescenti dell'assistenza umanitaria e le difficoltà di accesso ai mercati internazionali.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha continuato a lottare con la leadership politica instabile e le sfide di governance. Il presidente Salva Kiir e il vicepresidente Riek Machar hanno continuato a gestire le tensioni politiche interne. I conflitti etnici e le violenze continue hanno caratterizzato l'ambiente politico, con episodi di violenza significativi in diverse regioni. Le sfide legate alla pandemia di COVID-19 hanno continuato a influenzare le dinamiche sociali e economiche, nonostante le attività di vaccinazione. L'instabilità politica e le tensioni interne hanno ostacolato gli sforzi di ricostruzione e sviluppo del paese.",
+  "fonti": [
+    "fews_net (SSD_2022-june_food-security-outlook.pdf)",
+    "fews_net (SSD_2022-may_key-message-update.pdf)",
+    "fews_net (SSD_2022-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (SSD_2022Q2_2022-06-30_2022-south-sudan-regional-rrrp-regional-overview-of-the-sout.pdf)",
+    "worldbank_mpo (SSD_mpo_sm22.pdf)",
+    "wikipedia:SSD_2022"
+  ]
+}

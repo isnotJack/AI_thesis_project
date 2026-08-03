@@ -1,0 +1,39 @@
+{
+  "paese": "SDN",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Il Sudan sta affrontando un'instabilità politica e conflitti interni. Vi sono divisioni all'interno del governo e fra le forze armate, con un aumento delle tensioni tra le forze militari e civili. Le aree di Darfur, Kordofan e Blue Nile sono particolarmente colpite da conflitti, con un aumento delle violenze intercomunali. Le tensioni sono accentuate dalla mancanza di un governo civile stabile e dalla presenza di varie fazioni armate.",
+    "n_eventi_violenti": 151,
+    "n_vittime": 293
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è aggravata da un raccolto al di sotto della media, condizioni macroeconomiche deteriorate, ridotta capacità di importazione di cibo da parte del governo e prezzi elevati dei generi alimentari. La situazione è peggiorata ulteriormente dalla deprezzazione della valuta nazionale e dalla crisi economica generale."
+  },
+  "migrazione": {
+    "descrizione": "I rifugiati etiopi in Sudan continuano a essere una preoccupazione, con un aumento dei flussi di rifugiati verso il Sudan a causa delle tensioni in Etiopia. Le condizioni di protezione per i rifugiati sono critiche, con problemi di accesso alle risorse e alla protezione. Gli insediamenti di rifugiati sono sovraffollati e le risorse sono limitate.",
+    "rifugiati": 837188,
+    "richiedenti_asilo": 86838,
+    "sfollati_interni": 3552717
+  },
+  "economia": {
+    "sintesi": "L'economia del Sudan è in crisi, con una situazione macroeconomiche deteriorata, una valuta deprezzata e una crescente inflazione. Il governo ha intrapreso riforme economiche per contenere il deficit fiscale, ma il successo dipende dalla gestione delle politiche monetarie e fiscali. La crisi economica è accentuata dalla sospensione del sostegno economico internazionale.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, il Sudan ha continuato a lottare con la mancanza di stabilità politica e le tensioni interne. Il governo ha affrontato sfide significative, incluse le divisioni all'interno delle forze armate e le crescenti tensioni tra le fazioni militari e civili. L'instabilità ha avuto un impatto negativo sulle condizioni economiche e sociali del paese, con conseguenze dirette sulla sicurezza alimentare e la migrazione interna ed esterna.",
+  "fonti": [
+    "SDN_2022-03-17_20220317_acaps_sudan_scenarios_ability_to_live_safely_and_meet_basic_needs_0.pdf",
+    "SDN_2022-march_key-message-update.pdf",
+    "SDN_2022Q1_2022-03-30_sea-risk-assessment-tigray-refugee-response-sudan-gedaraf-st.pdf",
+    "SDN_mpo_am21.pdf",
+    "wikipedia:SDN_2022"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "paese": "ETH",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Etiopia nel terzo trimestre del 2023 è caratterizzato da intensi scontri tra le forze governative ed elementi ribelli, come i Fano e le forze speciali amariche. Questi scontri hanno portato a un aumento significativo di vittime civili e di sfollati, con la dichiarazione di uno stato di emergenza nel Regno di Amhara. La situazione è stata ulteriormente complicata da tensioni etniche e da violenze in diverse regioni, incluse Gambela e Benishangul Gumuz. Le autorità hanno intrapreso misure per consolidare il potere, come la dissoluzione delle forze speciali regionali, che hanno scatenato proteste pacifiche e ulteriori scontri. La regione di Tigray continua a essere teatro di violenze, con attacchi che hanno causato vittime civili e danni. La situazione è stata ulteriormente complicata da scontri tra milizie etniche e forze governative, con conseguenti sfollamenti e tensioni regionali.",
+    "n_eventi_violenti": 472,
+    "n_vittime": 1380
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Etiopia è stata aggravata da una combinazione di siccità, conflitti e crisi economica. La scarsità di precipitazioni durante la stagione delle piogge ha compromesso le coltivazioni e ridotto la disponibilità di cibo. I conflitti hanno interrotto le attività agricole e limitato l'accesso ai mercati. La crisi economica ha aumentato i prezzi dei generi alimentari, rendendo il cibo meno accessibile per le famiglie più vulnerabili. La situazione è stata ulteriormente complicata da problemi di accesso alle aree colpite, dovuti a insicurezza e limitazioni imposte dalle autorità. La carestia è stata particolarmente acuta nelle regioni del sud, sud-est e nord, dove le famiglie hanno dovuto affrontare carenze alimentari significative."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione in Etiopia è stata influenzata da conflitti interni e da situazioni di crisi nei paesi vicini. Il flusso di rifugiati da Sudan è stato significativo, con migliaia di persone che hanno attraversato il confine per sfuggire alle violenze. Le autorità hanno fatto fronte a sfide logistiche e di protezione per gestire il flusso di rifugiati, che hanno richiesto un aumento dei fondi per fornire assistenza. La situazione è stata ulteriormente complicata da tensioni etniche e da violenze in alcune regioni, che hanno portato a ulteriori sfollamenti interni. L'accesso alle aree colpite è stato limitato a causa di insicurezza e restrizioni imposte dalle autorità, rendendo difficile la fornitura di assistenza ai rifugiati e ai sfollati interni.",
+    "rifugiati": 158344,
+    "richiedenti_asilo": 139424,
+    "sfollati_interni": 2561497
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana ha affrontato sfide significative nel terzo trimestre del 2023, con crescenti rischi fiscali e esterni. La crescita economica è stata ostacolata da una combinazione di siccità, conflitti e crisi economica. I prezzi dei generi alimentari sono aumentati, mettendo a dura prova le famiglie più vulnerabili. L'accesso ai fondi per l'assistenza umanitaria è stato compromesso da pausa nel finanziamento da parte di alcuni donatori, che ha aumentato la pressione sui bilanci nazionali. Le autorità hanno intrapreso misure per consolidare il potere, che hanno scatenato proteste e ulteriori scontri, ulteriormente compromettendo la stabilità economica. La situazione è stata ulteriormente complicata da problemi di accesso alle aree colpite, dovuti a insicurezza e limitazioni imposte dalle autorità.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2023, l'Etiopia ha continuato a essere caratterizzata da una situazione politica e sociale complessa. Il primo ministro Abiy Ahmed ha continuato a intraprendere misure per consolidare il potere, che hanno scatenato proteste e ulteriori scontri. La situazione è stata ulteriormente complicata da tensioni etniche e da violenze in diverse regioni, incluse Gambela e Benishangul Gumuz. Le autorità hanno fatto fronte a sfide logistiche e di protezione per gestire il flusso di rifugiati da Sudan, che hanno richiesto un aumento dei fondi per fornire assistenza. La situazione è stata ulteriormente complicata da problemi di accesso alle aree colpite, dovuti a insicurezza e limitazioni imposte dalle autorità, rendendo difficile la fornitura di assistenza ai rifugiati e ai sfollati interni. La carestia è stata aggravata da una combinazione di siccità, conflitti e crisi economica, con conseguenti effetti sulla crescita economica e sulla stabilità del paese.",
+  "fonti": [
+    "ETH_2023-09-29_20230929_ACAPS_Thematic_report_Ethiopia_humanitarian_information_and_analysis_ecosystem.pdf",
+    "ETH_2023-september_key-message-update.pdf",
+    "ETH_2023Q3_2023-09-28_unhcr-ethiopia-nutrition-factsheet-refugee-response-august-2.pdf",
+    "ETH_mpo_sm23.pdf",
+    "wikipedia:ETH_2023"
+  ]
+}

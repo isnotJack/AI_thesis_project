@@ -1,0 +1,39 @@
+{
+  "paese": "UKR",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre 2024-Q4, il conflitto in Ucraina continua con intensità significativa. Le operazioni militari russe si concentrano principalmente sulla regione di Kharkiv, dove si registrano intensi combattimenti e avanzate verso Kupiansk. Le forze ucraine resistono con determinazione, mantenendo posizioni cruciali come Vovchansk e Buhiv. L'uso di armi pesanti e attacchi aerei è frequente, con conseguenze significative sulla popolazione civile e le infrastrutture. Le operazioni russe includono attacchi su porti strategici come Odessa e Izmail, con danni a infrastrutture portuali e navi civili. La situazione è caratterizzata da un continuo scambio di colpi e movimenti tattici da entrambe le parti, con un forte impatto sul territorio e sulle popolazioni locali.",
+    "n_eventi_violenti": 14590,
+    "n_vittime": 24336
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre 2024-Q4, la situazione migratoria in Ucraina continua a essere critica. Il numero di rifugiati interni e di rifugiati nei paesi vicini rimane elevato. Le organizzazioni umanitarie continuano a fornire assistenza, ma le esigenze sono crescenti a causa della persistente guerra. I rifugiati continuano a ricevere supporto per la protezione, l'assistenza psicologica e l'accesso ai servizi essenziali. La situazione richiede un continuo monitoraggio e un'assistenza adeguata per garantire la sicurezza e il benessere delle persone sfollate.",
+    "rifugiati": 5120036,
+    "richiedenti_asilo": 44349,
+    "sfollati_interni": 3665000
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina continua a essere influenzata significativamente dal conflitto in corso. Le prospettive di crescita sono compromesse da fattori come la guerra, le sanzioni e le difficoltà logistiche. L'inflazione rimane un problema, anche se ci sono segni di moderazione. L'economia è sostenuta da aiuti esterni e dalla resilienza delle imprese, ma le sfide fiscali e esterne rimangono preoccupanti. L'attivazione di nuovi accordi di assistenza e il sostegno internazionale continuano a essere cruciali per il recupero economico.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre 2024-Q4, l'Ucraina continua a essere al centro di un conflitto armato di larga scala. La leadership ucraina, con il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal, rimane impegnata a guidare il paese attraverso la guerra. L'anno è caratterizzato da importanti sviluppi, inclusi negoziati internazionali, supporto militare da parte di paesi occidentali e continue operazioni militari. L'Ucraina continua a ricevere sostegno internazionale, con accordi di aiuto militare e finanziario che si intensificano. La situazione interna è complessa, con sfide legate alla guerra, alla ricostruzione e alla governance.",
+  "fonti": [
+    "acaps (UKR_2024-12-20_20241220_ACAPS_Thematic_report_Ukraine__Translation.pdf)",
+    "fews_net (UKR_2024-october_key-message-update.pdf)",
+    "unhcr_reports (UKR_2024Q4_2024-12-31_ukraine-situation-flash-update-76-30-december-2024.pdf)",
+    "worldbank_mpo (UKR_mpo_am24.pdf)",
+    "wikipedia:UKR_2024"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "paese": "SSD",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Sud Sudan ha visto un aumento delle tensioni e degli scontri armati, principalmente a causa dell'escalation delle ostilità in Sudan. Ci sono stati numerosi attacchi, inclusi atti di violenza contro civili, attacchi a soldati, e raid su bestiame. Le aree più colpite includono Renk, Jonglei, e Unity, con conflitti che hanno coinvolto diverse etnie e gruppi armati. L'escalation delle ostilità in Sudan ha portato a un aumento dei rifugiati e dei ritornati, aumentando la pressione sui servizi e le risorse locali. I combattimenti hanno anche interferito con le attività di soccorso umanitario, rendendo difficile l'accesso a certe zone.",
+    "n_eventi_violenti": 282,
+    "n_vittime": 519
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia nel Sud Sudan è stata aggravata da una combinazione di fattori, inclusi i conflitti, le inondazioni, e la presenza di un alto numero di ritornati e rifugiati. La situazione è peggiorata a causa delle inondazioni che hanno distrutto le colture e limitato l'accesso alle risorse. L'arrivo di ritornati e rifugiati ha aumentato la pressione sui sistemi locali di sostentamento, riducendo ulteriormente le risorse disponibili. Le condizioni di salute sono state compromesse da epidemie come il colera, che si sono diffuse in aree già deboli. L'accesso ai servizi umanitari è stato ostacolato dai conflitti, rendendo difficile la distribuzione di aiuti alimentari e la gestione delle emergenze."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sud Sudan è stata caratterizzata da un flusso significativo di ritornati e rifugiati provenienti dal Sudan. Questi movimenti hanno creato una pressione significativa sui sistemi locali di sostentamento, aumentando la vulnerabilità alimentare e le tensioni sociali. I nuovi arrivi hanno richiesto un aumento dei servizi umanitari, inclusi l'assistenza alimentare e l'assistenza sanitaria. La presenza di rifugiati e ritornati ha anche aumentato il rischio di conflitti e tensioni tra le comunità locali e i nuovi arrivati, complicando ulteriormente la situazione umanitaria.",
+    "rifugiati": 2290622,
+    "richiedenti_asilo": 32841,
+    "sfollati_interni": 944631
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan continua a essere debilitata da una combinazione di fattori, inclusi la crisi petrolifera, le inondazioni, e le tensioni politiche. L'industria petrolifera, che è il principale settore economico, ha subito un ulteriore declino a causa di problemi di infrastruttura e di conflitti. Le inondazioni hanno avuto un impatto significativo sul settore agricolo, riducendo le colture e aumentando la carestia. Le tensioni politiche hanno ostacolato la stabilizzazione economica, rendendo difficile l'attrazione di investimenti esterni. L'inflazione è rimasta elevata, aumentando il costo della vita e riducendo il potere d'acquisto delle famiglie.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sud Sudan ha visto una serie di cambiamenti politici e istituzionali, inclusi i licenziamenti di diversi ministri e governatori. Questi cambiamenti sono stati accompagnati da un aumento delle tensioni politiche e da una crescente instabilità. L'escalation delle ostilità in Sudan ha portato a un aumento dei rifugiati e dei ritornati, aumentando la pressione sui servizi e le risorse locali. Le inondazioni hanno avuto un impatto significativo sul paese, distruggendo le colture e limitando l'accesso alle risorse. L'arrivo di ritornati e rifugiati ha creato una situazione di crescente vulnerabilità alimentare e ha aumentato le tensioni sociali. Gli sforzi di stabilizzazione politica e economica sono stati ostacolati dai conflitti e dalle inondazioni, rendendo difficile la ripresa del paese.",
+  "fonti": [
+    "fews_net (SSD_2024-december_key-message-update.pdf)",
+    "fews_net (SSD_2024-november_key-message-update.pdf)",
+    "fews_net (SSD_2024-october_food-security-outlook.pdf)",
+    "unhcr_reports (SSD_2024Q4_2024-12-31_south-sudan-wunthou-joda-rapid-intention-survey-31-december-.pdf)",
+    "worldbank_mpo (SSD_mpo_am24.pdf)",
+    "wikipedia:SSD_2024"
+  ]
+}

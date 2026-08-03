@@ -1,0 +1,38 @@
+{
+  "paese": "ISR",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 51,
+    "n_vittime": 3
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 492,
+    "richiedenti_asilo": 683,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.7
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Letter from the Israeli government addressed to US-based exploit developers"
+    ],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In ottobre, l'Esercito israeliano ha lanciato l'Operazione Scudo Settentrionale per distruggere i tunnel transfrontalieri costruiti dal Hezbollah lungo il confine con il Libano. In novembre, ci sono stati scontri tra Gaza e Israele. Nel dicembre, Israele ha annunciato il suo ritiro dall'UNESCO, affermando di essere vittima di un pregiudizio.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "wikipedia:ISR_2018"
+  ]
+}

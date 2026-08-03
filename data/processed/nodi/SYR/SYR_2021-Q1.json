@@ -1,0 +1,36 @@
+{
+  "paese": "SYR",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2021, la Siria ha continuato a essere caratterizzata da una situazione di conflitto, con sfollamenti interni a causa delle condizioni climatiche avverse, come piogge pesanti che hanno distrutto tende, cibo e beni personali in siti di sfollamento. L'insediamento di sfollati interni è stato particolarmente evidente in Idlib e Aleppo. Il contesto generale includeva anche la pandemia di COVID-19, che continuava a influenzare la situazione umanitaria e sanitaria nel paese.",
+    "n_eventi_violenti": 2577,
+    "n_vittime": 2031
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2021, la Siria ha continuato a essere un paese di origine per i flussi di sfollati interni, con sfollamenti interni a causa delle condizioni climatiche avverse. La situazione umanitaria richiedeva un sostegno significativo, come indicato dalle richieste di finanziamenti per la risposta alla situazione siriana da parte dell'UNHCR. I dati suggeriscono una criticità di protezione per le popolazioni di sfollati, con sfollamenti interni significativi a causa delle piogge pesanti che hanno distrutto tende, cibo e beni personali in siti di sfollamento.",
+    "rifugiati": 6848865,
+    "richiedenti_asilo": 139754,
+    "sfollati_interni": 6865308
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, la Siria era ancora sotto la presidenza di Bashar al-Assad, con Najah al-Attar come Vice Presidente e Hussein Arnous come Primo Ministro. La pandemia di COVID-19 continuava a influenzare la situazione nel paese, con sfollamenti interni a causa delle condizioni climatiche avverse. L'anno ha visto anche l'elezione presidenziale, che ha confermato Bashar al-Assad come presidente, ma è stata considerata come una farsa. La situazione generale era ancora segnata dalla guerra civile e dalle conseguenze umanitarie che ne derivavano.",
+  "fonti": [
+    "SYR_2021Q1_2021-03-30_unhcr-syria-situation-response-2021-funding-update-as-of-30-.pdf",
+    "wikipedia:SYR_2021"
+  ]
+}

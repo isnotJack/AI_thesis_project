@@ -1,0 +1,36 @@
+{
+  "paese": "SYR",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 2438,
+    "n_vittime": 1727
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il report dell'UNHCR evidenzia un'attenzione significativa verso la protezione dei rifugiati e delle persone di concernenza (PoCs) in Siria, con un focus sulle attività di assistenza e supporto durante la pandemia di COVID-19. Le iniziative comprendono campagne di comunicazione di massa, distribuzione di materiali di protezione, consulenze mediche, e supporto psicosociale. L'UNHCR ha anche fornito assistenza finanziaria attraverso i Cash Grants Multipurpose (MPCG) per aiutare i rifugiati a far fronte alle esigenze essenziali. L'organizzazione ha collaborato con volontari e centri comunitari per garantire la copertura e la distribuzione di aiuti. L'attenzione è stata rivolta anche alla gestione di rifugiati in strutture collettive, con misure di disinfestazione e sterilizzazione per prevenire l'espansione del virus.",
+    "rifugiati": 6702910,
+    "richiedenti_asilo": 107085,
+    "sfollati_interni": 6701972
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, la Siria continuava ad essere governata da Bashar al-Assad come Presidente, con Najah al-Attar come Vice Presidente. Hussein Arnous era il Primo Ministro a partire dal 11 giugno. L'anno era contraddistinto da eventi legati alla guerra civile siriana, che continuava a influenzare significativamente la situazione nel paese. Nonostante il contesto di conflitto, il governo centrale continuava ad operare, con cambiamenti di leadership nel governo. L'attenzione internazionale era rivolta principalmente alle conseguenze umanitarie e alla gestione della pandemia di COVID-19, con organizzazioni come l'UNHCR impegnate in attività di assistenza ai rifugiati e alle comunità locali.",
+  "fonti": [
+    "unhcr_reports (SYR_2020Q3_2020-09-30_syria-response-strategy-dashboard-unhcr-response-to-covid-19.pdf)",
+    "wikipedia:SYR_2020"
+  ]
+}

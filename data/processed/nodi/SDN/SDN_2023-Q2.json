@@ -1,0 +1,39 @@
+{
+  "paese": "SDN",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF) continua a intensificarsi, con violenze e scontri frequenti in diverse regioni del paese, inclusi Khartoum, Darfur, Kordofan e Blue Nile. Le violenze hanno portato a un elevato numero di vittime civili e hanno causato gravi danni all'infrastruttura, compresa l'interconnessione delle infrastrutture essenziali come l'energia, l'acqua, le telecomunicazioni e i trasporti. La situazione è particolarmente critica a Khartoum, dove i combattimenti hanno causato la distruzione di strutture cruciali come l'Aeroporto Internazionale di Khartoum e il Palazzo Presidenziale. Il conflitto ha anche portato a una crescente instabilità e inseguridad in altre regioni, con attacchi contro civili e infrastrutture essenziali. La situazione umanitaria è gravemente compromessa, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria. Le violenze continue hanno anche portato a una crescente crisi umanitaria, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria.",
+    "n_eventi_violenti": 1267,
+    "n_vittime": 5415
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La crisi alimentare è stata aggravata dal conflitto in corso, che ha causato gravi danni all'agricoltura e alle infrastrutture essenziali. Il conflitto ha interrotto le attività agricole, limitando l'accesso ai campi e ostacolando la produzione di cibo. Le violenze hanno anche portato a una crescente instabilità e inseguridad in altre regioni, con attacchi contro civili e infrastrutture essenziali. La situazione umanitaria è gravemente compromessa, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria. Le violenze continue hanno anche portato a una crescente crisi umanitaria, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria è stata gravemente influenzata dal conflitto in corso, con migliaia di civili che hanno dovuto fuggire dalle zone di combattimento per cercare rifugio in altre regioni del paese o nei paesi vicini. La fuga di massa ha portato a una crescente pressione sui campi profughi e sui centri di accoglienza, con migliaia di persone che hanno bisogno di assistenza umanitaria. La situazione è particolarmente critica nei campi profughi, dove le condizioni di vita sono spesso precarie e le risorse sono limitate. La fuga di massa ha anche portato a una crescente pressione sui campi profughi e sui centri di accoglienza, con migliaia di persone che hanno bisogno di assistenza umanitaria.",
+    "rifugiati": 1496923,
+    "richiedenti_asilo": 253902,
+    "sfollati_interni": 9052822
+  },
+  "economia": {
+    "sintesi": "L'economia del Sudan è stata gravemente influenzata dal conflitto in corso, con una contrazione significativa del PIL e una crescente instabilità finanziaria. Il conflitto ha causato gravi danni all'infrastruttura essenziale, limitando l'accesso ai servizi essenziali e ostacolando le attività economiche. La situazione è particolarmente critica nei settori dell'agricoltura e dell'energia, dove le violenze hanno interrotto le attività produttive e ostacolato l'accesso ai campi. La situazione umanitaria è gravemente compromessa, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria. Le violenze continue hanno anche portato a una crescente crisi umanitaria, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, il Sudan è stato teatro di un conflitto armato di grande intensità tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF). Il conflitto ha causato gravi danni all'infrastruttura essenziale, limitando l'accesso ai servizi essenziali e ostacolando le attività economiche. La situazione è particolarmente critica nei settori dell'agricoltura e dell'energia, dove le violenze hanno interrotto le attività produttive e ostacolato l'accesso ai campi. La situazione umanitaria è gravemente compromessa, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria. Le violenze continue hanno anche portato a una crescente crisi umanitaria, con migliaia di civili feriti o uccisi e milioni di persone che hanno bisogno di assistenza umanitaria.",
+  "fonti": [
+    "acaps (SDN_2023-06-21_20230621_ACAPS_Thematic_report_Sudan_anticipated_impacts_of_the_2023_rainy_season.pdf)",
+    "fews_net (SDN_2023-june_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2023Q2_2023-06-30_darfur-protection-of-civilians-advocacy-note-saf-rsf-conflic.pdf)",
+    "worldbank_mpo (SDN_mpo_sm23.pdf)",
+    "wikipedia:SDN_2023"
+  ]
+}

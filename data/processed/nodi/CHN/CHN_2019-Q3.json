@@ -1,0 +1,35 @@
+{
+  "paese": "CHN",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 117,
+    "n_vittime": 4
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 212863,
+    "richiedenti_asilo": 104248,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, la Cina ha visto diversi eventi significativi. Nel mese di luglio, le regole sulla gestione dei rifiuti domestici a Shanghai sono entrate in vigore, segnando l'inizio dell'era della classificazione obbligatoria dei rifiuti di casa. Nel mese di agosto, un tifone ha causato gravi inondazioni in Zhejiang, con 32 vittime e un milione di persone evacuate. Nel corso dello stesso mese, le proteste a Hong Kong hanno continuato a intensificarsi, con dimostrazioni di massa e azioni di protesta contro la legge di estradizione. Nel mese di settembre, sono apparse video su Twitter e YouTube che mostravano presunti prigionieri uiguri musulmani in catene e bendati a Korla, nella provincia dello Xinjiang.",
+  "fonti": [
+    "wikipedia:CHN_2019"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 7,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "C'è un aumento significativo di arrivi di migranti per mare in Italia rispetto al periodo precedente. Gli arrivi provengono principalmente da paesi come Tunisia, Algeria, Libia, Bangladesh, Guinea, Costa d'Avorio, Sudan, Somalia, Mali, Iraq, Repubblica Democratica del Congo, Eritrea e Nigeria. La maggior parte degli arrivi sono maschi adulti, con un numero significativo di minori non accompagnati. Gli arrivi da Tunisia hanno mostrato un aumento significativo rispetto al mese precedente.",
+    "rifugiati": 62,
+    "richiedenti_asilo": 471,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, l'Italia ha visto l'inizio della pandemia di COVID-19, con le prime conferme di casi il 31 gennaio. A marzo, il governo ha imposto un lockdown nazionale per contenere la diffusione del virus, sospendendo attività lavorative e didattiche fino al 4 maggio. Queste misure hanno avuto un impatto significativo sulle attività sportive e sociali, con la sospensione di eventi e competizioni. Nel gennaio 2020, si sono tenute le elezioni regionali in Calabria e in Emilia-Romagna. L'Italia ha anche visto l'inizio di un processo contro Matteo Salvini per aver trattenuto migranti in mare.",
+  "fonti": [
+    "unhcr_reports (ITA_2020Q1_2020-03-31_italy-sea-arrivals-dashboard-march-2020.pdf)",
+    "wikipedia:ITA_2020"
+  ]
+}

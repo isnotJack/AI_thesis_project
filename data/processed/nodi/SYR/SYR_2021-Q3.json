@@ -1,0 +1,36 @@
+{
+  "paese": "SYR",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 2495,
+    "n_vittime": 1514
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi corridoi di migrazione e ostacoli operativi sono stati menzionati nei report UNHCR, evidenziando criticità di protezione per i rifugiati siriani.",
+    "rifugiati": 6848865,
+    "richiedenti_asilo": 139754,
+    "sfollati_interni": 6865308
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2021, la Siria ha continuato a essere governata da Bashar al-Assad, con l'elezione presidenziale avvenuta nel mese di maggio, considerata da molti come un processo non democratico. L'elezione ha confermato la leadership di Assad, che ha mantenuto il suo ruolo di presidente. Nel mese di agosto, Assad ha nominato un nuovo governo. Durante questo periodo, la pandemia di COVID-19 ha continuato a influenzare la situazione, con l'arrivo di vaccini AstraZeneca sotto l'iniziativa COVAX, finanziata dalla comunità internazionale. La situazione umanitaria rimane critica, con sfide continue per i rifugiati e le popolazioni internamente sfollate.",
+  "fonti": [
+    "SYR_2021Q3_2021-09-29_unhcr-syria-situation-response-2021-funding-update-as-of-28-.pdf",
+    "wikipedia:SYR_2021"
+  ]
+}

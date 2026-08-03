@@ -1,0 +1,53 @@
+{
+  "paese": "CHN",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 36,
+    "n_vittime": 1
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 153564,
+    "richiedenti_asilo": 180960,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia cinese è prevista per crescere a un tasso moderato, con rischi fiscali ed esterni segnalati nei report. Si prevede una riluttanza a incrementare ulteriormente il debito pubblico, con un focus sulle politiche di stimolo per supportare la crescita economica. La povertà continua a diminuire, riflettendo le politiche di riduzione della povertà messe in atto dal governo.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "CISA and Partners Release Joint Guidance on PRC-Affiliated Threat Actor Compromising Networks of Global Telecommunications Providers (2024-12-03)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Volt Typhoon",
+      "Raspberry Typhoon",
+      "Flax Typhoon",
+      "Granite Typhoon"
+    ],
+    "settori_bersaglio": [
+      "Telecomunicazioni",
+      "Energia",
+      "Trasporto",
+      "Acqua e gestione delle acque reflue",
+      "Infrastrutture critiche"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, la Cina continua a essere guidata da Xi Jinping come Segretario Generale del Partito Comunista Cinese e Presidente. L'attenzione si concentra su eventi interni come incidenti naturali, incidenti industriali e eventi politici interni. L'attenzione internazionale continua a focalizzarsi sulle relazioni con la Russia e l'Ucraina, nonché sulle tensioni con Taiwan e il Giappone. La Cina mantiene una posizione attiva in ambito internazionale, con iniziative di cooperazione economica e politica con paesi come il Brasile e l'India. Si registrano anche sviluppi significativi in ambito tecnologico e spaziale, come il lancio di missili balistici intercontinentali e la missione lunare Chang'e 6.",
+  "fonti": [
+    "CHN_aa24-038a_csa_prc_state_sponsored_actors_compromise_us_critical_infrastructure_3.pdf",
+    "CHN_mpo_am24.pdf",
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "https://www.cisa.gov/news-events/alerts/2024/12/03/cisa-and-partners-release-joint-guidance-prc-affiliated-threat-actor-compromising-networks-global",
+    "wikipedia:CHN_2024"
+  ]
+}

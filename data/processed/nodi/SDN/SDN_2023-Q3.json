@@ -1,0 +1,39 @@
+{
+  "paese": "SDN",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Sudan tra le Forze Armate Sudanesi (SAF) e le Rapid Support Forces (RSF) continua a intensificarsi, con violenza persistente in diverse regioni del paese. Le principali zone interessate includono Khartoum, Darfur, Kordofan, e altre aree strategiche. Il conflitto ha portato a una serie di attacchi contro infrastrutture cruciali, come stazioni di pompaggio e impianti di trattamento dell'acqua, causando interruzioni nei servizi di approvvigionamento idrico. La situazione è aggravata dalla continua mobilitazione di forze armate e dai combattimenti che hanno portato a migliaia di morti e feriti. La violenza continua a sfidare gli sforzi di pace, con episodi di combattimenti intensi in località come Geneina, Omdurman, e Nyala. La presenza di attori armati e le continue azioni belliche hanno reso difficile la gestione umanitaria e la distribuzione di aiuti essenziali.",
+    "n_eventi_violenti": 1784,
+    "n_vittime": 4626
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Sudan è stata aggravata dal conflitto armato, che ha portato a una serie di dislocamenti forzati e a una crescente pressione sui sistemi di assistenza umanitaria. Il conflitto ha contribuito a un aumento significativo dei prezzi dei generi alimentari e a una riduzione dell'accesso ai beni essenziali, mettendo a rischio la sicurezza alimentare di milioni di persone. La situazione è ulteriormente complicata dalle limitazioni di accesso alle aree di conflitto, che ostacolano la distribuzione di aiuti umanitari. L'insicurezza alimentare è particolarmente acuta nelle aree urbane e nei campi per sfollati, dove le famiglie sono costrette a fare ricorso a strategie di sopravvivenza estreme per sfamare i loro membri."
+  },
+  "migrazione": {
+    "descrizione": "Il conflitto in Sudan ha determinato un flusso significativo di sfollati interni e rifugiati verso paesi vicini. Le principali destinazioni includono Egitto, Sud Sudan, e Chad. La situazione dei rifugiati è particolarmente critica, con sfollati che si trovano in condizioni precarie in campi sovraffollati e con limitato accesso a servizi essenziali come acqua, sanitari, e assistenza sanitaria. La mobilitazione forzata ha creato una pressione significativa sui paesi di accoglienza, che stanno lottando per gestire il flusso di rifugiati. La situazione è ulteriormente complicata dalla mancanza di accesso umanitario in alcune aree di conflitto, che rende difficile la valutazione esatta del numero di sfollati e la fornitura di assistenza adeguata.",
+    "rifugiati": 1496923,
+    "richiedenti_asilo": 253902,
+    "sfollati_interni": 9052822
+  },
+  "economia": {
+    "sintesi": "L'economia del Sudan è stata pesantemente impattata dal conflitto, con una contrazione significativa del PIL e un aumento dei rischi fiscali e esterni. Il paese ha visto una contrazione economica a causa delle interruzioni nei servizi essenziali e delle limitazioni all'attività economica causate dal conflitto. La situazione è ulteriormente complicata dalla mancanza di accesso ai finanziamenti internazionali e dalla crescente insicurezza politica, che ha ostacolato gli sforzi di ripresa economica. L'incertezza politica e la continua instabilità hanno reso difficile la prospettiva di una ripresa economica stabile e sostenibile.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre Q3 2023, il Sudan è stato caratterizzato da un conflitto armato persistente tra le Forze Armate Sudanesi (SAF) e le Rapid Support Forces (RSF). Il conflitto ha portato a una serie di dislocamenti forzati, carestia, e problemi economici. La situazione umanitaria è stata particolarmente critica, con milioni di persone che hanno bisogno di assistenza essenziale. Il paese ha visto una contrazione economica significativa a causa del conflitto, con conseguenze negative sul PIL e sulla sicurezza alimentare. La leadership del paese è stata impegnata in negoziati per porre fine al conflitto, ma le tensioni continuano a montare. La situazione generale è stata segnata da una crescente instabilità politica e da una mancanza di accesso umanitario in alcune aree di conflitto.",
+  "fonti": [
+    "acaps (SDN_2023-09-11_20230911_ACAPS_thematic_report_Sudan_impact_of_current_conflict_on_WASH_needs.pdf)",
+    "fews_net (SDN_2023-september_key-message-update.pdf)",
+    "unhcr_reports (SDN_2023Q3_2023-09-27_sudan-situation-unhcr-external-update-28-18-25-september-202.pdf)",
+    "worldbank_mpo (SDN_mpo_sm23.pdf)",
+    "wikipedia:SDN_2023"
+  ]
+}

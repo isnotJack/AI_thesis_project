@@ -1,0 +1,41 @@
+{
+  "paese": "SAU",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 20,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 2167,
+    "richiedenti_asilo": 1541,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia dell'Arabia Saudita è in via di ripresa dopo una contrazione profonda nel 2020, con un aumento delle prospettive di crescita grazie all'incremento dei prezzi del petrolio e all'attenuazione delle misure di contenimento del COVID-19. Tuttavia, ci sono rischi fiscali e esterni legati alla dipendenza dal settore idrocarburi e alla necessità di diversificare l'economia. Il fondo di investimento pubblico (PIF) gioca un ruolo crescente nello sviluppo domestico, mentre il piano Vision 2030 continua a guidare le riforme economiche.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco di phishing globale mirato a individui che partecipavano a due importanti conferenze di sicurezza: la 'Munich Security Conference' in Germania e il 'Think 20 Summit' in Arabia Saudita. I hacker hanno rubato le credenziali di molti dei loro bersagli, eseguendo gli attacchi per scopi di intelligence."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Settori di infrastrutture critiche, come l'energia e le comunicazioni"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2021, l'Arabia Saudita ha continuato a gestire la pandemia di COVID-19 con misure di contenimento, mentre ha anche affrontato tensioni regionali, inclusi gli attacchi dei ribelli Houthi contro le infrastrutture saudite. Il paese ha mantenuto la sua leadership regionale, con iniziative diplomatiche verso l'Iran e la Siria, nonché la continuazione delle riforme economiche e sociali nel quadro del piano Vision 2030. La situazione interna è stata influenzata da sviluppi legati alla salute pubblica e alla sicurezza nazionale, con un'attenzione crescente verso la diversificazione economica e la governance.",
+  "fonti": [
+    "worldbank_mpo (SAU_mpo_sm21.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "wikipedia:SAU_2021"
+  ]
+}

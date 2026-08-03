@@ -1,0 +1,37 @@
+{
+  "paese": "YEM",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2018, il conflitto in Yemen continuava con intensità significativa. Le parti in conflitto hanno raggiunto un cessate il fuoco a livello locale, ma la situazione di sicurezza rimaneva instabile. I combattimenti e gli attacchi aerei hanno causato un alto numero di vittime civili, con un aumento delle incursioni aeree e delle azioni militari in alcune regioni. La presenza di forze estere, come l'Arabia Saudita e l'Emirato Arabo Unito, continuava a influenzare la dinamica del conflitto. Le violazioni dei cessate il fuoco e le continue azioni militari hanno portato a un aumento dei dislocamenti interni e alla degrado delle infrastrutture essenziali.",
+    "n_eventi_violenti": 2804,
+    "n_vittime": 9598
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Yemen era principalmente causata dal conflitto, che ha determinato una grave crisi umanitaria. L'accesso ai beni alimentari era limitato a causa delle barriere di accesso e delle difficoltà logistiche. La degradazione delle infrastrutture agricole e il blocco delle importazioni hanno aggravato la situazione. L'IPC ha classificato diverse regioni in stato di emergenza (fase 4), con un alto rischio di carestia (fase 5) in alcune aree. La mancanza di assistenza umanitaria e le continue violazioni dei cessate il fuoco hanno peggiorato le condizioni di sicurezza alimentare."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna era un problema significativo a causa del conflitto. I dislocamenti interni erano principalmente causati dagli attacchi aerei e dalle azioni militari, con un aumento dei rifugiati interni nei centri di accoglienza. La mancanza di accesso ai servizi essenziali e la degradazione delle condizioni di vita hanno reso difficile la protezione dei dislocati. I corridoi umanitari erano spesso ostacolati dalle azioni militari, rendendo difficile il trasporto di aiuti umanitari.",
+    "rifugiati": 31145,
+    "richiedenti_asilo": 35876,
+    "sfollati_interni": 2144719
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2018, Yemen continuava a essere afflitto da un conflitto armato di lunga durata. La leadership del paese era composta da Abdrabbuh Mansur Hadi come Presidente e Ali Mohsen al-Ahmar come Vice Presidente. Il Primo Ministro era Maeen Abdulmalik Saeed, che aveva assunto l'incarico nel mese di ottobre. Il conflitto continuava a causare gravi conseguenze umanitarie, con attacchi aerei e violazioni dei cessate il fuoco che provocavano un alto numero di vittime civili. Le forze estere, come l'Arabia Saudita e l'Emirato Arabo Unito, rimanevano attive nel paese, influenzando la dinamica del conflitto. La situazione umanitaria era critica, con un alto livello di carestia e migrazione interna. Le negoziazioni di pace continuavano, ma senza risultati significativi.",
+  "fonti": [
+    "YEM_2018-december_food-security-outlook.pdf",
+    "YEM_2018Q4_2018-12-31_civilian-impact-monitoring-report-january-december-2018.pdf",
+    "wikipedia:YEM_2018"
+  ]
+}

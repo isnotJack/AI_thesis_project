@@ -1,0 +1,35 @@
+{
+  "paese": "KOR",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 132,
+    "richiedenti_asilo": 880,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2022, la Corea del Sud ha continuato a gestire diversi eventi significativi. Tra questi, si è verificato un incidente di grande portata a Seoul durante la festa di Halloween, dove un grande raduno di persone è stato coinvolto in un incidente che ha causato un numero significativo di vittime e feriti. Questo evento ha richiamato l'attenzione sulle questioni di sicurezza pubblica e gestione delle folle in ambito urbano. Inoltre, il paese ha continuato a monitorare le dinamiche geopolitiche regionali, inclusi i rapporti con la Corea del Nord, che rimangono un tema di rilevanza strategica. La leadership del paese, con Yoon Suk-yeol come presidente, ha continuato a guidare le politiche interne e esterne, mantenendo una presenza attiva sulle scene nazionale e internazionale.",
+  "fonti": [
+    "wikipedia:KOR_2022"
+  ]
+}

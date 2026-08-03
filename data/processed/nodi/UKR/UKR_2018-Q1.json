@@ -1,0 +1,48 @@
+{
+  "paese": "UKR",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2018, l'Ucraina ha continuato a gestire la situazione di conflitto nel Donbass, con riferimenti specifici alla regione di Donetsk e Luhansk. Il governo ucraino ha approvato misure per supportare le persone rilasciate dalla prigionia in aree non governate, riconoscendo la situazione di guerra causata dall'aggressione russa. L'adozione di nuove leggi e piani d'azione riflette l'impegno del governo a gestire le conseguenze del conflitto, inclusi i rifugiati interni e le misure per il ritorno dei combattenti. L'approvazione di un piano d'azione per la Crimea evidenzia anche l'attenzione verso la regione, con misure per migliorare le connessioni di trasporto e la protezione dei diritti umani.",
+    "n_eventi_violenti": 2564,
+    "n_vittime": 117
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2018, l'Ucraina ha adottato misure per supportare le persone rilasciate dalla prigionia in aree non governate, fornendo assistenza finanziaria una tantum. Sono state approvate misure per il finanziamento di progetti pilota per affrontare le sfide causate dallo spostamento interno, inclusi miglioramenti dell'infrastruttura abitativa, opportunità di ricerca di lavoro, estensione dei servizi comunali e supporto psicosociale. L'approvazione di un piano d'azione per la Crimea indica un'attenzione specifica verso la regione, con misure per migliorare le connessioni di trasporto e la protezione dei diritti umani.",
+    "rifugiati": 93248,
+    "richiedenti_asilo": 31965,
+    "sfollati_interni": 1500002
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "VPNFilter malware"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Sofacy Group",
+      "Fancy Bear",
+      "APT28"
+    ],
+    "settori_bersaglio": [
+      "infrastrutture critiche",
+      "organizzazioni governative",
+      "organizzazioni non governative"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, l'Ucraina ha continuato a gestire la situazione di conflitto nel Donbass, con riferimenti specifici alla regione di Donetsk e Luhansk. Il governo ucraino ha approvato misure per supportare le persone rilasciate dalla prigionia in aree non governate, riconoscendo la situazione di guerra causata dall'aggressione russa. L'adozione di nuove leggi e piani d'azione riflette l'impegno del governo a gestire le conseguenze del conflitto, inclusi i rifugiati interni e le misure per il ritorno dei combattenti. L'approvazione di un piano d'azione per la Crimea evidenzia anche l'attenzione verso la regione, con misure per migliorare le connessioni di trasporto e la protezione dei diritti umani.",
+  "fonti": [
+    "UKR_2018Q1_2018-03-31_ukraine-legislative-update-march-2018-en-uk.pdf",
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "wikipedia:UKR_2018"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "paese": "SDN",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2023, il Sudan è stato teatro di intensi combattimenti tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF), principalmente a Khartoum e in altre città. I combattimenti hanno causato un elevato numero di vittime civili e feriti, con la chiusura di molte infrastrutture essenziali come aeroporti e strade. La situazione ha portato a una severa restrizione dell'accesso umanitario, con molte organizzazioni che hanno sospeso le loro operazioni. La violenza ha anche portato a un aumento dei profughi e dei dislocati interni, con migliaia di persone che hanno attraversato le frontiere verso paesi vicini come il Ciad, l'Egitto e l'Etiopia. I combattimenti hanno avuto un impatto significativo sulla popolazione civile, con molte persone che hanno perso accesso ai servizi essenziali come la salute, l'alimentazione e l'acqua. La situazione è stata ulteriormente complicata dalla presenza di mine e dispositivi esplosivi, che hanno reso ancora più pericoloso il territorio per i civili e i lavoratori umanitari.",
+    "n_eventi_violenti": 193,
+    "n_vittime": 196
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia nel Sudan è stata aggravata da una combinazione di conflitto, elevati costi di vita e problemi di accesso umanitario. Il conflitto ha interrotto le attività agricole e ha aumentato la povertà, mentre i costi di vita elevati hanno reso difficile l'accesso all'alimentazione per molte famiglie. L'accesso umanitario limitato ha ridotto la distribuzione di aiuti alimentari, peggiorando ulteriormente la situazione. La carestia è stata particolarmente acuta nelle aree colpite dal conflitto, come Darfur, Kordofan e il Nord Sudan."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Sudan è stata caratterizzata da un aumento significativo di profughi e dislocati interni a causa del conflitto. Migliaia di persone hanno attraversato le frontiere verso paesi vicini come il Ciad, l'Egitto e l'Etiopia, cercando rifugio dai combattimenti. All'interno del paese, molti hanno cercato di spostarsi verso aree più sicure, causando una crescente pressione sui campi profughi e sui servizi locali. La situazione ha creato sfide significative per le organizzazioni umanitarie che cercano di fornire assistenza ai profughi e ai dislocati interni.",
+    "rifugiati": 1496923,
+    "richiedenti_asilo": 253902,
+    "sfollati_interni": 9052822
+  },
+  "economia": {
+    "sintesi": "L'economia del Sudan ha subito un impatto significativo a causa del conflitto, con una riduzione delle attività economiche e un aumento della povertà. Il conflitto ha interrotto le attività agricole e ha aumentato i costi di produzione, influenzando negativamente la crescita economica. L'accesso limitato ai servizi finanziari e alle risorse ha reso difficile per le aziende e i lavoratori continuare le loro attività. La situazione ha anche portato a una crescente pressione sui servizi pubblici e alle risorse locali, aumentando la povertà e la vulnerabilità delle popolazioni locali.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, il Sudan ha visto un aumento significativo della tensione politica e militare, con combattimenti intensi tra le Forze Armate Sudanesi (SAF) e le Forze di Supporto Rapido (RSF). Il conflitto ha avuto un impatto significativo sulla popolazione civile, causando un elevato numero di vittime e feriti, oltre a un aumento dei profughi e dei dislocati interni. La situazione ha portato a una severa restrizione dell'accesso umanitario, con molte organizzazioni che hanno sospeso le loro operazioni. Il conflitto ha anche aggravato la situazione di carestia, con un aumento dei costi di vita e una riduzione dell'accesso all'alimentazione. L'economia del paese ha subito un impatto significativo, con una riduzione delle attività economiche e un aumento della povertà. La situazione ha creato sfide significative per le organizzazioni umanitarie che cercano di fornire assistenza ai profughi e ai dislocati interni.",
+  "fonti": [
+    "acaps (SDN_2023-02-07_20230207_acaps_briefing_note_sudan_humanitarian_access_snapshot.pdf)",
+    "fews_net (SDN_2023-march_key-message-update.pdf)",
+    "unhcr_reports (SDN_2023Q1_2023-03-30_sudan-snfi-cluster-coordination-meeting-march-2023-meeting-m.pdf)",
+    "worldbank_mpo (SDN_mpo_am22.pdf)",
+    "wikipedia:SDN_2023"
+  ]
+}

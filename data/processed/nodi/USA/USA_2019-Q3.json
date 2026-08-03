@@ -1,0 +1,35 @@
+{
+  "paese": "USA",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2019, gli Stati Uniti hanno continuato a gestire diversi conflitti e tensioni internazionali. Tra i principali eventi, il 23 agosto, un'esplosione a bordo di un aereo di Atlas Air ha causato la morte di tutti a bordo. Il 24 agosto, il presidente Trump ha dichiarato lo stato di emergenza per liberare fondi per il muro di confine, mentre il 29 agosto, il governo ha respinto un tentativo di fine della collaborazione militare con la Arabia Saudita in Siria. Il 16 settembre, il presidente Trump ha approvato il deployment di truppe e armi, inclusi missili Patriot, in Arabia Saudita e Emirati Arabi Uniti in risposta all'attacco del 14 settembre contro le raffinerie saudite. Il 27 settembre, il presidente Trump ha revocato l'autorità della California di stabilire le proprie norme di emissione di automobili. Il 24 ottobre, il governo ha iniziato a inviare truppe e armi aggiuntive in Arabia Saudita. Il 28 ottobre, il presidente Trump ha minacciato di tagliare l'assistenza federale per combattere gli incendi in California. Il 18 novembre, il governo ha minacciato di tagliare l'assistenza federale per combattere gli incendi in California. Il 24 dicembre, il presidente Trump ha ordinato al segretario della Difesa di licenziare il segretario della Marina dopo che quest'ultimo ha rimosso Eddie Gallagher dalla SEAL Team 7.",
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 297,
+    "richiedenti_asilo": 2940,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 1.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, gli Stati Uniti hanno visto una serie di sviluppi politici e sociali significativi. Tra i principali eventi, il 24 agosto, il presidente Trump ha dichiarato lo stato di emergenza per liberare fondi per il muro di confine. Il 29 agosto, il governo ha respinto un tentativo di fine della collaborazione militare con la Arabia Saudita in Siria. Il 16 settembre, il presidente Trump ha approvato il deployment di truppe e armi, inclusi missili Patriot, in Arabia Saudita e Emirati Arabi Uniti in risposta all'attacco del 14 settembre contro le raffinerie saudite. Il 27 settembre, il presidente Trump ha revocato l'autorità della California di stabilire le proprie norme di emissione di automobili. Il 24 ottobre, il governo ha iniziato a inviare truppe e armi aggiuntive in Arabia Saudita. Il 28 ottobre, il presidente Trump ha minacciato di tagliare l'assistenza federale per combattere gli incendi in California. Il 18 novembre, il governo ha minacciato di tagliare l'assistenza federale per combattere gli incendi in California. Il 24 dicembre, il presidente Trump ha ordinato al segretario della Difesa di licenziare il segretario della Marina dopo che quest'ultimo ha rimosso Eddie Gallagher dalla SEAL Team 7.",
+  "fonti": [
+    "wikipedia:USA_2019"
+  ]
+}

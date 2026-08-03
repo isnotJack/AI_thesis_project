@@ -1,0 +1,41 @@
+{
+  "paese": "UKR",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con intensità elevata, con attacchi e controattacchi tra le forze ucraine e russe. Le operazioni militari si concentrano principalmente nelle regioni di Luhansk, Donetsk, Zaporizhzhia e Kherson. Il governo ucraino continua a respingere le forze russe, mentre le operazioni di evacuazione e assistenza umanitaria continuano a essere un'area critica di preoccupazione. Il conflitto ha avuto un impatto significativo sul territorio, con molte infrastrutture civili danneggiate e migliaia di civili evacuati. Le operazioni militari includono attacchi aerei, bombardamenti e combattimenti terrestri intensi, con entrambe le parti che continuano a riorganizzarsi e adattarsi alle strategie dell'avversario.",
+    "n_eventi_violenti": 12317,
+    "n_vittime": 14222
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione di migrazione è critica, con un numero significativo di rifugiati ucraini che hanno bisogno di protezione e assistenza. L'UNHCR ha fornito assistenza materialistica, inclusi tappeti termici, per affrontare le condizioni climatiche difficili. I flussi di rifugiati continuano a essere un problema di protezione, con nuovi corridoi di evacuazione e ostacoli operativi che vengono gestiti per garantire la sicurezza e l'assistenza ai rifugiati. L'assistenza umanitaria continua a essere cruciale per affrontare le esigenze dei rifugiati e delle popolazioni locali colpite dal conflitto.",
+    "rifugiati": 5684177,
+    "richiedenti_asilo": 34637,
+    "sfollati_interni": 5914000
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina continua a subire pressioni significative a causa del conflitto, con rischi fiscali e esterni evidenziati nei report. L'assistenza internazionale e le sanzioni contro la Russia hanno un impatto significativo sulle dinamiche economiche. L'Ucraina continua a ricevere sostegno finanziario e logistico da paesi alleati per affrontare le conseguenze economiche del conflitto, ma le prospettive di crescita economica sono compromesse dalle continue turbolenze e dai costi elevati del conflitto.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2022, l'Ucraina ha continuato a fare fronte a una serie di sfide significative, principalmente legate al conflitto armato con la Russia. Il presidente Volodymyr Zelenskyy ha mantenuto un ruolo centrale nella guida del paese attraverso il conflitto, mentre il primo ministro Denys Shmyhal ha gestito le conseguenze economiche e sociali. Il paese ha ricevuto sostegno internazionale significativo, inclusa l'assistenza militare e umanitaria da parte di vari paesi occidentali. L'Ucraina ha anche continuato a perseguire la sua aspirazione ad aderire all'Unione Europea, con passi avanti nei negoziati e nella presentazione di documenti formali. La situazione politica interna è stata influenzata dal conflitto, con cambiamenti nei governi locali e nazionali, e la continua lotta per la sopravvivenza e la ricostruzione del paese.",
+  "fonti": [
+    "acaps (UKR_2022-12-21_20221221_acaps_global_analysis_ripple_effects_of_the_conflict_in_ukraine_0.pdf)",
+    "fews_net (UKR_2022-december_key-message-update.pdf)",
+    "unhcr_reports (UKR_2022Q4_2022-12-31_ukraine-material-assistance-factsheet-31-december-2022.pdf)",
+    "worldbank_mpo (UKR_mpo_am22.pdf)",
+    "enisa (ENISA_Threat_Landscape_2022.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2022.pdf)",
+    "acaps (UKR_2022-11-17_20221117_acaps_ukraine_analysis_hub_humanitarian_access_analysis_october_2022.pdf)"
+  ]
+}

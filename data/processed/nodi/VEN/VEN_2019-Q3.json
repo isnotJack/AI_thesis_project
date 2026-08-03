@@ -1,0 +1,36 @@
+{
+  "paese": "VEN",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il Venezuela è caratterizzato da una crisi politica profonda con due leader riconosciuti da differenti paesi: Nicolás Maduro e Juan Guaidó. La situazione è segnata da proteste anti-governo, repressione da parte delle forze di sicurezza, arresti di leader dell'opposizione e tentativi di colpo di Stato. L'uso della forza da parte delle autorità ha portato a morti e detenzioni. L'opposizione continua a cercare di ottenere il sostegno internazionale per il riconoscimento di Guaidó come presidente legittimo.",
+    "n_eventi_violenti": 563,
+    "n_vittime": 806
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il Venezuela è al centro di una delle crisi di sfollamento più grandi al mondo, con rifugiati e migranti che superano il milione. La situazione è particolarmente critica per la protezione dei migranti, con sfollati che fanno fronte a sfide significative nei paesi di accoglienza. La crescita dei flussi di migranti continua a essere un problema di rilevanza regionale.",
+    "rifugiati": 93239,
+    "richiedenti_asilo": 794491,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Venezuela è dominato da una profonda crisi politica con due leader riconosciuti da differenti paesi: Nicolás Maduro e Juan Guaidó. La situazione è segnata da proteste anti-governo, repressione da parte delle forze di sicurezza, arresti di leader dell'opposizione e tentativi di colpo di Stato. L'uso della forza da parte delle autorità ha portato a morti e detenzioni. L'opposizione continua a cercare di ottenere il sostegno internazionale per il riconoscimento di Guaidó come presidente legittimo. La crisi politica ha profonde implicazioni economiche e sociali, con conseguenze significative per la popolazione e la regione circostante.",
+  "fonti": [
+    "wikipedia:VEN_2019",
+    "unhcr_reports (VEN_2019Q3_2019-09-24_unhcr-latin-america-2019-funding-update-as-of-24-september-2.pdf)"
+  ]
+}

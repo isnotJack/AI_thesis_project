@@ -1,0 +1,35 @@
+{
+  "paese": "KOR",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2019, la Corea del Sud ha continuato a gestire le relazioni con la Corea del Nord, mantenendo gli sforzi per migliorare le relazioni intercoreane. Durante il trimestre, la Corea del Sud ha annunciato che avrebbe abrogato l'accordo GSOMIA con il Giappone, un accordo che avrebbe dovuto essere rinnovato automaticamente. Questa decisione ha generato tensioni diplomatiche tra i due paesi, con la Corea del Sud chiamando l'ambasciatore americano a Seul per chiedere di attenuare le critiche pubbliche degli Stati Uniti verso la decisione di non rinnovare l'accordo. L'ambasciatore americano Harry B. Harris Jr. ha mancato un evento importante, il DMZ International Forum on the Peace Economy, e il suo intervento è stato cancellato da un'associazione di veterani di riserva. Inoltre, la Corea del Sud ha continuato a fare fronte a tensioni con il Giappone, legate a un'escalation di un litigio commerciale che ha influenzato le esportazioni di materiali industriali chiave.",
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 180,
+    "richiedenti_asilo": 643,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, la Corea del Sud ha continuato a essere governata dal presidente Moon Jae-in e dal primo ministro Lee Nak-yeon, mentre si sforzava di migliorare le relazioni con la Corea del Nord e di affrontare sfide economiche domestiche. Il trimestre ha visto una crescente tensione con il Giappone, culminata con la decisione della Corea del Sud di abrogare l'accordo GSOMIA, che ha portato a critiche da parte degli Stati Uniti. In ambito interno, la Corea del Sud ha fatto fronte a diverse controversie politiche e dimostrazioni pubbliche, nonché a sviluppi significativi nel settore culturale e alla morte di figure pubbliche prominenti, come le entrate Sulli e Goo Hara. Questi eventi hanno reso il 2019 un anno di rilevanza politica, economica e sociale per la Corea del Sud.",
+  "fonti": [
+    "wikipedia:KOR_2019"
+  ]
+}

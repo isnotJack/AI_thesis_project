@@ -1,0 +1,39 @@
+{
+  "paese": "ETH",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Etiopia è coinvolta in conflitti interni, inclusi quelli legati alla Fano insurgency, OLA insurgency e Gambela conflict. Vi sono anche tensioni lungo la frontiera con Somalia, dove si sono verificati scontri tra le forze regionali etiopi e milizie locali. L'attività bellica continua a influenzare la situazione umanitaria, con sfollati e sfollati interni che continuano a crescere. L'insurrezione di Fano ha portato a episodi di violenza significativa, inclusi attacchi contro le forze di sicurezza e incidenti che hanno causato molte vittime civili. La regione di Amhara è particolarmente colpita da questi conflitti, con episodi di violenza che hanno coinvolto anche istituzioni come la polizia e le forze di sicurezza. L'insurrezione di OLA ha portato a negoziati di pace mediati dalla Tanzania, che hanno portato a un accordo di pace a Addis Abeba. La regione di Gambela è interessata da conflitti che hanno portato a sfollamenti e situazioni di instabilità. L'interazione tra conflitti interni e situazioni umanitarie è evidente, con conseguenze significative sulla popolazione locale.",
+    "n_eventi_violenti": 583,
+    "n_vittime": 1606
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia in Etiopia includono la siccità, il conflitto e la crisi economica. La siccità ha avuto un impatto significativo sulle condizioni di sicurezza alimentare, riducendo la disponibilità di cibo e aumentando la pressione sui sistemi di sostentamento. Il conflitto interno ha contribuito a creare sfollati e sfollati interni, aumentando la vulnerabilità alimentare. La crisi economica ha aggravato la situazione, con effetti sulla disponibilità di cibo e sulle capacità di acquisto delle famiglie. La carestia è particolarmente acuta in alcune regioni, come Tigray, Amhara e Afar, dove le popolazioni sono sempre più dipendenti dagli aiuti alimentari. La carestia è accompagnata da elevati tassi di malnutrizione acuta, che richiedono interventi umanitari urgenti."
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione dei migranti è critica, con sfollati interni e sfollati che continuano a crescere a causa dei conflitti interni e delle condizioni di sicurezza alimentare precarie. I nuovi corridoi di migrazione sono emersi a causa delle tensioni lungo le frontiere e delle situazioni di instabilità interne. Gli ostacoli operativi includono limitazioni di accesso per gli operatori umanitari, che sono spesso impediti dal conflitto e dalle barriere logistiche. La mancanza di documenti di identità e la debolezza delle strutture di protezione legale aumentano la vulnerabilità dei migranti, inclusi i bambini e le donne. La situazione di protezione è particolarmente critica nei campi per sfollati, dove le condizioni di vita sono spesso precarie e le risorse limitate.",
+    "rifugiati": 164423,
+    "richiedenti_asilo": 158142,
+    "sfollati_interni": 2272533
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita economica è moderato, con rischi fiscali e esterni che continuano a preoccupare. La crescita economica è stata influenzata da fattori come la siccità, il conflitto e la crisi economica. L'economia è in fase di trasformazione, con riforme strutturali che cercano di promuovere la crescita inclusiva e la resilienza. Tuttavia, le distorsioni macroeconomiche, come la sovravvalutazione della valuta e le politiche fiscali restrittive, continuano a costituire un ostacolo. La povertà e l'ineguaglianza rimangono preoccupanti, con una parte significativa della popolazione ancora vulnerabile a fluttuazioni economiche e shock esterni. L'economia è in fase di ripresa, ma i rischi di instabilità rimangono elevati.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2024, Etiopia continua a essere caratterizzata da una leadership stabile con Sahle-Work Zewde come presidente fino al 7 ottobre, seguita da Taye Atskeselassie. Abiy Ahmed rimane primo ministro. L'anno è segnato da eventi significativi, inclusi l'adesione ufficiale al gruppo BRICS e l'annuncio di un accordo con Somaliland per l'uso di 20 chilometri di costa, compreso il porto di Berbera, in cambio del riconoscimento della Dichiarazione di Indipendenza di Somaliland. L'anno è anche segnato da eventi naturali, come terremoti e alluvioni, che hanno avuto un impatto significativo sulla popolazione. L'attività bellica continua a essere un tema importante, con conflitti interni che influenzano la situazione umanitaria e le condizioni di sicurezza. L'anno è inoltre segnato da sviluppi politici, come la visita di Abiy Ahmed a Port Sudan per cercare di porre fine alla guerra civile in Sudan. L'anno si chiude con un terremoto che ha avuto un impatto significativo sulla regione centrale dell'Etiopia.",
+  "fonti": [
+    "ETH_2024-01-18_20240118_ACAPS_thematic_report_Ethiopia_drivers_of_cholera_outbreak.pdf",
+    "ETH_2024-march_key-message-update.pdf",
+    "ETH_2024Q1_2024-03-31_protection-cluster-ethiopia-monthly-protection-overview-marc.pdf",
+    "ETH_mpo_am23.pdf",
+    "wikipedia:ETH_2024"
+  ]
+}

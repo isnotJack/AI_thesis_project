@@ -1,0 +1,37 @@
+{
+  "paese": "UKR",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si sono registrati incidenti di sicurezza legati al conflitto, con una diminuzione rispetto al periodo precedente. Sono stati segnalati incidenti di sicurezza, inclusi quelli causati da mine/ERW, soprattutto nella regione di Luhansk NGCA. Il numero di incidenti di sicurezza è diminuito dopo l'introduzione di un cessate il fuoco. Sono stati registrati anche incidenti di civili causati da mine/ERW, con un aumento di incidenti in agosto. Il movimento attraverso il confine è stato limitato, con restrizioni di movimento e chiusura di alcuni punti di passaggio. Le autorità hanno adottato misure per gestire il movimento attraverso la linea di contatto, con restrizioni su alcuni beni e limiti di trasferimento di denaro tra le aree controllate dalla GCA e NGCA.",
+    "n_eventi_violenti": 1023,
+    "n_vittime": 29
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "I flussi migratori sono stati influenzati dalle restrizioni di movimento e dalla situazione di sicurezza lungo la linea di contatto. Sono stati segnalati problemi di accesso ai servizi essenziali, come la mancata rinnovo delle carte per ritirare pensioni e benefici sociali, a causa delle restrizioni di movimento. Le autorità hanno introdotto misure per gestire il movimento attraverso la linea di contatto, con restrizioni su alcuni beni e limiti di trasferimento di denaro tra le aree controllate dalla GCA e NGCA. Sono stati segnalati problemi di accesso ai servizi essenziali, come la mancata rinnovo delle carte per ritirare pensioni e benefici sociali, a causa delle restrizioni di movimento.",
+    "rifugiati": 35156,
+    "richiedenti_asilo": 21426,
+    "sfollati_interni": 734000
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è stato influenzato dalla pandemia di COVID-19, con proiezioni di contrazione economica. Sono stati segnalati rischi fiscali e esterni, inclusi la gestione del debito pubblico e la stabilità finanziaria. Sono state introdotte misure per contenere il deficit fiscale e gestire le pressioni inflazionistiche. Sono state proposte riforme per incentivare l'investimento e la crescita economica, nonostante le limitazioni di spazio fiscale. Sono state segnalate preoccupazioni sulla stabilità finanziaria e sulla gestione del debito pubblico, con un focus sulle riforme per promuovere l'investimento e la crescita economica.",
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la leadership ucraina è stata guidata da Volodymyr Zelenskyy come Presidente e Denys Shmygal come Primo Ministro. L'Ucraina ha continuato a fare fronte alla pandemia di COVID-19, con un aumento dei casi registrati. La guerra in Donbass è rimasta un tema importante, con incidenti di sicurezza lungo la linea di contatto. Sono stati segnalati eventi significativi, come l'attacco dei separatisti russi nel febbraio precedente e l'incendio nella zona di esclusione di Chernobyl nel mese di aprile. L'Ucraina ha anche affrontato sfide legate alla gestione della pandemia, con la morte del sindaco di Kharkiv a causa delle complicazioni da COVID-19 e il superamento del milione di casi di COVID-19 a dicembre.",
+  "fonti": [
+    "unhcr_reports (UKR_2020Q3_2020-09-18_ukraine-protection-cluster-factsheet-july-august-2020-en-ru-.pdf)",
+    "worldbank_mpo (UKR_mpo_sm20.pdf)",
+    "wikipedia:UKR_2020"
+  ]
+}

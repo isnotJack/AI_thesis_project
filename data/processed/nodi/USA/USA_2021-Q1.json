@@ -1,0 +1,49 @@
+{
+  "paese": "USA",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Il periodo è caratterizzato da una serie di eventi legati alla transizione presidenziale e alle proteste legate all'elezione presidenziale del 2020. Il 6 gennaio, un gruppo di sostenitori di Donald Trump ha assaltato il Capitolo degli Stati Uniti, interrompendo temporaneamente la contea ufficiale dei voti elettorali. Questo episodio ha portato a una serie di reazioni politiche e legali, con la creazione di commissioni per indagare sugli eventi e la presentazione di accuse contro alcuni partecipanti. Inoltre, ci sono state proteste contro le misure di lockdown legate alla pandemia di COVID-19, nonché proteste contro la brutalità polizia. L'anno è anche stato segnato da un periodo di alta inflazione e da proteste contro la brutalità polizia, che hanno continuato a fare notizia nel primo trimestre.",
+    "n_eventi_violenti": 26,
+    "n_vittime": 29
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 426,
+    "richiedenti_asilo": 1662,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.3
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Colonial Pipeline cyberattack: Un oil pipeline in Houston è stato hackerato da DarkSide, causando la chiusura del sistema di rete dell'operatore, che ha interrotto quasi metà del fornitura di carburante lungo la costa orientale degli Stati Uniti.",
+      "JBS S.A. cyberattack: Un attacco ransomware ha colpito diverse impianti di elaborazione della carne e macellieri in Utah, Texas, Wisconsin, Nebraska e Pennsylvania. La compagnia russa REvil è stata accusata di essere il responsabile dell'attacco."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "FDA revokes the emergency use authorization (EUA) for bamlanivimab.",
+      "FDA issues an emergency use authorization (EUA) for bamlanivimab and etesevimab."
+    ],
+    "gruppi_minaccia_associati": [
+      "DarkSide",
+      "REvil"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Alimentare"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Il primo trimestre del 2021 è stato caratterizzato da una transizione presidenziale turbolenta, con la presidenza di Joe Biden che ha preso il posto di Donald Trump. Il paese ha continuato a lottare contro la pandemia di COVID-19, con l'emergere di nuove varianti del virus e la distribuzione di vaccini. Ci sono state proteste contro le misure di lockdown e contro la brutalità polizia, nonché un periodo di alta inflazione. L'anno ha anche visto un'attiva stagione degli uragani nell'Atlantico, incendi distruttivi in California e una crisi energetica in Texas.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:USA_2021"
+  ]
+}

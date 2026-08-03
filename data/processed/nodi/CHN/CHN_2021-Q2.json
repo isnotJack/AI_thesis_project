@@ -1,0 +1,56 @@
+{
+  "paese": "CHN",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 115,
+    "n_vittime": 3
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 170222,
+    "richiedenti_asilo": 118476,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia cinese è proiettata a riprendersi in modo significativo, con un forte ritorno della crescita dopo l'impatto della pandemia. Si prevede un aumento della crescita economica, con un focus sul consolidamento fiscale e sul de-leveraging. Le proiezioni indicano un recupero della crescita del PIL, con un aumento delle esportazioni e dell'investimento. Si evidenziano anche alcuni rischi strutturali, come le disparità regionali, la lenta crescita della produttività e le tensioni demografiche. La povertà è in diminuzione, con una riduzione significativa del tasso di povertà internazionale e di medio livello. Le proiezioni di crescita sono influenzate da fattori come la ripresa globale, le politiche fiscali e monetarie, e le riforme strutturali. Si prevede un aumento della disuguaglianza, come indicato dall'indice di Gini. L'export e l'investimento sono componenti chiave del recupero economico, con un aumento delle esportazioni e dell'investimento fisso. La ripresa economica è influenzata anche dalle politiche di consolidamento fiscale e da una maggiore attenzione alle disparità regionali e alla crescita della produttività.",
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Joint Cybersecurity Advisory: Chinese Gas Pipeline Intrusion Campaign, 2011 to 2013"
+    ],
+    "gruppi_minaccia_associati": [
+      "HAFNIUM"
+    ],
+    "settori_bersaglio": [
+      "Energy Sector",
+      "Government agencies and services",
+      "Diplomatic organizations",
+      "Economic researchers",
+      "Law firms",
+      "Higher education institutions",
+      "Defense contractors",
+      "Policy think tanks",
+      "NGOs",
+      "Universities",
+      "Research institutions",
+      "Private sector organizations"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2021, la Cina ha continuato a gestire la pandemia di COVID-19 con la sua politica Zero-COVID, che ha ridotto significativamente la trasmissione del virus attraverso lockdown di grande scala e test di massa. Il paese ha raggiunto un record di 55 missioni spaziali nel 2021, compresa la realizzazione della stazione spaziale Tiangong e il primo sbarco cinese su Marte. Le preoccupazioni legate alla diminuzione delle nascite hanno portato il governo nazionale a sostituire la politica dei due figli con quella dei tre figli in maggio 2021. La Cina ha continuato a rafforzare le sue relazioni con l'Afghanistan, l'Iran e la Russia nel 2021. Un'ondata di riforme politiche ha continuato nel 2021, applicando restrizioni o bando a criptovalute, grattacieli, tutoraggio privato, pettegolezzi sui celebrità e videogiochi. Le aziende tecnologiche sono state sottoposte a un'attenta supervisione da parte del governo cinese nel 2021. Le misure anti-monopolio sono state attuate, e diverse grandi aziende hanno visto sanzioni significative durante l'anno. Una crisi nel settore immobiliare che ha coinvolto aziende come Evergrande nel 2021 ha provocato problemi economici in Cina. Le riforme politiche a Hong Kong hanno limitato la democrazia e ridotto le elezioni a candidati approvati dal Partito Comunista Cinese. I giornali e i gruppi pro-democrazia a Hong Kong sono stati chiusi. Le presunte violazioni dei diritti umani in Xinjiang sono continuate, incluse le accuse di genocidio.",
+  "fonti": [
+    "CHN_AA21-201A_Chinese_Gas_Pipeline_Intrusion_Campaign_2011_to_2013 (1).pdf",
+    "CHN_mpo_sm21.pdf",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "Microsoft_Digital_Defense_Report_2021.pdf",
+    "wikipedia:CHN_2021"
+  ]
+}

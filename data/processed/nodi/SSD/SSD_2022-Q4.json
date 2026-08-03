@@ -1,0 +1,41 @@
+{
+  "paese": "SSD",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Il Sud Sudan è stato caratterizzato da un'attività conflittuale significativa nel quarto trimestre del 2022. I principali attori includono le forze armate governative e le milizie armate, tra cui il Sudan People's Liberation Movement-in-Opposition (SPLM-IO). I conflitti sono stati segnalati in diverse regioni, con episodi di violenza tra tribù e attacchi contro le forze governative. La situazione è stata complicata da continue tensioni etniche e da attacchi armati, che hanno portato a spostamenti forzati della popolazione civile. L'aggravamento delle condizioni di sicurezza ha avuto un impatto significativo sulle attività umanitarie e sulle operazioni di assistenza.",
+    "n_eventi_violenti": 528,
+    "n_vittime": 1132
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia nel Sud Sudan è stata principalmente causata da una combinazione di conflitto, inondazioni e crisi economica. Le inondazioni hanno gravemente danneggiato le coltivazioni e le infrastrutture agricole, riducendo la disponibilità di cibo. Il conflitto ha limitato l'accesso alle aree rurali, interferendo con le attività di raccolto e di distribuzione di aiuti umanitari. La crisi economica ha aumentato i prezzi dei generi alimentari, rendendo il cibo inaccessibile per molte famiglie. L'aggravamento delle condizioni di sicurezza ha ulteriormente complicato la distribuzione di aiuti umanitari, aumentando il rischio di carestia in alcune regioni."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione forzata è stata un problema significativo nel Sud Sudan nel quarto trimestre del 2022. I principali driver della migrazione sono stati il conflitto armato, le inondazioni e le condizioni di sicurezza precarie. I rifugiati hanno cercato rifugio in aree urbane e nei campi per sfollati, aumentando la pressione sui servizi umanitari locali. La mancanza di protezione adeguata ha reso le popolazioni vulnerabili a violenze e abusi, compresi i casi di violenza di genere. L'accesso alle risorse fondamentali, come l'acqua e l'alimentazione, è stato compromesso, aumentando la vulnerabilità delle popolazioni sfollate.",
+    "rifugiati": 2295082,
+    "richiedenti_asilo": 5228,
+    "sfollati_interni": 1474679
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan ha continuato a subire pressioni significative nel quarto trimestre del 2022. La crescita economica è stata limitata a causa di fattori come la crisi politica, le inondazioni e la mancanza di investimenti. I rischi fiscali e esterni sono aumentati a causa dell'instabilità politica e delle pressioni sui prezzi dei beni di base. La dipendenza dall'export di petrolio ha reso l'economia vulnerabile ai fluttuazioni dei prezzi mondiali. La povertà ha continuato a essere un problema significativo, con una grande parte della popolazione che vive al di sotto della linea della povertà.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2022, il Sud Sudan ha continuato a essere caratterizzato da una situazione politica instabile e da una leadership dominata da Salva Kiir Mayardit come Presidente e Riek Machar come Vice Presidente. L'anno è stato segnato da eventi significativi, inclusi conflitti etnici e tribali, attacchi armati e continue tensioni tra le forze governative e le milizie armate. La pandemia di COVID-19 ha continuato a influenzare la situazione, con effetti significativi sulle attività umanitarie e sulle condizioni di vita della popolazione. L'aggravamento delle condizioni di sicurezza ha reso difficile l'assistenza umanitaria e ha aumentato la vulnerabilità delle popolazioni civili.",
+  "fonti": [
+    "SSD_2022-10-27_20221027_acaps_briefing_note_south_sudan_impact_of_floods.pdf",
+    "SSD_2022-december_key-message-update.pdf",
+    "SSD_2022-november_key-message-update.pdf",
+    "SSD_2022-october_food-security-outlook.pdf",
+    "SSD_2022Q4_2022-12-31_protection-cluster-south-sudan-monthly-update-december-2022.pdf",
+    "SSD_mpo_am22.pdf",
+    "wikipedia:SSD_2022"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "paese": "ITA",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Criticità di protezione evidente nei flussi migratori verso l'Italia, con riferimento a incidenti e situazioni di pericolo in mare. Nuovi ostacoli operativi sono stati segnalati, inclusi i tentativi di blocco dei porti italiani per limitare l'arrivo di migranti. Le rotte principali verso l'Italia continuano ad essere critiche, con numerose vittime e scomparsi in mare.",
+    "rifugiati": 69,
+    "richiedenti_asilo": 381,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 1.7
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Indictment of officials from the Mabna Institute"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Iran (Islamic Republic of)"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 1
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, l'Italia ha visto svilupparsi tensioni legate alla questione migratoria, con dichiarazioni pubbliche e azioni politiche che hanno suscitato dibattiti nazionali e internazionali. L'elezione generale del 3 marzo ha portato a un risultato che ha reso necessaria la formazione di un nuovo governo. Eventi significativi includono dichiarazioni contro le correnti migratorie, proteste e critiche politiche, nonché azioni governative volte a limitare l'arrivo di migranti. In ambito cyber, l'Italia è stata menzionata come vittima di operazioni cibernetiche state-sponsorizzate da parte dell'Iran.",
+  "fonti": [
+    "ITA_2018Q1_2018-03-31_europe-dead-and-missing-at-sea-january-2017-march-2018.pdf",
+    "https://www.cfr.org/cyber-operations/indictment-of-officials-from-the-mabna-institute",
+    "wikipedia:ITA_2018"
+  ]
+}

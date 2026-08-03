@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Etiopia nel secondo trimestre del 2021 è stato dominato dalla guerra nel Tigray, che ha continuato a causare tensioni significative. L'operazione militare ha portato a movimenti di truppe e combattimenti intensi, con l'avanzata delle forze tigrayane verso la regione di Amhara. La situazione è stata complicata da alleanze tra gruppi ribelli, come l'accordo tra i ribelli tigrayani e l'Oromo Liberation Army per combattere le forze federali etiopi. La guerra ha provocato un aumento dei rifugiati e delle persone internamente sfollate, con un impatto significativo sulla sicurezza umana e la stabilità regionale.",
+    "n_eventi_violenti": 191,
+    "n_vittime": 1322
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia in Etiopia è stata principalmente causata da conflitti, carenze stagionali di pioggia e condizioni economiche deteriorate. La guerra nel Tigray ha gravemente limitato l'accesso alla terra e alle fonti di reddito, mentre le piogge erratiche hanno ridotto le prospettive di raccolto. L'economia in crisi ha portato a un aumento dei prezzi dei generi alimentari e a una riduzione del potere d'acquisto, aggravando la situazione di sicurezza alimentare. La carestia è stata particolarmente acuta nelle regioni colpite dal conflitto, come il Tigray, dove le condizioni sono state classificate come fase 5 (carestia)."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna e la sfollata interna sono state critiche a causa del conflitto nel Tigray. Le persone hanno cercato rifugio in altre regioni per sfuggire alla violenza e alla carestia, creando sfide significative per l'assistenza umanitaria. L'accesso alle aree colpite dal conflitto è stato ostacolato, rendendo difficile la distribuzione di aiuti umanitari e la protezione delle persone sfollate. La situazione ha richiesto un coinvolgimento attivo delle autorità e delle organizzazioni umanitarie per garantire la protezione e l'assistenza alle persone sfollate.",
+    "rifugiati": 149130,
+    "richiedenti_asilo": 139211,
+    "sfollati_interni": 3646267
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana ha mostrato segni di debolezza a causa della crisi del COVID-19 e del conflitto nel Tigray. La crescita economica è stata moderata, con preoccupazioni riguardo ai rischi fiscali e esterni. L'inflazione è aumentata, influenzata da fattori come la carestia e le tensioni economiche. L'economia ha mostrato segni di ripresa parziale, ma le prospettive a medio termine sono incerte a causa delle continue sfide legate al conflitto e alla crisi umanitaria.",
+    "tasso_poverta_pct": 38.6
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2021, l'Etiopia ha continuato a essere caratterizzata da una leadership guidata dal Presidente Sahle-Work Zewde e dal Primo Ministro Abiy Ahmed. L'anno è stato segnato da eventi significativi, inclusi il conflitto nel Tigray, la crisi umanitaria e le tensioni regionali. La guerra nel Tigray ha avuto un impatto significativo sulla sicurezza nazionale e regionale, con movimenti di truppe e combattimenti intensi. La situazione umanitaria è stata complicata da carenze alimentari e migrazione interna, mentre l'economia ha mostrato segni di debolezza a causa della crisi del COVID-19 e delle tensioni politiche. L'anno ha anche visto sviluppi legati alla costruzione della Grand Ethiopian Renaissance Dam, con negoziati internazionali in corso per risolvere le dispute sul fiume Nilo. L'etnia e le dinamiche politiche interne hanno continuato a essere fattori chiave nella governance e nella stabilità del paese.",
+  "fonti": [
+    "fews_net (ETH_2021-april_key-message-update.pdf)",
+    "fews_net (ETH_2021-may_key-message-update.pdf)",
+    "fews_net (ETH_2021-june_key-message-update.pdf)",
+    "unhcr_reports (ETH_2021Q2_2021-06-30_ethiopia-humanitarian-country-team-ehct-protection-strategy-.pdf)",
+    "worldbank_mpo (ETH_mpo_sm21.pdf)",
+    "wikipedia:ETH_2021"
+  ]
+}

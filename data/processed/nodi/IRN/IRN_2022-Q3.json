@@ -1,0 +1,46 @@
+{
+  "paese": "IRN",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Proteste continue in Iran, incluse le proteste alimentari e quelle legate alla morte di Mahsa Amini, che hanno evoluto in chiamate per la fine della Repubblica Islamica. L'insurrezione continua nella provincia di Sistan e Baluchestan. Eventi significativi includono l'uccisione di Mahsa Amini a Tehran per non aver indossato il velo correttamente, che ha scatenato proteste di ampia portata. Altre situazioni di conflitto includono attacchi e incidenti significativi come l'attacco al santuario di Imam Reza, il crollo di un edificio ad Abadan, il deragliamento di un treno a South Khorasan, terremoti a Hormozgan e West Azerbaijan, e un incendio a Evin Prison.",
+    "n_eventi_violenti": 47,
+    "n_vittime": 41
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Iran continua ad accogliere un numero significativo di rifugiati afghani, con sfide significative legate all'assistenza, protezione e integrazione. L'arrivo di nuovi rifugiati afghani continua a causa della situazione volubile in Afghanistan, con sfide legate all'educazione e all'integrazione dei bambini rifugiati. L'Iran ha intrapreso iniziative per gestire la migrazione, come la registrazione di rifugiati e la creazione di nuovi centri di accoglienza, ma ci sono ancora barriere per l'accesso all'istruzione e alla protezione.",
+    "rifugiati": 122764,
+    "richiedenti_asilo": 69237,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia iraniana continua a mostrare segni di ripresa, ma è ancora vincolata da sfide significative legate alle sanzioni internazionali, alla volatilità dei prezzi del petrolio e alle pressioni inflazionistiche. L'espansione delle esportazioni petrolifere ha contribuito a un surplus nel conto corrente, ma le pressioni fiscali e monetarie rimangono elevate. L'inflazione rimane un problema, con rischi legati alla crescita dei prezzi e alle tensioni sociali. L'economia è ancora vincolata da inefficienze strutturali e da una dipendenza eccessiva dal settore petrolifero.",
+    "tasso_poverta_pct": 2.8
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Iranian State Actors Conduct Cyber Operations Against the Government of Albania",
+      "Iranian Islamic Revolutionary Guard Corps-Affiliated Cyber Actors Exploiting Vulnerabilities for Data Extortion and Disk Encryption for Ransom Operations"
+    ],
+    "gruppi_minaccia_associati": [
+      "MuddyWater"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "Privato"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "L'Iran continua a essere caratterizzato da proteste significative e da una situazione politica complessa. Le proteste legate alla morte di Mahsa Amini hanno evoluto in chiamate per la fine della Repubblica Islamica. L'insurrezione nella provincia di Sistan e Baluchestan continua. L'anno è stato anche segnato da eventi significativi come l'uccisione di Mahsa Amini, che ha scatenato proteste di ampia portata, e da altri incidenti e attacchi, come l'attacco al santuario di Imam Reza, il crollo di un edificio ad Abadan, il deragliamento di un treno a South Khorasan, terremoti a Hormozgan e West Azerbaijan, e un incendio a Evin Prison. L'Iran continua a defiare le norme internazionali e a supportare militanti all'estero, con un'agenda politica internazionale complessa.",
+  "fonti": [
+    "unhcr_reports (IRN_2022Q3_2022-09-29_afghanistan-situation-response-in-iran-as-of-31-august-2022.pdf)",
+    "worldbank_mpo (IRN_mpo_sm22.pdf)",
+    "cisa (IRN_AA22-055A_Iranian_Government-Sponsored_Actors_Conduct_Cyber_Operations.pdf)",
+    "wikipedia:IRN_2022"
+  ]
+}

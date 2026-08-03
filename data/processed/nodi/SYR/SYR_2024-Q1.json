@@ -1,0 +1,38 @@
+{
+  "paese": "SYR",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2024, la Siria ha continuato a essere teatro di intensi scontri armati. Attivita' militari incluse raid aerei israeliani contro obiettivi iraniani e gruppi affiliati, attivita' di forze di sicurezza siriane contro insorti, e azioni di gruppi armati contro le forze governative. L'opposizione ha mantenuto pressioni significative, con azioni contro le forze governative e azioni di gruppi armati contro le forze di sicurezza siriane. L'attivita' di gruppi armati come HTS e altre fazioni ha continuato a essere rilevante, con azioni contro le forze governative e azioni di gruppi armati contro le forze di sicurezza siriane. L'attivita' di gruppi armati come HTS e altre fazioni ha continuato a essere rilevante, con azioni contro le forze governative e azioni di gruppi armati contro le forze di sicurezza siriane.",
+    "n_eventi_violenti": 2989,
+    "n_vittime": 1805
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2024, la Siria ha continuato a essere un paese di origine e transito per migrazione interna e internazionale. La situazione di protezione per i rifugiati e i migranti interni rimane critica, con sfide significative legate alla mancanza di accesso ai servizi fondamentali e alla precaria situazione umanitaria. I flussi di rifugiati verso paesi vicini hanno continuato, con sfide significative legate alla mancanza di accesso ai servizi fondamentali e alla precaria situazione umanitaria. I flussi di rifugiati verso paesi vicini hanno continuato, con sfide significative legate alla mancanza di accesso ai servizi fondamentali e alla precaria situazione umanitaria.",
+    "rifugiati": 5952174,
+    "richiedenti_asilo": 167334,
+    "sfollati_interni": 7408909
+  },
+  "economia": {
+    "sintesi": "Nel primo trimestre del 2024, la situazione economica della Siria rimane debole, con una prospettiva di crescita limitata a causa di fattori interni ed esterni. I rischi fiscali e esterni continuano a essere preoccupanti, con una situazione finanziaria che richiede attenzione. La situazione economica della Siria rimane debole, con una prospettiva di crescita limitata a causa di fattori interni ed esterni. I rischi fiscali e esterni continuano a essere preoccupanti, con una situazione finanziaria che richiede attenzione.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, la Siria ha continuato a essere un paese in crisi, con una leadership in transizione e una situazione politica instabile. L'anno ha visto una serie di eventi significativi, inclusi attacchi militari, cambiamenti di governo e azioni diplomatiche. La situazione politica ha continuato a essere instabile, con una leadership in transizione e una situazione politica instabile. La situazione politica ha continuato a essere instabile, con una leadership in transizione e una situazione politica instabile.",
+  "fonti": [
+    "SYR_2024Q1_2024-03-28_nws-legal-assistance-cash-for-legal-related-costs-receipt-en.pdf",
+    "SYR_mpo_am23.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:SYR_2024"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "paese": "ETH",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Etiopia continua a essere intenso, con sviluppi significativi nel Tigray e nelle regioni limitrofe. Il conflitto si è esteso verso l'Amhara e l'Afar, portando a un aumento dei dislocati e a una crescente instabilità. La situazione è caratterizzata da violenza, inclusa la rapina e la distruzione di beni, che ha portato a una significativa perdita di asset e a una notevole interruzione delle attività economiche e agricole. Il conflitto ha anche causato una crescente pressione sui sistemi di assistenza umanitaria, con limitazioni nei trasporti e nell'accesso alle aree colpite. La situazione è particolarmente critica nel Tigray, dove le condizioni di sicurezza sono instabili e le attività umanitarie sono gravemente ostacolate.",
+    "n_eventi_violenti": 438,
+    "n_vittime": 3487
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Etiopia è principalmente causata da conflitti, condizioni macroeconomiche sfavorevoli e condizioni meteorologiche sfavorevoli. Le aree colpite più duramente includono il Tigray, dove le condizioni sono estreme a causa della limitata assistenza umanitaria e dell'interferenza con le attività agricole. La perdita di reddito e le difficoltà di accesso ai mercati alimentari hanno aggravato la situazione. Le condizioni meteorologiche sfavorevoli hanno anche influenzato la produzione agricola, con piogge inferiori alla media che hanno ridotto le colture. La carestia è aggravata dalla devalutazione della valuta nazionale e dall'ipertensione dei prezzi dei generi alimentari."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna in Etiopia è cresciuta significativamente a causa del conflitto, con migliaia di persone dislocate dalle loro case. Le aree di origine principali includono il Tigray, l'Afar e l'Amhara, mentre le regioni di accoglienza includono il Benishangul-Gumuz, l'Oromia e il Somali. I dislocati sono sottoposti a gravi rischi di protezione, inclusi il furto, la violenza e la mancanza di accesso ai servizi essenziali. L'assistenza umanitaria è concentrata su fornire rifugi, cibo, attrezzature di base e supporto sanitario. La situazione è particolarmente critica per le donne, i bambini e le persone con disabilità, che sono più vulnerabili a violenze e carenze di assistenza.",
+    "rifugiati": 149130,
+    "richiedenti_asilo": 139211,
+    "sfollati_interni": 3646267
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana si trova in una fase di rilento, con rischi fiscali e esterni che aumentano. La crescita economica è stata influenzata negativamente dal conflitto e dalle condizioni macroeconomiche sfavorevoli, che hanno portato a una devalutazione della valuta nazionale e a un aumento dei prezzi. L'inflazione è cresciuta a livelli elevati, influenzata da fattori come la carestia e la devalutazione della valuta. Le prospettive di ripresa sono compromesse dalla continua instabilità e dalle pressioni fiscali, con rischi di ulteriori deterioramenti se la situazione non si stabilizza.",
+    "tasso_poverta_pct": 38.6
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2021, l'Etiopia è stata caratterizzata da un clima politico e sociale instabile a causa del conflitto in corso nel Tigray e nelle regioni limitrofe. Il conflitto ha portato a un aumento dei dislocati interni e a una crescente pressione sui sistemi di assistenza umanitaria. La leadership del paese, con il Presidente Sahle-Work Zewde e il Primo Ministro Abiy Ahmed, ha continuato a gestire la crisi, ma la situazione rimane complessa. L'anno ha visto anche sviluppi significativi legati alla pandemia di COVID-19 e alla costruzione della Grand Ethiopian Renaissance Dam, con negoziati internazionali in corso per risolvere le tensioni legate al fiume Nilo. L'instabilità ha avuto un impatto significativo sulle condizioni economiche e sociali del paese, con conseguenze dirette sulla sicurezza alimentare e sulla migrazione interna.",
+  "fonti": [
+    "fews_net (ETH_2021-august_food-security-outlook-update.pdf)",
+    "unhcr_reports (ETH_2021Q3_2021-09-21_response-to-internal-displacement-in-ethiopia-fact-sheet-jan.pdf)",
+    "worldbank_mpo (ETH_mpo_sm21.pdf)",
+    "wikipedia:ETH_2021"
+  ]
+}

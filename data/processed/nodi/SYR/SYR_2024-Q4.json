@@ -1,0 +1,38 @@
+{
+  "paese": "SYR",
+  "periodo": "2024-Q4",
+  "conflitto": {
+    "descrizione": "Nel quarto trimestre del 2024, la Siria ha visto un'escalation significativa del conflitto nel nord-ovest del paese. L'opposizione, guidata da Hayat Tahrir al-Sham (HTS) e in collaborazione con il National Salvation Army (SNA), ha lanciato un'offensiva militare contro le forze del governo siriano. Questa offensiva ha portato all'espansione dell'influenza dell'opposizione in diverse zone, incluse le governatorie di Idlib, Aleppo e Hama. L'escalation ha causato un numero significativo di vittime civili e ha portato a un aumento delle operazioni aeree da parte del governo siriano e delle forze russe. L'offensiva ha anche provocato un flusso di sfollati verso zone più sicure, aumentando la pressione sui campi profughi e sui servizi umanitari. L'opposizione ha continuato a espandere il suo controllo territoriale, con avvistamenti di avanzamenti verso le zone di Aleppo, Idlib e Hama. Le forze del governo hanno risposto con raid aerei, mentre le violenze continue hanno portato a un aumento dei profughi interni. L'escalation ha anche coinvolto attacchi contro infrastrutture essenziali, come ospedali e centri di assistenza, aumentando le difficoltà per la popolazione locale.",
+    "n_eventi_violenti": 3765,
+    "n_vittime": 2838
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel quarto trimestre del 2024, la Siria ha visto un aumento significativo dei movimenti di sfollati a causa dell'escalation del conflitto nel nord-ovest. L'offensiva dell'opposizione ha portato a un numero crescente di profughi interni, con stime che indicano migliaia di persone che hanno lasciato le loro case per cercare rifugio in zone più sicure. La situazione ha posto una pressione significativa sui campi profughi esistenti, che si sono rivelati sovraffollati e con limitate risorse. L'UNHCR ha riferito di un aumento dei bisogni umanitari, con sfollati che hanno bisogno di assistenza per sfuggire alle aree di combattimento. La situazione ha anche portato a una maggiore mobilità interna, con famiglie che cercano di sfuggire alle violenze e alla mancanza di servizi essenziali. L'escalation ha aumentato la vulnerabilità delle popolazioni locali, con sfollati che si spostano verso zone di maggior protezione, aumentando la pressione sui servizi umanitari esistenti.",
+    "rifugiati": 5952174,
+    "richiedenti_asilo": 167334,
+    "sfollati_interni": 7408909
+  },
+  "economia": {
+    "sintesi": "Nel quarto trimestre del 2024, la situazione economica della Siria continua a essere fragile a causa dell'escalation del conflitto e delle continue violenze. L'economia è stata pesantemente colpita da una combinazione di fattori, inclusi il deterioramento delle condizioni di sicurezza, la mancanza di accesso ai servizi essenziali e le continue violazioni dei diritti umani. L'escalation ha portato a un aumento dei costi di vita, con un forte impatto sulla disponibilità di cibo e sui prezzi dei beni di base. L'escalation ha anche aumentato la pressione sui servizi umanitari, con un aumento dei bisogni di assistenza alimentare e sanitaria. La situazione economica è stata ulteriormente complicata da una mancanza di accesso ai servizi finanziari e da una riduzione delle attività commerciali, con un impatto significativo sulle condizioni di vita della popolazione locale.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2024, la Siria ha visto un'escalation significativa del conflitto nel nord-ovest del paese, con l'opposizione guidata da Hayat Tahrir al-Sham (HTS) che ha lanciato un'offensiva contro le forze del governo siriano. Questa escalation ha portato all'espansione dell'influenza dell'opposizione in diverse zone, incluse le governatorie di Idlib, Aleppo e Hama. L'escalation ha causato un numero significativo di vittime civili e ha portato a un aumento delle operazioni aeree da parte del governo siriano e delle forze russe. L'opposizione ha continuato a espandere il suo controllo territoriale, con avvistamenti di avanzamenti verso le zone di Aleppo, Idlib e Hama. Le forze del governo hanno risposto con raid aerei, mentre le violenze continue hanno portato a un flusso di sfollati verso zone più sicure, aumentando la pressione sui campi profughi e sui servizi umanitari. L'escalation ha anche coinvolto attacchi contro infrastrutture essenziali, come ospedali e centri di assistenza, aumentando le difficoltà per la popolazione locale. La situazione economica continua a essere fragile a causa dell'escalation del conflitto e delle continue violenze, con un impatto significativo sulle condizioni di vita della popolazione locale.",
+  "fonti": [
+    "SYR_2024-12-06_20241206_ACAPS_Briefing_note_Syria_escalation_of_conflict_in_the_northwest.pdf",
+    "SYR_2024Q4_2024-12-31_factsheet-community-led-and-youth-led-initiatives-january-de.pdf",
+    "SYR_mpo_am24.pdf",
+    "wikipedia:SYR_2024"
+  ]
+}

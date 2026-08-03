@@ -1,0 +1,40 @@
+{
+  "paese": "YEM",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto nel Yemen è intensificato, con un aumento significativo di proteste e scontri armati, principalmente nel sud del paese. Le dinamiche di conflitto sono influenzate da fattori economici, come la deprezzazione della valuta locale e l'aumento dei prezzi dei beni di prima necessità. Le autorità locali e le forze armate sono coinvolte in azioni militari, con un aumento delle tensioni tra le parti in conflitto. Le proteste civili sono state organizzate in risposta alle crescenti difficoltà economiche e sociali, con un impatto significativo sulle condizioni di vita delle popolazioni locali. Le dinamiche di conflitto hanno portato a un aumento dei dislocamenti interni, con migliaia di famiglie costrette a lasciare le loro case in cerca di sicurezza e assistenza. Le autorità locali e le forze armate sono impegnate in azioni militari, con un aumento delle tensioni tra le parti in conflitto. Le proteste civili sono state organizzate in risposta alle crescenti difficoltà economiche e sociali, con un impatto significativo sulle condizioni di vita delle popolazioni locali.",
+    "n_eventi_violenti": 1683,
+    "n_vittime": 3479
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia nel Yemen è stata aggravata da fattori come la deprezzazione della valuta locale, l'aumento dei prezzi dei beni di prima necessità e le difficoltà economiche. Le condizioni di carestia sono state ulteriormente peggiorate da eventi climatici estremi, come alluvioni, che hanno causato ulteriori danni alle infrastrutture e alle coltivazioni. L'aumento dei prezzi dei beni di prima necessità, come il carburante e i generi alimentari, ha reso difficile l'accesso a questi beni per le popolazioni più vulnerabili. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alimentare e supporto economico, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza. L'aumento dei prezzi dei beni di prima necessità, come il carburante e i generi alimentari, ha reso difficile l'accesso a questi beni per le popolazioni più vulnerabili. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alimentare e supporto economico, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza."
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, la situazione migratoria nel Yemen è stata caratterizzata da un aumento dei dislocamenti interni a causa delle crescenti tensioni e delle difficoltà economiche. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alle popolazioni dislocate, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alle popolazioni dislocate, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza.",
+    "rifugiati": 37615,
+    "richiedenti_asilo": 35462,
+    "sfollati_interni": 4288739
+  },
+  "economia": {
+    "sintesi": "L'economia del Yemen è stata pesantemente colpita da fattori come la deprezzazione della valuta locale, l'aumento dei prezzi dei beni di prima necessità e le difficoltà economiche. L'aumento dei prezzi dei beni di prima necessità, come il carburante e i generi alimentari, ha reso difficile l'accesso a questi beni per le popolazioni più vulnerabili. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alimentare e supporto economico, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza. L'aumento dei prezzi dei beni di prima necessità, come il carburante e i generi alimentari, ha reso difficile l'accesso a questi beni per le popolazioni più vulnerabili. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alimentare e supporto economico, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Yemen ha continuato a essere caratterizzato da un clima di instabilità e conflitto, con un aumento delle tensioni tra le parti in conflitto. Le autorità locali e le forze armate sono coinvolte in azioni militari, con un aumento delle proteste civili in risposta alle crescenti difficoltà economiche e sociali. Le condizioni di carestia sono state ulteriormente peggiorate da fattori come la deprezzazione della valuta locale, l'aumento dei prezzi dei beni di prima necessità e le difficoltà economiche. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alle popolazioni dislocate e vulnerabili, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza. L'aumento dei prezzi dei beni di prima necessità, come il carburante e i generi alimentari, ha reso difficile l'accesso a questi beni per le popolazioni più vulnerabili. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per fornire assistenza alimentare e supporto economico, ma le crescenti difficoltà economiche hanno reso più difficile l'ottenimento di risorse per l'assistenza.",
+  "fonti": [
+    "YEM_2021-08-26_20210826_acaps_yah_simp_april_to_june_ar.pdf",
+    "YEM_2021-09-29_20210929_acaps_yemen_briefing_note_civil_unrest_in_the_south_ar.pdf",
+    "YEM_2021-september_key-message-update.pdf",
+    "YEM_2021Q3_2021-09-30_yemen-fact-sheet-september-2021.pdf",
+    "YEM_mpo_sm21.pdf",
+    "wikipedia:YEM_2021"
+  ]
+}

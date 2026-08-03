@@ -1,0 +1,39 @@
+{
+  "paese": "UKR",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con intensità elevata. Le forze russe hanno intensificato le operazioni militari in diverse regioni, con particolare attenzione a obiettivi strategici come Bakhmut. Le forze ucraine hanno resistito con determinazione, mantenendo posizioni chiave. Il movimento delle truppe e delle risorse è stato ostacolato da mine, ordigni esplosivi abbandonati e continue azioni militari. La situazione è caratterizzata da continue battaglie e scontri, con entrambe le parti impegnate in azioni offensive e difensive. La presenza di forze russe in alcune regioni ha portato a una maggiore pressione sulle infrastrutture civili, con conseguenti difficoltà per la popolazione locale. Le autorità ucraine hanno continuato a chiedere supporto internazionale per affrontare le sfide militari e umanitarie.",
+    "n_eventi_violenti": 13018,
+    "n_vittime": 7927
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria in Ucraina continua a essere critica a causa del conflitto. Il flusso di rifugiati verso i paesi vicini, come la Polonia, la Romania e la Turchia, rimane significativo. Le autorità locali e internazionali continuano a fornire assistenza umanitaria, ma le sfide logistiche e di sicurezza rendono difficile il trasferimento di aiuti in alcune aree. La presenza di rifugiati in Ucraina e nei paesi vicini continua a richiedere un sostegno significativo per garantire le condizioni di vita basse. L'accesso alle aree controllate dalle forze russe rimane problematico, limitando la possibilità di fornire assistenza umanitaria ai civili intrappolati.",
+    "rifugiati": 5960362,
+    "richiedenti_asilo": 33988,
+    "sfollati_interni": 3689000
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina è sotto forte pressione a causa del conflitto. Le sanzioni internazionali contro la Russia hanno avuto un impatto significativo sulle economie vicine, incluse quelle dei paesi confinanti con l'Ucraina. La produzione agricola, un pilastro dell'economia ucraina, è stata gravemente compromessa dalle operazioni militari. Le esportazioni di grano e altri prodotti agricoli sono state ostacolate, influenzando la disponibilità di cibo a livello globale. L'Ucraina continua a ricevere sostegno finanziario e logistico da parte della comunità internazionale per affrontare le conseguenze economiche del conflitto.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, l'Ucraina continua a essere coinvolta in un conflitto armato di grande portata con la Russia. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal continuano a guidare il paese attraverso questa crisi. Il conflitto ha avuto un impatto significativo sulle infrastrutture civili, sulle attività economiche e sulla vita quotidiana dei cittadini. L'Ucraina ha ricevuto sostegno internazionale, inclusi aiuti militari e umanitari, per affrontare le sfide legate al conflitto. La leadership ucraina ha mantenuto un dialogo costante con le potenze mondiali per ottenere ulteriore assistenza e per promuovere la pace. Il paese continua a fare fronte a sfide significative, inclusi i problemi legati all'assistenza umanitaria, alla sicurezza e alla ricostruzione delle aree colpite dal conflitto.",
+  "fonti": [
+    "acaps (UKR_2023-03-16_20230316_acaps_ukraine_analysis_hub_humanitarian_access_analysis_february_2023.pdf)",
+    "fews_net (UKR_2023-march_key-message-update.pdf)",
+    "unhcr_reports (UKR_2023Q1_2023-03-31_unhcr-europe-monthly-update-march-2023.pdf)",
+    "worldbank_mpo (UKR_mpo_am22.pdf)",
+    "wikipedia:UKR_2023"
+  ]
+}

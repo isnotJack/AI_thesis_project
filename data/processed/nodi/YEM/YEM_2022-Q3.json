@@ -1,0 +1,39 @@
+{
+  "paese": "YEM",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con intensità, con attori principali come le autorità de facto (Houthis) e le autorità amministrative del governo internazionalmente riconosciuto (IRG). Nel trimestre, si è verificato un aumento della violenza, con incidenti di conflitto che includono attacchi con droni e bombardamenti che hanno colpito civili e infrastrutture. La situazione è stata segnata da un aumento delle tensioni tra le parti in conflitto, con alcune violazioni del cessate il fuoco. L'attivismo armato e le azioni militari hanno avuto un impatto significativo sulle dinamiche di importazione di carburante e sulle rotte di distribuzione, influenzando anche le condizioni economiche e umanitarie del paese.",
+    "n_eventi_violenti": 2014,
+    "n_vittime": 580
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "I principali driver della carestia includono il conflitto, le condizioni economiche precarie e le difficoltà di accesso ai beni essenziali. Il report FEWS NET indica che le famiglie stanno facendo fatica a comprare cibo sufficiente per soddisfare le loro esigenze caloriche a causa dei prezzi alimentari elevati. La situazione è peggiorata a causa delle riduzioni nei programmi di assistenza umanitaria, con molte famiglie che rischiano di subire carenze alimentari. La carestia è particolarmente acuta nei governatorati di Hajjah, Marib, Lahj e Abyan, dove si prevede che le condizioni peggioreranno ulteriormente."
+  },
+  "migrazione": {
+    "descrizione": "Le condizioni di protezione per i rifugiati e i profughi interni rimangono critiche. I rifugiati somali e etiopi continuano a ricevere assistenza, ma le risorse sono limitate. Gli sforzi per fornire assistenza psicosociale e protezione ai rifugiati sono ostacolati da fondi insufficienti. La situazione dei profughi interni è particolarmente problematica, con molte famiglie che vivono in condizioni precarie e senza accesso adeguato a servizi essenziali. L'assistenza psicosociale e legale è un'area di particolare preoccupazione, con bisogno di ulteriori risorse per supportare le famiglie vulnerabili.",
+    "rifugiati": 40147,
+    "richiedenti_asilo": 33524,
+    "sfollati_interni": 4523022
+  },
+  "economia": {
+    "sintesi": "L'outlook economico è negativo, con rischi fiscali e esterni significativi. La mancanza di entrate da esportazioni di petrolio e le politiche fiscali limitate hanno contribuito a una debolezza economica. Il debito pubblico e le pressioni sul cambio continuano a essere preoccupanti. La situazione economica è stata ulteriormente indebolita dalla volatilità dei prezzi globali e dalle conseguenze del conflitto. L'inflazione rimane elevata, influenzando negativamente le condizioni di vita delle popolazioni vulnerabili.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il paese è stato segnato da un aumento della violenza e delle tensioni nel contesto del conflitto in corso. L'attivismo armato e le azioni militari hanno avuto un impatto significativo sulle dinamiche di importazione di carburante e sulle rotte di distribuzione, influenzando anche le condizioni economiche e umanitarie del paese. La situazione è stata ulteriormente complicata da problemi legati alla carestia, con famiglie che fanno fatica a comprare cibo sufficiente a causa dei prezzi alimentari elevati. Le condizioni di protezione per i rifugiati e i profughi interni rimangono critiche, con bisogno di ulteriori risorse per supportare le famiglie vulnerabili. L'outlook economico è negativo, con rischi fiscali e esterni significativi. La mancanza di entrate da esportazioni di petrolio e le politiche fiscali limitate hanno contribuito a una debolezza economica. L'inflazione rimane elevata, influenzando negativamente le condizioni di vita delle popolazioni vulnerabili.",
+  "fonti": [
+    "YEM_2022-09-12_20220912_acaps_yemen_analysis_hub_thematic_report_fuel_supply_dynamics.pdf",
+    "YEM_2022-september_key-message-update.pdf",
+    "YEM_2022Q3_2022-09-30_yemen-fact-sheet-september-2022.pdf",
+    "YEM_mpo_sm22.pdf",
+    "wikipedia:YEM_2022"
+  ]
+}

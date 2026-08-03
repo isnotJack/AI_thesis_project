@@ -1,0 +1,51 @@
+{
+  "paese": "CHN",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 57,
+    "n_vittime": 2
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 175361,
+    "richiedenti_asilo": 108071,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita economica è influenzato da una serie di rischi fiscali ed esterni, inclusi la lenta ripresa economica globale, la volatilità dei mercati finanziari e le incertezze legate alla pandemia di COVID-19. Le proiezioni indicano una crescita economica che si riprenderà nel corso dell'anno, ma con una certa cautela a causa delle incertezze persistenti.",
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Chinese Ministry of State Security-Affiliated Cyber Threat Actor Activity (2020-09-14)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Zirconium",
+      "Strontium",
+      "Phosphorus"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "Sicurezza",
+      "Sanità",
+      "Ricerca e Sviluppo",
+      "Energia",
+      "Infrastrutture Critiche"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, la Cina ha continuato a gestire le conseguenze della pandemia di COVID-19, con un focus sul ripristino dell'economia e sulla gestione delle restrizioni di movimento. L'attenzione è stata rivolta anche a questioni geopolitiche, come la tensione con l'India lungo la linea di controllo e le critiche internazionali riguardanti la situazione a Hong Kong e nei territori etnici. La Cina ha inoltre annunciato obiettivi climatici a lungo termine, promettendo di raggiungere il picco delle emissioni prima del 2030 e la neutralità carbonica entro il 2060.",
+  "fonti": [
+    "CHN_mpo_sm20.pdf",
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-258a",
+    "wikipedia:CHN_2020"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "paese": "ISR",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2022, Israele ha continuato a gestire tensioni e conflitti con attori esterni, inclusi gruppi palestinesi e attori regionali come l'Iran. Sono stati segnalati diversi episodi di violenza, inclusi attacchi armati e scambi di fuoco lungo la frontiera con la Striscia di Gaza e nel contesto del conflitto israelo-palestinese. L'Iran è stato menzionato come un attore che ha condotto attività cibernetiche contro Israele, con specifiche menzioni a gruppi come il Cyber Army iraniano. Inoltre, Israele ha continuato a monitorare e rispondere a minacce da parte di attori regionali, inclusi gruppi legati all'Iran e al Hezbollah. L'attività cibernetica iraniana ha incluso tentativi di infiltrazione e attacchi contro siti web israeliani, collegati a eventi geopolitici come l'uccisione di Mohsen Fakhrizadeh. Israele ha anche risposto con azioni militari, come attacchi aerei contro obiettivi in Siria, attribuiti a presunte presenze iraniane. La situazione ha evidenziato una continuità di tensioni regionali e minacce cibernetiche, con Israele impegnato in azioni di difesa e risposta a livello cibernetico e militare.",
+    "n_eventi_violenti": 12,
+    "n_vittime": 17
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 902,
+    "richiedenti_asilo": 813,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.4
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco al sito web del Jerusalem Post da parte del Cyber Army iraniano, con minacce contro il centro nucleare di Soreq e riferimenti a Qasem Soleimani",
+      "Attività cibernetica attribuita al gruppo Iraniano POLONIUM, che ha utilizzato OneDrive per attività di comando e controllo",
+      "Attività di spionaggio attribuita al gruppo Iraniano DEV-0343, con presunte connessioni a attori affiliati al Ministero dell'Intelligence iraniano"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Microsoft Threat Intelligence Center advisory sulle attività di POLONIUM",
+      "Microsoft Threat Intelligence Center advisory sulle attività di DEV-0343"
+    ],
+    "gruppi_minaccia_associati": [
+      "Cyber Army iraniano",
+      "POLONIUM",
+      "DEV-0343"
+    ],
+    "settori_bersaglio": [
+      "Mediatici",
+      "Infrastrutture critiche"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, Israele ha continuato a gestire una serie di sfide politiche, sociali e geopolitiche. Il paese ha affrontato tensioni con attori regionali come l'Iran e il Hezbollah, con attività cibernetiche e militari. Sono stati segnalati diversi episodi di violenza nel contesto del conflitto israelo-palestinese, inclusi attacchi armati e scambi di fuoco lungo la frontiera con la Striscia di Gaza. Israele ha anche continuato a monitorare e rispondere a minacce da parte di attori regionali, inclusi gruppi legati all'Iran e al Hezbollah. L'attività cibernetica iraniana ha incluso tentativi di infiltrazione e attacchi contro siti web israeliani, collegati a eventi geopolitici come l'uccisione di Mohsen Fakhrizadeh. Israele ha risposto con azioni militari, come attacchi aerei contro obiettivi in Siria, attribuiti a presunte presenze iraniane. La situazione ha evidenziato una continuità di tensioni regionali e minacce cibernetiche, con Israele impegnato in azioni di difesa e risposta a livello cibernetico e militare.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:ISR_2022"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "paese": "PRK",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 797,
+    "richiedenti_asilo": 146,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "APT 37 (2018-02-20)",
+      "Targeting of global financial organizations and bitcoin users (2018-02-12)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "APT 37"
+    ],
+    "settori_bersaglio": [
+      "chemicals",
+      "electronics",
+      "manufacturing",
+      "aerospace",
+      "automotive",
+      "health-care",
+      "financial organizations",
+      "bitcoin users"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 2
+  },
+  "contesto_generale": "In gennaio, Kim Jong Un annuncia nel suo discorso del Capodanno che la Corea del Nord potrebbe partecipare ai Giochi Olimpici d'inverno del 2018. Il 3 gennaio, la linea telefonica tra Seul e Pyongyang viene ripristinata per preparare colloqui di alto livello riguardanti la partecipazione della Corea del Nord ai Giochi Olimpici. Il 9 gennaio, la Corea del Nord e del Sud concordano che gli atleti nordcoreani parteciperanno ai Giochi Olimpici d'inverno. Il 20 gennaio, il Comitato Olimpico Internazionale conferma che la Corea del Nord parteciperà ai Giochi Olimpici d'inverno con una squadra di 22 atleti, 12 dei quali giocatori di hockey su ghiaccio che giocheranno insieme agli atleti sudcoreani nella competizione femminile. Nel febbraio, gli atleti nordcoreani e sudcoreani marciarono insieme sotto la bandiera di unificazione coreana durante la cerimonia d'apertura dei Giochi Olimpici d'inverno. Il 5 marzo, una delegazione sudcoreana visita Pyongyang per discutere di un summit tra la Corea del Nord e gli Stati Uniti. Il 28 marzo, Kim Jong Un incontra il leader cinese Xi Jinping a Pechino.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/apt-37",
+    "https://www.cfr.org/cyber-operations/targeting-of-global-financial-organizations-and-bitcoin-users",
+    "wikipedia:PRK_2018"
+  ]
+}

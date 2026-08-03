@@ -1,0 +1,40 @@
+{
+  "paese": "SSD",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Il Sud Sudan continua a essere caratterizzato da conflitti intercomunali e da violenze legate al bestiame, con episodi di violenza in diverse regioni, inclusi Tonj East e Romich. Le tensioni tra le forze governative e le milizie persistono, con episodi di violenza che hanno causato perdite di vite umane. La situazione di sicurezza resta instabile, con continue minacce alla stabilità del paese.",
+    "n_eventi_violenti": 272,
+    "n_vittime": 1067
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia è principalmente causata da conflitti, condizioni macroeconomiche sfavorevoli, effetti delle inondazioni del 2019 e dalla perdita di risorse produttive. La situazione è aggravata dalla pandemia di COVID-19, che ha limitato l'accesso ai mercati e aumentato i prezzi dei generi alimentari. L'insicurezza alimentare acuta è diffusa in molte regioni, con alcune aree che rischiano di scivolare verso una situazione di catastrofe."
+  },
+  "migrazione": {
+    "descrizione": "I ritorni spontanei dei rifugiati sudanesi sono in aumento, con migliaia di persone che tornano dal confine con l'Uganda e altri paesi vicini. Tuttavia, la protezione dei ritornati è un problema significativo, con incidenti di estorsione e sequestro di documenti ai confini. La maggior parte dei ritornati intende rimanere permanentemente nel paese, ma la sicurezza e l'accesso ai servizi rimangono preoccupanti.",
+    "rifugiati": 2188785,
+    "richiedenti_asilo": 4858,
+    "sfollati_interni": 1600254
+  },
+  "economia": {
+    "sintesi": "L'economia del Sud Sudan è in difficoltà a causa delle condizioni macroeconomiche sfavorevoli, incluse la deprezzazione della valuta locale, l'inflazione e la diminuzione dei redditi. L'export di petrolio è stato influenzato negativamente dalla pandemia di COVID-19, con conseguenti effetti sul bilancio di stato e sulle risorse finanziarie. La situazione fiscale e esterna rimane critica, con elevati livelli di debito e rischi di ulteriori deterioramenti.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, il Sud Sudan continua a lottare con la guerra civile e le tensioni politiche. Il paese è affronta sfide significative legate alla sicurezza, alla stabilità economica e alla gestione della pandemia di COVID-19. Le inondazioni e le violenze continue hanno aumentato il numero di sfollati interni, mentre i ritorni dei rifugiati sono in aumento, pur con preoccupazioni legate alla protezione e alla sicurezza. La leadership del paese, con il presidente Salva Kiir Mayardit e il vicepresidente Riek Machar, continua a negoziare per risolvere le tensioni politiche e stabilizzare la situazione. La pandemia di COVID-19 ha aggiunto ulteriori complessità, influenzando sia la situazione economica che la sicurezza alimentare.",
+  "fonti": [
+    "fews_net (SSD_2020-june_food-security-outlook.pdf)",
+    "fews_net (SSD_2020-may_key-message-update.pdf)",
+    "fews_net (SSD_2020-april_food-security-outlook-update.pdf)",
+    "unhcr_reports (SSD_2020Q2_2020-06-30_unhcr-south-sudan-spontaneous-refugee-returnee-household-sur.pdf)",
+    "worldbank_mpo (SSD_mpo_sm20.pdf)",
+    "wikipedia:SSD_2020"
+  ]
+}

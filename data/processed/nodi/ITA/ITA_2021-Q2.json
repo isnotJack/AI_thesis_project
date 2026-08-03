@@ -1,0 +1,43 @@
+{
+  "paese": "ITA",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 4,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "In giugno, un numero significativo di rifugiati e migranti è arrivato in Italia per mare. Si è assistito a un aumento dei sbarcati rispetto al mese precedente, con un numero di sbarcati che ha superato le attese. La situazione di protezione per i minori non accompagnati è critica, con nuovi corridoi umanitari attivati per facilitare l'arrivo di rifugiati. L'arrivo di rifugiati da paesi come Libia, Tunisia, Turchia, Algeria, Egitto e Grecia è stato documentato. L'arrivo di minori non accompagnati è stato particolarmente preoccupante, con un aumento rispetto ai mesi precedenti. L'UNHCR continua a monitorare la situazione e a promuovere la protezione dei rifugiati, inclusi i minori non accompagnati.",
+    "rifugiati": 61,
+    "richiedenti_asilo": 639,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco hacker al SIAE (Società Italiana Autori ed Editori)",
+      "Attacco hacker a un'azienda di sushi a Napoli, con casi di salmonella e decesso di un ragazzo"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Servizi di gestione dei diritti d'autore (SIAE)",
+      "Ristoranti di sushi"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2021, l'Italia ha continuato a gestire le conseguenze della pandemia di COVID-19, con un focus significativo sulla vaccinazione e sulle misure di contenimento. L'anno è stato contraddistinto da eventi sportivi di rilievo, come la vittoria dell'Italia alla UEFA Euro 2020. Sono state organizzate numerose manifestazioni, sia a sostegno che contro le misure anti-COVID, con tensioni tra manifestanti e forze dell'ordine. L'attenzione è stata rivolta anche a questioni sociali, come la protezione dei diritti LGBT+ e la lotta contro l'omofobia. L'Italia ha continuato a essere un punto di arrivo per i rifugiati provenienti da paesi come Libia, Tunisia e Turchia, con un aumento dei sbarcati in mare. L'attivismo sociale e le proteste hanno caratterizzato il periodo, con discussioni su temi come la libertà di espressione, la protezione dei diritti umani e le politiche di immigrazione.",
+  "fonti": [
+    "ITA_2021Q2_2021-06-30_unhcr-italy-factsheet-june-2021.pdf",
+    "ENISA_Threat_Landscape_2021.pdf",
+    "wikipedia:ITA_2021"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "paese": "SSD",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono stati sviluppi significativi legati al conflitto in Sud Sudan. Vi sono stati episodi di violenza intercomunale, inclusi raid e scontri tra gruppi etnici come i Murle, Lou Nuer e Dinka. Questi episodi hanno portato a un aumento dei decessi e dei dislocamenti interni, con alcune stime che indicano migliaia di persone sfollate. La violenza ha anche interferito con le operazioni umanitarie, causando la sospensione temporanea delle distribuzioni di assistenza alimentare in alcune aree. Inoltre, vi sono stati episodi di ambuscate lungo le strade principali, come la strada Yei-Juba, che hanno aumentato l'insicurezza e ostacolato il trasporto umanitario. La situazione di conflitto continua a essere un fattore chiave che influenza la sicurezza alimentare e la stabilità del paese.",
+    "n_eventi_violenti": 418,
+    "n_vittime": 1138
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia in Sud Sudan è stata influenzata principalmente da conflitti, insegne di sicurezza e problemi di accesso umanitario. L'IPC ha identificato aree in cui la situazione è gravemente compromessa, con un rischio significativo di carestia. La violenza ha interferito con le operazioni di assistenza umanitaria, rendendo difficile il rifornimento di cibo e la prevenzione della malnutrizione. La carestia è stata aggravata dalla perdita di accesso umanitario in alcune regioni, come Pibor, dove la situazione è particolarmente critica. L'IPC ha evidenziato che la mancanza di accesso umanitario potrebbe portare a un aumento significativo della malnutrizione acuta e della mortalità."
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, la migrazione interna è stata influenzata da conflitti e insegne di sicurezza. Vi sono stati numerosi dislocamenti interni, con migliaia di persone che hanno lasciato le loro case a causa della violenza. Le autorità hanno riportato un aumento dei dislocamenti, con alcune stime che indicano migliaia di sfollati. La situazione di insegne di sicurezza ha reso difficile il trasporto umanitario e ha aumentato il rischio per le popolazioni sfollate. Inoltre, vi sono stati problemi di protezione per le popolazioni sfollate, con alcune aree che hanno visto un aumento dei raid e delle ambuscate lungo le strade principali.",
+    "rifugiati": 2362759,
+    "richiedenti_asilo": 5037,
+    "sfollati_interni": 2017236
+  },
+  "economia": {
+    "sintesi": "L'economia di Sud Sudan si è contratta a causa di fattori come la pandemia di COVID-19, la carestia e la mancanza di accesso umanitario. L'IPC ha evidenziato che la situazione economica è stata influenzata da conflitti e insegne di sicurezza, che hanno interferito con le operazioni di assistenza umanitaria e con l'agricoltura. La carestia ha aggravato la situazione economica, con un aumento della povertà e della malnutrizione. L'economia si è contratta a causa di fattori come la pandemia di COVID-19, la carestia e la mancanza di accesso umanitario. L'IPC ha evidenziato che la situazione economica è stata influenzata da conflitti e insegne di sicurezza, che hanno interferito con le operazioni di assistenza umanitaria e con l'agricoltura. La carestia ha aggravato la situazione economica, con un aumento della povertà e della malnutrizione.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, Sud Sudan ha continuato a fare fronte a sfide significative legate alla leadership e alla governance. Il paese ha continuato a essere coinvolto in conflitti interni, con episodi di violenza intercomunale che hanno portato a dislocamenti interni e a un aumento della povertà e della malnutrizione. La pandemia di COVID-19 ha continuato a influenzare la situazione, con un aumento dei casi e delle morti. L'economia si è contratta a causa di fattori come la pandemia, la carestia e la mancanza di accesso umanitario. Le autorità hanno continuato a fare fronte a sfide significative legate alla leadership e alla governance, con episodi di violenza intercomunale che hanno portato a dislocamenti interni e a un aumento della povertà e della malnutrizione. La pandemia di COVID-19 ha continuato a influenzare la situazione, con un aumento dei casi e delle morti. L'economia si è contratta a causa di fattori come la pandemia, la carestia e la mancanza di accesso umanitario.",
+  "fonti": [
+    "fews_net (SSD_2021-may_key-message-update.pdf)",
+    "unhcr_reports (SSD_2021Q2_2021-06-30_2021-south-sudan-regional-rrrp-regional-overview-of-the-sout.pdf)",
+    "worldbank_mpo (SSD_mpo_sm21.pdf)",
+    "wikipedia:SSD_2021"
+  ]
+}

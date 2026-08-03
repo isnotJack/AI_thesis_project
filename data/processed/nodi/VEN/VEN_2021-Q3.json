@@ -1,0 +1,36 @@
+{
+  "paese": "VEN",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono stati sviluppi significativi legati al conflitto politico interno. L'Europa ha cessato di riconoscere Juan Guaidó come capo di governo, mentre gli Stati Uniti e il Regno Unito hanno continuato a riconoscere Guaidó. Nel marzo, ci sono state violenze tra il FARC e le forze di sicurezza venezuelane nell'area di Apure. L'Europa ha aggiunto ulteriori funzionari alla lista di sanzioni per violazioni dei diritti umani e minacce alla democrazia.",
+    "n_eventi_violenti": 345,
+    "n_vittime": 434
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il report dell'UNHCR evidenzia la presenza di sfollati venezuelani in diversi paesi della regione, con particolare riferimento alla situazione in America Latina. Si segnala la crescente criticità di protezione per i rifugiati venezuelani, con nuovi ostacoli operativi e sfide legate alla migrazione. L'UNHCR ha ricevuto fondi per supportare le operazioni in Venezuela e nei paesi di accoglienza, evidenziando la necessità di risorse per affrontare le sfide legate alla migrazione.",
+    "rifugiati": 199202,
+    "richiedenti_asilo": 971106,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Venezuela ha continuato a essere caratterizzato da una situazione politica complessa con la presenza di due leader riconosciuti da differenti paesi. Il presidente Maduro ha ricevuto la prima dose del vaccino Sputnik V contro il COVID-19, mentre il paese ha ricevuto vaccini da Russia e Cina. L'UNHCR ha ottenuto il permesso dal governo venezuelano per fornire pasti nutrizionali a studenti, evidenziando la situazione di insicurezza alimentare. L'Europa ha aggiunto ulteriori funzionari venezuelani alla lista di sanzioni per violazioni dei diritti umani e minacce alla democrazia.",
+  "fonti": [
+    "VEN_2021Q3_2021-09-29_unhcr-latin-america-2021-funding-update-as-of-28-september-2.pdf",
+    "wikipedia:VEN_2021"
+  ]
+}

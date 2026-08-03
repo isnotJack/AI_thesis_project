@@ -1,0 +1,35 @@
+{
+  "paese": "EST",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 60,
+    "richiedenti_asilo": 58,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.3
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In Estonia, nel secondo trimestre del 2023, si sono sviluppati diversi eventi significativi. Nel mese di marzo, le elezioni parlamentari hanno visto la vittoria del Partito della Riforma, guidato da Kaja Kallas, che ha ottenuto la maggioranza dei seggi. Successivamente, nel mese di aprile, tre partiti, guidati dalla Prima Ministra Kaja Kallas, hanno raggiunto un accordo per formare una nuova coalizione governativa. Nel mese di maggio, Estonia ha ospitato la celebrazione più grande di Europe Day a Tallinn, con circa 10.000 partecipanti, mentre le celebrazioni del Giorno della Vittoria sono state più piccole e pacifiche nonostante la propaganda transfrontaliera russa. Nello stesso mese, Estonia ha partecipato al Festival di Eurovision con la canzone 'Bridges' interpretata da Alika, che ha ottenuto il 8º posto finale. In giugno, il parlamento ha approvato le modifiche alla legge sul diritto di famiglia che legalizzano il matrimonio tra persone dello stesso sesso e permettono alle coppie dello stesso sesso di adottare bambini, con l'entrata in vigore prevista a partire dal 1º gennaio 2024. Questa misura ha reso Estonia il primo paese baltico e ex-URSS a legalizzare il matrimonio tra persone dello stesso sesso.",
+  "fonti": [
+    "wikipedia:EST_2023"
+  ]
+}

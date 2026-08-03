@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "In febbraio 2023, un numero significativo di rifugiati e migranti è arrivato in Italia, principalmente per via marittima. La maggior parte proveniva da paesi come Guinea, Costa d'Avorio e Bangladesh. Inoltre, ci sono stati arrivi via terra e aria. Un tragico naufragio è avvenuto lungo la costa italiana. L'UNHCR ha collaborato con la municipalità di Bari per lanciare un centro di integrazione per i rifugiati, e un gruppo di studenti UNICORE ha ricevuto borse di studio per continuare gli studi in Italia.",
+    "rifugiati": 124,
+    "richiedenti_asilo": 1487,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In febbraio 2023, si è verificato un tragico incidente marittimo lungo la costa italiana, con un numero significativo di vittime. L'UNHCR ha collaborato con la municipalità di Bari per lanciare un centro di integrazione per i rifugiati. Inoltre, un gruppo di studenti UNICORE ha ricevuto borse di studio per continuare gli studi in Italia. Nel mese di febbraio, si è tenuto il Festival di Sanremo, e si sono tenute elezioni regionali in Lazio e Lombardia. Un'agitazione studentesca è avvenuta a Firenze, e ci sono stati scioperi dei lavoratori del settore trasporti a Roma. In marzo, l'Autorità per la protezione dei dati italiani ha bloccato ChatGPT per violazioni di norme sulla protezione dei dati.",
+  "fonti": [
+    "ITA_2023Q1_2023-03-27_unhcr-italy-factsheet-february-2023.pdf",
+    "wikipedia:ITA_2023"
+  ]
+}

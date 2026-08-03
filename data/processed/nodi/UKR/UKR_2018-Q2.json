@@ -1,0 +1,51 @@
+{
+  "paese": "UKR",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2018, l'Ucraina ha continuato a sperimentare tensioni legate al conflitto in corso. Vi sono stati segnalati numerosi incidenti di violenza, inclusi attacchi a campi romani da parte del gruppo C14, che hanno attirato l'attenzione internazionale. La situazione di sicurezza è rimasta instabile, con continue minacce e attività belliche lungo la linea di contatto. L'uso di mine terrestri e armi leggere ha causato numerosi decessi civili, nonché danni a infrastrutture civili. La libertà di movimento è stata limitata in alcune zone, con controlli severi ai checkpoint, che hanno creato problemi di salute e accesso per la popolazione locale. L'accesso umanitario è stato ostacolato in alcune zone, con restrizioni che hanno impedito l'assistenza alle popolazioni colpite. La situazione ha richiesto un'intensa attività di protezione per i civili, con partner umanitari impegnati a fornire assistenza psicosociale e legale ai civili colpiti, inclusi i rifugiati interni.",
+    "n_eventi_violenti": 3566,
+    "n_vittime": 350
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel secondo trimestre del 2018, la situazione dei rifugiati interni in Ucraina è stata critica. I partner umanitari hanno fornito assistenza legale e psicosociale a un numero significativo di rifugiati interni, evidenziando la crescente necessità di supporto per le popolazioni colpite dal conflitto. L'accesso ai servizi umanitari è stato ostacolato in alcune zone, con restrizioni che hanno impedito l'assistenza alle popolazioni colpite. La situazione ha richiesto un'intensa attività di protezione per i civili, con partner umanitari impegnati a fornire assistenza psicosociale e legale ai civili colpiti, inclusi i rifugiati interni.",
+    "rifugiati": 93248,
+    "richiedenti_asilo": 31965,
+    "sfollati_interni": 1500002
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco a organizzazioni finanziarie e chimiche in Europa (categoria=Espionaggio): sponsor=Federazione Russa, vittime=Francia, Germania, Paesi Bassi, Federazione Russa, Svizzera, Ucraina, ruolo=vittima. Un threat actor ha utilizzato uno strumento chiamato Olympics Destroyer per attaccare organizzazioni finanziarie in Russia e laboratori biologici e chimici in Ucraina e altri paesi in Europa.",
+      "Presunto compromesso di attrezzature di rete da parte della Russia (categoria=Sabotaggio): sponsor=Federazione Russa, vittime=Ucraina, Regno Unito, Stati Uniti, ruolo=vittima. Il Dipartimento della Sicurezza Interna degli Stati Uniti e il National Cyber Security Centre del Regno Unito hanno emesso un avviso congiunto sul compromesso di attrezzature di rete, come router e switch, da parte di una campagna sponsorizzata dallo stato russo per supportare le loro operazioni cyber."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Avviso congiunto del Dipartimento della Sicurezza Interna degli Stati Uniti e del National Cyber Security Centre del Regno Unito sul compromesso di attrezzature di rete"
+    ],
+    "gruppi_minaccia_associati": [
+      "Sponsorato dallo stato russo"
+    ],
+    "settori_bersaglio": [
+      "Organizzazioni finanziarie",
+      "Laboratori biologici e chimici",
+      "Attrezzature di rete"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 2
+  },
+  "contesto_generale": "Nel secondo trimestre del 2018, l'Ucraina ha continuato a sperimentare tensioni legate al conflitto in corso. Vi sono stati segnalati numerosi incidenti di violenza, inclusi attacchi a campi romani da parte del gruppo C14, che hanno attirato l'attenzione internazionale. La situazione di sicurezza è rimasta instabile, con continue minacce e attività belliche lungo la linea di contatto. La leadership del paese era costituita da Petro Poroshenko come Presidente e Volodymyr Groysman come Primo Ministro. L'Ucraina ha continuato a fare fronte a sfide significative legate al conflitto, alla sicurezza e alla protezione dei civili.",
+  "fonti": [
+    "UKR_2018Q2_2018-06-30_ukraine-protection-cluster-factsheet-june-2018-en-ru-uk.pdf",
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/alleged-russian-compromise-of-networking-equipment",
+    "https://www.cfr.org/cyber-operations/targeting-of-financial-and-chemical-organizations-in-europe",
+    "wikipedia:UKR_2018"
+  ]
+}

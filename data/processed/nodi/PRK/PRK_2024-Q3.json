@@ -1,0 +1,51 @@
+{
+  "paese": "PRK",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre 2024-Q3, la Corea del Nord ha continuato a mostrare tensioni significative con la Corea del Sud, con episodi di scambi di fuoco lungo la linea di demarcazione militare (DMZ) e lanci di missili verso il mar dei Giappone. Il paese ha anche condotto test di armi nucleari e ha dichiarato ufficialmente la Corea del Sud come stato ostile, rafforzando le sue posizioni belliche. L'attività bellica è stata accompagnata da dichiarazioni di Kim Jong Un che hanno rafforzato la posizione di Corea del Nord come nemico principale della Corea del Sud.",
+    "n_eventi_violenti": 1,
+    "n_vittime": 30
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 283,
+    "richiedenti_asilo": 105,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "North Korea Cyber Group Conducts Global Espionage Campaign to Advance Regime’s Military and Nuclear Programs (2024-07-25)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Andariel",
+      "Onyx Sleet",
+      "DarkSeoul",
+      "Silent Chollima",
+      "Stonefly/Clasiopa"
+    ],
+    "settori_bersaglio": [
+      "Difesa",
+      "Aeronautica",
+      "Nucleare",
+      "Ingegneria"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre 2024-Q3, la Corea del Nord ha mantenuto una posizione di tensione con la Corea del Sud, con diversi episodi di scambi di fuoco lungo la linea di demarcazione militare (DMZ) e lanci di missili verso il mar dei Giappone. Il paese ha anche condotto test di armi nucleari e ha dichiarato ufficialmente la Corea del Sud come stato ostile, rafforzando le sue posizioni belliche. L'attività bellica è stata accompagnata da dichiarazioni di Kim Jong Un che hanno rafforzato la posizione di Corea del Nord come nemico principale della Corea del Sud. Parallelamente, la Corea del Nord ha continuato le sue attività cibernetiche di spionaggio globale per supportare i suoi programmi militari e nucleari.",
+  "fonti": [
+    "cisa (PRK_aa24-207a-dprk-cyber-group-conducts-global-espionage-campaign_0.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:PRK_2024"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "paese": "SYR",
+  "periodo": "2023-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la Siria ha continuato a sperimentare un'atmosfera di instabilità e conflitto. Sono stati segnalati diversi attacchi da parte di gruppi armati, inclusi l'ISIS, che hanno provocato perdite civili e militari. L'attivismo di protesta contro il governo si è intensificato, culminando in una generale sciopero e proteste nel mese di agosto. L'interazione tra le forze armate siriane e le milizie legate all'Iran ha portato a tensioni con Israele, che ha condotto a raid aerei contro obiettivi siriani. L'attivismo di protesta contro il governo si è intensificato, culminando in una generale sciopero e proteste nel mese di agosto. L'interazione tra le forze armate siriane e le milizie legate all'Iran ha portato a tensioni con Israele, che ha condotto a raid aerei contro obiettivi siriani. L'attivismo di protesta contro il governo si è intensificato, culminando in una generale sciopero e proteste nel mese di agosto. L'interazione tra le forze armate siriane e le milizie legate all'Iran ha portato a tensioni con Israele, che ha condotto a raid aerei contro obiettivi siriani.",
+    "n_eventi_violenti": 2742,
+    "n_vittime": 1746
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria in Siria continua a essere critica, con un numero significativo di persone internamente sfollate e bisognose di assistenza umanitaria. Gli sfollati continuano a dipendere dagli aiuti umanitari per sopravvivere, e la mancanza di accesso ai servizi fondamentali, come la salute e l'istruzione, è un problema persistente. Gli sfollati continuano a dipendere dagli aiuti umanitari per sopravvivere, e la mancanza di accesso ai servizi fondamentali, come la salute e l'istruzione, è un problema persistente. Gli sfollati continuano a dipendere dagli aiuti umanitari per sopravvivere, e la mancanza di accesso ai servizi fondamentali, come la salute e l'istruzione, è un problema persistente.",
+    "rifugiati": 6355788,
+    "richiedenti_asilo": 182954,
+    "sfollati_interni": 7248188
+  },
+  "economia": {
+    "sintesi": "L'economia siriana continua a lottare con gravi problemi, inclusi l'inflazione, la carenza di fondi e la mancanza di accesso ai finanziamenti internazionali. La situazione economica è stata ulteriormente aggravata da eventi come il terremoto di febbraio, che ha causato danni significativi all'infrastruttura e alle attività economiche. La situazione economica è stata ulteriormente aggravata da eventi come il terremoto di febbraio, che ha causato danni significativi all'infrastruttura e alle attività economiche. La situazione economica è stata ulteriormente aggravata da eventi come il terremoto di febbraio, che ha causato danni significativi all'infrastruttura e alle attività economiche.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la Siria ha continuato a essere caratterizzata da una leadership stabile con Bashar al-Assad come presidente, Najah al-Attar come vicepresidente e Hussein Arnous come primo ministro. L'economia continua a lottare con gravi problemi, inclusi l'inflazione, la carenza di fondi e la mancanza di accesso ai finanziamenti internazionali. Gli eventi principali includono il terremoto di febbraio, che ha causato danni significativi, e le continue tensioni con Israele, che ha condotto a raid aerei contro obiettivi siriani. L'attivismo di protesta contro il governo si è intensificato, culminando in una generale sciopero e proteste nel mese di agosto. L'interazione tra le forze armate siriane e le milizie legate all'Iran ha portato a tensioni con Israele, che ha condotto a raid aerei contro obiettivi siriani. L'attivismo di protesta contro il governo si è intensificato, culminando in una generale sciopero e proteste nel mese di agosto. L'interazione tra le forze armate siriane e le milizie legate all'Iran ha portato a tensioni con Israele, che ha condotto a raid aerei contro obiettivi siriani.",
+  "fonti": [
+    "SYR_2023-07-28_20230728_ACAPS_Anticipatory_note_Syria_cross-border_resolution_expiration_Arabic.pdf",
+    "SYR_2023-08-04_20230804_ACAPS_Thematic_report_Northern_Syria_key_crises_to_watch.pdf",
+    "SYR_2023-08-18_20230818_ACAPS_Thematic_report_Syria_data_and_analysis_ecosystem.pdf",
+    "SYR_2023-09-29_20230929_ACAPS_Syria_capacity_strengthening_needs_assessment_Northwest_Syria.pdf",
+    "SYR_2023Q3_2023-09-30_cccm-cluster-north-west-syria-monthly-displacement-updates-s.pdf",
+    "SYR_mpo_sm23.pdf",
+    "wikipedia:SYR_2023"
+  ]
+}

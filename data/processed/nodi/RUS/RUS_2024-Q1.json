@@ -1,0 +1,58 @@
+{
+  "paese": "RUS",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto russo-ucrainiano continua con intensità, con attivita' militari e incidenti armati frequenti. Attacchi con droni ucraini contro obiettivi russi, inclusi incursioni in territorio russo, sono stati segnalati. L'uso di armi e attacchi aerei è stato documentato, con alcune perdite di vite umane e danni materiali. L'attivita' bellica include anche incidenti aerei e terrestri, nonché' attivita' di intelligence e controintelligence. La situazione è caratterizzata da un continuo scambio di azioni militari tra le parti in conflitto.",
+    "n_eventi_violenti": 1556,
+    "n_vittime": 999
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 96869,
+    "richiedenti_asilo": 125962,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia russa mostra segni di resilienza, con un focus sulle politiche di ricostruzione e investimenti pubblici. Si evidenzia una strategia di diversificazione economica, con un aumento dei flussi di investimenti e una riduzione delle dipendenze da fonti esterne. Le prospettive di crescita economica sono influenzate da fattori interni ed esterni, con un'attenzione particolare alla stabilità finanziaria e alle politiche fiscali. Si segnala una certa resilienza nel settore energetico, nonostante le sanzioni internazionali.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacchi cibernetici contro infrastrutture critiche, inclusi attacchi DDoS e ransomware, sono stati segnalati. Attivita' di intelligence e cyberespionaggio sono state condotte da attori affiliati al governo russo, con l'uso di tecnologie avanzate per la manipolazione di informazioni e l'attacco a reti critiche. Attivita' di cybercrime e cyberattacchi mirati contro entità governative e private sono stati documentati."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "SVR Cyber Actors Adapt Tactics for Initial Cloud Access (2024-02-26)"
+    ],
+    "gruppi_minaccia_associati": [
+      "Unit 29155",
+      "GRU",
+      "APT41",
+      "APT29",
+      "APT28"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Servizi energetici",
+      "Servizi finanziari",
+      "Servizi di trasporto",
+      "Servizi di telecomunicazioni",
+      "Servizi di governo",
+      "Servizi di sicurezza",
+      "Servizi di difesa"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2024, la Russia continua a essere caratterizzata da una leadership stabile con Vladimir Putin come Presidente e Mikhail Mishustin come Primo Ministro. L'anno è segnato da eventi legati al conflitto russo-ucrainiano, con un continuo scambio di azioni militari e diplomatiche. Si evidenziano anche eventi interni come incendi, incidenti industriali e cambiamenti nella leadership regionale. L'attivita' politica interna include decisioni legislative e cambiamenti nella politica estera, con un focus sulle relazioni con paesi come la Cina e l'Ucraina. L'uso di tecnologie avanzate, inclusi i droni, è stato documentato sia in ambito militare che in ambito di intelligence.",
+  "fonti": [
+    "worldbank_mpo (RUS_mpo_am23.pdf)",
+    "cisa (RUS_aa24-249a-russian-military-cyber-actors-target-us-and-global-critical-infrastructure.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:RUS_2024"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "paese": "UKR",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2020, la situazione di conflitto nell'Ucraina continua a essere dominata dalla guerra nel Donbass. Le operazioni di controllo dei punti di passaggio (EECPs) tra le zone controllate dal governo ucraino e quelle controllate dai separatisti hanno evidenziato tensioni e ostacoli significativi. I tentativi di ripristino del movimento attraverso questi punti di passaggio sono stati ostacolati da restrizioni legate alla pandemia di COVID-19, che hanno creato ulteriori complessità. Le autorità ucraine e le forze separatiste hanno continuato a negoziare per ripristinare il movimento attraverso questi punti, ma le discussioni sono state lente e complesse. L'uso di forze di sicurezza per gestire le situazioni di emergenza, come l'assistenza medica a persone in difficoltà, è stato un elemento significativo durante questo periodo.",
+    "n_eventi_violenti": 3036,
+    "n_vittime": 28
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel secondo trimestre del 2020, la situazione migratoria nell'Ucraina è stata caratterizzata da gravi ostacoli al movimento attraverso i punti di passaggio (EECPs) tra le zone controllate dal governo e quelle controllate dai separatisti. Le restrizioni legate alla pandemia di COVID-19 hanno reso il movimento attraverso questi punti di passaggio estremamente difficoltoso, con molte persone bloccate su entrambi i lati della linea di contatto. Le autorità hanno fatto sforzi per ripristinare il movimento, ma i progressi sono stati lenti e ostacolati da negoziati complessi. Numerosi casi di persone che hanno atteso per giorni per attraversare i punti di passaggio sono stati riportati, evidenziando la criticità della situazione. Alcuni casi specifici, come l'assistenza medica a persone in difficoltà, hanno richiesto interventi urgenti delle forze di sicurezza.",
+    "rifugiati": 35156,
+    "richiedenti_asilo": 21426,
+    "sfollati_interni": 734000
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per l'Ucraina nel secondo trimestre del 2020 è stato influenzato negativamente dalla pandemia di COVID-19. Si prevede una contrazione economica significativa, con rischi fiscali e esterni accresciuti. Le proiezioni indicano una contrazione del PIL, con un forte impatto sul settore manifatturiero e industriale. Le politiche macroeconomiche prudenti sono state sottolineate come essenziali per contenere il deficit fiscale e gestire le pressioni inflazionistiche. L'Ucraina ha fatto sforzi per mantenere la stabilità monetaria riducendo le tassazioni, ma le prospettive di ripresa sono legate alla durata della crisi sanitaria e ai progressi nei negoziati per ripristinare le attività economiche. La povertà è stata un tema di preoccupazione, con proiezioni che indicano un aumento delle fasce di povertà a livello nazionale.",
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, l'Ucraina ha continuato a gestire la leadership con Volodymyr Zelenskyy come Presidente e Denys Shmygal come Primo Ministro. L'attenzione principale è stata rivolta alla gestione della pandemia di COVID-19, che ha influenzato significativamente le politiche interne e le dinamiche economiche. La guerra nel Donbass è rimasta un tema di preoccupazione costante, con negoziati in corso per ripristinare il movimento attraverso i punti di passaggio. L'Ucraina ha anche affrontato sfide legate alla sicurezza nazionale, come l'uso di forze di sicurezza per gestire situazioni di emergenza legate alla pandemia e al movimento di persone. L'attenzione internazionale è stata concentrata su questi sviluppi, con l'Ucraina impegnata in negoziati e azioni per contenere le conseguenze della crisi sanitaria e del conflitto.",
+  "fonti": [
+    "unhcr_reports (UKR_2020Q2_2020-06-18_ukraine-situation-on-eecps-10-14-june-2020-en-uk.pdf)",
+    "worldbank_mpo (UKR_mpo_sm20.pdf)",
+    "wikipedia:UKR_2020"
+  ]
+}

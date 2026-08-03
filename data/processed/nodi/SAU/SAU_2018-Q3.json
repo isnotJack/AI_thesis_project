@@ -1,0 +1,42 @@
+{
+  "paese": "SAU",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 139,
+    "n_vittime": 244
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 1492,
+    "richiedenti_asilo": 1436,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Targeting of Yahya Assiri"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Dark Caracal",
+      "Pegasus"
+    ],
+    "settori_bersaglio": [],
+    "ruolo": "entrambi",
+    "n_incidenti_datati": 1
+  },
+  "contesto_generale": "In settembre 2018, il Red Sea Development ha formato un consiglio consultivo di 12 membri. Gli avvocati hanno ufficialmente richiesto la pena di morte per i prominenti dissidenti religiosi Salman al-Awdah e Awad al-Qarni. Il giornalista saudita e colonna del Washington Post Jamal Khashoggi è entrato nel consolato saudita a Istanbul e successivamente è stato assassinato. Le registrazioni di intelligence turche hanno rivelato i dettagli che implicano funzionari sauditi.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/targeting-of-yahya-assiri",
+    "wikipedia:SAU_2018"
+  ]
+}

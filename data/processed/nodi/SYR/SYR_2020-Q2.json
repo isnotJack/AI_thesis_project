@@ -1,0 +1,36 @@
+{
+  "paese": "SYR",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si è assistito a movimenti di popolazione interna significativi, con un numero rilevante di sfollati interni (IDPs) e ritornati nei territori controllati da gruppi armati non statali e forze armate turche. Gli sfollati hanno spesso cambiato più volte la loro posizione all'interno del paese, evidenziando la precarietà delle condizioni di sicurezza e la continua instabilità. I ritornati hanno principalmente riferito l'ampliamento delle condizioni di sicurezza come il motivo principale del loro ritorno. Gli attori principali sono i gruppi armati non statali e le forze armate turche, che continuano a influenzare le dinamiche di movimento della popolazione.",
+    "n_eventi_violenti": 1882,
+    "n_vittime": 1616
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "I dati indicano una situazione critica di protezione per i sfollati interni, con un numero significativo di individui che hanno cambiato più volte la loro posizione all'interno del paese. Gli sfollati hanno evidenziato la mancanza di accesso a servizi fondamentali, come l'acqua, l'alimentazione e l'assistenza umanitaria, come principali motivi di preoccupazione. I ritornati hanno riferito di aver trovato condizioni di sicurezza migliorate nei loro luoghi di origine, ma continuano a riscontrare difficoltà di accesso a servizi essenziali. I principali ostacoli operativi sono legati alla mancanza di infrastrutture e servizi di base nei territori di ritorno.",
+    "rifugiati": 6702910,
+    "richiedenti_asilo": 107085,
+    "sfollati_interni": 6701972
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la leadership del paese è rimasta stabile con Bashar al-Assad come presidente, Najah al-Attar come vicepresidente e Hussein Arnous come primo ministro a partire dal 11 giugno. L'anno è stato caratterizzato da continui eventi legati alla guerra civile siriana, con dinamiche complesse e mutevoli nei territori controllati da diversi attori armati. La situazione generale rimane instabile, con sfide significative legate alla sicurezza, alla governance e all'assistenza umanitaria.",
+  "fonti": [
+    "unhcr_reports (SYR_2020Q2_2020-06-30_humanitarian-needs-assessment-programme-mobility-and-needs-m.pdf)",
+    "wikipedia:SYR_2020"
+  ]
+}

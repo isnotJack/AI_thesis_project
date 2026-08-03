@@ -1,0 +1,37 @@
+{
+  "paese": "UKR",
+  "periodo": "2021-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Donbass continua con episodi di violazione del cessate il fuoco, inclusi attacchi di artiglieria e minacce di destabilizzazione da parte della Russia. L'Ucraina registra incidenti di sicurezza e perdite civili, nonché danni alle infrastrutture civili. L'Ucraina risponde con azioni militari, come l'uso di droni per attaccare posizioni separatiste, e si prepara a eventuali scenari di conflitto aumentando la presenza militare lungo i confini con la Russia e la Bielorussia. La situazione è caratterizzata da tensioni crescenti tra l'Ucraina, la Russia e i paesi occidentali, con minacce di intervento militare e richieste di garanzie da parte della NATO.",
+    "n_eventi_violenti": 1794,
+    "n_vittime": 29
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione dei rifugiati e delle persone internamente sfollate continua a essere critica, con restrizioni ai movimenti e ai servizi. L'Ucraina registra un aumento dei requisiti COVID-19 per i movimenti attraverso i punti di attraversamento, con richieste di autoisolamento o test COVID-19 per chi entra nell'area controllata dal governo. L'assistenza umanitaria continua a fornire supporto ai rifugiati, ma le barriere di accesso e le difficoltà di movimento rimangono un problema significativo.",
+    "rifugiati": 27562,
+    "richiedenti_asilo": 19426,
+    "sfollati_interni": 854000
+  },
+  "economia": {
+    "sintesi": "L'outlook economico dell'Ucraina mostra una ripresa moderata, con prospettive di crescita che riflettono la resilienza economica nonostante le sfide. Si evidenziano rischi fiscali e esterni legati alla gestione della pandemia e alle tensioni geopolitiche. L'Ucraina si concentra sullo sviluppo regionale, la decentralizzazione e la riforma economica per promuovere la stabilità a lungo termine.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2021, l'Ucraina continua a fare fronte a sfide significative legate al conflitto nel Donbass, alla pandemia di COVID-19 e alle tensioni geopolitiche con la Russia. Il governo ucraino si impeagna in negoziati e azioni militari per mantenere la sicurezza nazionale, mentre affronta anche questioni interne come la riforma politica e la lotta contro la corruzione. L'Ucraina cerca di consolidare le relazioni con l'Europa e la NATO, nonostante le pressioni russe. La situazione è caratterizzata da un aumento delle tensioni lungo i confini e da una crescente preoccupazione per la stabilità regionale.",
+  "fonti": [
+    "unhcr_reports (UKR_2021Q3_2021-09-30_ukraine-protection-cluster-factsheet-august-2021-en-uk.pdf)",
+    "worldbank_mpo (UKR_mpo_sm21.pdf)",
+    "wikipedia:UKR_2021"
+  ]
+}

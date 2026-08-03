@@ -1,0 +1,62 @@
+{
+  "paese": "CHN",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 68,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 170222,
+    "richiedenti_asilo": 118476,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia cinese è proiettata a crescere significativamente nel 2021, con un forte impulso dovuto ai base effects. Le proiezioni indicano un aumento del PIL reale, con un contributo significativo dalla ripresa del consumo privato e dallo sviluppo delle infrastrutture. Tuttavia, ci sono rischi a breve termine legati alla ripresa delle pandemie COVID-19, che potrebbero rallentare la ripresa economica. A medio termine, la crescita economica potrebbe essere frenata da sfide strutturali, come il declino demografico, la riduzione della produttività e le tensioni geopolitiche. Le politiche fiscali e monetarie sono state attive per supportare la ripresa, ma ci sono preoccupazioni legate alla sostenibilità a lungo termine di alcuni settori, come l'immobiliare.",
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [
+      "Joint Cybersecurity Advisory: Chinese Gas Pipeline Intrusion Campaign, 2011 to 2013",
+      "ENISA Threat Landscape 2021",
+      "Microsoft Digital Defense Report 2021"
+    ],
+    "gruppi_minaccia_associati": [
+      "APT15 (Manganese)",
+      "APT31 (Zirconium)",
+      "HAFNIUM",
+      "APT40 (Gadolinium)",
+      "APT29 (Dukes)",
+      "APT23 (KungFu)",
+      "APT41 (Winnti)"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Governo",
+      "Ricerca e sviluppo",
+      "Educazione",
+      "Servizi finanziari",
+      "Servizi di sicurezza",
+      "Servizi di informazione",
+      "Servizi di trasporto",
+      "Servizi di telecomunicazioni",
+      "Servizi di tecnologia"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2021, la Cina ha continuato a gestire la pandemia di COVID-19 con la sua politica Zero-COVID, che ha ridotto significativamente la trasmissione del virus attraverso lockdown di grandi dimensioni e test di massa. La Cina ha raggiunto un record di 55 missioni spaziali nel 2021, incluse lo sviluppo della stazione spaziale Tiangong e il primo sbarco cinese su Marte. Le preoccupazioni legate al declino delle nascite hanno portato il governo nazionale a sostituire la politica dei due figli con quella dei tre figli nel maggio 2021. Le riforme politiche continue hanno applicato restrizioni o bando a criptovalute, grattacieli, tutoraggio privato, pettegolezzi sui celebrità e giochi video. Le aziende tecnologiche sono state sottoposte a un'attenzione crescente da parte del governo cinese nel 2021. Le misure anti-monopolio sono state messe in atto, e diverse grandi aziende hanno visto sanzioni significative durante l'anno. Una crisi nel settore immobiliare che ha coinvolto aziende come Evergrande nel 2021 ha provocato turbolenze economiche in Cina. Le riforme politiche a Hong Kong hanno limitato la democrazia e ridotto le elezioni a candidati approvati dal Partito Comunista Cinese. I giornali e i gruppi pro-democrazia a Hong Kong sono stati chiusi. Le presunte violazioni dei diritti umani in Xinjiang sono continuate, incluse le accuse di genocidio.",
+  "fonti": [
+    "worldbank_mpo (CHN_mpo_am21.pdf)",
+    "cisa (CHN_AA21-201A_Chinese_Gas_Pipeline_Intrusion_Campaign_2011_to_2013 (1).pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2021.pdf)",
+    "wikipedia:CHN_2021"
+  ]
+}

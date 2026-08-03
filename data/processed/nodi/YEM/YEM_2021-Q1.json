@@ -1,0 +1,41 @@
+{
+  "paese": "YEM",
+  "periodo": "2021-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Yemen nel primo trimestre del 2021 è stato caratterizzato da intensificazioni delle ostilità, in particolare nella provincia di Marib. Le forze di Ansar Allah hanno tentato di entrare nella città di Marib, intensificando il conflitto e portando a un aumento dei dislocamenti di massa, delle vittime civili e alla distruzione delle infrastrutture. La situazione è stata ulteriormente complicata da un aumento delle violenze in Marib, che ha portato al dislocamento di migliaia di persone. L'intensificazione delle ostilità ha anche avuto un impatto significativo sulle operazioni umanitarie, rendendo difficile l'accesso alle aree controllate dal governo e aumentando le difficoltà per la distribuzione di assistenza umanitaria.",
+    "n_eventi_violenti": 2091,
+    "n_vittime": 5290
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia nel Yemen nel primo trimestre del 2021 includono il conflitto, la deprezzazione della valuta locale, l'aumento dei prezzi dei generi alimentari e la riduzione della capacità di fornire assistenza umanitaria. L'aumento dei prezzi dei generi alimentari è stato causato dalla deprezzazione della valuta locale, che ha eroso il potere d'acquisto delle famiglie. Inoltre, la riduzione dei finanziamenti umanitari ha ridotto la capacità di fornire assistenza, aumentando il rischio di insegurezza alimentare. La situazione è stata ulteriormente complicata dall'intensificazione delle ostilità in Marib, che ha portato a un aumento dei dislocamenti e a una maggiore pressione sui servizi umanitari."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione nel Yemen nel primo trimestre del 2021 è stata caratterizzata da un aumento dei dislocamenti interni a causa dell'intensificazione delle ostilità, in particolare nella provincia di Marib. Gli sfollati hanno trovato rifugio in aree controllate dal governo, ma la situazione umanitaria è stata resa più difficile dalla riduzione dei finanziamenti umanitari e dall'aumento dei prezzi dei generi alimentari. La mancanza di accesso alle aree controllate dal governo ha reso difficile la distribuzione di assistenza umanitaria, aumentando il rischio di insegurezza alimentare e di altre forme di vulnerabilità per le popolazioni sfollate.",
+    "rifugiati": 37615,
+    "richiedenti_asilo": 35462,
+    "sfollati_interni": 4288739
+  },
+  "economia": {
+    "sintesi": "L'economia del Yemen nel primo trimestre del 2021 è stata caratterizzata da una situazione macroeconomiche precaria, con una deprezzazione della valuta locale, una riduzione delle riserve di valuta straniera e una diminuzione dei finanziamenti umanitari. L'aumento dei prezzi dei generi alimentari e dei combustibili ha eroso il potere d'acquisto delle famiglie, aumentando la pressione sui livelli di povertà. La situazione è stata ulteriormente complicata dall'intensificazione delle ostilità, che ha portato a un aumento dei dislocamenti e a una maggiore pressione sui servizi umanitari. La mancanza di accesso alle aree controllate dal governo ha reso difficile la distribuzione di assistenza umanitaria, aumentando il rischio di insegurezza alimentare e di altre forme di vulnerabilità per le popolazioni sfollate.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, il Yemen ha continuato a essere afflitto da un conflitto protrauto, con intensificazioni delle ostilità in diverse regioni del paese. L'intensificazione delle ostilità ha portato a un aumento dei dislocamenti interni e a una maggiore pressione sui servizi umanitari. Il conflitto ha avuto un impatto significativo sulla situazione economica, con una deprezzazione della valuta locale, una riduzione delle riserve di valuta straniera e una diminuzione dei finanziamenti umanitari. La situazione umanitaria è stata ulteriormente complicata dall'aumento dei prezzi dei generi alimentari e dei combustibili, che ha eroso il potere d'acquisto delle famiglie. La mancanza di accesso alle aree controllate dal governo ha reso difficile la distribuzione di assistenza umanitaria, aumentando il rischio di insegurezza alimentare e di altre forme di vulnerabilità per le popolazioni sfollate.",
+  "fonti": [
+    "YEM_2021-02-19_20210219_acaps_yemen_analysis_hub_marib_district_profile_0_0.pdf",
+    "YEM_2021-03-11_20210311_acaps_yemen_analysis_hub_risk_update_february_0.pdf",
+    "YEM_2021-february_food-security-outlook.pdf",
+    "YEM_2021-march_key-message-update.pdf",
+    "YEM_2021Q1_2021-03-30_unhcr-yemen-situation-2020-funding-update-as-of-30-march-202.pdf",
+    "YEM_mpo_am20.pdf",
+    "wikipedia:YEM_2021"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "paese": "IRN",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 25,
+    "n_vittime": 29
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 128998,
+    "richiedenti_asilo": 86093,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 4.3
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, in Iran si sono sviluppati alcuni eventi significativi. Il 2 settembre, Sahar Khodayari, nota come la 'ragazza blu', si è data fuoco dopo essere stata arrestata per aver assistito a una partita di calcio. È deceduta una settimana dopo in ospedale. Questi eventi forniscono un contesto sulle dinamiche sociali e politiche del paese durante il trimestre.",
+  "fonti": [
+    "wikipedia:IRN_2019"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "paese": "VEN",
+  "periodo": "2024-Q2",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si registrano tensioni politiche e contestazioni contro il governo, con accuse di violazione delle elezioni e di repressione. L'opposizione organizza proteste e richiede nuove elezioni, mentre il governo accusa l'opposizione di pianificare azioni violente. Viene attivato il piano 'Furia Bolivariana' contro presunte minacce. Viene arrestato un attore dell'opposizione per aver chiamato le forze armate a lasciare il sostegno al presidente Maduro. Il governo accusa l'opposizione di essere responsabile di un black out nazionale. Viene emesso un mandato di arresto contro un candidato dell'opposizione per accuse legate alle elezioni presidenziali. Il governo revoca l'autorità del Brasile di rappresentare gli interessi dell'Argentina in Venezuela. Un candidato dell'opposizione fugge verso l'estero per cercare asilo politico. Il governo accusa cittadini stranieri di pianificare destabilizzare il paese. Il governo revoca l'ambasciatore del Brasile in protesta contro il blocco dell'applicazione di Caracas per unirsi al blocco BRICS. L'opposizione continua a contestare i risultati delle elezioni presidenziali, con richieste di nuove elezioni da parte di paesi vicini. Sanzioni statunitensi contro alleati del presidente Maduro accusati di reprimere proteste e abusi dei diritti umani. Arresti di cittadini stranieri accusati di pianificare destabilizzare il paese. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale.",
+    "n_eventi_violenti": 101,
+    "n_vittime": 115
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia persiste a causa di bassi salari, limitata ricezione di voucher o remessas, e inflazione moderata. L'aumento dei voucher attraverso il programma 'Ingreso Mínimo Integral' beneficia una parte delle famiglie, ma non è sufficiente per coprire completamente il costo di un cibo di base. Le famiglie con diversi fonti di reddito sono in condizioni migliori, mentre quelle con redditi fissi e bassi continuano a soffrire. L'aumento della produzione di riso e mais ha contribuito a migliorare la disponibilità di cibo e a ridurre temporaneamente i prezzi, ma la situazione rimane critica per le famiglie più povere. L'aumento dei voucher non copre completamente le esigenze alimentari di molte famiglie, che continuano a vivere in condizioni di crisi."
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione per i rifugiati e i migranti rimane critica. Le donazioni dirette ai rifugiati e ai migranti sono in aumento, ma la copertura dei voucher CLAP diminuisce leggermente. Le remessas aumentano leggermente, ma solo una parte delle famiglie riceve voucher. L'accesso ai programmi sociali governativi e alle remessas internazionali rimane limitato per molte famiglie, specialmente quelle più povere. L'aumento dei voucher attraverso il programma 'Ingreso Mínimo Integral' beneficia una parte delle famiglie, ma non è sufficiente per coprire completamente il costo di un cibo di base. Le famiglie con diversi fonti di reddito sono in condizioni migliori, mentre quelle con redditi fissi e bassi continuano a soffrire. L'aumento della produzione di riso e mais ha contribuito a migliorare la disponibilità di cibo e a ridurre temporaneamente i prezzi, ma la situazione rimane critica per le famiglie più povere. L'aumento dei voucher non copre completamente le esigenze alimentari di molte famiglie, che continuano a vivere in condizioni di crisi.",
+    "rifugiati": 370169,
+    "richiedenti_asilo": 1360041,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il governo di Nicolás Maduro continua a gestire la situazione politica interna con tensioni significative. Viene presentato il rapporto annuale del presidente Maduro, che denuncia quattro presunte cospirazioni contro il regime. Viene annunciato un aumento del bonus contro la guerra economica. Il governo accusa l'opposizione di pianificare azioni violente e attiva il piano 'Furia Bolivariana'. Viene arrestato un attore dell'opposizione per aver chiamato le forze armate a lasciare il sostegno al presidente Maduro. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale. Il governo accusa l'opposizione di pianificare azioni violente e di minacciare la sicurezza nazionale.",
+  "fonti": [
+    "fews_net (VEN_2024-april_key-message-update.pdf)",
+    "fews_net (VEN_2024-may_key-message-update.pdf)",
+    "unhcr_reports (VEN_2024Q2_2024-05-31_unhcr-the-americas-2024-funding-update-as-of-31-may-2024.pdf)",
+    "wikipedia:VEN_2024"
+  ]
+}

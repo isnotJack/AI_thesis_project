@@ -1,0 +1,39 @@
+{
+  "paese": "ETH",
+  "periodo": "2018-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2018, l'Etiopia ha visto un aumento significativo di dislocazioni di popolazione a causa di conflitti intercomunitari tra le zone di Gedeo (regione SNPP) e Guji (regione Oromia). Questi conflitti hanno portato alla dislocazione di centinaia di migliaia di persone, con un impatto significativo sulle comunità ospitanti. L'insicurezza continua a prevenire il ritorno dei dislocati nei loro luoghi di origine, creando tensioni e sfide per l'assistenza umanitaria. Le autorità regionali hanno sostenuto il ritorno dei dislocati, ma l'insicurezza persistente ha ostacolato tale processo. I conflitti hanno anche causato danni a infrastrutture essenziali, come scuole e strutture sanitarie, e hanno aumentato le tensioni tra le comunità locali.",
+    "n_eventi_violenti": 133,
+    "n_vittime": 401
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La sicurezza alimentare in Etiopia nel secondo trimestre del 2018 è migliorata significativamente in alcune aree del sud-est, grazie a condizioni climatiche favorevoli e all'assistenza umanitaria. Tuttavia, le aree colpite dal conflitto continuano a essere in crisi (IPC Fase 3), con bisogno di assistenza umanitaria per prevenire un peggioramento delle condizioni. Le precipitazioni stagionali hanno migliorato le condizioni di pascolo e acqua per il bestiame, ma le aree colpite dal conflitto continuano a essere vulnerabili a problemi di sicurezza alimentare."
+  },
+  "migrazione": {
+    "descrizione": "Nel secondo trimestre del 2018, le sfide principali per i rifugiati in Etiopia riguardano la protezione e l'assistenza umanitaria. I rifugiati provenienti dal Sudan del Sud continuano a ricevere assistenza in campi come Tierkidi, dove sono garantiti servizi fondamentali come salute, nutrizione, acqua e igiene, protezione, istruzione e assistenza alimentare. Tuttavia, le tensioni causate dal conflitto intercomunitario hanno creato ostacoli all'assistenza umanitaria, con limiti nell'accesso alle aree colpite. L'assistenza umanitaria è pesantemente sostenuta dalle comunità ospitanti e dalle autorità locali, che sono strettamente coinvolte nel supporto ai rifugiati.",
+    "rifugiati": 92232,
+    "richiedenti_asilo": 133254,
+    "sfollati_interni": 2615800
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2018, l'Etiopia ha visto l'elezione di Abiy Ahmed come primo ministro, seguita da un'importante riunione con il presidente eritreo Isaias Afwerki, che ha portato alla dichiarazione ufficiale della fine del conflitto di vent'anni con l'Eritrea. Questi sviluppi politici hanno segnato un momento cruciale nella storia del paese, con Abiy Ahmed impegnato in riforme significative. Tuttavia, il paese ha continuato a fare i conti con sfide interne, come gli attacchi armati e le tensioni intercomunitarie, che hanno portato a dislocazioni di massa e a tensioni nella gestione delle risorse umanitarie.",
+  "fonti": [
+    "ETH_2018-06-22_20180622_acaps_start_ethiopia_displacement_0.pdf",
+    "ETH_2018-june_food-security-outlook.pdf",
+    "ETH_2018Q2_2018-06-30_ethiopia-camp-profile-gambella-tierkidi-refugee-camp-june-20.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "wikipedia:ETH_2018"
+  ]
+}

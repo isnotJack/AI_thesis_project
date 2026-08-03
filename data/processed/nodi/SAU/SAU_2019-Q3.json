@@ -1,0 +1,35 @@
+{
+  "paese": "SAU",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2019, l'Arabia Saudita ha fatto oggetto di attacchi da parte dei ribelli Houthis del Yemen. Il 14 settembre, le installazioni petrolifere di Aramco a Abqaiq e Khurais sono state bersaglio di un attacco con droni, causando incendi di grandi proporzioni ma senza vittime. Gli Houthis hanno anche rivendicato la cattura di migliaia di truppe saudite durante combattimenti a Najran. In precedenti mesi, gli Houthis avevano già attaccato l'aeroporto internazionale di Abha e la struttura di liquefazione del gas naturale di Shaybah con droni, causando incendi di piccole dimensioni.",
+    "n_eventi_violenti": 52,
+    "n_vittime": 176
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 1721,
+    "richiedenti_asilo": 1410,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, l'Arabia Saudita ha continuato a essere guidata dal Re Salman e dal Principe ereditario Mohammad bin Salman. Il paese ha fatto fronte a diversi eventi significativi, tra cui attacchi da parte dei ribelli Houthis del Yemen contro le sue installazioni petrolifere e infrastrutture. In ambito interno, sono stati annunciati importanti cambiamenti, come l'istituzione di un nuovo ministero per le risorse industriali e minerarie e la revoca della cittadinanza a Hamza bin Laden. L'Arabia Saudita ha anche avanzato ulteriori passi verso la modernizzazione e la diversificazione economica, con l'annuncio di un IPO per Aramco e l'apertura di nuove opportunità per le donne, come il viaggio all'estero e la registrazione di divorzi e matrimoni senza il consenso di un tutore maschio.",
+  "fonti": [
+    "wikipedia:SAU_2019"
+  ]
+}

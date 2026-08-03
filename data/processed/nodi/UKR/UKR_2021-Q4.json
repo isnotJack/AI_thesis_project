@@ -1,0 +1,39 @@
+{
+  "paese": "UKR",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Donbass continua con violazioni del cessate il fuoco e movimenti di truppe russe lungo il confine. Viene riportato un aumento delle tensioni militari, con l'Ucraina che accusa la Russia di preparare un colpo di stato contro il presidente Zelenskyy. L'Ucraina effettua attacchi con droni contro le forze separatiste, mentre la Russia aumenta la sua presenza militare lungo il confine. L'Ucraina e la NATO effettuano esercitazioni militari, mentre la Russia continua a criticare queste attività. L'Ucraina avverte di una mobilitazione dei riservisti da parte delle forze separatiste e di un aumento della prontezza combattiva delle forze separatiste nell'est del paese. L'Ucraina accusa la Russia di pianificare un colpo di stato contro il presidente Zelenskyy e di coinvolgere l'oligarca Rinat Akhmetov. L'Ucraina effettua un'operazione speciale lungo il confine con la Bielorussia, preoccupata da una crisi dei migranti e dall'aumento della presenza militare russa lungo i confini. L'Ucraina avverte di un potenziale nuovo conflitto a causa dell'aumento della presenza militare russa lungo il confine. L'Ucraina effettua un'operazione speciale lungo il confine con la Bielorussia, preoccupata da una crisi dei migranti e dall'aumento della presenza militare russa lungo i confini. L'Ucraina avverte di un potenziale nuovo conflitto a causa dell'aumento della presenza militare russa lungo il confine.",
+    "n_eventi_violenti": 2188,
+    "n_vittime": 21
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Ucraina continua a gestire sfide significative legate alla protezione dei rifugiati e delle persone in movimento. Viene riportato un aumento delle restrizioni di movimento lungo la linea di contatto, con un aumento dei controlli e delle barriere. L'Ucraina effettua operazioni per prevenire tentativi di migranti di raggiungere l'UE attraverso la Bielorussia. L'Ucraina continua a fornire assistenza legale e protezione ai rifugiati interni (IDPs), con un focus specifico sulle misure per il pagamento delle arretrate delle pensioni e la registrazione dei rifugiati interni. L'Ucraina effettua operazioni per prevenire tentativi di migranti di raggiungere l'UE attraverso la Bielorussia. L'Ucraina continua a fornire assistenza legale e protezione ai rifugiati interni (IDPs), con un focus specifico sulle misure per il pagamento delle arretrate delle pensioni e la registrazione dei rifugiati interni.",
+    "rifugiati": 27562,
+    "richiedenti_asilo": 19426,
+    "sfollati_interni": 854000
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina mostra segni di ripresa, con un focus sulle riforme economiche e sulle politiche fiscali. Viene riportato un aumento delle restrizioni di movimento lungo la linea di contatto, con un aumento dei controlli e delle barriere. L'Ucraina effettua operazioni per prevenire tentativi di migranti di raggiungere l'UE attraverso la Bielorussia. L'Ucraina continua a fornire assistenza legale e protezione ai rifugiati interni (IDPs), con un focus specifico sulle misure per il pagamento delle arretrate delle pensioni e la registrazione dei rifugiati interni. L'Ucraina effettua operazioni per prevenire tentativi di migranti di raggiungere l'UE attraverso la Bielorussia. L'Ucraina continua a fornire assistenza legale e protezione ai rifugiati interni (IDPs), con un focus specifico sulle misure per il pagamento delle arretrate delle pensioni e la registrazione dei rifugiati interni.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2021, l'Ucraina continua a gestire sfide significative legate al conflitto nel Donbass, alla pandemia di COVID-19 e alle relazioni con la Russia. Il presidente Zelenskyy continua a promuovere la riforma politica e la lotta contro la corruzione. L'Ucraina effettua operazioni militari e diplomatiche per gestire le tensioni con la Russia, mentre continua a ricevere vaccini COVID-19 attraverso l'iniziativa COVAX. L'Ucraina effettua operazioni militari e diplomatiche per gestire le tensioni con la Russia, mentre continua a ricevere vaccini COVID-19 attraverso l'iniziativa COVAX. L'Ucraina effettua operazioni militari e diplomatiche per gestire le tensioni con la Russia, mentre continua a ricevere vaccini COVID-19 attraverso l'iniziativa COVAX.",
+  "fonti": [
+    "unhcr_reports (UKR_2021Q4_2021-12-29_ukraine-protection-cluster-factsheet-november-2021-en-uk.pdf)",
+    "worldbank_mpo (UKR_mpo_am21.pdf)",
+    "enisa (ENISA_Threat_Landscape_2021.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2021.pdf)",
+    "wikipedia:UKR_2021"
+  ]
+}

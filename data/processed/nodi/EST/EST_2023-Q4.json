@@ -1,0 +1,35 @@
+{
+  "paese": "EST",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 60,
+    "richiedenti_asilo": 58,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.3
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "In Estonia, nel quarto trimestre del 2023, si è assistito all'annuncio di un accordo di 1 miliardo di euro con la Germania per l'acquisto di sistemi di difesa aerea a medio raggio IRIS-T, rappresentando il più grande investimento di difesa del paese e un cambiamento nel suo principale partner di difesa, spostandosi dagli Stati Uniti verso la Germania. Inoltre, è stato riportato che il gasdotto sottomarino Balticconnector, che collega la Finlandia all'Estonia, è stato chiuso a causa di danni e una perdita di gas. Questi eventi si sono sviluppati contro lo sfondo della pandemia di COVID-19, che continua a essere una questione in corso nel paese.",
+  "fonti": [
+    "wikipedia:EST_2023"
+  ]
+}

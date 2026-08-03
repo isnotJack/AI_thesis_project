@@ -1,0 +1,40 @@
+{
+  "paese": "YEM",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con intensità, con scontri tra le forze governative e i ribelli Houthis. Vi sono attacchi aerei e missilistici, principalmente nella regione del Mar Rosso, con implicazioni per la sicurezza marittima internazionale. Il governo ademita e quello sanaaita continuano a essere attivi, con la presenza di forze armate in diverse regioni del paese. Il conflitto ha portato a un aumento dei dislocati interni, con problemi legati alle forzate evicazioni e alla mancanza di protezione per i civili. Le autorità hanno intensificato le restrizioni sul movimento delle donne, con l'obbligo di avere un Mahram (guardiano maschio) per viaggiare, che ha impatto significativo sulle attività umanitarie e sulle donne in generale. Le tensioni regionali sono cresciute a causa delle azioni dei Houthis contro le navi e le attività commerciali nel Mar Rosso, con la formazione di una coalizione internazionale per garantire la sicurezza marittima. Le violazioni dei diritti umani e le violenze continue hanno creato un clima di instabilità e minacciano la pace regionale.",
+    "n_eventi_violenti": 810,
+    "n_vittime": 490
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Il numero di dislocati interni in Yemen è aumentato a causa delle forzate evicazioni, con un maggior numero di famiglie costrette a lasciare le loro abitazioni. Le autorità hanno intensificato le restrizioni sul movimento delle donne, rendendo più difficile per loro partecipare alle attività umanitarie e lavorare. Le condizioni economiche precarie e la mancanza di accesso ai servizi fondamentali hanno aumentato la vulnerabilità delle popolazioni dislocate, con rischi di malnutrizione e malattie. L'instabilità continua a spingere le persone a cercare rifugio in aree più sicure, aumentando la pressione sui centri di accoglienza e sui servizi umanitari.",
+    "rifugiati": 48044,
+    "richiedenti_asilo": 33521,
+    "sfollati_interni": 4516341
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen continua a essere gravemente compromessa a causa del conflitto, con una contrazione significativa del PIL reale. Le restrizioni sul movimento delle donne hanno impatto negativo sulle attività economiche e sulle opportunità di lavoro per le donne. Le violazioni dei diritti umani e le violenze continue hanno creato un clima di instabilità che minaccia ulteriormente la crescita economica. Le tensioni regionali, legate agli attacchi dei Houthis contro le navi nel Mar Rosso, hanno ulteriormente compromesso le attività commerciali e la sicurezza marittima. Le autorità hanno intensificato le restrizioni sul movimento delle donne, che hanno impatto significativo sulle attività umanitarie e sulle donne in generale.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2023-Q4, Yemen continua a essere afflitto da un conflitto armato persistente tra le forze governative e i ribelli Houthis. Il governo ademita e quello sanaaita mantengono la loro presenza, con continue tensioni e scontri armati in diverse regioni del paese. Il conflitto ha portato a un aumento dei dislocati interni, con problemi legati alle forzate evicazioni e alla mancanza di protezione per i civili. Le autorità hanno intensificato le restrizioni sul movimento delle donne, con l'obbligo di avere un Mahram (guardiano maschio) per viaggiare, che ha impatto significativo sulle attività umanitarie e sulle donne in generale. Le tensioni regionali sono cresciute a causa delle azioni dei Houthis contro le navi e le attività commerciali nel Mar Rosso, con la formazione di una coalizione internazionale per garantire la sicurezza marittima. Le violazioni dei diritti umani e le violenze continue hanno creato un clima di instabilità e minacciano la pace regionale.",
+  "fonti": [
+    "YEM_2023-12-08_20231208_ACAPS_Yemen_analysis_hub_social_impact_monitoring_project_July_to_September_2023.pdf",
+    "YEM_2023-12-14_20231214_ACAPS_Yemen_Analysis_Hub_Dynamics_and_effects_of_the_Mahram_practice_in_Yemen_01.pdf",
+    "YEM_2023-12-28_20231228_ACAPS_Yemen_analysis_hub_forced_eviction_analysis.pdf",
+    "YEM_2023Q4_2023-12-28_national-protection-cluster-and-acaps-thematic-yemen-forced-.pdf",
+    "YEM_mpo_am23.pdf",
+    "wikipedia:YEM_2023"
+  ]
+}

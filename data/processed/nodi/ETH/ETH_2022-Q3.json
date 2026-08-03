@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre, il conflitto in Etiopia è stato caratterizzato da intensi scontri in diverse regioni, inclusi Tigray, Benishangul-Gumuz e Oromia. Il conflitto ha portato a un aumento dei dislocamenti interni, con migliaia di persone che hanno lasciato le loro case a causa della violenza. I combattimenti hanno coinvolto forze governative, ribelli e gruppi armati locali, con episodi di violenza che hanno causato perdite di vite umane e danni significativi alle infrastrutture. La situazione è stata particolarmente critica in Tigray, dove le operazioni militari hanno portato a dislocamenti di massa e a una crescente tensione umanitaria.",
+    "n_eventi_violenti": 356,
+    "n_vittime": 2259
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia in Etiopia è stata aggravata da fattori come il conflitto, la siccità e le conseguenti perdite di raccolto. La siccità ha avuto un impatto significativo sulle condizioni di sicurezza alimentare, riducendo la disponibilità di cibo e aumentando la dipendenza dalle assistenze umanitarie. Il conflitto ha ulteriormente complicato la situazione, limitando l'accesso alle aree colpite e ostacolando le operazioni di assistenza. La carestia è stata particolarmente acuta in regioni come Tigray, Benishangul-Gumuz e Oromia, dove le condizioni di sicurezza alimentare sono state classificate come emergenza (IPC Fase 4)."
+  },
+  "migrazione": {
+    "descrizione": "Il conflitto e la carestia hanno portato a un aumento dei dislocamenti interni, con migliaia di persone che hanno lasciato le loro case per cercare rifugio in aree più sicure. La situazione dei rifugiati interni è stata particolarmente critica, con sfide significative legate all'accesso ai servizi di base, come l'assistenza sanitaria, l'acqua e l'alimentazione. I dislocamenti hanno creato pressioni significative sulle comunità di accoglienza, aumentando la tensione umanitaria e le sfide di gestione delle risorse.",
+    "rifugiati": 149603,
+    "richiedenti_asilo": 121362,
+    "sfollati_interni": 2730000
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana ha continuato a mostrare segni di debolezza, influenzata negativamente dal conflitto e dalla carestia. L'inflazione è stata un problema persistente, alimentata da aumenti nei prezzi dei beni di consumo fondamentali. Le prospettive di crescita economica sono state compromesse dalle turbolenze politiche e dalla crisi umanitaria, con rischi fiscali e esterni che hanno aumentato l'incertezza. La situazione economica è stata ulteriormente complicata da problemi di liquidità e dalla scarsa accessibilità ai finanziamenti, influenzando negativamente le prospettive di ripresa.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, Etiopia ha continuato a essere caratterizzata da una situazione politica e umanitaria complessa. Il conflitto in Tigray ha continuato a essere un tema centrale, con scontri armati e dislocamenti di massa che hanno aggravato la situazione umanitaria. La leadership del paese, con il Presidente Sahle-Work Zewde e il Primo Ministro Abiy Ahmed, ha affrontato sfide significative legate alla gestione della crisi umanitaria e alla ricerca di soluzioni politiche ai conflitti in corso. L'anno ha visto anche l'inizio di negoziati di pace mediati dall'Unione Africana, con la speranza di trovare una soluzione duratura ai conflitti interni.",
+  "fonti": [
+    "ETH_2022-august_food-security-outlook-update.pdf",
+    "ETH_2022-july_key-message-update.pdf",
+    "ETH_2022-september_key-message-update.pdf",
+    "ETH_2022Q3_2022-09-30_protection-cluster-ethiopia-northern-ethiopia-response-prote.pdf",
+    "ETH_mpo_sm22.pdf",
+    "wikipedia:ETH_2022"
+  ]
+}

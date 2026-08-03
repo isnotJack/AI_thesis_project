@@ -1,0 +1,35 @@
+{
+  "paese": "ISR",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2019, Israele ha continuato a essere coinvolto in conflitti e tensioni con attori regionali. Nel mese di luglio, Israele ha condotto attacchi aerei contro obiettivi iraniani e siriani, causando perdite umane. Nel corso di agosto, ci sono stati ulteriori attacchi aerei israeliani contro depositi armi del Movimento di Mobilitazione Popolare (PMF) in Iraq, con conferme di vittime. Nel mese di settembre, Israele ha continuato le operazioni militari contro obiettivi palestinesi e iraniani, compresi attacchi aerei contro il Movimento di Giustizia Islamica (PIJ) e il Movimento di Mobilitazione Popolare in Siria e Iraq. Le tensioni con il Libano sono aumentate con l'abbattimento di droni israeliani a Beirut, mentre Israele ha continuato a rispondere ai lanci di razzi da Gaza con operazioni militari. L'attivismo palestinese e le risposte israeliane hanno mantenuto un clima di tensione nel territorio.",
+    "n_eventi_violenti": 36,
+    "n_vittime": 2
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 452,
+    "richiedenti_asilo": 690,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, Israele ha continuato a essere caratterizzato da una leadership politica dominata da Benjamin Netanyahu, che si è trovato ad affrontare diverse sfide, compresa l'indagine sulle accuse di corruzione. Il paese ha mantenuto una posizione attiva nei confronti della regione, con operazioni militari contro obiettivi iraniani e palestinesi. Le tensioni con il Libano e la Siria sono aumentate, mentre Israele ha continuato a gestire le relazioni con i paesi arabi e internazionali, nonché le dinamiche interne legate alle elezioni e alle indagini giudiziarie contro il primo ministro. L'annuncio di un terzo round di elezioni parlamentari ha segnato un momento cruciale per la stabilità politica interna, mentre le tensioni regionali hanno mantenuto un clima di instabilità nel contesto geopolitico.",
+  "fonti": [
+    "wikipedia:ISR_2019"
+  ]
+}

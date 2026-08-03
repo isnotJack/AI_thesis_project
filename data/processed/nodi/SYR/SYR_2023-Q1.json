@@ -1,0 +1,40 @@
+{
+  "paese": "SYR",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": "Il trimestre è stato caratterizzato da un aumento dell'attività bellica, con attacchi da parte di gruppi armati come l'ISIS contro civili e forze governative. Vi sono state esplosioni di mine e attacchi contro truffatori di tartufi, con conseguenti perdite di vite umane. La risposta governativa includeva attacchi aerei russi contro le posizioni dell'ISIS. L'instabilità continua a influenzare la situazione umanitaria e le condizioni di vita delle popolazioni locali.",
+    "n_eventi_violenti": 1842,
+    "n_vittime": 1426
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è stata influenzata da eventi come gli terremoti, che hanno portato a un aumento dei profughi interni. La situazione umanitaria è stata complicata dalla mancanza di accesso alle aree colpite e dalla scarsità di risorse umanitarie. La presenza di rifugiati siriani in Turchia è stata un tema importante, con alcuni rifugiati che hanno iniziato a tornare alle aree controllate dal governo siriano, ma con limitazioni significative. La protezione dei rifugiati e la gestione delle migrazioni rimangono sfide significative.",
+    "rifugiati": 6355788,
+    "richiedenti_asilo": 182954,
+    "sfollati_interni": 7248188
+  },
+  "economia": {
+    "sintesi": "L'economia è stata pesantemente influenzata da fattori come la carenza di combustibile, l'aumento dei prezzi e le carenze di beni essenziali. L'instabilità politica e la continua guerra hanno contribuito a una situazione economica precaria, con effetti negativi sulla crescita e sulla stabilità finanziaria. La posizione di Siria come importatore netto di cibo e carburante è stata ulteriormente compromessa da eventi come gli terremoti, che hanno aggravato le condizioni economiche esistenti.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, la Siria ha continuato a essere caratterizzata da una situazione politica e militare instabile. Il presidente Bashar al-Assad ha presieduto un governo che ha affrontato sfide significative, incluse le conseguenze di terremoti e attacchi da parte di gruppi armati come l'ISIS. L'economia è rimasta fragile, con crescenti preoccupazioni riguardo alla crescita e alla stabilità finanziaria. L'instabilità ha avuto un impatto significativo sulle condizioni di vita delle popolazioni locali, con conseguenze umanitarie e migrazioni interne. La leadership ha continuato a gestire la situazione con un mix di risposte militari e politiche, mentre la situazione umanitaria continua a richiedere attenzione internazionale.",
+  "fonti": [
+    "SYR_2023-02-13_20230213_acaps_global_analysis_turkiye_syria_profiles_of_earthquake-affected_governorates.pdf",
+    "SYR_2023-02-17_20230217_acaps_anticipatory_analysis_turkiye_and_syria_earthquake_what_to_watch_over_the_next_month.pdf",
+    "SYR_2023-03-14_20230314_acaps_briefing_note_update_on_earthquakes_in_southeastern_turkiye_and_northwestern_syria_0.pdf",
+    "SYR_2023Q1_2023-03-31_guidance-on-establishment-and-managing-reception-centers-in-.pdf",
+    "SYR_mpo_am22.pdf",
+    "wikipedia:SYR_2023"
+  ]
+}

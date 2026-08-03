@@ -1,0 +1,36 @@
+{
+  "paese": "SYR",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Siria continua a essere un tema centrale, con sfide di sicurezza che persistono in alcune aree del paese. La situazione interna è evoluta, con la cessazione di combattimenti su larga scala in molte parti del paese, tuttavia, le condizioni di sicurezza rimangono un ostacolo per i rifugiati che desiderano ritornare. L'interaggenzia ha intensificato gli sforzi di preparazione per gestire un aumento potenziale di ritorni di rifugiati.",
+    "n_eventi_violenti": 3953,
+    "n_vittime": 3787
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "I rifugiati siriani continuano a richiedere protezione internazionale, con opportunità limitate per soluzioni durature. Il ritorno volontario e organizzato dei rifugiati è considerato la soluzione preferita per la maggior parte dei rifugiati siriani. Tuttavia, le condizioni di sicurezza e le preoccupazioni legate alla reintegrazione rappresentano barriere significative per il ritorno. L'interaggenzia ha sviluppato piani di preparazione per gestire un aumento di ritorni, evidenziando la necessità di garantire la protezione e la sicurezza dei ritornati.",
+    "rifugiati": 6615249,
+    "richiedenti_asilo": 118450,
+    "sfollati_interni": 6146994
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, la leadership siriana era costituita da Bashar al-Assad come Presidente, Najah al-Attar come Vice Presidente e Imad Khamis come Primo Ministro. L'anno è stato caratterizzato da eventi legati alla guerra civile siriana, con continuità delle dinamiche di conflitto e delle conseguenze umanitarie. Le condizioni di sicurezza e la situazione dei rifugiati rimangono temi centrali, influenzando le politiche e gli sforzi di riabilitazione e reintegrazione.",
+  "fonti": [
+    "SYR_2019Q1_2019-03-31_regional-operational-framework-for-refugee-return-to-syria.pdf",
+    "wikipedia:SYR_2019"
+  ]
+}

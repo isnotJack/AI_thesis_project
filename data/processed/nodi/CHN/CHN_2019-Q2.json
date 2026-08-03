@@ -1,0 +1,49 @@
+{
+  "paese": "CHN",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": "Nel secondo trimestre del 2019, la Cina ha continuato a gestire tensioni politiche e sociali, soprattutto legate alla regione di Hong Kong. Nel mese di giugno, le autorità cinesi hanno lanciato una campagna di mantenimento della stabilità a seguito del 30º anniversario delle proteste di piazza Tiananmen del 1989. Nel corso del trimestre, le proteste a Hong Kong contro una legge di estradizione che preoccupava i cittadini hanno coinvolto centinaia di migliaia di persone, con manifestazioni che si sono estese per diverse settimane. Nel mese di agosto, le proteste hanno continuato con dimostrazioni di massa, malgrado l'introduzione di misure di polizia come cannoni ad acqua e gas lacrimogeno. Inoltre, un incidente significativo è stato l'arresto di un giornalista del Global Times da parte di protestatori a Hong Kong, che ha evidenziato le tensioni crescenti tra la Cina continentale e la regione autonoma.",
+    "n_eventi_violenti": 107,
+    "n_vittime": 2
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 212863,
+    "richiedenti_asilo": 104248,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Operation Soft Cell (2019-06-25, categoria=Espionage)",
+      "Chinese intelligence repurposed NSA tools to attack private companies (2019-05-06, categoria=Espionage)",
+      "Compromise of Amnesty International Hong Kong (2019-04-15, categoria=Espionage)",
+      "Compromise of Bayer Pharmaceuticals (2019-04-04, categoria=Data destruction)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [
+      "Telecomunicazioni",
+      "Private Companies",
+      "Organizzazioni di diritti umani",
+      "Farmaceutici"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 4
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, la Cina ha continuato sotto la leadership di Xi Jinping, che ricopre anche la carica di Presidente. Nel mese di marzo, sono avvenuti eventi significativi come l'esplosione di una fabbrica chimica a Yancheng e un incendio forestale a Muli County, che hanno causato numerose vittime. Nel mese di maggio, gli Stati Uniti hanno aumentato le tariffe punitive sulle merci cinesi, mentre Google ha sospeso la sua relazione d'affari con Huawei a seguito dell'arresto di Meng Wanzhou. Nel mese di giugno, le proteste a Hong Kong contro una legge di estradizione hanno raggiunto livelli di intensità crescente, con centinaia di migliaia di manifestanti che hanno preso le strade. Nel mese di luglio, Shanghai ha introdotto un regolamento obbligatorio per la classificazione dei rifiuti domestici. Nel mese di agosto, un tifone ha causato allagamenti e evacuazioni in Zhejiang, mentre le proteste a Hong Kong hanno continuato con dimostrazioni di massa e tensioni crescenti tra la Cina continentale e la regione autonoma.",
+  "fonti": [
+    "https://www.cfr.org/cyber-operations/chinese-intelligence-repurposed-nsa-tools-to-attack-private-companies",
+    "https://www.cfr.org/cyber-operations/compromise-of-amnesty-international-hong-kong",
+    "https://www.cfr.org/cyber-operations/compromise-of-bayer-pharmaceuticals",
+    "https://www.cfr.org/cyber-operations/operation-soft-cell",
+    "wikipedia:CHN_2019"
+  ]
+}

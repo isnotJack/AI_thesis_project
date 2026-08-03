@@ -1,0 +1,40 @@
+{
+  "paese": "YEM",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Nel trimestre Q3 2024, Yemen è stato teatro di intensi scontri armati tra le forze del governo e le milizie Houthi. Le azioni militari hanno coinvolto attacchi aerei condotti da Stati Uniti e Regno Unito contro obiettivi Houthi, con risposte da parte dei Houthi che hanno lanciato missili contro navi commerciali e installazioni militari. Le violenze hanno causato perdite umane e danni significativi all'infrastruttura, con conflitti locali tra milizie e forze governative che hanno aumentato la tensione in alcune regioni. Le operazioni militari hanno anche portato a proteste contro le azioni esterne e a un aumento delle minacce di attacchi da parte dei gruppi armati locali.",
+    "n_eventi_violenti": 997,
+    "n_vittime": 701
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre Q3 2024, Yemen ha visto un aumento dei flussi migratori, con sfollati interni e rifugiati che cercano di sfuggire alle violenze e alle condizioni di precarietà. Le sfide principali includono la mancanza di protezione per i migranti, la mancanza di accesso ai servizi fondamentali e le crescenti barriere all'assistenza umanitaria. I corridoi di migrazione sono ostacolati da conflitti armati e da problemi logistici, rendendo difficile la distribuzione di aiuti e la protezione delle popolazioni vulnerabili.",
+    "rifugiati": 51384,
+    "richiedenti_asilo": 32810,
+    "sfollati_interni": 4795983
+  },
+  "economia": {
+    "sintesi": "Nel trimestre Q3 2024, l'economia yemenita continua a essere gravemente compromessa da fattori come il conflitto, la crisi umanitaria e le pressioni fiscali. Le prospettive di crescita sono compromesse da una combinazione di fattori, inclusi la deprezzazione della valuta, la crescente inflazione e la mancanza di accesso ai finanziamenti esterni. Le tensioni politiche e le violenze hanno ulteriormente indebolito le prospettive di ripresa economica, con rischi significativi per la stabilità finanziaria e la crescita a medio termine.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre Q3 2024, Yemen continua a essere afflitto da un conflitto protraendosi da anni, con scontri armati tra le forze del governo e le milizie Houthi che hanno portato a gravi conseguenze umanitarie. Le violenze hanno coinvolto attacchi aerei da parte di Stati Uniti e Regno Unito, risposte da parte dei Houthi contro navi commerciali e installazioni militari, e conflitti locali tra milizie e forze governative. Le condizioni umanitarie sono gravemente compromesse, con sfollati interni e rifugiati che cercano di sfuggire alle violenze. L'economia è in crisi, con una combinazione di fattori che indebolisce le prospettive di ripresa, inclusa la deprezzazione della valuta e la crescente inflazione. Le tensioni politiche e le violenze hanno ulteriormente indebolito le prospettive di stabilità e crescita a medio termine.",
+  "fonti": [
+    "YEM_2024-08-29_20240829_ACAPS_Middle_East_Hub_Impacts_of_2024_heavy_rains_in_Yemen.pdf",
+    "YEM_2024-09-09_20240909_ACAPS_Middle_East_Hub__technology-facilitated_gender-based_violence_01.pdf",
+    "YEM_2024-09-30_20240930_ACAPS_Yemen_joint_monitoring_report_issue_5.pdf",
+    "YEM_2024Q3_2024-09-16_yemen-response-and-gap-analysis-activities-of-the-protection.pdf",
+    "YEM_mpo_sm24.pdf",
+    "wikipedia:YEM_2024"
+  ]
+}

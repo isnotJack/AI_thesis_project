@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2023-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 4,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi arrivi di migranti via mare in aumento rispetto all'anno precedente. L'arrivo di migranti da paesi come Costa d'Avorio, Bangladesh, Egitto, Guinea, Tunisia, Pakistan, Bangladesh, Repubblica Araba Siriana, Turchia, Tunisi, Libia e altri paesi è stato rilevato. L'incremento degli arrivi via mare ha portato a una maggiore pressione sui centri di accoglienza e sui servizi di protezione.",
+    "rifugiati": 124,
+    "richiedenti_asilo": 1487,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2023, l'Italia ha continuato a fare fronte a diversi eventi significativi. Tra questi, vi è stato un aumento dei flussi migratori via mare, con un numero crescente di arrivi da paesi come Costa d'Avorio, Bangladesh, Egitto, Guinea, Tunisia, Pakistan, Bangladesh, Repubblica Araba Siriana, Turchia, Tunisi e Libia. Questi eventi hanno posto una pressione significativa sui centri di accoglienza e sui servizi di protezione. Inoltre, il paese ha continuato a gestire le conseguenze di eventi come l'incidente ferroviario a Brandizzo, che ha causato vittime e feriti. L'Italia ha anche partecipato a discussioni internazionali, come quella sulla situazione in Gaza, con la premier Giorgia Meloni che ha esortato la comunità internazionale a evitare un'escalation e a definire un percorso verso una soluzione a due Stati. Nel campo della politica interna, si è assistito a varie elezioni regionali e locali, nonché a sviluppi legati alla politica di immigrazione e alla gestione dei flussi migratori.",
+  "fonti": [
+    "ITA_2023Q2_2023-06-26_italy-weekly-snapshot-19-jun-25-jun-2023.pdf",
+    "wikipedia:ITA_2023"
+  ]
+}

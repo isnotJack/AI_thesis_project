@@ -1,0 +1,52 @@
+{
+  "paese": "UKR",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con attacchi frequenti contro l'infrastruttura energetica, che hanno ridotto la capacità di produzione di energia del paese. Le forze russe hanno intensificato gli attacchi con missili e droni, causando danni significativi alle centrali termiche e nucleari. L'Ucraina ha risposto con misure di difesa e riparazione, ma la situazione rimane critica, soprattutto durante la stagione invernale. Gli attacchi hanno provocato interruzioni di corrente e problemi di rifornimento energetico, influenzando negativamente la qualità di vita delle popolazioni civili.",
+    "n_eventi_violenti": 14093,
+    "n_vittime": 16508
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La produzione di cereali invernali in Ucraina si è mantenuta stabile nonostante la siccità estiva. Tuttavia, gli attacchi contro l'infrastruttura energetica hanno creato incertezza sulle condizioni di approvvigionamento alimentare, soprattutto per le famiglie vulnerabili. L'accesso all'alimentazione e ai servizi essenziali rimane un problema significativo, soprattutto nei territori più colpiti dal conflitto."
+  },
+  "migrazione": {
+    "descrizione": "La situazione di protezione dei rifugiati ucraini continua a essere critica, con sfide significative legate all'accesso ai servizi essenziali e alla reintegrazione. I rifugiati continuano a ricevere supporto per la protezione, l'assistenza sanitaria e l'istruzione, ma le sfide legate alla durata del conflitto aumentano la pressione sui sistemi di accoglienza. I rifugiati continuano a beneficiare di iniziative per l'inclusione socioeconomica, ma le sfide rimangono significative.",
+    "rifugiati": 5120036,
+    "richiedenti_asilo": 44349,
+    "sfollati_interni": 3665000
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina si confronta con sfide significative legate all'impatto del conflitto, con rischi fiscali e esterni che continuano a preoccupare. L'Ucraina riceve sostegno finanziario da parte dell'UE e degli Stati Uniti, ma la situazione rimane fragile a causa delle continue pressioni legate all'energia e all'approvvigionamento. La crescita economica è compromessa dalle interruzioni energetiche e dai costi elevati legati al conflitto.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacchi cibati contro l'infrastruttura energetica ucraina, inclusi attacchi con droni e missili contro centrali termiche e nucleari.",
+      "Attacchi cibati contro infrastrutture critiche, come la centrale nucleare di Zaporizhzhia."
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "ENISA Threat Landscape 2024: menzione di attacchi cibati contro l'Ucraina.",
+      "Microsoft Digital Defense Report 2024: menzione di attacchi cibati contro l'Ucraina."
+    ],
+    "gruppi_minaccia_associati": [
+      "Attori affiliati alla Russia, inclusi attori di stato e attori legati al governo russo."
+    ],
+    "settori_bersaglio": [
+      "Infrastruttura energetica",
+      "Servizi critici"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, l'Ucraina continua a fare fronte al conflitto con la Russia, con un'intensa attività militare e diplomatica. Gli sforzi di pace e negoziati continuano, ma il conflitto resta vivo con attacchi frequenti contro l'infrastruttura energetica. L'Ucraina riceve sostegno internazionale, ma le sfide legate all'energia, all'alimentazione e alla protezione dei rifugiati rimangono significative. La situazione economica è compromessa dalle continue pressioni legate al conflitto, con rischi fiscali e esterni che continuano a preoccupare.",
+  "fonti": [
+    "acaps (UKR_2024-09-13_20240913_ACAPS_Ukraine_Analysis_hub_Attacks_on_the_energy_infrastructure_in_Ukraine.pdf)",
+    "fews_net (UKR_2024-september_key-message-update.pdf)",
+    "unhcr_reports (UKR_2024Q3_2024-09-26_ukraine-situation-final-2025-26-rrp-regional-indicators.pdf)",
+    "worldbank_mpo (UKR_mpo_sm24.pdf)",
+    "enisa (ENISA_Threat_Landscape_2024.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2024.pdf)",
+    "wikipedia:UKR_2024"
+  ]
+}

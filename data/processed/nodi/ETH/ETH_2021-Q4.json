@@ -1,0 +1,40 @@
+{
+  "paese": "ETH",
+  "periodo": "2021-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Tigray continua a essere intenso, con violazioni dei diritti umani, inclusi stupri e uccisioni di civili. Il conflitto ha portato a una situazione di emergenza umanitaria, con migliaia di persone sfollate e bisognose di assistenza. L'accesso umanitario è stato gravemente ostacolato, con restrizioni ai movimenti e alla distribuzione di aiuti. Il conflitto ha anche causato problemi di sicurezza per i lavoratori umanitari, con alcuni incidenti riferiti. La situazione è complessa e continua a deteriorarsi, con rischi di carestia e malnutrizione aumentanti.",
+    "n_eventi_violenti": 450,
+    "n_vittime": 2204
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "La carestia è stata aggravata da conflitti e problemi di accesso umanitario, con una situazione di emergenza alimentare in alcune regioni. La malnutrizione è alta, con conseguenze significative sulla salute della popolazione. La situazione è peggiorata a causa delle difficoltà di accesso ai campi di rifugiati e alle aree colpite dal conflitto, limitando la distribuzione di aiuti alimentari."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione irregolare verso il Golfo è rimasta un problema significativo, con migliaia di etiopi che tentano di raggiungere il Medio Oriente attraverso rotte pericolose. Gli sfollati interni e i rifugiati continuano a crescere a causa del conflitto nel Tigray e delle condizioni di sicurezza precarie. L'assistenza umanitaria ai rifugiati e ai sfollati interni è stata ostacolata da problemi di accesso e da violazioni dei diritti umani. La situazione è particolarmente critica nei campi di rifugiati, dove le condizioni di vita sono difficili e le risorse limitate.",
+    "rifugiati": 149130,
+    "richiedenti_asilo": 139211,
+    "sfollati_interni": 3646267
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana ha mostrato segni di recupero dopo la pandemia, ma il conflitto nel Tigray ha creato incertezza e rischi per la crescita. L'inflazione è aumentata, e ci sono preoccupazioni riguardo alla stabilità finanziaria e all'efficacia delle politiche economiche. Il settore agricolo è stato particolarmente colpito, con conseguenze negative sulla sicurezza alimentare. La situazione fiscale e esterna presenta rischi, con un aumento del debito pubblico e una diminuzione delle riserve di valuta straniera.",
+    "tasso_poverta_pct": 38.6
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel 2021-Q4, l'Etiopia ha continuato a essere caratterizzata da un clima politico e sociale instabile, con il conflitto nel Tigray che ha avuto un impatto significativo sul paese. Il governo ha continuato a fare fronte a sfide sia interne che esterne, inclusi i problemi legati alla sicurezza alimentare e all'assistenza umanitaria. La leadership del paese, con il Presidente Sahle-Work Zewde e il Primo Ministro Abiy Ahmed, ha gestito una serie di eventi importanti, inclusi i tentativi di risolvere il conflitto nel Tigray e di gestire le conseguenze della pandemia di COVID-19. L'anno ha visto anche sviluppi significativi nel contesto regionale, come le discussioni sul Gran Risorgimento Dam e le relazioni con i paesi vicini.",
+  "fonti": [
+    "ETH_2021-11-03_20211103_acaps_thematic_report_ethiopia_one_year_of_crisis_in_northern_ethiopia.pdf",
+    "ETH_2021-11-16_20211116_acaps_thematic_report_the_eastern_migration_route_ethiopia_saudi_arabia.pdf",
+    "ETH_2021-november_key-message-update.pdf",
+    "ETH_2021Q4_2021-12-29_unhcr-ethiopia-operational-update-december-2021.pdf",
+    "ETH_mpo_am21.pdf",
+    "wikipedia:ETH_2021"
+  ]
+}

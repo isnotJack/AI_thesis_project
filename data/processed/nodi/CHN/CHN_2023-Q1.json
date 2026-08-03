@@ -1,0 +1,56 @@
+{
+  "paese": "CHN",
+  "periodo": "2023-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 41,
+    "n_vittime": 6
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 160565,
+    "richiedenti_asilo": 137143,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": "L'economia cinese si aspetta un rallentamento del PIL, con un tasso di crescita previsto intorno al 2.8% per il 2022. Si prevede una diminuzione della povertà interna, con una riduzione del tasso di povertà interna a $2.15 al giorno. Le restrizioni di mobilità legate all'Omicron hanno pesato sulla crescita, mentre la pressione continua nel settore immobiliare ha esacerbato la pressione economica. L'inflazione è rimasta moderata, influenzata da una domanda domestica debole. Le emissioni di gas serra sono state contenute, riflettendo un mix di politiche ambientali e condizioni economiche.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Raspberry Typhoon",
+      "Flax Typhoon"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche",
+      "Telecomunicazioni",
+      "Governo",
+      "Aziende di servizi finanziari",
+      "Aziende di servizi di informazione",
+      "Aziende di servizi di trasporto",
+      "Aziende di servizi di energia",
+      "Aziende di servizi di tecnologia",
+      "Aziende di servizi di sanità",
+      "Aziende di servizi di trasporto aereo",
+      "Aziende di servizi di trasporto marittimo",
+      "Aziende di servizi di trasporto ferroviario",
+      "Aziende di servizi di trasporto stradale",
+      "Az"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2023, la Cina ha continuato a essere guidata da Xi Jinping come Segretario Generale del Partito Comunista Cinese e Presidente. Il primo trimestre ha visto diversi eventi significativi, inclusi incidenti stradali e ferroviari, incidenti in miniera, e alluvioni causate da piogge torrenziali. L'attenzione è stata rivolta anche a incidenti di sicurezza come incendi in strutture pubbliche e incidenti in ambito minerario. Nel campo geopolitico, la Cina ha continuato a promuovere iniziative come l'Iniziativa della Nuova Via della Seta, con accordi strategici con paesi come la Siria. Nel campo della sicurezza, la Cina ha mantenuto una postura attiva nel monitoraggio e nella gestione delle minacce cibernetiche, con un focus sulle attività di intelligence e propaganda legate alla regione del Mar Cinese Meridionale e all'Ucraina.",
+  "fonti": [
+    "worldbank_mpo (CHN_mpo_am22.pdf)",
+    "enisa (ENISA_Threat_Landscape_2023.pdf)",
+    "mddr (Microsoft_Digital_Defense_Report_2023.pdf)",
+    "wikipedia:CHN_2023"
+  ]
+}

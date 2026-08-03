@@ -1,0 +1,49 @@
+{
+  "paese": "ISR",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2018, Israele ha continuato a gestire tensioni con il movimento Hamas e la Palestina. Incidenti significativi includono l'annuncio della distruzione di un tunnel sotterraneo scavato da Hamas, la chiusura del passaggio di Kerem Shalom, e la continua tensione lungo la frontiera di Gaza. Vi sono stati scontri armati e sparatorie che hanno causato la morte di palestinesi e l'uso di forza da parte delle forze israeliane. Inoltre, vi è stata una crescente tensione con l'Iran, con Israele che ha condotto attacchi contro bersagli iraniani in Siria in risposta a lanci di proiettili da parte delle forze iraniane. La situazione è stata ulteriormente complicata da dichiarazioni politiche riguardanti il riconoscimento di Gerusalemme come capitale di Israele e le conseguenti reazioni da parte dei leader palestinesi e internazionali.",
+    "n_eventi_violenti": 11,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 492,
+    "richiedenti_asilo": 683,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.7
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Iron Tiger (categoria=Espionage, vittime=Australia, Canada, China, India, Iran (Islamic Republic of), Israel, Japan, Korea (Republic of), Russian Federation, Taiwan, Thailand, United States, ruolo=vittima)",
+      "Indictment of officials from the Mabna Institute (categoria=Espionage, sponsor=Iran (Islamic Republic of), vittime=Australia, Canada, Denmark, Finland, Germany, Ireland, Israel, Italy, Japan, Korea (Republic of), Malaysia, Netherlands, Norway, Poland, Singapore, Spain, Sweden, Switzerland, Turkey, United Kingdom, United States, ruolo=vittima)"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Iron Tiger",
+      "Mabna Institute"
+    ],
+    "settori_bersaglio": [
+      "Governo",
+      "Istituzioni di istruzione",
+      "Settori tecnologici",
+      "Telecomunicazioni"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 2
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, Israele ha continuato a gestire tensioni politiche e militari con il movimento Hamas e la Palestina, nonché con l'Iran. Vi sono stati scontri armati lungo la frontiera di Gaza, attacchi contro bersagli iraniani in Siria, e una crescente tensione internazionale legata al riconoscimento di Gerusalemme come capitale di Israele. La leadership israeliana, con Benjamin Netanyahu come Primo Ministro, ha affrontato anche questioni interne, come le indagini anti-corruzione contro lui e sua moglie. L'anno ha visto anche eventi significativi come l'apertura dell'ambasciata degli Stati Uniti a Gerusalemme e la decisione del governo israeliano di legalizzare un insediamento non autorizzato nella Cisgiordania.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2018.pdf",
+    "https://www.cfr.org/cyber-operations/indictment-of-officials-from-the-mabna-institute",
+    "https://www.cfr.org/cyber-operations/iron-tiger",
+    "wikipedia:ISR_2018"
+  ]
+}

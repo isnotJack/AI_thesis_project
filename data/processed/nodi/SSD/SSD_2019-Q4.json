@@ -1,0 +1,40 @@
+{
+  "paese": "SSD",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Il conflitto in Sud Sudan continua a essere intenso, con varie fazioni armate coinvolte in scontri armati. I principali attori includono le forze governative, le forze dell'opposizione e gruppi armati locali. I combattimenti si concentrano principalmente nelle regioni di Yei River State, Jonglei State e Upper Nile State. Vi sono anche episodi di violenza intercomunale e di rapine di bestiame, che contribuiscono al clima di instabilità. Il governo ha dichiarato lo stato di emergenza in alcune aree a causa delle inondazioni, che hanno peggiorato le condizioni di sicurezza e accesso umanitario. Le violazioni dei diritti umani e gli attacchi contro civili continuano a essere un problema significativo. Le trattative di pace tra le parti in conflitto continuano, ma senza progressi significativi verso la formazione di un governo di unità nazionale. L'attivismo di alcuni gruppi armati contro le forze governative e l'opposizione continua a creare instabilità in diverse regioni del paese.",
+    "n_eventi_violenti": 93,
+    "n_vittime": 217
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Sud Sudan è principalmente causata da conflitti, inondazioni e perdite di raccolto. Le inondazioni hanno distrutto campi agricoli e allevamenti, peggiorando ulteriormente le condizioni di sicurezza alimentare. La perdita di raccolto è stata significativa, con stime di perdite di cereali che superano le 72.000 tonnellate. Le perdite di bestiame sono state altrettanto gravi, con stime di 3 milioni di capi di bestiame persi. Le inondazioni hanno anche peggiorato l'accesso alle aree rurali, rendendo difficile la distribuzione di assistenza umanitaria. Le condizioni di sicurezza alimentare sono peggiorate in molte aree, con la maggior parte della popolazione in stato di crisi o emergenza. L'assistenza umanitaria continua a essere cruciale per prevenire risultati ancora peggiori, ma le esigenze di assistenza sono elevate e crescenti."
+  },
+  "migrazione": {
+    "descrizione": "Ci sono segnali di ritorno spontaneo di rifugiati dal Ciad, con un numero significativo di persone che hanno rientrato in Sud Sudan. Tuttavia, le condizioni di protezione per i ritornati sono critiche, con rischi di violenza e insegne di sicurezza. Alcuni ritornati hanno dichiarato di voler rimanere permanentemente in Sud Sudan, mentre altri sono temporaneamente ritornati. Le autorità locali e le organizzazioni umanitarie stanno facendo sforzi per garantire la protezione e l'integrazione dei ritornati, ma le sfide rimangono significative a causa delle continue tensioni e instabilità nel paese.",
+    "rifugiati": 2234805,
+    "richiedenti_asilo": 5616,
+    "sfollati_interni": 1665815
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, Sud Sudan continua a essere afflitto da conflitti armati e instabilità politica. Il paese è impegnato in trattative di pace per formare un governo di unità nazionale, ma i progressi sono stati lenti e ostacolati da continue tensioni tra le parti. Le inondazioni hanno peggiorato le condizioni umanitarie, causando perdite di raccolto e bestiame, e rendendo difficile l'accesso alle aree rurali. La situazione di sicurezza alimentare è critica, con la maggior parte della popolazione in stato di crisi o emergenza. I ritorni di rifugiati dal Ciad sono in corso, ma le condizioni di protezione per i ritornati sono critiche. L'instabilità continua a essere un problema significativo, con violazioni dei diritti umani e attacchi contro civili che si verificano in diverse regioni del paese.",
+  "fonti": [
+    "SSD_2019-11-04_20191104_acaps_start_briefing_note_south_sudan_floods_0.pdf",
+    "SSD_2019-december_food-security-outlook-update.pdf",
+    "SSD_2019-november_key-message-update.pdf",
+    "SSD_2019-october_food-security-outlook-update.pdf",
+    "SSD_2019Q4_2019-12-31_south-sudan-unhcr-overview-of-spontaneous-refugee-returns-fr.pdf",
+    "wikipedia:SSD_2019"
+  ]
+}

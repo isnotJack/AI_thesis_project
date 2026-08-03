@@ -1,0 +1,39 @@
+{
+  "paese": "SSD",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2018, il Sud Sudan è stato caratterizzato da un conflitto persistente, con scontri armati tra le forze governative e le opposizioni armate. Le aree di maggiore conflitto includono Unity, Central Equatoria, e parti di Western Equatoria. Inoltre, le tensioni sono rimaste elevate in zone come Jonglei, Lakes, e Warrap, dove si sono verificati scontri intercomunitari. La resurrezione di gruppi armati e il rastrellamento di bestiame hanno aumentato la violenza in centrali e meridionali Unity. Nonostante l'accordo di cessate il fuoco firmato a fine dicembre 2017, i combattimenti hanno continuato, influenzando negativamente la sicurezza e l'accesso alle risorse alimentari.",
+    "n_eventi_violenti": 185,
+    "n_vittime": 461
+  },
+  "carestia": {
+    "livello_ipc": "fase5_carestia",
+    "descrizione": "La carestia nel Sud Sudan è stata influenzata da diversi fattori, tra cui il conflitto persistente, la scarsità di raccolti, e l'accesso limitato alle risorse alimentari. Molti abitanti hanno esaurito le loro scorte di cibo, dipendendo da cibo selvatico e pesce, che diventeranno meno disponibili nei mesi a venire. L'assistenza umanitaria continua a prevenire risultati ancora più estremi, ma non tutti i bisognosi sono raggiunti. La situazione è particolarmente critica in aree come Central and Southern Unity, Northwestern Jonglei, Wau di Western Bahr el Ghazal, e Kapoeta East di Eastern Equatoria. La carestia è stata accentuata dalla persistente instabilità e dalla mancanza di accesso alle risorse alimentari."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è stata significativa, con un numero crescente di persone che cercano protezione nei campi per sfollati. Il profilo demografico dei rifugiati include una forte presenza di donne e bambini. L'accesso alle risorse umanitarie è stato un problema, con congestione nei campi e limiti nell'assistenza sanitaria e nutrizionale. La mancanza di spazio e le condizioni di vita precarie hanno aumentato la pressione sui campi di protezione civile, come Bentiu PoC, dove la gestione delle risorse è stata un problema critico.",
+    "rifugiati": 2285301,
+    "richiedenti_asilo": 12701,
+    "sfollati_interni": 1878154
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, il Sud Sudan ha continuato a essere governato da Salva Kiir Mayardit come Presidente e James Wani Igga come Vice Presidente. Il paese ha fatto fronte a una serie di sfide, incluse le continue tensioni e conflitti armati, che hanno avuto un impatto significativo sulla sicurezza alimentare e sulle condizioni di vita delle popolazioni. L'instabilità ha continuato a influenzare negativamente la situazione umanitaria, con crescenti sfollati interni e una crescente pressione sui campi di protezione civile. Le dinamiche politiche e militari hanno mantenuto un clima di instabilità, influenzando negativamente la sicurezza e l'accesso alle risorse fondamentali.",
+  "fonti": [
+    "fews_net (SSD_2018-march_key-message-update.pdf)",
+    "unhcr_reports (SSD_2018Q1_2018-03-31_south-sudan-site-profile-bentiu-poc-march-2018.pdf)",
+    "fews_net (SSD_2018-february_food-security-outlook.pdf)",
+    "fews_net (SSD_2018-january_key-message-update.pdf)",
+    "wikipedia:SSD_2018"
+  ]
+}

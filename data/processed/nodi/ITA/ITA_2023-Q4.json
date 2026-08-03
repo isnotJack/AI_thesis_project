@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2023-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 1,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Italia ha continuato ad essere un punto di arrivo per le migrazioni marittime, con un aumento significativo delle arrivate rispetto all'anno precedente. Le origini principali dei migranti includono paesi come Tunisia, Algeria, Libia e altri paesi dell'Africa e del Medio Oriente. L'arrivo di migranti ha posto sfide significative in termini di gestione e protezione, con un aumento delle richieste di asilo e delle decisioni di primo grado riguardanti le richieste di protezione internazionale.",
+    "rifugiati": 124,
+    "richiedenti_asilo": 1487,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2023, l'Italia ha continuato a fare fronte a sfide significative legate alla gestione delle migrazioni, con un aumento delle arrivate marittime rispetto all'anno precedente. L'arrivo di migranti ha posto sfide significative in termini di gestione e protezione, con un aumento delle richieste di asilo e delle decisioni di primo grado riguardanti le richieste di protezione internazionale. Inoltre, il paese ha continuato a fare fronte a questioni legate alla sicurezza nazionale e all'ambiente, con eventi come l'incidente ferroviario a Brandizzo e la decisione di vietare la carne cultivata. La leadership politica, con Giorgia Meloni come Primo Ministro, ha affrontato questioni internazionali, come la situazione in Gaza, evidenziando la posizione italiana sul conflitto. L'Italia ha anche continuato a fare fronte a questioni legate alla cultura e alla politica, con eventi come il concerto di David Foster a Venezia e la discussione sulle politiche di asilo e immigrazione.",
+  "fonti": [
+    "ITA_2023Q4_2023-12-27_italy-weekly-snapshot-18-dec-24-dec-2023.pdf",
+    "wikipedia:ITA_2023"
+  ]
+}

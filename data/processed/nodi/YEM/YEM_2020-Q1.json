@@ -1,0 +1,41 @@
+{
+  "paese": "YEM",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2020, il conflitto in Yemen si è intensificato, con combattimenti significativi nei governatorati di Al-Jawf e Marib. Le forze dei Houthis hanno fatto progressi significativi, conquistando territori strategici come Hazm e Al Hazm, aumentando la pressione sulle forze governative. Il conflitto ha portato a un aumento dei dislocati, con migliaia di famiglie che hanno lasciato le loro case per sfuggire alla violenza. L'escalation delle azioni militari ha anche portato a un aumento dei combattimenti in altre regioni, come Ta'izz e Al-Dhali'e. Le forze governative e le coalizioni internazionali hanno risposto con attacchi aerei, ma il conflitto continua a sfidare le capacità umanitarie di assistenza. La situazione è stata ulteriormente complicata dalla pandemia di COVID-19, che ha posto ulteriori sfide alla gestione umanitaria e alla salute pubblica.",
+    "n_eventi_violenti": 2557,
+    "n_vittime": 4864
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Yemen è stata aggravata da fattori macroeconomici, come la deprezzazione della valuta nazionale e la scarsità di valuta straniera, che hanno aumentato i prezzi dei generi alimentari e limitato l'accesso all'alimentazione. La situazione umanitaria è stata ulteriormente compromessa dall'escalation del conflitto, che ha portato a un aumento dei dislocati e a una maggiore pressione sui sistemi di assistenza. La carestia è stata ulteriormente esacerbata dalla pandemia di COVID-19, che ha limitato l'accesso ai servizi umanitari e alimentari, aumentando il rischio di carestia per milioni di persone."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna in Yemen è stata significativamente influenzata dall'escalation del conflitto, con migliaia di famiglie che hanno lasciato le loro case per sfuggire alla violenza. Le autorità umanitarie hanno riferito di un aumento dei dislocati, con sfollati che si riversano in aree urbane come Marib, dove le condizioni di accoglienza sono precarie. La protezione dei dislocati è stata compromessa dalla mancanza di strutture appropriate e dai limiti nell'accesso ai servizi umanitari. La situazione è stata ulteriormente complicata dalla pandemia di COVID-19, che ha reso ancora più difficile l'assistenza ai dislocati e ha aumentato il rischio di infezioni tra le popolazioni vulnerabili.",
+    "rifugiati": 32433,
+    "richiedenti_asilo": 34870,
+    "sfollati_interni": 4002012
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, Yemen ha continuato a essere caratterizzato da un conflitto in corso che ha coinvolto le forze governative, i Houthis e le coalizioni internazionali. Il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar hanno mantenuto le loro posizioni, mentre il primo ministro Maeen Abdulmalik Saeed ha continuato a guidare il governo. Il trimestre ha visto un aumento dei combattimenti, con attacchi aerei e azioni militari che hanno portato a un aumento dei dislocati. La situazione umanitaria è stata ulteriormente complicata dalla pandemia di COVID-19, che ha posto ulteriori sfide alla gestione delle risorse e all'assistenza ai civili. L'escalation del conflitto ha anche aumentato la pressione sui sistemi di assistenza umanitaria, rendendo ancora più difficile la fornitura di aiuti vitale alle popolazioni vulnerabili.",
+  "fonti": [
+    "YEM_2020-01-29_20200129_acaps_yemen_analysis_hub_drivers_and_impact_of_yer_volatility_.pdf",
+    "YEM_2020-03-23_20200323_acaps_risk_report_covid19_impact_on_yemen_0.pdf",
+    "YEM_2020-03-24_20200324_acaps_yah_briefing_note_escalation_of_conflict_in_marib_yemen_0.pdf",
+    "YEM_2020-february_key-message-update.pdf",
+    "YEM_2020-march_key-message-update.pdf",
+    "YEM_2020Q1_2020-03-26_yemen-unhcr-operational-update-26-march-2020-en-ar.pdf",
+    "wikipedia:YEM_2020"
+  ]
+}

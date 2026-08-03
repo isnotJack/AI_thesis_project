@@ -1,0 +1,35 @@
+{
+  "paese": "KOR",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 132,
+    "richiedenti_asilo": 880,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, la Corea del Sud ha visto l'elezione di Yoon Suk-yeol come presidente, che è stato poi inaugurato come il 13º presidente del paese. Questi eventi politici hanno segnato un momento significativo nella leadership del paese durante il trimestre.",
+  "fonti": [
+    "wikipedia:KOR_2022"
+  ]
+}

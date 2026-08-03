@@ -1,0 +1,35 @@
+{
+  "paese": "PRK",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 1,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 758,
+    "richiedenti_asilo": 112,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2019, la Corea del Nord ha continuato a essere guidata da Kim Jong-un come Partito Chairman e Stato Chairman. Il 7 novembre, la Corea del Sud ha espulso due pescatori nordcoreani per farli affrontare accuse di omicidio in Corea del Nord. Questi eventi riflettono le dinamiche politiche e diplomatiche in corso nel paese, con continui sviluppi nella leadership e nei rapporti con altri Stati.",
+  "fonti": [
+    "wikipedia:PRK_2019"
+  ]
+}

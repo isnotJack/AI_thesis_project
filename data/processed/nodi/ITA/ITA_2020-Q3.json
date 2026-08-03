@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2020-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 8,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, si è assistito a un flusso significativo di rifugiati e migranti che hanno raggiunto le coste italiane, con un aumento delle arrivate per mare. La maggior parte delle arrivate sono sbarcate a Lampedusa, mettendo sotto pressione le strutture di accoglienza dell'isola. Inoltre, ci sono state arrivate di rifugiati e migranti attraverso i confini terrestri con la Slovenia, con un flusso costante di famiglie e bambini che viaggiano da soli. Le autorità hanno riscontrato situazioni di sovraffollamento nei centri di accoglienza, con problemi legati alla gestione delle quote di accoglienza e alle misure di quarantena legate alla pandemia di COVID-19. L'UNHCR ha intensificato la sua presenza nei centri di accoglienza per fornire informazioni e supporto ai nuovi arrivi, con particolare attenzione ai minori non accompagnati e alle vittime di violenza di genere. Le autorità hanno anche ripreso le interviste per il riconoscimento del rifugio dopo una pausa dovuta alla pandemia, con ritardi nel processo di richiesta di asilo. L'UNHCR ha collaborato con partner locali per fornire consulenza legale e supporto psicosociale ai rifugiati e migranti.",
+    "rifugiati": 62,
+    "richiedenti_asilo": 471,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2020, l'Italia ha continuato a gestire le conseguenze della pandemia di COVID-19, con misure di contenimento e ripresa economica in corso. Nel mese di settembre, si è tenuta l'elezione regionale in Campania, con Vincenzo De Luca eletto come presidente della regione. Durante il trimestre, sono stati riportati alcuni episodi di proteste e tensioni, inclusa una protesta violenta a Napoli coinvolgendo gruppi di camorra e di estrema destra. L'attenzione è stata anche rivolta alla fine del supporto per la console Nintendo 3DS in Italia, segnando la conclusione di un'era nel mercato videoludico italiano. Le autorità hanno continuato a gestire la situazione legata alla pandemia, con misure di lockdown e restrizioni che hanno influenzato diverse attività, comprese le competizioni sportive e le attività scolastiche.",
+  "fonti": [
+    "ITA_2020Q3_2020-09-30_unhcr-italy-factsheet-september-2020.pdf",
+    "wikipedia:ITA_2020"
+  ]
+}

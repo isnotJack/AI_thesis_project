@@ -1,0 +1,39 @@
+{
+  "paese": "YEM",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto nel Yemen nel primo trimestre del 2022 è stato caratterizzato da intensi scontri tra le autorità internazionalmente riconosciute (IRG) e le autorità de facto (DFA) nel nord del paese. Sono stati osservati picchi di conflitto principalmente nelle governatorie di Al Hodeidah, Al Jawf, Marib e Shabwah. Questi scontri hanno portato al dislocamento di migliaia di persone, con un numero significativo di sfollati provenienti dalla governatoria di Marib. Durante questo periodo, le proteste civili hanno continuato a un livello inferiore rispetto ai mesi precedenti, con una calma significativa osservata a dicembre, principalmente a causa di cambiamenti nella leadership e nelle direzioni all'interno della banca centrale. Il clima di repressione religiosa e la riduzione dello spazio civile hanno continuato a influenzare la vita e il benessere, soprattutto per le donne, le ragazze e i giornalisti. Nonostante alcune aree IRG abbiano visto una diminuzione dei casi di COVID-19, la sotto-rapporto rimane un problema significativo.",
+    "n_eventi_violenti": 1953,
+    "n_vittime": 4434
+  },
+  "carestia": {
+    "livello_ipc": "fase4_emergenza",
+    "descrizione": "I prezzi dei generi alimentari hanno aumentato rapidamente a seguito dell'invasione russa dell'Ucraina, influenzando negativamente la sicurezza alimentare nel Yemen. La capacità di acquisto delle famiglie è stata notevolmente ridotta a causa della deprezzazione della valuta locale e dell'aumento dei prezzi dei generi alimentari. La crisi energetica e il rialzo dei costi di trasporto hanno ulteriormente aggravato la situazione, con effetti significativi sulle aree controllate dalla DFA. La stagione delle piogge, che può peggiorare le condizioni delle persone che vivono in aree a bassa quota, è stata completata, ma le conseguenze della stagione delle piogge hanno continuato a influenzare negativamente la situazione alimentare."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati e delle persone internamente sfollate nel Yemen continua a essere critica. Nel marzo 2022, sono stati registrati nuovi dislocamenti di persone, con la maggior parte delle sfollate provenienti dalle governatorie di Al Hudaydah, Shabwah, Marib e Taiz. La capacità di accoglienza nei siti di accoglienza è stata messa a dura prova, con risorse limitate e crescenti pressioni sulle infrastrutture esistenti. L'UNHCR ha fornito assistenza umanitaria, inclusi aiuti alimentari e materiali di prima necessità, ai rifugiati e alle persone internamente sfollate. Tuttavia, la situazione rimane instabile a causa della continua instabilità e delle violazioni dei diritti umani.",
+    "rifugiati": 40147,
+    "richiedenti_asilo": 33524,
+    "sfollati_interni": 4523022
+  },
+  "economia": {
+    "sintesi": "L'economia del Yemen continua a essere gravemente indebolita a causa della guerra e della crisi umanitaria. La deprezzazione della valuta locale ha avuto un impatto significativo sui prezzi dei generi alimentari e dei beni di consumo. La produzione di petrolio, un importante fattore di sostegno per l'economia, ha subito un declino significativo. La situazione fiscale rimane critica, con un deficit di bilancio che continua a crescere. Le restrizioni sui trasferimenti di denaro e le difficoltà nel commercio hanno ulteriormente aggravato la situazione economica. L'assistenza umanitaria continua a essere essenziale per sostenere la popolazione vulnerabile.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, il Yemen ha continuato a essere afflitto da conflitti armati e da una crisi umanitaria profonda. Il paese ha visto una serie di scontri tra le autorità internazionalmente riconosciute e le autorità de facto, con conseguenti dislocazioni di massa di popolazione. La situazione umanitaria è stata ulteriormente complicata da una crisi alimentare acuta, causata da fattori come l'aumento dei prezzi dei generi alimentari e la deprezzazione della valuta locale. La carestia ha colpito duramente la popolazione, con un numero significativo di persone che hanno bisogno di assistenza umanitaria. In aggiunta, la situazione economica è rimasta fragile, con un'economia che continua a soffrire di una forte instabilità e di una mancanza di risorse finanziarie. La leadership del paese ha continuato a essere segnata da tensioni politiche e da una mancanza di stabilità, con cambiamenti significativi nella leadership del paese avvenuti durante il trimestre. L'intero paese ha continuato a lottare con le conseguenze a lungo termine della guerra civile e delle tensioni regionali, che hanno avuto un impatto significativo sulla vita quotidiana delle persone.",
+  "fonti": [
+    "YEM_2022-02-08_20220208_acaps_yah_simp_october_to_december_0.pdf",
+    "YEM_2022-march_food-security-outlook.pdf",
+    "YEM_2022Q1_2022-03-25_yemen-unhcr-operational-update-covering-the-period-15-25-mar.pdf",
+    "YEM_mpo_am21.pdf",
+    "wikipedia:YEM_2022"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "paese": "CHN",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, la Cina ha continuato a mantenere la sua leadership politica con Xi Jinping come Segretario Generale del Partito Comunista, Presidente e Vice Presidente. Nel mese di marzo, sono avvenuti alcuni eventi significativi, tra cui l'esplosione chimica a Yancheng, l'esplosione di un'auto a Zaoyang e un incendio forestale a Muli County che ha causato 31 morti, principalmente tra i vigili del fuoco.",
+    "n_eventi_violenti": 234,
+    "n_vittime": 5
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 212863,
+    "richiedenti_asilo": 104248,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.0
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "2019 Indonesian elections",
+      "Targeting of universities’ maritime military secrets",
+      "Targeting of Visma"
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "attore",
+    "n_incidenti_datati": 3
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, la Cina ha mantenuto la sua leadership politica con Xi Jinping come Segretario Generale del Partito Comunista, Presidente e Vice Presidente. Nel mese di gennaio, la sonda Chang'e 4 ha raggiunto la faccia nascosta della Luna. Nel mese di febbraio, una barca da pesca si è arenata a Ningbo, Xiangshan, con 7 persone a bordo, di cui due sono state salvate e cinque sono rimaste scomparse. Nel mese di marzo, sono avvenuti alcuni eventi significativi, tra cui l'esplosione chimica a Yancheng, l'esplosione di un'auto a Zaoyang e un incendio forestale a Muli County che ha causato 31 morti, principalmente tra i vigili del fuoco.",
+  "fonti": [
+    "wikipedia:CHN_2019",
+    "https://www.cfr.org/cyber-operations/2019-indonesian-elections",
+    "https://www.cfr.org/cyber-operations/targeting-of-universities-maritime-military-secrets",
+    "https://www.cfr.org/cyber-operations/targeting-of-visma"
+  ]
+}

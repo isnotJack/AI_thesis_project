@@ -1,0 +1,38 @@
+{
+  "paese": "ITA",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 2,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi arrivi di migranti via mare in aumento rispetto all'anno precedente, con un aumento significativo di richieste di asilo. I dati indicano una crescita nei flussi migratori verso l'Italia, con un aumento delle richieste di protezione internazionale. I paesi di origine principali includono Bangladesh, Siria, Guinea e altri paesi in via di sviluppo. L'Italia registra un numero significativo di arrivi di migranti, con un aumento delle richieste di asilo rispetto ai periodi precedenti.",
+    "rifugiati": 263,
+    "richiedenti_asilo": 1857,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, l'Italia ha visto una serie di eventi significativi, inclusi incidenti naturali, attività politiche e sviluppi sociali. Tra questi, vi è stato un aumento nei flussi migratori verso il paese, con un numero crescente di richieste di asilo. L'Italia ha anche continuato a gestire sfide legate alla sicurezza nazionale e all'immigrazione, con un focus sulle politiche di accoglienza e gestione dei flussi migratori. Inoltre, il paese ha affrontato diversi eventi naturali, come alluvioni e crolli strutturali, che hanno richiesto interventi di emergenza. La leadership politica, con Giorgia Meloni come Primo Ministro, ha continuato a gestire le dinamiche politiche interne e le relazioni internazionali, con un focus sulle politiche di sicurezza e immigrazione.",
+  "fonti": [
+    "ITA_2024Q3_2024-09-30_italy-weekly-snapshot-23-sep-29-sep-2024.pdf",
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "wikipedia:ITA_2024"
+  ]
+}

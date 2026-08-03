@@ -1,0 +1,36 @@
+{
+  "paese": "UKR",
+  "periodo": "2019-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2019, la situazione di sicurezza nell'est dell'Ucraina si è deteriorata, con un aumento significativo delle violazioni del cessate il fuoco. L'OSCE ha registrato un numero elevato di violazioni, che hanno portato a un aumento delle vittime civili. Le operazioni umanitarie hanno continuato a fornire assistenza alle persone colpite dal conflitto, con l'UNHCR che ha distribuito aiuti umanitari in aree difficilmente accessibili. L'UNHCR ha anche collaborato con partner locali per fornire assistenza legale e protezione ai rifugiati e alle persone sfollate.",
+    "n_eventi_violenti": 3357,
+    "n_vittime": 93
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel terzo trimestre del 2019, l'UNHCR ha continuato a fornire assistenza ai rifugiati e alle persone sfollate nell'Ucraina. Sono stati forniti pacchetti di assistenza umanitaria, inclusi cibi non alimentari e coperte, a persone con bisogni specifici in villaggi difficilmente accessibili. L'UNHCR ha anche collaborato con partner locali per fornire assistenza legale e protezione ai rifugiati e alle persone sfollate. Sono stati organizzati eventi per promuovere la coesione sociale e la protezione dei rifugiati e delle persone sfollate.",
+    "rifugiati": 59844,
+    "richiedenti_asilo": 27991,
+    "sfollati_interni": 734000
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2019, l'Ucraina ha continuato a fare fronte a una serie di sfide, tra cui la situazione di conflitto nell'est del paese. L'elezione presidenziale si è tenuta a marzo, mentre le elezioni parlamentari si sono tenute a luglio. Nel settembre, è stato effettuato uno scambio di prigionieri tra l'Ucraina e la Russia, che ha portato alla liberazione di 67 persone, incluse il regista Oleg Sentsov. La leadership del paese era composta da Petro Poroshenko come presidente e Volodymyr Groysman come primo ministro, con Volodymyr Zelenskyy che sarebbe diventato presidente successivamente. L'indipendenza della Chiesa Ortodossa d'Ucraina dalla Chiesa Ortodossa Russa è stata ufficialmente riconosciuta a gennaio.",
+  "fonti": [
+    "UKR_2019Q3_2019-09-30_ukraine-unhcr-operational-update-september-2019.pdf",
+    "wikipedia:UKR_2019"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "paese": "USA",
+  "periodo": "2022-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 29,
+    "n_vittime": 41
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 1327,
+    "richiedenti_asilo": 2115,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 1.4
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2022, gli Stati Uniti hanno continuato a essere dominati da una cultura politica polarizzata, con l'aborto che ha acquisito un'attenzione particolare dopo la decisione della Corte Suprema di rovesciare la sentenza Roe v. Wade con la causa Dobbs v. Jackson Women's Health Organization. Questa decisione ha scatenato proteste in tutto il paese. Nel campo economico, gli Stati Uniti hanno continuato a subire l'impatto della forte inflazione globale, di una contrazione del mercato azionario e di un aumento dei prezzi del gasolio, tutti in parte dovuti all'invasione della Russia in Ucraina. Le principali aziende tecnologiche americane, in particolare Meta Platforms, hanno subito un duro colpo con una perdita di quasi 700 miliardi di dollari di valutazione. La Federal Reserve ha intrapreso una serie di aumenti aggressivi delle tassazioni, una tendenza che si è protratta nel 2023, con la tassa di fondi federali che alla fine dell'anno è arrivata al 4.4%. L'anno 2022 ha anche segnato un periodo di acquisizioni all'interno dell'industria tecnologica, tra cui l'acquisizione di Twitter da parte di Elon Musk e l'acquisizione in corso di Activision Blizzard da parte di Microsoft.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2022.pdf",
+    "Microsoft_Digital_Defense_Report_2022.pdf",
+    "wikipedia:USA_2022"
+  ]
+}

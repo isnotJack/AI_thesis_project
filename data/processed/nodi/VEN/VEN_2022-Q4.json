@@ -1,0 +1,37 @@
+{
+  "paese": "VEN",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 149,
+    "n_vittime": 162
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Venezuelani in transito verso il Messico e gli Stati Uniti si trovano in situazioni di vulnerabilità, con alcuni rimanendo intrappolati al confine nord del Messico. Le autorità messicane hanno introdotto restrizioni che hanno aumentato la difficoltà per i migranti venezuelani di ottenere permessi di soggiorno. Alcuni migranti sono costretti a vivere in condizioni precarie, senza accesso adeguato a rifugi, cibo e servizi essenziali. L'aumento della violenza e delle minacce nei confronti dei migranti venezuelani è un problema crescente, con alcuni che diventano vittime di estorsioni, abusi e rapine. La situazione è aggravata dalla mancanza di documenti di identità e dalla difficoltà di accedere ai servizi di protezione.",
+    "rifugiati": 230393,
+    "richiedenti_asilo": 1137162,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2022, il Venezuela ha continuato a fare fronte a sfide significative, tra cui la gestione delle migrazioni verso il Messico e gli Stati Uniti. La situazione politica interna rimane complessa, con la presidenza di Nicolás Maduro e la crisi presidenziale che continua a influenzare le dinamiche interne. L'economia del paese continua a essere segnata da problemi strutturali, con effetti che si riflettono sulla qualità di vita della popolazione. Nel settore energetico, il Venezuela ha mantenuto relazioni con paesi come l'Iran, segnando accordi di cooperazione a lungo termine. Le condizioni climatiche, come le piogge torrenziali, hanno causato disastri naturali con conseguenze tragiche, come il crollo di una diga che ha provocato vittime. La situazione di migrazione verso il Messico è rimasta critica, con migliaia di venezuelani intrappolati al confine, esposti a rischi di protezione e vulnerabilità.",
+  "fonti": [
+    "VEN_2022-11-03_20221103_acaps_briefing_note_mexico_venezuelan_people_stranded_in_mexico_0.pdf",
+    "VEN_2022Q4_2022-10-13_cl-ster-de-protecci-n-venezuela-respuesta-septiembre-2022.pdf",
+    "wikipedia:VEN_2022"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "paese": "UKR",
+  "periodo": "2019-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre 2019-Q4, la situazione di conflitto nell'Ucraina orientale, specificamente nelle oblasti di Donetsk e Luhansk, continua a essere critica. Il conflitto persiste tra le forze governative ucraine e i separatisti pro-russi. Sono stati segnalati episodi di violenza, inclusi attacchi contro infrastrutture essenziali come acqua e elettricità. La situazione umanitaria è particolarmente grave, con un alto numero di civili che necessitano di assistenza umanitaria, soprattutto in ambito WASH (acqua, igiene e sanità). La presenza di mine terrestri e resti esplosivi di guerra continua a rappresentare un rischio significativo per la popolazione. Le autorità ucraine e le forze separatiste hanno continuato a negoziare, con alcuni tentativi di raggiungere un cessate il fuoco, ma la violenza sporadica persiste lungo la linea di contatto. La situazione di protezione è particolarmente problematica, con restrizioni al movimento e accesso limitato a servizi essenziali, soprattutto nelle aree non governative controllate (NGCA).",
+    "n_eventi_violenti": 3832,
+    "n_vittime": 50
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre 2019-Q4, la migrazione interna e la questione dei rifugiati interni rimangono un problema significativo nell'Ucraina orientale. La mancanza di documenti di identità validi, come passaporti ucraini, costituisce un ostacolo importante per i cittadini che vivono nelle aree non governative controllate (NGCA). La mancanza di documenti legali rende difficile per le persone accedere ai servizi essenziali e sposta la loro situazione di vulnerabilità. L'accesso ai servizi di assistenza legale gratuita è stato identificato come un'area di preoccupazione, con bisogno di ulteriori supporti per garantire la protezione dei diritti dei cittadini. La situazione di protezione è particolarmente critica per le persone che vivono lungo la linea di contatto, dove le restrizioni al movimento e l'accesso limitato ai servizi continuano a essere un problema.",
+    "rifugiati": 59844,
+    "richiedenti_asilo": 27991,
+    "sfollati_interni": 734000
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre 2019-Q4, l'Ucraina ha continuato a fare fronte a sfide significative legate al conflitto nell'area orientale. La presidenza di Volodymyr Zelenskyy, in carica dal 2019, ha segnato un cambiamento nella leadership nazionale. Il paese ha continuato a gestire la situazione di crisi umanitaria e di conflitto, con negoziati e tentativi di raggiungere un cessate il fuoco. L'Ucraina ha anche affrontato questioni legate alla sovranità e all'indipendenza della Chiesa Ortodossa Ucraina, con il decreto del Patriarca di Costantinopoli Bartholomew I del 5 gennaio che ha riconosciuto l'indipendenza della Chiesa Ortodossa Ucraina dalla Chiesa Ortodossa Russa. Nel corso dell'anno, l'Ucraina ha tenuto elezioni presidenziali e parlamentari, con Volodymyr Zelenskyy che ha vinto entrambe le elezioni. Nel settembre 2019, ci sono state rilasciate 67 persone, incluse il regista Oleg Sentsov, in un scambio di prigionieri tra l'Ucraina e la Russia. Questi eventi hanno contribuito a definire il contesto politico e sociale del paese durante il trimestre.",
+  "fonti": [
+    "UKR_2019-11-04_20191104_acaps_briefing_note_ukraine_conflict_in_donetsk_and_luhansk.pdf",
+    "UKR_2019Q4_2019-12-23_unhcr-right-to-protection-issue-of-ukrainian-passports-en-uk.pdf",
+    "wikipedia:UKR_2019"
+  ]
+}

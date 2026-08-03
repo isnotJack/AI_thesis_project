@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2019-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 0,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuove leggi restrittive sono state approvate, limitando l'arrivo di rifugiati e migranti. Si segnalano criticità di protezione, inclusi minori non accompagnati. Si evidenziano nuovi corridoi di arrivo, come da terra attraverso Slovenia, e ostacoli operativi legati alla politica di limitazione delle operazioni di soccorso in mare.",
+    "rifugiati": 76,
+    "richiedenti_asilo": 431,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 1.0
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel secondo trimestre del 2019, l'Italia ha visto l'arresto della capitana di Sea-Watch, Carola Rackete, per aver attraccato a Lampedusa contro gli ordini del governo. Si sono tenuti eventi culturali e sportivi di rilievo, come la 58ª Biennale di Venezia e il Gran Premio di Formula 1 a Monza. Si è assistito a dimissioni politiche e cambiamenti di governo, con la formazione del Conte II Cabinet. Inoltre, si è verificato un aumento di proteste ambientali a livello nazionale e internazionale.",
+  "fonti": [
+    "ITA_2019Q2_2019-06-30_unhcr-italy-factsheet-june-2019.pdf",
+    "wikipedia:ITA_2019"
+  ]
+}

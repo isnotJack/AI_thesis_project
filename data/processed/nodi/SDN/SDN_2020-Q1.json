@@ -1,0 +1,39 @@
+{
+  "paese": "SDN",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Il paese è coinvolto in conflitti, principalmente nella regione di Darfur, dove si registrano attacchi e violenze tra gruppi etnici. La guerra in Darfur continua a essere un problema significativo, con episodi di violenza che coinvolgono anche le forze di sicurezza. La situazione è complicata dalla presenza di gruppi armati e dalla mancanza di sicurezza nei campi per sfollati interni. La regione di Darfur è particolarmente instabile, con episodi di violenza che coinvolgono anche le forze di sicurezza. La guerra in Darfur continua a essere un problema significativo, con episodi di violenza che coinvolgono anche le forze di sicurezza. La situazione è complicata dalla presenza di gruppi armati e dalla mancanza di sicurezza nei campi per sfollati interni.",
+    "n_eventi_violenti": 77,
+    "n_vittime": 145
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è influenzata da diversi fattori, tra cui la crisi economica macroeconomica, i prezzi alti dei cereali, la deprezzazione della moneta locale, e la diminuzione della produzione agricola. La crisi economica ha portato a una diminuzione del reddito e ad un aumento dei prezzi dei generi alimentari, rendendo difficile l'accesso alla cibo per molte famiglie. La produzione di cereali è stata influenzata da eventi climatici negativi, come alluvioni e infestazioni di insetti, che hanno ridotto i raccolti. La deprezzazione della moneta locale ha aumentato il costo dei beni importati, compresi i cereali essenziali."
+  },
+  "migrazione": {
+    "descrizione": "La situazione migratoria è critica, con sfollati interni e rifugiati che affrontano difficoltà di protezione. I rifugiati e gli sfollati interni sono soggetti a limitazioni nei movimenti e a restrizioni di accesso ai servizi essenziali. La chiusura delle frontiere e le misure di quarantena hanno reso più difficile l'accesso ai campi per sfollati interni. La situazione è peggiorata a causa delle misure di contenimento del COVID-19, che hanno limitato i movimenti e l'assistenza umanitaria. I rifugiati e gli sfollati interni sono particolarmente vulnerabili a malattie e carenze alimentari.",
+    "rifugiati": 787823,
+    "richiedenti_asilo": 70049,
+    "sfollati_interni": 2552174
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, il Sudan ha continuato a fare fronte a diversi sfide, tra cui la guerra in Darfur, la crisi economica macroeconomica e la pandemia di COVID-19. La leadership del paese è stata impegnata in negoziati e accordi internazionali, come la normalizzazione delle relazioni con Israele e l'accordo di pace con alcuni gruppi ribelli. La situazione sanitaria è stata complicata dalla pandemia di COVID-19, che ha richiesto misure di contenimento e ha aumentato la pressione sui servizi di salute. La crisi economica ha continuato a influenzare la vita quotidiana dei cittadini, con conseguenze negative sulle condizioni di vita e sull'accesso ai servizi essenziali.",
+  "fonti": [
+    "fews_net (SDN_2020-march_key-message-update.pdf)",
+    "unhcr_reports (SDN_2020Q1_2020-03-29_sudan-flash-update-issue-no-4-29-march-2020.pdf)",
+    "fews_net (SDN_2020-february_food-security-outlook.pdf)",
+    "fews_net (SDN_2020-january_key-message-update.pdf)",
+    "wikipedia:SDN_2020"
+  ]
+}

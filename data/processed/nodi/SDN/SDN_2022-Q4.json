@@ -1,0 +1,40 @@
+{
+  "paese": "SDN",
+  "periodo": "2022-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, ci sono state continue tensioni e violenze intercomunali in diverse regioni del Sudan, inclusi Darfur, Kordofan, White Nile e Blue Nile. Queste violenze hanno portato a un aumento dei dislocati interni e hanno compromesso l'accesso alle risorse e ai servizi. Le tensioni sono state alimentate da dispute su terre e risorse, con episodi specifici di violenza etnica che hanno causato un numero significativo di vittime e danni. L'insicurezza ha anche influenzato le attività agricole, con alcune aree che hanno subito danni ai campi e alle colture. L'insorgere di conflitti ha creato un ambiente instabile che ha impedito l'accesso alle aree rurali da parte delle missioni umanitarie, complicando la distribuzione di assistenza.",
+    "n_eventi_violenti": 212,
+    "n_vittime": 706
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia includono il conflitto, che ha limitato l'accesso alle risorse e ai mercati, e le alte quote di povertà che hanno ridotto la capacità delle famiglie di acquistare cibo. L'insicurezza ha anche influenzato le attività agricole, con alcune aree che hanno subito danni ai campi e alle colture. Le alte quote di povertà e l'insicurezza hanno ridotto la capacità delle famiglie di acquistare cibo, aumentando la vulnerabilità alimentare. L'insorgere di conflitti ha creato un ambiente instabile che ha complicato la distribuzione di assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "La protezione dei rifugiati e delle persone di concernenza rimane critica, con un numero significativo di rifugiati e sfollati interni che continuano a richiedere assistenza. Le missioni umanitarie hanno continuato a fornire assistenza, ma l'accesso alle aree rurali è stato limitato a causa delle tensioni e delle violenze intercomunali. La situazione dei rifugiati e dei sfollati interni è stata particolarmente critica in aree come Darfur, dove le violenze hanno portato a un aumento dei dislocati interni.",
+    "rifugiati": 837188,
+    "richiedenti_asilo": 86838,
+    "sfollati_interni": 3552717
+  },
+  "economia": {
+    "sintesi": "L'outlook di crescita è stato influenzato da una situazione macroeconomiche difficile, caratterizzata da una deprezzazione della valuta nazionale, un aumento dei prezzi al consumo e una situazione fiscale precaria. I rischi fiscali e esterni sono stati segnalati come preoccupanti, con una continua pressione sulle riserve di valuta estera e un aumento dei tassi di inflazione. L'economia è stata influenzata da una serie di fattori, inclusi le tensioni politiche, le violenze intercomunali e le conseguenti difficoltà nell'accesso ai mercati e alle risorse.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il Sudan ha continuato a essere caratterizzato da una situazione politica instabile, con continue tensioni e violenze intercomunali in diverse regioni. L'insorgere di conflitti ha portato a un aumento dei dislocati interni e ha complicato l'accesso alle aree rurali da parte delle missioni umanitarie. Le tensioni sono state alimentate da dispute su terre e risorse, con episodi specifici di violenza etnica che hanno causato un numero significativo di vittime e danni. L'insicurezza ha anche influenzato le attività agricole, con alcune aree che hanno subito danni ai campi e alle colture. L'insorgere di conflitti ha creato un ambiente instabile che ha complicato la distribuzione di assistenza umanitaria.",
+  "fonti": [
+    "fews_net (SDN_2022-december_key-message-update.pdf)",
+    "fews_net (SDN_2022-november_key-message-update.pdf)",
+    "fews_net (SDN_2022-october_food-security-outlook.pdf)",
+    "unhcr_reports (SDN_2022Q4_2022-12-31_unhcr-sudan-dafur-operation-november-2022-sitrep-en-ar.pdf)",
+    "worldbank_mpo (SDN_mpo_am22.pdf)",
+    "wikipedia:SDN_2022"
+  ]
+}

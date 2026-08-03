@@ -1,0 +1,40 @@
+{
+  "paese": "YEM",
+  "periodo": "2018-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2018, Yemen è stato teatro di intensi combattimenti, principalmente concentrati nelle governatorie di Taizz e Al Hudaydah. Il conflitto è stato caratterizzato da offensive terrestri e aeree, con l'uso di armi pesanti e aerei da parte delle forze coinvolte. Le violenze hanno portato a un aumento dei dislocamenti interni, con migliaia di persone costrette a fuggire dalle zone di combattimento. Le forze governative, con il sostegno della coalizione guidata dall'Arabia Saudita, hanno lanciato un'offensiva per riprendere il controllo delle aree controllate dai ribelli Houthis, con l'obiettivo di riconquistare le posizioni strategiche lungo la costa del Mar Rosso. I combattimenti hanno causato un numero significativo di vittime civili e hanno aggravato le condizioni umanitarie già precarie nel paese.",
+    "n_eventi_violenti": 2557,
+    "n_vittime": 7636
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Yemen è stata aggravata dal conflitto in corso, che ha portato a una riduzione significativa delle importazioni di cibo e carburante. Le violenze hanno interrotto le vie di accesso ai mercati, aumentando i prezzi dei generi alimentari e riducendo l'accesso alla cibo per le popolazioni più vulnerabili. L'uso di armi pesanti e aeree ha danneggiato le infrastrutture agricole e commerciali, limitando la produzione e la distribuzione di cibo. La situazione umanitaria è stata ulteriormente peggiorata dalla mancanza di accesso alle aree di combattimento, rendendo difficile la distribuzione di aiuti umanitari. La carestia è stata ulteriormente esacerbata dalla deprezzazione della valuta locale, che ha reso ancora più costosi gli importi di cibo e carburante."
+  },
+  "migrazione": {
+    "descrizione": "Nel primo trimestre del 2018, Yemen ha visto un aumento significativo dei dislocamenti interni a causa delle violenze e del conflitto. Le persone hanno fuggito dalle zone di combattimento, cercando rifugio in aree più sicure. I dislocamenti hanno creato una pressione significativa sui centri di accoglienza e sulle comunità ospitanti, che già soffrivano di carenze di risorse. Le violenze continue hanno reso difficile l'accesso ai centri di accoglienza e hanno aumentato il rischio di protezione per le persone dislocate, soprattutto per le donne e i bambini. La mancanza di accesso alle aree di combattimento ha reso difficile la distribuzione di aiuti umanitari ai dislocati, aumentando il loro stato di vulnerabilità.",
+    "rifugiati": 31145,
+    "richiedenti_asilo": 35876,
+    "sfollati_interni": 2144719
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2018, Yemen continuava a essere afflitto da un conflitto armato che aveva iniziato nel 2015. Il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar continuavano ad essere le figure di riferimento politiche. Il primo trimestre ha visto un aumento delle violenze e delle operazioni militari, con attacchi aerei e terrestri che hanno causato un numero significativo di vittime civili. Le violenze hanno portato a un aumento dei dislocamenti interni e hanno aggravato le condizioni umanitarie già precarie. Il conflitto ha avuto un impatto significativo sulle condizioni economiche e sociali del paese, con una crescente carestia e una mancanza di accesso ai servizi essenziali. Le violenze continue hanno reso difficile la distribuzione di aiuti umanitari e hanno aumentato il rischio di protezione per le popolazioni civili.",
+  "fonti": [
+    "YEM_2018-03-29_20180329_acaps_thematic_report_yemen_displacement_final.pdf",
+    "YEM_2018-february_food-security-outlook.pdf",
+    "YEM_2018-january_key-message-update.pdf",
+    "YEM_2018-march_key-message-update.pdf",
+    "YEM_2018Q1_2018-03-31_yemen-situation-report-march-2018-en-ar.pdf",
+    "wikipedia:YEM_2018"
+  ]
+}

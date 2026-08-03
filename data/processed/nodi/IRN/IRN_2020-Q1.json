@@ -1,0 +1,59 @@
+{
+  "paese": "IRN",
+  "periodo": "2020-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2020, l'Iran ha fatto fronte a tensioni significative con gli Stati Uniti, culminate in un'operazione militare statunitense che ha ucciso il comandante iraniano Qasem Soleimani a Baghdad. Questo evento ha scatenato una serie di reazioni, incluse dimostrazioni di protesta e un attacco balistico iraniano contro basi militari statunitensi in Iraq. In aggiunta, un incidente aereo tragico ha visto un aereo ucraino abbattuto vicino a Teheran, causando la morte di tutti a bordo. L'incidente ha generato tensioni diplomatiche e proteste interne. Nel mese di febbraio, l'Iran ha registrato il primo caso di COVID-19, segnando l'inizio della pandemia nel paese.",
+    "n_eventi_violenti": 14,
+    "n_vittime": 184
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "L'Iran ospita una popolazione significativa di rifugiati, principalmente afghani e iracheni. Nel primo trimestre del 2020, ci sono stati sforzi per la repatriazione volontaria di alcuni rifugiati, nonché per la loro integrazione nell'istruzione e nel sistema sanitario iraniano. L'UNHCR ha collaborato con le autorità iraniane per fornire assistenza legale, protezione e servizi essenziali ai rifugiati, inclusi programmi di alfabetizzazione e assistenza sanitaria. La situazione dei rifugiati iraniani è caratterizzata da una combinazione di integrazione e sfide legate alla documentazione e alla protezione.",
+    "rifugiati": 135018,
+    "richiedenti_asilo": 77229,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 4.6
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco cibernetico legato alla tensione geopolitica con gli Stati Uniti"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "Release of New CISA Insights on Increased Geopolitical Tensions and Threats (2020-01-06)",
+      "Potential for Iranian Cyber Response to U.S. Military Strike in Baghdad (2020-01-06)"
+    ],
+    "gruppi_minaccia_associati": [
+      "PHOSPHORUS",
+      "STRONTIUM",
+      "ZINC",
+      "THALLIUM",
+      "NICKEL",
+      "MERCURY",
+      "DUBNIUM"
+    ],
+    "settori_bersaglio": [
+      "Non-governmental organizations",
+      "Government organizations",
+      "Information technology firms",
+      "Higher education",
+      "Professional services",
+      "International organizations"
+    ],
+    "ruolo": "attore",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2020, l'Iran ha vissuto periodi di alta tensione geopolitica, culminati con l'uccisione del comandante Qasem Soleimani da parte degli Stati Uniti, seguita da un attacco balistico iraniano contro basi statunitensi in Iraq. Questi eventi hanno generato una serie di conseguenze, incluse proteste interne e un tragico incidente aereo. In febbraio, l'Iran ha registrato il primo caso di COVID-19, segnando l'inizio della pandemia nel paese. Parallelamente, la situazione dei rifugiati, principalmente afghani e iracheni, ha continuato a richiedere attenzione e supporto da parte delle autorità iraniane e delle organizzazioni internazionali.",
+  "fonti": [
+    "IRN_2020Q1_2020-03-31_unhcr-iran-factsheet-january-march-2020.pdf",
+    "Microsoft_Digital_Defense_Report_2020.pdf",
+    "https://www.cisa.gov/news-events/alerts/2020/01/06/release-new-cisa-insights-increased-geopolitical-tensions-and-threats",
+    "https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-006a",
+    "wikipedia:IRN_2020"
+  ]
+}

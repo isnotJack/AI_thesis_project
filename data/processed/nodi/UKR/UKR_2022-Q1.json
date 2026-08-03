@@ -1,0 +1,39 @@
+{
+  "paese": "UKR",
+  "periodo": "2022-Q1",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina è intensificato da attacchi militari pesanti, con combattimenti in diverse regioni del paese. Le forze ucraine e russe sono impegnate in duri scontri, con attacchi aerei e bombardamenti su obiettivi civili. Il conflitto ha provocato un alto numero di vittime civili e militari, con molte zone del paese gravemente danneggiate. Le operazioni militari continuano con attacchi su diverse città e obiettivi strategici, con tentativi di avanzare da parte delle forze russe e resistenza da parte delle forze ucraine. Il conflitto ha anche portato a una situazione di emergenza umanitaria con migliaia di civili feriti e sfollati. Le operazioni militari sono accompagnate da azioni di sabotaggio e distruzione di infrastrutture essenziali, come ponti e linee di trasmissione. Le forze ucraine continuano a respingere gli attacchi russi, mantenendo la resistenza in diverse regioni del paese. Il conflitto ha anche portato a una situazione di emergenza umanitaria con migliaia di civili feriti e sfollati. Le operazioni militari sono accompagnate da azioni di sabotaggio e distruzione di infrastrutture essenziali, come ponti e linee di trasmissione. Le forze ucraine continuano a respingere gli attacchi russi, mantenendo la resistenza in diverse regioni del paese.",
+    "n_eventi_violenti": 4403,
+    "n_vittime": 5590
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": "Il report FEWS NET non fornisce informazioni specifiche su driver di carestia per questo trimestre."
+  },
+  "migrazione": {
+    "descrizione": "Il conflitto in Ucraina ha portato a un significativo aumento di sfollati interni e rifugiati. Le persone stanno fuggendo dalle zone di combattimento verso zone più sicure, con un numero significativo di sfollati interni e rifugiati nei paesi vicini. Le autorità ucraine stanno facendo sforzi per gestire la situazione umanitaria, ma le sfide sono significative a causa del numero crescente di sfollati e rifugiati. Le autorità ucraine stanno facendo sforzi per gestire la situazione umanitaria, ma le sfide sono significative a causa del numero crescente di sfollati e rifugiati. Le autorità ucraine stanno facendo sforzi per gestire la situazione umanitaria, ma le sfide sono significative a causa del numero crescente di sfollati e rifugiati.",
+    "rifugiati": 5684177,
+    "richiedenti_asilo": 34637,
+    "sfollati_interni": 5914000
+  },
+  "economia": {
+    "sintesi": "L'economia ucraina è stata pesantemente impattata dal conflitto, con crescenti rischi fiscali e esterni. Le prospettive di crescita sono compromesse a causa delle pressioni economiche e della situazione di guerra. L'economia ucraina è stata pesantemente impattata dal conflitto, con crescenti rischi fiscali e esterni. Le prospettive di crescita sono compromesse a causa delle pressioni economiche e della situazione di guerra. L'economia ucraina è stata pesantemente impattata dal conflitto, con crescenti rischi fiscali e esterni. Le prospettive di crescita sono compromesse a causa delle pressioni economiche e della situazione di guerra.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2022, l'Ucraina è stata coinvolta in un conflitto armato di grande intensità con la Russia. Il presidente ucraino Volodymyr Zelenskyy ha guidato la nazione durante questo periodo di crisi, mentre il primo ministro Denys Shmyhal ha gestito le conseguenze economiche e umanitarie del conflitto. Il paese ha fatto fronte a gravi sfide, tra cui la perdita di vite umane, la distruzione di infrastrutture e la fuga di milioni di civili verso zone più sicure. L'Ucraina ha ricevuto sostegno internazionale, con leader di vari paesi visitando Kyiv per mostrare solidarietà e fornire assistenza. Il conflitto ha avuto un impatto significativo sulle relazioni internazionali, con sanzioni contro la Russia e sforzi di mediazione da parte di diversi paesi. L'Ucraina ha continuato a resistere alle forze russe, mantenendo la sua indipendenza e sovranità nonostante le gravi conseguenze del conflitto.",
+  "fonti": [
+    "acaps (UKR_2022-03-29_20220329_acaps_thematic_report_ukraine_movement_patterns_0.pdf)",
+    "fews_net (UKR_2022-february_targeted-analysis.pdf)",
+    "unhcr_reports (UKR_2022Q1_2022-03-31_shelter-cluster-ukraine-emergency-situation-report-2.pdf)",
+    "worldbank_mpo (UKR_mpo_am21.pdf)",
+    "wikipedia:UKR_2022"
+  ]
+}

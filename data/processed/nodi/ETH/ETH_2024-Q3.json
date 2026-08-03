@@ -1,0 +1,39 @@
+{
+  "paese": "ETH",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Etiopia continua a essere intenso, con varie zone del paese coinvolte in scontri armati. La regione di Amhara è particolarmente colpita, con attacchi a civili, infrastrutture e siti umanitari. Il conflitto tra le forze federali etiopi e il movimento Fano è persistente, con episodi di violenza che includono attacchi a civili e infrastrutture. La regione di Tigray continua a essere un punto focale di tensione, con scontri che hanno portato a dislocazioni di popolazione e problemi di accesso umanitario. La regione di Oromia ha visto un accordo di pace con l'Esercito di Liberazione Oromo (OLA), ma la situazione rimane instabile. La regione di Somali è coinvolta in conflitti tra le forze regionali etiopi e milizie locali, con conseguenti dislocazioni di popolazione.",
+    "n_eventi_violenti": 655,
+    "n_vittime": 1801
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia in Etiopia includono il conflitto, le inondazioni, le malattie e le condizioni climatiche sfavorevoli. La regione di Tigray continua a essere particolarmente vulnerabile, con livelli elevati di insegna di crisi (IPC Fase 3). La regione di Oromia è stata colpita da inondazioni che hanno causato perdite di vite umane e danni alle infrastrutture. La regione di Somali è afflitta da carestia a causa di conflitti e inondazioni. La regione di Amhara è stata colpita da inondazioni e malattie, con conseguenti perdite di vite umane e danni alle infrastrutture. La regione di Gambella è stata colpita da inondazioni che hanno causato perdite di vite umane e danni alle infrastrutture."
+  },
+  "migrazione": {
+    "descrizione": "La situazione dei rifugiati etiopi è critica, con migliaia di persone che hanno lasciato i campi di rifugiati a causa di violazioni dei diritti umani, mancanza di servizi e insegna di protezione. I rifugiati etiopi sono spesso costretti a vivere in condizioni precarie, senza accesso adeguato a servizi essenziali come l'acqua, la salute e l'istruzione. La regione di Amhara è particolarmente colpita, con migliaia di rifugiati etiopi che hanno lasciato i campi di rifugiati a causa di violazioni dei diritti umani e mancanza di servizi. La regione di Tigray è afflitta da conflitti che hanno portato a dislocazioni di popolazione e problemi di accesso umanitario. La regione di Oromia ha visto un aumento di dislocazioni di popolazione a causa di conflitti e inondazioni. La regione di Somali è coinvolta in conflitti tra le forze regionali etiopi e milizie locali, con conseguenti dislocazioni di popolazione.",
+    "rifugiati": 164423,
+    "richiedenti_asilo": 158142,
+    "sfollati_interni": 2272533
+  },
+  "economia": {
+    "sintesi": "L'economia etiopiana continua a essere influenzata da fattori macroeconomici e strutturali. Il paese sta affrontando sfide significative, tra cui la deprezzazione della valuta nazionale, il debito pubblico crescente e le tensioni politiche. L'inflazione rimane elevata, influenzata da fattori come la carestia e le violazioni dei diritti umani. L'economia etiopiana è in fase di riforma, con l'introduzione di nuove politiche economiche e monetarie. Tuttavia, le riforme economiche sono ostacolate da problemi strutturali e macroeconomici, come la carestia e le violazioni dei diritti umani. L'economia etiopiana continua a essere influenzata da fattori macroeconomici e strutturali, con una crescita economica che rimane debole a causa di fattori come la carestia e le violazioni dei diritti umani.",
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel terzo trimestre del 2024, l'Etiopia continua a essere afflitta da conflitti interni e problemi umanitari. La regione di Amhara è particolarmente colpita da scontri armati tra le forze federali etiopi e il movimento Fano. La regione di Tigray continua a essere un punto focale di tensione, con scontri che hanno portato a dislocazioni di popolazione e problemi di accesso umanitario. La regione di Oromia ha visto un accordo di pace con l'Esercito di Liberazione Oromo (OLA), ma la situazione rimane instabile. La regione di Somali è coinvolta in conflitti tra le forze regionali etiopi e milizie locali, con conseguenti dislocazioni di popolazione. L'economia etiopiana continua a essere influenzata da fattori macroeconomici e strutturali, con una crescita economica che rimane debole a causa di fattori come la carestia e le violazioni dei diritti umani. L'Etiopia continua a essere influenzata da fattori macroeconomici e strutturali, con una crescita economica che rimane debole a causa di fattori come la carestia e le violazioni dei diritti umani.",
+  "fonti": [
+    "ETH_2024-07-05_20240705_ACAPS_Briefing_note_Ethiopia_Sudanese_refugees.pdf",
+    "ETH_2024-september_key-message-update.pdf",
+    "ETH_2024Q3_2024-09-30_protection-cluster-ethiopia-monthly-protection-overview-augu.pdf",
+    "ETH_mpo_sm24.pdf",
+    "wikipedia:ETH_2024"
+  ]
+}

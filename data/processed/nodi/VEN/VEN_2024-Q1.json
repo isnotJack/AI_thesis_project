@@ -1,0 +1,37 @@
+{
+  "paese": "VEN",
+  "periodo": "2024-Q1",
+  "conflitto": {
+    "descrizione": "Nel trimestre, si registrano tensioni politiche e attività di repressione da parte del governo contro oppositori. Viene arrestato un attore dell'opposizione per presunte attività di estorsione. Il governo accusa l'opposizione di pianificare azioni violente e attiva il piano 'Furia Bolivariana'. Viene arrestato un gruppo di oppositori, tra cui un giornalista e un difensore dei diritti umani. Il governo espulsa alcuni diplomatici di paesi che contestano i risultati delle elezioni presidenziali. Viene arrestato un leader dell'opposizione in fuga verso l'estero. Il governo accusa l'opposizione di essere responsabile di un black out nazionale.",
+    "n_eventi_violenti": 142,
+    "n_vittime": 155
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia è attribuita a una combinazione di inflazione elevata, debolezza del potere d'acquisto, instabilità del mercato dei beni alimentari e problemi di accesso ai programmi sociali. Le famiglie più povere continuano a subire stress alimentare, mentre le famiglie più vulnerabili, come quelle senza accesso a remessi internazionali o programmi sociali, sono in crisi. La situazione è peggiorata da una siccità che ha colpito alcune aree agricole, riducendo le coltivazioni di mais. L'inflazione, sebbene in calo, continua a erodere il potere d'acquisto, rendendo difficile l'accesso a cibo adeguato."
+  },
+  "migrazione": {
+    "descrizione": "I rifugiati e le persone in movimento continuano a essere un problema di protezione. I rifugiati includono gruppi vulnerabili come donne, bambini, persone con disabilità e popolazioni indigene. I rifugiati LGBTI rappresentano una minoranza specifica. I rifugiati sono concentrati in aree urbane e rurali specifiche, con una maggiore presenza in alcuni stati come Zulia, Miranda e Táchira. I rifugiati ricevono assistenza attraverso programmi di protezione, ma la situazione rimane critica.",
+    "rifugiati": 370169,
+    "richiedenti_asilo": 1360041,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, il governo venezuelano è guidato da Nicolás Maduro come presidente. Viene presentato il rapporto annuale del presidente Maduro per l'anno precedente, che denuncia quattro presunte cospirazioni contro il regime. Il governo accusa l'opposizione di pianificare azioni violente e attiva il piano 'Furia Bolivariana'. Viene arrestato un gruppo di oppositori, tra cui un giornalista e un difensore dei diritti umani. Il governo espulsa alcuni diplomatici di paesi che contestano i risultati delle elezioni presidenziali. Viene arrestato un leader dell'opposizione in fuga verso l'estero. Il governo accusa l'opposizione di essere responsabile di un black out nazionale.",
+  "fonti": [
+    "fews_net (VEN_2024-march_key-message-update.pdf)",
+    "unhcr_reports (VEN_2024Q1_2024-03-27_cl-ster-de-protecci-n-venezuela-respuesta-febrero-2024.pdf)",
+    "wikipedia:VEN_2024"
+  ]
+}

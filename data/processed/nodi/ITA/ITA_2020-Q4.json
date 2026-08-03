@@ -1,0 +1,36 @@
+{
+  "paese": "ITA",
+  "periodo": "2020-Q4",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 1,
+    "n_vittime": 0
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Viene segnalata una significativa crescita nel numero di arrivi marittimi rispetto allo stesso periodo dell'anno precedente. Gli arrivi provengono principalmente da paesi come Tunisia, Bangladesh, Costa d'Avorio, Algeria, Pakistan, Egitto, Sudan, Marocco, Somalia e Afghanistan. I dati mostrano un aumento significativo nei flussi migratori, con un aumento del 199% rispetto allo stesso periodo del 2019. Gli arrivi sono concentrati principalmente lungo le coste meridionali dell'Italia, con una maggiore presenza di uomini rispetto a donne e bambini. Le richieste di asilo sono in aumento, con un numero significativo di richieste presentate nei mesi precedenti. I dati suggeriscono una situazione critica in termini di protezione e gestione delle richieste di asilo.",
+    "rifugiati": 62,
+    "richiedenti_asilo": 471,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel quarto trimestre del 2020, l'Italia continua a gestire le conseguenze della pandemia di COVID-19, con misure di lockdown e restrizioni che influenzano significativamente la vita quotidiana e l'economia. Gli eventi principali includono proteste violente a Napoli, coinvolgendo gruppi come la Camorra e gruppi di estrema destra, contro le misure di chiusura imposte dal governo regionale. Inoltre, si registra la fine del supporto per la console Nintendo 3DS, segnando la conclusione di un'era nel mercato videoludico italiano. Le elezioni regionali continuano a essere un tema rilevante, con l'elezione del presidente della regione Campania. La situazione migratoria resta critica, con un aumento significativo di arrivi marittimi rispetto allo stesso periodo dell'anno precedente.",
+  "fonti": [
+    "ITA_2020Q4_2020-12-21_unhcr-italy-weekly-snapshot-13-dec-20-dec-2020.pdf",
+    "wikipedia:ITA_2020"
+  ]
+}

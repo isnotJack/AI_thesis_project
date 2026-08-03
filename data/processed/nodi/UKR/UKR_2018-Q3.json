@@ -1,0 +1,47 @@
+{
+  "paese": "UKR",
+  "periodo": "2018-Q3",
+  "conflitto": {
+    "descrizione": "Nel terzo trimestre del 2018, l'Ucraina ha continuato a gestire situazioni legate al conflitto, con riferimenti specifici a misure volte a proteggere le persone prive di libertà in relazione al conflitto. Si è assistito all'adozione di risoluzioni governative per la coordinazione delle attività volte a prevenire e combattere la violenza di genere e domestica, nonché alla unificazione della terminologia nei documenti governativi relativi al conflitto. Inoltre, sono stati introdotti cambiamenti legislativi per fornire assistenza finanziaria a coloro che sono stati privati della loro libertà in aree non governate (NGCA) e/o nella regione del TOT (Territorio Temporaneamente Occupato).",
+    "n_eventi_violenti": 3150,
+    "n_vittime": 227
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nel terzo trimestre del 2018, l'Ucraina ha continuato a fare fronte a sfide legate alla migrazione, con particolare attenzione alla situazione dei rifugiati interni (IDPs). Sono stati adottati cambiamenti legislativi per migliorare l'accesso all'alloggio sociale per i rifugiati interni con disabilità e i loro familiari, nonché per semplificare l'accesso alle prestazioni sociali. Sono state introdotte misure per garantire il pagamento delle pensioni ai rifugiati interni e per unificare la terminologia nei documenti governativi relativi al conflitto. Inoltre, è stato presentato un progetto di legge per fornire assistenza finanziaria a coloro che sono stati privati della loro libertà in aree non governate (NGCA) e/o nella regione del TOT (Territorio Temporaneamente Occupato).",
+    "rifugiati": 93248,
+    "richiedenti_asilo": 31965,
+    "sfollati_interni": 1500002
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.2
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Targeting of a chemical plant in Ukraine (2018-07-11, categoria=Sabotage): sponsor=Russian Federation, vittime=Ukraine, ruolo=vittima. A threat actor used a tool called VPNFilter to target a chemical plant in eastern Ukraine that provides chlorine to water- and sewage-treatment plants in that country. Ukraine’s intelligence service claims to have thwarted the incident."
+    ],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [
+      "Sofacy (also known as Fancy Bear, Pawn Storm, Sofacy Group, Sednit, STRONTIUM and Tsar Team)",
+      "Operation Parliament"
+    ],
+    "settori_bersaglio": [
+      "Infrastrutture critiche (ad esempio, impianti chimici)",
+      "Organizzazioni di alto profilo (ad esempio, parlamenti e organizzazioni internazionali)"
+    ],
+    "ruolo": "vittima",
+    "n_incidenti_datati": 1
+  },
+  "contesto_generale": "Nel terzo trimestre del 2018, l'Ucraina ha continuato a gestire situazioni legate al conflitto, con riferimenti specifici a misure volte a proteggere le persone prive di libertà in relazione al conflitto. Si è assistito all'adozione di risoluzioni governative per la coordinazione delle attività volte a prevenire e combattere la violenza di genere e domestica, nonché alla unificazione della terminologia nei documenti governativi relativi al conflitto. Inoltre, sono stati introdotti cambiamenti legislativi per fornire assistenza finanziaria a coloro che sono stati privati della loro libertà in aree non governate (NGCA) e/o nella regione del TOT (Territorio Temporaneamente Occupato).",
+  "fonti": [
+    "unhcr_reports (UKR_2018Q3_2018-09-30_ukraine-legislative-update-september-2018-en-uk.pdf)",
+    "ENISA_Threat_Landscape_2018.pdf",
+    "Microsoft_Digital_Defense_Report_2018.pdf",
+    "https://www.cfr.org/cyber-operations/targeting-of-a-chemical-plant-in-ukraine",
+    "wikipedia:UKR_2018"
+  ]
+}

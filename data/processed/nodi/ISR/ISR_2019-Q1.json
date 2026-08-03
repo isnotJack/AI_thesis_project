@@ -1,0 +1,35 @@
+{
+  "paese": "ISR",
+  "periodo": "2019-Q1",
+  "conflitto": {
+    "descrizione": "Nel primo trimestre del 2019, Israele ha continuato a gestire tensioni con il movimento Hamas e altri gruppi palestinesi. Il 14 marzo, due razzi sono stati lanciati dalla Striscia di Gaza verso Tel Aviv, senza essere intercettati dal sistema di difesa Iron Dome. In risposta, Israele ha lanciato centinaia di attacchi contro Khan Yunis. Il 25 marzo, un attacco con razzi ha causato ferite a sette persone in Mishmeret, con l'Esercito di Israele che ha accusato Hamas di essere responsabile. In reazione, Israele ha condotto raid aerei contro vari obiettivi nella Striscia di Gaza, inclusi l'ufficio di un alto funzionario di Hamas e la sede dell'intelligence militare di Gaza City. Inoltre, un alto funzionario di Hamas ha dichiarato che l'attacco era stato ordinato dai leader iraniani e finanziato dall'Iran, con l'obiettivo di compromettere le chance di rielezione del Primo Ministro Benjamin Netanyahu.",
+    "n_eventi_violenti": 53,
+    "n_vittime": 3
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null,
+    "rifugiati": 452,
+    "richiedenti_asilo": 690,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": 0.9
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2019, Israele ha continuato a gestire tensioni politiche interne e esterne. Il 9 gennaio, l'ex ministro israeliano Gonen Segev ha ammesso di spionaggio per l'Iran, ricevendo una condanna a 11 anni di carcere. Il 17 febbraio, il Primo Ministro Benjamin Netanyahu ha nominato il ministro dell'intelligence Israel Katz come nuovo ministro degli esteri, mantenendo le cariche di ministro della difesa e della sanità. Il 21 febbraio, l'ex capo di stato maggiore Benny Gantz e il presidente di Yesh Atid Yair Lapid hanno deciso di unire le loro campagne per le elezioni del 9 aprile contro il Primo Ministro in carica Benjamin Netanyahu. Il 28 febbraio, l'Avvocato Generale di Israele Avichai Mandelblit ha deciso di accusare Benjamin Netanyahu per corruzione, frode e violazione della fiducia. Nel marzo, due israeliani sono stati uccisi nell'incidente aereo di Ethiopian Airlines a Bishoftu, e il 11 marzo il senatore Lindsey Graham ha visitato le alture del Golan, dichiarando che inizierà un'efforto per riconoscere le alture come parte dello Stato di Israele. Il 22 marzo, il Presidente Trump ha firmato una proclamazione per riconoscere le alture del Golan come territorio sovrano di Israele, mentre la Siria ha condannato la decisione come una violazione flagrante della sovranità siriana. Il 24 marzo, i leader di Romania e Honduras hanno annunciato che riconosceranno Gerusalemme come capitale di Israele, seguendo l'esempio degli Stati Uniti. Il 25 marzo, sette persone sono state ferite in un attacco con razzi che ha distrutto una casa a Mishmeret, con l'Esercito di Israele che ha accusato Hamas di essere responsabile. In reazione, il Primo Ministro Benjamin Netanyahu ha abbreviato il suo viaggio negli Stati Uniti dopo aver incontrato il Presidente Trump. Il 30 marzo, in occasione del primo anniversario delle proteste sulla frontiera di Gaza, decine di migliaia di palestinesi si sono riuniti per commemorare le settimanali proteste, con la pattuglia di confine israeliana uccidendo quattro manifestanti e ferendo più di 300.",
+  "fonti": [
+    "wikipedia:ISR_2019"
+  ]
+}

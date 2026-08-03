@@ -1,0 +1,36 @@
+{
+  "paese": "VEN",
+  "periodo": "2021-Q2",
+  "conflitto": {
+    "descrizione": null,
+    "n_eventi_violenti": 377,
+    "n_vittime": 436
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": "Nuovi corridoi di migrazione verso la frontiera, con un aumento significativo di camminanti verso il confine, esponendo le persone a rischi come la violenza di genere, la tratta, l'estorsione e la sopravvivenza sessuale. Difficoltà di accesso ai servizi di protezione e ai servizi essenziali per i migranti.",
+    "rifugiati": 199202,
+    "richiedenti_asilo": 971106,
+    "sfollati_interni": 0
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel primo trimestre del 2021, la situazione politica in Venezuela continua a essere caratterizzata da una crisi di leadership con Nicolás Maduro e Juan Guaidó in competizione per il ruolo di presidente. Eventi significativi includono l'arrivo di un'imbarcazione iraniana a La Guaira nonostante il boicottaggio degli Stati Uniti, la vaccinazione contro il COVID-19 con vaccini russi e cinesi, e la continua tensione lungo la frontiera con Colombia, dove gruppi paramilitari si uniscono contro le forze armate venezuelane. La situazione economica e sociale è segnata da problemi di sicurezza alimentare e accesso ai servizi essenziali, con l'ONU che ottiene permesso per fornire pasti scolastici nutritivi a studenti venezuelani.",
+  "fonti": [
+    "VEN_2021Q2_2021-06-23_hoja-resumen-respuesta-venezuela-cl-ster-de-protecci-n-mayo-.pdf",
+    "wikipedia:VEN_2021"
+  ]
+}

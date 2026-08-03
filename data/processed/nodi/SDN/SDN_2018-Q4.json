@@ -1,0 +1,39 @@
+{
+  "paese": "SDN",
+  "periodo": "2018-Q4",
+  "conflitto": {
+    "descrizione": "Nel trimestre, la situazione di conflitto in Sudan è stata caratterizzata da una relativa calma in alcune aree, come South Darfur, Blue Nile e South Kordofan, dove si sono verificati pochi incidenti di conflitto. Tuttavia, l'eccezione è stata Jebel Mara in Darfur, dove si sono registrati episodi di violenza tra le forze armate sudanesi e gruppi ribelli. Nuovi spostamenti di popolazione sono stati significativamente ridotti rispetto agli anni precedenti, con un numero ridotto di incidenti di conflitto. Alcuni IDP hanno iniziato a tornare alle loro aree di origine, ma la situazione rimane instabile in alcune regioni.",
+    "n_eventi_violenti": 117,
+    "n_vittime": 199
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "I principali driver della carestia in Sudan durante il trimestre sono stati i prezzi elevati dei generi alimentari, la scarsità di denaro contante e la deprezzazione della valuta nazionale. La carestia è stata aggravata da problemi macroeconomici, inclusi la carenza di valuta estera e la deprezzazione del Sudanese Pound. I prezzi dei cereali sono aumentati notevolmente, con effetti significativi sulla capacità degli abitanti di accedere ai generi alimentari. La situazione è stata particolarmente critica per le famiglie vulnerabili, come gli IDP e le famiglie povere, che hanno riscontrato difficoltà a soddisfare le loro esigenze alimentari di base."
+  },
+  "migrazione": {
+    "descrizione": "Nel trimestre, la migrazione interna è stata influenzata dalla situazione di conflitto e dalla carestia. Alcuni IDP hanno iniziato a tornare alle loro aree di origine, ma la situazione rimane instabile in alcune regioni. L'arrivo di rifugiati da Sud Sudan è continuato, con un numero significativo di nuovi arrivi registrati. La protezione dei rifugiati è stata un problema critico, con sfide legate alla gestione dei campi e alla distribuzione di assistenza umanitaria. I nuovi corridoi di migrazione e gli ostacoli operativi sono stati menzionati nei rapporti, evidenziando la complessità della situazione.",
+    "rifugiati": 724787,
+    "richiedenti_asilo": 67433,
+    "sfollati_interni": 1864195
+  },
+  "economia": {
+    "sintesi": null,
+    "tasso_poverta_pct": null
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato",
+    "n_incidenti_datati": 0
+  },
+  "contesto_generale": "Nel trimestre, la leadership del paese è rimasta stabile con Omar al-Bashir come Presidente e Bakri Hassan Saleh come Primo Ministro. L'anno è stato contraddistinto dalla continua guerra in Darfur, che ha avuto un impatto significativo sulla situazione di sicurezza e umanitaria del paese. Gli eventi specifici del trimestre hanno incluso la situazione di conflitto e la gestione delle conseguenze umanitarie, come la migrazione interna e l'arrivo di rifugiati da Sud Sudan.",
+  "fonti": [
+    "fews_net (SDN_2018-december_food-security-outlook.pdf)",
+    "fews_net (SDN_2018-november_key-message-update.pdf)",
+    "fews_net (SDN_2018-october_key-message-update.pdf)",
+    "unhcr_reports (SDN_2018Q4_2018-12-31_sudan-population-dashboard-refugees-from-south-sudan-as-of-3.pdf)",
+    "wikipedia:SDN_2018"
+  ]
+}
