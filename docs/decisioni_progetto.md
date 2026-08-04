@@ -625,11 +625,75 @@ fusione ne' conflitto, perche' l'LLM per costruzione non produce numeri
   UKR (191k) > SYR > YEM > RUS > SDN, plausibile (Ucraina la piu' intensa).
 - integrita': tutti i nodi mantengono i campi qualitativi; verificato che
   `extracted_json` NON e' stato modificato (nessun campo numerico aggiunto la').
+- n_eventi_violenti = 1267: il codice apre il CSV ACLED, tiene solo le righe del trimestre 2023-Q2 che sono di tipo violento (Battles/Explosions/Violence), e le conta. 1267 = quante righe sono rimaste.
+n_vittime = 5415: sulle stesse righe, somma la colonna fatalities. 5415 = la somma.
+n_incidenti_datati = 0: apre il CSV CFR, tiene gli incidenti con data nota che cadono nel trimestre, e li conta.
 
-### Cosa manca del Blocco B
-Gli ARCHI del grafo (relazioni tra paesi): cyber attaccante->vittima dal
-CFR strutturato, migrazione origine->destinazione da UNHCR. Rimandati:
-prima vanno ridefinite le connessioni (deciso col relatore).
+## 2026-08-04 - Blocco B (parte 2): archi e grafo
+
+### Ridefinizione degli archi (indipendente dal documento di progetto originale)
+Il documento di progetto (redatto PRIMA di raccogliere i dati) proponeva 3
+archi: migrazione, relazione diplomatica, cyber. Rivisti alla luce dei dati
+realmente disponibili e della domanda di ricerca (instabilita' -> ruolo cyber):
+- **diplomatico SCARTATO**: richiederebbe una nuova passata LLM o dati non
+  raccolti; e' il meno legato alla domanda cyber.
+- **adiacenza geografica SCARTATA**: relazione statica, non geopolitica.
+- Sostituito con **coinvolgimento militare** (dai dati ACLED che gia'
+  abbiamo), molto piu' pertinente.
+
+### I 3 archi definitivi (tutti diretti, datati, da dati strutturati, zero LLM)
+1. **cyber** — attaccante -> vittima, da CFR (`sponsor_stato -> paesi_vittima`).
+   Un arco per incidente, con categoria e periodo. Gli incidenti sono
+   deduplicati per link (lo stesso compare nei file CFR di piu' paesi).
+   Inclusi anche i non-datati (periodo=null) per non perdere relazioni reali.
+2. **migrazione** — origine -> destinazione, da UNHCR destinazioni-dettaglio,
+   peso = rifugiati, per anno.
+3. **coinvolgimento_militare** — interventore -> teatro, da ACLED: si cerca
+   "Military Forces of X" (X straniero) nei campi attore; arco aggregato per
+   trimestre, peso = n. eventi. Cattura la proiezione di forza/instabilita'
+   di un paese dentro un altro (RUS->UKR, SAU/IRN/USA->YEM, RUS/USA/TUR->SYR).
+   Migrazione = instabilita' che ESCE (profughi); militare = che ENTRA (forze).
+
+### Scelte di modellazione
+- Nodi = paesi. I 17 "core" portano i 28 profili trimestrali arricchiti come
+  attributo; i paesi esterni che compaiono negli archi sono nodi "periferici"
+  (senza profilo).
+- Nomi paese normalizzati a ISO3 con `pycountry` + un dizionario di override
+  per le forme ostiche (es. "Korea (Democratic People's Republic of)" -> PRK).
+- Grafo = `nx.MultiDiGraph`. Serializzato in `data/processed/graphs/`:
+  `grafo.pickle` (fedelta' piena) + `archi.csv` (elenco piatto).
+- Codice in `src/graph/build_edges.py` (mapper + 3 costruttori) e
+  `build_graph.py` (assemblaggio/serializzazione). Notebook
+  `notebooks/03_graph_construction.ipynb` orchestra e visualizza.
+
+### Risultato e verifiche
+- Grafo: **172 nodi** (17 core + 155 periferici), **7300 archi** (cyber 1296,
+  migrazione 5561, militare 443).
+- Spot-check plausibili: RUS->UKR militare 14.516 eventi in 2024-Q4; top flussi
+  migratori e top attaccanti cyber coerenti.
+- Osservazione interessante (di per se' un risultato): i 155 nodi periferici
+  vengono soprattutto dalle vittime cyber - i 4 attori (RUS/CHN/PRK/IRN)
+  colpiscono oltre 100 paesi, quindi la vista "completa" e' una nuvola densa.
+
+### Visualizzazione
+`pyvis` -> HTML interattivo standalone (colori per tipo di arco e gruppo del
+paese, dimensione nodo = n. relazioni, legenda sovrapposta, layout fisico):
+- `grafo_core.html` — solo i 17 paesi e le relazioni tra loro (leggibile, e'
+  la vista principale per la tesi).
+- `grafo_completo.html` — con i periferici, migrazione filtrata a >=50k
+  rifugiati (densa, per completezza).
+Nota: l'esecuzione via `nbconvert` sul Mac fallisce per un conflitto
+arm64/x86_64 in `rpds` (dipendenza di jupyter), non per il codice - il notebook
+gira normalmente in Jupyter; gli HTML sono stati prodotti eseguendo le celle
+direttamente.
+
+### Cosa manca / prossimi passi
+- L'analisi vera sul grafo (rispondere alla domanda: l'instabilita' precede/
+  correla col ruolo cyber?) - Blocco C (simulazione OASIS) o Blocco D
+  (predizione su feature tabellari), da decidere.
+- Archi derivati opzionali (co-vittima cyber) ricavabili all'occorrenza.
+
+
 
 
 

@@ -9,8 +9,10 @@ pyyaml
 tqdm
 dbfread
 
-# Grafo
+# Grafo (Blocco B)
 networkx
+pycountry   # normalizzazione nomi paese -> ISO3 per gli archi
+pyvis       # visualizzazione interattiva del grafo (HTML standalone)
 
 # LMM / LLM (Blocco A) - Qwen2.5-VL:7b via Ollama locale (Mac dev / job PBS su Leonardo)
 ollama
