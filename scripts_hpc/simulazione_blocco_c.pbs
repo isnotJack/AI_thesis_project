@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -N simulazione_blocco_c
+#PBS -q gpu
+#PBS -l select=1:ncpus=8:ngpus=1,walltime=06:00:00
+#PBS -o scripts_hpc/log_sim_c.out
+#PBS -e scripts_hpc/log_sim_c.err
+
+# Job PBS per la simulazione del Blocco C (OASIS-inspired) su Leonardo.
+# 1 sola GPU: i 3 modelli girano in sequenza, non serve il parallelismo del
+# Blocco A. Chiama il launcher, che fa: ollama serve -> pull dei modelli ->
+# esecuzione di tutti gli scenari per ogni modello.
+#
+# Uso (sempre dalla root del progetto):
+#   cd ~/AI_thesis_project
+#   qsub scripts_hpc/simulazione_blocco_c.pbs
+#
+# Resumable: se il walltime scade, rilancia lo stesso comando - le run
+# (scenario, modello) gia' salvate vengono saltate.
+
+cd "$PBS_O_WORKDIR"
+bash scripts_hpc/simulazione_blocco_c.sh
