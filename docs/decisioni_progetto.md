@@ -693,6 +693,97 @@ direttamente.
   (predizione su feature tabellari), da decidere.
 - Archi derivati opzionali (co-vittima cyber) ricavabili all'occorrenza.
 
+## 2026-08-17 - Blocco B (parte 3): visualizzazione su mappa
+
+
+### Perche' abbiamo abbandonato il grafo "a pallini" per la mappa
+La prima visualizzazione (pyvis, layout a forza) metteva i paesi come pallini
+disposti da un algoritmo fisico: con centinaia di archi diventava una "matassa"
+illeggibile e, soprattutto, la posizione dei pallini non aveva alcun significato.
+Abbiamo rifatto tutto come **planisfero**: ogni paese sta dove sta davvero sulla
+mappa, e le relazioni sono archi geografici. E' piu' leggibile e ha senso
+geografico (si vede subito che il cyber e' transcontinentale, la migrazione
+regionale, ecc.). File: `src/graph/build_map.py` -> `grafo_mappa.html`, un unico
+HTML autosufficiente (SVG + JavaScript, nessuna libreria esterna; i confini del
+mondo e le coordinate dei paesi sono scaricati una volta e salvati in
+`src/graph/assets/`).
+
+### I 3 tipi di relazione mostrati (e da dove vengono)
+Tutti diretti (hanno un verso), datati e presi da dati strutturati gia'
+raccolti: NESSUNA nuova estrazione LLM.
+
+1. **Cyber** (attaccante -> vittima). Fonte: CFR "Cyber Operations Tracker"
+   (advisory raccolti in `data/raw/cyber_advisories/`). Per ogni incidente:
+   dallo Stato sponsor verso i paesi vittima.
+2. **Migrazione** (origine -> destinazione). Fonte: UNHCR, tabelle di dettaglio
+   delle destinazioni. Peso = n. rifugiati, per anno.
+3. **Coinvolgimento militare** (interventore -> teatro). Vedi sotto.
+
+### Perche' "coinvolgimento militare" e da dove lo prendiamo
+Il documento di progetto originale prevedeva come terzo arco la "relazione
+diplomatica", ma quella richiederebbe una nuova passata LLM / dati che non
+abbiamo. Al suo posto abbiamo scelto il **coinvolgimento militare**, che e':
+(a) piu' pertinente alla domanda (misura la proiezione di forza e l'instabilita'
+che ENTRA in un paese, complementare alla migrazione che ne ESCE); (b) gia'
+disponibile nei dati ACLED che avevamo raccolto per il conteggio degli eventi
+violenti. Come lo estraiamo: ACLED elenca per ogni evento gli attori coinvolti;
+cerchiamo gli attori del tipo **"Military Forces of X"** dove X e' un paese
+DIVERSO da quello in cui avviene l'evento (cioe' forze STRANIERE). Creiamo un
+arco X (interventore straniero) -> B (paese-teatro, la cartella del file),
+aggregato per trimestre, peso = numero di eventi. Cattura casi come RUS->UKR,
+IRN/SAU/USA->YEM, RUS/USA/TUR->SYR. In tutto compaiono 23 teatri/interventori
+oltre ai 17 core.
+
+### Perche' esistono i "paesi periferici" e da dove escono
+I 17 paesi sono quelli che studiamo, ma le loro relazioni toccano anche paesi
+ESTERNI alla lista: un attacco cyber russo puo' colpire la Germania, un flusso
+migratorio siriano puo' arrivare in Germania, ecc. Questi paesi esterni
+compaiono automaticamente come estremi degli archi e li chiamiamo "periferici"
+(non hanno un profilo, sono solo nodi di arrivo/partenza). Non li abbiamo scelti
+noi: emergono dai dati. Quanti sono: 98 come vittime cyber (CFR), 140 come
+destinazioni migratorie (UNHCR), 23 come teatri militari (ACLED) -> 155 paesi
+periferici unici. Sono TANTI soprattutto per il cyber (i 4 attori colpiscono
+oltre 100 paesi): mostrarli tutti insieme ricrea la "matassa". Per questo sulla
+mappa sono **spenti di default** e si accendono con un apposito bottone, cosi'
+chi vuole il quadro completo li attiva, chi vuole leggibilita' li lascia spenti.
+
+### Perche' il cyber "sparisce" scorrendo agli anni recenti
+C'e' uno slider temporale (2018-2024). Migrazione (UNHCR) e militare (ACLED)
+coprono tutti gli anni 2018-2024. Il **cyber no**: nei dati CFR che abbiamo, la
+maggior parte degli incidenti (530 su 771) NON ha una data, e quelli datati si
+fermano al **2019** (picco 70 nel 2018, poi 17 nel 2019, zero dopo). Non e' un
+bug: e' un limite della fonte (il campo data del CFR e' popolato solo fino al
+2019 e in modo parziale). Conseguenza pratica: sullo slider il cyber si vede
+solo fino al 2019; per il cyber la vista onesta e completa e' quella "Tutti"
+(aggregata). Migrazione e militare invece hanno un vero andamento anno per anno.
+
+### Cosa mostra e come si usa la mappa
+- All'apertura la mappa e' "vuota": solo i 17 paesi, evidenziati e colorati per
+  gruppo. Gli archi si accendono UNO ALLA VOLTA da un pannello.
+- Ogni arco e' curvo e diretto; lungo l'arco scorrono **puntini animati**
+  dall'origine alla destinazione (rendono immediato il verso e "danno vita").
+- Passando il mouse su un arco si legge `A -> B` e l'intensita' (incidenti /
+  rifugiati / eventi), riferita all'anno selezionato o al totale.
+- **Slider temporale** con play/pausa per far scorrere gli anni.
+- **Bottone paesi periferici** on/off (vedi sopra).
+- **Tema chiaro/scuro** commutabile, **controllo zoom** in basso, zoom con la
+  rotella, trascinamento per spostarsi, clic su un paese per isolarne le
+  relazioni. Quando i periferici coinvolti sono pochi (o si isola un paese)
+  compaiono anche i loro nomi.
+
+### Scelte tecniche
+- Modello dati per la mappa: gli archi sono aggregati per (origine, destinazione,
+  tipo) con il **dettaglio per anno** (per lo slider) e un flag core/periferico.
+- Performance dell'animazione: le particelle animate sono limitate (tetto ~340);
+  se una vista ne richiederebbe di piu', si animano le relazioni piu' intense e
+  le altre restano come semplici linee.
+- Proiezione equirettangolare (semplice e affidabile); a scala mondiale va bene.
+- Il grafo COMPLETO (172 nodi, ~7300 archi, con periferici) resta comunque in
+  `grafo.pickle`/`archi.csv` per le analisi successive: la mappa e' la vista di
+  lettura, non l'unica sorgente.
+- Le vecchie viste pyvis (`grafo_core.html`/`grafo_completo.html`) sono superate
+  dalla mappa.
+
 
 
 
