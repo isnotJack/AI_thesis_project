@@ -17,7 +17,13 @@ PORT="${PORT:-11434}"
 
 # moduli (guardati: se lanciato in una shell senza 'module' non fallisce)
 module load ollama/0.12.11 2>/dev/null || true   # versione testata nel Blocco A
-module load proxy 2>/dev/null || true            # serve solo per 'ollama pull'
+module load proxy 2>/dev/null || true            # serve per 'ollama pull' e per pip
+
+# Il job PBS gira in una shell nuova: attiva qui il virtualenv del progetto
+# (dove stanno networkx, ollama-python, jsonschema, ...) e allinea le dipendenze.
+# Eseguito da PBS_O_WORKDIR (= root del progetto), quindi il path relativo va bene.
+source .venv/bin/activate 2>/dev/null || true
+python3 -m pip install -q -r requirements.txt 2>/dev/null || true
 
 export OLLAMA_HOST="127.0.0.1:${PORT}"
 export OLLAMA_FLASH_ATTENTION=1
