@@ -22,6 +22,6 @@ venv/
 # Repo esterne clonate solo per consultazione (mai committate)
 /external/
 
-# Output delle simulazioni (Blocco C): rigenerabili, si copiano via rsync non via git
-data/processed/simulazioni/
+# Anteprime/demo locali delle simulazioni (rigenerabili). I RISULTATI veri
+# (data/processed/simulazioni/) invece si versionano, per portarli sul Mac via git.
 data/processed/graphs/simulazioni/
