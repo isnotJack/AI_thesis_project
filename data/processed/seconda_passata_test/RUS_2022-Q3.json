@@ -1,0 +1,57 @@
+{
+  "paese": "RUS",
+  "periodo": "2022-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto principale nel trimestre è rappresentato dalla guerra in corso tra Russia e Ucraina, con sviluppi significativi come l'annessione di territori ucraini da parte della Russia, la continua mobilitazione militare e le azioni di propaganda e censura all'interno della Russia stessa. L'annessione di territori ucraini è stata seguita da una serie di eventi che includono la richiesta di riconoscimento di repubbliche autoproclamate come entità indipendenti, la mobilitazione militare e la censura di informazioni relative alla guerra. L'annuncio di Vladimir Putin riguardo all'annessione di territori occupati durante il conflitto ha ulteriormente intensificato la situazione. L'uso di propaganda e la censura interna hanno contribuito a creare un clima di restrizione delle libertà di espressione e di informazione all'interno della Russia. L'annuncio di Vladimir Putin riguardo all'annessione di territori occupati durante il conflitto ha ulteriormente intensificato la situazione. L'uso di propaganda e la censura interna hanno contribuito a creare un clima di restrizione delle libertà di espressione e di informazione all'interno della Russia."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": null
+  },
+  "migrazione": {
+    "descrizione": null
+  },
+  "economia": {
+    "sintesi": "L'outlook economico per la Russia nel trimestre indica una situazione di crescita limitata a causa delle sanzioni internazionali e delle conseguenze della guerra in Ucraina. I rischi fiscali e esterni sono aumentati a causa delle pressioni economiche internazionali e delle restrizioni sulle transazioni finanziarie. La situazione economica è stata ulteriormente complicata dalla continua mobilitazione militare e dalle conseguenti restrizioni all'attività economica. L'annuncio di Vladimir Putin riguardo all'annessione di territori occupati durante il conflitto ha ulteriormente intensificato la situazione. L'uso di propaganda e la censura interna hanno contribuito a creare un clima di restrizione delle libertà di espressione e di informazione all'interno della Russia."
+  },
+  "cyber": {
+    "incidenti_noti": [
+      "Attacco con malware distruttivo contro organizzazioni in Ucraina",
+      "Exploit di vulnerabilità di autenticazione multifattore (MFA) per ottenere accesso a reti",
+      "Attacco con malware HermeticWiper e IsaacWiper contro organizzazioni in Ucraina",
+      "Attacco con malware CaddyWiper contro organizzazioni in Ucraina"
+    ],
+    "advisory_che_menzionano_il_paese": [
+      "RUS_AA22-011A_Joint_CSA_Understanding_and_Mitigating _Russian_Cyber_Threats_to_US_Critical_Infrastructure_TLP-WHITE_01-10-22_v1.pdf",
+      "RUS_AA22-057A_Destructive_Malware_Targeting_Organizations_in_Ukraine.pdf",
+      "RUS_AA22-074A_Russian_State-Sponsored_Cyber_Actors_Gain_Network_Access_by_Exploiting_Default_MFA_and_PrintNightmare.pdf",
+      "RUS_AA22-076_Strengthening_Cybersecurity_of_SATCOM_Network_Providers_and_Customers.pdf",
+      "RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf",
+      "RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf"
+    ],
+    "gruppi_minaccia_associati": [
+      "FSB (Federal'noye Sluzhba Bezopasnosti)",
+      "TsNIIKhM (Tsentr Nauchno-Issledovatel'skogo i Ispytatel'nogo Kompleksa)",
+      "SVR (Sluzhba Vneshney Razvedki)",
+      "GRU (Glavnoye Razvedyvatel'noye Upravleniye)"
+    ],
+    "settori_bersaglio": [
+      "Energia",
+      "Infrastrutture critiche",
+      "SATCOM (Sistema di telecomunicazioni via satellite)",
+      "Servizi critici"
+    ],
+    "ruolo": "attore"
+  },
+  "contesto_generale": "Nel trimestre, la leadership russa è rimasta stabile con Vladimir Putin come Presidente, Mikhail Mishustin come Primo Ministro, Valentina Matvienko come Presidente del Consiglio Federale e Vyacheslav Volodin come Presidente della Duma di Stato. L'evento principale è stato la continua guerra in Ucraina, con sviluppi significativi come l'annessione di territori ucraini da parte della Russia, la mobilitazione militare e le azioni di propaganda e censura all'interno della Russia stessa. L'annuncio di Vladimir Putin riguardo all'annessione di territori occupati durante il conflitto ha ulteriormente intensificato la situazione. L'uso di propaganda e la censura interna hanno contribuito a creare un clima di restrizione delle libertà di espressione e di informazione all'interno della Russia.",
+  "fonti": [
+    "RUS_AA22-011A_Joint_CSA_Understanding_and_Mitigating _Russian_Cyber_Threats_to_US_Critical_Infrastructure_TLP-WHITE_01-10-22_v1.pdf",
+    "RUS_AA22-057A_Destructive_Malware_Targeting_Organizations_in_Ukraine.pdf",
+    "RUS_AA22-074A_Russian_State-Sponsored_Cyber_Actors_Gain_Network_Access_by_Exploiting_Default_MFA_and_PrintNightmare.pdf",
+    "RUS_AA22-076_Strengthening_Cybersecurity_of_SATCOM_Network_Providers_and_Customers.pdf",
+    "RUS_AA22-083A_TTPs_of_Indicted_State-Sponsored_Russian_Cyber_Actors_Targeting_the_Energy_Sector.pdf",
+    "RUS_AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf",
+    "RUS_mpo_sm22.pdf",
+    "wikipedia:RUS_2022"
+  ]
+}

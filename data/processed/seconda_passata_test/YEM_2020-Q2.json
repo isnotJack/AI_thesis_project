@@ -1,0 +1,38 @@
+{
+  "paese": "YEM",
+  "periodo": "2020-Q2",
+  "conflitto": {
+    "descrizione": "Il conflitto in Yemen continua con intensità, con attori principali come i ribelli Houthis e le forze governative. Vi sono frequenti attacchi e scontri, inclusi raid aerei e combattimenti terrestri, che causano perdite civili e destabilizzano la regione. La situazione è complicata da alleanze e rivalità tra diversi attori, inclusi gruppi armati locali e forze esterne. Il conflitto ha un impatto significativo sulle condizioni umanitarie e sulla stabilità del paese."
+  },
+  "carestia": {
+    "livello_ipc": "fase3_crisi",
+    "descrizione": "La carestia in Yemen è attribuita principalmente al conflitto, che ha portato a una grave crisi umanitaria. Le condizioni economiche precarie, l'instabilità politica e le violazioni dei diritti umani hanno aggravato la situazione. L'accesso ai servizi essenziali, come la salute e l'alimentazione, è limitato, aumentando il rischio di carestia per molte famiglie. Le condizioni sono peggiorate ulteriormente a causa delle restrizioni di movimento e dei blocchi di assistenza umanitaria."
+  },
+  "migrazione": {
+    "descrizione": "La migrazione interna è un problema significativo, con un numero crescente di persone che si spostano all'interno del paese in cerca di sicurezza e assistenza. Le condizioni di protezione per i rifugiati interni sono critiche, con limiti all'accesso ai servizi fondamentali e alla protezione. I corridoi di migrazione sono ostacolati da conflitti armati e da ostacoli operativi, rendendo difficile l'assistenza umanitaria e il ritorno volontario."
+  },
+  "economia": {
+    "sintesi": "L'economia di Yemen è in crisi, con una forte dipendenza dagli aiuti esterni e dalla gestione delle risorse limitate. La mancanza di stabilità politica e la continua instabilità hanno un impatto negativo sulle prospettive di crescita economica. I rischi fiscali e esterni sono elevati, con una crescente vulnerabilità finanziaria. La povertà è diffusa, e le condizioni economiche sono peggiorate a causa del conflitto e delle violazioni dei diritti umani."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel secondo trimestre del 2020, Yemen continua a essere afflitto da un conflitto armato persistente, con attacchi frequenti e perdite civili. La leadership del paese è divisa, con il presidente Abdrabbuh Mansur Hadi e il vicepresidente Ali Mohsen al-Ahmar che continuano a governare. Il paese è affronta una grave crisi umanitaria, con carestia e migrazione interna a causa del conflitto. L'economia è in crisi, con una forte dipendenza dagli aiuti esterni e una situazione finanziaria precaria. Il paese è anche afflitto da problemi di sicurezza cibernetica, sebbene non ci siano incidenti specifici riportati per questo trimestre.",
+  "fonti": [
+    "YEM_2020-05-13_20200513_acaps_yemen_analysis_hub_trends_in_2019_outlook_into_2020_0.pdf",
+    "YEM_2020-05-13_20200513_acaps_yemen_analysis_hub_trends_in_2019_outlook_into_2020_arabic.pdf",
+    "YEM_2020-05-21_20200521_acaps_yemen_risk_update_0.pdf",
+    "YEM_2020-06-09_20200609_acaps_yemen_analysis_hub_end_of_saudi_financial_support_to_yemen_scenarios.pdf",
+    "YEM_2020-06-17_20200617_acaps_yemen_analysis_hub_the_houthi_supervisory_system_0.pdf",
+    "YEM_2020-april_food-security-outlook-update.pdf",
+    "YEM_2020-june_food-security-outlook.pdf",
+    "YEM_2020-may_key-message-update.pdf",
+    "YEM_2020Q2_2020-06-30_unhcr-yemen-idp-protection-monitoring-update-1-jan-2020-30-j.pdf",
+    "YEM_mpo_sm20.pdf",
+    "wikipedia:YEM_2020"
+  ]
+}

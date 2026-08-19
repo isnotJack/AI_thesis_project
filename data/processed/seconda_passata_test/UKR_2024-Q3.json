@@ -1,0 +1,39 @@
+{
+  "paese": "UKR",
+  "periodo": "2024-Q3",
+  "conflitto": {
+    "descrizione": "Il conflitto in Ucraina continua con attacchi frequenti contro l'infrastruttura energetica, inclusi attacchi con missili e droni. Le forze russe hanno intensificato gli attacchi su oblasti come Dnipropetrovsk, Kharkiv, e Sumy, causando danni significativi all'infrastruttura energetica e ai servizi essenziali. L'Ucraina ha risposto con incursioni nei territori occupati dalla Russia, come nel Kursk Oblast, dimostrando una strategia di controffesa. Le operazioni militari continue hanno portato a un aumento dei combattimenti in diverse regioni, con conseguenze significative sulla popolazione civile e sull'infrastruttura."
+  },
+  "carestia": {
+    "livello_ipc": "non_specificato",
+    "descrizione": "Il report FEWS NET non fornisce informazioni specifiche sul livello IPC per il periodo 2024-Q3. Tuttavia, si evidenzia che le condizioni climatiche estive hanno avuto un impatto negativo sulle condizioni agricole, con temperature elevate e condizioni aride che hanno compromesso la salute delle colture. Ci sono preoccupazioni per la disponibilità di cibo, specialmente nei territori a rischio, dovute a queste condizioni climatiche sfavorevoli."
+  },
+  "migrazione": {
+    "descrizione": "Il report UNHCR/ReliefWeb non fornisce informazioni specifiche sulle migrazioni per il periodo 2024-Q3. Tuttavia, si rileva una continua preoccupazione per la protezione dei rifugiati e delle persone in movimento, con sfide operative legate alla gestione delle migrazioni e alla protezione delle popolazioni vulnerabili. Si evidenzia la necessità di supporto continuo per le persone sfollate a causa del conflitto."
+  },
+  "economia": {
+    "sintesi": "Il report World Bank Macro Poverty Outlook indica che l'economia ucraina continua a essere influenzata negativamente dal conflitto, con rischi fiscali e esterni significativi. Le prospettive di crescita sono compromesse dalle continue pressioni economiche e dai costi del conflitto, nonché dalle conseguenze delle sanzioni e delle risposte economiche adottate per affrontare la crisi."
+  },
+  "cyber": {
+    "incidenti_noti": [],
+    "advisory_che_menzionano_il_paese": [],
+    "gruppi_minaccia_associati": [],
+    "settori_bersaglio": [],
+    "ruolo": "non_specificato"
+  },
+  "contesto_generale": "Nel trimestre 2024-Q3, l'Ucraina continua a essere coinvolta in un conflitto armato di larga scala con la Russia. Il presidente Volodymyr Zelenskyy e il primo ministro Denys Shmyhal mantengono le loro posizioni. Vi sono sviluppi significativi nei negoziati di pace e nei movimenti diplomatici, con l'Ucraina che cerca di ottenere supporto internazionale e la Russia che continua a lanciare attacchi contro l'infrastruttura ucraina. L'Ucraina ha anche iniziato a negoziare l'adesione all'Unione Europea, mentre il conflitto continua a influenzare la politica interna e internazionale del paese.",
+  "fonti": [
+    "ENISA_Threat_Landscape_2024.pdf",
+    "Microsoft_Digital_Defense_Report_2024.pdf",
+    "UKR_2024-08-21_20240821_ACAPS_Ukraine_Analysis_Hub_-_Duty_of_care.pdf",
+    "UKR_2024-08-21_20240821_ACAPS_Ukraine_Analysis_Hub_-_Duty_of_care_-_Ukrainian.pdf",
+    "UKR_2024-08-21_20240821_ACAPS_Ukraine_Analysis_hub_-_overview_of_child_protection_risks_UKR.pdf",
+    "UKR_2024-09-13_20240913_ACAPS_Ukraine_Analysis_hub_Attacks_on_the_energy_infrastructure_in_Ukraine.pdf",
+    "UKR_2024-august_key-message-update.pdf",
+    "UKR_2024-july_key-message-update.pdf",
+    "UKR_2024-september_key-message-update.pdf",
+    "UKR_2024Q3_2024-09-26_ukraine-situation-final-2025-26-rrp-regional-indicators.pdf",
+    "UKR_mpo_sm24.pdf",
+    "wikipedia:UKR_2024"
+  ]
+}
