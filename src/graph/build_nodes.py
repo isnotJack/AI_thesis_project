@@ -29,6 +29,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from src.graph import eurepoc
+
 BASE = Path(__file__).resolve().parents[2]
 EXTRACTED = BASE / "data" / "processed" / "extracted_json"
 RAW = BASE / "data" / "raw"
@@ -103,6 +105,14 @@ def _cfr_n_incidenti(iso3: str, periodo: str) -> int:
     return int(((dt.dt.year == int(anno)) & (dt.dt.month.isin(mesi))).sum())
 
 
+def _n_incidenti_datati(iso3: str, periodo: str) -> int:
+    """Incidenti cyber datati nel trimestre in cui il paese compare (come
+    attaccante o vittima). Fonte primaria EuRepoC (datato 2018-2024); fallback
+    al CFR se EuRepoC non ha nulla per quel trimestre."""
+    n = eurepoc.conteggi().get((iso3, periodo), 0)
+    return n if n else _cfr_n_incidenti(iso3, periodo)
+
+
 def arricchisci(iso3: str, periodo: str) -> dict:
     """Carica il profilo qualitativo e vi affianca i campi numerici dai CSV."""
     prof = json.loads((EXTRACTED / iso3 / f"{iso3}_{periodo}.json").read_text(encoding="utf-8"))
@@ -111,7 +121,7 @@ def arricchisci(iso3: str, periodo: str) -> dict:
     n_eventi, n_vittime = _acled(iso3, periodo)
     rifugiati, asilo, sfollati = _unhcr(iso3, anno)
     poverta = _poverta(iso3, anno)
-    n_cyber = _cfr_n_incidenti(iso3, periodo)
+    n_cyber = _n_incidenti_datati(iso3, periodo)
 
     prof["conflitto"]["n_eventi_violenti"] = n_eventi
     prof["conflitto"]["n_vittime"] = n_vittime

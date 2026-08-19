@@ -77,10 +77,11 @@ def salva(G: nx.MultiDiGraph) -> None:
         pickle.dump(G, f)
     with open(OUT / "archi.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
-        w.writerow(["da", "a", "tipo", "periodo", "peso", "categoria", "titolo"])
+        w.writerow(["da", "a", "tipo", "periodo", "peso", "categoria", "titolo", "fonte"])
         for a, b, attr in G.edges(data=True):
             w.writerow([a, b, attr.get("tipo"), attr.get("periodo"),
-                        attr.get("peso"), attr.get("categoria"), attr.get("titolo")])
+                        attr.get("peso"), attr.get("categoria"), attr.get("titolo"),
+                        attr.get("fonte")])
 
 
 def riepilogo(G: nx.MultiDiGraph) -> None:

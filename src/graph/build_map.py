@@ -310,7 +310,7 @@ _TEMPLATE = r"""<!doctype html>
     <button class="zb" id="zin" title="Ingrandisci">+</button>
   </div>
   <div id="tip"></div>
-  <div class="credit">Fonti: ACLED · UNHCR · CFR Cyber Operations</div>
+  <div class="credit">Fonti: ACLED · UNHCR · CFR · EuRepoC</div>
 </div>
 
 <script>

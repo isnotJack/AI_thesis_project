@@ -20,8 +20,19 @@ from pathlib import Path
 
 import pandas as pd
 import pycountry
+import yaml
 
-RAW = Path(__file__).resolve().parents[2] / "data" / "raw"
+from src.graph import eurepoc
+
+BASE = Path(__file__).resolve().parents[2]
+RAW = BASE / "data" / "raw"
+CONFIG = BASE / "config" / "countries.yaml"
+
+
+def _core() -> set:
+    """I 17 paesi del progetto (fonte di verita': config/countries.yaml)."""
+    cfg = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
+    return {p["iso3"] for p in cfg["paesi"]}
 
 # override per i nomi che pycountry gestisce male o per le forme brevi comuni
 _OVERRIDE = {
@@ -71,8 +82,8 @@ def _trimestre(data_iso: str):
 # --------------------------------------------------------------------------- #
 # 1. CYBER  (CFR: sponsor -> vittima)
 # --------------------------------------------------------------------------- #
-def archi_cyber() -> list:
-    """Un arco per incidente cyber datato/non-datato. Gli incidenti vengono
+def _archi_cyber_cfr() -> list:
+    """Un arco per incidente cyber CFR datato/non-datato. Gli incidenti vengono
     deduplicati per link (lo stesso incidente compare nel file CFR di piu'
     paesi)."""
     righe = []
@@ -101,8 +112,27 @@ def archi_cyber() -> list:
                 "periodo": periodo,
                 "categoria": r.get("categoria") if pd.notna(r.get("categoria")) else None,
                 "titolo": r.get("titolo"),
+                "fonte": "cfr",
             }))
     return archi
+
+
+def archi_cyber() -> list:
+    """Archi cyber = UNIONE di EuRepoC (spina dorsale datata 2018-2024,
+    attaccante->vittima attribuito) e CFR (copertura aggiuntiva, spesso
+    non-datata). Dedup leggero: un arco CFR datato viene scartato se EuRepoC
+    ha gia' la stessa coppia (attaccante, vittima) nello stesso trimestre.
+    Cosi' non si perde nulla e non si contano due volte gli stessi eventi."""
+    core = _core()
+    eur = eurepoc.archi(core)
+    chiavi_eur = {(a, b, attr["periodo"]) for a, b, attr in eur}
+    out = list(eur)
+    for a, b, attr in _archi_cyber_cfr():
+        per = attr.get("periodo")
+        if per is not None and (a, b, per) in chiavi_eur:
+            continue
+        out.append((a, b, attr))
+    return out
 
 
 # --------------------------------------------------------------------------- #

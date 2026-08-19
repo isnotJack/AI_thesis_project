@@ -784,6 +784,52 @@ solo fino al 2019; per il cyber la vista onesta e completa e' quella "Tutti"
 - Le vecchie viste pyvis (`grafo_core.html`/`grafo_completo.html`) sono superate
   dalla mappa.
 
+## 2026-08-19 - Blocco B (parte 4): estensione delle fonti cyber con EuRepoC
+
+### Problema
+Il cyber era temporalmente povero: gli incidenti CFR **datati si fermano al
+2019** (picco 2018) e 530/771 non hanno data. Sullo slider della mappa il
+cyber spariva dopo il 2019, e la dimensione cyber dei nodi era datata solo
+fino al 2019. Migrazione (UNHCR) e militare (ACLED) invece coprono 2018-2024.
+
+### Soluzione: EuRepoC
+Aggiunta la fonte **EuRepoC - European Repository of Cyber Incidents**
+("Global Dataset of Cyber Incidents" v1.3, Zenodo record 14965395,
+**licenza CC-BY-NC-4.0** -> uso tesi non commerciale OK, va citata). Sono
+3.414 incidenti datati 2000-2024, con paese **attaccante** (initiator) e
+paese/i **vittima** (receiver) via codici ISO alpha-2, piu' l'attribuzione.
+Per i nostri 17 paesi copre densamente il 2018-2024 (in crescita: picco
+2022-2024), proprio dove il CFR non arrivava.
+
+### Come e' integrato
+- `src/graph/eurepoc.py` legge il Global Dataset, filtra alla finestra
+  2018-2024, splitta i campi multi-valore (un incidente puo' avere piu'
+  attaccanti/vittime), scarta i token non-paese del campo receiver
+  (EUROPE, NATO, MENA, #N/A, "Unknown", ...), mappa alpha-2 -> ISO3, e per
+  ogni coppia attaccante->vittima che tocca almeno uno dei 17 crea un arco
+  cyber datato al trimestre (fonte='eurepoc').
+- **Unione con il CFR (scelta A, "senza limitarci")**: EuRepoC e' la spina
+  dorsale datata, il CFR resta come copertura aggiuntiva (spesso non datata).
+  Dedup leggero: un arco CFR datato viene scartato se EuRepoC ha gia' la
+  stessa coppia (attaccante, vittima) nello stesso trimestre (28 archi CFR
+  rimossi). Aggiunta la colonna `fonte` in `archi.csv`.
+- **Nodi**: `n_incidenti_datati` ora viene da EuRepoC (incidente contato per
+  ogni paese coinvolto, attaccante o vittima, nel trimestre), con fallback al
+  CFR se EuRepoC non ha nulla per quel trimestre.
+- Il CFR **non si butta**: resta tutto nel qualitativo dei nodi (gia'
+  estratto) e come sorgente aggiuntiva degli archi.
+
+### Risultato (verificato)
+- Cyber datati per anno: 2018:213, 2019:112, 2020:54, 2021:156, 2022:308,
+  2023:246, 2024:127 (prima: zero dopo il 2019).
+- Archi cyber totali: 2340 (1268 CFR + 1072 EuRepoC); 738 non datati mantenuti.
+- Grafo: 178 nodi (17 core + 161 periferici), 8344 archi. Coppie cyber tra i
+  17 salite da 51 a 62. Spot-check plausibili: RUS->UKR 140, CHN->USA 116,
+  RUS->USA 88, PRK->KOR 72, IRN->ISR 72.
+- Mappa: lo slider cyber ora e' popolato 2018-2024 (verificato a schermo sul
+  2023). Aggiornata la dicitura fonti: "ACLED · UNHCR · CFR · EuRepoC".
+- Dato grezzo in `data/raw/eurepoc/` (global + dyadic + codebook).
+
 
 
 
