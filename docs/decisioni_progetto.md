@@ -830,6 +830,103 @@ Per i nostri 17 paesi copre densamente il 2018-2024 (in crescita: picco
   2023). Aggiornata la dicitura fonti: "ACLED · UNHCR · CFR · EuRepoC".
 - Dato grezzo in `data/raw/eurepoc/` (global + dyadic + codebook).
 
+## 2026-08-23 - Blocco C: simulazione ad agenti "OASIS-inspired"
+
+### Idea (spiegata da zero)
+Ispirata al paper OASIS: ogni Paese e' un AGENTE basato su LLM, posizionato sul
+grafo del Blocco B. Iniettiamo un evento (deciso da noi) su un Paese; l'agente,
+in base al PROPRIO stato/storia e all'evento, decide una reazione e puo'
+aggiornare il proprio stato, modificare le proprie relazioni (archi) e generare
+nuovi eventi verso i vicini. L'evento si propaga per round finche' la catena non
+si spegne. Non usiamo il codice di OASIS: ne riprendiamo l'architettura,
+riducendola (con 17 nodi la "visibilita'" e' gia' negli archi) da 5 componenti a 3.
+
+### Perche' i nodi servono (dubbio: "il grafo lo prendi dai CSV, i nodi a che?")
+Scelta metodologica voluta: la STRUTTURA FATTUALE del grafo (chi-attacca-chi,
+chi-migra-dove) viene da fonti strutturate e verificabili (ACLED/UNHCR/CFR/
+EuRepoC), apposta per non farla dipendere dall'LLM. I NODI (il prodotto
+dell'estrazione LLM del Blocco A) sono lo STATO ricco per-Paese e servono come
+"cervello" degli agenti nel Blocco C: gli archi dicono con CHI un Paese e'
+connesso, i nodi dicono COSA e' e COME reagisce. Struttura statica dai dati,
+dinamica dai nodi-LLM.
+
+### Architettura (3 componenti, in src/simulation/)
+- AMBIENTE (`ambiente.py`): carica `grafo.pickle`, ne ricava le RELAZIONI
+  AGGREGATE (un peso per coppia+tipo: migrazione/militare = somma pesi, cyber =
+  n. incidenti), applica le operazioni sugli archi e produce gli snapshot. Si
+  lavora su una COPIA: i file reali non si toccano.
+- AGENTE (`oasis_inspired.py`): prompt -> LLM -> JSON validato. Il modello e'
+  INIETTABILE (`responder`): `responder_ollama` in produzione, `responder_mock`
+  per test locali senza HPC. Parsing robusto (retry + validazione schema +
+  fallback ad azione vuota).
+- CICLO (`oasis_inspired.simula`): round discreti e sincroni con coda di eventi;
+  si ferma quando la coda si svuota (nessuno propaga piu') o al tetto di round.
+
+### Stato dell'agente ("scheda-paese", `stato_agente.py`)
+Costruito dai profili arricchiti (`data/processed/nodi/`), senza nuove chiamate
+LLM: snapshot del trimestre di riferimento (tutte le 6 dimensioni) + TRAIETTORIA
+programmatica (trend dei numeri fino a quel trimestre) + le relazioni correnti.
+Trimestre di riferimento = quello dell'evento se datato, altrimenti l'ultimo
+(2024-Q4). Solo i 17 core sono agenti (hanno un profilo); i Paesi non-core che
+compaiono restano estremi "inerti" (non reagiscono).
+
+### Prompt e schema-azione (`schemi.py` + `oasis_inspired.crea_prompt`)
+Il prompt e' volutamente CHIRURGICO: passa tutte le definizioni (le 6 dimensioni
+con i vocabolari esatti - es. livello_ipc, cyber.ruolo -, il verso di ogni tipo
+di arco, le azioni ammesse), lo stato reale del Paese, la traiettoria, la rete
+di relazioni, l'evento, le regole e lo schema JSON esatto. L'agente risponde in
+JSON: `reazione_breve`, `aggiornamenti_stato` (chiavi "dimensione.campo"),
+`azioni_su_archi` (op = rafforza/indebolisci/crea/taglia, anche verso Paesi non
+ancora in mappa), `genera_eventi` (verso i vicini scelti da lui).
+
+### Numero di round
+Il TETTO lo fissiamo noi (`n_round`, default 5, opzione `--round`); la lunghezza
+REALE la decidono gli agenti (la catena muore quando nessuno genera piu' eventi).
+
+### Scenari e modelli
+7 scenari misti (cyber e non) in `scenari.py`: ransomware_usa,
+sanzioni_russia_cyber, spionaggio_cina, siccita_darfur, crisi_venezuela,
+escalation_ucraina, guerra_yemen. Modelli: 3 APERTI via Ollama (niente API/key,
+coerente col documento sez. 4.6): qwen2.5:32b, llama3.3:70b, gemma2:27b.
+
+### Esecuzione (HPC) e output
+`run_simulazione.py` (CLI, resumable) esegue scenari x modello e salva in
+`data/processed/simulazioni/<scenario>/<modello>/` -> `risultato.json` (traccia
+completa: storico + snapshot + stati finali) + `mappa.html`. Su HPC via
+`scripts_hpc/simulazione_blocco_c.{sh,pbs}` (1 GPU, i 3 modelli in sequenza,
+resumable; il launcher attiva il .venv e allinea le dipendenze). I risultati si
+portano sul Mac via git (rsync non disponibile): la cartella e' stata tolta dal
+.gitignore apposta.
+
+### Visualizzazione (`mappa_sim.py`)
+Mappa-simulazione: slider dei ROUND (+ play), SPESSORE = peso, archi CREATI
+evidenziati / TAGLIATI come fantasma barrato / rafforzati-indeboliti con spessore
+aggiornato, POP-UP sui nodi coi cambi di stato, pannello di log del round,
+tema chiaro/scuro, zoom/pan. Mostra il SOTTOGRAFO COINVOLTO per restare leggibile.
+
+### Risultati del primo giro (3 modelli x 7 scenari) e valutazione
+- Coerenza di formato PERFETTA: 0 dimensioni/IPC/ruoli invalidi su 112
+  aggiornamenti; solo ~3 ISO3 errati su ~92 archi (scartati dal motore).
+- Plausibilita' buona (soprattutto llama): catene sensate (es. ransomware_usa ->
+  escalation USA-RUS-UKR cyber+militare; siccita_darfur -> cascata migratoria
+  nel Corno d'Africa con cooperazione regionale).
+- Confronto (medie): llama3.3:70b ~3.9 round / 2.4 Paesi / 12.3 cambi stato /
+  44 reazioni; qwen2.5:32b ~2.4 / 1.6 / 2.9 / 14; gemma2:27b ~2.0 / 1.4 / 0.9 / 12.
+  => llama3.3:70b nettamente il migliore; i piccoli reagiscono ma NON propagano
+  (catena morta al round 1-2). RISULTATO METODOLOGICO: la ricchezza/plausibilita'
+  della simulazione cresce con la dimensione del modello.
+- Limiti: nessun modello ha mai usato "taglia" (il grafo tende solo a crescere);
+  i pesi inventati sono arbitrari (ok qualitativamente, non come numeri reali).
+- Corretto un dettaglio del motore: "crea" su un arco esistente ora somma
+  (prima poteva sovrascrivere/abbassare).
+- Validazione UMANA (confronto con plausibilita' storica): a carico dello studente.
+
+### Prossimi esperimenti possibili
+- Stessa FASCIA (es. 3 modelli ~70B) per isolare l'effetto "famiglia" da quello
+  "dimensione".
+- Piu' round (es. 8-10) per il 70b, che tocca il tetto di 5 in 4/7 scenari.
+- Prompt che incoraggi anche indebolisci/taglia, o uno scenario di rottura.
+
 
 
 

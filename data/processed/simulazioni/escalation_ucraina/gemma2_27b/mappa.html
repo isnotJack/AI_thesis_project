@@ -45,6 +45,12 @@
   .log .grp{margin:7px 0 3px;font-weight:700;color:var(--muted);font-size:10.5px;text-transform:uppercase;letter-spacing:.5px}
   .log .it{margin:2px 0;padding-left:8px;border-left:2px solid var(--line)}
   .badge{display:inline-block;font-size:10px;font-weight:700;border-radius:5px;padding:1px 5px;color:#fff}
+  #zoombar{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);display:flex;align-items:center;
+    gap:9px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:6px 11px;
+    box-shadow:0 6px 20px rgba(10,15,25,.16)}
+  .zb{width:26px;height:24px;border:1px solid var(--line);background:var(--card);color:var(--ink);
+    border-radius:7px;cursor:pointer;font-size:15px;line-height:1;display:flex;align-items:center;justify-content:center}
+  .zb:hover{border-color:#9aa3af} #zoom{width:150px;accent-color:var(--ink)}
   #tip{position:absolute;pointer-events:none;background:#20242b;color:#fff;font-size:12px;line-height:1.4;
     padding:7px 10px;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,.3);opacity:0;max-width:260px;z-index:5}
   .hint{font-size:11px;color:var(--muted);margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
@@ -63,6 +69,11 @@
     <div class="sec">Cosa succede in questo round</div>
     <div class="log" id="log"></div>
     <div class="hint"><b>Rotella</b>=zoom · <b>trascina</b>=sposta · spessore=peso · nodo pulsante=cambio di stato</div>
+  </div>
+  <div id="zoombar">
+    <button class="zb" id="zout" title="Riduci">–</button>
+    <input id="zoom" type="range" min="0" max="100" value="0">
+    <button class="zb" id="zin" title="Ingrandisci">+</button>
   </div>
   <div id="tip"></div>
 </div>
@@ -216,20 +227,29 @@ play.onclick=()=>{if(playT){stopPlay();return;}if(ROUND>=META.n_round)ROUND=-1;p
 const theme=document.getElementById('theme');
 theme.onclick=()=>{const d=!document.body.classList.contains('dark');document.body.classList.toggle('dark',d);theme.textContent=d?'☀️':'🌙';};
 
-/* zoom/pan */
-let vb={x:0,y:0,w:1000,h:500},HOME=1000;
+/* zoom/pan + barra zoom in basso */
+let vb={x:0,y:0,w:1000,h:500},HOME_W=1000;
+const ZMIN=0.6,ZMAX=16,zoomInput=document.getElementById('zoom');
 function setVB(){svg.setAttribute('viewBox',`${vb.x.toFixed(1)} ${vb.y.toFixed(1)} ${vb.w.toFixed(1)} ${vb.h.toFixed(1)}`);rescale();}
+const curZoom=()=>HOME_W/vb.w;
+function syncZoomUI(){zoomInput.value=100*Math.log(curZoom()/ZMIN)/Math.log(ZMAX/ZMIN);}
+function setZoom(z,ax,ay){z=Math.max(ZMIN,Math.min(ZMAX,z));
+  ax=ax==null?vb.x+vb.w/2:ax;ay=ay==null?vb.y+vb.h/2:ay;
+  const nw=HOME_W/z,nh=vb.h*(nw/vb.w);
+  vb.x=ax-(ax-vb.x)*(nw/vb.w);vb.y=ay-(ay-vb.y)*(nh/vb.h);vb.w=nw;vb.h=nh;setVB();syncZoomUI();}
 function fit(){const P=NODI.map(n=>proj(n.lon,n.lat));if(!P.length){setVB();return;}
   let a=Math.min(...P.map(p=>p[0])),b=Math.max(...P.map(p=>p[0])),c=Math.min(...P.map(p=>p[1])),d=Math.max(...P.map(p=>p[1]));
   const px=(b-a)*.18+40,py=(d-c)*.30+40;a-=px;b+=px;c-=py;d+=py;
   let w=b-a,h=d-c;const cx=(a+b)/2,cy=(c+d)/2;const r=svg.getBoundingClientRect();
   const W=r.width||1400,H=r.height||900,PL=Math.min(360,W*.34),Wc=Math.max(1,W-PL),A=Wc/H;
-  if(w/h>A)h=w/A;else w=h*A;vb={x:cx-w*(PL/Wc+.5),y:cy-h/2,w:w*(W/Wc),h};HOME=vb.w;setVB();}
+  if(w/h>A)h=w/A;else w=h*A;vb={x:cx-w*(PL/Wc+.5),y:cy-h/2,w:w*(W/Wc),h};HOME_W=vb.w;setVB();syncZoomUI();}
 fit();addEventListener('resize',fit);
 function toSvg(cx,cy){const r=svg.getBoundingClientRect();return[vb.x+(cx-r.left)/r.width*vb.w,vb.y+(cy-r.top)/r.height*vb.h];}
 svg.addEventListener('wheel',e=>{e.preventDefault();const[mx,my]=toSvg(e.clientX,e.clientY);
-  const f=e.deltaY<0?.82:1/.82,nw=Math.max(60,Math.min(1400,vb.w*f)),nh=vb.h*(nw/vb.w);
-  vb.x=mx-(mx-vb.x)*(nw/vb.w);vb.y=my-(my-vb.y)*(nh/vb.h);vb.w=nw;vb.h=nh;setVB();},{passive:false});
+  setZoom(curZoom()*(e.deltaY<0?1.18:1/1.18),mx,my);},{passive:false});
+zoomInput.oninput=()=>setZoom(ZMIN*Math.pow(ZMAX/ZMIN,zoomInput.value/100));
+document.getElementById('zin').onclick=()=>setZoom(curZoom()*1.4);
+document.getElementById('zout').onclick=()=>setZoom(curZoom()/1.4);
 let pan=null;svg.addEventListener('mousedown',e=>{pan={x:e.clientX,y:e.clientY,vx:vb.x,vy:vb.y};svg.classList.add('dragging');});
 addEventListener('mousemove',e=>{if(!pan)return;const r=svg.getBoundingClientRect();
   vb.x=pan.vx-(e.clientX-pan.x)/r.width*vb.w;vb.y=pan.vy-(e.clientY-pan.y)/r.height*vb.h;setVB();});

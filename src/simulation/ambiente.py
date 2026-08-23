@@ -89,7 +89,10 @@ class Ambiente:
                 self.R.remove_edge(a, verso, key=tipo)
             dopo = 0.0
         elif op == "crea":
-            nuovo = delta if delta is not None else max(1.0, prima)
+            if esistente:                       # gia' presente -> si comporta come 'rafforza'
+                nuovo = prima + (delta if delta is not None else max(1.0, prima * 0.5))
+            else:
+                nuovo = delta if delta is not None else 1.0
             self._set(a, verso, tipo, nuovo)
             dopo = nuovo
         elif op == "rafforza":
