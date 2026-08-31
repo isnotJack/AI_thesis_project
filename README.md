@@ -5,11 +5,6 @@ strutturate con un modello multimodale, (B) la trasforma in un grafo di relazion
 Paesi con una mappa interattiva, e (C) usa quel grafo per una simulazione ad agenti
 "OASIS-inspired" in cui ogni Paese è un agente LLM che reagisce agli eventi.
 
-> **Stato attuale: progetto CONCLUSO (Blocchi A, B, C completati).**
-> Il Blocco D (predizione tabellare) non è stato perseguito. In pausa in attesa di
-> indicazioni del tutor su eventuali esperimenti aggiuntivi (es. confronto tra modelli
-> della stessa fascia / più round nella simulazione).
-
 **Domanda di ricerca:** l'instabilità geopolitica ed economica di un Paese è correlata,
 o precede temporalmente, un aumento della sua esposizione a rischio cyber (come vittima)
 o della sua attività cyber offensiva (come attore)?
@@ -23,10 +18,9 @@ bersagli cyber (USA, ISR, KOR, SAU) · casi di controllo (ITA, EST). Periodo 201
 
 | Blocco | Stato | Contenuto |
 |---|---|---|
-| **A — Estrazione con LMM** | ✅ Completato | Profili JSON per (paese, trimestre) estratti da PDF/CSV/testi con `qwen2.5vl:32b` (Ollama, su HPC). |
-| **B — Grafo statico + mappa** | ✅ Completato | Nodi = Paesi (qualitativo dall'LLM + numerico dai CSV); archi = cyber / migrazione / coinvolgimento militare; mappa interattiva. |
-| **C — Simulazione "OASIS-inspired"** | ✅ Completato | Ogni Paese è un agente LLM: un evento si propaga sul grafo, gli agenti aggiornano stato e relazioni. 7 scenari × 3 modelli aperti (su HPC). |
-| D — Predizione tabellare | ✗ Non perseguito | Percorso alternativo a C, scartato. |
+| **A — Estrazione con LMM** | Completato | Profili JSON per (paese, trimestre) estratti da PDF/CSV/testi con `qwen2.5vl:32b` (Ollama, su HPC). |
+| **B — Grafo statico + mappa** | Completato | Nodi = Paesi (qualitativo dall'LLM + numerico dai CSV); archi = cyber / migrazione / coinvolgimento militare; mappa interattiva. |
+| **C — Simulazione "OASIS-inspired"** | Completato | Ogni Paese è un agente LLM: un evento si propaga sul grafo, gli agenti aggiornano stato e relazioni. 7 scenari × 3 modelli aperti (su HPC). |
 
 ## Cosa guardare (deliverable principali)
 
