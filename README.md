@@ -28,8 +28,12 @@ bersagli cyber (USA, ISR, KOR, SAU) · casi di controllo (ITA, EST). Periodo 201
   (planisfero: 17 Paesi evidenziati, layer cyber/migrazione/militare accendibili, slider
   temporale, tema chiaro/scuro, zoom). Si apre nel browser, è autosufficiente.
 - **Mappe delle simulazioni** → `data/processed/simulazioni/<test>/<scenario>/<modello>/mappa.html`
-  (i risultati sono organizzati per esperimento: `test1_baseline`, `test2_stessa_fascia_round10`, …)
-  (slider dei round, spessore = intensità, archi creati/tagliati, pop-up sui cambi di stato).
+  (esperimenti: `test1_baseline`, `test2_stessa_fascia_round10`, `test3_tag_kb`; slider dei round,
+  spessore = intensità, archi creati/tagliati, pop-up sui cambi di stato).
+- **Dialogo tra modelli** → `data/processed/simulazioni/<test>/<scenario>/dialogo.html`
+  (una colonna per modello: ragionamento + tag `base_kb` = da dove nella KB viene ogni scelta).
+- **Report dei giudizi** → `data/processed/giudizi/<test>/report.html`
+  (modello-as-a-judge: classifica, coerenza col dato, grounding, heatmap scenario×modello).
 - **Log dettagliato delle decisioni progettuali** → `docs/decisioni_progetto.md`
   (il "diario di bordo": tutte le scelte, i problemi e le soluzioni, blocco per blocco —
   è il materiale per scrivere la sezione metodologica della tesi).
@@ -55,7 +59,8 @@ thesis_project/
 │       ├── extracted_json/<ISO3>/     # Blocco A: 476 profili qualitativi (LLM)
 │       ├── nodi/<ISO3>/               # Blocco B: profili arricchiti (LLM + numeri CSV)
 │       ├── graphs/                    # Blocco B: grafo.pickle, archi.csv, grafo_mappa.html
-│       └── simulazioni/<test>/<scenario>/<modello>/  # Blocco C: risultato.json + mappa.html
+│       ├── simulazioni/<test>/<scenario>/<modello>/  # Blocco C: risultato.json + mappa.html + dialogo.html
+│       └── giudizi/<test>/<scenario>/<modello>/       # Blocco C: giudizio.json (+ report.html per test)
 │
 ├── notebooks/
 │   ├── 01_data_collection.ipynb

@@ -48,6 +48,17 @@ SIGNIFICATO_OP = {
     "taglia": "azzera/rimuovi una relazione esistente",
 }
 
+# Elementi della "knowledge base" (il contesto dato all'agente) a cui una scelta
+# puo' essere ANCORATA. L'agente tagga ogni scelta con la sua base; usa
+# 'conoscenza_generale' se la scelta NON deriva dalla KB ma dal suo sapere.
+TAG_KB = [
+    "evento",              # l'evento ricevuto
+    "contesto_generale", "conflitto", "carestia", "migrazione", "economia", "cyber",
+    "traiettoria",         # i trend numerici della sua storia
+    "relazioni",           # le sue relazioni attuali
+    "conoscenza_generale", # NON dalla KB: sapere generale del modello
+]
+
 
 # --------------------------------------------------------------------------- #
 # Evento
@@ -92,6 +103,9 @@ SCHEMA_AZIONE = {
                     "tipo": {"enum": list(TIPI_ARCO)},
                     "peso_delta": {"type": ["number", "null"]},
                     "motivo": {"type": "string"},
+                    "base_kb": {"type": "string",
+                                "description": "elemento della KB da cui deriva la scelta (vedi TAG_KB), "
+                                               "o 'conoscenza_generale' se non dalla KB"},
                 },
                 "required": ["op", "verso", "tipo"],
             },
@@ -104,14 +118,50 @@ SCHEMA_AZIONE = {
                     "verso": {"type": "string"},
                     "tipo": {"enum": list(TIPI_ARCO) + ["generico"]},
                     "testo": {"type": "string"},
+                    "base_kb": {"type": "string"},
                 },
                 "required": ["verso", "testo"],
             },
         },
+        "basi_kb": {"type": "array", "items": {"type": "string"},
+                    "description": "elenco degli elementi della KB su cui ti sei basato in questo round"},
     },
     "required": ["reazione_breve"],
 }
 
 # Risposta "vuota" valida (usata come fallback se il parsing fallisce del tutto).
 AZIONE_VUOTA = {"ragionamento": "", "reazione_breve": "", "aggiornamenti_stato": {},
-                "azioni_su_archi": [], "genera_eventi": []}
+                "azioni_su_archi": [], "genera_eventi": [], "basi_kb": []}
+
+
+# --------------------------------------------------------------------------- #
+# Schema del GIUDIZIO (modello-as-a-judge)
+# --------------------------------------------------------------------------- #
+# Un modello di famiglia diversa valuta, per (scenario, modello), quanto il
+# dialogo prodotto e' COERENTE con i dati estratti (la KB) e plausibile,
+# restituendo punteggi numerici + la propria motivazione + le evidenze (dove
+# nel dialogo/nella KB ha dedotto il giudizio).
+SCHEMA_GIUDIZIO = {
+    "type": "object",
+    "properties": {
+        "punteggio": {"type": "number", "description": "0-100, valutazione complessiva"},
+        "coerenza_kb": {"type": "number", "description": "0-100: le scelte/ragionamenti sono coerenti coi dati?"},
+        "plausibilita": {"type": "number", "description": "0-100: la catena di reazioni e' geopoliticamente plausibile?"},
+        "fedelta_grounding": {"type": "number", "description": "0-100: le scelte sono davvero ancorate alla KB (non inventate)?"},
+        "motivazione": {"type": "string", "description": "perche' questo punteggio (ragionamento del giudice)"},
+        "evidenze": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "osservazione": {"type": "string"},
+                    "riferimento": {"type": "string", "description": "dove: round/Paese del dialogo o campo della KB"},
+                },
+            },
+        },
+    },
+    "required": ["punteggio", "motivazione"],
+}
+
+GIUDIZIO_VUOTO = {"punteggio": None, "coerenza_kb": None, "plausibilita": None,
+                  "fedelta_grounding": None, "motivazione": "", "evidenze": []}

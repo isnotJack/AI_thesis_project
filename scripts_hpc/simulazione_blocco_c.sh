@@ -12,9 +12,10 @@
 #   MODELLI="qwen2.5:32b gemma2:27b" bash scripts_hpc/simulazione_blocco_c.sh
 set -u
 
-MODELLI="${MODELLI:-llama3.3:70b qwen2.5:72b nemotron:70b}"   # 2o test: stessa fascia (~70B)
-ROUND="${ROUND:-10}"                                          # 2o test: round aumentati
-TEST="${TEST:-test2_stessa_fascia_round10}"                   # etichetta dell'esperimento
+MODELLI="${MODELLI:-llama3.3:70b qwen2.5:72b nemotron:70b}"   # stessa fascia (~70B), famiglie diverse
+ROUND="${ROUND:-10}"                                          # round aumentati
+TEST="${TEST:-test3_tag_kb}"                                  # etichetta dell'esperimento (con tag base_kb)
+JUDGE="${JUDGE:-command-r}"                                   # modello giudice (Cohere: famiglia diversa)
 PORT="${PORT:-11434}"
 
 # moduli (guardati: se lanciato in una shell senza 'module' non fallisce)
@@ -53,4 +54,11 @@ done
 echo "== genero i dialoghi affiancati (confronto del ragionamento tra modelli) =="
 python3 -m src.simulation.dialogo --test "$TEST" || true
 
-echo "== fatto. risultati in data/processed/simulazioni/$TEST/ =="
+echo "== JUDGE: scarico il modello giudice ($JUDGE) e valuto tutti i dialoghi =="
+ollama pull "$JUDGE" || echo "  (pull del giudice fallito: procedo, forse gia' presente)"
+python3 -m src.simulation.judge --test "$TEST" --giudice "$JUDGE" --host "http://127.0.0.1:${PORT}" || true
+
+echo "== genero il report grafico dei giudizi =="
+python3 -m src.simulation.report_giudizi --test "$TEST" || true
+
+echo "== FATTO. simulazioni: data/processed/simulazioni/$TEST/ | giudizi+report: data/processed/giudizi/$TEST/ =="

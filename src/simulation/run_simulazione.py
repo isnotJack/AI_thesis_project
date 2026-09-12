@@ -38,7 +38,7 @@ OUT = BASE / "data" / "processed" / "simulazioni"
 
 # 2o test: 3 modelli della stessa fascia (~70B), diversi per famiglia/addestramento
 MODELLI_TEST2 = ["llama3.3:70b", "qwen2.5:72b", "nemotron:70b"]
-TEST_DEFAULT = "test2_stessa_fascia_round10"
+TEST_DEFAULT = "test3_tag_kb"
 
 
 def _safe(m: str) -> str:

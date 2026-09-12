@@ -84,6 +84,7 @@ def crea_prompt(scheda: dict, evento, relazione_mittente=None) -> str:
     defs_arco = "\n".join(f"- {t}: verso = {schemi.VERSI_ARCO[t]}; il peso indica l'intensita'."
                           for t in schemi.TIPI_ARCO)
     defs_op = "\n".join(f"- {o}: {schemi.SIGNIFICATO_OP[o]}" for o in schemi.OPERAZIONI_ARCO)
+    defs_tag = ", ".join(schemi.TAG_KB)
 
     if ev.get("mittente") and relazione_mittente:
         prov = (f"proviene da {ev['mittente']}, con cui hai una relazione "
@@ -100,11 +101,12 @@ def crea_prompt(scheda: dict, evento, relazione_mittente=None) -> str:
         '  "reazione_breve": "max 2-3 frasi su come reagisce il Paese",\n'
         '  "aggiornamenti_stato": {"carestia.livello_ipc": "fase4_emergenza", "migrazione.rifugiati": 120000},\n'
         '  "azioni_su_archi": [\n'
-        '    {"op": "rafforza", "verso": "EGY", "tipo": "migrazione", "peso_delta": 50000, "motivo": "..."}\n'
+        '    {"op": "rafforza", "verso": "EGY", "tipo": "migrazione", "peso_delta": 50000, "motivo": "...", "base_kb": "migrazione"}\n'
         '  ],\n'
         '  "genera_eventi": [\n'
-        '    {"verso": "EGY", "tipo": "migrazione", "testo": "aumento dei flussi verso il confine"}\n'
-        '  ]\n'
+        '    {"verso": "EGY", "tipo": "migrazione", "testo": "aumento dei flussi verso il confine", "base_kb": "evento"}\n'
+        '  ],\n'
+        '  "basi_kb": ["evento", "migrazione", "carestia"]\n'
         '}'
     )
 
@@ -120,6 +122,9 @@ Partecipi a una simulazione a round: un evento si propaga lungo una rete di rela
 ### DEFINIZIONI — LE AZIONI CHE PUOI FARE SUGLI ARCHI
 {defs_op}
 Puoi anche creare una relazione verso un Paese non ancora presente sulla mappa (usa il suo codice ISO3).
+
+### DEFINIZIONI — DA DOVE VIENE OGNI TUA SCELTA (campo 'base_kb')
+Per OGNI scelta (ogni azione su un arco, ogni evento generato) indica in 'base_kb' l'elemento da cui deriva, scegliendone UNO tra: {defs_tag}. Usa 'conoscenza_generale' SOLO se la scelta non nasce dai dati che ti ho fornito qui sopra ma dal tuo sapere generale. In 'basi_kb' (in fondo) elenca gli elementi su cui ti sei basato in questo round.
 
 ### IL TUO STATO ATTUALE (trimestre di riferimento)
 {_render_stato(scheda['stato'])}
@@ -201,6 +206,7 @@ def chiama_llm_e_parsa(prompt: str, responder, tentativi: int = 3) -> dict:
             azione.setdefault("aggiornamenti_stato", {})
             azione.setdefault("azioni_su_archi", [])
             azione.setdefault("genera_eventi", [])
+            azione.setdefault("basi_kb", [])
             return azione
     return dict(AZIONE_VUOTA)
 
@@ -280,7 +286,7 @@ def simula(evento_iniziale: Evento, responder, n_round: int = 5, verbose: bool =
             for a in (azione.get("azioni_su_archi") or []):
                 desc = amb.applica_arco(a.get("op"), target, a.get("verso"),
                                         a.get("tipo"), a.get("peso_delta"))
-                desc.update({"motivo": a.get("motivo"), "round": r})
+                desc.update({"motivo": a.get("motivo"), "base_kb": a.get("base_kb"), "round": r})
                 cambi_archi.append(desc); archi_ev.append(desc)
 
             eventi_ev = []
@@ -289,13 +295,14 @@ def simula(evento_iniziale: Evento, responder, n_round: int = 5, verbose: bool =
                            tipo=g.get("tipo", "generico"), mittente=target,
                            data=ev.data, round=r)
                 if e.paese:
-                    nuova.append(e); eventi_ev.append(e.as_dict())
+                    nuova.append(e); eventi_ev.append({**e.as_dict(), "base_kb": g.get("base_kb")})
 
             storico.append({"round": r, "paese": target,
                             "ragionamento": azione.get("ragionamento", ""),
                             "reazione": azione.get("reazione_breve", ""),
                             "aggiornamenti_stato": azione.get("aggiornamenti_stato", {}),
-                            "archi": archi_ev, "eventi_generati": eventi_ev})
+                            "archi": archi_ev, "eventi_generati": eventi_ev,
+                            "basi_kb": azione.get("basi_kb", [])})
             if verbose:
                 print(f"[round {r}] {target}: {_tronca(azione.get('reazione_breve',''), 90)}")
 
@@ -324,12 +331,14 @@ def responder_mock(prompt: str) -> str:
     ev = (m.group(1) if m else "").lower()
     if any(w in ev for w in ("siccit", "carestia", "emigra", "migrator", "profugh", "iperinflaz")):
         return json.dumps({
+            "ragionamento": f"{iso}: l'evento aggrava carestia e migrazione, gia' critiche nello stato attuale.",
             "reazione_breve": f"{iso}: crisi umanitaria in peggioramento, aumentano i profughi.",
             "aggiornamenti_stato": {"carestia.livello_ipc": "fase4_emergenza"},
             "azioni_su_archi": [{"op": "rafforza", "verso": "EGY", "tipo": "migrazione",
-                                 "peso_delta": 50000, "motivo": "aumento flussi"}],
-            "genera_eventi": [{"verso": "EGY", "tipo": "migrazione",
+                                 "peso_delta": 50000, "motivo": "aumento flussi", "base_kb": "migrazione"}],
+            "genera_eventi": [{"verso": "EGY", "tipo": "migrazione", "base_kb": "evento",
                                "testo": "forte aumento dei flussi migratori al confine"}],
+            "basi_kb": ["evento", "carestia", "migrazione"],
         })
     if any(w in ev for w in ("ransomware", "cyber", "spionaggio", "sanzioni")):
         return json.dumps({

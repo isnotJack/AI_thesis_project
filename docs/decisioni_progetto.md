@@ -978,6 +978,46 @@ il confronto TRA loro resta valido. Essendo un campo nuovo, i risultati PARZIALI
 del 2o test gia' prodotti vanno cancellati prima di rilanciare (il runner e'
 resumable e altrimenti terrebbe le run col vecchio prompt).
 
+## 2026-09-12 (b) - Blocco C: tag di grounding (base_kb) + modello-as-a-judge
+
+### Analisi del 2o test (stessa fascia ~70B, 10 round)
+A parita' di taglia le FAMIGLIE si comportano in modo molto diverso: nemotron_70b
+iper-propaga (media ~6 round, tocca il tetto di 10 in 4 scenari su 7, ~27 archi
+creati e ~99 cambi di stato per scenario) -> catene che non convergono;
+qwen2.5:72b e llama3.3:70b sono piu' sobri (2-3 round, catene corte). Quindi NON
+e' (solo) la dimensione: a 70B conta l'addestramento. Il `ragionamento` e'
+presente e coerente in quasi tutte le reazioni. (test2 = 20/21: manca
+guerra_yemen/nemotron perche' fermato a mano.)
+
+### 3o test: tag di grounding (base_kb)
+Ogni SCELTA dell'agente (azione su un arco, evento generato) porta un tag
+`base_kb` = l'elemento della KB da cui deriva (evento / una delle 6 dimensioni /
+traiettoria / relazioni), oppure `conoscenza_generale` se NON dalla KB; piu' una
+lista `basi_kb` per round. E' l'agente STESSO a dichiararlo mentre decide (scelta
+piu' fedele della ricostruzione post-hoc, che avrebbe sovrastimato il grounding e
+reso il judge poco significativo). Richiede una nuova run -> etichetta
+`test3_tag_kb`. Da' anche una METRICA OGGETTIVA (senza LLM): % di scelte ancorate
+alla KB, per modello.
+
+### Modello-as-a-judge (automatico, stesso job)
+`src/simulation/judge.py`: un modello di FAMIGLIA DIVERSA (default `command-r`,
+Cohere, addestrato per grounding/citazioni) legge KB + dialogo e assegna punteggi
+0-100 (coerenza_kb, plausibilita, fedelta_grounding, complessivo) + motivazione +
+evidenze (dove ha dedotto il giudizio). Output in cartella SEPARATA:
+`data/processed/giudizi/<test>/<scenario>/<modello>/giudizio.json`.
+`src/simulation/report_giudizi.py` produce `report.html`: classifica modelli,
+grounding oggettivo, heatmap scenario×modello, motivazioni del giudice.
+
+### Orchestrazione (un solo job notturno)
+Il launcher HPC fa in sequenza: simulazione (coi tag) -> dialoghi -> judge ->
+report. Walltime PBS a 20h, resumable. Notebook 04 esteso (dialoghi coi tag +
+sezione judge/report). Kimi non usato (sarebbe via API/key): il giudice e' un
+modello aperto di famiglia diversa da quelle valutate (Llama/Qwen).
+
+### Prossimo (rimandato)
+- Eventuale prompt che INCORAGGI indebolisci/taglia (esperimento a se').
+- Altre piccole accortezze indicate dallo studente.
+
 
 
 

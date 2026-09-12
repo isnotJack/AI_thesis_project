@@ -43,14 +43,19 @@ def _card(h: dict) -> str:
         parti.append(f'<div class="st">stato · {_esc(k)} = <b>{_esc(v)}</b></div>')
     for a in h.get("archi", []):
         col = _OPCOL.get(a.get("op"), "#888")
+        tag = f' <span class="tag">{_esc(a.get("base_kb"))}</span>' if a.get("base_kb") else ""
         parti.append(f'<div class="arc" style="border-color:{col}">'
                      f'<span class="op" style="background:{col}">{_esc(a.get("op"))}</span> '
                      f'{_esc(a.get("da"))} → {_esc(a.get("verso"))} [{_esc(a.get("tipo"))}] '
                      f'{_esc(a.get("peso_prima"))}→{_esc(a.get("peso_dopo"))}'
-                     f'{" · "+_esc(a.get("motivo")) if a.get("motivo") else ""}</div>')
+                     f'{" · "+_esc(a.get("motivo")) if a.get("motivo") else ""}{tag}</div>')
     for e in h.get("eventi_generati", []):
+        tag = f' <span class="tag">{_esc(e.get("base_kb"))}</span>' if e.get("base_kb") else ""
         parti.append(f'<div class="ev">→ evento a <b>{_esc(e.get("paese"))}</b> '
-                     f'[{_esc(e.get("tipo"))}]: {_esc(e.get("testo"))}</div>')
+                     f'[{_esc(e.get("tipo"))}]: {_esc(e.get("testo"))}{tag}</div>')
+    if h.get("basi_kb"):
+        chips = " ".join(f'<span class="chip">{_esc(t)}</span>' for t in h["basi_kb"])
+        parti.append(f'<div class="basi">basi KB: {chips}</div>')
     return '<div class="card">' + "".join(parti) + "</div>"
 
 
@@ -104,6 +109,9 @@ _TEMPLATE = """<!doctype html><html lang="it"><head><meta charset="utf-8">
   .arc{border-left:3px solid #888;padding:3px 8px;margin:4px 0;background:#fbfbfc;border-radius:5px}
   .arc .op{color:#fff;font-size:10px;font-weight:700;border-radius:4px;padding:1px 5px;margin-right:4px}
   .ev{color:#5d6570;margin:4px 0 2px;padding-left:6px;border-left:2px solid var(--line)}
+  .tag{font-size:9.5px;font-weight:700;color:#33406b;background:#e7ecff;border-radius:4px;padding:1px 5px}
+  .basi{margin-top:6px;font-size:10.5px;color:var(--muted)}
+  .chip{display:inline-block;font-size:9.5px;background:#eef2f6;border:1px solid var(--line);border-radius:4px;padding:1px 5px;margin:1px}
 </style></head><body>
 <div class="top"><h1>Dialogo tra modelli — __TITOLO__</h1><div class="ev">Evento iniziale: __EVENTO__</div></div>
 <div class="cols">__COLONNE__</div>
