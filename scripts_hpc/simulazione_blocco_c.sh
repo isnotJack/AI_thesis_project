@@ -12,7 +12,9 @@
 #   MODELLI="qwen2.5:32b gemma2:27b" bash scripts_hpc/simulazione_blocco_c.sh
 set -u
 
-MODELLI="${MODELLI:-qwen2.5:32b llama3.3:70b gemma2:27b}"
+MODELLI="${MODELLI:-llama3.3:70b qwen2.5:72b nemotron:70b}"   # 2o test: stessa fascia (~70B)
+ROUND="${ROUND:-10}"                                          # 2o test: round aumentati
+TEST="${TEST:-test2_stessa_fascia_round10}"                   # etichetta dell'esperimento
 PORT="${PORT:-11434}"
 
 # moduli (guardati: se lanciato in una shell senza 'module' non fallisce)
@@ -43,8 +45,9 @@ done
 for M in $MODELLI; do
   echo "== pull $M =="
   ollama pull "$M" || echo "  (pull fallito: procedo, forse gia' presente)"
-  echo "== esecuzione scenari con $M =="
-  python3 -m src.simulation.run_simulazione --modello "$M" --host "http://127.0.0.1:${PORT}"
+  echo "== esecuzione scenari con $M (round=$ROUND, test=$TEST) =="
+  python3 -m src.simulation.run_simulazione --modello "$M" --host "http://127.0.0.1:${PORT}" \
+      --round "$ROUND" --test "$TEST"
 done
 
 echo "== fatto. risultati in data/processed/simulazioni/ =="

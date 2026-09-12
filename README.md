@@ -27,7 +27,8 @@ bersagli cyber (USA, ISR, KOR, SAU) · casi di controllo (ITA, EST). Periodo 201
 - **Mappa interattiva del grafo** → `data/processed/graphs/grafo_mappa.html`
   (planisfero: 17 Paesi evidenziati, layer cyber/migrazione/militare accendibili, slider
   temporale, tema chiaro/scuro, zoom). Si apre nel browser, è autosufficiente.
-- **Mappe delle simulazioni** → `data/processed/simulazioni/<scenario>/<modello>/mappa.html`
+- **Mappe delle simulazioni** → `data/processed/simulazioni/<test>/<scenario>/<modello>/mappa.html`
+  (i risultati sono organizzati per esperimento: `test1_baseline`, `test2_stessa_fascia_round10`, …)
   (slider dei round, spessore = intensità, archi creati/tagliati, pop-up sui cambi di stato).
 - **Log dettagliato delle decisioni progettuali** → `docs/decisioni_progetto.md`
   (il "diario di bordo": tutte le scelte, i problemi e le soluzioni, blocco per blocco —
@@ -54,7 +55,7 @@ thesis_project/
 │       ├── extracted_json/<ISO3>/     # Blocco A: 476 profili qualitativi (LLM)
 │       ├── nodi/<ISO3>/               # Blocco B: profili arricchiti (LLM + numeri CSV)
 │       ├── graphs/                    # Blocco B: grafo.pickle, archi.csv, grafo_mappa.html
-│       └── simulazioni/<scenario>/<modello>/   # Blocco C: risultato.json + mappa.html
+│       └── simulazioni/<test>/<scenario>/<modello>/  # Blocco C: risultato.json + mappa.html
 │
 ├── notebooks/
 │   ├── 01_data_collection.ipynb
@@ -94,7 +95,7 @@ archi: **EuRepoC** (dati datati 2018-2024) in unione con CFR — vedi `src/graph
 
 **Blocco C — simulazione (HPC, 3 modelli aperti via Ollama)**
 ```bash
-qsub scripts_hpc/simulazione_blocco_c.pbs       # 7 scenari × qwen2.5:32b, llama3.3:70b, gemma2:27b
+qsub scripts_hpc/simulazione_blocco_c.pbs       # 2o test: 7 scenari × llama3.3:70b, qwen2.5:72b, nemotron:70b (10 round)
 ```
 Prova locale senza HPC (reazioni finte): `python -m src.simulation.run_simulazione --mock`.
 Per esplorare/confrontare i risultati: `notebooks/04_oasis_simulation.ipynb`.

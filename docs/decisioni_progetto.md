@@ -1,15 +1,13 @@
 # Log delle decisioni di progetto
 
-Tieni qui traccia delle decisioni prese (con il tutor o autonomamente), con data.
-Utile per scrivere la sezione metodologica della tesi senza doverti ricordare a memoria perche' hai fatto certe scelte.
 
 ## 2026-07-04
-- Definita la lista dei 16 paesi (vedi `config/countries.yaml`), organizzati in 4 gruppi: attori cyber, alta instabilita', bersagli cyber, casi di controllo.
+- Definita la lista dei 17 paesi (vedi `config/countries.yaml`), organizzati in 4 gruppi: attori cyber, alta instabilita', bersagli cyber, casi di controllo.
 - Periodo di riferimento: 2018-Q1 - 2024-Q4, granularita' trimestrale.
 - Struttura di progetto definita: config / data (raw + processed) / notebooks / src / outputs / scripts_hpc / docs.
 
 ## 2026-07-05
-- al momento per acled ho preso solo i il due file: 
+- al momento per acled ho preso solo due file: 
     - il primo: conta il numero totale di episodi di violenza politica (es. battaglie, esplosioni, violenze contro i civili, rivolte) per ogni country
     - il secondo: conta il numero totale di vittime (morti confermate o stimate) causate da quegli stessi conflitti e violenze.
 
@@ -926,6 +924,45 @@ tema chiaro/scuro, zoom/pan. Mostra il SOTTOGRAFO COINVOLTO per restare leggibil
   "dimensione".
 - Piu' round (es. 8-10) per il 70b, che tocca il tetto di 5 in 4/7 scenari.
 - Prompt che incoraggi anche indebolisci/taglia, o uno scenario di rottura.
+
+## 2026-09-12 - Blocco C: secondo test (stessa fascia + più round)
+
+### Organizzazione per esperimento
+I risultati delle simulazioni ora stanno sotto un livello "test":
+`data/processed/simulazioni/<test>/<scenario>/<modello>/`. Il primo giro e' stato
+spostato in `test1_baseline` (modelli di taglie diverse: qwen2.5:32b, llama3.3:70b,
+gemma2:27b; 5 round). Il runner accetta `--test <etichetta>` e `--round N`; il
+launcher HPC ha i default del 2o test.
+
+### 2o test: cosa cambia (e perche')
+- **Stessa fascia di parametri**: 3 modelli ~70B di famiglie diverse -
+  `llama3.3:70b`, `qwen2.5:72b`, `nemotron:70b`. Motivo: nel 1o test la variabile
+  dominante era la DIMENSIONE (il piu' grande vinceva). A parita' di taglia si isola
+  l'effetto "famiglia/addestramento", domanda piu' interessante.
+- **Round aumentati a 10** (da 5). Motivo: nel 1o test llama3.3:70b toccava il TETTO
+  di 5 round in 4 scenari su 7, quindi lo stavamo "tagliando". Con 10 si vede se le
+  catene convergono da sole o degenerano.
+- Etichetta esperimento: `test2_stessa_fascia_round10`.
+
+### Prompt ed esempi: NON toccati (scelta metodologica)
+Per il 2o test il prompt e gli esempi restano IDENTICI al 1o, di proposito: cosi'
+le uniche variabili che cambiano sono la fascia dei modelli e il numero di round,
+e il confronto e' pulito. Nel 1o test il prompt si era gia' dimostrato preciso
+(0 errori di formato/vocabolario). La rielaborazione del prompt/esempi (es.
+mostrare/incoraggiare anche indebolisci e taglia, che nessun modello ha mai usato)
+e' tenuta come ESPERIMENTO SEPARATO futuro, cosi' un eventuale cambio di
+comportamento sara' attribuibile solo a quello.
+
+### Note operative
+- 3 modelli ~70B ⇒ ~120 GB di download/disco: il job li scarica da solo (con
+  `module load proxy`); in alternativa pre-pull in interattivo. 1 GPU basta (il 70B
+  gia' girava nel 1o test).
+- Walltime del PBS portato a 12h; comunque resumable (rilanciando salta le run gia'
+  fatte).
+
+### Prossimi passi (chiesti dallo studente, dopo questo test)
+- Modello "as a judge" per valutare le run + piccole accortezze.
+- Eventuale prompt che incoraggi rafforza/indebolisci (da decidere dopo i risultati).
 
 
 
