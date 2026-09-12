@@ -74,6 +74,9 @@ class Evento:
 SCHEMA_AZIONE = {
     "type": "object",
     "properties": {
+        "ragionamento": {"type": "string",
+                         "description": "Come sei arrivato alla decisione (2-3 frasi): "
+                                        "cosa dello stato/storia/evento ti porta a reagire cosi'."},
         "reazione_breve": {"type": "string"},
         "aggiornamenti_stato": {
             "type": "object",
@@ -110,5 +113,5 @@ SCHEMA_AZIONE = {
 }
 
 # Risposta "vuota" valida (usata come fallback se il parsing fallisce del tutto).
-AZIONE_VUOTA = {"reazione_breve": "", "aggiornamenti_stato": {},
+AZIONE_VUOTA = {"ragionamento": "", "reazione_breve": "", "aggiornamenti_stato": {},
                 "azioni_su_archi": [], "genera_eventi": []}

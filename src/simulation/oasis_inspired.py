@@ -96,6 +96,7 @@ def crea_prompt(scheda: dict, evento, relazione_mittente=None) -> str:
 
     schema_esempio = (
         '{\n'
+        '  "ragionamento": "2-3 frasi su COME arrivi alla decisione: cosa dello stato/storia/evento ti porta a reagire cosi",\n'
         '  "reazione_breve": "max 2-3 frasi su come reagisce il Paese",\n'
         '  "aggiornamenti_stato": {"carestia.livello_ipc": "fase4_emergenza", "migrazione.rifugiati": 120000},\n'
         '  "azioni_su_archi": [\n'
@@ -135,7 +136,7 @@ testo: "{ev.get('testo')}"
 provenienza: {prov}
 
 ### IL TUO COMPITO
-Valuta se e come l'evento influenza la tua situazione. Aggiorna SOLO i campi che cambiano davvero. Modifica gli archi solo se l'evento lo giustifica. Genera nuovi eventi solo verso Paesi con cui hai (o crei) una relazione, scegliendo tu i destinatari. Se l'evento non ti riguarda, rispondi con reazione neutra e liste vuote.
+In 'ragionamento' spiega SEMPRE, in 2-3 frasi, COME arrivi alla tua decisione: cosa del tuo stato, della tua storia e dell'evento ti porta a reagire cosi'. Poi valuta se e come l'evento influenza la tua situazione. Aggiorna SOLO i campi che cambiano davvero. Modifica gli archi solo se l'evento lo giustifica. Genera nuovi eventi solo verso Paesi con cui hai (o crei) una relazione, scegliendo tu i destinatari. Se l'evento non ti riguarda, spiega comunque il perche' in 'ragionamento' e rispondi con reazione neutra e liste vuote.
 
 ### REGOLE (rispettale tutte)
 - Rispondi ESCLUSIVAMENTE con un oggetto JSON valido: nessun testo fuori dal JSON, niente markdown, niente commenti.
@@ -196,6 +197,7 @@ def chiama_llm_e_parsa(prompt: str, responder, tentativi: int = 3) -> dict:
             continue
         azione = estrai_json(testo)
         if azione is not None and _valida(azione):
+            azione.setdefault("ragionamento", "")
             azione.setdefault("aggiornamenti_stato", {})
             azione.setdefault("azioni_su_archi", [])
             azione.setdefault("genera_eventi", [])
@@ -290,6 +292,7 @@ def simula(evento_iniziale: Evento, responder, n_round: int = 5, verbose: bool =
                     nuova.append(e); eventi_ev.append(e.as_dict())
 
             storico.append({"round": r, "paese": target,
+                            "ragionamento": azione.get("ragionamento", ""),
                             "reazione": azione.get("reazione_breve", ""),
                             "aggiornamenti_stato": azione.get("aggiornamenti_stato", {}),
                             "archi": archi_ev, "eventi_generati": eventi_ev})

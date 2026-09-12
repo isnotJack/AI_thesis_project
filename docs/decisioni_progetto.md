@@ -964,6 +964,20 @@ comportamento sara' attribuibile solo a quello.
 - Modello "as a judge" per valutare le run + piccole accortezze.
 - Eventuale prompt che incoraggi rafforza/indebolisci (da decidere dopo i risultati).
 
+### Aggiunta: campo `ragionamento` + vista "dialogo" (prima di lanciare il 2o test)
+Su richiesta, per poter vedere COME ogni modello arriva alle sue scelte: aggiunto
+al JSON dell'agente il campo `ragionamento` (2-3 frasi, prodotto PRIMA della
+decisione, quindi funge anche da leggero chain-of-thought). Viene salvato nello
+storico. Nuovo modulo `src/simulation/dialogo.py`: per ogni scenario genera
+`dialogo.html`, una COLONNA per modello affiancata, con round-per-round il
+ragionamento + reazione + cambi di stato/archi + eventi generati. Il launcher HPC
+genera i dialoghi a fine job; c'e' anche una sezione nel notebook 04.
+NB metodologica: `ragionamento` e' una modifica al prompt (contraddice il "prompt
+invariato" scelto sopra), ma si applica a tutti e 3 i modelli del 2o test, quindi
+il confronto TRA loro resta valido. Essendo un campo nuovo, i risultati PARZIALI
+del 2o test gia' prodotti vanno cancellati prima di rilanciare (il runner e'
+resumable e altrimenti terrebbe le run col vecchio prompt).
+
 
 
 

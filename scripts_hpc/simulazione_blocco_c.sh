@@ -50,4 +50,7 @@ for M in $MODELLI; do
       --round "$ROUND" --test "$TEST"
 done
 
-echo "== fatto. risultati in data/processed/simulazioni/ =="
+echo "== genero i dialoghi affiancati (confronto del ragionamento tra modelli) =="
+python3 -m src.simulation.dialogo --test "$TEST" || true
+
+echo "== fatto. risultati in data/processed/simulazioni/$TEST/ =="
