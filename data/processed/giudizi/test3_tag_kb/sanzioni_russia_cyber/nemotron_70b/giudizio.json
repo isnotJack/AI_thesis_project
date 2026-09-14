@@ -1,0 +1,48 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "sanzioni_russia_cyber",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 82.0,
+    "fedelta_grounding": 78.0,
+    "motivazione": "La coerenza delle reazioni e degli aggiornamenti con i dati della KB è generalmente buona, ma ci sono alcuni casi in cui le azioni potrebbero essere più specifiche o allineate ai contesti. La fedeltà al grounding è abbastanza elevata, anche se in alcuni casi si potrebbe fare un uso migliore dei tag 'base_kb' per giustificare le scelte. La plausibilità della catena di propagazione è generalmente sensata dal punto di vista geopolitico, con alcune escalation che potrebbero essere gestite con maggiore cautela.",
+    "evidenze": [
+      {
+        "osservazione": "Aumento degli incidenti cyber porta a rafforzare la postura cyber",
+        "riferimento": "round 10/CHN"
+      },
+      {
+        "osservazione": "Richiesta di chiarimenti sulla collaborazione RUS-IRN in materia di sicurezza informatica",
+        "riferimento": "round 10/USA"
+      },
+      {
+        "osservazione": "Accusa di collusione tra USA e Russia nella sorveglianza informatica",
+        "riferimento": "round 10/CHN"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 145,
+    "grounded": 126,
+    "perc_grounded": 86.9,
+    "distribuzione": {
+      "cyber": 9,
+      "conoscenza_generale": 19,
+      "evento": 60,
+      "azione_su_arco": 7,
+      "evento, cyber": 21,
+      "evento, cyber, conoscenza_generale": 2,
+      "relazioni": 1,
+      "azioni_su_archi": 14,
+      "conoscenza_generale, evento": 1,
+      "cyber, relazioni": 1,
+      "evento, cyber, relazioni": 2,
+      "azione_su_arco, cyber": 2,
+      "conoscenza_generale, relazioni": 2,
+      "evento, relazioni": 4
+    }
+  }
+}

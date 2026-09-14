@@ -1,0 +1,38 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "spionaggio_cina",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 85.0,
+    "motivazione": "Il dialogo tra i paesi è generalmente coerente con le informazioni presenti nella KB. Le reazioni e gli aggiornamenti di stato sono per lo più appropriati in base al contesto e alle relazioni esistenti. Tuttavia, ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, come ad esempio quando un paese prende decisioni che non sembrano allineate con il proprio ruolo o situazione economica.",
+    "evidenze": [
+      {
+        "osservazione": "La Russia rafforza la sua postura cyber in risposta agli avvertimenti di attacchi informatici dalla Cina e dall'Ucraina, mostrando una reazione coerente al contesto.",
+        "riferimento": "round 7/RUS e round 10/RUS"
+      },
+      {
+        "osservazione": "Gli Stati Uniti accettano le richieste di cooperazione nella sicurezza informatica da parte dell'Ucraina e della Russia, dimostrando coerenza con la propria relazione 'cyber'.",
+        "riferimento": "round 8/USA e round 10/USA"
+      },
+      {
+        "osservazione": "L'Ucraina aumenta la sua minaccia cyber verso la Russia in risposta all'avvertimento di escalation del conflitto, coerentemente con il contesto.",
+        "riferimento": "round 9/UKR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 69,
+    "grounded": 59,
+    "perc_grounded": 85.5,
+    "distribuzione": {
+      "cyber": 27,
+      "conoscenza_generale": 10,
+      "evento": 30,
+      "conflitto": 2
+    }
+  }
+}

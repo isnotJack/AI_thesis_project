@@ -1,0 +1,35 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "guerra_yemen",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 65.0,
+    "coerenza_kb": 70.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 40.0,
+    "motivazione": "La coerenza con la knowledge base è buona, in quanto le reazioni e gli aggiornamenti riflettono accuratamente il contesto del conflitto yemenita. Tuttavia, ci sono alcune imprecisioni nel grounding dei dati, in particolare nella citazione di 'conoscenza generale' quando i dati specifici erano disponibili. La plausibilità geopolitica è alta, con una reazione sensata all'evento iniziale.",
+    "evidenze": [
+      {
+        "osservazione": "Aumento dei flussi migratori verso l'Egitto",
+        "riferimento": "round 1/YEM"
+      },
+      {
+        "osservazione": "'conoscenza generale' citata quando i dati erano disponibili",
+        "riferimento": "round 1/YEM, base_kb"
+      },
+      {
+        "osservazione": "Reazione sensata all'offensiva militare",
+        "riferimento": "round 1/YEM"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 2,
+    "grounded": 2,
+    "perc_grounded": 100.0,
+    "distribuzione": {
+      "evento": 2
+    }
+  }
+}

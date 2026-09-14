@@ -1,0 +1,46 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "guerra_yemen",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 70.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "Il dialogo presenta una coerenza generale con i dati della KB, con reazioni e azioni che rispecchiano il contesto geopolitico. Tuttavia, ci sono alcuni punti in cui la propagazione potrebbe essere più accurata o coerente. La plausibilità è buona, ma ci sono alcune escalation che potrebbero essere gestite in modo più diplomatico. Il grounding è generalmente corretto, ma ci sono casi in cui le scelte non derivano direttamente dai dati della KB.",
+    "evidenze": [
+      {
+        "osservazione": "La reazione dell'Ucraina all'aumento della presenza militare russa potrebbe essere stata gestita con maggiore cautela per evitare un'escalation.",
+        "riferimento": "round 9/Ucraina"
+      },
+      {
+        "osservazione": "L'Estonia non ha incidenti cyber noti, quindi la sua decisione di rafforzare le difese cibernetiche è coerente.",
+        "riferimento": "round 10/Estonia"
+      },
+      {
+        "osservazione": "La reazione degli Stati Uniti alla partnership Cina-Iran potrebbe essere stata più ponderata, considerando il ruolo dell'Iran come 'entrambi' nel cyberspazio.",
+        "riferimento": "round 10/USA"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 58,
+    "grounded": 53,
+    "perc_grounded": 91.4,
+    "distribuzione": {
+      "evento, migrazione": 1,
+      "evento, militare": 2,
+      "evento, carestia": 1,
+      "conflitto": 8,
+      "evento": 21,
+      "conoscenza_generale": 5,
+      "cyber": 7,
+      "azioni_su_archi": 6,
+      "evento, cyber": 2,
+      "conoscenza_generale, cyber": 2,
+      "azioni_su_archi, conoscenza_generale": 1,
+      "azione_su_arco": 2
+    }
+  }
+}

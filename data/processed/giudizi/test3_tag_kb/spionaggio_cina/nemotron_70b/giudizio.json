@@ -1,0 +1,48 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "spionaggio_cina",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 82.0,
+    "fedelta_grounding": 78.0,
+    "motivazione": "La coerenza con la KB è generalmente buona, con reazioni e azioni che riflettono accuratamente i dati forniti. La plausibilità della catena di propagazione è alta, con una gestione sensata delle relazioni geopolitiche. Tuttavia, ci sono alcune incoerenze minori nei punteggi numerici e nella scelta dei tag base_kb, che hanno portato a una leggera penalizzazione.",
+    "evidenze": [
+      {
+        "osservazione": "Reazioni appropriate alle accuse di hacking",
+        "riferimento": "round 10/USA"
+      },
+      {
+        "osservazione": "Uso inappropriato del tag 'conoscenza_generale' quando i dati erano disponibili nella KB",
+        "riferimento": "round 9/USA, round 10/RUS"
+      },
+      {
+        "osservazione": "Escalation coerente nel conflitto Russo-Ucraino",
+        "riferimento": "round 10/RUS"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 81,
+    "grounded": 73,
+    "perc_grounded": 90.1,
+    "distribuzione": {
+      "cyber": 5,
+      "evento": 30,
+      "evento, cyber": 16,
+      "conoscenza_generale": 8,
+      "azioni_su_archi": 7,
+      "evento, conoscenza_generale": 1,
+      "azione_su_archi, evento": 1,
+      "conoscenza_generale, cyber": 2,
+      "azione_su_archi": 1,
+      "azione_su_arco": 3,
+      "evento, cyber, relazioni": 1,
+      "conflitto": 4,
+      "azioni_su_archi, cyber": 1,
+      "migrazione": 1
+    }
+  }
+}

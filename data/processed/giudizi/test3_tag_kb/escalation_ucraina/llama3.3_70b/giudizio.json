@@ -1,0 +1,44 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "escalation_ucraina",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 65.0,
+    "coerenza_kb": 70.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 60.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), gestendo in modo plausibile le reazioni e gli aggiornamenti di stato. Tuttavia, ci sono stati alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto quando si tratta di citare fonti specifiche dalla KB. La catena di propagazione è generalmente sensata dal punto di vista geopolitico, con reazioni che riflettono le relazioni tra i paesi e gli eventi in corso.",
+    "evidenze": [
+      {
+        "osservazione": "Le azioni dell'Ucraina nel cercare aiuto internazionale sono coerenti con il contesto del conflitto e la KB.",
+        "riferimento": "round 1/UKR"
+      },
+      {
+        "osservazione": "La Russia risponde agli scontri militari rafforzando le proprie forze, in linea con la sua postura militare.",
+        "riferimento": "round 4/RUS"
+      },
+      {
+        "osservazione": "Gli Stati Uniti aumentano il sostegno militare all'Ucraina, considerando i loro interessi strategici e la relazione esistente.",
+        "riferimento": "round 6/USA"
+      },
+      {
+        "osservazione": "'conoscenza_generale' viene utilizzata quando ci sono dati specifici nella KB che potrebbero essere stati citati.",
+        "riferimento": "round 1/UKR, round 2/RUS"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 37,
+    "grounded": 36,
+    "perc_grounded": 97.3,
+    "distribuzione": {
+      "migrazione": 8,
+      "conoscenza_generale": 1,
+      "conflitto": 15,
+      "evento": 10,
+      "cyber": 2,
+      "relazioni": 1
+    }
+  }
+}

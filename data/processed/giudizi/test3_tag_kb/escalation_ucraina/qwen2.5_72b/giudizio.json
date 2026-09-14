@@ -1,0 +1,31 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "escalation_ucraina",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 100.0,
+    "fedelta_grounding": 80.0,
+    "motivazione": "La reazione dell'Ucraina è coerente con il contesto di conflitto e l'aumento dei rifugiati descritto nella KB. La catena di eventi è plausibile dal punto di vista geopolitico, con un'escalation militare che porta a flussi migratori verso paesi vicini. Tuttavia, ci sono alcune imprecisioni nei tag base_kb, dove in alcuni casi la scelta sembra derivare da una conoscenza generale piuttosto che dalla KB specifica.",
+    "evidenze": [
+      {
+        "osservazione": "Aumento dei rifugiati ucraini verso Polonia e Romania",
+        "riferimento": "round 1/UKR"
+      },
+      {
+        "osservazione": "Tag base_kb non sempre corretti, uso di 'evento' invece di dati specifici della KB",
+        "riferimento": "round 1/UKR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 4,
+    "grounded": 4,
+    "perc_grounded": 100.0,
+    "distribuzione": {
+      "evento": 4
+    }
+  }
+}

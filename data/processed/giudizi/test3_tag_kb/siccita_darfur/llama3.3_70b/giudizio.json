@@ -1,0 +1,32 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "siccita_darfur",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 65.0,
+    "coerenza_kb": 70.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 40.0,
+    "motivazione": "La reazione del Sudan all'evento iniziale è coerente con la situazione di carestia e migrazione descritta nella knowledge base. L'aumento dei flussi migratori verso i Paesi confinanti, in particolare l'Egitto, è una risposta plausibile dal punto di vista geopolitico. Tuttavia, ci sono alcune imprecisioni nel grounding, dove l'agente cita 'conoscenza generale' quando invece i dati specifici erano disponibili nella KB.",
+    "evidenze": [
+      {
+        "osservazione": "Reazione del Sudan e aumento dei flussi migratori",
+        "riferimento": "round 1/SDN"
+      },
+      {
+        "osservazione": "'Conoscenza generale' citata come base, quando i dati erano presenti nella KB",
+        "riferimento": "round 1/SDN"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 2,
+    "grounded": 2,
+    "perc_grounded": 100.0,
+    "distribuzione": {
+      "migrazione": 1,
+      "evento": 1
+    }
+  }
+}

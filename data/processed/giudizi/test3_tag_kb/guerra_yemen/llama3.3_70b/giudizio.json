@@ -1,0 +1,41 @@
+{
+  "test": "test3_tag_kb",
+  "scenario": "guerra_yemen",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "giudizio": {
+    "punteggio": 65.0,
+    "coerenza_kb": 70.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 40.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), soprattutto per quanto riguarda gli aggiornamenti di stato e le azioni intraprese. La catena di propagazione è plausibile dal punto di vista geopolitico, mostrando una comprensione delle dinamiche regionali. Tuttavia, ci sono alcune imprecisioni nel grounding dei dati, in particolare l'uso di 'conoscenza generale' quando i dati specifici erano disponibili nella KB.",
+    "evidenze": [
+      {
+        "osservazione": "Aumento dei flussi migratori verso paesi vicini",
+        "riferimento": "round 1/YEM"
+      },
+      {
+        "osservazione": "'base_kb=migrazione · aumento dei flussi migratori' e 'base_kb=conoscenza_generale · nuovo flusso migratorio'",
+        "riferimento": "azioni di YEM nel round 1"
+      },
+      {
+        "osservazione": "Livello IPC aggiornato a fase5_carestia",
+        "riferimento": "aggiornamenti di YEM nel round 1"
+      },
+      {
+        "osservazione": "Uso di 'conoscenza generale' quando i dati specifici sulla migrazione erano disponibili",
+        "riferimento": "'base_kb=conoscenza_generale · nuovo flusso migratorio' nell'azione verso TUR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 4,
+    "grounded": 2,
+    "perc_grounded": 50.0,
+    "distribuzione": {
+      "migrazione": 1,
+      "conoscenza_generale": 2,
+      "evento": 1
+    }
+  }
+}
