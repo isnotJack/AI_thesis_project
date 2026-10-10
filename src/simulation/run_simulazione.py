@@ -33,11 +33,13 @@ test_disponibili(), riepilogo().
 
 import argparse
 import json
+import sys
 import time
 from pathlib import Path
 
 from src.simulation.mappa_sim import genera
-from src.simulation.oasis_inspired import responder_mock, responder_ollama, simula
+from src.simulation.oasis_inspired import (ServerNonDisponibile, responder_mock,
+                                           responder_ollama, simula)
 from src.simulation.scenari import SCENARI, SCENARI_BACKTEST, trova
 
 BASE = Path(__file__).resolve().parents[2]
@@ -141,9 +143,16 @@ def main():
         scenari = [a.scenario]
     else:
         scenari = list(SCENARI_BACKTEST) if a.backtest else list(SCENARI)
+    falliti = []
     for s in scenari:
-        esegui(test, s, modello, responder, n_round=a.round, forza=a.forza, seed=a.seed)
+        try:
+            esegui(test, s, modello, responder, n_round=a.round, forza=a.forza, seed=a.seed)
+        except ServerNonDisponibile as e:      # nulla viene salvato: al rilancio si rifa'
+            print(f"[ERRORE] {test} / {s} / {modello}: il server non risponde ({e}). NON salvato.")
+            falliti.append(s)
     print(f"\nFatto. Output in {OUT / test}/")
+    if falliti:
+        sys.exit(f"Esecuzioni non riuscite (da rifare rilanciando): {falliti}")
 
 
 if __name__ == "__main__":

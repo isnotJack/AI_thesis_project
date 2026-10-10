@@ -31,7 +31,11 @@ python3 -m pip install -q -r requirements.txt 2>/dev/null || true
 
 export OLLAMA_HOST="127.0.0.1:${PORT}"
 export OLLAMA_FLASH_ATTENTION=1
-export CUDA_VISIBLE_DEVICES="${CUDA_VISIBLE_DEVICES:-0}"
+# GPU: NON si forza piu' la GPU 0 (prima: CUDA_VISIBLE_DEVICES=0 sempre). Se PBS indica
+# le GPU del job si usano quelle, altrimenti Ollama vede le GPU del nodo (intero, vedi
+# .pbs) e mette ogni modello sul minor numero di GPU in cui entra.
+echo "== risorse: NCPUS=${NCPUS:-?} CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-non impostata} =="
+nvidia-smi --query-gpu=index,name,memory.used,memory.total,utilization.gpu --format=csv 2>/dev/null || true
 
 echo "== $(date '+%F %T') avvio ollama serve (porta ${PORT}) =="
 ollama serve > scripts_hpc/log_ollama_test4.log 2>&1 &

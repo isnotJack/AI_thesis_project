@@ -203,10 +203,10 @@ def _num(v):
 
 
 def parsa_giudizio(prompt: str, responder, tentativi: int = 3) -> dict:
-    for _ in range(tentativi):
-        try:
-            testo = responder(prompt)
-        except Exception:
+    errori = []
+    for k in range(tentativi):
+        testo = oi.chiama(responder, prompt, errori, k)
+        if testo is None:
             continue
         g = oi.estrai_json(testo)
         if isinstance(g, dict) and "punteggio" in g:
@@ -221,6 +221,8 @@ def parsa_giudizio(prompt: str, responder, tentativi: int = 3) -> dict:
                 except jsonschema.ValidationError:
                     pass
             return g
+    if len(errori) == tentativi:
+        raise oi.ServerNonDisponibile(str(errori[-1])[:300])
     return dict(GIUDIZIO_VUOTO)
 
 
@@ -256,7 +258,16 @@ def valuta(test: str, scenario: str, modello: str, responder, giudice: str,
 def valuta_tutti(test: str, responder, giudice: str, forza: bool = False):
     for s in scenari_disponibili(test):
         for m in modelli_disponibili(test, s):
-            valuta(test, s, m, responder, giudice, forza=forza)
+            valuta_sicuro(test, s, m, responder, giudice, forza=forza)
+
+
+def valuta_sicuro(test, scenario, modello, responder, giudice, forza=False):
+    """Come valuta(), ma se il server del giudice non risponde non salva nulla."""
+    try:
+        valuta(test, scenario, modello, responder, giudice, forza=forza)
+    except oi.ServerNonDisponibile as e:
+        print(f"[ERRORE] giudizio {test} / {scenario} / {modello}: il server non risponde "
+              f"({e}). NON salvato.")
 
 
 # --------------------------------------------------------------------------- #
@@ -300,7 +311,7 @@ def main():
 
     if a.scenario:
         for m in modelli_disponibili(a.test, a.scenario):
-            valuta(a.test, a.scenario, m, responder, giudice, forza=a.forza)
+            valuta_sicuro(a.test, a.scenario, m, responder, giudice, forza=a.forza)
     else:
         valuta_tutti(a.test, responder, giudice, forza=a.forza)
     print(f"\nGiudizi in {GIUD / a.test}/")

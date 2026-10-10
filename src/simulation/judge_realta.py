@@ -116,11 +116,10 @@ def parsa(prompt: str, responder, ver: dict, tentativi: int = 3) -> dict:
     Un fatto senza etichetta valida resta 'non valutato' (None). Se dopo tutti i
     tentativi il JSON resta invalido, si usano le voci intere recuperate dal testo."""
     ids = [f["id"] for f in ver["fatti"]]
-    recuperato = None
-    for _ in range(tentativi):
-        try:
-            testo = responder(prompt)
-        except Exception:
+    recuperato, errori = None, []
+    for k in range(tentativi):
+        testo = oi.chiama(responder, prompt, errori, k)
+        if testo is None:
             continue
         g = oi.estrai_json(testo)
         if g is None and recuperato is None:
@@ -138,6 +137,8 @@ def parsa(prompt: str, responder, ver: dict, tentativi: int = 3) -> dict:
         sv = [x for x in (g.get("sviluppi_non_accaduti") or []) if isinstance(x, dict)]
         return {"etichette": etich, "sviluppi_non_accaduti": sv[:8],
                 "motivazione": g.get("motivazione", "")}
+    if len(errori) == tentativi:
+        raise oi.ServerNonDisponibile(str(errori[-1])[:300])
     if recuperato:
         etich = {}
         for x in recuperato["fatti"]:
@@ -248,7 +249,11 @@ def main():
                                         temperature=0.0, seed=0, num_predict=4096)
     for s in scenari_disponibili(a.test):
         for m in modelli_disponibili(a.test, s):
-            valuta(a.test, s, m, responder, giudice, verita, forza=a.forza)
+            try:
+                valuta(a.test, s, m, responder, giudice, verita, forza=a.forza)
+            except oi.ServerNonDisponibile as e:   # nulla viene salvato
+                print(f"[ERRORE] giudizio di realta' {a.test} / {s} / {m}: il server non "
+                      f"risponde ({e}). NON salvato.")
     print(f"\nGiudizi di realta' in {GIUD / a.test}/")
 
 

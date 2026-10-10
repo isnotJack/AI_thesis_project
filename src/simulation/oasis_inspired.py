@@ -17,7 +17,9 @@ mock, e in produzione gira su Ollama (HPC) con modelli diversi da confrontare.
 """
 
 import json
+import os
 import re
+import time
 
 from src.simulation import schemi
 from src.simulation.ambiente import Ambiente, iso3_valido
@@ -196,13 +198,34 @@ def _valida(azione: dict) -> bool:
     return True
 
 
+class ServerNonDisponibile(RuntimeError):
+    """Il server del modello non ha risposto (es. modello che non entra in GPU). Non e'
+    una risposta del modello: il risultato NON va salvato, cosi' al rilancio si rifa'.
+    (Prima un errore del server diventava una reazione vuota salvata come valida.)"""
+
+
+ATTESA_ERRORE_S = 15     # pausa crescente fra un tentativo fallito e il successivo
+
+
+def chiama(responder, prompt: str, errori: list, k: int):
+    """Una chiamata al modello. Se il SERVER fallisce, registra l'errore, attende e
+    ritorna None (il chiamante riprova); un testo inutilizzabile invece ritorna."""
+    try:
+        return responder(prompt)
+    except Exception as e:
+        errori.append(e)
+        time.sleep(ATTESA_ERRORE_S * (k + 1))
+        return None
+
+
 def chiama_llm_e_parsa(prompt: str, responder, tentativi: int = 3) -> dict:
     """Chiama il modello (responder: prompt->testo) con retry finche' il JSON
-    non e' valido; in caso di fallimento totale ritorna un'azione vuota."""
-    for _ in range(tentativi):
-        try:
-            testo = responder(prompt)
-        except Exception:
+    non e' valido; se il modello risponde sempre male ritorna un'azione vuota, se
+    invece il server non risponde mai solleva ServerNonDisponibile."""
+    errori = []
+    for k in range(tentativi):
+        testo = chiama(responder, prompt, errori, k)
+        if testo is None:
             continue
         azione = estrai_json(testo)
         if azione is not None and _valida(azione):
@@ -212,7 +235,26 @@ def chiama_llm_e_parsa(prompt: str, responder, tentativi: int = 3) -> dict:
             azione.setdefault("genera_eventi", [])
             azione.setdefault("basi_kb", [])
             return azione
+    if len(errori) == tentativi:
+        raise ServerNonDisponibile(str(errori[-1])[:300])
     return dict(AZIONE_VUOTA)
+
+
+def thread_assegnati():
+    """Core assegnati al job: NCPUS (PBS) o, su Linux, i core dell'affinita' del processo
+    se ristretti. Ollama di default usa i core dell'INTERO nodo (48 su Leonardo): su un
+    nodo condiviso, 48 thread su 8 core rallentano di decine di volte gli strati del
+    modello che non entrano in GPU (test 4: oltre 10 minuti per risposta)."""
+    v = os.environ.get("NCPUS", "")
+    if v.isdigit() and int(v) > 0:
+        return int(v)
+    try:
+        n = len(os.sched_getaffinity(0))
+        if n < (os.cpu_count() or n):
+            return n
+    except AttributeError:          # macOS: nessuna affinita', si lascia il default
+        pass
+    return None
 
 
 def responder_ollama(modello: str, host: str = None, num_ctx: int = 8192,
@@ -228,6 +270,9 @@ def responder_ollama(modello: str, host: str = None, num_ctx: int = 8192,
         opzioni["seed"] = int(seed)
     if num_predict is not None:              # tetto esplicito ai token generati
         opzioni["num_predict"] = int(num_predict)
+    nt = thread_assegnati()                  # solo velocita': le risposte non cambiano
+    if nt:
+        opzioni["num_thread"] = nt
 
     extra = {"format": formato} if formato else {}     # formato=None/"" -> testo libero
 

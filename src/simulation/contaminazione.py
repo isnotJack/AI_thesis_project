@@ -28,7 +28,7 @@ import argparse
 import json
 from pathlib import Path
 
-from src.simulation.oasis_inspired import responder_ollama
+from src.simulation.oasis_inspired import ServerNonDisponibile, chiama, responder_ollama
 from src.simulation.run_simulazione import _safe
 
 BASE = Path(__file__).resolve().parents[2]
@@ -74,10 +74,13 @@ def _indizi(id_domanda: str, risposta: str) -> list:
 def interroga(modello: str, responder, opzioni: dict = None) -> dict:
     out = {"modello": modello, "opzioni": opzioni, "risposte": []}
     for d in DOMANDE:
-        try:
-            r = responder(d["testo"])
-        except Exception as e:            # una domanda fallita non ferma le altre
-            r = f"(errore: {e})"
+        errori, r = [], None
+        for k in range(3):
+            r = chiama(responder, d["testo"], errori, k)
+            if r is not None:
+                break
+        if r is None:                     # il server non risponde: non si salva nulla
+            raise ServerNonDisponibile(str(errori[-1])[:300])
         out["risposte"].append({"id": d["id"], "domanda": d["testo"], "risposta": r,
                                 "indizi": _indizi(d["id"], r)})
     out["indizi_totali"] = {x["id"]: x["indizi"] for x in out["risposte"] if x["id"] in INDIZI}
@@ -105,10 +108,15 @@ def main():
                                      temperature=OPZIONI["temperature"], seed=OPZIONI["seed"],
                                      formato="", num_predict=OPZIONI["num_predict"])
     f = OUT / f"{_safe(modello)}.json"
-    if f.exists() and not a.forza:
+    # si salta solo un file completo: uno con risposte d'errore (prima versione) si rifa'
+    if f.exists() and not a.forza and "(errore:" not in f.read_text(encoding="utf-8"):
         print(f"[skip] contaminazione {modello} (gia' fatta)")
         return
-    res = interroga(modello, responder, None if a.mock else OPZIONI)
+    try:
+        res = interroga(modello, responder, None if a.mock else OPZIONI)
+    except ServerNonDisponibile as e:
+        print(f"[ERRORE] contaminazione {modello}: il server non risponde ({e}). NON salvata.")
+        return
     OUT.mkdir(parents=True, exist_ok=True)
     f.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[ok  ] contaminazione {modello} -> {f}  indizi: {res['indizi_totali']}")

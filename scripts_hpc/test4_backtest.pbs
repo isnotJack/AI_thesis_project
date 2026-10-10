@@ -1,12 +1,15 @@
 #!/bin/bash
 #PBS -N test4_backtest
 #PBS -q gpu
-#PBS -l select=1:ncpus=8:ngpus=1,walltime=20:00:00
+#PBS -l select=1:ncpus=32:ngpus=4,walltime=20:00:00
 #PBS -o scripts_hpc/log_test4.out
 #PBS -e scripts_hpc/log_test4.err
 
-# Job PBS del test 4 (backtest su eventi reali del 2025). 1 GPU: i modelli girano
-# in sequenza. Tutto il lavoro e' nel launcher (vedi i commenti in test4_backtest.sh).
+# Job PBS del test 4 (backtest su eventi reali del 2025). Nodo INTERO (4 GPU, 32 core),
+# come nel Blocco A: un modello da 70B si divide su 2 GPU e sta tutto in memoria video
+# (con 1 GPU da 40 GB 5 strati finivano sulla CPU), e nessun altro job condivide le
+# nostre GPU o i nostri core. Prima run con 1 GPU: risposte di oltre 10 minuti e un
+# modello che non entrava in GPU. Tutto il lavoro e' nel launcher (test4_backtest.sh).
 #
 # Uso (dalla root del progetto):
 #   cd ~/AI_thesis_project
