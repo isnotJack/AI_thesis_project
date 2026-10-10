@@ -19,7 +19,8 @@ che la simulazione ha fatto con la verita' di riferimento (config/verita_backtes
   cooperazione (stessa classificazione per parole chiave del test 3), per verificare
   la correzione introdotta con il tipo 'cooperazione'.
 - STATO: variazioni di stato attese (es. sfollati interni in aumento).
-- piu' ancoraggio (tag base_kb), punteggio del giudice con la verita' (se presente),
+- piu' ancoraggio (tag base_kb), punteggi dei giudici con la verita' (uno per giudice,
+  solo giudizi a blocchi: quelli troncati della prima versione si ignorano),
   risposte, round e durata.
 
 Le stesse metriche si applicano a PREVISIONI esterne nello stesso formato:
@@ -45,7 +46,7 @@ from pathlib import Path
 
 from src.simulation.ambiente import Ambiente
 from src.simulation.judge import metriche_grounding
-from src.simulation.judge_realta import VERITA, carica_giudizio_realta, carica_verita
+from src.simulation.judge_realta import VERITA, carica_verita, giudizi_realta_disponibili
 from src.simulation.run_simulazione import OUT, carica, modelli_disponibili
 from src.simulation.scenari import SCENARI_BACKTEST
 
@@ -132,7 +133,8 @@ def _num(v):
         return None
 
 
-def valuta_esecuzione(res: dict, ver: dict, giud_realta: dict = None) -> dict:
+def valuta_esecuzione(res: dict, ver: dict, giudizi: dict = None) -> dict:
+    """`giudizi`: {giudice: giudizio_realta} (vedi giudizi_realta_disponibili)."""
     archi = archi_simulati(res)
     chiavi = {_k(a) for a in archi}
     chiavi_ev = {(e["da"], e["a"], e["tipo"], "+") for e in eventi_simulati(res) if e["da"] and e["a"]}
@@ -173,12 +175,14 @@ def valuta_esecuzione(res: dict, ver: dict, giud_realta: dict = None) -> dict:
     m["round"] = len(res["snapshots"]) - 1
     m["durata_s"] = res.get("durata_s")
     m["seed"] = res.get("seed")
-    if giud_realta:
-        m["punteggio_giudice_realta"] = giud_realta.get("punteggio_realta")
-        m["punteggio_giudice_verificato"] = giud_realta.get("punteggio_realta_verificato")
-        m["fatti_giudice"] = {f["id"]: f["esito"] for f in giud_realta.get("fatti", [])}
-        m["fatti_giudice_verificati"] = {f["id"]: f["esito"] for f in giud_realta.get("fatti", [])
-                                         if f.get("verificata")}
+    m["giudici"] = {}
+    for giudice, g in (giudizi or {}).items():
+        m["giudici"][giudice] = {
+            "punteggio": g.get("punteggio_realta"),
+            "verificato": g.get("punteggio_realta_verificato"),
+            "fatti": {f["id"]: f.get("esito") for f in g.get("fatti", [])},
+            "fatti_verificati": {f["id"]: f.get("esito_verificato") for f in g.get("fatti", [])},
+            "errore": g.get("errore")}
     return m
 
 
@@ -220,27 +224,41 @@ def valuta_file_previsione(path: Path, verita: dict) -> dict:
 NUMERICHE = ["richiamo_archi", "precisione_archi", "f1_archi", "richiamo_esteso",
              "precisione_attori", "richiamo_attori", "escalation_inventate",
              "operazioni_distensive", "cyber_come_cooperazione", "archi_cooperazione",
-             "punteggio_giudice_realta", "punteggio_giudice_verificato", "ancoraggio", "tag_irregolari", "scelte_scartate",
+             "ancoraggio", "tag_irregolari", "scelte_scartate",
              "risposte", "round", "durata_s"]
+
+
+def _stat(vals: list):
+    vals = [v for v in vals if isinstance(v, (int, float))]
+    return ({"media": round(st.mean(vals), 3), "min": round(min(vals), 3),
+             "max": round(max(vals), 3)} if vals else None)
 
 
 def aggrega(esecuzioni: list, ver: dict) -> dict:
     agg = {"n": len(esecuzioni)}
     for k in NUMERICHE:
-        vals = [e[k] for e in esecuzioni if isinstance(e.get(k), (int, float))]
-        agg[k] = ({"media": round(st.mean(vals), 3), "min": round(min(vals), 3),
-                   "max": round(max(vals), 3)} if vals else None)
+        agg[k] = _stat([e.get(k) for e in esecuzioni])
     agg["primo_passo"] = sum(1 for e in esecuzioni if e.get("primo_passo"))
     agg["copertura_fatti"] = {a["id"]: sum(1 for e in esecuzioni if a["id"] in e["fatti_previsti"])
                               for a in ver["archi"]}
     agg["copertura_fatti_estesa"] = {a["id"]: sum(1 for e in esecuzioni
                                                   if a["id"] in e.get("fatti_previsti_estesi", []))
                                      for a in ver["archi"]}
-    agg["copertura_giudice"] = {}
-    for f in ver["fatti"]:
-        es = [(e.get("fatti_giudice") or {}).get(f["id"]) for e in esecuzioni]
-        agg["copertura_giudice"][f["id"]] = {"presente": es.count("presente"),
-                                             "parziale": es.count("parziale")}
+    agg["giudici"] = {}
+    for giudice in sorted({g for e in esecuzioni for g in e.get("giudici", {})}):
+        gg = [e["giudici"][giudice] for e in esecuzioni if giudice in e.get("giudici", {})]
+        cop = {}
+        for f in ver["fatti"]:
+            es = [x["fatti"].get(f["id"]) for x in gg]
+            ev = [x["fatti_verificati"].get(f["id"]) for x in gg]
+            cop[f["id"]] = {"presente": es.count("presente"), "parziale": es.count("parziale"),
+                            "presente_verificati": ev.count("presente"),
+                            "parziale_verificati": ev.count("parziale")}
+        agg["giudici"][giudice] = {"n": len(gg),
+                                   "punteggio": _stat([x["punteggio"] for x in gg]),
+                                   "verificato": _stat([x["verificato"] for x in gg]),
+                                   "errori": sum(1 for x in gg if x.get("errore")),
+                                   "copertura": cop}
     return agg
 
 
@@ -255,7 +273,7 @@ def confronta(prefisso: str, verita: dict, previsioni: list = ()) -> dict:
                 res = carica(t, scen, m)
                 if not res:
                     continue
-                e = valuta_esecuzione(res, ver, carica_giudizio_realta(t, scen, m))
+                e = valuta_esecuzione(res, ver, giudizi_realta_disponibili(t, scen, m))
                 e["test"] = t
                 per_modello.setdefault(m, []).append(e)
         out["scenari"][scen] = {
@@ -301,10 +319,10 @@ def report_html(conf: dict, verita: dict) -> str:
         for m, x in d["modelli"].items():
             a = x["aggregato"]
             minuti = "–" if not a["durata_s"] else f"{a['durata_s']['media'] / 60:.1f}"
-            giud = (_rng(a["punteggio_giudice_realta"], perc=False, dec=0)
-                    if a["punteggio_giudice_realta"] else "–")
-            if a.get("punteggio_giudice_verificato"):
-                giud += " / " + _rng(a["punteggio_giudice_verificato"], perc=False, dec=0)
+            giud = "<br>".join(
+                f"{_e(gn)}: {_rng(gx['punteggio'], perc=False, dec=0)} / "
+                f"{_rng(gx['verificato'], perc=False, dec=0)}"
+                for gn, gx in a["giudici"].items()) or "–"
             righe += (f"<tr><th>{_e(m)}</th><td>{a['n']}</td><td>{_rng(a['richiamo_archi'])}</td>"
                       f"<td>{_rng(a['precisione_archi'])}</td><td>{_rng(a['richiamo_esteso'])}</td>"
                       f"<td>{_rng(a['richiamo_attori'])} / {_rng(a['precisione_attori'])}</td>"
@@ -337,15 +355,21 @@ def report_html(conf: dict, verita: dict) -> str:
                     f"{_e(a['segno'])}<div class='n'>{_e(a['fatto'])} ({_e(a['data'])})</div></th>"
                     f"{celle}<td class='c'>{bl}</td></tr>")
         giu = ""
-        if any(d["modelli"][m]["aggregato"]["punteggio_giudice_realta"] for m in mods):
+        giudici = sorted({g for m in mods for g in d["modelli"][m]["aggregato"]["giudici"]})
+        for gn in giudici:
+            righe_g = ""
             for f in ver["fatti"]:
-                celle = "".join(
-                    f"<td class='c'>{d['modelli'][m]['aggregato']['copertura_giudice'][f['id']]['presente']}"
-                    f" · {d['modelli'][m]['aggregato']['copertura_giudice'][f['id']]['parziale']}</td>"
-                    for m in mods)
-                giu += f"<tr><th class='f'><b>{_e(f['id'])}</b> <div class='n'>{_e(f['testo'])}</div></th>{celle}</tr>"
-            giu = (f"<h3>Fatti secondo il giudice: esecuzioni in cui il fatto è presente · parziale</h3>"
-                   f"<table><tr><th>fatto</th>{''.join(f'<th>{_e(m)}</th>' for m in mods)}</tr>{giu}</table>")
+                celle = ""
+                for m in mods:
+                    c = d["modelli"][m]["aggregato"]["giudici"].get(gn, {}).get("copertura", {}).get(f["id"])
+                    celle += ("<td class='c'>–</td>" if not c else
+                              f"<td class='c'>{c['presente_verificati']} · {c['parziale_verificati']}"
+                              f" <span class='r'>({c['presente']} · {c['parziale']})</span></td>")
+                righe_g += (f"<tr><th class='f'><b>{_e(f['id'])}</b> "
+                            f"<div class='n'>{_e(f['testo'])}</div></th>{celle}</tr>")
+            giu += (f"<h3>Fatti secondo il giudice {_e(gn)}: esecuzioni con il fatto presente · parziale, "
+                    f"solo etichette verificate (tra parentesi: tutte)</h3>"
+                    f"<table><tr><th>fatto</th>{''.join(f'<th>{_e(m)}</th>' for m in mods)}</tr>{righe_g}</table>")
         blocchi.append(
             f"<section><h2>{_e(d['titolo'])}</h2>"
             f"<p class='ev'>Evento iniettato su <b>{_e(ev.paese)}</b> da <b>{_e(ev.mittente)}</b> "

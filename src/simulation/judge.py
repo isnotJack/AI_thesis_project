@@ -45,6 +45,52 @@ GIUDICE_DEFAULT = "command-r"
 # supera gli 8192 token degli agenti (test 3: fino a ~16.800 token). Ollama tronca senza
 # errore tenendo la coda, quindi il giudice perderebbe la KB. Command R arriva a 128k.
 NUM_CTX_GIUDICE = 32768
+# Giudizio A BLOCCHI (test 4): le catene del backtest arrivano a 180 risposte, cioe'
+# 40-85 mila token stimati, oltre la finestra; Ollama teneva solo la coda e il giudice
+# perdeva istruzioni, KB/fatti e primi round. Ora il dialogo si divide in blocchi di
+# risposte consecutive di al massimo LIMITE_CAR_DIALOGO caratteri (~20 mila token
+# stimati): ogni blocco, con KB e istruzioni, resta dentro la finestra.
+LIMITE_CAR_DIALOGO = 60000
+METODO = "blocchi_v1"            # i giudizi senza questo marchio (troncati) si rifanno
+
+
+def nome_file(base: str, giudice: str = None) -> str:
+    """'giudizio' -> giudizio.json per il giudice di default (compatibile con il test 3),
+    giudizio__<giudice>.json per gli altri (es. command-r-plus)."""
+    if not giudice or giudice == GIUDICE_DEFAULT:
+        return f"{base}.json"
+    return f"{base}__{_safe(giudice)}.json"
+
+
+def blocchi_storico(res: dict, max_car: int = LIMITE_CAR_DIALOGO) -> list:
+    """Divide lo storico in blocchi di voci CONSECUTIVE la cui resa testuale non supera
+    max_car. Ritorna copie di `res` con lo storico ridotto e la chiave 'blocco'
+    = {k, n, round_da, round_a, risposte}. Un dialogo corto resta in un solo blocco."""
+    gruppi, cur, dim = [], [], 0
+    for h in res["storico"]:
+        lung = len(_render_dialogo({"storico": [h]})) + 1
+        if cur and dim + lung > max_car:
+            gruppi.append(cur)
+            cur, dim = [], 0
+        cur.append(h)
+        dim += lung
+    if cur or not gruppi:
+        gruppi.append(cur)
+    out = []
+    for k, g in enumerate(gruppi, 1):
+        rr = [h.get("round") for h in g] or [0]
+        out.append({**res, "storico": g,
+                    "blocco": {"k": k, "n": len(gruppi), "round_da": min(rr), "round_a": max(rr),
+                               "risposte": sum(1 for h in g if "reazione" in h)}})
+    return out
+
+
+def nota_blocco(b: dict) -> str:
+    if not b or b["n"] == 1:
+        return ""
+    return (f"ATTENZIONE: la simulazione e' lunga e ti viene mostrata a parti. Questa e' la "
+            f"PARTE {b['k']} di {b['n']} (round {b['round_da']}-{b['round_a']}). Valuta SOLO "
+            f"questa parte.\n")
 
 _NON_KB = {"conoscenza_generale", "nessuna", "none", ""}
 _TAG_VALIDI = {t.strip().lower() for t in TAG_KB}       # i soli tag ammessi
@@ -151,6 +197,7 @@ def _render_dialogo(res: dict) -> str:
 
 
 def crea_prompt_giudice(res: dict) -> str:
+    """Prompt del giudice; se `res` e' un blocco (vedi blocchi_storico) lo dichiara."""
     ev = res["evento_iniziale"]
     kb = "\n\n".join(f"### {iso} (trimestre {res.get('trimestre_rif')})\n" + oi._render_stato(st)
                      for iso, st in _kb_paesi(res)) or "(nessun profilo disponibile)"
@@ -173,7 +220,7 @@ Evento iniziale su {ev.get('paese')} ({ev.get('data')}): "{ev.get('testo')}"
 {kb}
 
 ## DIALOGO PRODOTTO DAL MODELLO SOTTO ESAME
-Ogni azione/evento ha un tag `base_kb` = l'elemento della KB da cui l'agente dice di aver tratto la scelta ('conoscenza_generale' = non dalla KB).
+{nota_blocco(res.get('blocco'))}Ogni azione/evento ha un tag `base_kb` = l'elemento della KB da cui l'agente dice di aver tratto la scelta ('conoscenza_generale' = non dalla KB).
 {_render_dialogo(res)}
 
 ## IL TUO COMPITO
@@ -229,30 +276,65 @@ def parsa_giudizio(prompt: str, responder, tentativi: int = 3) -> dict:
 # --------------------------------------------------------------------------- #
 # Valutazione
 # --------------------------------------------------------------------------- #
+PUNTEGGI = ("punteggio", "coerenza_kb", "plausibilita", "fedelta_grounding")
+
+
+def gia_fatto(fout: Path, forza: bool) -> bool:
+    """Si salta solo un giudizio gia' prodotto con il metodo a blocchi."""
+    if forza or not fout.exists():
+        return False
+    try:
+        return json.loads(fout.read_text(encoding="utf-8")).get("metodo") == METODO
+    except Exception:
+        return False
+
+
+def aggrega_giudizi(parti: list) -> dict:
+    """Unisce i giudizi dei blocchi: punteggi = media pesata sulle risposte di ciascun
+    blocco (i blocchi senza punteggio valido non pesano); motivazioni ed evidenze in fila."""
+    out = {}
+    for c in PUNTEGGI:
+        num = sum(b["risposte"] * g[c] for b, g in parti if isinstance(g.get(c), (int, float)))
+        den = sum(b["risposte"] for b, g in parti if isinstance(g.get(c), (int, float)))
+        out[c] = round(num / den, 1) if den else None
+    multi = len(parti) > 1
+    out["motivazione"] = " ".join(
+        (f"[round {b['round_da']}-{b['round_a']}] " if multi else "") + (g.get("motivazione") or "")
+        for b, g in parti).strip()
+    out["evidenze"] = [e for _, g in parti for e in (g.get("evidenze") or [])][:12]
+    return out
+
+
 def valuta(test: str, scenario: str, modello: str, responder, giudice: str,
            forza: bool = False):
     d = GIUD / test / scenario / _safe(modello)
-    fout = d / "giudizio.json"
-    if fout.exists() and not forza:
-        print(f"[skip] {test} / {scenario} / {modello}")
+    fout = d / nome_file("giudizio", giudice)
+    if gia_fatto(fout, forza):
+        print(f"[skip] {test} / {scenario} / {modello} ({giudice})")
         return
     res = carica(test, scenario, modello)
     if not res:
         return
-    print(f"[judge] {test} / {scenario} / {modello} ...")
-    prompt = crea_prompt_giudice(res)
-    token_stimati = len(prompt) // 3        # stima prudente (~3,5-4 caratteri per token)
-    if token_stimati > NUM_CTX_GIUDICE - 2048:
-        print(f"[warn]  prompt del giudice di ~{token_stimati} token: rischio di troncamento "
-              f"(finestra {NUM_CTX_GIUDICE})")
-    giudizio = parsa_giudizio(prompt, responder)
+    blocchi = blocchi_storico(res)
+    print(f"[judge] {test} / {scenario} / {modello} ({giudice}, {len(blocchi)} blocchi) ...")
+    parti, info = [], []
+    for b in blocchi:
+        prompt = crea_prompt_giudice(b)
+        token_stimati = len(prompt) // 3     # stima prudente (~3,5-4 caratteri per token)
+        if token_stimati > NUM_CTX_GIUDICE - 2048:
+            print(f"[warn]  blocco di ~{token_stimati} token: rischio di troncamento")
+        g = parsa_giudizio(prompt, responder)
+        parti.append((b["blocco"], g))
+        info.append({**b["blocco"], "token_stimati": token_stimati,
+                     **{c: g.get(c) for c in PUNTEGGI}})
+    giudizio = aggrega_giudizi(parti)
     out = {"test": test, "scenario": scenario, "modello": modello, "giudice": giudice,
-           "token_stimati": token_stimati,
-           "giudizio": giudizio, "metriche_grounding": metriche_grounding(res)}
+           "metodo": METODO, "token_stimati": max(x["token_stimati"] for x in info),
+           "blocchi": info, "giudizio": giudizio, "metriche_grounding": metriche_grounding(res)}
     d.mkdir(parents=True, exist_ok=True)
     fout.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
-    p = giudizio.get("punteggio")
-    print(f"[ok]    {scenario} / {modello} -> punteggio={p}")
+    print(f"[ok]    {scenario} / {modello} -> punteggio={giudizio.get('punteggio')} "
+          f"({len(blocchi)} blocchi)")
 
 
 def valuta_tutti(test: str, responder, giudice: str, forza: bool = False):
@@ -273,8 +355,8 @@ def valuta_sicuro(test, scenario, modello, responder, giudice, forza=False):
 # --------------------------------------------------------------------------- #
 # Helper per report / notebook
 # --------------------------------------------------------------------------- #
-def carica_giudizio(test: str, scenario: str, modello: str) -> dict:
-    f = GIUD / test / scenario / _safe(modello) / "giudizio.json"
+def carica_giudizio(test: str, scenario: str, modello: str, giudice: str = None) -> dict:
+    f = GIUD / test / scenario / _safe(modello) / nome_file("giudizio", giudice)
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
 
 

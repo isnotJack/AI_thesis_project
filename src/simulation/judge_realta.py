@@ -18,7 +18,13 @@ segnato come presente l'attacco degli Stati Uniti in una simulazione in cui gli
 Stati Uniti non compaiono mai.
     punteggio_realta_verificato = stessa formula, con le sole etichette verificate.
 
+Dialoghi lunghi: il giudizio e' A BLOCCHI di risposte consecutive (come in judge.py),
+ciascuno con l'elenco dei fatti e i criteri. Per ogni fatto si tiene l'etichetta migliore
+fra i blocchi (presente > parziale > assente) e, a parte, la migliore fra quelle con
+evidenza verificata nel blocco in cui compare.
+
 Output: data/processed/giudizi/<test>/<scenario>/<modello>/giudizio_realta.json
+        (giudizio_realta__<giudice>.json per un giudice diverso da command-r)
 
 Uso (su HPC):
     python3 -m src.simulation.judge_realta --test test4_backtest_r1 --giudice command-r --host http://127.0.0.1:11434
@@ -31,12 +37,15 @@ import re
 from pathlib import Path
 
 from src.simulation import oasis_inspired as oi
-from src.simulation.judge import GIUD, GIUDICE_DEFAULT, NUM_CTX_GIUDICE, _render_dialogo
+from src.simulation.judge import (GIUD, GIUDICE_DEFAULT, METODO, NUM_CTX_GIUDICE,
+                                  _render_dialogo, blocchi_storico, gia_fatto, nome_file,
+                                  nota_blocco)
 from src.simulation.run_simulazione import _safe, carica, modelli_disponibili, scenari_disponibili
 
 BASE = Path(__file__).resolve().parents[2]
 VERITA = BASE / "config" / "verita_backtest.json"
 ESITI = ("presente", "parziale", "assente")
+RANGO = {"presente": 2, "parziale": 1, "assente": 0, None: -1}
 
 
 def carica_verita(path: Path = VERITA) -> dict:
@@ -72,7 +81,7 @@ def crea_prompt(res: dict, ver: dict) -> str:
 {non_acc}
 
 ## LA SIMULAZIONE
-Ogni riga 'azione' modifica una relazione (cyber = attacco dall'attaccante alla vittima; militare = forze dell'interventore che operano nel teatro; migrazione = flussi di persone; cooperazione = sostegno da chi lo offre a chi lo riceve). Ogni riga 'evento->' e' un messaggio inviato a un altro Paese.
+{nota_blocco(res.get('blocco'))}{_nota_assenti(res.get('blocco'))}Ogni riga 'azione' modifica una relazione (cyber = attacco dall'attaccante alla vittima; militare = forze dell'interventore che operano nel teatro; migrazione = flussi di persone; cooperazione = sostegno da chi lo offre a chi lo riceve). Ogni riga 'evento->' e' un messaggio inviato a un altro Paese.
 {_render_dialogo(res)}
 
 ## IL TUO COMPITO
@@ -92,6 +101,13 @@ Giudica SOLO confrontando la simulazione con l'elenco dei fatti: non aggiungere 
 
 ## SCHEMA DELLA RISPOSTA (i valori tra < > sono segnaposto)
 {esempio}"""
+
+
+def _nota_assenti(b: dict) -> str:
+    if not b or b["n"] == 1:
+        return ""
+    return ("Se un fatto non compare in questa parte segnalalo come assente: le altre parti "
+            "vengono valutate separatamente.\n")
 
 
 def _esito(v) -> str:
@@ -163,17 +179,40 @@ def evidenza_verificata(evidenza, res: dict, attori=None) -> bool:
 
 
 def punteggio(fatti: list) -> dict:
-    """`fatti`: lista di {id, esito, verificata}. Punteggi calcolati dal codice."""
+    """`fatti`: lista di {id, esito, esito_verificato}. Punteggi calcolati dal codice."""
     n = len(fatti)
     es = [f["esito"] for f in fatti]
     c = {e: es.count(e) for e in ESITI}
     c["non_valutati"] = sum(1 for e in es if e is None)
-    c["presente_verificati"] = sum(1 for f in fatti if f["esito"] == "presente" and f["verificata"])
-    c["parziale_verificati"] = sum(1 for f in fatti if f["esito"] == "parziale" and f["verificata"])
+    c["presente_verificati"] = sum(1 for f in fatti if f.get("esito_verificato") == "presente")
+    c["parziale_verificati"] = sum(1 for f in fatti if f.get("esito_verificato") == "parziale")
     ok = n and c["non_valutati"] < n
     p = round(100 * (c["presente"] + 0.5 * c["parziale"]) / n, 1) if ok else None
     pv = round(100 * (c["presente_verificati"] + 0.5 * c["parziale_verificati"]) / n, 1) if ok else None
     return {"conteggi": c, "punteggio_realta": p, "punteggio_realta_verificato": pv}
+
+
+def aggrega_fatti(ver: dict, parti: list) -> list:
+    """`parti`: [(blocco_res, giudizio_del_blocco)]. Per ogni fatto: l'etichetta migliore
+    fra i blocchi e, a parte, la migliore con evidenza verificata NEL proprio blocco."""
+    fatti = []
+    for f in ver["fatti"]:
+        best, best_v = None, None
+        for b, g in parti:
+            e = g["etichette"].get(f["id"]) or {}
+            es = e.get("esito")
+            ok = es in ("presente", "parziale") and evidenza_verificata(e.get("evidenza"), b,
+                                                                         f.get("attori"))
+            cand = {"esito": es, "evidenza": e.get("evidenza", ""), "verificata": ok,
+                    "blocco": b["blocco"]["k"]}
+            if best is None or RANGO[es] > RANGO[best["esito"]]:
+                best = cand
+            if ok and (best_v is None or RANGO[es] > RANGO[best_v["esito"]]):
+                best_v = cand
+        fatti.append({"id": f["id"], "testo": f["testo"], **best,
+                      "esito_verificato": best_v["esito"] if best_v else None,
+                      "evidenza_verificata": best_v["evidenza"] if best_v else ""})
+    return fatti
 
 
 def valuta(test: str, scenario: str, modello: str, responder, giudice: str, verita: dict,
@@ -181,43 +220,59 @@ def valuta(test: str, scenario: str, modello: str, responder, giudice: str, veri
     if scenario not in verita:
         return
     d = GIUD / test / scenario / _safe(modello)
-    fout = d / "giudizio_realta.json"
-    if fout.exists() and not forza:
-        print(f"[skip] realta' {test} / {scenario} / {modello}")
+    fout = d / nome_file("giudizio_realta", giudice)
+    if gia_fatto(fout, forza):
+        print(f"[skip] realta' {test} / {scenario} / {modello} ({giudice})")
         return
     res = carica(test, scenario, modello)
     if not res:
         return
     ver = verita[scenario]
-    prompt = crea_prompt(res, ver)
-    token_stimati = len(prompt) // 3
-    if token_stimati > NUM_CTX_GIUDICE - 2048:
-        print(f"[warn]  prompt del giudice di ~{token_stimati} token: rischio di troncamento")
-    print(f"[judge] realta' {test} / {scenario} / {modello} ...")
-    g = parsa(prompt, responder, ver)
-    fatti = []
-    for f in ver["fatti"]:
-        e = g["etichette"].get(f["id"]) or {}
-        fatti.append({"id": f["id"], "testo": f["testo"], "esito": e.get("esito"),
-                      "evidenza": e.get("evidenza", ""),
-                      "verificata": (e.get("esito") in ("presente", "parziale")
-                                     and evidenza_verificata(e.get("evidenza"), res,
-                                                             f.get("attori")))})
+    blocchi = blocchi_storico(res)
+    print(f"[judge] realta' {test} / {scenario} / {modello} ({giudice}, {len(blocchi)} blocchi) ...")
+    parti, info = [], []
+    for b in blocchi:
+        prompt = crea_prompt(b, ver)
+        token_stimati = len(prompt) // 3
+        if token_stimati > NUM_CTX_GIUDICE - 2048:
+            print(f"[warn]  blocco di ~{token_stimati} token: rischio di troncamento")
+        g = parsa(prompt, responder, ver)
+        parti.append((b, g))
+        info.append({**b["blocco"], "token_stimati": token_stimati,
+                     **({"errore": g["errore"]} if g.get("errore") else {})})
+    fatti = aggrega_fatti(ver, parti)
+    multi = len(parti) > 1
+    sviluppi = [{**x, "blocco": b["blocco"]["k"]} for b, g in parti
+                for x in g["sviluppi_non_accaduti"]][:12]
+    motiv = " ".join((f"[round {b['blocco']['round_da']}-{b['blocco']['round_a']}] " if multi else "")
+                     + (g.get("motivazione") or "") for b, g in parti).strip()
     out = {"test": test, "scenario": scenario, "modello": modello, "giudice": giudice,
-           "token_stimati": token_stimati, "fatti": fatti,
-           "sviluppi_non_accaduti": g["sviluppi_non_accaduti"],
-           "motivazione": g["motivazione"], **punteggio(fatti)}
-    if g.get("errore"):
-        out["errore"] = g["errore"]
+           "metodo": METODO, "token_stimati": max(x["token_stimati"] for x in info),
+           "blocchi": info, "fatti": fatti, "sviluppi_non_accaduti": sviluppi,
+           "motivazione": motiv, **punteggio(fatti)}
+    errori = [x["errore"] for x in info if x.get("errore")]
+    if errori:
+        out["errore"] = f"{len(errori)} blocchi su {len(info)}: " + errori[0]
     d.mkdir(parents=True, exist_ok=True)
     fout.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[ok]    {scenario} / {modello} -> punteggio_realta={out['punteggio_realta']} "
           f"(verificato {out['punteggio_realta_verificato']}) {out['conteggi']}")
 
 
-def carica_giudizio_realta(test: str, scenario: str, modello: str) -> dict:
-    f = GIUD / test / scenario / _safe(modello) / "giudizio_realta.json"
+def carica_giudizio_realta(test: str, scenario: str, modello: str, giudice: str = None) -> dict:
+    f = GIUD / test / scenario / _safe(modello) / nome_file("giudizio_realta", giudice)
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else None
+
+
+def giudizi_realta_disponibili(test: str, scenario: str, modello: str) -> dict:
+    """{giudice: giudizio} per tutti i giudici che hanno valutato questa esecuzione con
+    il metodo a blocchi (i giudizi troncati della prima versione si ignorano)."""
+    out = {}
+    for f in sorted((GIUD / test / scenario / _safe(modello)).glob("giudizio_realta*.json")):
+        g = json.loads(f.read_text(encoding="utf-8"))
+        if g.get("metodo") == METODO:
+            out[g.get("giudice") or GIUDICE_DEFAULT] = g
+    return out
 
 
 def _mock(prompt: str) -> str:

@@ -18,7 +18,7 @@ import html
 import statistics as st
 from pathlib import Path
 
-from src.simulation.judge import GIUD, carica_giudizio
+from src.simulation.judge import GIUD, carica_giudizio, nome_file
 from src.simulation.run_simulazione import modelli_disponibili, scenari_disponibili
 
 CAMPI = ["punteggio", "coerenza_kb", "plausibilita", "fedelta_grounding"]
@@ -42,13 +42,13 @@ def _media(vals):
     return round(st.mean(vals), 1) if vals else None
 
 
-def _raccogli(test):
+def _raccogli(test, giudice=None):
     scen = scenari_disponibili(test)
     modelli = sorted({m for s in scen for m in modelli_disponibili(test, s)})
     dati = {}   # (scenario, modello) -> out
     for s in scen:
         for m in modelli_disponibili(test, s):
-            g = carica_giudizio(test, s, m)
+            g = carica_giudizio(test, s, m, giudice)
             if g:
                 dati[(s, m)] = g
     return scen, modelli, dati
@@ -61,9 +61,9 @@ def _bar(label, v, maxv=100):
             f'{"" if v is None else f"{v:g}"}</div></div></div>')
 
 
-def genera_report(test: str, out_path: Path = None) -> Path:
-    scen, modelli, dati = _raccogli(test)
-    giudice = next(iter(dati.values()), {}).get("giudice", "?") if dati else "?"
+def genera_report(test: str, out_path: Path = None, giudice: str = None) -> Path:
+    scen, modelli, dati = _raccogli(test, giudice)
+    nome_giudice = next(iter(dati.values()), {}).get("giudice", "?") if dati else "?"
 
     # aggregati per modello
     agg = {}
@@ -135,12 +135,13 @@ def genera_report(test: str, out_path: Path = None) -> Path:
                       f'<div class="motb">{_esc(gd.get("motivazione"))}</div>'
                       f'{"<ul>"+ev+"</ul>" if ev else ""}</div>')
 
-    page = (_TEMPLATE.replace("__TEST__", _esc(test)).replace("__GIUDICE__", _esc(giudice))
+    page = (_TEMPLATE.replace("__TEST__", _esc(test)).replace("__GIUDICE__", _esc(nome_giudice))
             .replace("__N__", str(len(dati))).replace("__CLASSIFICA__", classifica)
             .replace("__GROUNDING__", grounding).replace("__GRTAB__", grtab)
             .replace("__TH__", th).replace("__RIGHE__", righe)
             .replace("__MOTIV__", motiv))
-    out_path = out_path or (GIUD / test / "report.html")
+    # report.html per il giudice di default, report__<giudice>.html per gli altri
+    out_path = out_path or (GIUD / test / nome_file("report", giudice).replace(".json", ".html"))
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(page, encoding="utf-8")
     print(f"Report scritto in {out_path}  ({len(dati)} valutazioni, {len(modelli)} modelli)")
@@ -197,5 +198,6 @@ __MOTIV__
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Report grafico dei giudizi.")
     ap.add_argument("--test", required=True)
+    ap.add_argument("--giudice", default=None, help="giudice da riportare (default: command-r)")
     a = ap.parse_args()
-    genera_report(a.test)
+    genera_report(a.test, giudice=a.giudice)

@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N test4_giudici
+#PBS -q gpu
+#PBS -l select=1:ncpus=32:ngpus=4,walltime=20:00:00
+#PBS -o scripts_hpc/log_giudici.out
+#PBS -e scripts_hpc/log_giudici.err
+
+# Job di soli giudici del test 4 (vedi i commenti in test4_giudici.sh). Nodo intero,
+# come per le simulazioni: Command R+ (104B, 59 GB) si divide su 2 GPU da 40 GB.
+#
+# Uso (dalla root del progetto):
+#   cd ~/AI_thesis_project
+#   qsub scripts_hpc/test4_giudici.pbs
+#
+# Ripartibile: se il walltime scade, rilanciare lo stesso comando.
+
+cd "$PBS_O_WORKDIR"
+bash scripts_hpc/test4_giudici.sh
