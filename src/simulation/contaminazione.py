@@ -12,6 +12,11 @@ potrebbe citare solo se avesse visto l'evento (luoghi, nomi, date). Alcuni indiz
 possono comparire anche per conoscenza generale precedente (es. Fordow e' un sito
 noto dal 2009): un indizio e' un motivo per leggere, non una prova.
 
+Le risposte hanno un TETTO di lunghezza (NUM_PREDICT): a temperatura 0 e in testo
+libero un modello puo' ripetersi finche' non riempie il contesto (prima run su HPC:
+oltre 10 minuti per una sola risposta di Llama). Le domande restano identiche per
+tutti i modelli; nel file si salvano le opzioni di generazione usate.
+
 Output: data/processed/backtest/contaminazione/<modello>.json
 
 Uso (su HPC, con un server Ollama attivo):
@@ -28,6 +33,9 @@ from src.simulation.run_simulazione import _safe
 
 BASE = Path(__file__).resolve().parents[2]
 OUT = BASE / "data" / "processed" / "backtest" / "contaminazione"
+# temperatura 0 e testo libero: si vuole la risposta piu' probabile del modello;
+# 800 token bastano a una risposta di alcuni paragrafi (~2 minuti per un 70B su HPC)
+OPZIONI = {"temperature": 0.0, "num_ctx": 4096, "num_predict": 800, "seed": 0}
 
 DOMANDE = [
     {"id": "guerra_iran_israele_2025",
@@ -63,8 +71,8 @@ def _indizi(id_domanda: str, risposta: str) -> list:
     return [k for k in INDIZI.get(id_domanda, []) if k in t]
 
 
-def interroga(modello: str, responder) -> dict:
-    out = {"modello": modello, "risposte": []}
+def interroga(modello: str, responder, opzioni: dict = None) -> dict:
+    out = {"modello": modello, "opzioni": opzioni, "risposte": []}
     for d in DOMANDE:
         try:
             r = responder(d["testo"])
@@ -92,15 +100,15 @@ def main():
     else:
         if not a.modello:
             ap.error("specificare --modello (oppure --mock)")
-        # temperatura 0 e testo libero: si vuole la risposta piu' probabile del modello
         modello = a.modello
-        responder = responder_ollama(a.modello, host=a.host, num_ctx=4096,
-                                     temperature=0.0, seed=0, formato="")
+        responder = responder_ollama(a.modello, host=a.host, num_ctx=OPZIONI["num_ctx"],
+                                     temperature=OPZIONI["temperature"], seed=OPZIONI["seed"],
+                                     formato="", num_predict=OPZIONI["num_predict"])
     f = OUT / f"{_safe(modello)}.json"
     if f.exists() and not a.forza:
         print(f"[skip] contaminazione {modello} (gia' fatta)")
         return
-    res = interroga(modello, responder)
+    res = interroga(modello, responder, None if a.mock else OPZIONI)
     OUT.mkdir(parents=True, exist_ok=True)
     f.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[ok  ] contaminazione {modello} -> {f}  indizi: {res['indizi_totali']}")
