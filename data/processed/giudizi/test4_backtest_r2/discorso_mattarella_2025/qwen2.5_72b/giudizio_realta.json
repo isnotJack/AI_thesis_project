@@ -1,0 +1,58 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 4466,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia risponde con una reazione diplomatica severa, esprimendo il proprio disappunto per le parole del Presidente italiano e considerando possibili contromisure.",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "round 2, ITA: L'Italia risponde con una nota ufficiale al Ministero degli Esteri russo, esprimendo rammarico per l'atteggiamento e ribadendo il diritto del Presidente a esprimere le proprie opinioni. Questo potrebbe essere interpretato come un riferimento alle attività cyber ostili da parte della Russia.",
+      "verificata": false
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia risponde con una nota ufficiale, esprimendo rammarico per l'atteggiamento russo e ribadendo il diritto del Presidente a esprimere le proprie opinioni.",
+      "verificata": true
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia adotta una risposta diplomatica cauta, sottolineando l'importanza del dialogo e della cooperazione internazionale. Questo può essere visto come un tentativo di ridurre le tensioni cyber.",
+      "verificata": true
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia non intraprende azioni militari contro l'Italia.",
+      "riferimento": "round 1, RUS"
+    },
+    {
+      "descrizione": "L'Italia non risponde con attacchi informatici contro la Russia.",
+      "riferimento": "round 2, ITA"
+    }
+  ],
+  "motivazione": "La simulazione cattura in modo accurato le reazioni diplomatiche e le dinamiche di cooperazione tra Italia e Russia. Tuttavia, mancano gli aspetti più critici come le azioni militari o cyber offensive, che non si sono verificati nella realtà.",
+  "conteggi": {
+    "presente": 3,
+    "parziale": 1,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 3,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 87.5,
+  "punteggio_realta_verificato": 75.0
+}

@@ -1,0 +1,58 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 4496,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: indebolisci RUS->ITA [cooperazione] base_kb=evento",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "round 2, ITA: indebolisci ITA->RUS [cooperazione] base_kb=evento",
+      "verificata": false
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: evento-> ITA [generico] base_kb=evento",
+      "verificata": false
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "parziale",
+      "evidenza": "round 2, ITA: indebolisci ITA->RUS [cooperazione] base_kb=evento",
+      "verificata": true
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia minaccia l'Italia sul piano politico-diplomatico.",
+      "riferimento": "round 1, RUS"
+    },
+    {
+      "descrizione": "Attacchi DDoS da parte di hacker filorussi contro siti italiani.",
+      "riferimento": "round 2, ITA"
+    }
+  ],
+  "motivazione": "La simulazione cattura in modo accurato la reazione diplomatica della Russia all'affronto percepito. Tuttavia, non prevede le azioni cyber ostili e le minacce specifiche che hanno caratterizzato la risposta russa nella realtà.",
+  "conteggi": {
+    "presente": 2,
+    "parziale": 2,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 1,
+    "parziale_verificati": 1
+  },
+  "punteggio_realta": 75.0,
+  "punteggio_realta_verificato": 37.5
+}

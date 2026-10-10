@@ -1,0 +1,62 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "token_stimati": 30034,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia reagisce con fermezza alle dichiarazioni del Presidente italiano, sottolineando la propria posizione sulla questione ucraina e ribadendo il diritto di difendere i propri interessi nazionali.",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia lancia un attacco informatico contro siti web governativi italiani in risposta alle dichiarazioni del Presidente.",
+      "verificata": true
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia condanna fermamente l'attacco informatico della Russia e annuncia il rafforzamento delle proprie misure di sicurezza cibernetica.",
+      "verificata": true
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "presente",
+      "evidenza": "round 4, ITA: L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi, limitando gli effetti e senza furto di dati.",
+      "verificata": true
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "L'Italia lancia un contrattacco informatico contro la Russia in risposta all'aggressione.",
+      "riferimento": "round 8, ITA"
+    },
+    {
+      "descrizione": "La Russia aumenta le sue capacità di difesa cibernetica e pianifica una risposta mirata alle azioni dell'Italia.",
+      "riferimento": "round 3, RUS"
+    },
+    {
+      "descrizione": "L'Ucraina lancia un contrattacco informatico contro la Russia in risposta all'attacco subito.",
+      "riferimento": "round 7, UKR"
+    }
+  ],
+  "motivazione": "La simulazione cattura con precisione le reazioni immediate della Russia e dell'Italia alle dichiarazioni del Presidente italiano. Inoltre, prevede correttamente l'adozione di misure di difesa cibernetica da parte dell'Italia per mitigare gli attacchi informatici russi. Tuttavia, la simulazione non contempla un contrattacco diretto dell'Italia contro la Russia o ulteriori escalation significative nel conflitto cyber tra i due paesi.",
+  "conteggi": {
+    "presente": 4,
+    "parziale": 0,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 4,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 100.0,
+  "punteggio_realta_verificato": 100.0
+}

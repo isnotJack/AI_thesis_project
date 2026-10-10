@@ -1,0 +1,46 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 4385,
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 90.0,
+    "fedelta_grounding": 75.0,
+    "motivazione": "La simulazione mostra una buona coerenza con la knowledge base (KB), soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato dei paesi coinvolti. Le azioni intraprese sono generalmente in linea con il contesto geopolitico e i dati forniti dalla KB. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, in particolare quando vengono utilizzate fonti generiche o non specifiche invece di citare direttamente gli elementi della KB.",
+    "evidenze": [
+      {
+        "osservazione": "La reazione iniziale della Russia è coerente con il contesto del conflitto russo-ucraino e le tensioni diplomatiche menzionate nella KB.",
+        "riferimento": "round 1/RUS"
+      },
+      {
+        "osservazione": "L'Italia risponde in modo diplomatico, considerando la situazione dei flussi migratori e gli attacchi cibernetici russi, come suggerito dalla KB.",
+        "riferimento": "round 2/ITA"
+      },
+      {
+        "osservazione": "La Russia esprime disappunto per la posizione italiana, ma mantiene un tono diplomatico, coerentemente con il suo ruolo di attore cyber nella KB.",
+        "riferimento": "round 3/RUS"
+      },
+      {
+        "osservazione": "L'uso di 'conoscenza_generale' nel round 4/ITA potrebbe essere migliorato specificando la fonte esatta della KB.",
+        "riferimento": "round 4/ITA, campo KB: relazioni"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 20,
+    "grounded": 20,
+    "non_ancorate": 0,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 100.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 16,
+      "relazioni": 4
+    },
+    "distribuzione_irregolari": {}
+  }
+}

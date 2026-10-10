@@ -1,0 +1,53 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "token_stimati": 31162,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 85.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), soprattutto in termini di reazioni e aggiornamenti di stato. Le azioni intraprese dai vari paesi sono generalmente coerenti con il contesto geopolitico e le relazioni esistenti tra loro. Tuttavia, ci sono stati alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, come quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB. La plausibilità della catena di propagazione è generalmente alta, con una gestione sensata delle escalation e delle risposte alle minacce.",
+    "evidenze": [
+      {
+        "osservazione": "La Russia rafforza la sua postura cyber contro gli Stati Uniti in risposta all'avvertimento (round 6)",
+        "riferimento": "RUS/round 6"
+      },
+      {
+        "osservazione": "L'Italia decide di rafforzare la propria difesa cibernetica e di aumentare la cooperazione con gli alleati (round 6)",
+        "riferimento": "ITA/round 6"
+      },
+      {
+        "osservazione": "La Cina accoglie positivamente l'accordo di collaborazione con la Russia per migliorare la sicurezza informatica (round 7)",
+        "riferimento": "CHN/round 7"
+      },
+      {
+        "osservazione": "L'Ucraina rafforza le sue difese cyber e cerca sostegno internazionale contro il contrattacco cibernetico russo (round 7)",
+        "riferimento": "UKR/round 7"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 228,
+    "grounded": 159,
+    "non_ancorate": 65,
+    "irregolari": 4,
+    "multi_tag": 0,
+    "perc_grounded": 69.7,
+    "perc_irregolari": 1.8,
+    "distribuzione": {
+      "conflitto": 56,
+      "cyber": 17,
+      "conoscenza_generale": 65,
+      "evento": 64,
+      "migrazione": 1,
+      "relazioni": 15,
+      "economia": 6
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 4
+    }
+  }
+}

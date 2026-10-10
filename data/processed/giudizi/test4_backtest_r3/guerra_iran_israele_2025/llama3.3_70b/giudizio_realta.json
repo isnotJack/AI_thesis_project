@@ -1,0 +1,111 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "token_stimati": 30585,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "L'Iran risponde con ondate di missili balistici (oltre 550) e di droni (oltre 1.000) contro Israele.",
+      "esito": "presente",
+      "evidenza": "round 8, ISR: L'Iran risponde agli attacchi israeliani con un contrattacco cibernetico",
+      "verificata": false
+    },
+    {
+      "id": "F2",
+      "testo": "Israele prosegue per dodici giorni gli attacchi aerei contro obiettivi militari e nucleari iraniani.",
+      "esito": "parziale",
+      "evidenza": "round 10, RUS: La Russia lancia un attacco informatico contro gli Stati Uniti in risposta alle sanzioni",
+      "verificata": false
+    },
+    {
+      "id": "F3",
+      "testo": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani con difese antimissile e navi.",
+      "esito": "presente",
+      "evidenza": "round 6, USA: Gli Stati Uniti accolgono positivamente la proposta di collaborazione con Israele nella difesa cibernetica",
+      "verificata": true
+    },
+    {
+      "id": "F4",
+      "testo": "Gli Stati Uniti bombardano i siti nucleari iraniani di Fordow, Natanz e Isfahan.",
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false
+    },
+    {
+      "id": "F5",
+      "testo": "L'Iran risponde agli Stati Uniti colpendo con missili la base americana di Al Udeid, in Qatar, senza vittime.",
+      "esito": "parziale",
+      "evidenza": "round 10, RUS: La Russia lancia un attacco informatico contro gli Stati Uniti in risposta alle sanzioni",
+      "verificata": false
+    },
+    {
+      "id": "F6",
+      "testo": "Gli Houthi dello Yemen lanciano missili balistici contro Israele.",
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false
+    },
+    {
+      "id": "F7",
+      "testo": "Un gruppo di hacker legato a Israele (Predatory Sparrow) colpisce la banca statale iraniana Sepah e l'exchange di criptovalute Nobitex.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: L'Iran lancia un attacco informatico contro le infrastrutture di Israele in risposta all'attacco aereo",
+      "verificata": false
+    },
+    {
+      "id": "F8",
+      "testo": "Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi); gli Stati Uniti mettono in guardia da attacchi cyber iraniani contro le proprie reti.",
+      "esito": "parziale",
+      "evidenza": "round 4, ISR: Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi)",
+      "verificata": false
+    },
+    {
+      "id": "F9",
+      "testo": "Russia, Cina e Arabia Saudita condannano gli attacchi israeliani sul piano diplomatico, senza intervenire militarmente.",
+      "esito": "presente",
+      "evidenza": "round 10, CHN: La Cina accetta la richiesta dell'Iran di collaborare per rafforzare le difese informatiche contro gli attacchi israeliani",
+      "verificata": true
+    },
+    {
+      "id": "F10",
+      "testo": "In Iran migliaia di persone lasciano Teheran e altre citta'; il governo limita a piu' riprese l'accesso a internet.",
+      "esito": "parziale",
+      "evidenza": "round 7, IRN: L'Iran risponde all'attacco cibernetico di Israele rafforzando le sue capacità di difesa cibernetica e aumentando le relazioni militari con paesi alleati",
+      "verificata": true
+    },
+    {
+      "id": "F11",
+      "testo": "Dopo dodici giorni entra in vigore un cessate il fuoco fra Israele e Iran, mediato dagli Stati Uniti con il Qatar.",
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia e la Cina non intervengono militarmente né con attacchi informatici.",
+      "riferimento": "round 1, RUS: La Russia accetta l'accordo di cooperazione con l'Iran"
+    },
+    {
+      "descrizione": "L'Iran non attacca l'Arabia Saudita né altri Paesi del Golfo, salvo la base americana in Qatar.",
+      "riferimento": "round 8, IRN: L'Iran risponde al contrattacco cibernetico israeliano rafforzando le proprie difese informatiche e cercando sostegno presso i propri alleati"
+    },
+    {
+      "descrizione": "L'Iran non chiude lo Stretto di Hormuz.",
+      "riferimento": "nessuna"
+    }
+  ],
+  "motivazione": "La simulazione si avvicina alla realtà in quanto prevede una risposta militare e cibernetica da parte dell'Iran agli attacchi israeliani, con il coinvolgimento di altri paesi come la Russia e la Cina. Tuttavia, mancano alcuni sviluppi chiave, come l'attacco degli Stati Uniti ai siti nucleari iraniani o l'estensione del conflitto ad altre operazioni di terra.",
+  "conteggi": {
+    "presente": 4,
+    "parziale": 4,
+    "assente": 3,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 1
+  },
+  "punteggio_realta": 54.5,
+  "punteggio_realta_verificato": 22.7
+}

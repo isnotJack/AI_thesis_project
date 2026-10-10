@@ -1,0 +1,48 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "token_stimati": 30998,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 70.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), mostrando un'adeguata comprensione del contesto geopolitico e delle relazioni tra i paesi. La maggior parte delle reazioni e delle azioni intraprese sono coerenti con le informazioni fornite dalla KB, soprattutto in termini di conflitti e cooperazione. Tuttavia, ci sono stati alcuni casi in cui la coerenza potrebbe essere stata migliorata, ad esempio nelle scelte relative al ruolo cyber di alcuni paesi. La plausibilità della catena di propagazione è generalmente buona, con reazioni sensate alle varie situazioni. Il modello ha gestito bene le escalation e le de-escalation delle tensioni, mostrando una comprensione del contesto geopolitico. Tuttavia, ci sono stati alcuni momenti in cui la plausibilità potrebbe essere stata più forte, soprattutto nelle fasi iniziali della simulazione.",
+    "evidenze": [
+      {
+        "osservazione": "L'Iran rafforza le sue capacità di difesa cyber e lancia un contrattacco contro Israele",
+        "riferimento": "round 5/IRN"
+      },
+      {
+        "osservazione": "La Russia accetta la proposta della Cina per migliorare la sicurezza informatica, nonostante i precedenti attacchi cyber reciproci.",
+        "riferimento": "round 8/RUS"
+      },
+      {
+        "osservazione": "Gli Stati Uniti lanciano un contrattacco cibernetico contro le infrastrutture russe in risposta all'aumento del monitoraggio delle attività cyber russe",
+        "riferimento": "round 9/USA"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 207,
+    "grounded": 121,
+    "non_ancorate": 85,
+    "irregolari": 1,
+    "multi_tag": 0,
+    "perc_grounded": 58.5,
+    "perc_irregolari": 0.5,
+    "distribuzione": {
+      "conflitto": 29,
+      "conoscenza_generale": 85,
+      "relazioni": 15,
+      "evento": 66,
+      "cyber": 9,
+      "economia": 2
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 1
+    }
+  }
+}

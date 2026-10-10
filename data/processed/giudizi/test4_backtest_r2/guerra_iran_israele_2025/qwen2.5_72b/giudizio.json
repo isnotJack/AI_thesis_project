@@ -1,0 +1,44 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 28621,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 70.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "Il dialogo tra gli agenti mostra una coerenza generale con i dati della knowledge base (KB), con reazioni e azioni che riflettono le tensioni esistenti e il contesto geopolitico. Tuttavia, ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, soprattutto nelle scelte di reazione a determinati eventi. La plausibilità delle interazioni è buona, con una catena di propagazione sensata dal punto di vista geopolitico, anche se alcune escalation potrebbero essere state gestite in modo più graduale. Il grounding dei dati nella KB è generalmente accurato, ma ci sono alcuni casi in cui le scelte non sembrano derivare direttamente dai dati specifici forniti.",
+    "evidenze": [
+      {
+        "osservazione": "Reazioni coerenti con il contesto di tensione tra Iran e Israele",
+        "riferimento": "round 1/IRN, round 2/ISR"
+      },
+      {
+        "osservazione": "Escalation plausibile nella cooperazione cyber USA-ISR contro l'Iran",
+        "riferimento": "round 6/USA, round 7/ISR, round 8/IRN"
+      },
+      {
+        "osservazione": "Uso di 'conoscenza_generale' quando i dati specifici erano disponibili (es. ruolo cyber)",
+        "riferimento": "round 10/ISR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 240,
+    "grounded": 240,
+    "non_ancorate": 0,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 100.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 206,
+      "relazioni": 25,
+      "cyber": 8,
+      "conflitto": 1
+    },
+    "distribuzione_irregolari": {}
+  }
+}

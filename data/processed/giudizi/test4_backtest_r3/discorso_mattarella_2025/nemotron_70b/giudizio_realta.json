@@ -1,0 +1,58 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 13396,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "round 4, RUS: La Russia accoglie con interesse la proposta degli Stati Uniti per una collaborazione contro le minacce cyber cinesi",
+      "verificata": true
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia risponde alle critiche russe, ribadendo la propria posizione sulla necessità di una risoluzione pacifica del conflitto russo-ucraino.",
+      "verificata": true
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "parziale",
+      "evidenza": "round 10, RUS: La Russia rafforza le sue difese cibernetiche in risposta alla contro-operazione cinese",
+      "verificata": false
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia (o attori filorussi) compie operazioni cyber ostili contro l'Italia.",
+      "riferimento": "round 2, RUS"
+    },
+    {
+      "descrizione": "L'Italia adotta misure di difesa o protezione cyber senza contrattaccare.",
+      "riferimento": "round 10, UKR"
+    }
+  ],
+  "motivazione": "La simulazione cattura in modo accurato la risposta diplomatica della Russia alle dichiarazioni del Presidente italiano, riflettendo le tensioni esistenti tra i due paesi. Tuttavia, non prevede azioni cyber ostili dirette contro l'Italia da parte della Russia o di attori filorussi, concentrandosi invece sulla cooperazione strategica e sulle difese cibernetiche.",
+  "conteggi": {
+    "presente": 2,
+    "parziale": 2,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 1
+  },
+  "punteggio_realta": 75.0,
+  "punteggio_realta_verificato": 62.5
+}

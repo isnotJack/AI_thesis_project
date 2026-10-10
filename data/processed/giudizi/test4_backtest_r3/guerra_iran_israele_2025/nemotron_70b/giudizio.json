@@ -1,0 +1,61 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 40618,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 70.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della knowledge base, mostrando una comprensione del contesto geopolitico e delle relazioni tra i paesi. Le reazioni e le azioni intraprese sono generalmente coerenti con il ruolo cyber di ciascun paese e con la situazione descritta nella KB. Tuttavia, ci sono stati alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, ad esempio quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB. La plausibilità delle reazioni è complessivamente buona, ma ci sono state alcune escalation che potrebbero essere considerate eccessive o non del tutto realistiche.",
+    "evidenze": [
+      {
+        "osservazione": "L'Iran risponde all'attacco aereo israeliano con contrattacchi mirati nel cyberspazio e operazioni militari limitate, coerentemente con il suo ruolo cyber offensivo.",
+        "riferimento": "round 1/IRN"
+      },
+      {
+        "osservazione": "La Russia accoglie l'invito iraniano per un'alleanza strategica contro Israele, considerando la sua storia di cooperazione con l'Iran e le relazioni cyber ostili bidirezionali.",
+        "riferimento": "round 2/RUS"
+      },
+      {
+        "osservazione": "Gli Stati Uniti intensificano la loro presenza militare nella regione in risposta alle esercitazioni congiunte Siria-Iran, coerentemente con il loro ruolo di leader globale e le tensioni esistenti.",
+        "riferimento": "round 6/USA"
+      },
+      {
+        "osservazione": "La Cina accetta l'invito russo a unirsi alle esercitazioni militari congiunte con Iran e Russia, rafforzando la cooperazione trilaterale.",
+        "riferimento": "round 6/CHN"
+      },
+      {
+        "osservazione": "L'Ucraina rafforza la cooperazione con gli Stati Uniti per contrastare le minacce russe, considerando l'avvertimento della Russia come un segnale di aggressività.",
+        "riferimento": "round 7/UKR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 283,
+    "grounded": 178,
+    "non_ancorate": 60,
+    "irregolari": 45,
+    "multi_tag": 27,
+    "perc_grounded": 62.9,
+    "perc_irregolari": 15.9,
+    "distribuzione": {
+      "conflitto": 36,
+      "evento": 107,
+      "cyber": 13,
+      "relazioni": 34,
+      "conoscenza_generale": 60,
+      "traiettoria": 5,
+      "contesto_generale": 10,
+      "migrazione": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 37,
+      "azione_su_arco": 1,
+      "cooperazione": 4,
+      "aggiornamenti_stato": 3
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 28244,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 85.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "La simulazione mostra una coerenza generale con la knowledge base (KB), con reazioni e azioni che rispecchiano i dati forniti. La plausibilità delle interazioni geopolitiche è buona, con un'escalation graduale del conflitto e una risposta coerente da parte dei vari paesi coinvolti. Tuttavia, ci sono alcuni casi in cui le scelte non sembrano essere supportate direttamente dalla KB, il che ha portato a una valutazione leggermente inferiore per la fedeltà al grounding.",
+    "evidenze": [
+      {
+        "osservazione": "L'Iran risponde all'attacco aereo israeliano con operazioni militari e cyber",
+        "riferimento": "IRN, round 1"
+      },
+      {
+        "osservazione": "Israele intensifica le operazioni militari in risposta all'escalation iraniana",
+        "riferimento": "ISR, round 6"
+      },
+      {
+        "osservazione": "Gli Stati Uniti rafforzano la cooperazione cyber con Israele per contrastare le minacce iraniane",
+        "riferimento": "USA, round 9"
+      },
+      {
+        "osservazione": "L'Iran intensifica le operazioni cibernetiche contro gli USA in risposta all'intensificazione della cooperazione difensiva tra USA e Israele",
+        "riferimento": "IRN, round 10"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 232,
+    "grounded": 232,
+    "non_ancorate": 0,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 100.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 209,
+      "relazioni": 16,
+      "cyber": 7
+    },
+    "distribuzione_irregolari": {}
+  }
+}

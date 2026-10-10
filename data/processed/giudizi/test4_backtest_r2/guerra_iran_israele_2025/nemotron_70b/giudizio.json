@@ -1,0 +1,55 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 64742,
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 75.0,
+    "motivazione": "La coerenza con la KB è generalmente buona, con reazioni e azioni che rispecchiano i dati forniti. La plausibilità delle scelte geopolitiche è alta, anche se in alcuni casi si potrebbero verificare escalation più contenute. Il grounding dei tag 'base_kb' è per lo più accurato, ma ci sono alcune imprecisioni o mancate corrispondenze.",
+    "evidenze": [
+      {
+        "osservazione": "La Cina rafforza la cooperazione con la Russia in materia di sicurezza cibernetica",
+        "riferimento": "round 10/CHN"
+      },
+      {
+        "osservazione": "Gli Stati Uniti accolgono positivamente l'iniziativa russa e si impegnano a ridurre le operazioni ostili reciproche.",
+        "riferimento": "round 10/USA"
+      },
+      {
+        "osservazione": "La Russia accoglie con favore la proposta cinese, vedendo un'opportunità per rafforzare la sicurezza informatica regionale",
+        "riferimento": "round 10/RUS"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 493,
+    "grounded": 328,
+    "non_ancorate": 110,
+    "irregolari": 55,
+    "multi_tag": 71,
+    "perc_grounded": 66.5,
+    "perc_irregolari": 11.2,
+    "distribuzione": {
+      "evento": 207,
+      "conoscenza_generale": 110,
+      "conflitto": 45,
+      "relazioni": 65,
+      "contesto_generale": 14,
+      "cyber": 40,
+      "traiettoria": 11,
+      "economia": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 45,
+      "cooperazione": 2,
+      "azione_su_arco": 6,
+      "aggiornamento_stato": 1,
+      "reazione_breve": 1,
+      "aggiornamenti_stato": 1
+    }
+  }
+}

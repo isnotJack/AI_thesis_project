@@ -1,0 +1,56 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 24992,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 85.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della knowledge base, soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato. Le azioni intraprese dai vari Paesi sono generalmente in linea con il contesto geopolitico e la situazione descritta nella KB. Tuttavia, ci sono stati alcuni casi in cui la scelta delle basi KB non era del tutto accurata o mancava di specificità. La plausibilità della catena di propagazione è stata per lo più mantenuta, con una escalation graduale e sensata delle tensioni tra i Paesi coinvolti.",
+    "evidenze": [
+      {
+        "osservazione": "Le reazioni dei Paesi sono coerenti con il contesto descritto nella KB.",
+        "riferimento": "round 1/RUS, round 2/CHN"
+      },
+      {
+        "osservazione": "Gli aggiornamenti di stato riflettono accuratamente i cambiamenti nelle situazioni interne ed esterne dei Paesi.",
+        "riferimento": "round 3/ITA, round 6/USA"
+      },
+      {
+        "osservazione": "Alcune scelte delle basi KB non erano del tutto accurate o mancavano di specificità.",
+        "riferimento": "round 4/CHN, round 8/RUS"
+      },
+      {
+        "osservazione": "La catena di propagazione mantiene una plausibilità generale, con un'escalation graduale delle tensioni cyber.",
+        "riferimento": "round 7/USA, round 9/UKR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 177,
+    "grounded": 108,
+    "non_ancorate": 33,
+    "irregolari": 36,
+    "multi_tag": 23,
+    "perc_grounded": 61.0,
+    "perc_irregolari": 20.3,
+    "distribuzione": {
+      "evento": 68,
+      "traiettoria": 7,
+      "conoscenza_generale": 33,
+      "relazioni": 21,
+      "conflitto": 16,
+      "cyber": 9,
+      "contesto_generale": 5
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 30,
+      "cooperazione": 3,
+      "azione_su_arco": 3,
+      "reazione_breve": 1
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 15243,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 85.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), gestendo in modo plausibile le reazioni e gli aggiornamenti di stato. Le azioni intraprese dai vari Paesi sono generalmente coerenti con il contesto geopolitico e la KB. Tuttavia, ci sono stati alcuni casi in cui la scelta delle basi KB non è stata del tutto accurata o completa, influenzando così la fedeltà al grounding. La catena di propagazione è per lo più sensata dal punto di vista geopolitico, con alcune escalation gestite in modo appropriato.",
+    "evidenze": [
+      {
+        "osservazione": "Reazioni coerenti con il contesto e i dati della KB",
+        "riferimento": "round 1/RUS, round 2/CHN, round 3/RUS"
+      },
+      {
+        "osservazione": "Aggiornamenti di stato accurati in base ai dati della KB",
+        "riferimento": "round 2/CHN, round 6/RUS, round 8/UKR"
+      },
+      {
+        "osservazione": "Azioni coerenti con il contesto geopolitico e la KB",
+        "riferimento": "round 4/CHN, round 5/EST, round 9/USA"
+      },
+      {
+        "osservazione": "Uso inappropriato di 'conoscenza_generale' come base KB",
+        "riferimento": "round 2/ITA, round 3/RUS, round 6/CHN"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 93,
+    "grounded": 55,
+    "non_ancorate": 18,
+    "irregolari": 20,
+    "multi_tag": 8,
+    "perc_grounded": 59.1,
+    "perc_irregolari": 21.5,
+    "distribuzione": {
+      "evento": 37,
+      "contesto_generale": 4,
+      "cyber": 2,
+      "relazioni": 13,
+      "conoscenza_generale": 18,
+      "conflitto": 5,
+      "traiettoria": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 18,
+      "cooperazione": 2
+    }
+  }
+}

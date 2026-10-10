@@ -1,0 +1,5175 @@
+{
+  "prefisso": "test4_backtest",
+  "ripetizioni": [
+    "test4_backtest_r1",
+    "test4_backtest_r2",
+    "test4_backtest_r3"
+  ],
+  "scenari": {
+    "guerra_iran_israele_2025": {
+      "titolo": "Guerra dei dodici giorni fra Israele e Iran",
+      "periodo_reale": "13-24 giugno 2025",
+      "modelli": {
+        "llama3.3_70b": {
+          "aggregato": {
+            "n": 3,
+            "richiamo_archi": {
+              "media": 0.436,
+              "min": 0.385,
+              "max": 0.462
+            },
+            "precisione_archi": {
+              "media": 0.167,
+              "min": 0.115,
+              "max": 0.226
+            },
+            "f1_archi": {
+              "media": 0.238,
+              "min": 0.185,
+              "max": 0.303
+            },
+            "richiamo_esteso": {
+              "media": 0.462,
+              "min": 0.385,
+              "max": 0.538
+            },
+            "precisione_attori": {
+              "media": 0.796,
+              "min": 0.556,
+              "max": 1.0
+            },
+            "richiamo_attori": {
+              "media": 0.714,
+              "min": 0.714,
+              "max": 0.714
+            },
+            "escalation_inventate": {
+              "media": 3.333,
+              "min": 1,
+              "max": 6
+            },
+            "operazioni_distensive": {
+              "media": 7.333,
+              "min": 5,
+              "max": 12
+            },
+            "cyber_come_cooperazione": {
+              "media": 0.06,
+              "min": 0.0,
+              "max": 0.143
+            },
+            "archi_cooperazione": {
+              "media": 83.667,
+              "min": 70,
+              "max": 109
+            },
+            "punteggio_giudice_realta": {
+              "media": 53.0,
+              "min": 50.0,
+              "max": 54.5
+            },
+            "punteggio_giudice_verificato": {
+              "media": 18.167,
+              "min": 0.0,
+              "max": 31.8
+            },
+            "ancoraggio": {
+              "media": 0.663,
+              "min": 0.585,
+              "max": 0.706
+            },
+            "tag_irregolari": {
+              "media": 0.014,
+              "min": 0.005,
+              "max": 0.028
+            },
+            "scelte_scartate": {
+              "media": 0,
+              "min": 0,
+              "max": 0
+            },
+            "risposte": {
+              "media": 92.667,
+              "min": 76,
+              "max": 125
+            },
+            "round": {
+              "media": 10,
+              "min": 10,
+              "max": 10
+            },
+            "durata_s": {
+              "media": 2198.167,
+              "min": 1777.6,
+              "max": 2983.1
+            },
+            "primo_passo": 2,
+            "copertura_fatti": {
+              "A1": 2,
+              "A2": 0,
+              "A3": 0,
+              "A4": 0,
+              "A5": 0,
+              "A6": 3,
+              "A7": 3,
+              "A8": 3,
+              "A9": 3,
+              "A10": 3,
+              "A11": 0,
+              "A12": 0,
+              "A13": 0
+            },
+            "copertura_fatti_estesa": {
+              "A1": 2,
+              "A2": 1,
+              "A3": 0,
+              "A4": 0,
+              "A5": 0,
+              "A6": 3,
+              "A7": 3,
+              "A8": 3,
+              "A9": 3,
+              "A10": 3,
+              "A11": 0,
+              "A12": 0,
+              "A13": 0
+            },
+            "copertura_giudice": {
+              "F1": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F2": {
+                "presente": 1,
+                "parziale": 1
+              },
+              "F3": {
+                "presente": 2,
+                "parziale": 1
+              },
+              "F4": {
+                "presente": 0,
+                "parziale": 0
+              },
+              "F5": {
+                "presente": 1,
+                "parziale": 2
+              },
+              "F6": {
+                "presente": 0,
+                "parziale": 0
+              },
+              "F7": {
+                "presente": 2,
+                "parziale": 1
+              },
+              "F8": {
+                "presente": 1,
+                "parziale": 1
+              },
+              "F9": {
+                "presente": 2,
+                "parziale": 1
+              },
+              "F10": {
+                "presente": 0,
+                "parziale": 1
+              },
+              "F11": {
+                "presente": 1,
+                "parziale": 1
+              }
+            }
+          },
+          "esecuzioni": [
+            {
+              "richiamo_archi": 0.46153846153846156,
+              "precisione_archi": 0.11538461538461539,
+              "f1_archi": 0.18461538461538463,
+              "fatti_previsti": [
+                "A1",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "EST",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "EST",
+                  "RUS",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "EST",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "IRN",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "KOR",
+                  "PRK",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "KOR",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "PRK",
+                  "KOR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "PRK",
+                  "KOR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "PRK",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "PRK",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CAN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "EST",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "EST",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "KOR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "PRK",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "POL",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "EST",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 3,
+              "richiamo_esteso": 0.46153846153846156,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "precisione_attori": 0.5555555555555556,
+              "richiamo_attori": 0.7142857142857143,
+              "f1_attori": 0.6250000000000001,
+              "attori_previsti": [
+                "CHN",
+                "EST",
+                "IRN",
+                "ISR",
+                "KOR",
+                "PRK",
+                "RUS",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "EST",
+                "KOR",
+                "PRK",
+                "UKR"
+              ],
+              "attori_mancanti": [
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": true,
+              "operazioni_distensive": 12,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 53,
+              "cyber_come_cooperazione": 0.03773584905660377,
+              "archi_cooperazione": 109,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 0.706,
+              "tag_irregolari": 0.027999999999999997,
+              "scelte_scartate": 0,
+              "risposte": 125,
+              "round": 10,
+              "durata_s": 2983.1,
+              "seed": 1,
+              "punteggio_giudice_realta": 54.5,
+              "punteggio_giudice_verificato": 0.0,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "assente",
+                "F3": "presente",
+                "F4": "assente",
+                "F5": "presente",
+                "F6": "assente",
+                "F7": "presente",
+                "F8": "assente",
+                "F9": "presente",
+                "F10": "assente",
+                "F11": "presente"
+              },
+              "fatti_giudice_verificati": {},
+              "test": "test4_backtest_r1"
+            },
+            {
+              "richiamo_archi": 0.46153846153846156,
+              "precisione_archi": 0.22580645161290322,
+              "f1_archi": 0.30324909747292417,
+              "fatti_previsti": [
+                "A1",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "AUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "ISR",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "GBR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "ISR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "ISR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "JPN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 6,
+              "richiamo_esteso": 0.5384615384615384,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A2",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "precisione_attori": 0.8333333333333334,
+              "richiamo_attori": 0.7142857142857143,
+              "f1_attori": 0.7692307692307692,
+              "attori_previsti": [
+                "CHN",
+                "IRN",
+                "ISR",
+                "RUS",
+                "SYR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "SYR"
+              ],
+              "attori_mancanti": [
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": true,
+              "operazioni_distensive": 5,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 25,
+              "cyber_come_cooperazione": 0.0,
+              "archi_cooperazione": 70,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 0.6970000000000001,
+              "tag_irregolari": 0.009000000000000001,
+              "scelte_scartate": 0,
+              "risposte": 76,
+              "round": 10,
+              "durata_s": 1833.8,
+              "seed": 2,
+              "punteggio_giudice_realta": 50.0,
+              "punteggio_giudice_verificato": 31.8,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "parziale",
+                "F4": "assente",
+                "F5": "parziale",
+                "F6": "assente",
+                "F7": "parziale",
+                "F8": "presente",
+                "F9": "parziale",
+                "F10": "assente",
+                "F11": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F5": "parziale",
+                "F8": "presente",
+                "F9": "parziale",
+                "F11": "parziale"
+              },
+              "test": "test4_backtest_r2"
+            },
+            {
+              "richiamo_archi": 0.38461538461538464,
+              "precisione_archi": 0.16129032258064516,
+              "f1_archi": 0.22727272727272727,
+              "fatti_previsti": [
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "PRK",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "IRN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "CAN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "JPN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 1,
+              "richiamo_esteso": 0.38461538461538464,
+              "fatti_previsti_estesi": [
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "precisione_attori": 1.0,
+              "richiamo_attori": 0.7142857142857143,
+              "f1_attori": 0.8333333333333333,
+              "attori_previsti": [
+                "CHN",
+                "IRN",
+                "ISR",
+                "RUS",
+                "USA"
+              ],
+              "attori_in_piu": [],
+              "attori_mancanti": [
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": false,
+              "operazioni_distensive": 5,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 28,
+              "cyber_come_cooperazione": 0.14285714285714285,
+              "archi_cooperazione": 72,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 0.585,
+              "tag_irregolari": 0.005,
+              "scelte_scartate": 0,
+              "risposte": 77,
+              "round": 10,
+              "durata_s": 1777.6,
+              "seed": 3,
+              "punteggio_giudice_realta": 54.5,
+              "punteggio_giudice_verificato": 22.7,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "parziale",
+                "F3": "presente",
+                "F4": "assente",
+                "F5": "parziale",
+                "F6": "assente",
+                "F7": "presente",
+                "F8": "parziale",
+                "F9": "presente",
+                "F10": "parziale",
+                "F11": "assente"
+              },
+              "fatti_giudice_verificati": {
+                "F3": "presente",
+                "F9": "presente",
+                "F10": "parziale"
+              },
+              "test": "test4_backtest_r3"
+            }
+          ]
+        },
+        "nemotron_70b": {
+          "aggregato": {
+            "n": 3,
+            "richiamo_archi": {
+              "media": 0.513,
+              "min": 0.462,
+              "max": 0.538
+            },
+            "precisione_archi": {
+              "media": 0.101,
+              "min": 0.082,
+              "max": 0.115
+            },
+            "f1_archi": {
+              "media": 0.168,
+              "min": 0.143,
+              "max": 0.184
+            },
+            "richiamo_esteso": {
+              "media": 0.641,
+              "min": 0.615,
+              "max": 0.692
+            },
+            "precisione_attori": {
+              "media": 0.671,
+              "min": 0.556,
+              "max": 0.833
+            },
+            "richiamo_attori": {
+              "media": 0.714,
+              "min": 0.714,
+              "max": 0.714
+            },
+            "escalation_inventate": {
+              "media": 5.333,
+              "min": 3,
+              "max": 8
+            },
+            "operazioni_distensive": {
+              "media": 23,
+              "min": 12,
+              "max": 34
+            },
+            "cyber_come_cooperazione": {
+              "media": 0.489,
+              "min": 0.475,
+              "max": 0.5
+            },
+            "archi_cooperazione": {
+              "media": 163,
+              "min": 102,
+              "max": 224
+            },
+            "punteggio_giudice_realta": {
+              "media": 42.433,
+              "min": 27.3,
+              "max": 54.5
+            },
+            "punteggio_giudice_verificato": {
+              "media": 18.2,
+              "min": 9.1,
+              "max": 36.4
+            },
+            "ancoraggio": {
+              "media": 0.645,
+              "min": 0.629,
+              "max": 0.665
+            },
+            "tag_irregolari": {
+              "media": 0.145,
+              "min": 0.112,
+              "max": 0.164
+            },
+            "scelte_scartate": {
+              "media": 1.333,
+              "min": 0,
+              "max": 3
+            },
+            "risposte": {
+              "media": 133.333,
+              "min": 84,
+              "max": 179
+            },
+            "round": {
+              "media": 10,
+              "min": 10,
+              "max": 10
+            },
+            "durata_s": {
+              "media": 4232.6,
+              "min": 2576.0,
+              "max": 5617.1
+            },
+            "primo_passo": 2,
+            "copertura_fatti": {
+              "A1": 2,
+              "A2": 2,
+              "A3": 0,
+              "A4": 0,
+              "A5": 0,
+              "A6": 2,
+              "A7": 3,
+              "A8": 3,
+              "A9": 3,
+              "A10": 3,
+              "A11": 0,
+              "A12": 1,
+              "A13": 1
+            },
+            "copertura_fatti_estesa": {
+              "A1": 3,
+              "A2": 3,
+              "A3": 2,
+              "A4": 0,
+              "A5": 0,
+              "A6": 3,
+              "A7": 3,
+              "A8": 3,
+              "A9": 3,
+              "A10": 3,
+              "A11": 0,
+              "A12": 1,
+              "A13": 1
+            },
+            "copertura_giudice": {
+              "F1": {
+                "presente": 1,
+                "parziale": 0
+              },
+              "F2": {
+                "presente": 1,
+                "parziale": 2
+              },
+              "F3": {
+                "presente": 0,
+                "parziale": 3
+              },
+              "F4": {
+                "presente": 0,
+                "parziale": 2
+              },
+              "F5": {
+                "presente": 0,
+                "parziale": 1
+              },
+              "F6": {
+                "presente": 0,
+                "parziale": 3
+              },
+              "F7": {
+                "presente": 1,
+                "parziale": 2
+              },
+              "F8": {
+                "presente": 1,
+                "parziale": 1
+              },
+              "F9": {
+                "presente": 0,
+                "parziale": 3
+              },
+              "F10": {
+                "presente": 0,
+                "parziale": 2
+              },
+              "F11": {
+                "presente": 0,
+                "parziale": 1
+              }
+            }
+          },
+          "esecuzioni": [
+            {
+              "richiamo_archi": 0.5384615384615384,
+              "precisione_archi": 0.08247422680412371,
+              "f1_archi": 0.14303959131545335,
+              "fatti_previsti": [
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10",
+                "A12",
+                "A13"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "IRN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "CHN",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "KAZ",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "KAZ",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "SYR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "IRN",
+                  "BLR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "ISR",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "IRN",
+                  "PRK",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "SYR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "SYR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ISR",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "POL",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "PRK",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "SYR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "TUR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "TUR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "SYR",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "CHN",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "EGY",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "ISR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "SYR",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "RUS",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "SYR",
+                  "TUR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "AUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "EST",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "POL",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "TUR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "militare",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 8,
+              "richiamo_esteso": 0.6923076923076923,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A2",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10",
+                "A12",
+                "A13"
+              ],
+              "precisione_attori": 0.625,
+              "richiamo_attori": 0.7142857142857143,
+              "f1_attori": 0.6666666666666666,
+              "attori_previsti": [
+                "CHN",
+                "IRN",
+                "ISR",
+                "ITA",
+                "RUS",
+                "SYR",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "ITA",
+                "SYR",
+                "UKR"
+              ],
+              "attori_mancanti": [
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": false,
+              "operazioni_distensive": 34,
+              "distensione_reale_prevista": [
+                "A12",
+                "A13"
+              ],
+              "archi_cyber_creati_rafforzati": 80,
+              "cyber_come_cooperazione": 0.475,
+              "archi_cooperazione": 224,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 0.642,
+              "tag_irregolari": 0.16399999999999998,
+              "scelte_scartate": 3,
+              "risposte": 179,
+              "round": 10,
+              "durata_s": 5617.1,
+              "seed": 1,
+              "punteggio_giudice_realta": 27.3,
+              "punteggio_giudice_verificato": 9.1,
+              "fatti_giudice": {
+                "F1": "assente",
+                "F2": "parziale",
+                "F3": "parziale",
+                "F4": "parziale",
+                "F5": "assente",
+                "F6": "parziale",
+                "F7": "parziale",
+                "F8": "assente",
+                "F9": "parziale",
+                "F10": null,
+                "F11": null
+              },
+              "fatti_giudice_verificati": {
+                "F3": "parziale",
+                "F7": "parziale"
+              },
+              "test": "test4_backtest_r1"
+            },
+            {
+              "richiamo_archi": 0.5384615384615384,
+              "precisione_archi": 0.10666666666666667,
+              "f1_archi": 0.17806041335453102,
+              "fatti_previsti": [
+                "A1",
+                "A2",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "BRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "BRA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "KAZ",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "PRK",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "CHN",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "FRA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "GBR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "RUS",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "IRN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "JPN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "KAZ",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "TUR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "EST",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "EST",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "ISR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "JPN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "militare",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 3,
+              "richiamo_esteso": 0.6153846153846154,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A2",
+                "A3",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "precisione_attori": 0.8333333333333334,
+              "richiamo_attori": 0.7142857142857143,
+              "f1_attori": 0.7692307692307692,
+              "attori_previsti": [
+                "CHN",
+                "IRN",
+                "ISR",
+                "RUS",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "UKR"
+              ],
+              "attori_mancanti": [
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": true,
+              "operazioni_distensive": 23,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 69,
+              "cyber_come_cooperazione": 0.4927536231884058,
+              "archi_cooperazione": 163,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 0.665,
+              "tag_irregolari": 0.11199999999999999,
+              "scelte_scartate": 0,
+              "risposte": 137,
+              "round": 10,
+              "durata_s": 4504.7,
+              "seed": 2,
+              "punteggio_giudice_realta": 45.5,
+              "punteggio_giudice_verificato": 9.1,
+              "fatti_giudice": {
+                "F1": "assente",
+                "F2": "parziale",
+                "F3": "parziale",
+                "F4": "parziale",
+                "F5": "parziale",
+                "F6": "parziale",
+                "F7": "parziale",
+                "F8": "parziale",
+                "F9": "parziale",
+                "F10": "parziale",
+                "F11": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F3": "parziale",
+                "F9": "parziale"
+              },
+              "test": "test4_backtest_r2"
+            },
+            {
+              "richiamo_archi": 0.46153846153846156,
+              "precisione_archi": 0.11475409836065574,
+              "f1_archi": 0.1838074398249453,
+              "fatti_previsti": [
+                "A1",
+                "A2",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "BRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "KAZ",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "EST",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "EST",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "ISR",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "IRN",
+                  "PRK",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "USA",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "PRK",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "PRK",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "IRN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "PRK",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "SYR",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "EST",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "EST",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "militare",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 5,
+              "richiamo_esteso": 0.6153846153846154,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A2",
+                "A3",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "precisione_attori": 0.5555555555555556,
+              "richiamo_attori": 0.7142857142857143,
+              "f1_attori": 0.6250000000000001,
+              "attori_previsti": [
+                "CHN",
+                "EST",
+                "IRN",
+                "ISR",
+                "PRK",
+                "RUS",
+                "SYR",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "EST",
+                "PRK",
+                "SYR",
+                "UKR"
+              ],
+              "attori_mancanti": [
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": true,
+              "operazioni_distensive": 12,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 32,
+              "cyber_come_cooperazione": 0.5,
+              "archi_cooperazione": 102,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 0.629,
+              "tag_irregolari": 0.159,
+              "scelte_scartate": 1,
+              "risposte": 84,
+              "round": 10,
+              "durata_s": 2576.0,
+              "seed": 3,
+              "punteggio_giudice_realta": 54.5,
+              "punteggio_giudice_verificato": 36.4,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "parziale",
+                "F4": "assente",
+                "F5": "assente",
+                "F6": "parziale",
+                "F7": "presente",
+                "F8": "presente",
+                "F9": "parziale",
+                "F10": "parziale",
+                "F11": "assente"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "parziale",
+                "F8": "presente",
+                "F10": "parziale"
+              },
+              "test": "test4_backtest_r3"
+            }
+          ]
+        },
+        "qwen2.5_72b": {
+          "aggregato": {
+            "n": 3,
+            "richiamo_archi": {
+              "media": 0.462,
+              "min": 0.385,
+              "max": 0.538
+            },
+            "precisione_archi": {
+              "media": 0.388,
+              "min": 0.375,
+              "max": 0.4
+            },
+            "f1_archi": {
+              "media": 0.42,
+              "min": 0.38,
+              "max": 0.459
+            },
+            "richiamo_esteso": {
+              "media": 0.538,
+              "min": 0.462,
+              "max": 0.615
+            },
+            "precisione_attori": {
+              "media": 0.778,
+              "min": 0.75,
+              "max": 0.833
+            },
+            "richiamo_attori": {
+              "media": 0.524,
+              "min": 0.429,
+              "max": 0.714
+            },
+            "escalation_inventate": {
+              "media": 5.333,
+              "min": 5,
+              "max": 6
+            },
+            "operazioni_distensive": {
+              "media": 0.667,
+              "min": 0,
+              "max": 2
+            },
+            "cyber_come_cooperazione": {
+              "media": 0.274,
+              "min": 0.241,
+              "max": 0.315
+            },
+            "archi_cooperazione": {
+              "media": 46.333,
+              "min": 31,
+              "max": 64
+            },
+            "punteggio_giudice_realta": {
+              "media": 57.567,
+              "min": 54.5,
+              "max": 59.1
+            },
+            "punteggio_giudice_verificato": {
+              "media": 39.433,
+              "min": 36.4,
+              "max": 45.5
+            },
+            "ancoraggio": {
+              "media": 0.998,
+              "min": 0.993,
+              "max": 1.0
+            },
+            "tag_irregolari": {
+              "media": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "scelte_scartate": {
+              "media": 0,
+              "min": 0,
+              "max": 0
+            },
+            "risposte": {
+              "media": 90,
+              "min": 78,
+              "max": 112
+            },
+            "round": {
+              "media": 10,
+              "min": 10,
+              "max": 10
+            },
+            "durata_s": {
+              "media": 2119.967,
+              "min": 1895.0,
+              "max": 2555.8
+            },
+            "primo_passo": 3,
+            "copertura_fatti": {
+              "A1": 3,
+              "A2": 3,
+              "A3": 0,
+              "A4": 1,
+              "A5": 0,
+              "A6": 3,
+              "A7": 3,
+              "A8": 3,
+              "A9": 1,
+              "A10": 1,
+              "A11": 0,
+              "A12": 0,
+              "A13": 0
+            },
+            "copertura_fatti_estesa": {
+              "A1": 3,
+              "A2": 3,
+              "A3": 3,
+              "A4": 1,
+              "A5": 0,
+              "A6": 3,
+              "A7": 3,
+              "A8": 3,
+              "A9": 1,
+              "A10": 1,
+              "A11": 0,
+              "A12": 0,
+              "A13": 0
+            },
+            "copertura_giudice": {
+              "F1": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F2": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F3": {
+                "presente": 2,
+                "parziale": 1
+              },
+              "F4": {
+                "presente": 0,
+                "parziale": 0
+              },
+              "F5": {
+                "presente": 0,
+                "parziale": 3
+              },
+              "F6": {
+                "presente": 0,
+                "parziale": 0
+              },
+              "F7": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F8": {
+                "presente": 0,
+                "parziale": 3
+              },
+              "F9": {
+                "presente": 2,
+                "parziale": 1
+              },
+              "F10": {
+                "presente": 0,
+                "parziale": 3
+              },
+              "F11": {
+                "presente": 0,
+                "parziale": 1
+              }
+            }
+          },
+          "esecuzioni": [
+            {
+              "richiamo_archi": 0.5384615384615384,
+              "precisione_archi": 0.4,
+              "f1_archi": 0.45901639344262296,
+              "fatti_previsti": [
+                "A1",
+                "A2",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "IRN",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "IRN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "RUS",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 6,
+              "richiamo_esteso": 0.6153846153846154,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A2",
+                "A3",
+                "A6",
+                "A7",
+                "A8",
+                "A9",
+                "A10"
+              ],
+              "precisione_attori": 0.8333333333333334,
+              "richiamo_attori": 0.7142857142857143,
+              "f1_attori": 0.7692307692307692,
+              "attori_previsti": [
+                "CHN",
+                "IRN",
+                "ISR",
+                "RUS",
+                "SYR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "SYR"
+              ],
+              "attori_mancanti": [
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": true,
+              "operazioni_distensive": 2,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 49,
+              "cyber_come_cooperazione": 0.2653061224489796,
+              "archi_cooperazione": 64,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 0.993,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 112,
+              "round": 10,
+              "durata_s": 2555.8,
+              "seed": 1,
+              "punteggio_giudice_realta": 59.1,
+              "punteggio_giudice_verificato": 45.5,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "presente",
+                "F4": "assente",
+                "F5": "parziale",
+                "F6": "assente",
+                "F7": "presente",
+                "F8": "parziale",
+                "F9": "presente",
+                "F10": "parziale",
+                "F11": "assente"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "presente",
+                "F5": "parziale",
+                "F7": "presente",
+                "F8": "parziale"
+              },
+              "test": "test4_backtest_r1"
+            },
+            {
+              "richiamo_archi": 0.38461538461538464,
+              "precisione_archi": 0.375,
+              "f1_archi": 0.37974683544303806,
+              "fatti_previsti": [
+                "A1",
+                "A2",
+                "A6",
+                "A7",
+                "A8"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "IRN",
+                  "LBN",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "PSE",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 5,
+              "richiamo_esteso": 0.46153846153846156,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A2",
+                "A3",
+                "A6",
+                "A7",
+                "A8"
+              ],
+              "precisione_attori": 0.75,
+              "richiamo_attori": 0.42857142857142855,
+              "f1_attori": 0.5454545454545454,
+              "attori_previsti": [
+                "IRN",
+                "ISR",
+                "SYR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "SYR"
+              ],
+              "attori_mancanti": [
+                "CHN",
+                "RUS",
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": true,
+              "operazioni_distensive": 0,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 54,
+              "cyber_come_cooperazione": 0.3148148148148148,
+              "archi_cooperazione": 44,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 1.0,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 78,
+              "round": 10,
+              "durata_s": 1895.0,
+              "seed": 2,
+              "punteggio_giudice_realta": 59.1,
+              "punteggio_giudice_verificato": 36.4,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "presente",
+                "F4": "assente",
+                "F5": "parziale",
+                "F6": "assente",
+                "F7": "presente",
+                "F8": "parziale",
+                "F9": "presente",
+                "F10": "parziale",
+                "F11": "assente"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "presente",
+                "F5": "parziale",
+                "F10": "parziale"
+              },
+              "test": "test4_backtest_r2"
+            },
+            {
+              "richiamo_archi": 0.46153846153846156,
+              "precisione_archi": 0.3888888888888889,
+              "f1_archi": 0.42211055276381904,
+              "fatti_previsti": [
+                "A1",
+                "A2",
+                "A4",
+                "A6",
+                "A7",
+                "A8"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "IRN",
+                  "GBR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "IRN",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "SYR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "IRN",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "SYR",
+                  "ISR",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "IRN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "SYR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "SYR",
+                  "militare",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 5,
+              "richiamo_esteso": 0.5384615384615384,
+              "fatti_previsti_estesi": [
+                "A1",
+                "A2",
+                "A3",
+                "A4",
+                "A6",
+                "A7",
+                "A8"
+              ],
+              "precisione_attori": 0.75,
+              "richiamo_attori": 0.42857142857142855,
+              "f1_attori": 0.5454545454545454,
+              "attori_previsti": [
+                "IRN",
+                "ISR",
+                "SYR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "SYR"
+              ],
+              "attori_mancanti": [
+                "CHN",
+                "RUS",
+                "SAU",
+                "YEM"
+              ],
+              "primo_passo": true,
+              "operazioni_distensive": 0,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 58,
+              "cyber_come_cooperazione": 0.2413793103448276,
+              "archi_cooperazione": 31,
+              "stato_atteso": 1,
+              "stato_previsto": [],
+              "ancoraggio": 1.0,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 80,
+              "round": 10,
+              "durata_s": 1909.1,
+              "seed": 3,
+              "punteggio_giudice_realta": 54.5,
+              "punteggio_giudice_verificato": 36.4,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "parziale",
+                "F4": "assente",
+                "F5": "parziale",
+                "F6": "assente",
+                "F7": "presente",
+                "F8": "parziale",
+                "F9": "parziale",
+                "F10": "parziale",
+                "F11": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "parziale",
+                "F5": "parziale",
+                "F10": "parziale",
+                "F11": "parziale"
+              },
+              "test": "test4_backtest_r3"
+            }
+          ]
+        }
+      },
+      "baseline_dati": {
+        "richiamo_archi": 0.3076923076923077,
+        "precisione_archi": 1.0,
+        "f1_archi": 0.47058823529411764,
+        "fatti_previsti": [
+          "A1",
+          "A2",
+          "A6",
+          "A7"
+        ],
+        "archi_senza_riscontro": [],
+        "escalation_inventate": 0,
+        "precisione_attori": 1.0,
+        "richiamo_attori": 0.2857142857142857,
+        "f1_attori": 0.4444444444444445,
+        "attori_previsti": [
+          "IRN",
+          "ISR"
+        ],
+        "attori_in_piu": [],
+        "attori_mancanti": [
+          "CHN",
+          "RUS",
+          "SAU",
+          "USA",
+          "YEM"
+        ],
+        "archi_previsti": [
+          [
+            "IRN",
+            "ISR",
+            "cyber",
+            "+"
+          ],
+          [
+            "IRN",
+            "ISR",
+            "militare",
+            "+"
+          ],
+          [
+            "ISR",
+            "IRN",
+            "cyber",
+            "+"
+          ],
+          [
+            "ISR",
+            "IRN",
+            "militare",
+            "+"
+          ]
+        ]
+      },
+      "previsioni": {}
+    },
+    "discorso_mattarella_2025": {
+      "titolo": "Discorso di Mattarella a Marsiglia e ondata DDoS filorussa contro l'Italia",
+      "periodo_reale": "14 febbraio - inizio marzo 2025",
+      "modelli": {
+        "llama3.3_70b": {
+          "aggregato": {
+            "n": 3,
+            "richiamo_archi": {
+              "media": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "precisione_archi": {
+              "media": 0.234,
+              "min": 0.036,
+              "max": 0.333
+            },
+            "f1_archi": {
+              "media": 0.356,
+              "min": 0.069,
+              "max": 0.5
+            },
+            "richiamo_esteso": {
+              "media": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "precisione_attori": {
+              "media": 0.689,
+              "min": 0.4,
+              "max": 1.0
+            },
+            "richiamo_attori": {
+              "media": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "escalation_inventate": {
+              "media": 0.667,
+              "min": 0,
+              "max": 2
+            },
+            "operazioni_distensive": {
+              "media": 3.667,
+              "min": 0,
+              "max": 11
+            },
+            "cyber_come_cooperazione": {
+              "media": 0.022,
+              "min": 0.0,
+              "max": 0.065
+            },
+            "archi_cooperazione": {
+              "media": 25,
+              "min": 2,
+              "max": 71
+            },
+            "punteggio_giudice_realta": {
+              "media": 70.833,
+              "min": 50.0,
+              "max": 100.0
+            },
+            "punteggio_giudice_verificato": {
+              "media": 50.0,
+              "min": 25.0,
+              "max": 100.0
+            },
+            "ancoraggio": {
+              "media": 0.721,
+              "min": 0.667,
+              "max": 0.8
+            },
+            "tag_irregolari": {
+              "media": 0.006,
+              "min": 0.0,
+              "max": 0.018
+            },
+            "scelte_scartate": {
+              "media": 0,
+              "min": 0,
+              "max": 0
+            },
+            "risposte": {
+              "media": 26.667,
+              "min": 2,
+              "max": 74
+            },
+            "round": {
+              "media": 5.667,
+              "min": 3,
+              "max": 10
+            },
+            "durata_s": {
+              "media": 664.4,
+              "min": 45.8,
+              "max": 1833.1
+            },
+            "primo_passo": 2,
+            "copertura_fatti": {
+              "B1": 3
+            },
+            "copertura_fatti_estesa": {
+              "B1": 3
+            },
+            "copertura_giudice": {
+              "F1": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F2": {
+                "presente": 1,
+                "parziale": 0
+              },
+              "F3": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F4": {
+                "presente": 1,
+                "parziale": 1
+              }
+            }
+          },
+          "esecuzioni": [
+            {
+              "richiamo_archi": 1.0,
+              "precisione_archi": 0.3333333333333333,
+              "f1_archi": 0.5,
+              "fatti_previsti": [
+                "B1"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "ITA",
+                  "DEU",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 0,
+              "richiamo_esteso": 1.0,
+              "fatti_previsti_estesi": [
+                "B1"
+              ],
+              "precisione_attori": 1.0,
+              "richiamo_attori": 1.0,
+              "f1_attori": 1.0,
+              "attori_previsti": [
+                "ITA",
+                "RUS"
+              ],
+              "attori_in_piu": [],
+              "attori_mancanti": [],
+              "primo_passo": true,
+              "operazioni_distensive": 0,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 1,
+              "cyber_come_cooperazione": 0.0,
+              "archi_cooperazione": 2,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 0.8,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 2,
+              "round": 3,
+              "durata_s": 45.8,
+              "seed": 1,
+              "punteggio_giudice_realta": 50.0,
+              "punteggio_giudice_verificato": 25.0,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "assente",
+                "F3": "presente",
+                "F4": "assente"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente"
+              },
+              "test": "test4_backtest_r1"
+            },
+            {
+              "richiamo_archi": 1.0,
+              "precisione_archi": 0.3333333333333333,
+              "f1_archi": 0.5,
+              "fatti_previsti": [
+                "B1"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "ITA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 0,
+              "richiamo_esteso": 1.0,
+              "fatti_previsti_estesi": [
+                "B1"
+              ],
+              "precisione_attori": 0.6666666666666666,
+              "richiamo_attori": 1.0,
+              "f1_attori": 0.8,
+              "attori_previsti": [
+                "ITA",
+                "RUS",
+                "UKR"
+              ],
+              "attori_in_piu": [
+                "UKR"
+              ],
+              "attori_mancanti": [],
+              "primo_passo": true,
+              "operazioni_distensive": 0,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 1,
+              "cyber_come_cooperazione": 0.0,
+              "archi_cooperazione": 2,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 0.667,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 4,
+              "round": 4,
+              "durata_s": 114.3,
+              "seed": 2,
+              "punteggio_giudice_realta": 62.5,
+              "punteggio_giudice_verificato": 25.0,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "assente",
+                "F3": "presente",
+                "F4": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente"
+              },
+              "test": "test4_backtest_r2"
+            },
+            {
+              "richiamo_archi": 1.0,
+              "precisione_archi": 0.03571428571428571,
+              "f1_archi": 0.0689655172413793,
+              "fatti_previsti": [
+                "B1"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "ITA",
+                  "RUS",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "ITA",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "PRK",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "DEU",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "militare",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 2,
+              "richiamo_esteso": 1.0,
+              "fatti_previsti_estesi": [
+                "B1"
+              ],
+              "precisione_attori": 0.4,
+              "richiamo_attori": 1.0,
+              "f1_attori": 0.5714285714285715,
+              "attori_previsti": [
+                "CHN",
+                "ITA",
+                "RUS",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "CHN",
+                "UKR",
+                "USA"
+              ],
+              "attori_mancanti": [],
+              "primo_passo": false,
+              "operazioni_distensive": 11,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 31,
+              "cyber_come_cooperazione": 0.06451612903225806,
+              "archi_cooperazione": 71,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 0.6970000000000001,
+              "tag_irregolari": 0.018000000000000002,
+              "scelte_scartate": 0,
+              "risposte": 74,
+              "round": 10,
+              "durata_s": 1833.1,
+              "seed": 3,
+              "punteggio_giudice_realta": 100.0,
+              "punteggio_giudice_verificato": 100.0,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "presente",
+                "F4": "presente"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "presente",
+                "F4": "presente"
+              },
+              "test": "test4_backtest_r3"
+            }
+          ]
+        },
+        "nemotron_70b": {
+          "aggregato": {
+            "n": 3,
+            "richiamo_archi": {
+              "media": 0.667,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "precisione_archi": {
+              "media": 0.016,
+              "min": 0.0,
+              "max": 0.027
+            },
+            "f1_archi": {
+              "media": 0.03,
+              "min": 0.0,
+              "max": 0.053
+            },
+            "richiamo_esteso": {
+              "media": 0.667,
+              "min": 0.0,
+              "max": 1.0
+            },
+            "precisione_attori": {
+              "media": 0.34,
+              "min": 0.286,
+              "max": 0.4
+            },
+            "richiamo_attori": {
+              "media": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "escalation_inventate": {
+              "media": 0.667,
+              "min": 0,
+              "max": 2
+            },
+            "operazioni_distensive": {
+              "media": 9,
+              "min": 3,
+              "max": 17
+            },
+            "cyber_come_cooperazione": {
+              "media": 0.426,
+              "min": 0.385,
+              "max": 0.474
+            },
+            "archi_cooperazione": {
+              "media": 63,
+              "min": 33,
+              "max": 98
+            },
+            "punteggio_giudice_realta": {
+              "media": 83.333,
+              "min": 75.0,
+              "max": 100.0
+            },
+            "punteggio_giudice_verificato": {
+              "media": 45.833,
+              "min": 25.0,
+              "max": 62.5
+            },
+            "ancoraggio": {
+              "media": 0.59,
+              "min": 0.569,
+              "max": 0.61
+            },
+            "tag_irregolari": {
+              "media": 0.203,
+              "min": 0.19,
+              "max": 0.215
+            },
+            "scelte_scartate": {
+              "media": 1.667,
+              "min": 0,
+              "max": 3
+            },
+            "risposte": {
+              "media": 53,
+              "min": 28,
+              "max": 80
+            },
+            "round": {
+              "media": 10,
+              "min": 10,
+              "max": 10
+            },
+            "durata_s": {
+              "media": 1623.033,
+              "min": 830.3,
+              "max": 2467.1
+            },
+            "primo_passo": 1,
+            "copertura_fatti": {
+              "B1": 2
+            },
+            "copertura_fatti_estesa": {
+              "B1": 2
+            },
+            "copertura_giudice": {
+              "F1": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F2": {
+                "presente": 1,
+                "parziale": 2
+              },
+              "F3": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F4": {
+                "presente": 1,
+                "parziale": 2
+              }
+            }
+          },
+          "esecuzioni": [
+            {
+              "richiamo_archi": 1.0,
+              "precisione_archi": 0.0196078431372549,
+              "f1_archi": 0.038461538461538464,
+              "fatti_previsti": [
+                "B1"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "BRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "BRA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "IND",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "ITA",
+                  "DEU",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "RUS",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "ITA",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "militare",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "KAZ",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "TUR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "CAN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "RUS",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "AUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "AUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "POL",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "POL",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "militare",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 2,
+              "richiamo_esteso": 1.0,
+              "fatti_previsti_estesi": [
+                "B1"
+              ],
+              "precisione_attori": 0.4,
+              "richiamo_attori": 1.0,
+              "f1_attori": 0.5714285714285715,
+              "attori_previsti": [
+                "CHN",
+                "ITA",
+                "RUS",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "CHN",
+                "UKR",
+                "USA"
+              ],
+              "attori_mancanti": [],
+              "primo_passo": false,
+              "operazioni_distensive": 17,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 38,
+              "cyber_come_cooperazione": 0.47368421052631576,
+              "archi_cooperazione": 98,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 0.569,
+              "tag_irregolari": 0.19,
+              "scelte_scartate": 3,
+              "risposte": 80,
+              "round": 10,
+              "durata_s": 2467.1,
+              "seed": 1,
+              "punteggio_giudice_realta": 100.0,
+              "punteggio_giudice_verificato": 25.0,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "presente",
+                "F3": "presente",
+                "F4": "presente"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente"
+              },
+              "test": "test4_backtest_r1"
+            },
+            {
+              "richiamo_archi": 1.0,
+              "precisione_archi": 0.02702702702702703,
+              "f1_archi": 0.052631578947368425,
+              "fatti_previsti": [
+                "B1"
+              ],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "BRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "ISR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "PRK",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "militare",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "UKR",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "GBR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "POL",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "EUR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "FRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 0,
+              "richiamo_esteso": 1.0,
+              "fatti_previsti_estesi": [
+                "B1"
+              ],
+              "precisione_attori": 0.3333333333333333,
+              "richiamo_attori": 1.0,
+              "f1_attori": 0.5,
+              "attori_previsti": [
+                "CHN",
+                "ISR",
+                "ITA",
+                "RUS",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "CHN",
+                "ISR",
+                "UKR",
+                "USA"
+              ],
+              "attori_mancanti": [],
+              "primo_passo": true,
+              "operazioni_distensive": 7,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 31,
+              "cyber_come_cooperazione": 0.41935483870967744,
+              "archi_cooperazione": 58,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 0.61,
+              "tag_irregolari": 0.203,
+              "scelte_scartate": 2,
+              "risposte": 51,
+              "round": 10,
+              "durata_s": 1571.7,
+              "seed": 2,
+              "punteggio_giudice_realta": 75.0,
+              "punteggio_giudice_verificato": 50.0,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "parziale",
+                "F3": "presente",
+                "F4": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F3": "presente"
+              },
+              "test": "test4_backtest_r2"
+            },
+            {
+              "richiamo_archi": 0.0,
+              "precisione_archi": 0.0,
+              "f1_archi": 0.0,
+              "fatti_previsti": [],
+              "archi_senza_riscontro": [
+                [
+                  "CHN",
+                  "BRA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "ISR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "CHN",
+                  "RUS",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "EST",
+                  "GBR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "EST",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ISR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "DEU",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "BLR",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "CHN",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "migrazione",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "KAZ",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "UKR",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "UKR",
+                  "USA",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "CHN",
+                  "cyber",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "EST",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "USA",
+                  "RUS",
+                  "cooperazione",
+                  "-"
+                ],
+                [
+                  "USA",
+                  "UKR",
+                  "cooperazione",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 0,
+              "richiamo_esteso": 0.0,
+              "fatti_previsti_estesi": [],
+              "precisione_attori": 0.2857142857142857,
+              "richiamo_attori": 1.0,
+              "f1_attori": 0.4444444444444445,
+              "attori_previsti": [
+                "CHN",
+                "EST",
+                "ISR",
+                "ITA",
+                "RUS",
+                "UKR",
+                "USA"
+              ],
+              "attori_in_piu": [
+                "CHN",
+                "EST",
+                "ISR",
+                "UKR",
+                "USA"
+              ],
+              "attori_mancanti": [],
+              "primo_passo": false,
+              "operazioni_distensive": 3,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 13,
+              "cyber_come_cooperazione": 0.38461538461538464,
+              "archi_cooperazione": 33,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 0.591,
+              "tag_irregolari": 0.215,
+              "scelte_scartate": 0,
+              "risposte": 28,
+              "round": 10,
+              "durata_s": 830.3,
+              "seed": 3,
+              "punteggio_giudice_realta": 75.0,
+              "punteggio_giudice_verificato": 62.5,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "parziale",
+                "F3": "presente",
+                "F4": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F2": "parziale",
+                "F3": "presente"
+              },
+              "test": "test4_backtest_r3"
+            }
+          ]
+        },
+        "qwen2.5_72b": {
+          "aggregato": {
+            "n": 3,
+            "richiamo_archi": {
+              "media": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "precisione_archi": {
+              "media": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "f1_archi": {
+              "media": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "richiamo_esteso": {
+              "media": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "precisione_attori": {
+              "media": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "richiamo_attori": {
+              "media": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "escalation_inventate": {
+              "media": 0,
+              "min": 0,
+              "max": 0
+            },
+            "operazioni_distensive": {
+              "media": 3.333,
+              "min": 2,
+              "max": 5
+            },
+            "cyber_come_cooperazione": null,
+            "archi_cooperazione": {
+              "media": 8.667,
+              "min": 7,
+              "max": 10
+            },
+            "punteggio_giudice_realta": {
+              "media": 79.167,
+              "min": 75.0,
+              "max": 87.5
+            },
+            "punteggio_giudice_verificato": {
+              "media": 50.0,
+              "min": 37.5,
+              "max": 75.0
+            },
+            "ancoraggio": {
+              "media": 1.0,
+              "min": 1.0,
+              "max": 1.0
+            },
+            "tag_irregolari": {
+              "media": 0.0,
+              "min": 0.0,
+              "max": 0.0
+            },
+            "scelte_scartate": {
+              "media": 0,
+              "min": 0,
+              "max": 0
+            },
+            "risposte": {
+              "media": 10,
+              "min": 10,
+              "max": 10
+            },
+            "round": {
+              "media": 10,
+              "min": 10,
+              "max": 10
+            },
+            "durata_s": {
+              "media": 204.767,
+              "min": 199.4,
+              "max": 207.5
+            },
+            "primo_passo": 0,
+            "copertura_fatti": {
+              "B1": 0
+            },
+            "copertura_fatti_estesa": {
+              "B1": 0
+            },
+            "copertura_giudice": {
+              "F1": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F2": {
+                "presente": 0,
+                "parziale": 3
+              },
+              "F3": {
+                "presente": 3,
+                "parziale": 0
+              },
+              "F4": {
+                "presente": 1,
+                "parziale": 2
+              }
+            }
+          },
+          "esecuzioni": [
+            {
+              "richiamo_archi": 0.0,
+              "precisione_archi": 0.0,
+              "f1_archi": 0.0,
+              "fatti_previsti": [],
+              "archi_senza_riscontro": [
+                [
+                  "ITA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 0,
+              "richiamo_esteso": 0.0,
+              "fatti_previsti_estesi": [],
+              "precisione_attori": 1.0,
+              "richiamo_attori": 1.0,
+              "f1_attori": 1.0,
+              "attori_previsti": [
+                "ITA",
+                "RUS"
+              ],
+              "attori_in_piu": [],
+              "attori_mancanti": [],
+              "primo_passo": false,
+              "operazioni_distensive": 2,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 0,
+              "cyber_come_cooperazione": null,
+              "archi_cooperazione": 9,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 1.0,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 10,
+              "round": 10,
+              "durata_s": 199.4,
+              "seed": 1,
+              "punteggio_giudice_realta": 75.0,
+              "punteggio_giudice_verificato": 37.5,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "parziale",
+                "F3": "presente",
+                "F4": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F4": "parziale"
+              },
+              "test": "test4_backtest_r1"
+            },
+            {
+              "richiamo_archi": 0.0,
+              "precisione_archi": 0.0,
+              "f1_archi": 0.0,
+              "fatti_previsti": [],
+              "archi_senza_riscontro": [
+                [
+                  "ITA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "ITA",
+                  "RUS",
+                  "cyber",
+                  "-"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cyber",
+                  "-"
+                ]
+              ],
+              "escalation_inventate": 0,
+              "richiamo_esteso": 0.0,
+              "fatti_previsti_estesi": [],
+              "precisione_attori": 1.0,
+              "richiamo_attori": 1.0,
+              "f1_attori": 1.0,
+              "attori_previsti": [
+                "ITA",
+                "RUS"
+              ],
+              "attori_in_piu": [],
+              "attori_mancanti": [],
+              "primo_passo": false,
+              "operazioni_distensive": 5,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 0,
+              "cyber_come_cooperazione": null,
+              "archi_cooperazione": 7,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 1.0,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 10,
+              "round": 10,
+              "durata_s": 207.5,
+              "seed": 2,
+              "punteggio_giudice_realta": 87.5,
+              "punteggio_giudice_verificato": 75.0,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "parziale",
+                "F3": "presente",
+                "F4": "presente"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F3": "presente",
+                "F4": "presente"
+              },
+              "test": "test4_backtest_r2"
+            },
+            {
+              "richiamo_archi": 0.0,
+              "precisione_archi": 0.0,
+              "f1_archi": 0.0,
+              "fatti_previsti": [],
+              "archi_senza_riscontro": [
+                [
+                  "ITA",
+                  "RUS",
+                  "cooperazione",
+                  "+"
+                ],
+                [
+                  "RUS",
+                  "ITA",
+                  "cooperazione",
+                  "+"
+                ]
+              ],
+              "escalation_inventate": 0,
+              "richiamo_esteso": 0.0,
+              "fatti_previsti_estesi": [],
+              "precisione_attori": 1.0,
+              "richiamo_attori": 1.0,
+              "f1_attori": 1.0,
+              "attori_previsti": [
+                "ITA",
+                "RUS"
+              ],
+              "attori_in_piu": [],
+              "attori_mancanti": [],
+              "primo_passo": false,
+              "operazioni_distensive": 3,
+              "distensione_reale_prevista": [],
+              "archi_cyber_creati_rafforzati": 0,
+              "cyber_come_cooperazione": null,
+              "archi_cooperazione": 10,
+              "stato_atteso": 0,
+              "stato_previsto": [],
+              "ancoraggio": 1.0,
+              "tag_irregolari": 0.0,
+              "scelte_scartate": 0,
+              "risposte": 10,
+              "round": 10,
+              "durata_s": 207.4,
+              "seed": 3,
+              "punteggio_giudice_realta": 75.0,
+              "punteggio_giudice_verificato": 37.5,
+              "fatti_giudice": {
+                "F1": "presente",
+                "F2": "parziale",
+                "F3": "presente",
+                "F4": "parziale"
+              },
+              "fatti_giudice_verificati": {
+                "F1": "presente",
+                "F4": "parziale"
+              },
+              "test": "test4_backtest_r3"
+            }
+          ]
+        }
+      },
+      "baseline_dati": {
+        "richiamo_archi": 1.0,
+        "precisione_archi": 1.0,
+        "f1_archi": 1.0,
+        "fatti_previsti": [
+          "B1"
+        ],
+        "archi_senza_riscontro": [],
+        "escalation_inventate": 0,
+        "precisione_attori": 1.0,
+        "richiamo_attori": 1.0,
+        "f1_attori": 1.0,
+        "attori_previsti": [
+          "ITA",
+          "RUS"
+        ],
+        "attori_in_piu": [],
+        "attori_mancanti": [],
+        "archi_previsti": [
+          [
+            "RUS",
+            "ITA",
+            "cyber",
+            "+"
+          ]
+        ]
+      },
+      "previsioni": {}
+    }
+  }
+}

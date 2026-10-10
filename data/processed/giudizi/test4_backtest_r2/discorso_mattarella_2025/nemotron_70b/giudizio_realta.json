@@ -1,0 +1,62 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 23483,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano e lancia un'operazione di contro-informazione.",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "round 2, CHN: La Cina accoglie con favore l'accordo di cooperazione strategica con la Russia, ma non compie operazioni cyber ostili contro l'Italia.",
+      "verificata": false
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia risponde sul piano politico-diplomatico respingendo le parole russe e accusando la Russia di attacchi informatici.",
+      "verificata": true
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "parziale",
+      "evidenza": "round 4, USA: Gli Stati Uniti rafforzano le difese cyber in risposta al patto Cina-Russia, ma non è specificato se si tratta di misure di difesa o protezione senza contrattacchi.",
+      "verificata": false
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia e la Cina annunciano un nuovo accordo di cooperazione strategica in risposta alle crescenti tensioni internazionali.",
+      "riferimento": "round 1, RUS"
+    },
+    {
+      "descrizione": "L'Italia denuncia un aumento degli attacchi informatici ai suoi sistemi di difesa, sospettando la mano russa.",
+      "riferimento": "round 2, ITA"
+    },
+    {
+      "descrizione": "La Russia e la Cina invitano l'Unione Europea a unirsi all'accordo di cooperazione strategica per rafforzare la stabilità globale.",
+      "riferimento": "round 3, EUR"
+    }
+  ],
+  "motivazione": "La simulazione cattura in modo accurato le reazioni diplomatiche e cyber tra i paesi coinvolti. Tuttavia, alcuni sviluppi specifici, come l'annuncio di un accordo di cooperazione strategica tra Russia e Cina o la denuncia italiana di attacchi informatici russi, non si sono verificati nella realtà.",
+  "conteggi": {
+    "presente": 2,
+    "parziale": 2,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 75.0,
+  "punteggio_realta_verificato": 50.0
+}

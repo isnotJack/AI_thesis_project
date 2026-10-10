@@ -1,0 +1,52 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "token_stimati": 31203,
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 75.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della knowledge base (KB), mostrando un'adeguata comprensione del contesto geopolitico e delle relazioni tra i paesi. La maggior parte delle reazioni e delle azioni intraprese dagli agenti sono coerenti con le informazioni fornite nella KB, inclusi i livelli di conflitto, migrazione e ruolo cyber. Tuttavia, ci sono stati alcuni casi in cui la coerenza potrebbe essere stata migliorata, come ad esempio quando gli agenti hanno citato 'conoscenza generale' invece di fare riferimento a dati specifici della KB. La plausibilità delle reazioni è generalmente buona, con una propagazione sensata degli eventi e delle azioni, anche se ci sono stati alcuni casi in cui le escalation potrebbero essere state gestite in modo più graduale o realistico.",
+    "evidenze": [
+      {
+        "osservazione": "Reazione dell'Iran all'attacco aereo di Israele",
+        "riferimento": "round 1/IRN"
+      },
+      {
+        "osservazione": "Aumento degli eventi violenti in Siria dopo l'escalation del conflitto",
+        "riferimento": "round 2/SYR"
+      },
+      {
+        "osservazione": "Citazione della 'conoscenza generale' invece di dati specifici della KB",
+        "riferimento": "round 7/RUS, round 8/CHN"
+      },
+      {
+        "osservazione": "Escalation rapida delle tensioni cyber tra USA e Iran",
+        "riferimento": "round 9/IRN, round 10/USA"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 211,
+    "grounded": 147,
+    "non_ancorate": 62,
+    "irregolari": 2,
+    "multi_tag": 0,
+    "perc_grounded": 69.7,
+    "perc_irregolari": 0.9,
+    "distribuzione": {
+      "conflitto": 53,
+      "relazioni": 19,
+      "evento": 55,
+      "conoscenza_generale": 62,
+      "cyber": 17,
+      "economia": 3
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 2
+    }
+  }
+}

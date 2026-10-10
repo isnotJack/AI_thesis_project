@@ -1,0 +1,111 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 28157,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "L'Iran risponde con ondate di missili balistici (oltre 550) e di droni (oltre 1.000) contro Israele.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: L'Iran risponde all'attacco aereo israeliano con operazioni militari e cyber contro Israele.",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Israele prosegue per dodici giorni gli attacchi aerei contro obiettivi militari e nucleari iraniani.",
+      "esito": "presente",
+      "evidenza": "round 2, ISR: Israele prosegue gli attacchi aerei contro obiettivi iraniani.",
+      "verificata": true
+    },
+    {
+      "id": "F3",
+      "testo": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani con difese antimissile e navi.",
+      "esito": "parziale",
+      "evidenza": "round 5, USA: Gli Stati Uniti forniscono supporto militare e cibernetico a Israele, ma non è specificato se si tratta di navi o difesa antimissile.",
+      "verificata": true
+    },
+    {
+      "id": "F4",
+      "testo": "Gli Stati Uniti bombardano i siti nucleari iraniani di Fordow, Natanz e Isfahan.",
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false
+    },
+    {
+      "id": "F5",
+      "testo": "L'Iran risponde agli Stati Uniti colpendo con missili la base americana di Al Udeid, in Qatar, senza vittime.",
+      "esito": "parziale",
+      "evidenza": "round 6, IRN: L'Iran colpisce una base americana in Qatar, ma non è specificato se si tratta della base di Al Udeid.",
+      "verificata": true
+    },
+    {
+      "id": "F6",
+      "testo": "Gli Houthi dello Yemen lanciano missili balistici contro Israele.",
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false
+    },
+    {
+      "id": "F7",
+      "testo": "Un gruppo di hacker legato a Israele (Predatory Sparrow) colpisce la banca statale iraniana Sepah e l'exchange di criptovalute Nobitex.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: Il gruppo hacker Predatory Sparrow colpisce la banca statale iraniana e un exchange di criptovalute.",
+      "verificata": false
+    },
+    {
+      "id": "F8",
+      "testo": "Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi); gli Stati Uniti mettono in guardia da attacchi cyber iraniani contro le proprie reti.",
+      "esito": "parziale",
+      "evidenza": "round 4, ISR: Gruppi filo-iraniani colpiscono aziende israeliane con attacchi cyber, ma non è specificato se si tratta di fughe di dati o falsi allarmi.",
+      "verificata": false
+    },
+    {
+      "id": "F9",
+      "testo": "Russia, Cina e Arabia Saudita condannano gli attacchi israeliani sul piano diplomatico, senza intervenire militarmente.",
+      "esito": "parziale",
+      "evidenza": "round 7, USA: Gli Stati Uniti condannano l'attacco israeliano e rafforzano la cooperazione con Israele, ma non è specificato se si tratta di condanna diplomatica o sostegno politico.",
+      "verificata": false
+    },
+    {
+      "id": "F10",
+      "testo": "In Iran migliaia di persone lasciano Teheran e altre citta'; il governo limita a piu' riprese l'accesso a internet.",
+      "esito": "parziale",
+      "evidenza": "round 9, IRN: L'Iran registra sfollati interni a causa degli attacchi, ma non è specificato se si tratta di fughe dalle città o limitazioni all'accesso a internet.",
+      "verificata": true
+    },
+    {
+      "id": "F11",
+      "testo": "Dopo dodici giorni entra in vigore un cessate il fuoco fra Israele e Iran, mediato dagli Stati Uniti con il Qatar.",
+      "esito": "parziale",
+      "evidenza": "round 9, ISR: Israele chiede un cessate il fuoco mediato dagli Stati Uniti, ma non è specificato se viene raggiunto un accordo o meno.",
+      "verificata": true
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "L'Arabia Saudita interviene militarmente contro l'Iran.",
+      "riferimento": "round 8, IRN"
+    },
+    {
+      "descrizione": "La Russia interviene militarmente contro Israele.",
+      "riferimento": "round 9, ISR"
+    },
+    {
+      "descrizione": "L'Iran chiude lo Stretto di Hormuz.",
+      "riferimento": "nessuna"
+    }
+  ],
+  "motivazione": "La simulazione si avvicina alla realtà in quanto prevede una risposta militare e cyber dell'Iran all'attacco israeliano, così come l'intensificazione delle operazioni militari da entrambe le parti. Tuttavia, mancano alcuni dettagli specifici, come il bombardamento dei siti nucleari iraniani da parte degli Stati Uniti o gli attacchi missilistici dello Yemen contro Israele.",
+  "conteggi": {
+    "presente": 3,
+    "parziale": 6,
+    "assente": 2,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 4
+  },
+  "punteggio_realta": 54.5,
+  "punteggio_realta_verificato": 36.4
+}
