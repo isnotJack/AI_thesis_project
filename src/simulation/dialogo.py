@@ -56,6 +56,9 @@ def _card(h: dict) -> str:
     if h.get("basi_kb"):
         chips = " ".join(f'<span class="chip">{_esc(t)}</span>' for t in h["basi_kb"])
         parti.append(f'<div class="basi">basi KB: {chips}</div>')
+    for x in h.get("scartate", []):
+        parti.append(f'<div class="scart">scartata · {_esc(x.get("scelta"))} verso '
+                     f'{_esc(x.get("verso"))} [{_esc(x.get("tipo"))}]: {_esc(x.get("esito"))}</div>')
     return '<div class="card">' + "".join(parti) + "</div>"
 
 
@@ -111,6 +114,7 @@ _TEMPLATE = """<!doctype html><html lang="it"><head><meta charset="utf-8">
   .ev{color:#5d6570;margin:4px 0 2px;padding-left:6px;border-left:2px solid var(--line)}
   .tag{font-size:9.5px;font-weight:700;color:#33406b;background:#e7ecff;border-radius:4px;padding:1px 5px}
   .basi{margin-top:6px;font-size:10.5px;color:var(--muted)}
+  .scart{font-size:10.5px;color:#b4232a;margin-top:3px}
   .chip{display:inline-block;font-size:9.5px;background:#eef2f6;border:1px solid var(--line);border-radius:4px;padding:1px 5px;margin:1px}
 </style></head><body>
 <div class="top"><h1>Dialogo tra modelli — __TITOLO__</h1><div class="ev">Evento iniziale: __EVENTO__</div></div>

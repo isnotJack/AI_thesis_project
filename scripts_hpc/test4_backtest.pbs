@@ -1,0 +1,18 @@
+#!/bin/bash
+#PBS -N test4_backtest
+#PBS -q gpu
+#PBS -l select=1:ncpus=8:ngpus=1,walltime=20:00:00
+#PBS -o scripts_hpc/log_test4.out
+#PBS -e scripts_hpc/log_test4.err
+
+# Job PBS del test 4 (backtest su eventi reali del 2025). 1 GPU: i modelli girano
+# in sequenza. Tutto il lavoro e' nel launcher (vedi i commenti in test4_backtest.sh).
+#
+# Uso (dalla root del progetto):
+#   cd ~/AI_thesis_project
+#   qsub scripts_hpc/test4_backtest.pbs
+#
+# Resumable: se il walltime scade, rilanciare lo stesso comando.
+
+cd "$PBS_O_WORKDIR"
+bash scripts_hpc/test4_backtest.sh

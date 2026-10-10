@@ -20,7 +20,7 @@ import json
 import re
 
 from src.simulation import schemi
-from src.simulation.ambiente import Ambiente
+from src.simulation.ambiente import Ambiente, iso3_valido
 from src.simulation.schemi import AZIONE_VUOTA, SCHEMA_AZIONE, Evento
 from src.simulation.stato_agente import (costruisci_scheda, snapshot_stato,
                                          traiettoria, trimestre_riferimento)
@@ -73,12 +73,12 @@ def _render_relazioni(rel: dict) -> str:
         if not items:
             return "  (nessuna)"
         return "\n".join(f"  - {r['tipo']}: {campo} {r.get('verso') or r.get('da')} (peso {r['peso']})"
-                         for r in items[:12])
+                         for r in items)   # gia' selezionate (Ambiente.relazioni)
     return f"uscenti (tu -> altri):\n{fmt(rel['uscenti'], 'verso')}\n" \
            f"entranti (altri -> tu):\n{fmt(rel['entranti'], 'da')}"
 
 
-def crea_prompt(scheda: dict, evento, relazione_mittente=None) -> str:
+def crea_prompt(scheda: dict, evento, relazioni_mittente=None) -> str:
     ev = evento.as_dict() if isinstance(evento, Evento) else evento
     defs_dim = "\n".join(f"- {k}: {v}" for k, v in schemi.DIMENSIONI.items())
     defs_arco = "\n".join(f"- {t}: verso = {schemi.VERSI_ARCO[t]}; il peso indica l'intensita'."
@@ -86,27 +86,29 @@ def crea_prompt(scheda: dict, evento, relazione_mittente=None) -> str:
     defs_op = "\n".join(f"- {o}: {schemi.SIGNIFICATO_OP[o]}" for o in schemi.OPERAZIONI_ARCO)
     defs_tag = ", ".join(schemi.TAG_KB)
 
-    if ev.get("mittente") and relazione_mittente:
-        prov = (f"proviene da {ev['mittente']}, con cui hai una relazione "
-                f"'{relazione_mittente['tipo']}' (peso {relazione_mittente['peso']}, "
-                f"{relazione_mittente['verso']})")
+    if ev.get("mittente") and relazioni_mittente:
+        prov = (f"proviene da {ev['mittente']}, con cui hai queste relazioni: "
+                + "; ".join(f"{r['verso']} {r['tipo']} (peso {r['peso']})"
+                            for r in relazioni_mittente))
     elif ev.get("mittente"):
-        prov = f"proviene da {ev['mittente']}"
+        prov = f"proviene da {ev['mittente']}, con cui non hai relazioni registrate"
     else:
         prov = "iniettato dallo scenario (nessun mittente)"
 
+    # Esempio con SEGNAPOSTO, non con valori realistici: nel test 3 i tre modelli
+    # copiavano i valori dell'esempio (120.000 rifugiati, l'Egitto come destinatario).
     schema_esempio = (
         '{\n'
-        '  "ragionamento": "2-3 frasi su COME arrivi alla decisione: cosa dello stato/storia/evento ti porta a reagire cosi",\n'
-        '  "reazione_breve": "max 2-3 frasi su come reagisce il Paese",\n'
-        '  "aggiornamenti_stato": {"carestia.livello_ipc": "fase4_emergenza", "migrazione.rifugiati": 120000},\n'
+        '  "ragionamento": "<2-3 frasi: che cosa del tuo stato, della tua storia e dell\'evento ti porta a questa decisione>",\n'
+        '  "reazione_breve": "<max 2-3 frasi su come reagisce il Paese>",\n'
+        '  "aggiornamenti_stato": {"<dimensione>.<campo>": <nuovo valore>},\n'
         '  "azioni_su_archi": [\n'
-        '    {"op": "rafforza", "verso": "EGY", "tipo": "migrazione", "peso_delta": 50000, "motivo": "...", "base_kb": "migrazione"}\n'
+        '    {"op": "<operazione>", "verso": "<ISO3>", "tipo": "<tipo di relazione>", "peso_delta": <numero>, "motivo": "<perche\'>", "base_kb": "<tag>"}\n'
         '  ],\n'
         '  "genera_eventi": [\n'
-        '    {"verso": "EGY", "tipo": "migrazione", "testo": "aumento dei flussi verso il confine", "base_kb": "evento"}\n'
+        '    {"verso": "<ISO3>", "tipo": "<tipo di relazione oppure generico>", "testo": "<che cosa accade al destinatario>", "base_kb": "<tag>"}\n'
         '  ],\n'
-        '  "basi_kb": ["evento", "migrazione", "carestia"]\n'
+        '  "basi_kb": ["<tag>"]\n'
         '}'
     )
 
@@ -150,8 +152,10 @@ In 'ragionamento' spiega SEMPRE, in 2-3 frasi, COME arrivi alla tua decisione: c
 - I Paesi si indicano con il codice ISO3 (3 lettere maiuscole).
 - In 'aggiornamenti_stato' le chiavi sono 'dimensione.campo' (es. "carestia.livello_ipc").
 - In 'azioni_su_archi' 'op' ∈ {list(schemi.OPERAZIONI_ARCO)}, 'tipo' ∈ {list(schemi.TIPI_ARCO)}.
+- Il tipo 'cyber' indica SOLO operazioni ostili, dall'attaccante alla vittima. Alleanze, accordi, aiuti, sostegno politico o diplomatico e anche la collaborazione in materia cyber (difesa comune, scambio di informazioni, indagini congiunte) si esprimono con il tipo 'cooperazione', mai con 'cyber'.
 
 ### SCHEMA ESATTO DELLA RISPOSTA
+I valori tra < > sono segnaposto: sostituiscili con valori scelti da te e coerenti con i dati sopra (operazioni, tipi e tag tra quelli ammessi; Paesi con il codice ISO3). Le liste possono essere vuote e 'aggiornamenti_stato' puo' essere {{}}.
 {schema_esempio}"""
 
 
@@ -212,14 +216,24 @@ def chiama_llm_e_parsa(prompt: str, responder, tentativi: int = 3) -> dict:
 
 
 def responder_ollama(modello: str, host: str = None, num_ctx: int = 8192,
-                     temperature: float = 0.2):
-    """Responder di produzione: un modello di testo via Ollama (HPC)."""
+                     temperature: float = 0.2, seed: int = None, formato: str = "json",
+                     num_predict: int = None):
+    """Responder di produzione: un modello di testo via Ollama (HPC).
+    `seed` rende ripetibile il campionamento: esecuzioni ripetute con seed diversi
+    misurano la variabilita' dovuta alla sola componente casuale."""
     import ollama
     client = ollama.Client(host=host) if host else ollama
+    opzioni = {"temperature": temperature, "num_ctx": num_ctx}
+    if seed is not None:
+        opzioni["seed"] = int(seed)
+    if num_predict is not None:              # tetto esplicito ai token generati
+        opzioni["num_predict"] = int(num_predict)
+
+    extra = {"format": formato} if formato else {}     # formato=None/"" -> testo libero
 
     def _resp(prompt: str) -> str:
         r = client.chat(model=modello, messages=[{"role": "user", "content": prompt}],
-                        format="json", options={"temperature": temperature, "num_ctx": num_ctx})
+                        options=opzioni, **extra)
         return r["message"]["content"]
     return _resp
 
@@ -241,23 +255,25 @@ def _applica_stato(stato: dict, chiave: str, valore, log: list, paese: str, rnd:
                 "prima": prima, "dopo": valore})
 
 
-def _relazione_tra(amb: Ambiente, mittente: str, target: str):
-    """Descrittore compatto della relazione mittente<->target (se esiste)."""
+def _relazioni_tra(amb: Ambiente, mittente: str, target: str) -> list:
+    """Tutte le relazioni fra mittente e destinatario, nei due versi. (Fino al test 3
+    si riportava solo la prima trovata, che poteva essere la meno rilevante: ad
+    esempio 5 rifugiati ITA -> RUS invece dei 13 incidenti cyber RUS -> ITA.)"""
     if not mittente:
-        return None
-    for _, b, k, d in amb.R.out_edges(mittente, keys=True, data=True):
-        if b == target:
-            return {"tipo": k, "peso": round(d["peso"], 1), "verso": f"{mittente} -> {target}"}
-    for _, b, k, d in amb.R.out_edges(target, keys=True, data=True):
-        if b == mittente:
-            return {"tipo": k, "peso": round(d["peso"], 1), "verso": f"{target} -> {mittente}"}
-    return None
+        return []
+    out = []
+    for a, b in ((mittente, target), (target, mittente)):
+        if a in amb.R:
+            for _, x, k, d in amb.R.out_edges(a, keys=True, data=True):
+                if x == b:
+                    out.append({"tipo": k, "peso": round(d["peso"], 1), "verso": f"{a} -> {b}"})
+    return out
 
 
 def simula(evento_iniziale: Evento, responder, n_round: int = 5, verbose: bool = True) -> dict:
-    amb = Ambiente()
-    core = amb.core
     trim = trimestre_riferimento(evento_iniziale.data)
+    amb = Ambiente(trimestre_rif=trim)      # relazioni solo fino al trimestre di riferimento
+    core = amb.core
 
     stati = {iso: snapshot_stato(iso, trim) for iso in core}
     traiett = {iso: traiettoria(iso, trim) for iso in core}
@@ -275,34 +291,49 @@ def simula(evento_iniziale: Evento, responder, n_round: int = 5, verbose: bool =
                 storico.append({"round": r, "paese": target,
                                 "nota": "nodo non-core: non reagisce (nessun profilo)"})
                 continue
-            rel_mitt = _relazione_tra(amb, ev.mittente, target)
+            rel_mitt = _relazioni_tra(amb, ev.mittente, target)
             scheda = costruisci_scheda(amb, target, stati[target], traiett[target])
             azione = chiama_llm_e_parsa(crea_prompt(scheda, ev, rel_mitt), responder)
 
             for chiave, val in (azione.get("aggiornamenti_stato") or {}).items():
                 _applica_stato(stati[target], chiave, val, cambi_stato, target, r)
 
-            archi_ev = []
+            # Le scelte non applicabili (destinatario che non e' un codice ISO3, arco
+            # verso se stessi, tipo fuori vocabolario) non toccano l'ambiente: restano
+            # nel log come 'scartate', cosi' non spariscono in silenzio.
+            archi_ev, scartate = [], []
             for a in (azione.get("azioni_su_archi") or []):
                 desc = amb.applica_arco(a.get("op"), target, a.get("verso"),
                                         a.get("tipo"), a.get("peso_delta"))
+                if desc.get("esito"):
+                    scartate.append({"scelta": "arco", "op": a.get("op"), "verso": a.get("verso"),
+                                     "tipo": a.get("tipo"), "base_kb": a.get("base_kb"),
+                                     "esito": desc["esito"]})
+                    continue
                 desc.update({"motivo": a.get("motivo"), "base_kb": a.get("base_kb"), "round": r})
                 cambi_archi.append(desc); archi_ev.append(desc)
 
             eventi_ev = []
             for g in (azione.get("genera_eventi") or []):
-                e = Evento(testo=g.get("testo", ""), paese=g.get("verso"),
+                dest = iso3_valido(g.get("verso"))
+                if not dest or dest == target:
+                    scartate.append({"scelta": "evento", "verso": g.get("verso"), "tipo": g.get("tipo"),
+                                     "base_kb": g.get("base_kb"), "esito": "destinatario non valido"})
+                    continue
+                e = Evento(testo=g.get("testo", ""), paese=dest,
                            tipo=g.get("tipo", "generico"), mittente=target,
                            data=ev.data, round=r)
-                if e.paese:
-                    nuova.append(e); eventi_ev.append({**e.as_dict(), "base_kb": g.get("base_kb")})
+                nuova.append(e); eventi_ev.append({**e.as_dict(), "base_kb": g.get("base_kb")})
 
-            storico.append({"round": r, "paese": target,
-                            "ragionamento": azione.get("ragionamento", ""),
-                            "reazione": azione.get("reazione_breve", ""),
-                            "aggiornamenti_stato": azione.get("aggiornamenti_stato", {}),
-                            "archi": archi_ev, "eventi_generati": eventi_ev,
-                            "basi_kb": azione.get("basi_kb", [])})
+            voce = {"round": r, "paese": target,
+                    "ragionamento": azione.get("ragionamento", ""),
+                    "reazione": azione.get("reazione_breve", ""),
+                    "aggiornamenti_stato": azione.get("aggiornamenti_stato", {}),
+                    "archi": archi_ev, "eventi_generati": eventi_ev,
+                    "basi_kb": azione.get("basi_kb", [])}
+            if scartate:
+                voce["scartate"] = scartate
+            storico.append(voce)
             if verbose:
                 print(f"[round {r}] {target}: {_tronca(azione.get('reazione_breve',''), 90)}")
 
@@ -348,6 +379,36 @@ def responder_mock(prompt: str) -> str:
                                  "peso_delta": 2, "motivo": "ritorsione/allerta"}],
             "genera_eventi": [],
         })
+    if any(w in ev for w in ("discorso", "dichiarazion")):
+        mitt = re.search(r"provenienza: proviene da ([A-Z]{3})", prompt)
+        mitt = mitt.group(1) if mitt else "USA"
+        return json.dumps({
+            "ragionamento": f"{iso}: la dichiarazione e' ostile; la storia mostra ritorsioni cyber.",
+            "reazione_breve": f"{iso}: condanna la dichiarazione e risponde sul piano cyber.",
+            "aggiornamenti_stato": {},
+            "azioni_su_archi": [{"op": "rafforza", "verso": mitt, "tipo": "cyber", "peso_delta": 2,
+                                 "motivo": "ritorsione", "base_kb": "relazioni"},
+                                {"op": "crea", "verso": "<ISO3>", "tipo": "cyber", "peso_delta": 1,
+                                 "motivo": "segnaposto copiato (deve essere scartato)", "base_kb": "evento"}],
+            "genera_eventi": [{"verso": mitt, "tipo": "cyber", "base_kb": "evento",
+                               "testo": "ondata di attacchi informatici contro siti istituzionali"}],
+            "basi_kb": ["evento", "relazioni"],
+        })
+    if any(w in ev for w in ("militar", "escalation", "guerra", "offensiva", "confine", "attacco aereo")):
+        mitt = re.search(r"provenienza: proviene da ([A-Z]{3})", prompt)
+        if mitt and "Iran" in prompt[:200]:
+            return json.dumps({
+                "ragionamento": f"{iso}: attacco diretto; rispondo militarmente e cerco sostegno.",
+                "reazione_breve": f"{iso}: ritorsione militare e richiesta di sostegno agli alleati.",
+                "aggiornamenti_stato": {"migrazione.sfollati_interni": 500000},
+                "azioni_su_archi": [{"op": "rafforza", "verso": mitt.group(1), "tipo": "militare",
+                                     "peso_delta": 10, "motivo": "ritorsione", "base_kb": "evento"}],
+                "genera_eventi": [{"verso": mitt.group(1), "tipo": "militare", "base_kb": "evento",
+                                   "testo": "lancio di missili in risposta all'attacco"},
+                                  {"verso": "RUS", "tipo": "cooperazione", "base_kb": "relazioni",
+                                   "testo": "richiesta di sostegno diplomatico"}],
+                "basi_kb": ["evento", "relazioni"],
+            })
     if any(w in ev for w in ("militar", "escalation", "guerra", "offensiva", "confine")):
         return json.dumps({
             "reazione_breve": f"{iso}: escalation del conflitto e nuovi sfollamenti.",

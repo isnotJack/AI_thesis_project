@@ -1,0 +1,132 @@
+{
+  "_descrizione": "Verita' di riferimento del test 4 (backtest): cio' che e' accaduto davvero dopo l'evento iniettato, ricostruito da fonti pubbliche e tradotto nel vocabolario della simulazione. 'archi': relazioni (da, a, tipo, segno) realmente avvenute; segno '+' = rafforza/crea, '-' = indebolisci/taglia; 'alternative' = archi equivalenti accettati come lo stesso fatto. 'accettabili': sviluppi documentati solo in parte o veri ma non causati dall'evento: non contano nel richiamo ne' come falsi positivi. 'attori': Paesi del campione che hanno reagito davvero (anche solo sul piano diplomatico). 'fatti' e 'non_accaduto': elenco per il giudice. 'stato': variazioni di stato attese. Fonti consultate il 10/10/2026.",
+  "scenari": {
+    "guerra_iran_israele_2025": {
+      "titolo": "Guerra dei dodici giorni fra Israele e Iran",
+      "evento_reale": "13 giugno 2025: attacco a sorpresa di Israele contro impianti nucleari e militari iraniani",
+      "periodo_reale": "13-24 giugno 2025",
+      "attori": ["IRN", "ISR", "USA", "YEM", "SAU", "RUS", "CHN"],
+      "arco_chiave": {"da": "IRN", "a": "ISR", "tipo": "militare", "segno": "+"},
+      "archi": [
+        {"id": "A1", "da": "IRN", "a": "ISR", "tipo": "militare", "segno": "+", "data": "13-24/6/2025",
+         "fatto": "L'Iran risponde con oltre 550 missili balistici e oltre 1.000 droni contro Israele"},
+        {"id": "A2", "da": "ISR", "a": "IRN", "tipo": "militare", "segno": "+", "data": "13-24/6/2025",
+         "fatto": "Israele prosegue per dodici giorni gli attacchi aerei sull'Iran"},
+        {"id": "A3", "da": "USA", "a": "IRN", "tipo": "militare", "segno": "+", "data": "22/6/2025",
+         "fatto": "Gli Stati Uniti bombardano i siti nucleari di Fordow, Natanz e Isfahan"},
+        {"id": "A4", "da": "IRN", "a": "USA", "tipo": "militare", "segno": "+", "data": "23/6/2025",
+         "alternative": [{"da": "IRN", "a": "QAT", "tipo": "militare"}],
+         "fatto": "L'Iran colpisce con missili la base statunitense di Al Udeid, in Qatar"},
+        {"id": "A5", "da": "YEM", "a": "ISR", "tipo": "militare", "segno": "+", "data": "13 e 15/6/2025",
+         "fatto": "Gli Houthi lanciano missili balistici contro Israele"},
+        {"id": "A6", "da": "ISR", "a": "IRN", "tipo": "cyber", "segno": "+", "data": "17-18/6/2025",
+         "fatto": "Predatory Sparrow, gruppo legato a Israele, colpisce la banca Sepah e l'exchange Nobitex (circa 90 milioni di dollari)"},
+        {"id": "A7", "da": "IRN", "a": "ISR", "tipo": "cyber", "segno": "+", "data": "13-20/6/2025",
+         "fatto": "Gruppi filo-iraniani (fra cui Handala) colpiscono aziende israeliane e diffondono falsi allarmi"},
+        {"id": "A8", "da": "USA", "a": "ISR", "tipo": "cooperazione", "segno": "+", "data": "13-24/6/2025",
+         "alternative": [{"da": "USA", "a": "ISR", "tipo": "militare"}],
+         "fatto": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani (THAAD e cacciatorpediniere)"},
+        {"id": "A9", "da": "RUS", "a": "IRN", "tipo": "cooperazione", "segno": "+", "data": "13/6/2025",
+         "fatto": "La Russia condanna gli attacchi israeliani: sostegno diplomatico, nessun aiuto militare"},
+        {"id": "A10", "da": "CHN", "a": "IRN", "tipo": "cooperazione", "segno": "+", "data": "13-19/6/2025",
+         "fatto": "La Cina condanna gli attacchi israeliani: sostegno diplomatico"},
+        {"id": "A11", "da": "SAU", "a": "IRN", "tipo": "cooperazione", "segno": "+", "data": "13/6/2025",
+         "fatto": "L'Arabia Saudita condanna l'aggressione israeliana contro l'Iran"},
+        {"id": "A12", "da": "ISR", "a": "IRN", "tipo": "militare", "segno": "-", "data": "24/6/2025",
+         "fatto": "Cessate il fuoco: Israele interrompe gli attacchi"},
+        {"id": "A13", "da": "IRN", "a": "ISR", "tipo": "militare", "segno": "-", "data": "24/6/2025",
+         "fatto": "Cessate il fuoco: l'Iran interrompe i lanci"}
+      ],
+      "accettabili": [
+        {"da": "IRN", "a": "USA", "tipo": "cyber", "segno": "+",
+         "nota": "il DHS (22/6) ritiene probabili attacchi cyber filo-iraniani di basso livello contro gli USA"},
+        {"da": "IRN", "a": "USA", "tipo": "cooperazione", "segno": "-",
+         "nota": "i negoziati sul nucleare previsti per il 15/6 saltano"},
+        {"da": "USA", "a": "IRN", "tipo": "cooperazione", "segno": "-",
+         "nota": "i negoziati sul nucleare previsti per il 15/6 saltano"},
+        {"da": "ISR", "a": "YEM", "tipo": "militare", "segno": "+",
+         "nota": "Israele colpisce gli Houthi il 10/6 e di nuovo a luglio, a ridosso del periodo"},
+        {"da": "IRN", "a": "ISR", "tipo": "cooperazione", "segno": "-", "nota": "rottura gia' in atto"},
+        {"da": "ISR", "a": "IRN", "tipo": "cooperazione", "segno": "-", "nota": "rottura gia' in atto"}
+      ],
+      "stato": [
+        {"paese": "IRN", "campo": "migrazione.sfollati_interni", "direzione": "+",
+         "fatto": "migliaia di persone lasciano Teheran e altre citta' (ordini di evacuazione israeliani dal 16/6)"}
+      ],
+      "fatti": [
+        {"id": "F1", "attori": ["IRN"], "data": "13-24/6/2025", "testo": "L'Iran risponde con ondate di missili balistici (oltre 550) e di droni (oltre 1.000) contro Israele."},
+        {"id": "F2", "attori": ["ISR"], "data": "13-24/6/2025", "testo": "Israele prosegue per dodici giorni gli attacchi aerei contro obiettivi militari e nucleari iraniani."},
+        {"id": "F3", "attori": ["USA"], "data": "13-24/6/2025", "testo": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani con difese antimissile e navi."},
+        {"id": "F4", "attori": ["USA"], "data": "22/6/2025", "testo": "Gli Stati Uniti bombardano i siti nucleari iraniani di Fordow, Natanz e Isfahan."},
+        {"id": "F5", "attori": ["IRN"], "data": "23/6/2025", "testo": "L'Iran risponde agli Stati Uniti colpendo con missili la base americana di Al Udeid, in Qatar, senza vittime."},
+        {"id": "F6", "attori": ["YEM"], "data": "13 e 15/6/2025", "testo": "Gli Houthi dello Yemen lanciano missili balistici contro Israele."},
+        {"id": "F7", "attori": ["ISR"], "data": "17-18/6/2025", "testo": "Un gruppo di hacker legato a Israele (Predatory Sparrow) colpisce la banca statale iraniana Sepah e l'exchange di criptovalute Nobitex."},
+        {"id": "F8", "attori": ["IRN", "USA"], "data": "13-22/6/2025", "testo": "Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi); gli Stati Uniti mettono in guardia da attacchi cyber iraniani contro le proprie reti."},
+        {"id": "F9", "attori": ["RUS", "CHN", "SAU"], "data": "13-19/6/2025", "testo": "Russia, Cina e Arabia Saudita condannano gli attacchi israeliani sul piano diplomatico, senza intervenire militarmente."},
+        {"id": "F10", "attori": ["IRN"], "data": "15-21/6/2025", "testo": "In Iran migliaia di persone lasciano Teheran e altre citta'; il governo limita a piu' riprese l'accesso a internet."},
+        {"id": "F11", "attori": ["ISR", "IRN", "USA"], "data": "24/6/2025", "testo": "Dopo dodici giorni entra in vigore un cessate il fuoco fra Israele e Iran, mediato dagli Stati Uniti con il Qatar."}
+      ],
+      "non_accaduto": [
+        "Arabia Saudita, Russia e Cina non intervengono militarmente ne' con attacchi informatici.",
+        "L'Iran non attacca l'Arabia Saudita ne' altri Paesi del Golfo, salvo la base americana in Qatar.",
+        "L'Iran non chiude lo Stretto di Hormuz.",
+        "Il conflitto non si estende con operazioni di terra."
+      ],
+      "fonti": [
+        "https://en.wikipedia.org/wiki/Twelve-Day_War",
+        "https://en.wikipedia.org/wiki/2025_United_States_strikes_on_Iranian_nuclear_sites",
+        "https://en.wikipedia.org/wiki/2025_Iranian_strikes_on_Al_Udeid_Air_Base",
+        "https://fortune.com/crypto/2025/06/18/nobitex-gonjeshke-darande-predatory-sparrow-iran-israel-hack",
+        "https://www.silobreaker.com/blog/geopolitical/hacktivism-in-the-israel-iran-conflict/",
+        "https://www.aha.org/system/files/media/file/2025/06/h-isac-tlp-white-threat-bulletin-update-potential-cascading-cybersecurity-impacts-of-israeli-strikes-on-strategic-iranian-military-targets-6-20-2025.pdf",
+        "https://secure.in.gov/iifc/files/6.22.25-NTAS-Bulletin.pdf",
+        "https://www.25newsnow.com/2025/06/13/us-helps-israel-shoot-down-barrage-iranian-missiles",
+        "https://arab.news/4m7qa",
+        "https://abs-cbn.com/news/world/2025/6/19/china-russia-strongly-condemn-israeli-strikes-on-iran-1911"
+      ]
+    },
+    "discorso_mattarella_2025": {
+      "titolo": "Discorso di Mattarella a Marsiglia e ondata DDoS filorussa contro l'Italia",
+      "evento_reale": "5 febbraio 2025: il Presidente della Repubblica, all'Universita' di Aix-Marseille, accosta l'aggressione russa all'Ucraina al progetto del Terzo Reich",
+      "periodo_reale": "14 febbraio - inizio marzo 2025",
+      "attori": ["RUS", "ITA"],
+      "arco_chiave": {"da": "RUS", "a": "ITA", "tipo": "cyber", "segno": "+"},
+      "archi": [
+        {"id": "B1", "da": "RUS", "a": "ITA", "tipo": "cyber", "segno": "+", "data": "dal 17/2/2025, per circa 12 giorni",
+         "fatto": "Il gruppo filorusso NoName057(16) colpisce con attacchi DDoS ministeri, Carabinieri, Guardia di Finanza, aeroporti di Linate e Malpensa, porti di Taranto e Trieste, Intesa Sanpaolo, Nexi e Mediobanca, definendo il Presidente 'russofobo'"}
+      ],
+      "accettabili": [
+        {"da": "RUS", "a": "ITA", "tipo": "cooperazione", "segno": "-",
+         "nota": "deterioramento diplomatico: Zakharova parla di 'invenzioni blasfeme' (14/2)"},
+        {"da": "ITA", "a": "RUS", "tipo": "cooperazione", "segno": "-",
+         "nota": "il governo respinge le parole russe come offensive"},
+        {"da": "ITA", "a": "UKR", "tipo": "cooperazione", "segno": "+",
+         "nota": "il sostegno italiano all'Ucraina prosegue, ma non e' una conseguenza dell'evento"},
+        {"da": "RUS", "a": "UKR", "tipo": "militare", "segno": "+",
+         "nota": "la guerra prosegue, ma non e' una conseguenza dell'evento"}
+      ],
+      "stato": [],
+      "fatti": [
+        {"id": "F1", "attori": ["RUS"], "data": "14/2/2025", "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze."},
+        {"id": "F2", "attori": ["RUS"], "data": "dal 17/2/2025, per circa 12 giorni", "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente."},
+        {"id": "F3", "attori": ["ITA"], "data": "14/2/2025", "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese."},
+        {"id": "F4", "attori": ["ITA"], "data": "dal 17/2/2025", "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati."}
+      ],
+      "non_accaduto": [
+        "Nessuna azione o minaccia militare fra Russia e Italia.",
+        "L'Italia non risponde con attacchi informatici contro la Russia.",
+        "L'Italia non espelle diplomatici russi ne' interrompe le relazioni diplomatiche per questo episodio.",
+        "Nessun altro Paese viene coinvolto nella vicenda.",
+        "Nessuna variazione dei flussi migratori."
+      ],
+      "fonti": [
+        "https://en.ilsole24ore.com/art/mosca-attacca-mattarella-invenzioni-blasfeme-russia-meloni-insulti-che-offendono-l-italia-intera-AGDIAKtC",
+        "https://quifinanza.it/innovazione/attacco-hacker-russia-mattarella/882477/",
+        "https://www.milanofinanza.it/news/hacker-filorussi-nuovo-attacco-a-ministeri-e-forze-dell-ordine-ecco-i-siti-web-colpiti-202502181036065181",
+        "https://www.ictsecuritymagazine.com/notizie/noname05716-attacchi/",
+        "https://www.fortuneita.com/?p=353176",
+        "https://www.cybersecurity360.it/?p=95130"
+      ]
+    }
+  }
+}

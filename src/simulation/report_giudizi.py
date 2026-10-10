@@ -69,9 +69,15 @@ def genera_report(test: str, out_path: Path = None) -> Path:
     agg = {}
     for m in modelli:
         vals = {c: _media([dati[(s, m)]["giudizio"].get(c) for s in scen if (s, m) in dati]) for c in CAMPI}
-        gr = _media([dati[(s, m)]["metriche_grounding"].get("perc_grounded")
-                     for s in scen if (s, m) in dati])
-        vals["grounding"] = gr
+        # grounding aggregato sui TOTALI (non media di percentuali: uno scenario
+        # con 2 scelte non deve pesare come uno con 20)
+        mg = [dati[(s, m)]["metriche_grounding"] for s in scen if (s, m) in dati]
+        tt = sum(x.get("scelte_taggate") or 0 for x in mg)
+        for k in ("scelte_taggate", "grounded", "non_ancorate", "irregolari"):
+            vals[k] = sum(x.get(k) or 0 for x in mg)
+        vals["grounding"] = round(100 * vals["grounded"] / tt, 1) if tt else None
+        vals["perc_irregolari"] = round(100 * vals["irregolari"] / tt, 1) if tt else None
+        vals["perc_non_ancorate"] = round(100 * vals["non_ancorate"] / tt, 1) if tt else None
         agg[m] = vals
     ordine = sorted(modelli, key=lambda m: (agg[m]["punteggio"] is not None, agg[m]["punteggio"] or 0), reverse=True)
 
@@ -86,8 +92,22 @@ def genera_report(test: str, out_path: Path = None) -> Path:
                        f'{_bar("punteggio medio", agg[m]["punteggio"])}'
                        f'<div class="sub">{sub}</div></div>')
 
-    # 2) grounding oggettivo
+    # 2) grounding oggettivo (+ dettaglio dei tre esiti)
     grounding = "".join(_bar(m, agg[m]["grounding"]) for m in ordine)
+    grtab = ("<table><tr><th class='rl'>modello</th><th>scelte</th><th>ancorate</th>"
+             "<th>non ancorate</th><th>tag irregolari</th></tr>")
+    for m in ordine:
+        a = agg[m]
+        irr = a["perc_irregolari"]
+        col = "#b4232a" if (irr or 0) >= 5 else "var(--muted)"
+        grtab += (f"<tr><th class='rl'>{_esc(m)}</th>"
+                  f"<td class='n'>{a['scelte_taggate']}</td>"
+                  f"<td class='n' style='color:{_colore(a['grounding'])}'>{a['grounded']} "
+                  f"({a['grounding']:g}%)</td>"
+                  f"<td class='n'>{a['non_ancorate']} ({a['perc_non_ancorate']:g}%)</td>"
+                  f"<td class='n' style='color:{col}'>{a['irregolari']} ({irr:g}%)</td></tr>")
+    grtab += "</table>"
+    
 
     # 3) heatmap scenario x modello
     th = "".join(f"<th>{_esc(m)}</th>" for m in modelli)
@@ -117,7 +137,8 @@ def genera_report(test: str, out_path: Path = None) -> Path:
 
     page = (_TEMPLATE.replace("__TEST__", _esc(test)).replace("__GIUDICE__", _esc(giudice))
             .replace("__N__", str(len(dati))).replace("__CLASSIFICA__", classifica)
-            .replace("__GROUNDING__", grounding).replace("__TH__", th).replace("__RIGHE__", righe)
+            .replace("__GROUNDING__", grounding).replace("__GRTAB__", grtab)
+            .replace("__TH__", th).replace("__RIGHE__", righe)
             .replace("__MOTIV__", motiv))
     out_path = out_path or (GIUD / test / "report.html")
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -148,6 +169,9 @@ _TEMPLATE = """<!doctype html><html lang="it"><head><meta charset="utf-8">
   .moth{font-size:12.5px;margin-bottom:4px} .pt{color:#fff;border-radius:5px;padding:1px 7px;font-weight:700;margin-left:6px}
   .motb{font-size:12.5px;line-height:1.5;color:#333} .mot ul{margin:6px 0 0;padding-left:18px;font-size:11.5px;color:var(--muted)}
   .ref{color:#8b929c}
+  .note{font-size:11.5px;color:var(--muted);line-height:1.55;margin:10px 0 12px}
+  .note code{background:#eef1f4;border-radius:4px;padding:0 4px;font-size:11px}
+  td.n{font-weight:700;font-variant-numeric:tabular-nums}
 </style></head><body><div class="wrap">
 <h1>Report dei giudizi — __TEST__</h1>
 <div class="subh">Modello giudice: <b>__GIUDICE__</b> · __N__ valutazioni (scenario × modello). Punteggi 0–100 (verde = alto).</div>
@@ -155,6 +179,14 @@ _TEMPLATE = """<!doctype html><html lang="it"><head><meta charset="utf-8">
 <div class="cards">__CLASSIFICA__</div>
 <h2>📌 Grounding oggettivo — % di scelte ancorate alla KB (dai tag base_kb)</h2>
 __GROUNDING__
+<div class="note">Metrica deterministica, calcolata senza alcun modello. Ogni scelta
+(azione su arco o evento generato) ricade in uno di tre esiti: <b>ancorata</b> se
+dichiara un elemento valido della knowledge base, <b>non ancorata</b> se dichiara
+<code>conoscenza_generale</code> o non dichiara nulla, <b>irregolare</b> se dichiara
+un valore fuori dal vocabolario ammesso (es. il nome di un campo dello schema): in
+quest'ultimo caso <i>non</i> vale come ancoraggio. Le percentuali sono calcolate sui
+totali di tutti gli scenari.</div>
+__GRTAB__
 <h2>🗺️ Punteggio per scenario × modello</h2>
 <table><tr><th class="rl">scenario</th>__TH__</tr>__RIGHE__</table>
 <h2>💬 Motivazioni del giudice</h2>

@@ -9,44 +9,79 @@ toccano). Fornisce:
 - l'applicazione delle operazioni sugli archi (rafforza/indebolisci/crea/taglia),
 - gli snapshot per round (per log e visualizzazione).
 
-Il peso aggregato:
-- migrazione / militare -> somma dei pesi reali (rifugiati / eventi),
-- cyber -> numero di incidenti (il cyber non ha un peso intrinseco).
+Il peso aggregato usa SOLO archi non successivi al trimestre di riferimento
+dello scenario (niente informazioni dal futuro):
+- cyber -> numero di incidenti DATATI fino al trimestre di riferimento (il cyber
+  non ha un peso intrinseco; gli incidenti senza data restano fuori perche' non
+  collocabili nel tempo),
+- militare -> somma degli eventi dei trimestri fino a quello di riferimento,
+- migrazione -> stock di rifugiati dell'anno del trimestre di riferimento (e' una
+  consistenza, non un flusso: sommarla sugli anni non avrebbe senso; il dato annuale
+  vale per tutti i trimestri dell'anno, come nei profili dei nodi).
+
+Il tipo 'cooperazione' non ha dati di partenza: le sue relazioni nascono solo dalle
+azioni degli agenti durante la simulazione.
 """
 
 import copy
 import pickle
+import re
 from pathlib import Path
 
 import networkx as nx
 
+from src.simulation.schemi import TIPI_ARCO
+
 BASE = Path(__file__).resolve().parents[2]
 GRAFO = BASE / "data" / "processed" / "graphs" / "grafo.pickle"
+ULTIMO_TRIMESTRE = "2024-Q4"
+TIPI = TIPI_ARCO          # cyber, migrazione, militare (dai dati) + cooperazione (dagli agenti)
 
 # archi.csv usa 'coinvolgimento_militare'; nella simulazione usiamo 'militare'.
 _TIPO_CANON = {"cyber": "cyber", "migrazione": "migrazione",
-               "coinvolgimento_militare": "militare", "militare": "militare"}
+               "coinvolgimento_militare": "militare", "militare": "militare",
+               "cooperazione": "cooperazione"}
+_ISO3 = re.compile(r"[A-Z]{3}")
+
+
+def iso3_valido(codice) -> str:
+    """Normalizza un codice Paese scritto dall'agente ('egy ' -> 'EGY'); ritorna
+    None se non e' un ISO3 (es. un segnaposto '<ISO3>' copiato dallo schema)."""
+    c = str(codice or "").strip().upper()
+    return c if _ISO3.fullmatch(c) else None
 
 
 class Ambiente:
-    def __init__(self, grafo_path: Path = GRAFO):
+    def __init__(self, grafo_path: Path = GRAFO, trimestre_rif: str = ULTIMO_TRIMESTRE):
         with open(grafo_path, "rb") as f:
             G = pickle.load(f)
         self.G = G
+        self.trimestre_rif = trimestre_rif
         self.core = {n for n, d in G.nodes(data=True) if d.get("core")}
         self.nomi = {n: (d.get("nome") or n) for n, d in G.nodes(data=True)}
         self.gruppi = {n: d.get("gruppo") for n, d in G.nodes(data=True)}
-        self.R = self._aggrega(G)   # relazioni aggregate mutabili
+        self.R = self._aggrega(G, trimestre_rif)   # relazioni aggregate mutabili
 
     # ---- costruzione della vista aggregata ---- #
     @staticmethod
-    def _aggrega(G) -> nx.MultiDiGraph:
+    def _aggrega(G, trimestre_rif: str = ULTIMO_TRIMESTRE) -> nx.MultiDiGraph:
+        """Una relazione per (a, b, tipo), con i soli archi fino a `trimestre_rif`
+        ('AAAA-Qn'): vedi il docstring del modulo."""
+        anno_rif = int(trimestre_rif[:4])
         pesi: dict = {}
         for a, b, d in G.edges(data=True):
             tipo = _TIPO_CANON.get(d.get("tipo"))
             if tipo is None:
                 continue
-            w = 1 if tipo == "cyber" else (d.get("peso") or 0)
+            if tipo == "migrazione":
+                if d.get("anno") != anno_rif:          # stock dell'anno di riferimento
+                    continue
+                w = d.get("peso") or 0
+            else:
+                periodo = d.get("periodo")
+                if not (isinstance(periodo, str) and "-Q" in periodo) or periodo > trimestre_rif:
+                    continue                           # non datato o successivo
+                w = 1 if tipo == "cyber" else (d.get("peso") or 0)
             pesi[(a, b, tipo)] = pesi.get((a, b, tipo), 0) + w
         R = nx.MultiDiGraph()
         for (a, b, tipo), w in pesi.items():
@@ -54,16 +89,31 @@ class Ambiente:
         return R
 
     # ---- interrogazione (per la scheda dell'agente) ---- #
-    def relazioni(self, iso3: str) -> dict:
-        """Relazioni del Paese, divise in uscenti ed entranti."""
+    def relazioni(self, iso3: str, per_tipo: int = 4) -> dict:
+        """Relazioni del Paese, divise in uscenti ed entranti. Per ogni verso e
+        per ogni tipo si tengono:
+        - TUTTE le relazioni con gli altri Paesi core (gli unici che reagiscono,
+          quindi quelle che contano per la propagazione);
+        - verso i Paesi esterni, solo le `per_tipo` piu' intense.
+        La selezione e' per tipo perche' i pesi hanno unita' diverse (persone,
+        eventi, incidenti): un ordinamento unico lascerebbe sempre fuori il cyber."""
         usc, ent = [], []
         if iso3 in self.R:
             for _, b, k, d in self.R.out_edges(iso3, keys=True, data=True):
                 usc.append({"verso": b, "tipo": k, "peso": round(d["peso"], 1)})
             for a, _, k, d in self.R.in_edges(iso3, keys=True, data=True):
                 ent.append({"da": a, "tipo": k, "peso": round(d["peso"], 1)})
-        usc.sort(key=lambda r: -r["peso"]); ent.sort(key=lambda r: -r["peso"])
-        return {"uscenti": usc, "entranti": ent}
+        return {"uscenti": self._seleziona(usc, "verso", per_tipo),
+                "entranti": self._seleziona(ent, "da", per_tipo)}
+
+    def _seleziona(self, items: list, campo: str, k: int) -> list:
+        out = []
+        for tipo in TIPI:
+            del_tipo = sorted((r for r in items if r["tipo"] == tipo), key=lambda r: -r["peso"])
+            core = [r for r in del_tipo if r[campo] in self.core]
+            esterni = [r for r in del_tipo if r[campo] not in self.core][:k]
+            out += sorted(core + esterni, key=lambda r: -r["peso"])
+        return out
 
     def vicini(self, iso3: str) -> set:
         v = set()
@@ -78,7 +128,8 @@ class Ambiente:
         """Applica un'operazione sull'arco a->verso di un certo tipo.
         Ritorna un descrittore del cambiamento (per il log/visualizzazione)."""
         tipo = _TIPO_CANON.get(tipo, tipo)
-        if tipo not in ("cyber", "migrazione", "militare") or not verso or verso == a:
+        verso = iso3_valido(verso)
+        if tipo not in TIPI or not verso or verso == a:
             return {"op": op, "esito": "ignorata"}
         delta = abs(float(peso_delta)) if peso_delta not in (None, "") else None
         esistente = self.R.has_edge(a, verso, key=tipo)

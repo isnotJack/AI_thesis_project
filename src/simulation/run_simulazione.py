@@ -9,6 +9,9 @@ Esegue uno o piu' scenari con UN modello e salva, per ogni (test, scenario, mode
 Il livello <test> serve a tenere separati gli esperimenti:
 - test1_baseline               -> 1o test: modelli di taglie diverse, 5 round
 - test2_stessa_fascia_round10  -> 2o test: modelli ~stessa taglia, 10 round
+- test3_tag_kb                 -> 3o test: + tag di ancoraggio base_kb
+- test4_backtest_r<k>          -> 4o test: eventi reali del 2025 (--backtest), una
+                                  cartella per ripetizione k, con --seed k
 
 Resumable: salta le run gia' presenti (a meno di --forza).
 
@@ -18,6 +21,9 @@ Uso tipico:
         --test test2_stessa_fascia_round10 --round 10
     # un solo scenario:
     python3 -m src.simulation.run_simulazione --modello qwen2.5:72b --scenario siccita_darfur --round 10
+    # backtest (test 4), prima ripetizione:
+    python3 -m src.simulation.run_simulazione --modello llama3.3:70b --backtest \
+        --test test4_backtest_r1 --seed 1 --round 10
     # prova in locale SENZA modello (reazioni finte, per validare la pipeline):
     python3 -m src.simulation.run_simulazione --mock
 
@@ -27,11 +33,12 @@ test_disponibili(), riepilogo().
 
 import argparse
 import json
+import time
 from pathlib import Path
 
 from src.simulation.mappa_sim import genera
 from src.simulation.oasis_inspired import responder_mock, responder_ollama, simula
-from src.simulation.scenari import SCENARI
+from src.simulation.scenari import SCENARI, SCENARI_BACKTEST, trova
 
 BASE = Path(__file__).resolve().parents[2]
 OUT = BASE / "data" / "processed" / "simulazioni"
@@ -46,17 +53,21 @@ def _safe(m: str) -> str:
 
 
 def esegui(test: str, scenario: str, modello: str, responder, n_round: int = 10,
-           forza: bool = False):
+           forza: bool = False, seed: int = None):
     d = OUT / test / scenario / _safe(modello)
     fjson = d / "risultato.json"
     if fjson.exists() and not forza:
         print(f"[skip] {test} / {scenario} / {modello} (gia' fatto)")
         return
     print(f"[run ] {test} / {scenario} / {modello} ...")
-    res = simula(SCENARI[scenario], responder, n_round=n_round, verbose=True)
+    t0 = time.time()
+    res = simula(trova(scenario), responder, n_round=n_round, verbose=True)
     res["test"] = test
     res["modello"] = modello
     res["scenario"] = scenario
+    res["seed"] = seed
+    res["durata_s"] = round(time.time() - t0, 1)
+    res["n_risposte"] = sum(1 for h in res["storico"] if "reazione" in h)
     d.mkdir(parents=True, exist_ok=True)
     fjson.write_text(json.dumps(res, ensure_ascii=False, indent=2), encoding="utf-8")
     genera(res, titolo=f"{scenario} · {modello}", out_path=d / "mappa.html")
@@ -108,6 +119,10 @@ def main():
     ap.add_argument("--test", default=None, help=f"etichetta esperimento (default: {TEST_DEFAULT})")
     ap.add_argument("--host", default=None, help="host del server Ollama (es. http://127.0.0.1:11434)")
     ap.add_argument("--round", type=int, default=10)
+    ap.add_argument("--backtest", action="store_true",
+                    help="esegue gli scenari del backtest (eventi reali 2025) invece di quelli di base")
+    ap.add_argument("--seed", type=int, default=None,
+                    help="seed del campionamento (ripetizioni dello stesso esperimento)")
     ap.add_argument("--forza", action="store_true", help="ri-esegue anche se gia' presente")
     ap.add_argument("--mock", action="store_true", help="usa reazioni finte (nessun modello)")
     a = ap.parse_args()
@@ -118,12 +133,16 @@ def main():
     else:
         if not a.modello:
             ap.error("specificare --modello (oppure --mock)")
-        modello, responder = a.modello, responder_ollama(a.modello, host=a.host)
+        modello = a.modello
+        responder = responder_ollama(a.modello, host=a.host, seed=a.seed)
         test = a.test or TEST_DEFAULT
 
-    scenari = [a.scenario] if a.scenario else list(SCENARI)
+    if a.scenario:
+        scenari = [a.scenario]
+    else:
+        scenari = list(SCENARI_BACKTEST) if a.backtest else list(SCENARI)
     for s in scenari:
-        esegui(test, s, modello, responder, n_round=a.round, forza=a.forza)
+        esegui(test, s, modello, responder, n_round=a.round, forza=a.forza, seed=a.seed)
     print(f"\nFatto. Output in {OUT / test}/")
 
 

@@ -57,10 +57,43 @@ SCENARI = {
 }
 
 
+# --------------------------------------------------------------------------- #
+# Scenari del BACKTEST (test 4): eventi REALI del 2025, successivi alla data fino
+# alla quale i tre modelli sono stati addestrati (Llama 3.3 e Nemotron: dicembre
+# 2023; Qwen2.5: circa meta' 2024) e all'ultimo trimestre dei dati (2024-Q4).
+# Lo stato di partenza e' la fotografia 2024-Q4; il testo descrive SOLO l'evento
+# scatenante, senza alcun accenno a cio' che e' accaduto dopo, che e' la verita'
+# di riferimento con cui confrontare la simulazione (config/verita_backtest.json).
+# --------------------------------------------------------------------------- #
+SCENARI_BACKTEST = {
+    # 13 giugno 2025: inizio della guerra dei dodici giorni (13-24 giugno 2025)
+    "guerra_iran_israele_2025": Evento(
+        tipo="militare", paese="IRN", mittente="ISR", data="2024-Q4",
+        testo="Israele lancia un vasto attacco aereo a sorpresa contro l'Iran: colpisce "
+              "impianti nucleari e basi militari in diverse regioni del Paese e uccide alti "
+              "comandanti dei Pasdaran e diversi scienziati nucleari."),
+    # 5 febbraio 2025: discorso del Presidente della Repubblica all'Universita' di Marsiglia
+    "discorso_mattarella_2025": Evento(
+        tipo="generico", paese="RUS", mittente="ITA", data="2024-Q4",
+        testo="In un discorso pubblico all'Universita' di Marsiglia, il Presidente della "
+              "Repubblica italiana accosta l'aggressione russa all'Ucraina ai progetti di "
+              "conquista del Terzo Reich in Europa."),
+}
+
+
+def trova(nome: str) -> Evento:
+    """Lo scenario per nome, fra quelli di base e quelli del backtest."""
+    if nome in SCENARI:
+        return SCENARI[nome]
+    if nome in SCENARI_BACKTEST:
+        return SCENARI_BACKTEST[nome]
+    raise KeyError(f"scenario sconosciuto: {nome}")
+
+
 def elenco() -> list:
     return list(SCENARI.keys())
 
 
 if __name__ == "__main__":
-    for nome, ev in SCENARI.items():
+    for nome, ev in {**SCENARI, **SCENARI_BACKTEST}.items():
         print(f"- {nome}: [{ev.tipo}] {ev.paese} {ev.data} — {ev.testo[:70]}…")

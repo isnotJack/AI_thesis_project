@@ -12,7 +12,8 @@ dedotto il giudizio).
 
 Oltre al giudizio LLM salviamo una METRICA OGGETTIVA di grounding calcolata
 direttamente dai tag `base_kb` (indipendente dal giudice): quante scelte sono
-ancorate alla KB vs `conoscenza_generale`, e da quali elementi.
+ancorate alla KB, quante dichiarano `conoscenza_generale` e quante portano un tag
+IRREGOLARE (fuori dal vocabolario `TAG_KB`), che non vale come ancoraggio.
 
 Output (cartella SEPARATA dalle simulazioni):
     data/processed/giudizi/<test>/<scenario>/<modello>/giudizio.json
@@ -29,7 +30,7 @@ from pathlib import Path
 from src.simulation import oasis_inspired as oi
 from src.simulation.run_simulazione import (_safe, carica, modelli_disponibili,
                                             scenari_disponibili)
-from src.simulation.schemi import GIUDIZIO_VUOTO, SCHEMA_GIUDIZIO
+from src.simulation.schemi import GIUDIZIO_VUOTO, SCHEMA_GIUDIZIO, TAG_KB
 from src.simulation.stato_agente import snapshot_stato
 
 try:
@@ -40,27 +41,75 @@ except Exception:
 BASE = Path(__file__).resolve().parents[2]
 GIUD = BASE / "data" / "processed" / "giudizi"
 GIUDICE_DEFAULT = "command-r"
+# Finestra del giudice: il suo prompt contiene KB + dialogo INTERO e sui dialoghi lunghi
+# supera gli 8192 token degli agenti (test 3: fino a ~16.800 token). Ollama tronca senza
+# errore tenendo la coda, quindi il giudice perderebbe la KB. Command R arriva a 128k.
+NUM_CTX_GIUDICE = 32768
 
 _NON_KB = {"conoscenza_generale", "nessuna", "none", ""}
+_TAG_VALIDI = {t.strip().lower() for t in TAG_KB}       # i soli tag ammessi
+_TAG_ANCORE = _TAG_VALIDI - _NON_KB                     # quelli che valgono come ancoraggio
+
+
+def _pezzi_tag(raw) -> list:
+    """Normalizza un tag grezzo nei suoi componenti.
+
+    'cyber.ruolo'    -> ['cyber']        (si tiene la dimensione, non il campo)
+    'evento, cyber'  -> ['evento','cyber'](il modello ne ha dichiarati piu' di uno)
+    """
+    out = []
+    for pezzo in str(raw or "").replace(";", ",").split(","):
+        base = pezzo.split(".")[0].strip().lower()
+        if base:
+            out.append(base)
+    return out
 
 
 # --------------------------------------------------------------------------- #
 # Metrica OGGETTIVA di grounding (dai tag base_kb, senza LLM)
 # --------------------------------------------------------------------------- #
 def metriche_grounding(res: dict) -> dict:
-    tot = grounded = 0
-    dist = {}
+    """Classifica ogni scelta in TRE esiti, validando il tag contro il vocabolario.
+
+    - ancorata     : dichiara almeno un elemento VALIDO della KB;
+    - non ancorata : dichiara 'conoscenza_generale' (o non dichiara nulla);
+    - irregolare   : dichiara qualcosa che NON esiste nel vocabolario (es. il nome
+                     di un campo dello schema) -> NON vale come ancoraggio.
+
+    La distinzione e' necessaria: contare come ancorata una stringa qualunque
+    purche' non vuota sovrastima il grounding dei modelli che compilano male il
+    campo (e' l'errore della prima versione di questa metrica).
+    """
+    tot = ancorate = non_ancorate = irregolari = multi = 0
+    dist, dist_irr = {}, {}
     for h in res["storico"]:
         scelte = list(h.get("archi", [])) + list(h.get("eventi_generati", []))
         for a in scelte:
-            b = (a.get("base_kb") or "").split(".")[0].strip().lower()
             tot += 1
-            if b and b not in _NON_KB:
-                grounded += 1
-            dist[b or "(vuoto)"] = dist.get(b or "(vuoto)", 0) + 1
-    return {"scelte_taggate": tot, "grounded": grounded,
-            "perc_grounded": round(100 * grounded / tot, 1) if tot else None,
-            "distribuzione": dist}
+            pezzi = _pezzi_tag(a.get("base_kb"))
+            if len(pezzi) > 1:
+                multi += 1
+            validi = [x for x in pezzi if x in _TAG_ANCORE]
+            if validi:
+                ancorate += 1
+                for x in validi:
+                    dist[x] = dist.get(x, 0) + 1
+            elif not pezzi:
+                non_ancorate += 1
+                dist["(nessun tag)"] = dist.get("(nessun tag)", 0) + 1
+            elif any(x in _NON_KB for x in pezzi):
+                non_ancorate += 1
+                dist["conoscenza_generale"] = dist.get("conoscenza_generale", 0) + 1
+            else:
+                irregolari += 1
+                for x in pezzi:
+                    dist_irr[x] = dist_irr.get(x, 0) + 1
+    pc = lambda n: round(100 * n / tot, 1) if tot else None
+    return {"scelte_taggate": tot, "grounded": ancorate,
+            "non_ancorate": non_ancorate, "irregolari": irregolari,
+            "multi_tag": multi,
+            "perc_grounded": pc(ancorate), "perc_irregolari": pc(irregolari),
+            "distribuzione": dist, "distribuzione_irregolari": dist_irr}
 
 
 # --------------------------------------------------------------------------- #
@@ -189,8 +238,14 @@ def valuta(test: str, scenario: str, modello: str, responder, giudice: str,
     if not res:
         return
     print(f"[judge] {test} / {scenario} / {modello} ...")
-    giudizio = parsa_giudizio(crea_prompt_giudice(res), responder)
+    prompt = crea_prompt_giudice(res)
+    token_stimati = len(prompt) // 3        # stima prudente (~3,5-4 caratteri per token)
+    if token_stimati > NUM_CTX_GIUDICE - 2048:
+        print(f"[warn]  prompt del giudice di ~{token_stimati} token: rischio di troncamento "
+              f"(finestra {NUM_CTX_GIUDICE})")
+    giudizio = parsa_giudizio(prompt, responder)
     out = {"test": test, "scenario": scenario, "modello": modello, "giudice": giudice,
+           "token_stimati": token_stimati,
            "giudizio": giudizio, "metriche_grounding": metriche_grounding(res)}
     d.mkdir(parents=True, exist_ok=True)
     fout.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -240,7 +295,8 @@ def main():
     if a.mock:
         giudice, responder = "mock", responder_giudice_mock
     else:
-        giudice, responder = a.giudice, oi.responder_ollama(a.giudice, host=a.host)
+        giudice, responder = a.giudice, oi.responder_ollama(a.giudice, host=a.host,
+                                                            num_ctx=NUM_CTX_GIUDICE)
 
     if a.scenario:
         for m in modelli_disponibili(a.test, a.scenario):

@@ -22,6 +22,11 @@ from pathlib import Path
 
 from src.graph.build_map import GRUPPI, TIPI, _carica_paesi, _centroidi, _geojson_slim
 
+# Nella simulazione esiste anche la 'cooperazione', creata solo dagli agenti (nessun
+# dato di partenza): la mappa del grafo ha i soli tre tipi dei dati.
+TIPI_SIM = {**TIPI, "cooperazione": {"nome": "Cooperazione  ·  chi sostiene → chi è sostenuto",
+                                    "col": "#7b4fbf"}}
+
 OUT_DIR = Path(__file__).resolve().parents[2] / "data" / "processed" / "graphs" / "simulazioni"
 
 
@@ -73,7 +78,7 @@ def genera(res: dict, titolo: str = "Simulazione", out_path: Path = None) -> Pat
         })
 
     meta = {
-        "gruppi": GRUPPI, "tipi": TIPI,
+        "gruppi": GRUPPI, "tipi": TIPI_SIM,
         "titolo": titolo,
         "evento": res["evento_iniziale"],
         "trimestre": res.get("trimestre_rif"),

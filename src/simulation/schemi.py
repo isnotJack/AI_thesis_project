@@ -13,7 +13,11 @@ from typing import Optional
 # --------------------------------------------------------------------------- #
 # Vocabolario canonico
 # --------------------------------------------------------------------------- #
-TIPI_ARCO = ("cyber", "migrazione", "militare")
+# 'cooperazione' non viene dai dati (il grafo del Blocco B ha solo i primi tre tipi):
+# esiste solo se un agente la crea. Serve a non far esprimere alleanze e sostegno con
+# l'arco cyber, che nel grafo significa "attacco" (test 3: 57% degli archi cyber
+# creati/rafforzati erano motivati come cooperazione).
+TIPI_ARCO = ("cyber", "migrazione", "militare", "cooperazione")
 OPERAZIONI_ARCO = ("rafforza", "indebolisci", "crea", "taglia")
 
 # Le 6 dimensioni dello stato di un Paese (come nei profili in data/processed/nodi).
@@ -35,9 +39,12 @@ DIMENSIONI = {
 
 # Verso semantico di ciascun tipo di relazione (fondamentale: gli archi sono diretti).
 VERSI_ARCO = {
-    "cyber": "attaccante -> vittima",
+    "cyber": "attaccante -> vittima; SOLO operazioni ostili (attacchi, intrusioni, "
+             "spionaggio, sabotaggi)",
     "migrazione": "Paese di origine -> Paese di destinazione dei rifugiati",
     "militare": "interventore (forze militari straniere) -> teatro (Paese in cui operano)",
+    "cooperazione": "chi offre sostegno -> chi lo riceve (alleanze, accordi, aiuti, sostegno "
+                    "politico o diplomatico, collaborazione anche in materia cyber)",
 }
 
 # Significato delle operazioni sugli archi.
