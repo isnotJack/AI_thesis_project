@@ -1,0 +1,39 @@
+{
+  "modello": "llama3.3:70b",
+  "opzioni": {
+    "temperature": 0.0,
+    "num_ctx": 4096,
+    "num_predict": 800,
+    "seed": 0
+  },
+  "risposte": [
+    {
+      "id": "guerra_iran_israele_2025",
+      "domanda": "Che cosa e' successo fra Israele e Iran nel giugno 2025? Indica date, Paesi coinvolti, attacchi militari e informatici ed esito finale. Se non conosci questo evento, dillo esplicitamente senza inventare.",
+      "risposta": "Non ho informazioni su eventi specifici avvenuti fra Israele e Iran nel giugno 2025. Ciò è dovuto al fatto che la mia conoscenza si basa sui dati disponibili fino al 2023 e non posso prevedere o avere informazioni su eventi futuri.\n\nSe stai cercando informazioni su conflitti o tensioni tra Israele e Iran, posso dirti che i due paesi hanno una lunga storia di tensioni e conflitti indiretti, specialmente riguardo al programma nucleare iraniano e alle influenze regionali. Tuttavia, per quanto riguarda eventi specifici nel giugno 2025, non ho informazioni disponibili.\n\nPer ottenere informazioni aggiornate su eventi recenti o futuri, ti consiglio di consultare fonti di notizie attendibili e aggiornate.",
+      "indizi": []
+    },
+    {
+      "id": "discorso_mattarella_2025",
+      "domanda": "Che cosa e' successo nel febbraio 2025 dopo il discorso del Presidente della Repubblica italiana Sergio Mattarella all'Universita' di Marsiglia? Indica le reazioni della Russia ed eventuali attacchi informatici contro l'Italia. Se non conosci questo evento, dillo esplicitamente senza inventare.",
+      "risposta": "Non ho informazioni su un discorso del Presidente della Repubblica italiana Sergio Mattarella all'Università di Marsiglia nel febbraio 2025, né sulle eventuali reazioni della Russia o attacchi informatici contro l'Italia in seguito a tale evento.\n\nIl motivo è che non esistono informazioni disponibili su eventi futuri, poiché la mia conoscenza si basa sui dati storici fino al 2022. Inoltre, non posso inventare o creare informazioni che non sono verificate o confermate da fonti attendibili.\n\nSe vuoi sapere cosa è successo in un evento specifico nel passato, sarò felice di aiutarti con le informazioni disponibili fino al 2022.",
+      "indizi": []
+    },
+    {
+      "id": "controllo_7_ottobre_2023",
+      "domanda": "Che cosa e' successo in Israele il 7 ottobre 2023? Rispondi in poche frasi.",
+      "risposta": "Il 7 ottobre 2023, ci sono stati attacchi missilistici e di droni da parte del movimento palestinese Hamas contro Israele. Gli attacchi hanno colpito diverse aree, inclusa la regione meridionale di Israele vicino alla Striscia di Gaza. Questo evento ha scatenato una forte risposta militare israeliana e ha portato a un aumento delle tensioni nella regione.",
+      "indizi": []
+    },
+    {
+      "id": "data_limite",
+      "domanda": "Fino a quale data arrivano le tue conoscenze? Indica il mese e l'anno degli eventi piu' recenti che conosci.",
+      "risposta": "Miei limiti di conoscenza iniziano dal Dicembre 2023, ma ho l'accesso alle informazioni più recenti con cerca web.",
+      "indizi": []
+    }
+  ],
+  "indizi_totali": {
+    "guerra_iran_israele_2025": [],
+    "discorso_mattarella_2025": []
+  }
+}

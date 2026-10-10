@@ -1,0 +1,48 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "token_stimati": 49895,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 65.0,
+    "fedelta_grounding": 90.0,
+    "motivazione": "La coerenza con la KB è generalmente buona, con reazioni e azioni che si allineano ai dati forniti. La fedeltà al grounding è elevata, con la maggior parte delle scelte basate su elementi specifici della KB. Tuttavia, ci sono alcuni casi in cui le reazioni potrebbero essere più coerenti o dettagliate. La plausibilità delle catene di propagazione è generalmente sensata dal punto di vista geopolitico, ma ci sono alcune escalation che sembrano un po' forzate o non del tutto realistiche.",
+    "evidenze": [
+      {
+        "osservazione": "Le reazioni e le azioni dei paesi si basano sui dati della KB, come la storia delle relazioni e i conflitti in corso.",
+        "riferimento": "round/Paese"
+      },
+      {
+        "osservazione": "Alcune scelte sono giustificate da elementi specifici della KB, come gli accordi di cooperazione o le accuse di spionaggio informatico.",
+        "riferimento": "campo KB"
+      },
+      {
+        "osservazione": "Ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, ad esempio quando non vengono considerati tutti i fattori rilevanti per una determinata situazione.",
+        "riferimento": "round/Paese"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 354,
+    "grounded": 250,
+    "non_ancorate": 94,
+    "irregolari": 10,
+    "multi_tag": 0,
+    "perc_grounded": 70.6,
+    "perc_irregolari": 2.8,
+    "distribuzione": {
+      "conflitto": 98,
+      "cyber": 21,
+      "relazioni": 33,
+      "evento": 95,
+      "conoscenza_generale": 94,
+      "economia": 3
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 10
+    }
+  }
+}

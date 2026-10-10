@@ -1,0 +1,10 @@
+== 2026-10-10 11:26:27 avvio ollama serve (porta 11434) ==
+== pull llama3.3:70b ==
+== pull qwen2.5:72b ==
+== pull nemotron:70b ==
+== pull command-r ==
+== 2026-10-10 11:26:34 0. controllo di contaminazione ==
+[ok  ] contaminazione llama3.3:70b -> /davinci-1/home/gmaldarella/AI_thesis_project/data/processed/backtest/contaminazione/llama3.3_70b.json  indizi: {'guerra_iran_israele_2025': [], 'discorso_mattarella_2025': []}
+[ok  ] contaminazione qwen2.5:72b -> /davinci-1/home/gmaldarella/AI_thesis_project/data/processed/backtest/contaminazione/qwen2.5_72b.json  indizi: {'guerra_iran_israele_2025': [], 'discorso_mattarella_2025': []}
+[ok  ] contaminazione nemotron:70b -> /davinci-1/home/gmaldarella/AI_thesis_project/data/processed/backtest/contaminazione/nemotron_70b.json  indizi: {'guerra_iran_israele_2025': [], 'discorso_mattarella_2025': []}
+== 2026-10-10 12:02:27 1.1 ripetizione 1/3: test4_backtest_r1 (seed 1) ==

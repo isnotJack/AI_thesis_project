@@ -1,0 +1,49 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 38714,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 70.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "La simulazione presenta un livello di coerenza e plausibilità soddisfacente, con reazioni degli agenti che rispecchiano in gran parte i dati della knowledge base. Tuttavia, ci sono alcuni casi in cui le azioni potrebbero essere più coerenti o dettagliate. La fedeltà al grounding è generalmente buona, ma ci sono alcune occasioni in cui il modello potrebbe aver interpretato erroneamente la KB o non averla utilizzata completamente.",
+    "evidenze": [
+      {
+        "osservazione": "Reazioni militari e cyber coerenti con i dati della KB",
+        "riferimento": "round 1-10/IRN, ISR, USA"
+      },
+      {
+        "osservazione": "Escalation militare e cyber plausibile nel contesto geopolitico",
+        "riferimento": "round 3,4,5,6,7,8,9,10/IRN, ISR, USA"
+      },
+      {
+        "osservazione": "Uso corretto dei tag `base_kb` nella maggior parte dei casi",
+        "riferimento": "round 2-10/ISR, IRN, USA"
+      },
+      {
+        "osservazione": "Mancata considerazione di alcuni dati specifici della KB in alcune azioni",
+        "riferimento": "round 5,6,7/IRN, ISR, USA"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 304,
+    "grounded": 302,
+    "non_ancorate": 2,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 99.3,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 257,
+      "relazioni": 23,
+      "cyber": 14,
+      "conflitto": 8,
+      "conoscenza_generale": 2
+    },
+    "distribuzione_irregolari": {}
+  }
+}

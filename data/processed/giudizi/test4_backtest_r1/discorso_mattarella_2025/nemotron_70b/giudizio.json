@@ -1,0 +1,57 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 40188,
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 85.0,
+    "fedelta_grounding": 65.0,
+    "motivazione": "La simulazione presenta una coerenza generale con la Knowledge Base (KB), mostrando reazioni e azioni che riflettono i dati forniti. La plausibilità è buona, con un'escalation graduale delle tensioni cyber e militari, coerente con lo scenario geopolitico. Tuttavia, ci sono alcune incoerenze nei tag `base_kb`, dove vengono utilizzati 'conoscenza_generale' quando i dati specifici erano disponibili nella KB.",
+    "evidenze": [
+      {
+        "osservazione": "Reazioni coerenti con il contesto generale e le relazioni tra paesi",
+        "riferimento": "round 1/RUS, round 2/CHN"
+      },
+      {
+        "osservazione": "Aumento degli incidenti cyber riflette la situazione reale",
+        "riferimento": "round 4/USA, round 5/ITA"
+      },
+      {
+        "osservazione": "Escalation delle tensioni cyber tra RUS e USA è plausibile",
+        "riferimento": "round 6/RUS, round 7/USA"
+      },
+      {
+        "osservazione": "'conoscenza_generale' usato quando dati specifici erano disponibili (es. 'relazioni')",
+        "riferimento": "round 1/RUS, round 2/CHN"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 295,
+    "grounded": 168,
+    "non_ancorate": 71,
+    "irregolari": 56,
+    "multi_tag": 28,
+    "perc_grounded": 56.9,
+    "perc_irregolari": 19.0,
+    "distribuzione": {
+      "relazioni": 25,
+      "conoscenza_generale": 71,
+      "evento": 114,
+      "cyber": 18,
+      "conflitto": 22,
+      "contesto_generale": 6,
+      "traiettoria": 4,
+      "migrazione": 1,
+      "economia": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 47,
+      "azione_su_arco": 7,
+      "cooperazione": 3
+    }
+  }
+}

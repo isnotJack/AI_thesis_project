@@ -1,0 +1,62 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 39060,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia risponde con una dichiarazione ufficiale condannando le parole del Presidente italiano come 'inaccettabili e storpiate', sottolineando la propria visione della situazione in Ucraina.",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "presente",
+      "evidenza": "round 2, RUS: La Russia decide di rafforzare la cooperazione con paesi alleati per contrastare le narrazioni negative sulla sua politica estera.",
+      "verificata": false
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 1, ITA: Il governo e le forze politiche italiane esprimono solidarietà al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "verificata": false
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "presente",
+      "evidenza": "round 2, RUS: L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi, limitando gli effetti e senza furto di dati.",
+      "verificata": false
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia avvia un'operazione militare contro l'Italia.",
+      "riferimento": "round 10, RUS"
+    },
+    {
+      "descrizione": "L'Italia risponde con attacchi informatici contro la Russia.",
+      "riferimento": "round 6, ITA"
+    },
+    {
+      "descrizione": "L'Italia espelle diplomatici russi o interrompe le relazioni diplomatiche per questo episodio.",
+      "riferimento": "nessuna"
+    }
+  ],
+  "motivazione": "La simulazione cattura con precisione la risposta diplomatica della Russia alle parole del Presidente italiano, riflettendo l'intensificarsi delle tensioni tra i due paesi. Inoltre, rappresenta accuratamente le contromisure difensive dell'Italia in risposta agli attacchi informatici russi.",
+  "conteggi": {
+    "presente": 4,
+    "parziale": 0,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 1,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 100.0,
+  "punteggio_realta_verificato": 25.0
+}

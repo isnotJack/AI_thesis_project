@@ -1,0 +1,58 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r",
+  "token_stimati": 4239,
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia risponde con una reazione diplomatica severa, esprimendo il suo disappunto e considerando contromisure.",
+      "verificata": true
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "round 2, ITA: L'Italia prende misure per ridurre le minacce cyber, ma non è specificato se la Russia sia il bersaglio.",
+      "verificata": false
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 1, ITA: Il governo italiano esprime solidarietà al Presidente e respinge le parole russe come offensive.",
+      "verificata": false
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "parziale",
+      "evidenza": "round 2, ITA: L'Italia adotta misure di difesa cyber, ma non è menzionato se si tratta solo di mitigazione senza contrattacchi.",
+      "verificata": true
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia e l'Italia accettano un invito all'incontro per discutere delle tensioni e rafforzare la cooperazione.",
+      "riferimento": "round 3, RUS; round 4, ITA"
+    },
+    {
+      "descrizione": "Entrambi i Paesi si impegnano a rafforzare ulteriormente la cooperazione bilaterale in vari settori.",
+      "riferimento": "round 6, ITA; round 7, RUS; round 8, ITA; round 9, RUS; round 10, ITA"
+    }
+  ],
+  "motivazione": "La simulazione si concentra sulla reazione diplomatica della Russia e sull'impegno dell'Italia a mantenere relazioni stabili. Tuttavia, non prevede le azioni cyber ostili russe né la risposta difensiva italiana, che sono aspetti chiave di ciò che è realmente accaduto.",
+  "conteggi": {
+    "presente": 2,
+    "parziale": 2,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 1,
+    "parziale_verificati": 1
+  },
+  "punteggio_realta": 75.0,
+  "punteggio_realta_verificato": 37.5
+}

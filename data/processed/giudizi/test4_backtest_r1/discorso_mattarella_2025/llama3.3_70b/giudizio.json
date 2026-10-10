@@ -1,0 +1,43 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r",
+  "token_stimati": 2160,
+  "giudizio": {
+    "punteggio": 65.0,
+    "coerenza_kb": 70.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 60.0,
+    "motivazione": "La coerenza con la knowledge base è buona, con reazioni e azioni che riflettono in parte il contesto e le relazioni tra i paesi. La plausibilità della catena di eventi è alta, con una risposta diplomatica da parte dell'Italia per contrastare le misure economiche russe. Tuttavia, ci sono alcune imprecisioni nella fedeltà al grounding, con alcuni riferimenti alla 'conoscenza generale' che non sono supportati dalla KB.",
+    "evidenze": [
+      {
+        "osservazione": "Reazione della Russia all'evento iniziale",
+        "riferimento": "round 1/RUS"
+      },
+      {
+        "osservazione": "Azione dell'Italia di rafforzare la cooperazione con altri paesi",
+        "riferimento": "round 2/ITA"
+      },
+      {
+        "osservazione": "Uso di 'conoscenza generale' per l'azione verso la Francia",
+        "riferimento": "round 2/ITA"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 5,
+    "grounded": 4,
+    "non_ancorate": 1,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 80.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 3,
+      "conflitto": 1,
+      "conoscenza_generale": 1
+    },
+    "distribuzione_irregolari": {}
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r",
+  "token_stimati": 84767,
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 82.0,
+    "fedelta_grounding": 78.0,
+    "motivazione": "Le reazioni e le azioni dei paesi sono generalmente coerenti con i dati della KB, mostrando una comprensione delle relazioni geopolitiche. Tuttavia, ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, soprattutto quando si tratta di valutare l'impatto sulle relazioni commerciali o diplomatiche. La fedeltà al grounding è buona, ma ci sono alcune occasioni in cui vengono utilizzate basi generiche invece di dati specifici.",
+    "evidenze": [
+      {
+        "osservazione": "La Russia risponde all'ultimatum degli Stati Uniti promuovendo il dialogo sulla sicurezza informatica e riducendo la tensione nelle operazioni cyber ostili.",
+        "riferimento": "round 10/USA"
+      },
+      {
+        "osservazione": "L'Ucraina rafforza le sue difese cibernetiche in risposta all'accordo tripartito tra Cina, Russia e Iran sulla sicurezza informatica.",
+        "riferimento": "round 10/UKR"
+      },
+      {
+        "osservazione": "La Cina rilascia una dichiarazione ufficiale esprimendo preoccupazione per la stabilità globale senza prendere misure drastiche in risposta all'esercitazione congiunta di difesa cibernetica tra Israele e Stati Uniti.",
+        "riferimento": "round 10/CHN"
+      },
+      {
+        "osservazione": "Gli Stati Uniti richiedono chiarimenti sulla cooperazione tripartita per valutarne le implicazioni sulla sicurezza nazionale, mostrando una valutazione attenta delle relazioni diplomatiche.",
+        "riferimento": "round 10/USA"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 639,
+    "grounded": 410,
+    "non_ancorate": 124,
+    "irregolari": 105,
+    "multi_tag": 84,
+    "perc_grounded": 64.2,
+    "perc_irregolari": 16.4,
+    "distribuzione": {
+      "conflitto": 70,
+      "cyber": 43,
+      "migrazione": 1,
+      "evento": 248,
+      "conoscenza_generale": 124,
+      "relazioni": 84,
+      "traiettoria": 9,
+      "contesto_generale": 16,
+      "economia": 1
+    },
+    "distribuzione_irregolari": {
+      "azione_su_arco": 11,
+      "azioni_su_archi": 83,
+      "cooperazione": 8,
+      "aggiornamenti_stato": 4,
+      "militare": 1,
+      "ragionamento": 1
+    }
+  }
+}
