@@ -45,7 +45,9 @@ def carica_verita(path: Path = VERITA) -> dict:
 
 def crea_prompt(res: dict, ver: dict) -> str:
     ev = res["evento_iniziale"]
-    fatti = "\n".join(f"{f['id']} ({f['data']}): {f['testo']}" for f in ver["fatti"])
+    fatti = "\n".join(f"{f['id']} ({f['data']}): {f['testo']}"
+                      + (f"\n   Criterio: {f['criterio']}" if f.get("criterio") else "")
+                      for f in ver["fatti"])
     non_acc = "\n".join(f"- {x}" for x in ver.get("non_accaduto", [])) or "- (nessuno)"
     esempio = (
         '{\n'
@@ -74,10 +76,11 @@ Ogni riga 'azione' modifica una relazione (cyber = attacco dall'attaccante alla 
 {_render_dialogo(res)}
 
 ## IL TUO COMPITO
-1. Per OGNI fatto ({', '.join(f['id'] for f in ver['fatti'])}) decidi se la simulazione lo ha previsto:
-   - "presente": la simulazione contiene un'azione, un evento o una reazione con gli stessi Paesi e lo stesso contenuto;
-   - "parziale": c'e' qualcosa di simile, ma con un Paese, un tipo di azione o un'intensita' diversi;
-   - "assente": non c'e'.
+1. Per OGNI fatto ({', '.join(f['id'] for f in ver['fatti'])}) decidi se la simulazione lo ha previsto, applicando il CRITERIO scritto sotto quel fatto:
+   - "presente": la simulazione soddisfa la condizione di "Presente" del criterio;
+   - "parziale": soddisfa solo la condizione di "Parziale";
+   - "assente": non soddisfa nessuna delle due.
+   Se un fatto non ha criterio: "presente" = stessi Paesi e stesso contenuto; "parziale" = qualcosa di simile ma con un Paese, un tipo di azione o un'intensita' diversi; "assente" = non c'e'.
    In 'evidenza' scrivi SEMPRE "round N, ISO3: ..." con il round e il codice del Paese della simulazione in cui il fatto compare (come nelle intestazioni [round N] ISO3 della simulazione), oppure "nessuna" se e' assente.
 2. In 'sviluppi_non_accaduti' elenca (al massimo 8) gli sviluppi della simulazione che contraddicono cio' che e' accaduto o che compaiono fra gli sviluppi non accaduti, ciascuno con round e Paese.
 3. In 'motivazione' riassumi in 2-4 frasi quanto la simulazione si avvicina alla realta'.
