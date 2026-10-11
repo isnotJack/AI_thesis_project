@@ -1,0 +1,88 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 4466,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 10,
+      "token_stimati": 4466
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: indebolisci RUS->ITA",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: indebolisci RUS->ITA"
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "nessuna; simile a round 2 e successivi (ITA), ma con Paese diverso da quello accaduto realmente.",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: indebolisci ITA->RUS",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 2, ITA: indebolisci ITA->RUS"
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "parziale",
+      "evidenza": "nessuna; simile a round 1 (RUS), ma con Paese diverso da quello accaduto realmente.",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "Azione militare tra Russia e Italia.",
+      "riferimento": "[round N] RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Attacchi informatici dell'Italia contro la Russia",
+      "riferimento": "[round 2, ITA]",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Espulsione di diplomatici russi da parte italiana o interruzione delle relazioni.",
+      "riferimento": "",
+      "blocco": 1
+    }
+  ],
+  "motivazione": "La simulazione prevede correttamente le reazioni politiche e cyber tra Russia e Italia in seguito al discorso del Presidente italiano, ma con un'intensità diversa per gli attacchi informatici. Inoltre, la realtà non ha visto azioni militari o interruzioni diplomatiche.",
+  "conteggi": {
+    "presente": 2,
+    "parziale": 2,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 75.0,
+  "punteggio_realta_verificato": 50.0
+}

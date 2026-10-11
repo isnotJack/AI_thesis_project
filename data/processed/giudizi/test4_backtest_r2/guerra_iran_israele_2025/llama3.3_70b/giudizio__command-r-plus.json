@@ -1,0 +1,83 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 23065,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 9,
+      "risposte": 53,
+      "token_stimati": 23065,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 76.0,
+      "fedelta_grounding": 100.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 23,
+      "token_stimati": 10903,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 82.0,
+    "coerenza_kb": 87.0,
+    "plausibilita": 77.2,
+    "fedelta_grounding": 89.4,
+    "motivazione": "[round 1-9] La simulazione mostra una buona aderenza alla knowledge base (KB), con le reazioni e gli aggiornamenti di stato che riflettono in modo accurato i dati della KB. I tag 'base_kb' sono generalmente corretti ed evidenziano la fonte delle decisioni prese dai vari paesi, sebbene ci siano alcuni casi isolati dove il riferimento a 'conoscenza generale' potrebbe essere più specifico (ad esempio quando si parla di relazioni esistenti tra due nazioni). La simulazione presenta una coerenza interna e le azioni intraprese da ciascun paese sono generalmente plausibili. Tuttavia, in alcune occasioni la catena degli eventi sembra un po' forzata o accelerata rispetto alla realtà geopolitica: ad esempio l'intensità delle reazioni a volte appare sproporzionatamente rapida ed estrema (come nel caso di USA e IRN che passano da una relazione cyber neutra/positiva al lancio reciproco di attacchi informatici in un solo round). [round 9-10] La simulazione presenta una certa coerenza con la knowledge base fornita e le azioni intraprese dai vari paesi sono in linea generale plausibili. Tuttavia, ci sono alcuni casi di uso improprio del tag 'conoscenza_generale', che influisce negativamente sulla fedeltà al grounding.",
+    "evidenze": [
+      {
+        "osservazione": "'conoscenza_generale' usato quando il dato c'era: ISR, round 3; SYR e CHN, round 4.",
+        "riferimento": "ISR/round-3"
+      },
+      {
+        "osservazione": "",
+        "riferimento": ""
+      },
+      {
+        "osservazione": "L'uso frequente della conoscenza generica per giustificare le azioni dei paesi è discutibile e potrebbe essere stato evitato con un riferimento più specifico ai dati disponibili nella KB. Ad esempio, la Cina cita spesso 'conoscenza_generale: La Russia cerca di rafforzare...', ma non ci sono elementi concreti in tal senso.",
+        "riferimento": "'base_kb=conoscenza_generale' nei round 9-10"
+      },
+      {
+        "osservazione": "La Cina e la Russia discutono spesso su accordi tecnologici, ma questi eventi sembrano basati più sulla conoscenza generale che sui dati della KB. La Cina cita 'conflitto: n_eventi_violenti=36' per giustificare un attacco informatico agli USA nel round 9-10.",
+        "riferimento": "'base_kb=' nei vari campi"
+      },
+      {
+        "osservazione": "Israele e Iran citano spesso 'conflitto: n_eventi_violenti=45' per giustificare le loro azioni, ma questo dato non è direttamente collegato alle decisioni prese.",
+        "riferimento": "'base_kb=' nei vari campi"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 211,
+    "grounded": 147,
+    "non_ancorate": 62,
+    "irregolari": 2,
+    "multi_tag": 0,
+    "perc_grounded": 69.7,
+    "perc_irregolari": 0.9,
+    "distribuzione": {
+      "conflitto": 53,
+      "relazioni": 19,
+      "evento": 55,
+      "conoscenza_generale": 62,
+      "cyber": 17,
+      "economia": 3
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 2
+    }
+  }
+}

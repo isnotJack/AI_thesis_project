@@ -1,0 +1,81 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 15243,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 28,
+      "token_stimati": 15243,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 43.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 69.0,
+    "fedelta_grounding": 43.0,
+    "motivazione": "Il dialogo mostra una buona coerenza con i dati della KB in termini di numeri e contesto generale. Tuttavia, ci sono alcuni casi in cui le reazioni o gli aggiornamenti non corrispondono perfettamente ai valori numerici forniti nella knowledge base (ad esempio: n_eventi_violenti). La fedeltà al grounding è bassa poiché spesso vengono utilizzati tag 'conoscenza_generale' anche quando i dati erano presenti, e alcuni eventi sono giustificati con campi della KB che non sembrano supportare la scelta. Infine, sebbene il dialogo sia generalmente plausibile dal punto di vista geopolitico, ci sono alcune escalation improvvise (ad esempio: USA-RUS) o azioni incoerenti rispetto al contesto generale.",
+    "evidenze": [
+      {
+        "osservazione": "La Cina e l'Ucraina concordano un piano dettagliato per gli aiuti militari ed economici annunciati. Tuttavia, la KB non fornisce dati specifici su questi accordi di aiuto",
+        "riferimento": "[round 3] USA"
+      },
+      {
+        "osservazione": "L'Italia propone alla Germania una cooperazione tripartita con l'Ucraina nel settore energetico per mitigare gli effetti della guerra. Tuttavia, la KB non fornisce dettagli sulla traiettoria o sul contesto generale che giustifichino questa proposta.",
+        "riferimento": "[round 5] ITA"
+      },
+      {
+        "osservazione": "La Russia rafforza le difese cibernetiche e lancia una contro-operazione mirata in risposta ai test cinesi, ma la KB non fornisce dati specifici su queste operazioni o sul ruolo della Bielorussia.",
+        "riferimento": "[round 6] RUS"
+      },
+      {
+        "osservazione": "La Cina rafforza le difese informatiche e lancia una contro-operazione mirata in risposta all'operatività russa, ma la KB non fornisce dati specifici su queste operazioni o sul ruolo di Israele.",
+        "riferimento": "[round 7] CHN"
+      },
+      {
+        "osservazione": "La Russia rafforza le difese cibernetiche e lancia una contro-operazione mirata in risposta alla mossa cinese, ma la KB non fornisce dati specifici su queste operazioni o sul ruolo del Kazakistan.",
+        "riferimento": "[round 8] RUS"
+      },
+      {
+        "osservazione": "La Cina rafforza le difese informatiche e lancia una contro-operazione mirata in risposta all'operatività russa, ma la KB non fornisce dati specifici su queste operazioni o sul ruolo di Israele.",
+        "riferimento": "[round 9] CHN"
+      },
+      {
+        "osservazione": "La Russia rafforza le difese cibernetiche e valuta misure per contrastare future minacce informatiche in risposta alla contro-operazione cinese, ma la KB non fornisce dati specifici su queste operazioni o sul ruolo del Kazakistan.",
+        "riferimento": "[round 10] RUS"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 93,
+    "grounded": 55,
+    "non_ancorate": 18,
+    "irregolari": 20,
+    "multi_tag": 8,
+    "perc_grounded": 59.1,
+    "perc_irregolari": 21.5,
+    "distribuzione": {
+      "evento": 37,
+      "contesto_generale": 4,
+      "cyber": 2,
+      "relazioni": 13,
+      "conoscenza_generale": 18,
+      "conflitto": 5,
+      "traiettoria": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 18,
+      "cooperazione": 2
+    }
+  }
+}

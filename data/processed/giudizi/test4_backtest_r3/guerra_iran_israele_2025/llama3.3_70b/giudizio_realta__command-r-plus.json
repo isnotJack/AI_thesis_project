@@ -1,0 +1,178 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22240,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 9,
+      "risposte": 54,
+      "token_stimati": 22240
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 23,
+      "token_stimati": 10771
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "L'Iran risponde con ondate di missili balistici (oltre 550) e di droni (oltre 1.000) contro Israele.",
+      "esito": "parziale",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F2",
+      "testo": "Israele prosegue per dodici giorni gli attacchi aerei contro obiettivi militari e nucleari iraniani.",
+      "esito": "presente",
+      "evidenza": "round 3, IRN: rafforza IRN->ISR [cyber] base_kb=conflitto · Risposta all'attacco informatico\n",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 3, IRN: rafforza IRN->ISR [cyber] base_kb=conflitto · Risposta all'attacco informatico\n"
+    },
+    {
+      "id": "F3",
+      "testo": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani con difese antimissile e navi.",
+      "esito": "parziale",
+      "evidenza": "round 9, USA: rafforza la cooperazione con il Canada per aumentare la collaborazione nella lotta alle minacce cyber; round 10, GBR e ISR: rafforzano le difese contro gli attacchi informatici",
+      "verificata": true,
+      "blocco": 2,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 9, USA: rafforza la cooperazione con il Canada per aumentare la collaborazione nella lotta alle minacce cyber; round 10, GBR e ISR: rafforzano le difese contro gli attacchi informatici"
+    },
+    {
+      "id": "F4",
+      "testo": "Gli Stati Uniti bombardano i siti nucleari iraniani di Fordow, Natanz e Isfahan.",
+      "esito": "parziale",
+      "evidenza": "round 6, USA: rafforza USA->RUS [cyber] base_kb=evento · risposta all'attacco cibernetico\n",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 6, USA: rafforza USA->RUS [cyber] base_kb=evento · risposta all'attacco cibernetico\n"
+    },
+    {
+      "id": "F5",
+      "testo": "L'Iran risponde agli Stati Uniti colpendo con missili la base americana di Al Udeid, in Qatar, senza vittime.",
+      "esito": "parziale",
+      "evidenza": "round 10, CHN: rafforza la relazione cyber verso gli Stati Uniti; round 9 e 10, USA-CHN: attacchi informatici reciproci",
+      "verificata": false,
+      "blocco": 2,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F6",
+      "testo": "Gli Houthi dello Yemen lanciano missili balistici contro Israele.",
+      "esito": "parziale",
+      "evidenza": "round 1, IRN: evento-> ISR [cyber] base_kb=conflitto · L'Iran lancia un attacco informatico contro le infrastrutture di Israele in risposta all'attacco aereo\n",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F7",
+      "testo": "Un gruppo di hacker legato a Israele (Predatory Sparrow) colpisce la banca statale iraniana Sepah e l'exchange di criptovalute Nobitex.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: evento-> ISR [cyber] base_kb=conflitto · L'Iran lancia un attacco informatico contro le infrastrutture di Israele in risposta all'attacco aereo\n",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F8",
+      "testo": "Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi); gli Stati Uniti mettono in guardia da attacchi cyber iraniani contro le proprie reti.",
+      "esito": "presente",
+      "evidenza": [
+        "round 2, ISR: evento-> IRN [cyber] base_kb=conflitto · Israele lancia un contrattacco informatico contro le infrastrutture iraniane\n",
+        "round 3, RUS: azione: rafforza RUS->IRN [cooperazione] base_kb=evento · Accordo di cooperazione per contrastare la minaccia israeliana"
+      ],
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": [
+        "round 2, ISR: evento-> IRN [cyber] base_kb=conflitto · Israele lancia un contrattacco informatico contro le infrastrutture iraniane\n",
+        "round 3, RUS: azione: rafforza RUS->IRN [cooperazione] base_kb=evento · Accordo di cooperazione per contrastare la minaccia israeliana"
+      ]
+    },
+    {
+      "id": "F9",
+      "testo": "Russia, Cina e Arabia Saudita condannano gli attacchi israeliani sul piano diplomatico, senza intervenire militarmente.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: azione: crea IRN->RUS [cooperazione] base_kb=conoscenza_generale · per aumentare la cooperazione contro la minaccia israeliana\n",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F10",
+      "testo": "In Iran migliaia di persone lasciano Teheran e altre citta'; il governo limita a piu' riprese l'accesso a internet.",
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F11",
+      "testo": "Dopo dodici giorni entra in vigore un cessate il fuoco fra Israele e Iran, mediato dagli Stati Uniti con il Qatar.",
+      "esito": "parziale",
+      "evidenza": [
+        "round 8, RUS: azione: indebolisci RUS->USA [cyber] base_kb=evento · Riduzione delle operazioni ostili in risposta all'indagine congiunta USA-ISR\n",
+        "round 9, ISR: evento-> IRN [cooperazione] base_kb=conoscenza_generale · Israele informa gli Stati Uniti dell'accordo di collaborazione per la sicurezza cibernetica con la Russia"
+      ],
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": [
+        "round 8, RUS: azione: indebolisci RUS->USA [cyber] base_kb=evento · Riduzione delle operazioni ostili in risposta all'indagine congiunta USA-ISR\n",
+        "round 9, ISR: evento-> IRN [cooperazione] base_kb=conoscenza_generale · Israele informa gli Stati Uniti dell'accordo di collaborazione per la sicurezza cibernetica con la Russia"
+      ]
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia lancia un attacco cibernetico contro le infrastrutture critiche statunitensi in risposta alla precedente contreazione",
+      "riferimento": "[round 9] RUS: cyber verso USA",
+      "blocco": 2
+    },
+    {
+      "descrizione": "Gli Stati Uniti lanciano una serie di attacchi informatici contro la Cina e la Russia, in seguito al loro accordo sulla difesa cibernetica.",
+      "riferimento": "[round 10] CHN-RUS: cooperazione; [round 9/10] USA: cyber verso RUS",
+      "blocco": 2
+    },
+    {
+      "descrizione": "La Gran Bretagna collabora con gli Stati Uniti per migliorare la sicurezza informatica globale",
+      "riferimento": "[round 8 e 7] GBR non compare nella simulazione, ma viene menzionata in [round 10]",
+      "blocco": 2
+    }
+  ],
+  "motivazione": "[round 1-9] La simulazione presenta una serie di attacchi informatici e contro-attacchi tra Iran, Israele, USA e altri Paesi. La reazione dell'Iran all'attacco aereo israeliano è limitata a un attacco cyber verso le infrastrutture israeliane (F1), ma non si concretizza in azioni militari dirette come missili o droni su larga scala (F2). Gli Stati Uniti intervengono con attacchi informatici contro la Russia, ma senza colpire direttamente l'Iran. La Cina e altri Paesi sono coinvolti nella guerra cyber. [round 9-10] Questa parte della simulazione si concentra principalmente sulle relazioni cyber tra Stati Uniti, Russia e Cina. Gli attacchi informatici reciproci riflettono parzialmente la realtà degli eventi F3 ed F5.",
+  "conteggi": {
+    "presente": 4,
+    "parziale": 6,
+    "assente": 1,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 3
+  },
+  "punteggio_realta": 63.6,
+  "punteggio_realta_verificato": 31.8
+}

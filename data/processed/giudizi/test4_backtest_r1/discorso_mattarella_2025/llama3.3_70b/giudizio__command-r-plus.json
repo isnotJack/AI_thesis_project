@@ -1,0 +1,58 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 2160,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 3,
+      "risposte": 2,
+      "token_stimati": 2160,
+      "punteggio": 50.0,
+      "coerenza_kb": 60.0,
+      "plausibilita": 40.0,
+      "fedelta_grounding": 70.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 50.0,
+    "coerenza_kb": 60.0,
+    "plausibilita": 40.0,
+    "fedelta_grounding": 70.0,
+    "motivazione": "La simulazione presenta alcune incongruenze e scelte discutibili che influenzano i punteggi. La coerenza con la KB è parzialmente rispettata nelle reazioni iniziali dei paesi ma non in quelle successive; il grounding mostra qualche imprecisione nell'uso delle basi conoscitive, soprattutto per le azioni intraprese dai vari agenti.",
+    "evidenze": [
+      {
+        "osservazione": "La reazione della Russia all'evento iniziale è coerente con la KB e giustificata dal contesto storico-politico. Tuttavia, l'escalation a livello cyber non sembra adeguatamente supportata dalla conoscenza sulla situazione informatica russa nel 2024 Q4.",
+        "riferimento": "[round1] RUS"
+      },
+      {
+        "osservazione": "La reazione dell'Italia è comprensibile ma la creazione di una nuova cooperazione con la Francia, senza basi conoscitive specifiche a supporto, appare forzata e poco plausibile. Inoltre, l'accordo economico con la Germania non sembra direttamente collegato all'evento iniziale.",
+        "riferimento": "[round2] ITA"
+      },
+      {
+        "osservazione": "La mancata reazione della Germania è incoerente dato il coinvolgimento diretto nel round 2 e potrebbe portare a un'escalation geopolitica improbabile senza ulteriori spiegazioni o contesti aggiuntivi.",
+        "riferimento": "[round3] DEU"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 5,
+    "grounded": 4,
+    "non_ancorate": 1,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 80.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 3,
+      "conflitto": 1,
+      "conoscenza_generale": 1
+    },
+    "distribuzione_irregolari": {}
+  }
+}

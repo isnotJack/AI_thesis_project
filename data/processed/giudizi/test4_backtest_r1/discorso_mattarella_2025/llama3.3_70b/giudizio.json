@@ -3,24 +3,39 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 2160,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 3,
+      "risposte": 2,
+      "token_stimati": 2160,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 60.0
+    }
+  ],
   "giudizio": {
     "punteggio": 65.0,
     "coerenza_kb": 70.0,
     "plausibilita": 80.0,
     "fedelta_grounding": 60.0,
-    "motivazione": "La coerenza con la knowledge base è buona, con reazioni e azioni che riflettono in parte il contesto e le relazioni tra i paesi. La plausibilità della catena di eventi è alta, con una risposta diplomatica da parte dell'Italia per contrastare le misure economiche russe. Tuttavia, ci sono alcune imprecisioni nella fedeltà al grounding, con alcuni riferimenti alla 'conoscenza generale' che non sono supportati dalla KB.",
+    "motivazione": "La coerenza con la knowledge base è buona, con reazioni e azioni che rispecchiano in parte il contesto fornito. La plausibilità della catena di eventi è alta, con una risposta diplomatica sensata da parte dell'Italia. Tuttavia, ci sono alcune imprecisioni nel grounding delle scelte, utilizzando 'conoscenza_generale' quando i dati specifici erano disponibili.",
     "evidenze": [
       {
-        "osservazione": "Reazione della Russia all'evento iniziale",
+        "osservazione": "La Russia condanna le dichiarazioni italiane e minaccia di danneggiare le relazioni bilaterali, in linea con il contesto del conflitto russo-ucraino.",
         "riferimento": "round 1/RUS"
       },
       {
-        "osservazione": "Azione dell'Italia di rafforzare la cooperazione con altri paesi",
+        "osservazione": "L'Italia cerca di rafforzare la cooperazione economica con altri paesi per contrastare le misure russe, una risposta plausibile alla situazione.",
         "riferimento": "round 2/ITA"
       },
       {
-        "osservazione": "Uso di 'conoscenza generale' per l'azione verso la Francia",
+        "osservazione": "La scelta di 'conoscenza_generale' per l'azione verso la Francia non è giustificata, dato che i dati specifici sulla cooperazione erano disponibili nella KB.",
         "riferimento": "round 2/ITA"
       }
     ]

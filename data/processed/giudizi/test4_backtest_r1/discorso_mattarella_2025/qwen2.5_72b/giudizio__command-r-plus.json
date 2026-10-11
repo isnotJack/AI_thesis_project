@@ -1,0 +1,66 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 4128,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 10,
+      "token_stimati": 4128,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 90.0,
+      "fedelta_grounding": 63.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 90.0,
+    "fedelta_grounding": 63.0,
+    "motivazione": "Il dialogo presenta una coerenza generale con la knowledge base (KB), ma ci sono alcune imprecisioni e interpretazioni discutibili. La catena di eventi è plausibile dal punto di vista geopolitico, mostrando un'escalation controllata che porta a una risoluzione pacifica delle tensioni.",
+    "evidenze": [
+      {
+        "osservazione": "La reazione iniziale della Russia (round 1) sembra coerente con il contesto teso tra i due paesi e le sanzioni menzionate nella KB, ma l'intensità potrebbe essere considerata eccessiva per un singolo discorso critico. La risposta italiana di ridurre la cooperazione cyber è una scelta discutibile in assenza di chiare attività malevole russe (round 2).",
+        "riferimento": [
+          "RUS round1",
+          "ITA round2"
+        ]
+      },
+      {
+        "osservazione": "La successiva accettazione dell'incontro da parte della Russia e l'apertura al dialogo sono coerenti con il desiderio di stabilizzare le relazioni internazionali. Tuttavia, la rapida escalation positiva (round 3-9) potrebbe essere considerata troppo ottimistica data la situazione tesa iniziale.",
+        "riferimento": [
+          "RUS round2",
+          "ITA round4"
+        ]
+      },
+      {
+        "osservazione": "L'uso del tag 'base_kb=evento' in molti casi è discutibile, poiché le scelte sembrano basarsi più su interpretazioni generali e sul contesto che sui dati specifici della KB.",
+        "riferimento": [
+          "RUS base_kb",
+          "ITA base_kb"
+        ]
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 20,
+    "grounded": 20,
+    "non_ancorate": 0,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 100.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 18,
+      "relazioni": 2
+    },
+    "distribuzione_irregolari": {}
+  }
+}

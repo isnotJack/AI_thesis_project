@@ -3,48 +3,73 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "qwen2.5_72b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 4496,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 10,
+      "token_stimati": 4496
+    }
+  ],
   "fatti": [
     {
       "id": "F1",
       "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
       "esito": "presente",
       "evidenza": "round 1, RUS: indebolisci RUS->ITA [cooperazione] base_kb=evento",
-      "verificata": true
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: indebolisci RUS->ITA [cooperazione] base_kb=evento"
     },
     {
       "id": "F2",
       "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
       "esito": "parziale",
       "evidenza": "round 2, ITA: indebolisci ITA->RUS [cooperazione] base_kb=evento",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F3",
       "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
       "esito": "presente",
       "evidenza": "round 1, RUS: evento-> ITA [generico] base_kb=evento",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F4",
       "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
       "esito": "parziale",
-      "evidenza": "round 2, ITA: indebolisci ITA->RUS [cooperazione] base_kb=evento",
-      "verificata": true
+      "evidenza": "round 2, ITA: evento-> RUS [generico] base_kb=evento",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 2, ITA: evento-> RUS [generico] base_kb=evento"
     }
   ],
   "sviluppi_non_accaduti": [
     {
       "descrizione": "La Russia minaccia l'Italia sul piano politico-diplomatico.",
-      "riferimento": "round 1, RUS"
+      "riferimento": "round 1, RUS",
+      "blocco": 1
     },
     {
       "descrizione": "Attacchi DDoS da parte di hacker filorussi contro siti italiani.",
-      "riferimento": "round 2, ITA"
+      "riferimento": "round 2, ITA",
+      "blocco": 1
     }
   ],
-  "motivazione": "La simulazione cattura in modo accurato la reazione diplomatica della Russia all'affronto percepito. Tuttavia, non prevede le azioni cyber ostili e le minacce specifiche che hanno caratterizzato la risposta russa nella realtà.",
+  "motivazione": "La simulazione cattura in modo accurato la risposta diplomatica della Russia all'affronto percepito, con un linguaggio simile a quello realmente utilizzato. Tuttavia, non prevede le azioni cyber ostili specifiche che hanno avuto luogo.",
   "conteggi": {
     "presente": 2,
     "parziale": 2,

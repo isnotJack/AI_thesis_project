@@ -1,0 +1,162 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 23178,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 4,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 46,
+      "token_stimati": 22879,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 48.0,
+      "fedelta_grounding": 92.0
+    },
+    {
+      "k": 2,
+      "n": 4,
+      "round_da": 8,
+      "round_a": 9,
+      "risposte": 44,
+      "token_stimati": 23114,
+      "punteggio": 78.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 65.0,
+      "fedelta_grounding": 100.0
+    },
+    {
+      "k": 3,
+      "n": 4,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 43,
+      "token_stimati": 23178,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 4,
+      "n": 4,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 4,
+      "token_stimati": 4469,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 68.0,
+      "fedelta_grounding": 49.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 72.3,
+    "coerenza_kb": 79.6,
+    "plausibilita": 60.6,
+    "fedelta_grounding": 77.6,
+    "motivazione": "[round 1-8] La simulazione mostra un'aderenza moderata alla KB. I Paesi reagiscono in modo coerente con i dati forniti e le relazioni esistenti tra di loro (coerenza_kb). Tuttavia, la propagazione degli eventi appare talvolta forzata o poco plausibile geopoliticamente: ad esempio, l'Ucraina che rafforza la cooperazione cyber con gli USA a causa dell'avvertimento russo sull'unilateralismo nelle trattative. Inoltre, il modello spesso cita 'conoscenza generale', anche quando i dati specifici erano presenti nella KB (fedelta_grounding). [round 8-9] La coerenza con la KB è alta: le reazioni e gli aggiornamenti di stato sono generalmente coerenti. La fedeltà al grounding è totale; i tag 'base_kb' giustificano correttamente ogni scelta fatta dai Paesi. [round 9-10] La simulazione mostra una buona coerenza con la KB per quanto riguarda i dati numerici e le relazioni cyber. Tuttavia, ci sono alcuni casi in cui il grounding è debole o mancante (ad esempio, l'evento di CHN che rafforza la cooperazione cibernetica con RUS non ha un chiaro riferimento nella knowledge base). La plausibilità geopolitica della simulazione varia da buona a mediocre: alcune azioni e reazioni sembrano sensate date le relazioni storiche tra i paesi coinvolti; altre sono meno verosimili, come l'alleanza strategica tra CHN-IRN o la cooperazione ISR con UKR. L'uso di 'conoscenza_generale', specialmente per eventi che non hanno un chiaro riferimento nella KB, è frequente e indebolisce il grounding. [round 10-10] La simulazione presenta alcune incoerenze e imprecisioni nella fedeltà al grounding. La coerenza con la KB è parzialmente rispettata nelle reazioni degli agenti UKR (Ucraina) e USA (Stati Uniti), ma mostra incongruenze per IRN (Iran). L'escalation di attacchi cyber da parte della Russia verso l'Ucraina sembra plausibile, così come le discussioni tripartite sulla sicurezza informatica tra Ucraina-USA-Israele. Tuttavia, la collaborazione Iran-Russia nella cooperazione cibernetica e gli attacchi iraniani contro Israele sono meno verosimili data la storia recente.",
+    "evidenze": [
+      {
+        "osservazione": "'L’Iran risponde all’attacco aereo israeliano con una serie di contrattacchi mirati contro obiettivi strategici in Israele, intensificando le operazioni militari...'",
+        "riferimento": "[round 1] IRN"
+      },
+      {
+        "osservazione": "'Israele rafforza la cooperazione cyber con gli USA e il Regno Unito.'",
+        "riferimento": [
+          "[round 4]",
+          "ISR -> GBR [cooperazione]"
+        ]
+      },
+      {
+        "osservazione": "Le azioni dei vari paesi, come il rafforzamento delle difese cyber e la ricerca di cooperazioni internazionali per contrastare le minacce informatiche, sono coerenti con i dati della KB. Ad esempio: RUS rafforza la sua postura cibernetica in risposta agli attacchi ucraini (round 8) o CHN collabora con IRN nella difesa digitale.",
+        "riferimento": [
+          {
+            "round/Paese_o_campoKB": "CHN"
+          },
+          {
+            "round/Paese_o_campoKB": "RUS round 8-9"
+          }
+        ]
+      },
+      {
+        "osservazione": "'Conoscenza generale' è usato correttamente, come in CHN che crea un nuovo gruppo di collaborazione con IRN (round 10), o USA e ISR che rafforzano la cooperazione per le minacce cyber regionali.",
+        "riferimento": [
+          {
+            "round/Paese_o_campoKB": "CHN round 9"
+          },
+          {
+            "round/Paese_o_campoKB": "USA,ISR round 8-10"
+          }
+        ]
+      },
+      {
+        "osservazione": "La plausibilità è buona: le reazioni sono sensate e coerenti con la geopolitica. Ad esempio RUS risponde cautamente all'avvertimento ucraino (round 9) o USA rafforza il supporto a ISR per minacce cyber regionali.",
+        "riferimento": [
+          {
+            "round/Paese_o_campoKB": "RUS round 9"
+          },
+          {
+            "round/Paese_o_campoKB": "USA,ISR round 8-10"
+          }
+        ]
+      },
+      {
+        "osservazione": "CHN rafforza le relazioni cyber con RUS senza una base chiara",
+        "riferimento": "[round 10] CHN"
+      },
+      {
+        "osservazione": "'conoscenza_generale' usata per eventi non supportati dalla KB (es. cooperazioni)",
+        "riferimento": ""
+      },
+      {
+        "osservazione": "La reazione dell'Ucraina è coerente con il contesto generale della KB (cooperazione pregressa, necessità di rafforzare sicurezza informatica) ma non ha basi nella sezione 'cyber'.",
+        "riferimento": "'round 10', UKR"
+      },
+      {
+        "osservazione": "Gli Stati Uniti mostrano coerenza nel reagire all'invito israeliano (cooperazione pregressa, preoccupazioni per minacce cyber russe e iraniane). Tuttavia, il tag 'cyber.n_incidenti_datati=31' non è supportato dalla KB.",
+        "riferimento": "'round 10', USA"
+      },
+      {
+        "osservazione": "L'Iran mostra incoerenza nel reagire all'invito cinese (nessuna cooperazione pregressa con Russia o Cina nella sezione 'cyber'). Il tag 'conoscenza_generale' è inappropriato per l'attacco informatico a Israele, dato il contesto di tensioni.",
+        "riferimento": "'round 10', IRN"
+      },
+      {
+        "osservazione": "La reazione russa allinea con la storia recente e le relazioni nella KB. Tuttavia, i tag 'cyber.n_incidenti_datati=65' non è supportato dai dati.",
+        "riferimento": "'round 10', RUS; cyber"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 493,
+    "grounded": 328,
+    "non_ancorate": 110,
+    "irregolari": 55,
+    "multi_tag": 71,
+    "perc_grounded": 66.5,
+    "perc_irregolari": 11.2,
+    "distribuzione": {
+      "evento": 207,
+      "conoscenza_generale": 110,
+      "conflitto": 45,
+      "relazioni": 65,
+      "contesto_generale": 14,
+      "cyber": 40,
+      "traiettoria": 11,
+      "economia": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 45,
+      "cooperazione": 2,
+      "azione_su_arco": 6,
+      "aggiornamento_stato": 1,
+      "reazione_breve": 1,
+      "aggiornamenti_stato": 1
+    }
+  }
+}

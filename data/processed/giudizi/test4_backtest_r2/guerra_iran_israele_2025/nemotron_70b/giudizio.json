@@ -3,25 +3,112 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "nemotron_70b",
   "giudice": "command-r",
-  "token_stimati": 64742,
+  "metodo": "blocchi_v1",
+  "token_stimati": 23178,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 4,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 46,
+      "token_stimati": 22879,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 87.0,
+      "fedelta_grounding": 82.0
+    },
+    {
+      "k": 2,
+      "n": 4,
+      "round_da": 8,
+      "round_a": 9,
+      "risposte": 44,
+      "token_stimati": 23114,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 85.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 3,
+      "n": 4,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 43,
+      "token_stimati": 23178,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 85.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 4,
+      "n": 4,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 4,
+      "token_stimati": 4469,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 60.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 85.0,
-    "coerenza_kb": 90.0,
-    "plausibilita": 80.0,
-    "fedelta_grounding": 75.0,
-    "motivazione": "La coerenza con la KB è generalmente buona, con reazioni e azioni che rispecchiano i dati forniti. La plausibilità delle scelte geopolitiche è alta, anche se in alcuni casi si potrebbero verificare escalation più contenute. Il grounding dei tag 'base_kb' è per lo più accurato, ma ci sono alcune imprecisioni o mancate corrispondenze.",
+    "punteggio": 78.4,
+    "coerenza_kb": 83.4,
+    "plausibilita": 85.5,
+    "fedelta_grounding": 70.6,
+    "motivazione": "[round 1-8] La simulazione mostra una coerenza generale con i dati della Knowledge Base (KB), con reazioni e azioni che rispecchiano le informazioni fornite. La maggior parte delle decisioni prese dagli agenti è plausibile dal punto di vista geopolitico, mostrando un'escalation graduale e sensata. Tuttavia, ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, soprattutto per quanto riguarda il ruolo cyber di alcuni paesi e l'impatto delle sanzioni economiche. [round 8-9] La simulazione dimostra una buona coerenza con i dati della Knowledge Base (KB), con reazioni e azioni generalmente allineate ai contesti e alle relazioni descritte. La plausibilità è alta, con una propagazione sensata degli eventi geopolitici. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB. [round 9-10] La simulazione presenta un livello di coerenza con la Knowledge Base (KB) abbastanza elevato, con reazioni e azioni che rispecchiano in gran parte i dati forniti. La plausibilità delle interazioni è generalmente buona, con una gestione sensata degli eventi geopolitici. Tuttavia, ci sono alcuni casi in cui le scelte non sembrano essere completamente fedeli alla KB o mancano di coerenza interna. Questo ha portato a una valutazione leggermente inferiore per la fedeltà al grounding e la coerenza complessiva. [round 10-10] La coerenza con la knowledge base è buona, con reazioni e azioni che riflettono in gran parte i dati forniti. La plausibilità geopolitica è soddisfacente, con una catena di eventi che segue logicamente le tensioni esistenti tra i paesi coinvolti. Tuttavia, ci sono alcune imprecisioni nella fedeltà al grounding, dove alcuni tag 'base_kb' non corrispondono esattamente alle fonti citate.",
     "evidenze": [
       {
-        "osservazione": "La Cina rafforza la cooperazione con la Russia in materia di sicurezza cibernetica",
-        "riferimento": "round 10/CHN"
+        "osservazione": "Reazioni coerenti con i dati della KB",
+        "riferimento": "round 1-8/IRN, ISR, CHN, USA, RUS, UKR"
       },
       {
-        "osservazione": "Gli Stati Uniti accolgono positivamente l'iniziativa russa e si impegnano a ridurre le operazioni ostili reciproche.",
+        "osservazione": "Escalation plausibile e graduale",
+        "riferimento": "round 2-7/ISR, CHN, USA, RUS, IRN, UKR"
+      },
+      {
+        "osservazione": "Ruolo cyber non sempre coerente con la KB",
+        "riferimento": "round 6-8/RUS, ISR, CHN, IRN"
+      },
+      {
+        "osservazione": "Impatto delle sanzioni economiche non considerato in alcuni casi",
+        "riferimento": "round 7-8/IRN"
+      },
+      {
+        "osservazione": "Reazioni coerenti con il contesto",
+        "riferimento": "round 8/9: RUS, UKR"
+      },
+      {
+        "osservazione": "Aumento degli incidenti cyber datati giustifica azioni difensive",
+        "riferimento": "round 8/9: ISR, USA"
+      },
+      {
+        "osservazione": "Uso di 'conoscenza_generale' invece di dati specifici dalla KB",
+        "riferimento": "round 8/9: RUS, CHN"
+      },
+      {
+        "osservazione": "L'aumento degli incidenti cyber in USA non è coerente con il numero riportato nella KB (29).",
         "riferimento": "round 10/USA"
       },
       {
-        "osservazione": "La Russia accoglie con favore la proposta cinese, vedendo un'opportunità per rafforzare la sicurezza informatica regionale",
-        "riferimento": "round 10/RUS"
+        "osservazione": "La reazione di Israele all'accordo di cooperazione con gli Stati Uniti sembra essere un po' troppo entusiasta, considerando le tensioni esistenti.",
+        "riferimento": "round 10/ISR"
+      },
+      {
+        "osservazione": "L'Iran non reagisce direttamente all'attacco aereo israeliano, che è l'evento iniziale della simulazione.",
+        "riferimento": "IRN"
+      },
+      {
+        "osservazione": "L'Ucraina accetta la proposta degli Stati Uniti per discutere la sicurezza informatica con Israele",
+        "riferimento": "round 10/UKR"
+      },
+      {
+        "osservazione": "Gli Stati Uniti accolgono la richiesta di Israele per una possibile alleanza contro le minacce cyber russe e iraniane",
+        "riferimento": "round 10/USA"
       }
     ]
   },

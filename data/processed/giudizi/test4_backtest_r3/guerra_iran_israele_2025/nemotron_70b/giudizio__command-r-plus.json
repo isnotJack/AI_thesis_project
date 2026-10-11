@@ -1,0 +1,96 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 24006,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 46,
+      "token_stimati": 24006,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 76.0,
+      "fedelta_grounding": 100.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 38,
+      "token_stimati": 19870,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 100.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 80.5,
+    "coerenza_kb": 85.5,
+    "plausibilita": 72.8,
+    "fedelta_grounding": 100.0,
+    "motivazione": "[round 1-8] La simulazione mostra una buona coerenza con i dati della KB e un uso appropriato dei tag 'base_kb'. Tuttavia, ci sono alcune incoerenze nei numeri (ad esempio, il numero di eventi violenti per l'Iran nel round 4 non è coerente) che influenzano negativamente la valutazione. La plausibilità geopolitica delle reazioni degli agenti potrebbe essere migliorata considerando più attentamente le relazioni esistenti e i precedenti storici tra gli stati coinvolti. [round 8-10] La simulazione mostra una buona coerenza con la KB e un uso corretto dei tag 'base_kb'. Tuttavia, ci sono alcuni casi in cui le reazioni o gli aggiornamenti di stato non sembrano perfettamente allineati ai dati della knowledge base. Ad esempio, l'Ucraina rafforza la cooperazione cyber con USA (round 9) nonostante il numero degli incidenti sia solo leggermente aumentato nella KB; inoltre, alcune azioni come quella dell'Iran verso Cina e Russia nel round 10 sembrano basarsi più su considerazioni geopolitiche generali che sui dati specificati. La propagazione è generalmente plausibile ma mostra qualche incoerenza: ad esempio la reazione della Corea del Nord all'invito russo (round 9) sembra troppo rapida, mentre l'Ucraina reagisce con ritardo agli avvertimenti russi di round 8 e 10.",
+    "evidenze": [
+      {
+        "osservazione": "L'Iran reagisce all'attacco aereo israeliano con una serie di contrattacchi mirati, sia nel cyberspazio che attraverso operazioni militari limitate. Questo è coerente con la sua postura cyber offensiva e il contesto generale.",
+        "riferimento": "[round 1] IRN"
+      },
+      {
+        "osservazione": "Israele rafforza le difese cibernetiche in risposta all'aggressione iraniana, ma i numeri degli incidenti informatici non sono coerenti con la KB (4 invece di 3).",
+        "riferimento": "[round 2] ISR"
+      },
+      {
+        "osservazione": "La Russia accoglie l'invito dell'Iran per un incontro strategico e rafforza le alleanze, ma il peso della cooperazione non è coerente con la KB.",
+        "riferimento": "[round 2] RUS"
+      },
+      {
+        "osservazione": "La Cina decide di rafforzare le alleanze asiatiche in risposta all'accresciuta cooperazione tra Russia e Iran (round 9).",
+        "riferimento": "(CHN) evento"
+      },
+      {
+        "osservazione": "L'Ucraina intensifica la collaborazione con gli USA per il cyber nonostante un numero basso degli incidenti nella KB.",
+        "riferimento": "(UKR, round 9)"
+      },
+      {
+        "osservazione": "La Corea del Nord accetta l'invito russo (round 10) senza considerare le tensioni storiche e attuali tra i due Paesi",
+        "riferimento": "(PRK-RUS cyber: peso=2.5; PRK->RUS conflitto, peso=-3)"
+      },
+      {
+        "osservazione": "L'Ucraina reagisce con ritardo agli avvertimenti russi di round 8 (round 10).",
+        "riferimento": "(UKR) evento"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 283,
+    "grounded": 178,
+    "non_ancorate": 60,
+    "irregolari": 45,
+    "multi_tag": 27,
+    "perc_grounded": 62.9,
+    "perc_irregolari": 15.9,
+    "distribuzione": {
+      "conflitto": 36,
+      "evento": 107,
+      "cyber": 13,
+      "relazioni": 34,
+      "conoscenza_generale": 60,
+      "traiettoria": 5,
+      "contesto_generale": 10,
+      "migrazione": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 37,
+      "azione_su_arco": 1,
+      "cooperazione": 4,
+      "aggiornamenti_stato": 3
+    }
+  }
+}

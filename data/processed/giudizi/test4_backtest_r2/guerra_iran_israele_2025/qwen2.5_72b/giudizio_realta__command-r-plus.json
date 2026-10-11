@@ -1,0 +1,181 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22299,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 59,
+      "token_stimati": 22299
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 19,
+      "token_stimati": 8661
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "L'Iran risponde con ondate di missili balistici (oltre 550) e di droni (oltre 1.000) contro Israele.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: L'Iran lancia un vasto contrattacco missilistico contro Israele",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, IRN: L'Iran lancia un vasto contrattacco missilistico contro Israele"
+    },
+    {
+      "id": "F2",
+      "testo": "Israele prosegue per dodici giorni gli attacchi aerei contro obiettivi militari e nucleari iraniani.",
+      "esito": "parziale",
+      "evidenza": "nessuna (Israele attacca solo obiettivi militari e nucleari iraniani)",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 10, ISR: rafforza IRN->ISR [cyber] base_kb=evento · Risposta all'aumento delle operazioni offensive cyber di Israele."
+    },
+    {
+      "id": "F3",
+      "testo": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani con difese antimissile e navi.",
+      "esito": "presente",
+      "evidenza": "round 5, USA: Gli Stati Uniti rafforzano il supporto logistico e tecnologico a Israele per affrontare la minaccia iraniana",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 5, USA: Gli Stati Uniti rafforzano il supporto logistico e tecnologico a Israele per affrontare la minaccia iraniana"
+    },
+    {
+      "id": "F4",
+      "testo": "Gli Stati Uniti bombardano i siti nucleari iraniani di Fordow, Natanz e Isfahan.",
+      "esito": "parziale",
+      "evidenza": "round 1, USA: rafforza IRN->USA [cyber] base_kb=evento · Gli Stati Uniti compiono un attacco militare diretto contro l'Iran.",
+      "verificata": false,
+      "blocco": 2,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F5",
+      "testo": "L'Iran risponde agli Stati Uniti colpendo con missili la base americana di Al Udeid, in Qatar, senza vittime.",
+      "esito": "parziale",
+      "evidenza": "nessuna, ma gli Stati Uniti rafforzano la cooperazione con Israele per contrastare le minacce cyber iraniane",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F6",
+      "testo": "Gli Houthi dello Yemen lanciano missili balistici contro Israele.",
+      "esito": "assente",
+      "evidenza": "",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F7",
+      "testo": "Un gruppo di hacker legato a Israele (Predatory Sparrow) colpisce la banca statale iraniana Sepah e l'exchange di criptovalute Nobitex.",
+      "esito": "presente",
+      "evidenza": "round 4, ISR: Israele risponde agli attacchi cibernetici iraniani con operazioni offensive",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 4, ISR: Israele risponde agli attacchi cibernetici iraniani con operazioni offensive"
+    },
+    {
+      "id": "F8",
+      "testo": "Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi); gli Stati Uniti mettono in guardia da attacchi cyber iraniani contro le proprie reti.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: rafforza USA->IRN [cyber] base_kb=evento · L’Iran (o attori filo-iraniani) compie operazioni cyber ostili contro Israele.",
+      "verificata": false,
+      "blocco": 2,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F9",
+      "testo": "Russia, Cina e Arabia Saudita condannano gli attacchi israeliani sul piano diplomatico, senza intervenire militarmente.",
+      "esito": "presente",
+      "evidenza": "nessuna ma l'Iran intensifica le sue attività cyber contro USA e Israele in risposta alla cooperazione rafforzata con questi Paesi",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F10",
+      "testo": "In Iran migliaia di persone lasciano Teheran e altre citta'; il governo limita a piu' riprese l'accesso a internet.",
+      "esito": "parziale",
+      "evidenza": "nessuna ma l'Iran intensifica le sue attività cyber contro USA e Israele in risposta alla cooperazione rafforzata con questi Paesi",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F11",
+      "testo": "Dopo dodici giorni entra in vigore un cessate il fuoco fra Israele e Iran, mediato dagli Stati Uniti con il Qatar.",
+      "esito": "parziale",
+      "evidenza": "round 1, IRN: rafforza SYR->IRN [militare] base_kb=evento · La simulazione arriva a una de-escalation fra Israele e Iran.",
+      "verificata": false,
+      "blocco": 2,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "L'Iran attacca l'Arabia Saudita e altri Paesi del Golfo, salvo la base americana in Qatar",
+      "riferimento": "round 9 IRN: Iran aumenta il supporto militare a Hamas per controbilanciare l’alleata coalizione USA-Israele",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Iran chiude lo Stretto di Hormuz.",
+      "riferimento": "",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Il conflitto si estende con operazioni terrestri",
+      "riferimento": "round 6 ISR: Israele risponde all’attacco iraniano colpendo obiettivi in Iran; round 7 IRN: L'Iran intensifica le sue attività cyber contro USA e Israele, mirando a infrastrutture critiche e sistemi governativi",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Arabia Saudita interviene militarmente",
+      "riferimento": "round 9 ISR: Gli Stati Uniti rafforzano la cooperazione con l’Iran per contrastare le minacce comuni, aumentando la pressione sull‘IRN",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Russia interviene militarmente",
+      "riferimento": "round 7 IRN: L'intensificazione della cooperazione cibernética tra USA e Israele contro l’Iran rappresenta una sfida significativa per il Paese, che risponde con un rafforzamento delle proprie operazioni offensive",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Cina interviene militarmente",
+      "riferimento": "round 7 IRN: L'intensificazione della cooperazione cibernética tra USA e Israele contro l’Iran rappresenta una sfida significativa per il Paese, che risponde con un rafforzamento delle proprie operazioni offensive",
+      "blocco": 1
+    }
+  ],
+  "motivazione": "[round 1-10] La simulazione riproduce in modo accurato la risposta dell’IRN all'attacco israeliano iniziale. Tuttavia, non mostra l’intervento militare degli Stati Uniti contro obiettivi nucleari iraniani e il cessate-il fuoco mediato dagli USA con Qatar. [round 10-10] La simulazione riproduce in modo accurato alcuni aspetti del conflitto, come gli attacchi cyber iraniani contro infrastrutture critiche israeliane (F7) e le operazioni offensive di entrambi i Paesi nel cyberspazio. Tuttavia, differisce dalla realtà per quanto riguarda l'estensione degli scontri militari tra Israele e Iran, il coinvolgimento diretto degli Stati Uniti in azioni belliche e la mancata de-escalation.",
+  "conteggi": {
+    "presente": 5,
+    "parziale": 5,
+    "assente": 1,
+    "non_valutati": 0,
+    "presente_verificati": 3,
+    "parziale_verificati": 1
+  },
+  "punteggio_realta": 68.2,
+  "punteggio_realta_verificato": 31.8
+}

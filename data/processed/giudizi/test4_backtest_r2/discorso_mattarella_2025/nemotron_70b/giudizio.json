@@ -3,29 +3,76 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "nemotron_70b",
   "giudice": "command-r",
-  "token_stimati": 24992,
+  "metodo": "blocchi_v1",
+  "token_stimati": 22864,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 46,
+      "token_stimati": 22864,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 85.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 5,
+      "token_stimati": 3995,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
   "giudizio": {
     "punteggio": 75.0,
     "coerenza_kb": 80.0,
-    "plausibilita": 85.0,
+    "plausibilita": 84.5,
     "fedelta_grounding": 65.0,
-    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della knowledge base, soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato. Le azioni intraprese dai vari Paesi sono generalmente in linea con il contesto geopolitico e la situazione descritta nella KB. Tuttavia, ci sono stati alcuni casi in cui la scelta delle basi KB non era del tutto accurata o mancava di specificità. La plausibilità della catena di propagazione è stata per lo più mantenuta, con una escalation graduale e sensata delle tensioni tra i Paesi coinvolti.",
+    "motivazione": "[round 1-10] La simulazione mostra una coerenza generale con i dati della Knowledge Base (KB), con reazioni e azioni che rispecchiano il contesto geopolitico e le relazioni tra i paesi. La plausibilità è alta, poiché la catena di eventi segue logicamente l'escalation delle tensioni cyber tra i vari agenti. Tuttavia, ci sono alcune incoerenze nei tag `base_kb`, dove a volte viene utilizzata 'conoscenza_generale' quando i dati specifici erano disponibili nella KB. [round 10-10] La simulazione mostra una coerenza generale con la Knowledge Base (KB), con reazioni e azioni che riflettono accuratamente i dati forniti. Le decisioni prese dai vari agenti sono plausibili dal punto di vista geopolitico, mostrando una comprensione delle dinamiche internazionali. Tuttavia, ci sono alcuni errori nel grounding, dove le scelte non derivano direttamente dalla KB ma piuttosto da interpretazioni generali o conoscenze pregresse.",
     "evidenze": [
       {
-        "osservazione": "Le reazioni dei Paesi sono coerenti con il contesto descritto nella KB.",
-        "riferimento": "round 1/RUS, round 2/CHN"
+        "osservazione": "La Russia condanna le dichiarazioni italiane e rafforza la cooperazione con la Cina, coerentemente con il contesto geopolitico.",
+        "riferimento": "round 1/RUS"
       },
       {
-        "osservazione": "Gli aggiornamenti di stato riflettono accuratamente i cambiamenti nelle situazioni interne ed esterne dei Paesi.",
-        "riferimento": "round 3/ITA, round 6/USA"
+        "osservazione": "L'Italia denuncia attacchi cyber russi, in linea con i dati sulla KB.",
+        "riferimento": "round 2/ITA"
       },
       {
-        "osservazione": "Alcune scelte delle basi KB non erano del tutto accurate o mancavano di specificità.",
-        "riferimento": "round 4/CHN, round 8/RUS"
+        "osservazione": "La Cina accoglie l'accordo di cooperazione strategica con la Russia, coerentemente con il suo ruolo attivo nella scena internazionale.",
+        "riferimento": "round 3/CHN"
       },
       {
-        "osservazione": "La catena di propagazione mantiene una plausibilità generale, con un'escalation graduale delle tensioni cyber.",
-        "riferimento": "round 7/USA, round 9/UKR"
+        "osservazione": "L'Ucraina intensifica le difese cyber e cerca sostegno internazionale, coerente con il contesto del conflitto in corso.",
+        "riferimento": "round 4/UKR"
+      },
+      {
+        "osservazione": "'conoscenza_generale' usato quando i dati specifici erano disponibili (es. 'evento').",
+        "riferimento": "round 10/USA, round 9/CHN"
+      },
+      {
+        "osservazione": "La Cina accoglie con favore l'accordo di cooperazione cibernetica con la Russia",
+        "riferimento": "round 10, CHN"
+      },
+      {
+        "osservazione": "Gli Stati Uniti accusano la Russia di spionaggio informatico",
+        "riferimento": "round 10, USA"
+      },
+      {
+        "osservazione": "La Russia risponde agli attacchi USA con un contro-attacco cibernetico",
+        "riferimento": "round 10, RUS"
+      },
+      {
+        "osservazione": "Uso eccessivo del tag 'conoscenza_generale' da parte di alcuni agenti",
+        "riferimento": "round 10, CHN e RUS"
       }
     ]
   },

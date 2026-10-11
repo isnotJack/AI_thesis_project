@@ -1,0 +1,116 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 21373,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 42,
+      "token_stimati": 21373
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 38,
+      "token_stimati": 19380
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia risponde con una dichiarazione ufficiale condannando le parole del Presidente italiano come 'inaccettabili e storpiate', sottolineando la propria visione della situazione in Ucraina.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: La Russia risponde con una dichiarazione ufficiale condannando le parole del Presidente italiano come 'inaccettabili e storpiate', sottolineando la propria visione della situazione in Ucraina."
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "presente",
+      "evidenza": "round 4, RUS: La Russia intensifica gli attacchi informatici contro l'Italia dopo aver annunciato un accordo di difesa cibernetica con gli Stati Uniti. round 5 e successivi: Gli hacker russi continuano a colpire i sistemi italiani.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 4, RUS: La Russia intensifica gli attacchi informatici contro l'Italia dopo aver annunciato un accordo di difesa cibernetica con gli Stati Uniti. round 5 e successivi: Gli hacker russi continuano a colpire i sistemi italiani."
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia decide di rafforzare la cooperazione in materia di difesa cibernetica con paesi alleati come reazione alla preoccupazione russa per le relazioni bilaterali e agli attacchi informatici.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 2, ITA: L'Italia decide di rafforzare la cooperazione in materia di difesa cibernetica con paesi alleati come reazione alla preoccupazione russa per le relazioni bilaterali e agli attacchi informatici."
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "presente",
+      "evidenza": "round 8, ITA: L'Italia accoglie con favore l'accordo di cooperazione per lo sviluppo...",
+      "verificata": false,
+      "blocco": 2,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 6, ITA: L'Italia rafforza la cooperazione cyber con gli Stati Uniti in risposta all'attacco russo. round 7-8: La collaborazione continua e si estende ad altri paesi."
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia non ha intrapreso azioni militari contro l'Italia.",
+      "riferimento": "[round N] RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Italia non risponde con attacchi informatici alla Russia, ma collabora invece per contrastare le minacce cyber provenienti da altri paesi e rafforzando la propria difesa cibernetica insieme agli Stati Uniti. round 4-8: L'intensificazione degli sforzi di collaborazione in materia di sicurezza informatica tra Italia e USA.",
+      "riferimento": "[round N] ITA",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Italia non espelle diplomatici russi o interrompe le relazioni diplomatiche per questo episodio. round 7: La Russia decide di mantenere una posizione cauta nei confronti dell'Italia, evitando azioni che possano aggravare la situazione diplomatica ed economica.",
+      "riferimento": "[round N] ITA",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Nessun altro Paese viene coinvolto nella vicenda. round 4-8: La Cina e l'Ucraina entrano in gioco come alleati della Russia o degli Stati Uniti, rispettivamente; la Polonia collabora con gli USA per rafforzare le difese cyber.",
+      "riferimento": "[round N] CHN",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Nessuna variazione dei flussi migratori. round 6: L'Italia riduce i flussi migratori in risposta all'attacco informatico russo, ma non ci sono dati per confermare questo sviluppo.",
+      "riferimento": "[round N] ITA",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Nessuna azione o minaccia militare fra Russia e Italia.",
+      "riferimento": "[round 8, RUS] Gli Stati Uniti rilevano un aumento degli attacchi informatici provenienti dalla Russia...",
+      "blocco": 2
+    },
+    {
+      "descrizione": "L'Italia non risponde con attacchi informatici contro la Russia",
+      "riferimento": "",
+      "blocco": 2
+    }
+  ],
+  "motivazione": "[round 1-8] La simulazione riproduce fedelmente gli eventi F1 e F2. Per quanto riguarda l'F3, la reazione italiana è coerente con il criterio 'parziale', in cui si afferma che una risposta generica senza riferimenti alla Russia sarebbe stata sufficiente per soddisfare questo aspetto della realtà storica. Infine, riguardo all'F4, sebbene non vi sia un chiaro riferimento a misure di difesa o protezione cyber da parte dell'Italia nella simulazione, la collaborazione con gli Stati Uniti e altri paesi alleati può essere interpretata come una forma indiretta di rafforzamento delle difese cibernetiche. [round 8-10] La simulazione presenta una situazione in cui gli Stati Uniti e l'Ucraina rafforzano le loro difese cibernetiche, mentre la Cina intensifica i suoi sforzi per migliorare la sicurezza. La Russia risponde con cautela alle tensioni cyber ma mantiene un profilo basso nelle operazioni di sorveglianza verso gli USA.",
+  "conteggi": {
+    "presente": 4,
+    "parziale": 0,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 3,
+    "parziale_verificati": 1
+  },
+  "punteggio_realta": 100.0,
+  "punteggio_realta_verificato": 87.5
+}

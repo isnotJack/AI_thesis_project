@@ -1,0 +1,72 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 2515,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 4,
+      "risposte": 4,
+      "token_stimati": 2515
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "parziale",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: rafforza RUS->ITA [cyber] base_kb=evento · Risposta alle dichiarazioni italiane",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: rafforza RUS->ITA [cyber] base_kb=evento · Risposta alle dichiarazioni italiane"
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "parziale",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "assente",
+      "evidenza": "round 2, ITA: rafforza ITA->RUS [cooperazione] base_kb=evento · miglioramento delle relazioni\n round 4, RUS: rafforza RUS->ITA [cooperazione] base_kb=evento · Accordo di cooperazione per affrontare le sfide migratorie",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    }
+  ],
+  "sviluppi_non_accaduti": [],
+  "motivazione": "La simulazione riflette parzialmente gli eventi reali, con una reazione cyber russa verso l'Italia e un invito a chiarire. Tuttavia, manca la risposta italiana di solidarietà al Presidente e le misure difensive contro i cyberattacchi.",
+  "conteggi": {
+    "presente": 1,
+    "parziale": 2,
+    "assente": 1,
+    "non_valutati": 0,
+    "presente_verificati": 1,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 50.0,
+  "punteggio_realta_verificato": 25.0
+}

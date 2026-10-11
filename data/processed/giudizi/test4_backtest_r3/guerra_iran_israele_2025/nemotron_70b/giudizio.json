@@ -3,33 +3,68 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "nemotron_70b",
   "giudice": "command-r",
-  "token_stimati": 40618,
+  "metodo": "blocchi_v1",
+  "token_stimati": 24006,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 46,
+      "token_stimati": 24006,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 38,
+      "token_stimati": 19870,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
   "giudizio": {
     "punteggio": 75.0,
     "coerenza_kb": 80.0,
     "plausibilita": 70.0,
     "fedelta_grounding": 65.0,
-    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della knowledge base, mostrando una comprensione del contesto geopolitico e delle relazioni tra i paesi. Le reazioni e le azioni intraprese sono generalmente coerenti con il ruolo cyber di ciascun paese e con la situazione descritta nella KB. Tuttavia, ci sono stati alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, ad esempio quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB. La plausibilità delle reazioni è complessivamente buona, ma ci sono state alcune escalation che potrebbero essere considerate eccessive o non del tutto realistiche.",
+    "motivazione": "[round 1-8] La simulazione mostra una coerenza generale con i dati della Knowledge Base (KB), con reazioni e azioni che riflettono le informazioni fornite. La fedeltà al grounding è buona ma non perfetta, con alcuni casi in cui la scelta potrebbe essere stata supportata da altre fonti oltre alla KB. La plausibilità delle interazioni geopolitiche è generalmente sensata, anche se ci sono alcune escalation che potrebbero essere state gestite in modo più graduale o con approcci alternativi. [round 8-10] La simulazione presenta un livello di coerenza elevato con la Knowledge Base (KB), con reazioni e azioni che rispecchiano in gran parte i dati forniti. La fedeltà al grounding è buona ma non perfetta, con alcuni casi in cui le basi KB potrebbero essere state interpretate in modo più accurato. La plausibilità delle interazioni geopolitiche è generalmente sensata, anche se ci sono alcune escalation che potrebbero essere state gestite in modo più graduale o con strategie alternative.",
     "evidenze": [
       {
-        "osservazione": "L'Iran risponde all'attacco aereo israeliano con contrattacchi mirati nel cyberspazio e operazioni militari limitate, coerentemente con il suo ruolo cyber offensivo.",
+        "osservazione": "Reazione dell'Iran all'attacco aereo israeliano",
         "riferimento": "round 1/IRN"
       },
       {
-        "osservazione": "La Russia accoglie l'invito iraniano per un'alleanza strategica contro Israele, considerando la sua storia di cooperazione con l'Iran e le relazioni cyber ostili bidirezionali.",
+        "osservazione": "Rafforzamento della cooperazione tra Russia e Iran",
         "riferimento": "round 2/RUS"
       },
       {
-        "osservazione": "Gli Stati Uniti intensificano la loro presenza militare nella regione in risposta alle esercitazioni congiunte Siria-Iran, coerentemente con il loro ruolo di leader globale e le tensioni esistenti.",
-        "riferimento": "round 6/USA"
-      },
-      {
-        "osservazione": "La Cina accetta l'invito russo a unirsi alle esercitazioni militari congiunte con Iran e Russia, rafforzando la cooperazione trilaterale.",
+        "osservazione": "Escalation delle tensioni cyber tra USA e Cina",
         "riferimento": "round 6/CHN"
       },
       {
-        "osservazione": "L'Ucraina rafforza la cooperazione con gli Stati Uniti per contrastare le minacce russe, considerando l'avvertimento della Russia come un segnale di aggressività.",
-        "riferimento": "round 7/UKR"
+        "osservazione": "Proposta di negoziati di pace da parte degli Stati Uniti",
+        "riferimento": "round 7/RUS"
+      },
+      {
+        "osservazione": "Reazione coerente con la KB",
+        "riferimento": "round 9/RUS"
+      },
+      {
+        "osservazione": "Azione basata su dati KB specifici",
+        "riferimento": "round 10/CHN"
+      },
+      {
+        "osservazione": "Escalation improvvisa nella reazione",
+        "riferimento": "round 10/USA"
       }
     ]
   },

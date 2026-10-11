@@ -1,0 +1,113 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 13396,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 28,
+      "token_stimati": 13396
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano"
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "nessuna (non ci sono attacchi cyber contro l'Italia)",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia risponde alle critiche russe",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 2, ITA: L'Italia risponde alle critiche russe"
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "parziale",
+      "evidenza": "nessuna (l'Agenzia per la cybersicurezza nazionale non compare)",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia e l'Italia riducono i flussi migratori tra loro.",
+      "riferimento": "[round 1] RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Estonia valuta con cautela la proposta russa di cooperazione per la difesa cyber, preferendo rafforzare le alleanze esistenti piuttosto che accettare aiuti diretti da un paese con cui ha avuto recenti contrasti. L'Ucraina rafforza anche il suo ruolo nel cyberspazio.",
+      "riferimento": "[round 5] EST",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Il Brasile e la Cina annunciano una collaborazione per lo sviluppo di tecnologie difensive cibernetiche, in risposta alle crescenti tensioni globali. La Russia propone un accordo simile all'Estonia.",
+      "riferimento": "[round 5] CHN",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La cooperazione tra Cina e Brasile si estende allo scambio di informazioni sulla sicurezza informatica dopo l'esercitazione con la Russia, creando una rete difensiva più ampia. La Bielorussia collabora per rafforzare le sue capacità cyber.",
+      "riferimento": "[round 6] CHN",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Cina rafforza ulteriormente il suo ruolo nel cyberspazio in risposta ai counter-test russi, aumentando la tensione con gli Stati Uniti e l'Ucraina. La Russia risponde a sua volta rafforzando le difese.",
+      "riferimento": "[round 7] CHN",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Cina rafforza ulteriormente il suo ruolo nel cyberspazio in risposta ai counter-test russi, aumentando la tensione con gli Stati Uniti e l'Ucraina. La Russia risponde a sua volta rafforzando le difese.",
+      "riferimento": "[round 8] CHN",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Cina rafforza ulteriormente il suo ruolo nel cyberspazio in risposta ai counter-test russi, aumentando la tensione con gli Stati Uniti e l'Ucraina. La Russia risponde a sua volta rafforzando le difese.",
+      "riferimento": "[round 9] CHN",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Israele valuta un accordo di collaborazione per tecnologie cyber con Cina ed USA, in risposta alle crescenti minacce globali e alla cooperazione russo-cinese. L'Iran intensifica le attività di scouting.",
+      "riferimento": "[round 10] ISR",
+      "blocco": 1
+    }
+  ],
+  "motivazione": "La simulazione riproduce parzialmente i fatti F2 (attacchi cyber) ed F4 (difesa italiana), ma include anche sviluppi non accaduti, come la riduzione dei flussi migratori tra Russia e Italia. La reazione russa è simile a quella reale con una condanna pubblica delle parole del Presidente italiano.",
+  "conteggi": {
+    "presente": 2,
+    "parziale": 2,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 75.0,
+  "punteggio_realta_verificato": 50.0
+}

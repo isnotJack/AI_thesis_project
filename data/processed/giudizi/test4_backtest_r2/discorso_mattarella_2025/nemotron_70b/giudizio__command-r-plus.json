@@ -1,0 +1,95 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22864,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 46,
+      "token_stimati": 22864,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 5,
+      "token_stimati": 3995,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 68.0,
+      "fedelta_grounding": 49.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 74.0,
+    "coerenza_kb": 79.0,
+    "plausibilita": 68.9,
+    "fedelta_grounding": 42.7,
+    "motivazione": "[round 1-10] La simulazione mostra una buona comprensione dei dati della KB e delle relazioni geopolitiche. Tuttavia, ci sono alcuni casi in cui le reazioni degli agenti non sembrano del tutto coerenti con i numeri o il contesto forniti nella knowledge base (KB), specialmente per quanto riguarda la frequenza di eventi violenti nel conflitto russo-ucraino. [round 10-10] La simulazione presenta alcune incoerenze con la knowledge base e un uso non sempre appropriato dei tag 'base_kb'. La coerenza generale è compromessa da incongruenze nei dati numerici forniti. Tuttavia, le azioni intraprese dai paesi sono generalmente plausibili dal punto di vista geopolitico.",
+    "evidenze": [
+      {
+        "osservazione": "- La Russia reagisce all'accostamento italiano dell'aggressione russa in Ucraina ai progetti del Terzo Reich con un aumento degli attacchi informatici, ma il numero di incidenti cyber datati non cambia (round 1).",
+        "riferimento": "[Round 1] RUS"
+      },
+      {
+        "osservazione": "- La Cina rafforza la cooperazione cibernetica con la Russia in risposta alla proposta russa. Tuttavia, i dati della KB mostrano che il numero di incidenti cyber datati è diminuito da 2 a 0 (round 4).",
+        "riferimento": "[Round 4] CHN"
+      },
+      {
+        "osservazione": "- La Cina e la Russia annunciano un patto cibernetico, ma i dati della KB non mostrano una significativa storia di incidenti cyber tra loro.",
+        "riferimento": "[Round 5], [round 6-9]"
+      },
+      {
+        "osservazione": "CHN: L'accordo menzionato non sembra essere presente nella KB e il numero degli incidenti cyber è stato aumentato senza una ragione evidente dalla knowledge base. Inoltre, la Cina estende l'invito al Brasile per la cooperazione in materia di difesa cibernetica nonostante questo aspetto non sia supportato dai dati.",
+        "riferimento": "[round 10] CHN"
+      },
+      {
+        "osservazione": "USA: La risposta degli Stati Uniti all'aumento delle misure difensive cinesi sembra appropriata, ma il numero dei gruppi cyber citati nella KB è stato erroneamente riportato come '75'.",
+        "riferimento": "[round 10] USA (prima azione)"
+      },
+      {
+        "osservazione": "RUS: La Russia risponde all'attacco informatico degli Stati Uniti con un contro-attacco, ma non ci sono evidenze di tale attacco nella KB. Inoltre, il numero dei gruppi cyber è stato erroneamente riportato come '35'.",
+        "riferimento": "[round 10] RUS (prima azione)"
+      },
+      {
+        "osservazione": "'conoscenza_generale' viene utilizzato in modo inappropriato per giustificare alcune azioni che non sembrano essere supportate dai dati generali della KB.",
+        "riferimento": ""
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 177,
+    "grounded": 108,
+    "non_ancorate": 33,
+    "irregolari": 36,
+    "multi_tag": 23,
+    "perc_grounded": 61.0,
+    "perc_irregolari": 20.3,
+    "distribuzione": {
+      "evento": 68,
+      "traiettoria": 7,
+      "conoscenza_generale": 33,
+      "relazioni": 21,
+      "conflitto": 16,
+      "cyber": 9,
+      "contesto_generale": 5
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 30,
+      "cooperazione": 3,
+      "azione_su_arco": 3,
+      "reazione_breve": 1
+    }
+  }
+}

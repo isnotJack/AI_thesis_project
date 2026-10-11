@@ -1,0 +1,83 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22350,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 59,
+      "token_stimati": 22350,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 100.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 19,
+      "token_stimati": 8711,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 72.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 69.7,
+    "fedelta_grounding": 91.5,
+    "motivazione": "[round 1-10] La simulazione mostra una coesione generale con i dati della KB. Le reazioni e le azioni dei Paesi sono generalmente allineate ai numeri forniti nella knowledge base (ad esempio il numero di eventi violenti o vittime), al ruolo cyber degli Stati coinvolti ed alle relazioni geopolitiche esistenti, come la cooperazione tra USA-ISR contro IRN. [round 10-10] La simulazione mostra una certa coerenza con la knowledge base fornita. Tuttavia, ci sono alcuni casi in cui le reazioni e gli aggiornamenti di stato non sembrano pienamente allineati ai dati della KB o alle relazioni tra i paesi coinvolti.",
+    "evidenze": [
+      {
+        "osservazione": "Le reazioni e le azioni dei Paesi sono generalmente allineate ai numeri forniti nella knowledge base (ad esempio il numero di eventi violenti o vittime).",
+        "riferimento": "[round 1] IRN"
+      },
+      {
+        "osservazione": "La simulazione rispecchia la cooperazione tra USA-ISR contro l'Iran, in linea con le relazioni geopolitiche esistenti.",
+        "riferimento": "[round 3] ISR; [round 4] ISA e così via."
+      },
+      {
+        "osservazione": "La reazione dell'Iran al round 10 sembra esagerata, considerando che Israele ha intensificato le sue operazioni difensive e offensive in risposta agli attacchi iraniani. Questo potrebbe portare a un'escalation non proporzionata del conflitto.",
+        "riferimento": "[round 9] IRN"
+      },
+      {
+        "osservazione": "La reazione della Siria al round 10, che include il rafforzamento delle difese e la cooperazione con l'Iran in risposta alle operazioni israeliane, è coerente ma potrebbe portare a un ulteriore deterioramento dei rapporti tra i paesi coinvolti.",
+        "riferimento": "[round 9] SYR"
+      },
+      {
+        "osservazione": "La reazione degli Stati Uniti al round 10 sembra proporzionata e in linea con la KB. Tuttavia, l'intensificazione delle operazioni difensive potrebbe non essere sufficiente a contrastare le minacce cyber iraniane.",
+        "riferimento": "[round 9] USA"
+      },
+      {
+        "osservazione": "Israele risponde all'attacco cibernetico dell'Iran in modo appropriato e coerente con la KB, rafforzando sia l'offensiva che la difesa. Tuttavia, il tag 'base_kb=relazioni', utilizzato per giustificare alcune azioni di cooperazione non è del tutto preciso.",
+        "riferimento": "[round 9] ISR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 240,
+    "grounded": 240,
+    "non_ancorate": 0,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 100.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 206,
+      "relazioni": 25,
+      "cyber": 8,
+      "conflitto": 1
+    },
+    "distribuzione_irregolari": {}
+  }
+}

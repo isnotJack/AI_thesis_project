@@ -3,29 +3,40 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 2896,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 4,
+      "risposte": 4,
+      "token_stimati": 2896,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 50.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 75.0,
-    "coerenza_kb": 80.0,
+    "punteggio": 65.0,
+    "coerenza_kb": 70.0,
     "plausibilita": 80.0,
-    "fedelta_grounding": 60.0,
-    "motivazione": "La coerenza con la knowledge base è buona, con reazioni e azioni che riflettono in gran parte i dati forniti. La plausibilità della catena di eventi è soddisfacente, mostrando una progressione logica delle relazioni tra i paesi. Tuttavia, ci sono alcune imprecisioni nel grounding, dove l'agente non sempre fa riferimento alla KB corretta o ignora informazioni rilevanti.",
+    "fedelta_grounding": 50.0,
+    "motivazione": "La coerenza con la knowledge base è buona, con reazioni e azioni che riflettono in gran parte il contesto fornito. La plausibilità della catena di eventi è soddisfacente, mostrando una progressione logica delle relazioni tra i paesi. Tuttavia, ci sono alcune imprecisioni nella fedeltà al grounding, con alcuni riferimenti alla 'conoscenza generale' dove dati specifici erano disponibili.",
     "evidenze": [
       {
-        "osservazione": "La Russia risponde con fermezza alle dichiarazioni italiane, che è coerente con il contesto generale e la situazione di conflitto.",
+        "osservazione": "Reazioni appropriate al contesto del conflitto russo-ucraino",
         "riferimento": "round 1/RUS"
       },
       {
-        "osservazione": "L'invito a una riunione di chiarimento suggerisce un tentativo di migliorare le relazioni, in linea con l'obiettivo di cooperazione.",
+        "osservazione": "Accenno a precedenti interazioni tra Italia e Russia",
         "riferimento": "round 2/ITA"
       },
       {
-        "osservazione": "La proposta di accordo per affrontare le sfide migratorie è coerente con il ruolo della Russia come attore cyber e la sua interazione con l'Italia.",
-        "riferimento": "round 3/RUS"
-      },
-      {
-        "osservazione": "'conoscenza_generale' viene utilizzato quando ci sono dati specifici nella KB che potrebbero supportare la scelta, indicando una mancanza di accuratezza nel grounding.",
-        "riferimento": "round 1/RUS, round 2/ITA"
+        "osservazione": "'Conoscenza generale' usata quando dati specifici erano presenti nella KB",
+        "riferimento": "round 2/ITA, round 3/RUS"
       }
     ]
   },

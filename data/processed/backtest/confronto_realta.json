@@ -63,16 +63,6 @@
               "min": 70,
               "max": 109
             },
-            "punteggio_giudice_realta": {
-              "media": 53.0,
-              "min": 50.0,
-              "max": 54.5
-            },
-            "punteggio_giudice_verificato": {
-              "media": 18.167,
-              "min": 0.0,
-              "max": 31.8
-            },
             "ancoraggio": {
               "media": 0.663,
               "min": 0.585,
@@ -134,50 +124,170 @@
               "A12": 0,
               "A13": 0
             },
-            "copertura_giudice": {
-              "F1": {
-                "presente": 3,
-                "parziale": 0
+            "giudici": {
+              "command-r": {
+                "n": 3,
+                "punteggio": {
+                  "media": 30.3,
+                  "min": 9.1,
+                  "max": 54.5
+                },
+                "verificato": {
+                  "media": 30.3,
+                  "min": 9.1,
+                  "max": 54.5
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 2,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 1,
+                    "parziale": 0,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 1,
+                    "parziale": 0,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F5": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F6": {
+                    "presente": 0,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F7": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 1
+                  },
+                  "F8": {
+                    "presente": 1,
+                    "parziale": 1,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 1
+                  },
+                  "F9": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 2
+                  },
+                  "F10": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F11": {
+                    "presente": 0,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  }
+                }
               },
-              "F2": {
-                "presente": 1,
-                "parziale": 1
-              },
-              "F3": {
-                "presente": 2,
-                "parziale": 1
-              },
-              "F4": {
-                "presente": 0,
-                "parziale": 0
-              },
-              "F5": {
-                "presente": 1,
-                "parziale": 2
-              },
-              "F6": {
-                "presente": 0,
-                "parziale": 0
-              },
-              "F7": {
-                "presente": 2,
-                "parziale": 1
-              },
-              "F8": {
-                "presente": 1,
-                "parziale": 1
-              },
-              "F9": {
-                "presente": 2,
-                "parziale": 1
-              },
-              "F10": {
-                "presente": 0,
-                "parziale": 1
-              },
-              "F11": {
-                "presente": 1,
-                "parziale": 1
+              "command-r-plus": {
+                "n": 3,
+                "punteggio": {
+                  "media": 68.167,
+                  "min": 63.6,
+                  "max": 77.3
+                },
+                "verificato": {
+                  "media": 43.933,
+                  "min": 31.8,
+                  "max": 50.0
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 1,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 1,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 3
+                  },
+                  "F5": {
+                    "presente": 1,
+                    "parziale": 2,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 1
+                  },
+                  "F6": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F7": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F8": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F9": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F10": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F11": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 3
+                  }
+                }
               }
             }
           },
@@ -521,22 +631,70 @@
               "round": 10,
               "durata_s": 2983.1,
               "seed": 1,
-              "punteggio_giudice_realta": 54.5,
-              "punteggio_giudice_verificato": 0.0,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "assente",
-                "F3": "presente",
-                "F4": "assente",
-                "F5": "presente",
-                "F6": "assente",
-                "F7": "presente",
-                "F8": "assente",
-                "F9": "presente",
-                "F10": "assente",
-                "F11": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 27.3,
+                  "verificato": 27.3,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "assente",
+                    "F3": "assente",
+                    "F4": "assente",
+                    "F5": "assente",
+                    "F6": "assente",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "assente",
+                    "F10": "assente",
+                    "F11": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": null,
+                    "F5": null,
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": null,
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 63.6,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "parziale",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "parziale",
+                    "F5": "parziale",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": "assente",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": null,
+                    "F2": "presente",
+                    "F3": null,
+                    "F4": "parziale",
+                    "F5": "parziale",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": null,
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                }
               },
-              "fatti_giudice_verificati": {},
               "test": "test4_backtest_r1"
             },
             {
@@ -741,27 +899,69 @@
               "round": 10,
               "durata_s": 1833.8,
               "seed": 2,
-              "punteggio_giudice_realta": 50.0,
-              "punteggio_giudice_verificato": 31.8,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "parziale",
-                "F4": "assente",
-                "F5": "parziale",
-                "F6": "assente",
-                "F7": "parziale",
-                "F8": "presente",
-                "F9": "parziale",
-                "F10": "assente",
-                "F11": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F5": "parziale",
-                "F8": "presente",
-                "F9": "parziale",
-                "F11": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 54.5,
+                  "verificato": 54.5,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "assente",
+                    "F5": "parziale",
+                    "F6": "assente",
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": "parziale",
+                    "F11": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": null,
+                    "F5": "parziale",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": "parziale",
+                    "F11": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 77.3,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "parziale",
+                    "F5": "presente",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "presente",
+                    "F10": "parziale",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": null,
+                    "F2": "presente",
+                    "F3": null,
+                    "F4": "parziale",
+                    "F5": "presente",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": null,
+                    "F9": "presente",
+                    "F10": "parziale",
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r2"
             },
@@ -973,25 +1173,69 @@
               "round": 10,
               "durata_s": 1777.6,
               "seed": 3,
-              "punteggio_giudice_realta": 54.5,
-              "punteggio_giudice_verificato": 22.7,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "parziale",
-                "F3": "presente",
-                "F4": "assente",
-                "F5": "parziale",
-                "F6": "assente",
-                "F7": "presente",
-                "F8": "parziale",
-                "F9": "presente",
-                "F10": "parziale",
-                "F11": "assente"
-              },
-              "fatti_giudice_verificati": {
-                "F3": "presente",
-                "F9": "presente",
-                "F10": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 9.1,
+                  "verificato": 9.1,
+                  "fatti": {
+                    "F1": "assente",
+                    "F2": "assente",
+                    "F3": "assente",
+                    "F4": "assente",
+                    "F5": "assente",
+                    "F6": "assente",
+                    "F7": "parziale",
+                    "F8": "assente",
+                    "F9": "parziale",
+                    "F10": "assente",
+                    "F11": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": null,
+                    "F2": null,
+                    "F3": null,
+                    "F4": null,
+                    "F5": null,
+                    "F6": null,
+                    "F7": "parziale",
+                    "F8": null,
+                    "F9": "parziale",
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 63.6,
+                  "verificato": 31.8,
+                  "fatti": {
+                    "F1": "parziale",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "parziale",
+                    "F5": "parziale",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": "assente",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": null,
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "parziale",
+                    "F5": null,
+                    "F6": null,
+                    "F7": null,
+                    "F8": "presente",
+                    "F9": null,
+                    "F10": null,
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r3"
             }
@@ -1049,16 +1293,6 @@
               "media": 163,
               "min": 102,
               "max": 224
-            },
-            "punteggio_giudice_realta": {
-              "media": 42.433,
-              "min": 27.3,
-              "max": 54.5
-            },
-            "punteggio_giudice_verificato": {
-              "media": 18.2,
-              "min": 9.1,
-              "max": 36.4
             },
             "ancoraggio": {
               "media": 0.645,
@@ -1121,50 +1355,170 @@
               "A12": 1,
               "A13": 1
             },
-            "copertura_giudice": {
-              "F1": {
-                "presente": 1,
-                "parziale": 0
+            "giudici": {
+              "command-r": {
+                "n": 3,
+                "punteggio": {
+                  "media": 34.867,
+                  "min": 9.1,
+                  "max": 50.0
+                },
+                "verificato": {
+                  "media": 31.833,
+                  "min": 9.1,
+                  "max": 50.0
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 2,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 2
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F5": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F6": {
+                    "presente": 0,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F7": {
+                    "presente": 2,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F8": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 2
+                  },
+                  "F9": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 2
+                  },
+                  "F10": {
+                    "presente": 0,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F11": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 2
+                  }
+                }
               },
-              "F2": {
-                "presente": 1,
-                "parziale": 2
-              },
-              "F3": {
-                "presente": 0,
-                "parziale": 3
-              },
-              "F4": {
-                "presente": 0,
-                "parziale": 2
-              },
-              "F5": {
-                "presente": 0,
-                "parziale": 1
-              },
-              "F6": {
-                "presente": 0,
-                "parziale": 3
-              },
-              "F7": {
-                "presente": 1,
-                "parziale": 2
-              },
-              "F8": {
-                "presente": 1,
-                "parziale": 1
-              },
-              "F9": {
-                "presente": 0,
-                "parziale": 3
-              },
-              "F10": {
-                "presente": 0,
-                "parziale": 2
-              },
-              "F11": {
-                "presente": 0,
-                "parziale": 1
+              "command-r-plus": {
+                "n": 3,
+                "punteggio": {
+                  "media": 66.633,
+                  "min": 54.5,
+                  "max": 72.7
+                },
+                "verificato": {
+                  "media": 50.0,
+                  "min": 40.9,
+                  "max": 59.1
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 1
+                  },
+                  "F3": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 3
+                  },
+                  "F5": {
+                    "presente": 1,
+                    "parziale": 1,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 1
+                  },
+                  "F6": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F7": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F8": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F9": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 1
+                  },
+                  "F10": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F11": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 2
+                  }
+                }
               }
             }
           },
@@ -1771,24 +2125,69 @@
               "round": 10,
               "durata_s": 5617.1,
               "seed": 1,
-              "punteggio_giudice_realta": 27.3,
-              "punteggio_giudice_verificato": 9.1,
-              "fatti_giudice": {
-                "F1": "assente",
-                "F2": "parziale",
-                "F3": "parziale",
-                "F4": "parziale",
-                "F5": "assente",
-                "F6": "parziale",
-                "F7": "parziale",
-                "F8": "assente",
-                "F9": "parziale",
-                "F10": null,
-                "F11": null
-              },
-              "fatti_giudice_verificati": {
-                "F3": "parziale",
-                "F7": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 45.5,
+                  "verificato": 36.4,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "assente",
+                    "F5": "assente",
+                    "F6": "assente",
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": "assente",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": null,
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": null,
+                    "F5": null,
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": null,
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 72.7,
+                  "verificato": 59.1,
+                  "fatti": {
+                    "F1": "parziale",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "parziale",
+                    "F5": "presente",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": "parziale",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": null,
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "parziale",
+                    "F5": "presente",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": null,
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r1"
             },
@@ -2254,24 +2653,69 @@
               "round": 10,
               "durata_s": 4504.7,
               "seed": 2,
-              "punteggio_giudice_realta": 45.5,
-              "punteggio_giudice_verificato": 9.1,
-              "fatti_giudice": {
-                "F1": "assente",
-                "F2": "parziale",
-                "F3": "parziale",
-                "F4": "parziale",
-                "F5": "parziale",
-                "F6": "parziale",
-                "F7": "parziale",
-                "F8": "parziale",
-                "F9": "parziale",
-                "F10": "parziale",
-                "F11": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F3": "parziale",
-                "F9": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 50.0,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "assente",
+                    "F5": "parziale",
+                    "F6": "assente",
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": "assente",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": null,
+                    "F5": "parziale",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": null,
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 72.7,
+                  "verificato": 40.9,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "parziale",
+                    "F5": "parziale",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": "parziale",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": null,
+                    "F4": "parziale",
+                    "F5": "parziale",
+                    "F6": null,
+                    "F7": null,
+                    "F8": "presente",
+                    "F9": "parziale",
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r2"
             },
@@ -2664,27 +3108,69 @@
               "round": 10,
               "durata_s": 2576.0,
               "seed": 3,
-              "punteggio_giudice_realta": 54.5,
-              "punteggio_giudice_verificato": 36.4,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "parziale",
-                "F4": "assente",
-                "F5": "assente",
-                "F6": "parziale",
-                "F7": "presente",
-                "F8": "presente",
-                "F9": "parziale",
-                "F10": "parziale",
-                "F11": "assente"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "parziale",
-                "F8": "presente",
-                "F10": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 9.1,
+                  "verificato": 9.1,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "assente",
+                    "F3": "assente",
+                    "F4": "assente",
+                    "F5": "assente",
+                    "F6": "assente",
+                    "F7": "assente",
+                    "F8": "assente",
+                    "F9": "assente",
+                    "F10": "assente",
+                    "F11": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": null,
+                    "F5": null,
+                    "F6": null,
+                    "F7": null,
+                    "F8": null,
+                    "F9": null,
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 54.5,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "assente",
+                    "F4": "parziale",
+                    "F5": "assente",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": "assente",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": null,
+                    "F4": "parziale",
+                    "F5": null,
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": null,
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r3"
             }
@@ -2742,16 +3228,6 @@
               "media": 46.333,
               "min": 31,
               "max": 64
-            },
-            "punteggio_giudice_realta": {
-              "media": 57.567,
-              "min": 54.5,
-              "max": 59.1
-            },
-            "punteggio_giudice_verificato": {
-              "media": 39.433,
-              "min": 36.4,
-              "max": 45.5
             },
             "ancoraggio": {
               "media": 0.998,
@@ -2814,50 +3290,170 @@
               "A12": 0,
               "A13": 0
             },
-            "copertura_giudice": {
-              "F1": {
-                "presente": 3,
-                "parziale": 0
+            "giudici": {
+              "command-r": {
+                "n": 3,
+                "punteggio": {
+                  "media": 53.033,
+                  "min": 45.5,
+                  "max": 59.1
+                },
+                "verificato": {
+                  "media": 42.433,
+                  "min": 27.3,
+                  "max": 50.0
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F5": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 2
+                  },
+                  "F6": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F7": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 1
+                  },
+                  "F8": {
+                    "presente": 1,
+                    "parziale": 2,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 1
+                  },
+                  "F9": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F10": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F11": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  }
+                }
               },
-              "F2": {
-                "presente": 3,
-                "parziale": 0
-              },
-              "F3": {
-                "presente": 2,
-                "parziale": 1
-              },
-              "F4": {
-                "presente": 0,
-                "parziale": 0
-              },
-              "F5": {
-                "presente": 0,
-                "parziale": 3
-              },
-              "F6": {
-                "presente": 0,
-                "parziale": 0
-              },
-              "F7": {
-                "presente": 3,
-                "parziale": 0
-              },
-              "F8": {
-                "presente": 0,
-                "parziale": 3
-              },
-              "F9": {
-                "presente": 2,
-                "parziale": 1
-              },
-              "F10": {
-                "presente": 0,
-                "parziale": 3
-              },
-              "F11": {
-                "presente": 0,
-                "parziale": 1
+              "command-r-plus": {
+                "n": 3,
+                "punteggio": {
+                  "media": 60.633,
+                  "min": 45.5,
+                  "max": 68.2
+                },
+                "verificato": {
+                  "media": 30.3,
+                  "min": 18.2,
+                  "max": 40.9
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F3": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F5": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  },
+                  "F6": {
+                    "presente": 1,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F7": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F8": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 1
+                  },
+                  "F9": {
+                    "presente": 2,
+                    "parziale": 0,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F10": {
+                    "presente": 0,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F11": {
+                    "presente": 0,
+                    "parziale": 1,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  }
+                }
               }
             }
           },
@@ -2994,28 +3590,69 @@
               "round": 10,
               "durata_s": 2555.8,
               "seed": 1,
-              "punteggio_giudice_realta": 59.1,
-              "punteggio_giudice_verificato": 45.5,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "presente",
-                "F4": "assente",
-                "F5": "parziale",
-                "F6": "assente",
-                "F7": "presente",
-                "F8": "parziale",
-                "F9": "presente",
-                "F10": "parziale",
-                "F11": "assente"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "presente",
-                "F5": "parziale",
-                "F7": "presente",
-                "F8": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 45.5,
+                  "verificato": 27.3,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "assente",
+                    "F5": "assente",
+                    "F6": "assente",
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": "assente",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": null,
+                    "F4": null,
+                    "F5": null,
+                    "F6": null,
+                    "F7": "parziale",
+                    "F8": null,
+                    "F9": null,
+                    "F10": null,
+                    "F11": "parziale"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 45.5,
+                  "verificato": 18.2,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale",
+                    "F5": "assente",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": null,
+                    "F10": "assente",
+                    "F11": null
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": "parziale",
+                    "F5": null,
+                    "F6": null,
+                    "F7": null,
+                    "F8": "parziale",
+                    "F9": null,
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r1"
             },
@@ -3135,27 +3772,69 @@
               "round": 10,
               "durata_s": 1895.0,
               "seed": 2,
-              "punteggio_giudice_realta": 59.1,
-              "punteggio_giudice_verificato": 36.4,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "presente",
-                "F4": "assente",
-                "F5": "parziale",
-                "F6": "assente",
-                "F7": "presente",
-                "F8": "parziale",
-                "F9": "presente",
-                "F10": "parziale",
-                "F11": "assente"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "presente",
-                "F5": "parziale",
-                "F10": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 59.1,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "assente",
+                    "F5": "parziale",
+                    "F6": "parziale",
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": "parziale",
+                    "F10": "parziale",
+                    "F11": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": null,
+                    "F5": "parziale",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "parziale",
+                    "F9": null,
+                    "F10": "parziale",
+                    "F11": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 68.2,
+                  "verificato": 31.8,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale",
+                    "F5": "parziale",
+                    "F6": "assente",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": "parziale",
+                    "F11": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": null,
+                    "F5": null,
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": null,
+                    "F9": null,
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r2"
             },
@@ -3283,28 +3962,69 @@
               "round": 10,
               "durata_s": 1909.1,
               "seed": 3,
-              "punteggio_giudice_realta": 54.5,
-              "punteggio_giudice_verificato": 36.4,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "parziale",
-                "F4": "assente",
-                "F5": "parziale",
-                "F6": "assente",
-                "F7": "presente",
-                "F8": "parziale",
-                "F9": "parziale",
-                "F10": "parziale",
-                "F11": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "parziale",
-                "F5": "parziale",
-                "F10": "parziale",
-                "F11": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 54.5,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "assente",
+                    "F5": "parziale",
+                    "F6": "assente",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "parziale",
+                    "F10": "assente",
+                    "F11": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": null,
+                    "F5": "parziale",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": null,
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 68.2,
+                  "verificato": 40.9,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "assente",
+                    "F5": "parziale",
+                    "F6": "presente",
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": "presente",
+                    "F10": "parziale",
+                    "F11": null
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": "presente",
+                    "F4": null,
+                    "F5": "parziale",
+                    "F6": null,
+                    "F7": "presente",
+                    "F8": "presente",
+                    "F9": null,
+                    "F10": null,
+                    "F11": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r3"
             }
@@ -3424,16 +4144,6 @@
               "min": 2,
               "max": 71
             },
-            "punteggio_giudice_realta": {
-              "media": 70.833,
-              "min": 50.0,
-              "max": 100.0
-            },
-            "punteggio_giudice_verificato": {
-              "media": 50.0,
-              "min": 25.0,
-              "max": 100.0
-            },
             "ancoraggio": {
               "media": 0.721,
               "min": 0.667,
@@ -3471,22 +4181,86 @@
             "copertura_fatti_estesa": {
               "B1": 3
             },
-            "copertura_giudice": {
-              "F1": {
-                "presente": 3,
-                "parziale": 0
+            "giudici": {
+              "command-r": {
+                "n": 3,
+                "punteggio": {
+                  "media": 70.833,
+                  "min": 50.0,
+                  "max": 100.0
+                },
+                "verificato": {
+                  "media": 50.0,
+                  "min": 25.0,
+                  "max": 100.0
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 1,
+                    "parziale": 0,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 1,
+                    "parziale": 1,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  }
+                }
               },
-              "F2": {
-                "presente": 1,
-                "parziale": 0
-              },
-              "F3": {
-                "presente": 3,
-                "parziale": 0
-              },
-              "F4": {
-                "presente": 1,
-                "parziale": 1
+              "command-r-plus": {
+                "n": 3,
+                "punteggio": {
+                  "media": 75.0,
+                  "min": 50.0,
+                  "max": 100.0
+                },
+                "verificato": {
+                  "media": 50.0,
+                  "min": 25.0,
+                  "max": 100.0
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 1,
+                    "parziale": 1,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  }
+                }
               }
             }
           },
@@ -3541,16 +4315,41 @@
               "round": 3,
               "durata_s": 45.8,
               "seed": 1,
-              "punteggio_giudice_realta": 50.0,
-              "punteggio_giudice_verificato": 25.0,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "assente",
-                "F3": "presente",
-                "F4": "assente"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 50.0,
+                  "verificato": 25.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "assente",
+                    "F3": "presente",
+                    "F4": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 75.0,
+                  "verificato": 25.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r1"
             },
@@ -3607,16 +4406,41 @@
               "round": 4,
               "durata_s": 114.3,
               "seed": 2,
-              "punteggio_giudice_realta": 62.5,
-              "punteggio_giudice_verificato": 25.0,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "assente",
-                "F3": "presente",
-                "F4": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 62.5,
+                  "verificato": 25.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "assente",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 50.0,
+                  "verificato": 25.0,
+                  "fatti": {
+                    "F1": "parziale",
+                    "F2": "presente",
+                    "F3": "parziale",
+                    "F4": "assente"
+                  },
+                  "fatti_verificati": {
+                    "F1": null,
+                    "F2": "presente",
+                    "F3": null,
+                    "F4": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r2"
             },
@@ -3827,19 +4651,41 @@
               "round": 10,
               "durata_s": 1833.1,
               "seed": 3,
-              "punteggio_giudice_realta": 100.0,
-              "punteggio_giudice_verificato": 100.0,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "presente",
-                "F4": "presente"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "presente",
-                "F4": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 100.0,
+                  "verificato": 100.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 100.0,
+                  "verificato": 100.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r3"
             }
@@ -3898,16 +4744,6 @@
               "min": 33,
               "max": 98
             },
-            "punteggio_giudice_realta": {
-              "media": 83.333,
-              "min": 75.0,
-              "max": 100.0
-            },
-            "punteggio_giudice_verificato": {
-              "media": 45.833,
-              "min": 25.0,
-              "max": 62.5
-            },
             "ancoraggio": {
               "media": 0.59,
               "min": 0.569,
@@ -3945,22 +4781,86 @@
             "copertura_fatti_estesa": {
               "B1": 2
             },
-            "copertura_giudice": {
-              "F1": {
-                "presente": 3,
-                "parziale": 0
+            "giudici": {
+              "command-r": {
+                "n": 3,
+                "punteggio": {
+                  "media": 79.167,
+                  "min": 75.0,
+                  "max": 87.5
+                },
+                "verificato": {
+                  "media": 70.833,
+                  "min": 62.5,
+                  "max": 87.5
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 1,
+                    "parziale": 2,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 2
+                  },
+                  "F3": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  }
+                }
               },
-              "F2": {
-                "presente": 1,
-                "parziale": 2
-              },
-              "F3": {
-                "presente": 3,
-                "parziale": 0
-              },
-              "F4": {
-                "presente": 1,
-                "parziale": 2
+              "command-r-plus": {
+                "n": 3,
+                "punteggio": {
+                  "media": 83.333,
+                  "min": 75.0,
+                  "max": 100.0
+                },
+                "verificato": {
+                  "media": 62.5,
+                  "min": 50.0,
+                  "max": 87.5
+                },
+                "errori": 1,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 1,
+                    "parziale": 2,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 1,
+                    "parziale": 2,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 1
+                  }
+                }
               }
             }
           },
@@ -4310,16 +5210,41 @@
               "round": 10,
               "durata_s": 2467.1,
               "seed": 1,
-              "punteggio_giudice_realta": 100.0,
-              "punteggio_giudice_verificato": 25.0,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "presente",
-                "F3": "presente",
-                "F4": "presente"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 87.5,
+                  "verificato": 87.5,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 100.0,
+                  "verificato": 87.5,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "presente",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r1"
             },
@@ -4586,17 +5511,41 @@
               "round": 10,
               "durata_s": 1571.7,
               "seed": 2,
-              "punteggio_giudice_realta": 75.0,
-              "punteggio_giudice_verificato": 50.0,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "parziale",
-                "F3": "presente",
-                "F4": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F3": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 75.0,
+                  "verificato": 62.5,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 75.0,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": "presente",
+                    "F4": null
+                  },
+                  "errore": "1 blocchi su 2: risposta del giudice non interpretabile"
+                }
               },
               "test": "test4_backtest_r2"
             },
@@ -4807,18 +5756,41 @@
               "round": 10,
               "durata_s": 830.3,
               "seed": 3,
-              "punteggio_giudice_realta": 75.0,
-              "punteggio_giudice_verificato": 62.5,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "parziale",
-                "F3": "presente",
-                "F4": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F2": "parziale",
-                "F3": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 75.0,
+                  "verificato": 62.5,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": null
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 75.0,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": "presente",
+                    "F4": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r3"
             }
@@ -4873,16 +5845,6 @@
               "min": 7,
               "max": 10
             },
-            "punteggio_giudice_realta": {
-              "media": 79.167,
-              "min": 75.0,
-              "max": 87.5
-            },
-            "punteggio_giudice_verificato": {
-              "media": 50.0,
-              "min": 37.5,
-              "max": 75.0
-            },
             "ancoraggio": {
               "media": 1.0,
               "min": 1.0,
@@ -4920,22 +5882,86 @@
             "copertura_fatti_estesa": {
               "B1": 0
             },
-            "copertura_giudice": {
-              "F1": {
-                "presente": 3,
-                "parziale": 0
+            "giudici": {
+              "command-r": {
+                "n": 3,
+                "punteggio": {
+                  "media": 83.333,
+                  "min": 75.0,
+                  "max": 87.5
+                },
+                "verificato": {
+                  "media": 54.167,
+                  "min": 37.5,
+                  "max": 75.0
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 1,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 2,
+                    "parziale": 1,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 1
+                  }
+                }
               },
-              "F2": {
-                "presente": 0,
-                "parziale": 3
-              },
-              "F3": {
-                "presente": 3,
-                "parziale": 0
-              },
-              "F4": {
-                "presente": 1,
-                "parziale": 2
+              "command-r-plus": {
+                "n": 3,
+                "punteggio": {
+                  "media": 75.0,
+                  "min": 75.0,
+                  "max": 75.0
+                },
+                "verificato": {
+                  "media": 41.667,
+                  "min": 25.0,
+                  "max": 50.0
+                },
+                "errori": 0,
+                "copertura": {
+                  "F1": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 3,
+                    "parziale_verificati": 0
+                  },
+                  "F2": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  },
+                  "F3": {
+                    "presente": 3,
+                    "parziale": 0,
+                    "presente_verificati": 2,
+                    "parziale_verificati": 0
+                  },
+                  "F4": {
+                    "presente": 0,
+                    "parziale": 3,
+                    "presente_verificati": 0,
+                    "parziale_verificati": 0
+                  }
+                }
               }
             }
           },
@@ -4992,17 +6018,41 @@
               "round": 10,
               "durata_s": 199.4,
               "seed": 1,
-              "punteggio_giudice_realta": 75.0,
-              "punteggio_giudice_verificato": 37.5,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "parziale",
-                "F3": "presente",
-                "F4": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F4": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 87.5,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": "presente"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 75.0,
+                  "verificato": 25.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r1"
             },
@@ -5064,18 +6114,41 @@
               "round": 10,
               "durata_s": 207.5,
               "seed": 2,
-              "punteggio_giudice_realta": 87.5,
-              "punteggio_giudice_verificato": 75.0,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "parziale",
-                "F3": "presente",
-                "F4": "presente"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F3": "presente",
-                "F4": "presente"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 87.5,
+                  "verificato": 75.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": "presente",
+                    "F4": "presente"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 75.0,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": "presente",
+                    "F4": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r2"
             },
@@ -5125,17 +6198,41 @@
               "round": 10,
               "durata_s": 207.4,
               "seed": 3,
-              "punteggio_giudice_realta": 75.0,
-              "punteggio_giudice_verificato": 37.5,
-              "fatti_giudice": {
-                "F1": "presente",
-                "F2": "parziale",
-                "F3": "presente",
-                "F4": "parziale"
-              },
-              "fatti_giudice_verificati": {
-                "F1": "presente",
-                "F4": "parziale"
+              "giudici": {
+                "command-r": {
+                  "punteggio": 75.0,
+                  "verificato": 37.5,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": null,
+                    "F4": "parziale"
+                  },
+                  "errore": null
+                },
+                "command-r-plus": {
+                  "punteggio": 75.0,
+                  "verificato": 50.0,
+                  "fatti": {
+                    "F1": "presente",
+                    "F2": "parziale",
+                    "F3": "presente",
+                    "F4": "parziale"
+                  },
+                  "fatti_verificati": {
+                    "F1": "presente",
+                    "F2": null,
+                    "F3": "presente",
+                    "F4": null
+                  },
+                  "errore": null
+                }
               },
               "test": "test4_backtest_r3"
             }

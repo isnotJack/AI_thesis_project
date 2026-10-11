@@ -1,0 +1,145 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 21259,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 52,
+      "token_stimati": 21259
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 22,
+      "token_stimati": 10468
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 3, RUS: La Russia condanna le dichiarazioni del Presidente italiano e avverte che non resteranno senza conseguenze.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 3, RUS: La Russia condanna le dichiarazioni del Presidente italiano e avverte che non resteranno senza conseguenze."
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "presente",
+      "evidenza": "round 10, RUS: La Russia lancia un attacco informatico contro infrastrutture statunitensi in risposta alle recenti sanzioni; round 10, USA: Gli Stati Uniti lanciano un contrattacco cibernetico contro la Russia",
+      "verificata": true,
+      "blocco": 2,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 10, RUS: La Russia lancia un attacco informatico contro infrastrutture statunitensi in risposta alle recenti sanzioni; round 10, USA: Gli Stati Uniti lanciano un contrattacco cibernetico contro la Russia"
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 4, ITA: L'Italia condanna l'attacco informatico russo e annuncia il rafforzamento delle misure di sicurezza cibernetica.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 4, ITA: L'Italia condanna l'attacco informatico russo e annuncia il rafforzamento delle misure di sicurezza cibernetica."
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "presente",
+      "evidenza": "round 10, ITA: L'Italia decide di rafforzare le proprie difese informatiche e collaborare con altri paesi per contrastare minacce cyber; round 10, USA-UKR: Stati Uniti ed Ucraina concordano su un piano di cooperazione",
+      "verificata": true,
+      "blocco": 2,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 10, ITA: L'Italia decide di rafforzare le proprie difese informatiche e collaborare con altri paesi per contrastare minacce cyber; round 10, USA-UKR: Stati Uniti ed Ucraina concordano su un piano di cooperazione"
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia rafforza la sua presenza militare in Ucraina.",
+      "riferimento": "round 1, RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Italia lancia un contrattacco informatico contro siti web russi e riduce i flussi migratori verso la Russia",
+      "riferimento": [
+        {
+          "paese_da": "ITA",
+          "paese_a": "RUS"
+        }
+      ],
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Ucraina accusa la Russia dell'attacco informatico e minaccia ritorsioni, ma non lancia un contrattacco contro le infrastrutture russe.",
+      "riferimento": [
+        {
+          "paese_da": "CHN",
+          "paese_a": [
+            "USA"
+          ]
+        }
+      ],
+      "blocco": 1
+    },
+    {
+      "riferimento": [
+        {
+          "paese": "UKR"
+        }
+      ],
+      "descrizione": "La Francia collabora con gli Stati Uniti per migliorare la sicurezza cibernetica congiunta.",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Ucraina aumenta il proprio sostegno militare e diplomatico agli USA.",
+      "riferimento": [
+        {
+          "paese_da": [
+            "USA"
+          ],
+          "paese_a": [
+            "UKR"
+          ]
+        }
+      ],
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Russia lancia un attacco informatico contro gli Stati Uniti in risposta alle sanzioni, ma non aumenta la propria presenza militare nel Donbas.",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Azione militare tra Russia e Italia",
+      "riferimento": "[round 1] RUS; ITA",
+      "blocco": 2
+    },
+    {
+      "descrizione": "L'Italia risponde con attacchi informatici contro la Russia.",
+      "riferimento": "",
+      "blocco": 2
+    }
+  ],
+  "motivazione": "[round 1-10] Nella simulazione, i Paesi reagiscono con azioni cyber e diplomatiche all'evento iniziale. La Russia condanna le dichiarazioni del Presidente italiano (F1) e lancia un attacco informatico contro siti web governativi italiani in risposta alle parole del presidente stesso(parziale F2). L'Italia risponde condannando il primo attacco russo, rafforzando la propria sicurezza cibernetica ed eventualmente lanciando contrattacchi cyber verso i russi. La Cina collabora con gli Stati Uniti per migliorare le proprie capacità di difesa informatica e condivide informazioni sulle minacce nel cyberspazio. [round 10-10] La simulazione riflette in modo accurato gli eventi reali, mostrando una risposta diplomatica e cyber da parte dell'Italia. Tuttavia, non menziona esplicitamente le dichiarazioni del governo italiano a sostegno della posizione presidenziale (F3), né fornisce dettagli sulle misure di difesa informatiche adottate dall'Agenzia per la cybersicurezza nazionale italiana.",
+  "conteggi": {
+    "presente": 4,
+    "parziale": 0,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 4,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 100.0,
+  "punteggio_realta_verificato": 100.0
+}

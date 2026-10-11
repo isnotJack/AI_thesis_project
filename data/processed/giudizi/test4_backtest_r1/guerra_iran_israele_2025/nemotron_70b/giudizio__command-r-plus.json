@@ -1,0 +1,169 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 23980,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 5,
+      "round_da": 1,
+      "round_a": 7,
+      "risposte": 46,
+      "token_stimati": 23545,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 2,
+      "n": 5,
+      "round_da": 7,
+      "round_a": 9,
+      "risposte": 45,
+      "token_stimati": 23980,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 76.0,
+      "fedelta_grounding": 100.0
+    },
+    {
+      "k": 3,
+      "n": 5,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 43,
+      "token_stimati": 23657,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 4,
+      "n": 5,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 42,
+      "token_stimati": 23473,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 5,
+      "n": 5,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 3,
+      "token_stimati": 3136,
+      "punteggio": 95.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 100.0,
+      "fedelta_grounding": 85.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 75.4,
+    "coerenza_kb": 80.3,
+    "plausibilita": 73.9,
+    "fedelta_grounding": 57.3,
+    "motivazione": "[round 1-7] La simulazione mostra una certa coerenza con i dati della KB in termini di contesto e relazioni tra paesi. Tuttavia, ci sono alcune discrepanze nei numeri specifici (ad esempio, il numero degli incidenti cyber) che influenzano negativamente la fedeltà al grounding. [round 7-9] La simulazione mostra una buona coerenza con la knowledge base (KB), soprattutto per quanto riguarda i dati numerici e le relazioni tra paesi. Tuttavia, alcuni eventi sembrano essere basati su conoscenze generali piuttosto che sulla KB specifica di questo trimestre. [round 9-10] La simulazione mostra una coesione con la KB di base in termini numerici e di contesto. Tuttavia, i tag 'base_kb' spesso non sono corretti o non supportano le scelte effettuate dagli agenti (ad esempio, l'uso frequente della conoscenza generale). La plausibilità è generalmente buona ma ci sono casi dove gli eventi sembrano forzati per giustificare una reazione. [round 10-10] La simulazione mostra una coerenza moderata con la knowledge base (KB), ma presenta alcune inesattezze e imprecisioni. La fedeltà al grounding è bassa poiché molti eventi sono basati su conoscenze generali o relazioni esistenti piuttosto che sui dati specificati nella KB. [round 10-10] La simulazione presenta un alto livello di coerenza con la knowledge base e una buona fedeltà nel grounding. Tuttavia, ci sono alcune imprecisioni che influenzano i punteggi.",
+    "evidenze": [
+      {
+        "osservazione": "I valori numerici per gli eventi violenti in IRN e SYR non corrispondono esattamente ai dati della KB. Ad esempio, nel round 1 di IRN si parla di un aumento a n_eventi_violenti=55 (da una base iniziale sconosciuta), mentre la KB indica già inizialmente il valore come 45.",
+        "riferimento": "round/Paese: [round 2] SYR"
+      },
+      {
+        "osservazione": "La reazione di CHN nel round 6, in risposta alle accuse USA sugli attacchi informatici mirati verso le infrastrutture militari statunitensi, non è coerente con il ruolo cyber della Cina nella KB. La Cina viene descritta come un attore (cyber:ruolo=attore), ma la sua azione sembra più difensiva che offensiva.",
+        "riferimento": "[round 6] CHN"
+      },
+      {
+        "osservazione": "La reazione di ISR nel round 7, in risposta all'intensificazione della sorveglianza cinese dopo lo scambio di informazioni con la Russia, non è supportata dai dati sulla cooperazione tra i due paesi. La Cina e Israele hanno un peso basso nella relazione (CHN -> ISR:peso=10), il che rende improbabile una reazione così forte.",
+        "riferimento": "[round 7] CHN"
+      },
+      {
+        "osservazione": "La reazione di RUS nel round 6, in risposta alle esercitazioni navali congiunte USA-Israele e all'aumento delle tensioni globali, non è supportata dai dati sulla cooperazione tra Russia e Cina. La relazione ha un peso basso (RUS -> CHN:peso=35), il che rende improbabile una reazione così forte.",
+        "riferimento": "[round 6] RUS"
+      },
+      {
+        "osservazione": "La reazione di USA nel round 7, in risposta all'accordo tra Russia e Cina per contrastare le minacce cyber occidentali, non è supportata dai dati sulla cooperazione. La relazione ha un peso basso (USA -> CHN:peso=5), il che rende improbabile una tale preoccupazione.",
+        "riferimento": "[round 7] USA"
+      },
+      {
+        "osservazione": "La maggior parte delle azioni sono coerenti con la knowledge base (KB), riflettendo accuratamente i dati numerici e le relazioni tra paesi. Ad esempio, l'aumento degli incidenti cyber da 36 a 40 negli USA è in linea con il numero di eventi violenti nel quarto trimestre del 2024.",
+        "riferimento": "[round 8] CHN"
+      },
+      {
+        "osservazione": "Tuttavia, alcune azioni sembrano basarsi su conoscenze generali piuttosto che sulla KB specifica. Ad esempio, l'aumento delle tensioni tra USA e Russia a causa di un accordo con la Cina non è direttamente supportato dalla KB.",
+        "riferimento": "[round 8] CHN"
+      },
+      {
+        "osservazione": "La simulazione mostra una buona plausibilità geopolitica nella maggior parte dei casi, riflettendo le dinamiche reali tra i paesi. Ad esempio, l'intensificazione delle relazioni USA-Israele in risposta alle mosse siriane è coerente con la storia di conflitti e tensioni regionali.",
+        "riferimento": "[round 8] ISR"
+      },
+      {
+        "osservazione": "Tuttavia, alcune escalation sembrano essere eccessive o poco realistiche. Ad esempio, l'accordo tra Cina, Iran e Russia per lo sviluppo congiunto di tecnologie avanzate nella difesa cibernetica potrebbe non riflettere accuratamente le dinamiche geopolitiche.",
+        "riferimento": "[round 9] RUS"
+      },
+      {
+        "osservazione": "La Russia rafforza la cooperazione con Cina e Iran in risposta a vari stimoli (es. USA, Israele), ma spesso senza una chiara base nella KB di partenza o usando 'conoscenza_generale' dove i dati c'erano.",
+        "riferimento": [
+          {
+            "round/Paese del dialogo": 9,
+            "campo della KB": [
+              "RUS",
+              "CHN"
+            ]
+          },
+          {
+            "round/Paese del dialogo": "10",
+            "campo della KB": [
+              "USA"
+            ]
+          }
+        ]
+      },
+      {
+        "osservazione": "Molte azioni si basano sulla 'conoscenza_generale' invece di usare i campi della knowledge base, come ad esempio la reazione dell'Ucraina al round 10 (crea UKR->FRA) e quella degli Stati Uniti nello stesso turno.",
+        "riferimento": "[round 10] USA"
+      },
+      {
+        "osservazione": "Alcune azioni non sono supportate dai dati della KB, come l'evento di indebolire la cooperazione tra Russia e Cina (indebilisci RUS->CHN) al round 9.",
+        "riferimento": "[round 10] CHN"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 639,
+    "grounded": 410,
+    "non_ancorate": 124,
+    "irregolari": 105,
+    "multi_tag": 84,
+    "perc_grounded": 64.2,
+    "perc_irregolari": 16.4,
+    "distribuzione": {
+      "conflitto": 70,
+      "cyber": 43,
+      "migrazione": 1,
+      "evento": 248,
+      "conoscenza_generale": 124,
+      "relazioni": 84,
+      "traiettoria": 9,
+      "contesto_generale": 16,
+      "economia": 1
+    },
+    "distribuzione_irregolari": {
+      "azione_su_arco": 11,
+      "azioni_su_archi": 83,
+      "cooperazione": 8,
+      "aggiornamenti_stato": 4,
+      "militare": 1,
+      "ragionamento": 1
+    }
+  }
+}

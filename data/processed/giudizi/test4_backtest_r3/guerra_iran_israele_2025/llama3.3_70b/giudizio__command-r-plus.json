@@ -1,0 +1,95 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22617,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 9,
+      "risposte": 54,
+      "token_stimati": 22617,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 23,
+      "token_stimati": 10766,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 72.0,
+      "fedelta_grounding": 69.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 69.9,
+    "fedelta_grounding": 50.1,
+    "motivazione": "[round 1-9] La simulazione mostra una buona coerenza con la KB per quanto riguarda i dati numerici e il contesto generale. Tuttavia, ci sono alcune discrepanze nei ruoli cyber (ad esempio, USA è inizialmente 'non specificato' ma poi agisce come attore) e nell'uso di basi non supportate dalla conoscenza specifica del Paese o della situazione globale. [round 9-10] La simulazione mostra una certa coerenza con la KB in termini di contesto e relazioni internazionali. Tuttavia, ci sono alcune discrepanze nei dettagli numerici (ad esempio il numero degli incidenti cyber) che influenzano negativamente i punteggi per 'coerenza_kb' e 'fedelta_grounding'. La plausibilità delle azioni è generalmente buona ma con qualche eccezione: la Cina sembra reagire in modo eccessivo ad un attacco informatico, mentre gli Stati Uniti non sembrano considerare le implicazioni geopolitiche di alcune loro scelte. Inoltre, il modello tende a utilizzare spesso l'etichetta 'conoscenza_generale', anche quando i dati specifici sono presenti nella KB.",
+    "evidenze": [
+      {
+        "osservazione": "Alcuni Paesi hanno ruoli cyber diversi da quelli indicati nella KB (ad es. USA, CHN).",
+        "riferimento": [
+          "ISR:round2-3",
+          "RUS:round4"
+        ]
+      },
+      {
+        "osservazione": "Alcune azioni non sono supportate dalla conoscenza specifica del Paese o della situazione globale.",
+        "riferimento": [
+          "IRN:round1 (crea IRN->SYR)",
+          "USA:round5",
+          "CHN:round6-7"
+        ]
+      },
+      {
+        "osservazione": "La catena di propagazione è generalmente coerente, ma ci sono alcune escalation rapide e reazioni non proporzionate.",
+        "riferimento": [
+          "ISR: round2 (crea ISR->USA)",
+          "RUS:round4-5",
+          "CHN:round7"
+        ]
+      },
+      {
+        "osservazione": "Il numero degli incidenti cyber non è coerente con la base conoscitiva per USA e RUS (round 9-10).",
+        "riferimento": [
+          "cyber.n_incidenti_datati=35, round/Paese:USA"
+        ],
+        "[\"cyber.ruolo=entrambi\", \"cyber.n_incidenti_datati=7\"]": "€CHN₮ reagiscono in modo esagerato ad un attacco cyber (round 10)",
+        "La Cina e gli Stati Uniti non considerano le implicazioni geopolitiche delle loro azioni, ad esempio rafforzando la cooperazione con paesi che hanno già relazioni tese tra di loro. (Round:9-10)": "CHN reagisce in modo eccessivo all'attacco informatico",
+        "Il modello utilizza spesso l'etichetta 'conoscenza generale', anche quando i dati specifici sono presenti nella KB. Ad esempio, la condivisione di informazioni sulla sicurezza informatica tra Russia e Cina è basata su questa etichetta nonostante sia presente il campo specifico \"cyber\" per entrambi (round 10).": "CHN reagisce in modo eccessivo all'attacco cyber"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 207,
+    "grounded": 121,
+    "non_ancorate": 85,
+    "irregolari": 1,
+    "multi_tag": 0,
+    "perc_grounded": 58.5,
+    "perc_irregolari": 0.5,
+    "distribuzione": {
+      "conflitto": 29,
+      "conoscenza_generale": 85,
+      "relazioni": 15,
+      "evento": 66,
+      "cyber": 9,
+      "economia": 2
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 1
+    }
+  }
+}

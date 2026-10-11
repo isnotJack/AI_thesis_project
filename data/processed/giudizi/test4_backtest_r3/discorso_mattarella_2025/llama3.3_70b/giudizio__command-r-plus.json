@@ -1,0 +1,148 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22350,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 52,
+      "token_stimati": 22350,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 22,
+      "token_stimati": 11559,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 72.0,
+      "fedelta_grounding": 69.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 69.9,
+    "fedelta_grounding": 50.0,
+    "motivazione": "[round 1-10] La simulazione mostra una certa coerenza con i dati della KB in termini di contesto e relazioni tra paesi. Tuttavia, ci sono alcuni casi evidenti (vedi evidenze) dove le reazioni dei Paesi non sembrano allinearsi perfettamente ai numeri o al ruolo cyber specificato nella knowledge base. [round 10-10] La simulazione mostra una buona coerenza con i dati della KB per quanto riguarda le reazioni e gli aggiornamenti di stato. Tuttavia, ci sono alcune incoerenze nei numeri forniti nella parte finale del dialogo (ad esempio, il numero degli incidenti cyber russi è maggiore rispetto al valore iniziale). Inoltre, la simulazione presenta un uso eccessivo dell'etichetta 'conoscenza_generale', che rende difficile valutare l'aderenza ai dati della KB. La plausibilità geopolitica delle azioni e reazioni dei paesi è generalmente buona ma con alcune eccezzioni: ad esempio, il coinvolgimento del Regno Unito (GBR) nella cooperazione per la sicurezza informatica sembra poco realistico data la sua posizione neutrale nel conflitto russo-ucraino.",
+    "evidenze": [
+      {
+        "osservazione": "La Russia reagisce con fermezza alle dichiarazioni del Presidente italiano, ma il numero di incidenti informatici (10) e i gruppi citati non sembrano giustificare un'escalation così rapida delle tensioni cyber. Inoltre, la Cina viene coinvolta in alcune azioni senza una chiara motivazione basata sulla KB.",
+        "riferimento": [
+          "round 2",
+          "RUS"
+        ]
+      },
+      {
+        "osservazione": "L'Italia reagisce con misure di difesa cibernetica e cooperando con gli Stati Uniti dopo l'attacco informatico russo, ma il numero iniziale degli incidenti cyber (3) non sembra giustificare una risposta così rapida.",
+        "riferimento": [
+          "round 2",
+          "ITA"
+        ]
+      },
+      {
+        "osservazione": "Gli USA reagiscono rapidamente all'accordo con l'Italia per la sicurezza cibernetica e rafforzano le relazioni, ma il numero di incidenti cyber (29) non sembra giustificare una tale escalation.",
+        "riferimento": [
+          "round 3",
+          "USA"
+        ]
+      },
+      {
+        "osservazione": "La Russia reagisce rapidamente agli eventi successivi con un aumento delle operazioni cibernetiche e della cooperazione internazionale, ma i numeri iniziali degli incidenti cyber (10) non sembrano giustificare una tale escalation.",
+        "riferimento": [
+          "round 4",
+          "RUS"
+        ]
+      },
+      {
+        "osservazione": "L'Ucraina reagisce rapidamente agli attacchi informatici russi con un contrattacco e cercando sostegno internazionale, ma i numeri iniziali degli incidenti cyber (3) non sembrano giustificare una tale escalation.",
+        "riferimento": [
+          "round 5",
+          "UKR"
+        ]
+      },
+      {
+        "osservazione": "La Cina viene coinvolta in accordi di cooperazione con la Russia senza un chiaro allineamento alla KB, specialmente considerando il numero iniziale degli incidenti cyber (1). Inoltre, l'escalation delle tensioni tra USA e RUS sembra troppo rapida rispetto ai dati della knowledge base.",
+        "riferimento": [
+          "round 6",
+          "CHN"
+        ]
+      },
+      {
+        "osservazione": "La Russia reagisce rapidamente agli eventi successivi con un aumento degli attacchi informatici contro gli Stati Uniti, ma i numeri iniziali non sembrano giustificare una tale escalation. Inoltre, la Cina viene coinvolta in accordi di cooperazione senza chiari riferimenti alla KB.",
+        "riferimento": [
+          "round 7",
+          "RUS"
+        ]
+      },
+      {
+        "osservazione": "L'Ucraina reagisce rapidamente agli attacchi informatici russi con un contrattacco e cercando sostegno internazionale. Tuttavia, i numeri iniziali degli incidenti cyber (3) non sembrano giustificare una tale escalation.",
+        "riferimento": [
+          "round 7",
+          "UKR"
+        ]
+      },
+      {
+        "osservazione": "La Cina viene coinvolta in accordi di cooperazione con la Russia senza un chiaro allineamento alla KB, specialmente considerando il numero iniziale degli incidenti cyber (1). Inoltre, l'escalation delle tensioni tra USA e RUS sembra troppo rapida rispetto ai dati della knowledge base.",
+        "riferimento": [
+          "round 8",
+          "CHN"
+        ]
+      },
+      {
+        "osservazione": "La Russia reagisce rapidamente agli eventi successivi con un aumento degli attacchi informatici contro gli Stati Uniti, ma i numeri iniziali non sembrano giustificare una tale escalation. Inoltre, la Cina viene coinvolta in accordi di cooperazione senza chiari riferimenti alla KB.",
+        "riferimento": [
+          "round 8",
+          "RUS"
+        ]
+      },
+      {
+        "osservazione": "L'Ucraina reagisce rapidamente agli attacchi informatici russi con un contrattacco e cercando sostegno internazionale. Tuttavia, i numeri iniziali degli incidenti cyber (3) non sembrano giustificare una tale escalation.",
+        "riferimento": [
+          "round 8",
+          "UKR"
+        ]
+      },
+      {
+        "osservazione": "La Cina viene coinvolta in accordi di cooperazione con la Russia senza un chiaro allineamento alla KB, specialmente considerando il numero iniziale degli incidenti cyber (1). Inoltre, l'escalation delle tensioni tra USA e RUS sembra troppo rapida rispetto ai dati della knowledge base.",
+        "riferimento": [
+          "round 9",
+          "CHN"
+        ]
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 228,
+    "grounded": 159,
+    "non_ancorate": 65,
+    "irregolari": 4,
+    "multi_tag": 0,
+    "perc_grounded": 69.7,
+    "perc_irregolari": 1.8,
+    "distribuzione": {
+      "conflitto": 56,
+      "cyber": 17,
+      "conoscenza_generale": 65,
+      "evento": 64,
+      "migrazione": 1,
+      "relazioni": 15,
+      "economia": 6
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 4
+    }
+  }
+}

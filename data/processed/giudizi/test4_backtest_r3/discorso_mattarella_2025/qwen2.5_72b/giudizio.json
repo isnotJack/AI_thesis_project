@@ -3,29 +3,44 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "qwen2.5_72b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 4385,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 10,
+      "token_stimati": 4385,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 90.0,
+      "fedelta_grounding": 80.0
+    }
+  ],
   "giudizio": {
     "punteggio": 85.0,
     "coerenza_kb": 90.0,
     "plausibilita": 90.0,
-    "fedelta_grounding": 75.0,
-    "motivazione": "La simulazione mostra una buona coerenza con la knowledge base (KB), soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato dei paesi coinvolti. Le azioni intraprese sono generalmente in linea con il contesto geopolitico e i dati forniti dalla KB. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, in particolare quando vengono utilizzate fonti generiche o non specifiche invece di citare direttamente gli elementi della KB.",
+    "fedelta_grounding": 80.0,
+    "motivazione": "La simulazione mostra una buona coerenza con la knowledge base (KB), con reazioni e azioni che rispecchiano il contesto geopolitico e le relazioni tra i paesi. Le interazioni diplomatiche sono plausibili e seguono un percorso logico di escalation e de-escalation. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto nelle prime fasi della simulazione.",
     "evidenze": [
       {
-        "osservazione": "La reazione iniziale della Russia è coerente con il contesto del conflitto russo-ucraino e le tensioni diplomatiche menzionate nella KB.",
+        "osservazione": "Reazione diplomatica severa della Russia",
         "riferimento": "round 1/RUS"
       },
       {
-        "osservazione": "L'Italia risponde in modo diplomatico, considerando la situazione dei flussi migratori e gli attacchi cibernetici russi, come suggerito dalla KB.",
-        "riferimento": "round 2/ITA"
+        "osservazione": "Invito italiano a discutere di questioni storiche",
+        "riferimento": "round 6/ITA"
       },
       {
-        "osservazione": "La Russia esprime disappunto per la posizione italiana, ma mantiene un tono diplomatico, coerentemente con il suo ruolo di attore cyber nella KB.",
-        "riferimento": "round 3/RUS"
+        "osservazione": "Accettazione russa dell'invito all'incontro bilaterale",
+        "riferimento": "round 7/RUS"
       },
       {
-        "osservazione": "L'uso di 'conoscenza_generale' nel round 4/ITA potrebbe essere migliorato specificando la fonte esatta della KB.",
-        "riferimento": "round 4/ITA, campo KB: relazioni"
+        "osservazione": "Uso iniziale di 'conoscenza_generale' invece di dati specifici della KB",
+        "riferimento": "round 1/RUS"
       }
     ]
   },

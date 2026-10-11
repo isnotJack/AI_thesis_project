@@ -3,29 +3,72 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
-  "token_stimati": 31162,
+  "metodo": "blocchi_v1",
+  "token_stimati": 22350,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 52,
+      "token_stimati": 22350,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 22,
+      "token_stimati": 11559,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 55.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 75.0,
-    "coerenza_kb": 80.0,
-    "plausibilita": 85.0,
-    "fedelta_grounding": 65.0,
-    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), soprattutto in termini di reazioni e aggiornamenti di stato. Le azioni intraprese dai vari paesi sono generalmente coerenti con il contesto geopolitico e le relazioni esistenti tra loro. Tuttavia, ci sono stati alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, come quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB. La plausibilità della catena di propagazione è generalmente alta, con una gestione sensata delle escalation e delle risposte alle minacce.",
+    "punteggio": 72.0,
+    "coerenza_kb": 77.0,
+    "plausibilita": 73.0,
+    "fedelta_grounding": 62.0,
+    "motivazione": "[round 1-10] Il modello ha dimostrato una buona coerenza con i dati della knowledge base (KB), soprattutto in termini di reazioni e azioni dei vari paesi. Le decisioni prese dai diversi agenti sono generalmente coerenti con il contesto e le relazioni descritte nella KB. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, come quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB. La plausibilità della catena di propagazione è generalmente buona, con una risposta geopolitica sensata agli eventi iniziali. Le reazioni e le azioni dei paesi si sviluppano in modo logico e coerente, riflettendo le dinamiche delle relazioni internazionali. [round 10-10] La simulazione presenta una coerenza generale con la knowledge base (KB), soprattutto per quanto riguarda il contesto geopolitico e le relazioni tra i paesi. Le reazioni e le azioni intraprese dai vari agenti sono in linea con le informazioni fornite nella KB. Tuttavia, ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, ad esempio nelle specifiche dei numeri o nei dettagli delle relazioni cyber. La plausibilità della catena di propagazione è generalmente buona, con una serie di eventi e reazioni che seguono logicamente il contesto geopolitico. Le escalation e le risposte sono per lo più sensate e coerenti con la situazione descritta nella KB. Il grounding fedele alla KB potrebbe essere migliorato, in quanto alcuni tag 'base_kb' non corrispondono esattamente alle fonti citate o mancano di specificità. In alcuni casi, viene utilizzata la conoscenza generale quando i dati specifici sono disponibili.",
     "evidenze": [
       {
-        "osservazione": "La Russia rafforza la sua postura cyber contro gli Stati Uniti in risposta all'avvertimento (round 6)",
-        "riferimento": "RUS/round 6"
+        "osservazione": "La Russia risponde all'avvertimento degli Stati Uniti rafforzando la propria postura cyber contro gli USA",
+        "riferimento": "round 6/RUS"
       },
       {
-        "osservazione": "L'Italia decide di rafforzare la propria difesa cibernetica e di aumentare la cooperazione con gli alleati (round 6)",
-        "riferimento": "ITA/round 6"
+        "osservazione": "L'Italia decide di collaborare con gli Stati Uniti per migliorare la sicurezza cibernetica in risposta ad un attacco informatico russo",
+        "riferimento": "round 8/ITA"
       },
       {
-        "osservazione": "La Cina accoglie positivamente l'accordo di collaborazione con la Russia per migliorare la sicurezza informatica (round 7)",
-        "riferimento": "CHN/round 7"
+        "osservazione": "La Cina accetta la proposta della Russia di discutere una possibile collaborazione in materia di difesa cibernetica, coerentemente con le loro relazioni storiche e attuali.",
+        "riferimento": "round 8/CHN"
       },
       {
-        "osservazione": "L'Ucraina rafforza le sue difese cyber e cerca sostegno internazionale contro il contrattacco cibernetico russo (round 7)",
-        "riferimento": "UKR/round 7"
+        "osservazione": "L'Ucraina aumenta la propria presenza militare al confine in risposta all'aumento della presenza russa, riflettendo le tensioni esistenti tra i due paesi",
+        "riferimento": "round 9/UKR"
+      },
+      {
+        "osservazione": "Aumento della presenza militare russa nel Donbas giustifica una risposta dell'Ucraina",
+        "riferimento": "UKR, round 10"
+      },
+      {
+        "osservazione": "Attacco informatico russo contro gli USA in risposta alle sanzioni",
+        "riferimento": "RUS, round 10"
+      },
+      {
+        "osservazione": "Contrattacco cibernetico degli Stati Uniti contro la Russia",
+        "riferimento": "USA, round 10"
+      },
+      {
+        "osservazione": "Accordo di cooperazione per la difesa cibernetica tra USA e Ucraina",
+        "riferimento": "UKR, round 10"
       }
     ]
   },

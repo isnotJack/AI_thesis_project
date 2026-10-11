@@ -1,0 +1,123 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 21392,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 46,
+      "token_stimati": 21392
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 5,
+      "token_stimati": 3784,
+      "errore": "risposta del giudice non interpretabile"
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
+      "esito": "presente",
+      "evidenza": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano"
+    },
+    {
+      "id": "F2",
+      "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "esito": "parziale",
+      "evidenza": "nessuna (la simulazione non mostra attacchi DDoS)",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F3",
+      "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
+      "esito": "presente",
+      "evidenza": "round 2, ITA: L'Italia richiede spiegazioni ufficiali alla Russia per gli attacchi informatici ai suoi sistemi di difesa",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 2, ITA: L'Italia richiede spiegazioni ufficiali alla Russia per gli attacchi informatici ai suoi sistemi di difesa"
+    },
+    {
+      "id": "F4",
+      "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
+      "esito": "parziale",
+      "evidenza": "nessuna (la simulazione non mostra misure difensive italiane)",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "La Russia rafforza la cooperazione con l'Ucraina",
+      "riferimento": "round 3, RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Italia richiede spiegazioni ufficiali alla Cina per gli attacchi informatici ai suoi sistemi di difesa",
+      "riferimento": "nessuna",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Russia rafforza la cooperazione con l'Ucraina",
+      "riferimento": "round 4, RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Italia richiede spiegazioni ufficiali alla Cina per gli attacchi informatici ai suoi sistemi di difesa",
+      "riferimento": "nessuna",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Russia rafforza la cooperazione con l'Ucraina",
+      "riferimento": "round 5, RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Italia richiede spiegazioni ufficiali alla Cina per gli attacchi informatici ai suoi sistemi di difesa",
+      "riferimento": "nessuna",
+      "blocco": 1
+    },
+    {
+      "descrizione": "La Russia rafforza la cooperazione con l'Ucraina",
+      "riferimento": "round 6, RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Italia richiede spiegazioni ufficiali alla Cina per gli attacchi informatici ai suoi sistemi di difesa",
+      "riferimento": "nessuna",
+      "blocco": 1
+    }
+  ],
+  "motivazione": "[round 1-10] La simulazione riproduce in modo accurato la reazione della Russia con una condanna pubblica e il rafforzamento delle relazioni diplomatiche, ma non mostra le azioni cyber ostili o difensive. La risposta italiana è simile a quella reale, anche se manca di misure specificamente rivolte alla difesa informatica. [round 10-10]",
+  "conteggi": {
+    "presente": 2,
+    "parziale": 2,
+    "assente": 0,
+    "non_valutati": 0,
+    "presente_verificati": 2,
+    "parziale_verificati": 0
+  },
+  "punteggio_realta": 75.0,
+  "punteggio_realta_verificato": 50.0,
+  "errore": "1 blocchi su 2: risposta del giudice non interpretabile"
+}

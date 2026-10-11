@@ -3,25 +3,72 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "qwen2.5_72b",
   "giudice": "command-r",
-  "token_stimati": 28621,
+  "metodo": "blocchi_v1",
+  "token_stimati": 22350,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 59,
+      "token_stimati": 22350,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 85.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 19,
+      "token_stimati": 8711,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
   "giudizio": {
     "punteggio": 75.0,
     "coerenza_kb": 80.0,
-    "plausibilita": 70.0,
+    "plausibilita": 81.3,
     "fedelta_grounding": 65.0,
-    "motivazione": "Il dialogo tra gli agenti mostra una coerenza generale con i dati della knowledge base (KB), con reazioni e azioni che riflettono le tensioni esistenti e il contesto geopolitico. Tuttavia, ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, soprattutto nelle scelte di reazione a determinati eventi. La plausibilità delle interazioni è buona, con una catena di propagazione sensata dal punto di vista geopolitico, anche se alcune escalation potrebbero essere state gestite in modo più graduale. Il grounding dei dati nella KB è generalmente accurato, ma ci sono alcuni casi in cui le scelte non sembrano derivare direttamente dai dati specifici forniti.",
+    "motivazione": "[round 1-10] La simulazione mostra una certa coerenza con la knowledge base (KB) in termini di contesto e reazioni degli agenti. Le azioni intraprese dagli agenti sono generalmente coerenti con i dati forniti nella KB, come il supporto militare a gruppi armati o l'intensificazione delle operazioni cyber. Tuttavia, ci sono alcuni casi in cui le azioni potrebbero essere più specificamente legate ai dati della KB per migliorare la coerenza complessiva. La plausibilità della catena di propagazione è generalmente buona, con reazioni sensate dal punto di vista geopolitico. Gli agenti reagiscono alle minacce e agli attacchi in modo coerente con il contesto regionale e le relazioni esistenti. Tuttavia, ci sono alcuni casi in cui l'escalation potrebbe essere più graduale o meglio giustificata per migliorare la plausibilità. [round 10-10] La simulazione dimostra una buona coerenza con la knowledge base (KB), in particolare per quanto riguarda le reazioni e gli aggiornamenti di stato. Le azioni intraprese dagli agenti sono generalmente coerenti con i dati della KB, riflettendo le tensioni esistenti tra i paesi coinvolti. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, come l'uso occasionale del tag 'conoscenza_generale' quando i dati specifici erano disponibili nella KB. La plausibilità delle azioni è generalmente accettabile, ma ci sono alcune escalation che potrebbero essere considerate eccessive o non del tutto realistiche.",
     "evidenze": [
       {
-        "osservazione": "Reazioni coerenti con il contesto di tensione tra Iran e Israele",
-        "riferimento": "round 1/IRN, round 2/ISR"
+        "osservazione": "L'Iran risponde all'attacco israeliano con un contrattacco missilistico e operazioni cyber",
+        "riferimento": "round 1/IRN"
       },
       {
-        "osservazione": "Escalation plausibile nella cooperazione cyber USA-ISR contro l'Iran",
-        "riferimento": "round 6/USA, round 7/ISR, round 8/IRN"
+        "osservazione": "Israele richiede supporto militare agli USA per affrontare la minaccia iraniana",
+        "riferimento": "round 2/ISR"
       },
       {
-        "osservazione": "Uso di 'conoscenza_generale' quando i dati specifici erano disponibili (es. ruolo cyber)",
+        "osservazione": "Gli Stati Uniti accettano di fornire sostegno a Israele, in linea con le loro relazioni storiche",
+        "riferimento": "round 3/USA"
+      },
+      {
+        "osservazione": "L'Iran intensifica le operazioni cyber contro USA e Israele in risposta alla loro cooperazione",
+        "riferimento": "round 6/IRN"
+      },
+      {
+        "osservazione": "Intensificazione delle operazioni cyber offensive iraniane contro Israele",
         "riferimento": "round 10/ISR"
+      },
+      {
+        "osservazione": "Rafforzamento della cooperazione militare e cibernetica con l'Iran da parte della Siria",
+        "riferimento": "round 10/SYR"
+      },
+      {
+        "osservazione": "Aumento del sostegno militare a Hezbollah e Hamas in Siria da parte dell'Iran",
+        "riferimento": "round 10/IRN"
+      },
+      {
+        "osservazione": "Intensificazione delle operazioni offensive cibernetiche degli Stati Uniti contro l'Iran",
+        "riferimento": "round 10/USA"
       }
     ]
   },

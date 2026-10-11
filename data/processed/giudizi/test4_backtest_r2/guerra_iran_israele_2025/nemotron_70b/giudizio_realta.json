@@ -3,105 +3,220 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "nemotron_70b",
   "giudice": "command-r",
-  "token_stimati": 63837,
+  "metodo": "blocchi_v1",
+  "token_stimati": 22309,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 4,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 46,
+      "token_stimati": 22010
+    },
+    {
+      "k": 2,
+      "n": 4,
+      "round_da": 8,
+      "round_a": 9,
+      "risposte": 44,
+      "token_stimati": 22245
+    },
+    {
+      "k": 3,
+      "n": 4,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 43,
+      "token_stimati": 22309
+    },
+    {
+      "k": 4,
+      "n": 4,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 4,
+      "token_stimati": 4390
+    }
+  ],
   "fatti": [
     {
       "id": "F1",
       "testo": "L'Iran risponde con ondate di missili balistici (oltre 550) e di droni (oltre 1.000) contro Israele.",
-      "esito": "assente",
-      "evidenza": "nessuna",
-      "verificata": false
+      "esito": "presente",
+      "evidenza": "round 1, IRN: L'Iran risponde all'attacco aereo israeliano con contrattacchi mirati contro obiettivi strategici in Israele.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, IRN: L'Iran risponde all'attacco aereo israeliano con contrattacchi mirati contro obiettivi strategici in Israele."
     },
     {
       "id": "F2",
       "testo": "Israele prosegue per dodici giorni gli attacchi aerei contro obiettivi militari e nucleari iraniani.",
-      "esito": "parziale",
-      "evidenza": "round 10, CHN: La Cina accoglie con favore l'accordo di cooperazione economica e strategica con la Russia, rafforzando le relazioni esistenti. Tuttavia, non viene menzionato esplicitamente il ruolo della Cina nel contesto geopolitico.",
-      "verificata": false
+      "esito": "presente",
+      "evidenza": "round 2, ISR: Israele rafforza le sue difese militari e cibernetiche in risposta all'attacco missilistico iraniano.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 2, ISR: Israele rafforza le sue difese militari e cibernetiche in risposta all'attacco missilistico iraniano."
     },
     {
       "id": "F3",
       "testo": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani con difese antimissile e navi.",
       "esito": "parziale",
-      "evidenza": "round 10, USA: Gli Stati Uniti condannano le strategie militari russe e minacciano sanzioni economiche. Tuttavia, non viene menzionato il coinvolgimento degli Stati Uniti nella situazione in Ucraina.",
-      "verificata": true
+      "evidenza": "round 3, USA: Gli Stati Uniti accolgono la richiesta di Israele e annunciano un aumento del sostegno militare per contrastare le minacce iraniane. (Parziale perché il supporto è solo militare, non difensivo.)",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 3, USA: Gli Stati Uniti accolgono la richiesta di Israele e annunciano un aumento del sostegno militare per contrastare le minacce iraniane. (Parziale perché il supporto è solo militare, non difensivo.)"
     },
     {
       "id": "F4",
       "testo": "Gli Stati Uniti bombardano i siti nucleari iraniani di Fordow, Natanz e Isfahan.",
-      "esito": "parziale",
-      "evidenza": "round 10, ISR: Israele accoglie con favore l'accordo di cooperazione con gli Stati Uniti per migliorare le difese contro le minacce informatiche comuni. Tuttavia, non viene menzionato il ruolo dell'Iran in questo contesto.",
-      "verificata": false
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F5",
       "testo": "L'Iran risponde agli Stati Uniti colpendo con missili la base americana di Al Udeid, in Qatar, senza vittime.",
       "esito": "parziale",
-      "evidenza": "round 10, UKR: L'Ucraina richiede un aumento del sostegno per rafforzare le difese cyber in risposta all'avvertimento russo. Tuttavia, non viene menzionato il coinvolgimento degli Stati Uniti nella cooperazione con l'Ucraina.",
-      "verificata": false
+      "evidenza": "round 10, IRN: L'Iran lancia un attacco informatico contro infrastrutture israeliane in risposta alle recenti tensioni.",
+      "verificata": true,
+      "blocco": 4,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 10, IRN: L'Iran lancia un attacco informatico contro infrastrutture israeliane in risposta alle recenti tensioni."
     },
     {
       "id": "F6",
       "testo": "Gli Houthi dello Yemen lanciano missili balistici contro Israele.",
-      "esito": "parziale",
-      "evidenza": "round 10, RUS: La Russia condanna le operazioni di cyber guerra USA in Ucraina e avverte delle conseguenze. Tuttavia, non viene menzionato il coinvolgimento dell'Ucraina nella situazione.",
-      "verificata": false
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F7",
       "testo": "Un gruppo di hacker legato a Israele (Predatory Sparrow) colpisce la banca statale iraniana Sepah e l'exchange di criptovalute Nobitex.",
-      "esito": "parziale",
-      "evidenza": "round 10, CHN: La Cina accoglie con favore la proposta di collaborazione trilaterale per la cybersecurity da parte della Russia e dell'Iran. Tuttavia, non viene menzionato il coinvolgimento degli Stati Uniti in questo contesto.",
-      "verificata": false
+      "esito": "presente",
+      "evidenza": "round 3, IRN: L'Iran lancia un contrattacco cibernetico mirato contro obiettivi strategici israeliani.",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 8, ISR: L'Ucraina accoglie con favore l'aumento della presenza militare statunitense, rafforzando la cooperazione per la stabilità regionale."
     },
     {
       "id": "F8",
       "testo": "Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi); gli Stati Uniti mettono in guardia da attacchi cyber iraniani contro le proprie reti.",
       "esito": "parziale",
-      "evidenza": "round 10, ISR: Israele accoglie con favore l'accordo di cooperazione cyber con gli Stati Uniti e si impegna a rafforzare ulteriormente le difese condivise. Tuttavia, non viene menzionato il coinvolgimento dell'Ucraina in questo contesto.",
-      "verificata": false
+      "evidenza": "round 4, ISR: Israele intensifica le proprie difese informatiche in risposta all'attacco iraniano. (Parziale perché l'azione è solo di difesa e non offensiva.)",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 10, USA: Gli Stati Uniti accolgono la richiesta di Israele per discutere una possibile alleanza contro le minacce informatiche russe e iraniane."
     },
     {
       "id": "F9",
       "testo": "Russia, Cina e Arabia Saudita condannano gli attacchi israeliani sul piano diplomatico, senza intervenire militarmente.",
       "esito": "parziale",
-      "evidenza": "round 10, CHN: La Cina accoglie con favore l'annuncio del summit con la Russia per discutere la cooperazione in materia di sicurezza informatica. Tuttavia, non viene menzionato il coinvolgimento degli Stati Uniti o dell'Ucraina.",
-      "verificata": true
+      "evidenza": "round 5, CHN: La Cina accoglie con favore la consultazione proposta dalla Russia e si impegna a lavorare insieme per valutare gli esiti potenziali della cooperazione nel Medio Oriente. (Parziale perché solo uno dei tre Paesi menzionati interviene.)",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 5, CHN: La Cina accoglie con favore la consultazione proposta dalla Russia e si impegna a lavorare insieme per valutare gli esiti potenziali della cooperazione nel Medio Oriente. (Parziale perché solo uno dei tre Paesi menzionati interviene.)"
     },
     {
       "id": "F10",
       "testo": "In Iran migliaia di persone lasciano Teheran e altre citta'; il governo limita a piu' riprese l'accesso a internet.",
-      "esito": "parziale",
-      "evidenza": "round 10, RUS: La Russia accoglie con favore il piano congiunto con la Cina per lo scambio di informazioni sulla sicurezza informatica. Tuttavia, non viene menzionato il coinvolgimento degli Stati Uniti o dell'Ucraina.",
-      "verificata": false
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F11",
       "testo": "Dopo dodici giorni entra in vigore un cessate il fuoco fra Israele e Iran, mediato dagli Stati Uniti con il Qatar.",
       "esito": "parziale",
-      "evidenza": "round 10, CHN: La Cina accoglie con favore la cooperazione in materia di cybersicurezza con la Russia. Tuttavia, non viene menzionato il coinvolgimento degli Stati Uniti o dell'Ucraina.",
-      "verificata": false
+      "evidenza": "round 10, IRN: L'Iran accoglie l'invito cinese per discutere la cooperazione cibernetica regionale.",
+      "verificata": true,
+      "blocco": 4,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 10, IRN: L'Iran accoglie l'invito cinese per discutere la cooperazione cibernetica regionale."
     }
   ],
   "sviluppi_non_accaduti": [
     {
-      "descrizione": "La Cina aumenta le misure di sicurezza per prevenire potenziali attacchi informatici da parte degli Stati Uniti.",
-      "riferimento": "round 10, CHN"
+      "descrizione": "L'Arabia Saudita, la Russia e la Cina non intervengono militarmente né con attacchi informatici.",
+      "riferimento": "round 1, IRN",
+      "blocco": 1
     },
     {
-      "descrizione": "Gli Stati Uniti lanciano un'operazione di contro-hacking per proteggere i sistemi informatici ucraini dalle intrusioni russe.",
-      "riferimento": "round 10, USA"
+      "descrizione": "L'Iran non attacca l'Arabia Saudita né altri Paesi del Golfo, salvo la base americana in Qatar.",
+      "riferimento": "round 2, ISR",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Iran non chiude lo Stretto di Hormuz.",
+      "riferimento": "nessuna",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Il conflitto non si estende con operazioni di terra.",
+      "riferimento": "nessuna",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Iran attacca l'Arabia Saudita o altri Paesi del Golfo.",
+      "riferimento": "round 8, IRN",
+      "blocco": 2
+    },
+    {
+      "descrizione": "L'Iran chiude lo Stretto di Hormuz.",
+      "riferimento": "round 9, IRN",
+      "blocco": 2
+    },
+    {
+      "descrizione": "La simulazione non prevede un attacco militare diretto dell'Iran contro Israele, che invece è avvenuto.",
+      "riferimento": "round 9, IRN",
+      "blocco": 3
+    },
+    {
+      "descrizione": "Non viene menzionato il proseguimento degli attacchi aerei di Israele contro obiettivi militari e nucleari iraniani per dodici giorni.",
+      "riferimento": "round 10, ISR",
+      "blocco": 3
+    },
+    {
+      "descrizione": "L'Arabia Saudita interviene militarmente.",
+      "riferimento": "round 10, SAU",
+      "blocco": 4
+    },
+    {
+      "descrizione": "La Russia interviene militarmente.",
+      "riferimento": "round 10, RUS",
+      "blocco": 4
+    },
+    {
+      "descrizione": "La Cina interviene militarmente.",
+      "riferimento": "round 10, CHN",
+      "blocco": 4
     }
   ],
-  "motivazione": "La simulazione si avvicina alla realtà in quanto riflette le tensioni geopolitiche e la crescente importanza della sicurezza cibernetica. Tuttavia, alcuni sviluppi non sono completamente allineati con gli eventi reali, come il coinvolgimento di determinati paesi o l'assenza di menzioni specifiche.",
+  "motivazione": "[round 1-8] La simulazione cattura in modo accurato la risposta militare dell'Iran all'attacco aereo israeliano, inclusi i contrattacchi mirati. Tuttavia, mancano alcuni sviluppi chiave come gli attacchi degli Houthi dello Yemen contro Israele e l'assenza di un coinvolgimento diretto della Russia o della Cina nel conflitto. [round 8-9] La simulazione si concentra principalmente sulle dinamiche cyber e militari tra i vari Paesi coinvolti, senza affrontare direttamente le azioni militari dirette dell'Iran contro Israele o altri Paesi del Golfo. Inoltre, non vengono menzionati eventi come il bombardamento dei siti nucleari iraniani da parte degli Stati Uniti o l'attacco della base americana in Qatar. [round 9-10] La simulazione si concentra principalmente sugli aspetti della cooperazione cibernetica tra i paesi coinvolti, trascurando gli eventi militari e le azioni dirette che hanno caratterizzato il conflitto reale. Non vengono menzionati attacchi militari o cyber diretti tra Iran e Israele, né l'intervento degli Stati Uniti a sostegno di Israele. [round 10-10] La simulazione si concentra principalmente sugli aspetti cibernetici del conflitto, con l'Iran che risponde agli attacchi israeliani attraverso operazioni cyber. Tuttavia, mancano gli sviluppi militari e diplomatici chiave che hanno caratterizzato il conflitto reale.",
   "conteggi": {
-    "presente": 0,
-    "parziale": 10,
-    "assente": 1,
+    "presente": 3,
+    "parziale": 5,
+    "assente": 3,
     "non_valutati": 0,
-    "presente_verificati": 0,
-    "parziale_verificati": 2
+    "presente_verificati": 3,
+    "parziale_verificati": 5
   },
-  "punteggio_realta": 45.5,
-  "punteggio_realta_verificato": 9.1
+  "punteggio_realta": 50.0,
+  "punteggio_realta_verificato": 50.0
 }

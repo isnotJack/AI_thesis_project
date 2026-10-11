@@ -3,60 +3,104 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "nemotron_70b",
   "giudice": "command-r",
-  "token_stimati": 23483,
+  "metodo": "blocchi_v1",
+  "token_stimati": 21392,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 46,
+      "token_stimati": 21392
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 5,
+      "token_stimati": 3784
+    }
+  ],
   "fatti": [
     {
       "id": "F1",
       "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
       "esito": "presente",
-      "evidenza": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano e lancia un'operazione di contro-informazione.",
-      "verificata": true
+      "evidenza": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano"
     },
     {
       "id": "F2",
       "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
       "esito": "parziale",
-      "evidenza": "round 2, CHN: La Cina accoglie con favore l'accordo di cooperazione strategica con la Russia, ma non compie operazioni cyber ostili contro l'Italia.",
-      "verificata": false
+      "evidenza": "round 4, RUS: La Russia rafforza la sua postura cyber per contrastare le operazioni congiunte USA-ITA e proteggere la propria sicurezza informatica.",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 4, RUS: La Russia rafforza la sua postura cyber per contrastare le operazioni congiunte USA-ITA e proteggere la propria sicurezza informatica."
     },
     {
       "id": "F3",
       "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
       "esito": "presente",
-      "evidenza": "round 2, ITA: L'Italia risponde sul piano politico-diplomatico respingendo le parole russe e accusando la Russia di attacchi informatici.",
-      "verificata": true
+      "evidenza": "round 2, ITA: L'Italia risponde sul piano politico-diplomatico respingendo o condannando la reazione russa",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 2, ITA: L'Italia risponde sul piano politico-diplomatico respingendo o condannando la reazione russa"
     },
     {
       "id": "F4",
       "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
       "esito": "parziale",
-      "evidenza": "round 4, USA: Gli Stati Uniti rafforzano le difese cyber in risposta al patto Cina-Russia, ma non è specificato se si tratta di misure di difesa o protezione senza contrattacchi.",
-      "verificata": false
+      "evidenza": "round 10, USA: Gli Stati Uniti intensificano le misure di sicurezza informatica e cercano di rafforzare le alleanze strategiche per fronteggiare la crescente minaccia cyber da parte della Cina e della Russia.",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     }
   ],
   "sviluppi_non_accaduti": [
     {
-      "descrizione": "La Russia e la Cina annunciano un nuovo accordo di cooperazione strategica in risposta alle crescenti tensioni internazionali.",
-      "riferimento": "round 1, RUS"
+      "descrizione": "La Russia lancia un'operazione di contro-informazione verso l'Italia.",
+      "riferimento": "round 1, RUS",
+      "blocco": 1
+    },
+    {
+      "descrizione": "Hacker filorussi colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
+      "riferimento": "round 2, RUS",
+      "blocco": 1
     },
     {
       "descrizione": "L'Italia denuncia un aumento degli attacchi informatici ai suoi sistemi di difesa, sospettando la mano russa.",
-      "riferimento": "round 2, ITA"
+      "riferimento": "round 2, ITA",
+      "blocco": 1
     },
     {
-      "descrizione": "La Russia e la Cina invitano l'Unione Europea a unirsi all'accordo di cooperazione strategica per rafforzare la stabilità globale.",
-      "riferimento": "round 3, EUR"
+      "descrizione": "La Russia e la Cina annunciano un piano congiunto per lo sviluppo di tecnologie avanzate per la cybersicurezza, aumentando le tensioni con gli Stati Uniti in materia di sicurezza informatica.",
+      "riferimento": "round 10, RUS",
+      "blocco": 2
+    },
+    {
+      "descrizione": "La Russia offre supporto tecnico alla Bielorussia per migliorare la sua cybersicurezza nell'ambito della cooperazione regionale.",
+      "riferimento": "round 10, RUS",
+      "blocco": 2
     }
   ],
-  "motivazione": "La simulazione cattura in modo accurato le reazioni diplomatiche e cyber tra i paesi coinvolti. Tuttavia, alcuni sviluppi specifici, come l'annuncio di un accordo di cooperazione strategica tra Russia e Cina o la denuncia italiana di attacchi informatici russi, non si sono verificati nella realtà.",
+  "motivazione": "[round 1-10] La simulazione cattura in parte le reazioni diplomatiche e cyber tra i paesi coinvolti. Tuttavia, alcuni dettagli specifici, come gli attacchi DDoS da parte di hacker filorussi, non sono stati previsti nella simulazione. [round 10-10] La simulazione cattura in modo accurato le reazioni diplomatiche e politiche della Russia all'evento iniziale. Tuttavia, non prevede gli attacchi informatici specifici da parte di hacker filorussi menzionati nei fatti F2 e F4.",
   "conteggi": {
     "presente": 2,
     "parziale": 2,
     "assente": 0,
     "non_valutati": 0,
     "presente_verificati": 2,
-    "parziale_verificati": 0
+    "parziale_verificati": 1
   },
   "punteggio_realta": 75.0,
-  "punteggio_realta_verificato": 50.0
+  "punteggio_realta_verificato": 62.5
 }

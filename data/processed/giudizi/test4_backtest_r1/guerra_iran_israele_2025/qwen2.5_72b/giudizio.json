@@ -3,29 +3,68 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "qwen2.5_72b",
   "giudice": "command-r",
-  "token_stimati": 38714,
+  "metodo": "blocchi_v1",
+  "token_stimati": 23102,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 61,
+      "token_stimati": 23102,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 75.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 51,
+      "token_stimati": 18890,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 75.0,
-    "coerenza_kb": 80.0,
-    "plausibilita": 70.0,
-    "fedelta_grounding": 65.0,
-    "motivazione": "La simulazione presenta un livello di coerenza e plausibilità soddisfacente, con reazioni degli agenti che rispecchiano in gran parte i dati della knowledge base. Tuttavia, ci sono alcuni casi in cui le azioni potrebbero essere più coerenti o dettagliate. La fedeltà al grounding è generalmente buona, ma ci sono alcune occasioni in cui il modello potrebbe aver interpretato erroneamente la KB o non averla utilizzata completamente.",
+    "punteggio": 80.4,
+    "coerenza_kb": 85.4,
+    "plausibilita": 75.4,
+    "fedelta_grounding": 70.4,
+    "motivazione": "[round 1-8] La simulazione mostra una coerenza generale con i dati della Knowledge Base (KB), con reazioni e azioni che rispecchiano il contesto geopolitico e le relazioni tra i paesi. La plausibilità è buona, con un'escalation graduale delle tensioni e delle operazioni militari e cyber. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto nelle scelte basate sulla 'conoscenza generale' quando i dati specifici erano disponibili. [round 9-10] La simulazione mostra una coerenza generale con la Knowledge Base (KB), con reazioni e azioni che rispecchiano i dati forniti. Le interazioni tra gli agenti sono plausibili dal punto di vista geopolitico, anche se alcune escalation potrebbero essere considerate eccessive. La fedeltà al grounding è buona ma non perfetta, con alcuni errori nei tag `base_kb` che indicano una comprensione incompleta dei dati della KB.",
     "evidenze": [
       {
-        "osservazione": "Reazioni militari e cyber coerenti con i dati della KB",
-        "riferimento": "round 1-10/IRN, ISR, USA"
+        "osservazione": "Reazioni coerenti con il contesto",
+        "riferimento": "round 1-8/IRN, ISR, USA"
       },
       {
-        "osservazione": "Escalation militare e cyber plausibile nel contesto geopolitico",
-        "riferimento": "round 3,4,5,6,7,8,9,10/IRN, ISR, USA"
+        "osservazione": "Escalation graduale delle operazioni militari e cyber",
+        "riferimento": "round 2-8/ISR, IRN, USA"
       },
       {
-        "osservazione": "Uso corretto dei tag `base_kb` nella maggior parte dei casi",
-        "riferimento": "round 2-10/ISR, IRN, USA"
+        "osservazione": "Uso di 'conoscenza generale' quando i dati erano disponibili",
+        "riferimento": "round 5/USA, round 7/IRN"
       },
       {
-        "osservazione": "Mancata considerazione di alcuni dati specifici della KB in alcune azioni",
-        "riferimento": "round 5,6,7/IRN, ISR, USA"
+        "osservazione": "Reazioni coerenti con il contesto e i ruoli cyber",
+        "riferimento": "round 9/10: IRN, ISR, USA"
+      },
+      {
+        "osservazione": "Escalation militari plausibili in risposta a eventi precedenti",
+        "riferimento": "round 9/10: IRN, ISR, SYR"
+      },
+      {
+        "osservazione": "Errore nel tag `base_kb` per l'evento di cooperazione tecnologica cibernética",
+        "riferimento": "round 10: ISR"
+      },
+      {
+        "osservazione": "Escalation eccessiva nelle operazioni militari in alcuni casi",
+        "riferimento": "round 9/10: IRN, ISR"
       }
     ]
   },

@@ -1,0 +1,66 @@
+{
+  "test": "test4_backtest_r2",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 2896,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 4,
+      "risposte": 4,
+      "token_stimati": 2896,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 49.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 65.0,
+    "coerenza_kb": 70.0,
+    "plausibilita": 80.0,
+    "fedelta_grounding": 49.0,
+    "motivazione": "La simulazione presenta alcune incongruenze e imprecisioni nella fedeltà al grounding. La coerenza con la KB è parzialmente rispettata nelle reazioni dei paesi RUS ed ITA, ma mostra lacune nell'ultimo round per UKR; inoltre, il livello di carestia non viene considerato in alcun modo nei ragionamenti degli agenti. Il punteggio complessivo riflette queste considerazioni.",
+    "evidenze": [
+      {
+        "osservazione": "La reazione del paese RUS nel primo turno è coerente con la KB e il contesto storico-politico, ma l'evento generato non ha un chiaro riferimento nella knowledge base fornita (base_kb=conoscenza generale).",
+        "riferimento": "[round 1] RUS"
+      },
+      {
+        "osservazione": "La reazione di ITA nel secondo round è plausibile e coerente con la KB, ma il tag 'relazioni' non sembra appropriato per l'evento generato.",
+        "riferimento": "[round 2] ITA"
+      },
+      {
+        "osservazione": "Nel terzo turno RUS, sebbene le relazioni migratorie siano citate nella knowledge base di entrambi i paesi (ITA e UKR), il tag 'conflitto' non sembra appropriatamente associato all'evento generato.",
+        "riferimento": "[round 3] RUS"
+      },
+      {
+        "osservazione": "La reazione del paese ITA nel terzo round è coerente con la KB, ma l'ultimo evento generico (base_kb=conoscenza generale) non ha un chiaro riferimento nella knowledge base fornita.",
+        "riferimento": "[round 3] RUS"
+      },
+      {
+        "osservMultiplierazione": "Il quarto turno di UKR presenta una reazione che sembra mancare di coerenza con la KB, in particolare per quanto riguarda il livello di carestia e le relazioni cyber. Inoltre, l'evento generato non ha un chiaro riferimento nella knowledge base.",
+        "riferimento": "[round 4] UKR"
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 6,
+    "grounded": 4,
+    "non_ancorate": 2,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 66.7,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 3,
+      "conoscenza_generale": 2,
+      "conflitto": 1
+    },
+    "distribuzione_irregolari": {}
+  }
+}

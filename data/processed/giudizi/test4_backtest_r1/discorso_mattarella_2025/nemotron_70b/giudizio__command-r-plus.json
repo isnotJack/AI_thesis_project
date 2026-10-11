@@ -1,0 +1,116 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "nemotron_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22463,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 42,
+      "token_stimati": 22463,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 42.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 38,
+      "token_stimati": 20471,
+      "punteggio": 68.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 59.0,
+      "fedelta_grounding": 41.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 71.7,
+    "coerenza_kb": 75.2,
+    "plausibilita": 64.2,
+    "fedelta_grounding": 41.5,
+    "motivazione": "[round 1-8] La simulazione mostra una buona coerenza con la KB in termini di numeri e contesto. Tuttavia, ci sono casi frequenti (evidenziati nelle 'osservazioni') dove le scelte non sembrano essere supportate dai dati della knowledge base o dalle relazioni esistenti tra i paesi coinvolti. [round 8-10] La simulazione mostra una coerenza generale con la KB in termini di numeri e contesto. Tuttavia, ci sono alcune discrepanze significative che influenzano il punteggio finale: l'uso improprio del tag 'conoscenza_generale', l'attribuzione errata delle basi per le azioni intraprese dai vari paesi (ad esempio, USA round 9) e la mancanza di coerenza in alcuni casi con i dati della KB. La plausibilità è compromessa da alcune escalation geopolitiche che appaiono forzate o poco realistiche.",
+    "evidenze": [
+      {
+        "osservazione": "'conoscenza_generale' usato in modo inappropriato",
+        "riferimento": "[round 1] RUS, azione: crea RUS->TUR"
+      },
+      {
+        "osservazione": "La Russia non ha un ruolo cyber definito nella KB.",
+        "riferimento": "[rounds vari] RUS -> USA/ITA (azioni e eventi)"
+      },
+      {
+        "osservazione": "'conoscenza_generale' usato in modo inappropriato",
+        "riferimento": "[round 2] CHN, azione: crea CHN->RUS"
+      },
+      {
+        "osservazione": "La Cina non ha un ruolo cyber definito nella KB.",
+        "riferimento": "[rounds vari] CHN -> RUS (azioni e eventi)"
+      },
+      {
+        "osservazione": "'conoscenza_generale' usato in modo inappropriato",
+        "riferimento": "[round 3] ITA, azione: rafforza ITA->DEU"
+      },
+      {
+        "osservazione": "\"La mia traiettoria recente mostra un aumento degli incidenti datati (cyber.n_incidenti_datati: in aumento)\" - ma il valore non è presente nella KB.",
+        "riferimento": "[round 3] ITA, ragionamento"
+      },
+      {
+        "osservazione": "'conoscenza_generale' usato in modo inappropriato",
+        "riferimento": "[rounds vari] USA -> RUS/ITA (azioni e eventi)"
+      },
+      {
+        "osservazione": "Uso improprio del tag 'conoscenza_generale' per giustificare azioni, quando la base era già presente nella KB (ad esempio: USA round 9)",
+        "riferimento": ""
+      },
+      {
+        "osservazione": "Attribuzione errata delle basi alle reazioni dei paesi. Ad es., l'evento di rinforzo militare in Ucraina non influenza direttamente le relazioni con gli Stati Uniti, ma viene attribuito come base per la reazione degli USA.",
+        "riferimento": "USA round 10"
+      },
+      {
+        "osservazione": "Mancanza di coerenza tra i dati della KB e alcune azioni intraprese (ad esempio: CHN round 9)",
+        "riferimento": ""
+      },
+      {
+        "osservazione": "Escalation geopolitiche forzate o poco realistiche, come la Cina che lancia un contrattacco informatico contro gli Stati Uniti in risposta a test di sicurezza.",
+        "riferimento": "CHN round 10"
+      },
+      {
+        "osservazione": "Escalation non supportata dalla KB: ad esempio, il summit sulla cyber security (RUS round 9) porta alla riduzione delle operazioni ostili verso USA senza una base chiara nella storia o nel contesto generale",
+        "riferimento": ""
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 295,
+    "grounded": 168,
+    "non_ancorate": 71,
+    "irregolari": 56,
+    "multi_tag": 28,
+    "perc_grounded": 56.9,
+    "perc_irregolari": 19.0,
+    "distribuzione": {
+      "relazioni": 25,
+      "conoscenza_generale": 71,
+      "evento": 114,
+      "cyber": 18,
+      "conflitto": 22,
+      "contesto_generale": 6,
+      "traiettoria": 4,
+      "migrazione": 1,
+      "economia": 1
+    },
+    "distribuzione_irregolari": {
+      "azioni_su_archi": 47,
+      "azione_su_arco": 7,
+      "cooperazione": 3
+    }
+  }
+}

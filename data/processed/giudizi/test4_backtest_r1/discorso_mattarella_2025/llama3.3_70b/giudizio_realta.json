@@ -3,45 +3,70 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 2271,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 3,
+      "risposte": 2,
+      "token_stimati": 2271
+    }
+  ],
   "fatti": [
     {
       "id": "F1",
       "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
       "esito": "presente",
       "evidenza": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano e avverte che possono danneggiare le relazioni bilaterali.",
-      "verificata": true
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: La Russia condanna fermamente le dichiarazioni del Presidente italiano e avverte che possono danneggiare le relazioni bilaterali."
     },
     {
       "id": "F2",
       "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
       "esito": "assente",
       "evidenza": "nessuna",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F3",
       "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
       "esito": "presente",
       "evidenza": "round 1, RUS: La Russia risponde alle dichiarazioni del Presidente italiano definendole infondate e provocatorie.",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F4",
       "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
       "esito": "assente",
       "evidenza": "nessuna",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     }
   ],
   "sviluppi_non_accaduti": [
     {
       "descrizione": "La Russia annuncia un piano di contro-misure economiche nei confronti dell'Italia.",
-      "riferimento": "round 1, RUS"
+      "riferimento": "round 1, RUS",
+      "blocco": 1
     },
     {
       "descrizione": "L'Italia cerca di rafforzare la cooperazione economica con altri paesi, come la Germania e la Francia.",
-      "riferimento": "round 2, ITA"
+      "riferimento": "round 2, ITA",
+      "blocco": 1
     }
   ],
   "motivazione": "La simulazione cattura l'essenza della reazione russa alle dichiarazioni del Presidente italiano, concentrandosi sulla condanna diplomatica. Tuttavia, non prevede gli attacchi informatici o le misure di cybersicurezza adottate dall'Italia, né coinvolge altri paesi nella vicenda.",

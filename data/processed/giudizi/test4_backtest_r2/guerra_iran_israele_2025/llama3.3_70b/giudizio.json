@@ -3,29 +3,72 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
-  "token_stimati": 31203,
+  "metodo": "blocchi_v1",
+  "token_stimati": 23065,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 9,
+      "risposte": 53,
+      "token_stimati": 23065,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 23,
+      "token_stimati": 10903,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 45.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 85.0,
-    "coerenza_kb": 90.0,
-    "plausibilita": 80.0,
-    "fedelta_grounding": 75.0,
-    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della knowledge base (KB), mostrando un'adeguata comprensione del contesto geopolitico e delle relazioni tra i paesi. La maggior parte delle reazioni e delle azioni intraprese dagli agenti sono coerenti con le informazioni fornite nella KB, inclusi i livelli di conflitto, migrazione e ruolo cyber. Tuttavia, ci sono stati alcuni casi in cui la coerenza potrebbe essere stata migliorata, come ad esempio quando gli agenti hanno citato 'conoscenza generale' invece di fare riferimento a dati specifici della KB. La plausibilità delle reazioni è generalmente buona, con una propagazione sensata degli eventi e delle azioni, anche se ci sono stati alcuni casi in cui le escalation potrebbero essere state gestite in modo più graduale o realistico.",
+    "punteggio": 72.0,
+    "coerenza_kb": 77.0,
+    "plausibilita": 73.0,
+    "fedelta_grounding": 58.9,
+    "motivazione": "[round 1-9] La simulazione mostra una coerenza generale con la knowledge base (KB), con reazioni e azioni che riflettono accuratamente i dati forniti. Le decisioni prese dai vari Paesi sono in linea con il contesto geopolitico e le relazioni esistenti. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto quando vengono utilizzate conoscenze generali anziché dati specifici dalla KB. La plausibilità della catena di propagazione è generalmente buona, ma ci sono alcune escalation che potrebbero essere considerate eccessive o non del tutto realistiche. [round 9-10] La simulazione presenta una coerenza generale con la knowledge base (KB), soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato. Le azioni intraprese dai vari Paesi sono in linea con il contesto geopolitico e le relazioni esistenti. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding della KB potrebbe essere migliorata, in particolare quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB.",
     "evidenze": [
       {
-        "osservazione": "Reazione dell'Iran all'attacco aereo di Israele",
-        "riferimento": "round 1/IRN"
+        "osservazione": "L'Iran risponde all'attacco aereo israeliano con un contrattacco missilistico e una collaborazione strategica con la Siria.",
+        "riferimento": "round 1, IRN"
       },
       {
-        "osservazione": "Aumento degli eventi violenti in Siria dopo l'escalation del conflitto",
-        "riferimento": "round 2/SYR"
+        "osservazione": "Israele intensifica le sue alleanze militari con gli Stati Uniti e il Regno Unito in risposta all'attacco iraniano.",
+        "riferimento": "round 2, ISR"
       },
       {
-        "osservazione": "Citazione della 'conoscenza generale' invece di dati specifici della KB",
-        "riferimento": "round 7/RUS, round 8/CHN"
+        "osservazione": "La Siria accoglie favorevolmente la collaborazione strategica con l'Iran per contrastare Israele.",
+        "riferimento": "round 2, SYR"
       },
       {
-        "osservazione": "Escalation rapida delle tensioni cyber tra USA e Iran",
-        "riferimento": "round 9/IRN, round 10/USA"
+        "osservazione": "L'escalation del conflitto tra Iran e Israele porta a una serie di attacchi informatici reciproci.",
+        "riferimento": "round 3-9, IRN e ISR"
+      },
+      {
+        "osservazione": "La Russia e la Cina rafforzano le loro relazioni per migliorare la sicurezza informatica e contrastare le minacce cibernetiche.",
+        "riferimento": "round 4-9, RUS e CHN"
+      },
+      {
+        "osservazione": "La reazione dell'Iran all'attacco informatico israeliano è coerente con il contesto di tensioni e conflitti tra i due Paesi.",
+        "riferimento": "round 10, IRN"
+      },
+      {
+        "osservazione": "L'aumento degli incidenti cyber in Cina e Stati Uniti giustifica la risposta mirata degli USA.",
+        "riferimento": "round 10, USA"
+      },
+      {
+        "osservazione": "La Cina cita conoscenze generali invece di dati specifici dalla KB per alcune decisioni.",
+        "riferimento": "round 9-10, CHN"
       }
     ]
   },

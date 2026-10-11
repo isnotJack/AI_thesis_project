@@ -3,29 +3,72 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "nemotron_70b",
   "giudice": "command-r",
-  "token_stimati": 40188,
+  "metodo": "blocchi_v1",
+  "token_stimati": 22463,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 42,
+      "token_stimati": 22463,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 85.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 38,
+      "token_stimati": 20471,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 90.0,
+      "fedelta_grounding": 75.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 75.0,
-    "coerenza_kb": 80.0,
-    "plausibilita": 85.0,
-    "fedelta_grounding": 65.0,
-    "motivazione": "La simulazione presenta una coerenza generale con la Knowledge Base (KB), mostrando reazioni e azioni che riflettono i dati forniti. La plausibilità è buona, con un'escalation graduale delle tensioni cyber e militari, coerente con lo scenario geopolitico. Tuttavia, ci sono alcune incoerenze nei tag `base_kb`, dove vengono utilizzati 'conoscenza_generale' quando i dati specifici erano disponibili nella KB.",
+    "punteggio": 79.8,
+    "coerenza_kb": 84.8,
+    "plausibilita": 87.4,
+    "fedelta_grounding": 69.8,
+    "motivazione": "[round 1-8] La simulazione dimostra una buona coerenza con la knowledge base (KB), soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato dei vari paesi. Le azioni intraprese sono generalmente coerenti con i dati della KB e il contesto geopolitico. La plausibilità è alta, con una catena di propagazione che segue logicamente l'escalation delle tensioni cyber tra i paesi coinvolti. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto quando vengono utilizzate conoscenze generali invece di dati specifici dalla KB. [round 8-10] La simulazione dimostra una buona coerenza con la knowledge base (KB), con reazioni e azioni che riflettono accuratamente i dati forniti. La plausibilità è alta, poiché le reazioni degli agenti sono generalmente in linea con lo scenario geopolitico descritto nella KB. Tuttavia, ci sono alcuni casi in cui il grounding potrebbe essere migliorato, come quando gli agenti si basano su 'conoscenza generale' invece di specifici elementi della KB.",
     "evidenze": [
       {
-        "osservazione": "Reazioni coerenti con il contesto generale e le relazioni tra paesi",
-        "riferimento": "round 1/RUS, round 2/CHN"
+        "osservazione": "La Russia risponde all'evento iniziale rafforzando la cooperazione con paesi alleati e condannando le parole del Presidente italiano.",
+        "riferimento": "round 1/RUS"
       },
       {
-        "osservazione": "Aumento degli incidenti cyber riflette la situazione reale",
-        "riferimento": "round 4/USA, round 5/ITA"
+        "osservazione": "L'Italia, in risposta alla preoccupazione russa, decide di rafforzare la cooperazione cyber con gli USA e altri paesi europei.",
+        "riferimento": "round 2/ITA"
       },
       {
-        "osservazione": "Escalation delle tensioni cyber tra RUS e USA è plausibile",
-        "riferimento": "round 6/RUS, round 7/USA"
+        "osservazione": "La Cina accoglie favorevolmente l'accordo di cooperazione cyber con la Russia, ma procede con cautela a causa della storia di attacchi informatici reciproci.",
+        "riferimento": "round 5/CHN"
       },
       {
-        "osservazione": "'conoscenza_generale' usato quando dati specifici erano disponibili (es. 'relazioni')",
-        "riferimento": "round 1/RUS, round 2/CHN"
+        "osservazione": "Gli Stati Uniti intensificano le misure di sicurezza informatica in risposta all'avvicinamento tra Cina e Russia nel settore cyber.",
+        "riferimento": "round 6/USA"
+      },
+      {
+        "osservazione": "La Russia rafforza la sua presenza militare al confine con l'Ucraina, intensificando anche le operazioni di cyber sorveglianza verso i paesi occidentali.",
+        "riferimento": "round 7/RUS"
+      },
+      {
+        "osservazione": "Reazioni coerenti con la KB",
+        "riferimento": "round 9/USA, RUS, UKR, CHN"
+      },
+      {
+        "osservazione": "Aumento degli incidenti cyber riflette i dati della KB",
+        "riferimento": "round 9/USA, RUS, CHN"
+      },
+      {
+        "osservazione": "Uso inappropriato di 'conoscenza generale'",
+        "riferimento": "round 9/ITA, RUS, USA, CHN, UKR"
       }
     ]
   },

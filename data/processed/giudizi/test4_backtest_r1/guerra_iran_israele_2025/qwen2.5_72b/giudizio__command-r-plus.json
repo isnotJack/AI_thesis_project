@@ -1,0 +1,86 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 23102,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 61,
+      "token_stimati": 23102,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 72.0,
+      "fedelta_grounding": 100.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 51,
+      "token_stimati": 18890,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 76.0,
+      "fedelta_grounding": 100.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 73.8,
+    "fedelta_grounding": 100.0,
+    "motivazione": "[round 1-8] La simulazione mostra una buona fedeltà alla knowledge base (KB), con i tag `base_kb` correttamente assegnati e le scelte ben supportate dai dati. Tuttavia, ci sono alcune incoerenze nei numeri della KB: ad esempio, il numero di eventi violenti per IRN nel round 1 è aumentato da un valore iniziale non specificato a 60 senza una chiara giustificazione nella simulazione. [round 9-10] La simulazione mostra una buona aderenza alla knowledge base in termini di dati e contesto. Tuttavia, ci sono alcuni casi dove la coerenza con i numeri della KB è discutibile (ad esempio, il numero degli incidenti cyber). La plausibilità geopolitica cala a causa dell'escalation militare tra Iran-Israele che porta anche ad un coinvolgimento siriano.",
+    "evidenze": [
+      {
+        "osservazione": "I tag `base_kb` sono correttamente assegnati e le scelte ben supportate dai dati della KB",
+        "riferimento": "[rounds vari] IRN, ISR"
+      },
+      {
+        "osservazione": "Incoerenza nei numeri: il numero di eventi violenti per IRN nel round 1 è aumentato da un valore iniziale non specificato a 60 senza una chiara giustificazione nella simulazione.",
+        "riferimento": "[rounds vari] IRN"
+      },
+      {
+        "osservazione": "La catena degli eventi mostra escalation plausibili, ma con alcuni passaggi che potrebbero essere più dettagliati per migliorare la comprensione delle motivazioni. Ad esempio, l'intensificarsi della cooperazione tra USA e Israele potrebbe avere un impatto sulla percezione dell'Iran.",
+        "riferimento": "[rounds vari] IRN"
+      },
+      {
+        "osservazione": "I dati numerici sono coerenti con la KB in quasi tutti i casi, ma ci sono alcune discrepanze nel numero di incidenti cyber (round 9 USA e round 10 ISR).",
+        "riferimento": [
+          "cyber.n_incidenti_datati=38",
+          "cyber.ruolo=entrambi"
+        ]
+      },
+      {
+        "osservazione": "La cooperazione tra Iran-Siria è coerente con il contesto di alleanze regionali.",
+        "riferimento": [
+          "round 9 IRN",
+          "conflitto"
+        ]
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 304,
+    "grounded": 302,
+    "non_ancorate": 2,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 99.3,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 257,
+      "relazioni": 23,
+      "cyber": 14,
+      "conflitto": 8,
+      "conoscenza_generale": 2
+    },
+    "distribuzione_irregolari": {}
+  }
+}

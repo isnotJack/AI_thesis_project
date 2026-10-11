@@ -3,29 +3,72 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "qwen2.5_72b",
   "giudice": "command-r",
-  "token_stimati": 28244,
+  "metodo": "blocchi_v1",
+  "token_stimati": 22179,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 62,
+      "token_stimati": 22179,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 85.0,
+      "fedelta_grounding": 65.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 18,
+      "token_stimati": 7993,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 75.0,
+      "fedelta_grounding": 60.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 75.0,
-    "coerenza_kb": 80.0,
-    "plausibilita": 85.0,
-    "fedelta_grounding": 65.0,
-    "motivazione": "La simulazione mostra una coerenza generale con la knowledge base (KB), con reazioni e azioni che rispecchiano i dati forniti. La plausibilità delle interazioni geopolitiche è buona, con un'escalation graduale del conflitto e una risposta coerente da parte dei vari paesi coinvolti. Tuttavia, ci sono alcuni casi in cui le scelte non sembrano essere supportate direttamente dalla KB, il che ha portato a una valutazione leggermente inferiore per la fedeltà al grounding.",
+    "punteggio": 72.8,
+    "coerenza_kb": 77.8,
+    "plausibilita": 82.8,
+    "fedelta_grounding": 63.9,
+    "motivazione": "[round 1-10] La simulazione mostra una risposta coerente e plausibile degli agenti alla situazione iniziale. Gli eventi e le reazioni sono generalmente allineati con i dati della knowledge base (KB), riflettendo le tensioni esistenti tra i paesi coinvolti. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto quando si tratta di citare correttamente le fonti dei dati. [round 10-10] La simulazione mostra una coerenza generale con la knowledge base (KB), soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato. Le azioni intraprese dagli agenti sono in linea con il contesto geopolitico e le relazioni tra i paesi coinvolti. Tuttavia, ci sono alcune incoerenze nei dettagli specifici, come nel caso degli attacchi cibernetici e delle loro conseguenze. La plausibilità è buona, con una catena di eventi che segue logicamente l'escalation del conflitto. Il grounding nella KB potrebbe essere migliorato, in quanto alcuni tag 'base_kb' non sembrano supportare completamente le scelte degli agenti.",
     "evidenze": [
       {
-        "osservazione": "L'Iran risponde all'attacco aereo israeliano con operazioni militari e cyber",
+        "osservazione": "L'Iran risponde all'attacco aereo israeliano con operazioni militari e cyber mirate.",
         "riferimento": "IRN, round 1"
       },
       {
-        "osservazione": "Israele intensifica le operazioni militari in risposta all'escalation iraniana",
-        "riferimento": "ISR, round 6"
+        "osservazione": "Israele intensifica le sue operazioni militari in Siria per prevenire l'instaurarsi di una maggiore presenza iraniana.",
+        "riferimento": "ISR, round 3"
       },
       {
-        "osservazione": "Gli Stati Uniti rafforzano la cooperazione cyber con Israele per contrastare le minacce iraniane",
-        "riferimento": "USA, round 9"
+        "osservazione": "Gli Stati Uniti accettano la richiesta di Israele e rafforzano il supporto cibernetico contro l'Iran.",
+        "riferimento": "USA, round 6"
       },
       {
-        "osservazione": "L'Iran intensifica le operazioni cibernetiche contro gli USA in risposta all'intensificazione della cooperazione difensiva tra USA e Israele",
-        "riferimento": "IRN, round 10"
+        "osservazione": "L'Iran intensifica le sue operazioni cyber offensive in risposta all'escalation militare israeliana.",
+        "riferimento": "IRN, round 7"
+      },
+      {
+        "osservazione": "Intensificazione delle operazioni militari da parte di Israele contro l'Iran",
+        "riferimento": "[round 10] ISR"
+      },
+      {
+        "osservazione": "Risposta cibernetica dell'Iran agli attacchi USA e cooperazione con Israele",
+        "riferimento": "[round 10] IRN"
+      },
+      {
+        "osservazione": "Escalation degli attacchi cibernetici tra Iran, Stati Uniti e Israele",
+        "riferimento": "[round 10] USA"
+      },
+      {
+        "osservazione": "Mancata menzione del ruolo dell'Iran come attore cyber nella KB di ISR",
+        "riferimento": "KB - ISR"
       }
     ]
   },

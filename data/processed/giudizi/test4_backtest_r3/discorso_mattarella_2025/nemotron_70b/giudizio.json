@@ -3,29 +3,48 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "nemotron_70b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 15243,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 28,
+      "token_stimati": 15243,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 65.0,
+      "fedelta_grounding": 90.0
+    }
+  ],
   "giudizio": {
     "punteggio": 75.0,
     "coerenza_kb": 80.0,
-    "plausibilita": 85.0,
-    "fedelta_grounding": 65.0,
-    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), gestendo in modo plausibile le reazioni e gli aggiornamenti di stato. Le azioni intraprese dai vari Paesi sono generalmente coerenti con il contesto geopolitico e la KB. Tuttavia, ci sono stati alcuni casi in cui la scelta delle basi KB non è stata del tutto accurata o completa, influenzando così la fedeltà al grounding. La catena di propagazione è per lo più sensata dal punto di vista geopolitico, con alcune escalation gestite in modo appropriato.",
+    "plausibilita": 65.0,
+    "fedelta_grounding": 90.0,
+    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), utilizzando in modo accurato le informazioni per guidare le sue decisioni. Le reazioni e gli aggiornamenti di stato sono generalmente allineati con il contesto fornito dalla KB. Tuttavia, ci sono stati alcuni casi in cui la propagazione delle azioni potrebbe essere stata più coerente o dettagliata. La plausibilità della catena di eventi è soddisfacente, con una gestione sensata delle tensioni geopolitiche e delle relazioni internazionali. Il modello ha mostrato un'elevata fedeltà nel grounding, utilizzando correttamente i tag 'base_kb' per indicare le fonti delle sue scelte. Tuttavia, in alcuni casi, avrebbe potuto essere più specifico o fornire ulteriori dettagli per supportare alcune decisioni.",
     "evidenze": [
       {
-        "osservazione": "Reazioni coerenti con il contesto e i dati della KB",
-        "riferimento": "round 1/RUS, round 2/CHN, round 3/RUS"
+        "osservazione": "Reazioni coerenti con il contesto della KB",
+        "riferimento": "round 1/RUS, round 2/CHN"
       },
       {
-        "osservazione": "Aggiornamenti di stato accurati in base ai dati della KB",
-        "riferimento": "round 2/CHN, round 6/RUS, round 8/UKR"
+        "osservazione": "Aggiornamenti di stato accurati",
+        "riferimento": "round 3/USA, round 4/UKR"
       },
       {
-        "osservazione": "Azioni coerenti con il contesto geopolitico e la KB",
-        "riferimento": "round 4/CHN, round 5/EST, round 9/USA"
+        "osservazione": "Propagazione delle azioni potrebbe essere stata più dettagliata",
+        "riferimento": "round 5/RUS, round 6/CHN"
       },
       {
-        "osservazione": "Uso inappropriato di 'conoscenza_generale' come base KB",
-        "riferimento": "round 2/ITA, round 3/RUS, round 6/CHN"
+        "osservazione": "Gestione plausibile delle tensioni geopolitiche",
+        "riferimento": "round 8/UKR, round 9/USA"
+      },
+      {
+        "osservazione": "Utilizzo accurato dei tag 'base_kb'",
+        "riferimento": "round 2/CHN, round 3/RUS"
       }
     ]
   },

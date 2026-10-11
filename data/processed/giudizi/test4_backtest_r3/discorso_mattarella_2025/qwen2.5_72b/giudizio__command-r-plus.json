@@ -1,0 +1,71 @@
+{
+  "test": "test4_backtest_r3",
+  "scenario": "discorso_mattarella_2025",
+  "modello": "qwen2.5_72b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 4385,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 10,
+      "token_stimati": 4385,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 87.0,
+      "fedelta_grounding": 64.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 85.0,
+    "coerenza_kb": 90.0,
+    "plausibilita": 87.0,
+    "fedelta_grounding": 64.0,
+    "motivazione": "La simulazione presenta una catena di eventi relativamente coerente e plausibile dal punto di vista geopolitico. Tuttavia, ci sono alcune discrepanze minori con la knowledge base (KB) che influenzano il punteggio finale.",
+    "evidenze": [
+      {
+        "osservazione": "Il modello gestisce bene le tensioni diplomatiche derivanti dall'evento iniziale, mostrando una certa sensibilità alle dinamiche geopolitiche. La reazione russa di indebolire i legami politici e commerciali con l'Italia è coerente (round 1).",
+        "riferimento": [
+          "RUS round 1"
+        ]
+      },
+      {
+        "osservazione": "La risposta italiana al disappunto russo, pur cercando un dialogo costruttivo, potrebbe essere più cauta data la situazione interna russa e il contesto del conflitto con l'Ucraina (rounds 2-4).",
+        "riferimento": [
+          "ITA round 2"
+        ]
+      },
+      {
+        "osservazione": "La disponibilità al dialogo bilaterale su questioni storiche è un passo positivo, ma le azioni di rafforzamento della cooperazione in ambiti sensibili come sicurezza e migrazione (rounds 6-10) sembrano troppo ottimistiche data la situazione descritta nella KB.",
+        "riferimento": [
+          "RUS round 7",
+          "ITA round 8"
+        ]
+      },
+      {
+        "osservazione": "I tag 'base_kb' spesso non sono precisi, soprattutto quando si citano le relazioni o il contesto generale senza specificare i dettagli. Questo influisce sulla fedeltà al grounding.",
+        "riferimento": [
+          "RUS/ITA rounds vari",
+          "conoscenza_generale"
+        ]
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 20,
+    "grounded": 20,
+    "non_ancorate": 0,
+    "irregolari": 0,
+    "multi_tag": 0,
+    "perc_grounded": 100.0,
+    "perc_irregolari": 0.0,
+    "distribuzione": {
+      "evento": 16,
+      "relazioni": 4
+    },
+    "distribuzione_irregolari": {}
+  }
+}

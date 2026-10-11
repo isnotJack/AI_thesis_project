@@ -1,0 +1,114 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 24087,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 3,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 54,
+      "token_stimati": 23480,
+      "punteggio": 85.0,
+      "coerenza_kb": 90.0,
+      "plausibilita": 72.0,
+      "fedelta_grounding": 63.0
+    },
+    {
+      "k": 2,
+      "n": 3,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 55,
+      "token_stimati": 24087,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 48.0,
+      "fedelta_grounding": 92.0
+    },
+    {
+      "k": 3,
+      "n": 3,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 16,
+      "token_stimati": 9322,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 69.0,
+      "fedelta_grounding": 43.0
+    }
+  ],
+  "giudizio": {
+    "punteggio": 74.9,
+    "coerenza_kb": 79.9,
+    "plausibilita": 61.1,
+    "fedelta_grounding": 73.2,
+    "motivazione": "[round 1-8] La simulazione mostra una buona coerenza con la KB in termini di numeri e contesto. Tuttavia, ci sono alcuni casi in cui le reazioni o gli aggiornamenti non sembrano pienamente giustificati dai dati della base conoscitiva (ad esempio: l'Iran che chiede aiuto alla Russia per contrastare Israele). La plausibilità è generalmente accettabile ma mostra alcune incongruenze nelle relazioni tra i paesi e nel modo in cui reagiscono agli eventi. L'uso del tag 'conoscenza_generale', sebbene non sempre necessario, indica una certa mancanza di precisione nell'identificare le fonti delle decisioni. [round 8-10] La simulazione mostra una certa coerenza con la KB in termini di numeri e contesto generale. Tuttavia, ci sono casi evidenti (vedi evidenze) dove le reazioni non sembrano giustificate dai dati della knowledge base o dalla storia degli eventi precedenti nella stessa parte del dialogo. [round 10-10] La simulazione mostra una coerenza generale con la KB in termini di contesto e relazioni internazionali. Tuttavia, ci sono alcune discrepanze nei dati numerici (ad esempio, il numero degli incidenti cyber) che influenzano negativamente l'aderenza alla knowledge base.",
+    "evidenze": [
+      {
+        "osservazione": "La reazione dell'Iran all'attacco israeliano è coerente con la KB ma esagera il numero degli attacchi cyber (round 1).",
+        "riferimento": "IRN round 3"
+      },
+      {
+        "osservazione": "Israele risponde agli attacchi iraniani in modo plausibile, considerando le relazioni e i conflitti preesistenti. Tuttavia, l'uso di 'conoscenza_generale' per giustificare la cooperazione con gli USA è discutibile (rounds 2-4)."
+      },
+      {
+        "osservazione": "La reazione degli Stati Uniti all'attacco israeliano sembra coerente ma non trova pieno supporto nella KB.",
+        "riferimento": "USA round 3"
+      },
+      {
+        "osservazione": "L'Iran chiede aiuto alla Russia per contrastare Israele e gli USA, cosa che potrebbe essere plausibile considerando le relazioni tra i paesi. Tuttavia, la reazione della Russia è troppo rapida (rounds 4-5)."
+      },
+      {
+        "osservazione": "La Cina accetta di cooperare con l'Iran ma non c'è un chiaro motivo nella KB per questa scelta.",
+        "riferimento": "CHN round 6"
+      },
+      {
+        "osservazione": "Israele risponde all’attacco informatico iraniano in modo plausibile, considerando la storia di conflitti e le relazioni cyber ostili tra i due paesi. Tuttavia, l'uso del tag 'conoscenza_generale' per giustificare il contrattacco è discutibile (round 6)."
+      },
+      {
+        "osservazione": "La Russia risponde all’avvertimento degli Stati Uniti in modo plausibile ma esagera la sua reazione, considerando le relazioni esistenti tra i due paesi. L'uso del tag 'conoscenza_generale', sebbene non strettamente necessario, è accettabile (round 6)."
+      },
+      {
+        "osservazione": "L’Estonia risponde all’accordo con gli Stati Uniti in modo plausibile considerando la sua storia di vulnerabilità cyber e le tensioni con la Russia. Tuttavia, l'uso del tag 'conoscenza_generale', sebbene non strettamente necessario, è accettabile (round 6)."
+      },
+      {
+        "osservazione": "Israele risponde all’aumento della presenza militare russa in modo plausibile considerando il contesto regionale e le relazioni con la Russia. Tuttavia, l'uso del tag 'conoscenza_generale', sebbene non strettamente necessario, è accettabile (round 6)."
+      },
+      {
+        "osservazione": "La reazione dell’Ucraina all’aumento della presenza militare russa nel Donbas sembra plausibile considerando la storia di conflitti e le relazioni tra i due paesi. Tuttavia, l'uso del tag 'conoscenza_generale', sebbene non strettamente necessario, è accettabile (round 7)."
+      },
+      {
+        "osservazione": "La Russia risponde all’avvertimento degli Stati Uniti in modo plausibile considerando la storia di conflitti e le relazioni esistenti. Tuttavia, l'uso del tag 'conoscenza_generale', sebbene non strettamente necessario, è accettabile (round 7)."
+      },
+      {
+        "osservazione": "La Cina risponde all’accordo con la Russia per migliorare le difese cibernetiche in modo plausibile considerando il contesto internazionale e gli interessi comuni. Tuttavia, l'uso del tag 'conoscenza_generale', sebbene non strettamente necessario, è accettabile (round 7)."
+      }
+    ]
+  },
+  "metriche_grounding": {
+    "scelte_taggate": 354,
+    "grounded": 250,
+    "non_ancorate": 94,
+    "irregolari": 10,
+    "multi_tag": 0,
+    "perc_grounded": 70.6,
+    "perc_irregolari": 2.8,
+    "distribuzione": {
+      "conflitto": 98,
+      "cyber": 21,
+      "relazioni": 33,
+      "evento": 95,
+      "conoscenza_generale": 94,
+      "economia": 3
+    },
+    "distribuzione_irregolari": {
+      "cooperazione": 10
+    }
+  }
+}

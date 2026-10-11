@@ -3,29 +3,44 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "qwen2.5_72b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 4355,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 10,
+      "risposte": 10,
+      "token_stimati": 4355,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 90.0,
+      "fedelta_grounding": 60.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 85.0,
-    "coerenza_kb": 90.0,
-    "plausibilita": 95.0,
-    "fedelta_grounding": 75.0,
-    "motivazione": "La simulazione dimostra una buona coerenza con la knowledge base (KB), soprattutto per quanto riguarda le reazioni e gli aggiornamenti di stato dei paesi coinvolti. Le azioni intraprese sono generalmente plausibili dal punto di vista geopolitico, mostrando un'escalation controllata e una gestione diplomatica delle tensioni. Tuttavia, ci sono alcuni casi in cui il grounding nella KB potrebbe essere migliorato, soprattutto nelle prime interazioni tra i due paesi.",
+    "punteggio": 75.0,
+    "coerenza_kb": 80.0,
+    "plausibilita": 90.0,
+    "fedelta_grounding": 60.0,
+    "motivazione": "La simulazione mostra una coerenza generale con i dati della Knowledge Base (KB), soprattutto per quanto riguarda le reazioni diplomatiche e la gestione delle tensioni. Le azioni intraprese dai Paesi sono plausibili dal punto di vista geopolitico, con un'escalation controllata e una progressiva riduzione delle tensioni. Tuttavia, ci sono alcuni punti in cui la fedeltà al grounding potrebbe essere migliorata, soprattutto nella corretta attribuzione dei tag base_kb.",
     "evidenze": [
       {
-        "osservazione": "Reazione iniziale della Russia all'affronto diplomatico",
-        "riferimento": "round 1/RUS"
+        "osservazione": "Reazioni diplomatiche coerenti con il contesto",
+        "riferimento": "round 1-3/RUS e round 2-4/ITA"
       },
       {
-        "osservazione": "Citazione di eventi cyber ostili da parte dell'Italia",
-        "riferimento": "round 2/ITA"
+        "osservazione": "Gestione delle tensioni cyber",
+        "riferimento": "round 2,4,5/ITA e round 5/RUS"
       },
       {
-        "osservazione": "Riduzione delle tensioni cyber da parte della Russia",
-        "riferimento": "round 5/RUS"
+        "osservazione": "Rafforzamento della cooperazione bilaterale",
+        "riferimento": "round 6-10/entrambi i Paesi"
       },
       {
-        "osservazione": "Mancata citazione dei dati economici nella KB",
-        "riferimento": "tutti i round"
+        "osservazione": "Uso di 'conoscenza_generale' quando dati specifici erano disponibili",
+        "riferimento": "round 3,7/RUS"
       }
     ]
   },

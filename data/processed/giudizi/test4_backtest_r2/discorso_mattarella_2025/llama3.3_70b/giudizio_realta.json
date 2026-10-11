@@ -3,45 +3,70 @@
   "scenario": "discorso_mattarella_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
+  "metodo": "blocchi_v1",
   "token_stimati": 2515,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 1,
+      "round_da": 1,
+      "round_a": 4,
+      "risposte": 4,
+      "token_stimati": 2515
+    }
+  ],
   "fatti": [
     {
       "id": "F1",
       "testo": "La Russia, tramite la portavoce del ministero degli Esteri, condanna pubblicamente il discorso ('invenzioni blasfeme') e avverte che non restera' senza conseguenze.",
       "esito": "presente",
       "evidenza": "round 1, RUS: La Russia risponde con fermezza alle dichiarazioni del Presidente italiano, sottolineando l'importanza di evitare paragoni storici fuorvianti.",
-      "verificata": true
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, RUS: La Russia risponde con fermezza alle dichiarazioni del Presidente italiano, sottolineando l'importanza di evitare paragoni storici fuorvianti."
     },
     {
       "id": "F2",
       "testo": "Hacker filorussi (NoName057(16)) colpiscono con attacchi DDoS i siti di ministeri, forze dell'ordine, aeroporti, porti e banche italiane, rivendicandoli come risposta alle parole del Presidente.",
       "esito": "assente",
       "evidenza": "nessuna",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F3",
       "testo": "Il governo e le forze politiche italiane esprimono solidarieta' al Presidente e respingono le parole russe come offensive per l'intero Paese.",
       "esito": "presente",
       "evidenza": "round 1, ITA: L'Italia accetta l'invito del Presidente russo e si impegna a partecipare alla riunione di chiarimento.",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     },
     {
       "id": "F4",
       "testo": "L'Agenzia per la cybersicurezza nazionale allerta i soggetti colpiti e mitiga gli attacchi: effetti limitati, nessun furto di dati.",
       "esito": "parziale",
       "evidenza": "round 4, UKR: La Russia e l'Ucraina discutono di un possibile accordo per regolare i flussi migratori, suggerendo una potenziale mitigazione delle tensioni.",
-      "verificata": false
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
     }
   ],
   "sviluppi_non_accaduti": [
     {
       "descrizione": "Attacchi DDoS da parte di hacker filorussi contro siti italiani.",
-      "riferimento": "round 2, ITA"
+      "riferimento": "round 2, ITA",
+      "blocco": 1
     },
     {
       "descrizione": "La Russia invita il Presidente italiano a una riunione di chiarimento sulle recenti dichiarazioni.",
-      "riferimento": "round 1, RUS"
+      "riferimento": "round 1, RUS",
+      "blocco": 1
     }
   ],
   "motivazione": "La simulazione cattura in parte la risposta diplomatica della Russia alle dichiarazioni del Presidente italiano, ma manca l'aspetto cyber degli attacchi DDoS. Inoltre, suggerisce una potenziale cooperazione tra Italia e Russia sulle sfide migratorie, che non si è verificata nella realtà.",

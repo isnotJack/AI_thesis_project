@@ -3,25 +3,68 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
-  "token_stimati": 30998,
+  "metodo": "blocchi_v1",
+  "token_stimati": 22617,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 2,
+      "round_da": 1,
+      "round_a": 9,
+      "risposte": 54,
+      "token_stimati": 22617,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 75.0,
+      "fedelta_grounding": 60.0
+    },
+    {
+      "k": 2,
+      "n": 2,
+      "round_da": 9,
+      "round_a": 10,
+      "risposte": 23,
+      "token_stimati": 10766,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 75.0,
-    "coerenza_kb": 80.0,
-    "plausibilita": 70.0,
-    "fedelta_grounding": 65.0,
-    "motivazione": "Il modello ha dimostrato una buona coerenza con i dati della Knowledge Base (KB), mostrando un'adeguata comprensione del contesto geopolitico e delle relazioni tra i paesi. La maggior parte delle reazioni e delle azioni intraprese sono coerenti con le informazioni fornite dalla KB, soprattutto in termini di conflitti e cooperazione. Tuttavia, ci sono stati alcuni casi in cui la coerenza potrebbe essere stata migliorata, ad esempio nelle scelte relative al ruolo cyber di alcuni paesi. La plausibilità della catena di propagazione è generalmente buona, con reazioni sensate alle varie situazioni. Il modello ha gestito bene le escalation e le de-escalation delle tensioni, mostrando una comprensione del contesto geopolitico. Tuttavia, ci sono stati alcuni momenti in cui la plausibilità potrebbe essere stata più forte, soprattutto nelle fasi iniziali della simulazione.",
+    "punteggio": 68.0,
+    "coerenza_kb": 73.0,
+    "plausibilita": 73.5,
+    "fedelta_grounding": 61.5,
+    "motivazione": "[round 1-9] La simulazione mostra una buona coerenza con la Knowledge Base (KB) in termini di reazioni e azioni dei paesi coinvolti. Le decisioni prese dai vari agenti sono generalmente coerenti con il contesto geopolitico descritto nella KB, come ad esempio l'escalation delle tensioni tra Iran e Israele o la cooperazione tra Russia e Cina. Tuttavia, ci sono alcuni casi in cui le scelte potrebbero essere più dettagliate o specifiche rispetto ai dati forniti dalla KB. La plausibilità della catena di propagazione è generalmente alta, con una serie di eventi che si susseguono in modo logico e coerente con la situazione geopolitica descritta. Le reazioni dei paesi coinvolti sono credibili e riflettono le dinamiche delle relazioni internazionali. Tuttavia, ci sono alcuni casi in cui l'escalation potrebbe essere più graduale o in cui alcune azioni potrebbero essere considerate eccessive rispetto alla situazione iniziale. [round 9-10] La simulazione mostra una buona coerenza con la knowledge base (KB), con reazioni e azioni che riflettono accuratamente i dati forniti. Tuttavia, ci sono alcuni casi in cui le scelte degli agenti sembrano basarsi su conoscenze generali piuttosto che sui dati specifici della KB, riducendo così il punteggio di fedeltà al grounding. La plausibilità delle interazioni è generalmente buona, con una propagazione sensata dal punto di vista geopolitico, anche se ci sono alcuni casi in cui le reazioni potrebbero essere considerate eccessive o non del tutto coerenti.",
     "evidenze": [
       {
-        "osservazione": "L'Iran rafforza le sue capacità di difesa cyber e lancia un contrattacco contro Israele",
-        "riferimento": "round 5/IRN"
+        "osservazione": "L'Iran condanna l'attacco aereo di Israele e annuncia misure di rafforzamento delle sue capacità di difesa",
+        "riferimento": "round 1/IRN"
       },
       {
-        "osservazione": "La Russia accetta la proposta della Cina per migliorare la sicurezza informatica, nonostante i precedenti attacchi cyber reciproci.",
-        "riferimento": "round 8/RUS"
+        "osservazione": "Israele si prepara a contrastare l'attacco informatico iraniano rafforzando le proprie difese cibernetiche",
+        "riferimento": "round 2/ISR"
       },
       {
-        "osservazione": "Gli Stati Uniti lanciano un contrattacco cibernetico contro le infrastrutture russe in risposta all'aumento del monitoraggio delle attività cyber russe",
-        "riferimento": "round 9/USA"
+        "osservazione": "La Russia accetta con favore l'accordo di cooperazione con l'Iran, vedendolo come un'opportunità per rafforzare la propria posizione nella regione",
+        "riferimento": "round 2/RUS"
+      },
+      {
+        "osservazione": "Gli Stati Uniti accolgono positivamente la proposta di collaborazione nella difesa cibernetica con Israele",
+        "riferimento": "round 3/USA"
+      },
+      {
+        "osservazione": "La reazione dell'Iran alla proposta di cooperazione nel settore della cybersecurity con la Russia sembra basata sulla conoscenza generale delle relazioni internazionali piuttosto che su dati specifici dalla KB.",
+        "riferimento": "round 9, IRN"
+      },
+      {
+        "osservazione": "L'aumento degli attacchi informatici russi contro gli Stati Uniti e la conseguente risposta americana sembrano coerenti con il contesto di tensione cyber tra i due paesi.",
+        "riferimento": "round 10, USA"
+      },
+      {
+        "osservazione": "La decisione della Cina di accettare l'invito degli Stati Uniti a partecipare al summit sulla sicurezza informatica globale è plausibile e potrebbe portare a una riduzione delle tensioni nel campo della cybersicurezza.",
+        "riferimento": "round 10, CHN"
       }
     ]
   },

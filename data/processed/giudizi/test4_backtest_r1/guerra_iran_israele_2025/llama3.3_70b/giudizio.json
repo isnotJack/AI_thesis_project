@@ -3,25 +3,100 @@
   "scenario": "guerra_iran_israele_2025",
   "modello": "llama3.3_70b",
   "giudice": "command-r",
-  "token_stimati": 49895,
+  "metodo": "blocchi_v1",
+  "token_stimati": 24087,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 3,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 54,
+      "token_stimati": 23480,
+      "punteggio": 65.0,
+      "coerenza_kb": 70.0,
+      "plausibilita": 80.0,
+      "fedelta_grounding": 45.0
+    },
+    {
+      "k": 2,
+      "n": 3,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 55,
+      "token_stimati": 24087,
+      "punteggio": 58.0,
+      "coerenza_kb": 60.0,
+      "plausibilita": 70.0,
+      "fedelta_grounding": 40.0
+    },
+    {
+      "k": 3,
+      "n": 3,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 16,
+      "token_stimati": 9322,
+      "punteggio": 75.0,
+      "coerenza_kb": 80.0,
+      "plausibilita": 85.0,
+      "fedelta_grounding": 65.0
+    }
+  ],
   "giudizio": {
-    "punteggio": 75.0,
-    "coerenza_kb": 80.0,
-    "plausibilita": 65.0,
-    "fedelta_grounding": 90.0,
-    "motivazione": "La coerenza con la KB è generalmente buona, con reazioni e azioni che si allineano ai dati forniti. La fedeltà al grounding è elevata, con la maggior parte delle scelte basate su elementi specifici della KB. Tuttavia, ci sono alcuni casi in cui le reazioni potrebbero essere più coerenti o dettagliate. La plausibilità delle catene di propagazione è generalmente sensata dal punto di vista geopolitico, ma ci sono alcune escalation che sembrano un po' forzate o non del tutto realistiche.",
+    "punteggio": 63.2,
+    "coerenza_kb": 66.9,
+    "plausibilita": 76.2,
+    "fedelta_grounding": 45.4,
+    "motivazione": "[round 1-8] La simulazione presenta una coerenza generale con la knowledge base (KB), con reazioni e azioni che rispecchiano i dati forniti. Tuttavia, ci sono alcuni casi in cui le scelte non sembrano essere completamente supportate dai dati della KB o dove si fa riferimento alla 'conoscenza generale' quando invece i dati specifici sarebbero più appropriati. La plausibilità delle interazioni geopolitiche è generalmente buona, con una catena di eventi che segue logicamente la situazione iniziale e le relazioni tra i paesi. Tuttavia, ci sono alcuni momenti in cui l'escalation potrebbe essere considerata eccessiva o non del tutto coerente. [round 8-10] La simulazione presenta una coerenza discreta con la knowledge base (KB), mostrando una comprensione generale dei dati e delle relazioni tra i paesi. Tuttavia, ci sono alcuni errori e imprecisioni nella fedeltà al grounding, dove alcune scelte non sono supportate dai dati della KB. La plausibilità è relativamente buona, con una catena di propagazione che segue in gran parte le dinamiche geopolitiche realistiche, anche se ci sono alcune escalation che potrebbero essere considerate eccessive o incoerenti. [round 10-10] La simulazione mostra una buona coerenza con i dati della Knowledge Base (KB), soprattutto in termini di reazioni e aggiornamenti di stato. Le azioni intraprese dai vari Paesi sono generalmente coerenti con il contesto geopolitico e le relazioni esistenti. Tuttavia, ci sono alcuni casi in cui la fedeltà al grounding potrebbe essere migliorata, come l'uso di 'conoscenza_generale' quando i dati specifici erano disponibili nella KB. La plausibilità delle reazioni è alta, con una propagazione sensata degli eventi che riflette le dinamiche geopolitiche.",
     "evidenze": [
       {
-        "osservazione": "Le reazioni e le azioni dei paesi si basano sui dati della KB, come la storia delle relazioni e i conflitti in corso.",
-        "riferimento": "round/Paese"
+        "osservazione": "L'Iran condanna fermamente l'attacco e annuncia misure di ritorsione",
+        "riferimento": "round 1/IRN"
       },
       {
-        "osservazione": "Alcune scelte sono giustificate da elementi specifici della KB, come gli accordi di cooperazione o le accuse di spionaggio informatico.",
-        "riferimento": "campo KB"
+        "osservazione": "Israele decide di rafforzare le proprie difese cyber e aumentare la cooperazione con gli alleati",
+        "riferimento": "round 2/ISR"
       },
       {
-        "osservazione": "Ci sono alcuni casi in cui la coerenza potrebbe essere migliorata, ad esempio quando non vengono considerati tutti i fattori rilevanti per una determinata situazione.",
-        "riferimento": "round/Paese"
+        "osservazione": "Gli Stati Uniti osservano la situazione tra Iran e Israele con attenzione, sottolineando l'importanza della stabilità nella regione",
+        "riferimento": "round 2/USA"
+      },
+      {
+        "osservazione": "L'Iran risponde all'attacco cyber di Israele con un contrattacco mirato alle infrastrutture informatiche israeliane",
+        "riferimento": "round 3/IRN"
+      },
+      {
+        "osservazione": "La Russia accetta la richiesta dell'Iran e decide di rafforzare la cooperazione tra i due paesi per contrastare l'influenza di Israele e degli Stati Uniti nella regione",
+        "riferimento": "round 4/RUS"
+      },
+      {
+        "osservazione": "L'evento ricevuto riguarda un accordo di cooperazione militare e diplomatica tra Israele e gli Stati Uniti, che rafforza la loro alleanza nella regione. Questo mi porta a decidere di rafforzare ulteriormente la nostra relazione di cooperazione con Israele",
+        "riferimento": "round 4/USA"
+      },
+      {
+        "osservazione": "La Russia valuta positivamente l'opportunità di cooperare con l'Iran nella difesa cibernetica e intende rafforzare la relazione tra i due paesi.",
+        "riferimento": "round 5/RUS"
+      },
+      {
+        "osservazione": "Gli Stati Uniti respingono le accuse dell'Iran e avvertono contro eventuali ritorsioni",
+        "riferimento": "round 6/USA"
+      },
+      {
+        "osservazione": "La Russia prende seriamente l'avvertimento degli Stati Uniti e valuta le opzioni per rafforzare le proprie difese cibernetiche.",
+        "riferimento": "round 6/RUS"
+      },
+      {
+        "osservazione": "L'Estonia accoglie positivamente l'accordo di cooperazione con gli Stati Uniti e si impegna a rafforzare la difesa cibernetica congiunta",
+        "riferimento": "round 6/EST"
+      },
+      {
+        "osservazione": "L'Estonia aumenta la vigilanza cyber e cerca sostegno internazionale, coerente con il contesto generale.",
+        "riferimento": "round 8/EST"
+      },
+      {
+        "osservazione": "La Russia rafforza le sue capacità di difesa cyber in risposta all'operazione congiunta tra Ucraina e Stati Uniti, una reazione plausibile.",
+        "riferimento": "round 10/RUS"
       }
     ]
   },

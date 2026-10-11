@@ -1,0 +1,209 @@
+{
+  "test": "test4_backtest_r1",
+  "scenario": "guerra_iran_israele_2025",
+  "modello": "llama3.3_70b",
+  "giudice": "command-r-plus",
+  "metodo": "blocchi_v1",
+  "token_stimati": 22274,
+  "blocchi": [
+    {
+      "k": 1,
+      "n": 3,
+      "round_da": 1,
+      "round_a": 8,
+      "risposte": 54,
+      "token_stimati": 22274
+    },
+    {
+      "k": 2,
+      "n": 3,
+      "round_da": 8,
+      "round_a": 10,
+      "risposte": 55,
+      "token_stimati": 22199
+    },
+    {
+      "k": 3,
+      "n": 3,
+      "round_da": 10,
+      "round_a": 10,
+      "risposte": 16,
+      "token_stimati": 8270
+    }
+  ],
+  "fatti": [
+    {
+      "id": "F1",
+      "testo": "L'Iran risponde con ondate di missili balistici (oltre 550) e di droni (oltre 1.000) contro Israele.",
+      "esito": "parziale",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F2",
+      "testo": "Israele prosegue per dodici giorni gli attacchi aerei contro obiettivi militari e nucleari iraniani.",
+      "esito": "presente",
+      "evidenza": "round 5, ISR: Israele aumenta la sua presenza militare nella regione in risposta all'aumento della presenza russa; round 6, USA: Gli Stati Uniti lanciano un contrattacco cyber contro le infrastrutture russe per dissuadere future aggressioni",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 5, ISR: Israele aumenta la sua presenza militare nella regione in risposta all'aumento della presenza russa; round 6, USA: Gli Stati Uniti lanciano un contrattacco cyber contro le infrastrutture russe per dissuadere future aggressioni"
+    },
+    {
+      "id": "F3",
+      "testo": "Gli Stati Uniti aiutano Israele a intercettare missili e droni iraniani con difese antimissile e navi.",
+      "esito": "parziale",
+      "evidenza": "round 9, USA: rafforza USA->ISR [cooperazione] base_kb=conoscenza_generale • Collaborazione per la sicurezza informatica",
+      "verificata": false,
+      "blocco": 3,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F4",
+      "testo": "Gli Stati Uniti bombardano i siti nucleari iraniani di Fordow, Natanz e Isfahan.",
+      "esito": "parziale",
+      "evidenza": "round 5, USA: Gli Stati Uniti lanciano un contrattacco cyber contro la Russia in risposta all'attacco precedente; round 6, RUS: La Russia lancia un attacco informatico contro gli Stati Uniti",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 5, USA: Gli Stati Uniti lanciano un contrattacco cyber contro la Russia in risposta all'attacco precedente; round 6, RUS: La Russia lancia un attacco informatico contro gli Stati Uniti"
+    },
+    {
+      "id": "F5",
+      "testo": "L'Iran risponde agli Stati Uniti colpendo con missili la base americana di Al Udeid, in Qatar, senza vittime.",
+      "esito": "parziale",
+      "evidenza": "round 8, USA: Gli Stati Uniti lanciano una operazione di hacking per neutralizzare le capacita' cyber iraniane; round 7 e 8, IRN: L'Iran lancia un contrattacco contro infrastrutture statunitensi",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 8, USA: Gli Stati Uniti lanciano una operazione di hacking per neutralizzare le capacita' cyber iraniane; round 7 e 8, IRN: L'Iran lancia un contrattacco contro infrastrutture statunitensi"
+    },
+    {
+      "id": "F6",
+      "testo": "Gli Houthi dello Yemen lanciano missili balistici contro Israele.",
+      "esito": "parziale",
+      "evidenza": "round 8, PRK: lancia un attacco informatico contro la Corea del Sud per testare le nuove capacità di difesa acquisite grazie alla collaborazione con la Russia. round 9, KOR: risponde all'attacco rafforzando le proprie difese cibernetiche e valutando possibili contromisure",
+      "verificata": false,
+      "blocco": 2,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F7",
+      "testo": "Un gruppo di hacker legato a Israele (Predatory Sparrow) colpisce la banca statale iraniana Sepah e l'exchange di criptovalute Nobitex.",
+      "esito": "presente",
+      "evidenza": "round 1, IRN: L'Iran lancia un attacco cyber contro infrastrutture critiche israeliane; round 3 e 4, ISR: Israele risponde con attacchi informatici",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1, IRN: L'Iran lancia un attacco cyber contro infrastrutture critiche israeliane; round 3 e 4, ISR: Israele risponde con attacchi informatici"
+    },
+    {
+      "id": "F8",
+      "testo": "Gruppi di hacker filo-iraniani colpiscono aziende e sistemi israeliani (fughe di dati, falsi allarmi); gli Stati Uniti mettono in guardia da attacchi cyber iraniani contro le proprie reti.",
+      "esito": "presente",
+      "evidenza": "round 1-2 IRN: L'Iran lancia un attacco cyber contro infrastrutture critiche israeliane; round 3 e 4, ISR: Israele risponde con attacchi informatici",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 1-2 IRN: L'Iran lancia un attacco cyber contro infrastrutture critiche israeliane; round 3 e 4, ISR: Israele risponde con attacchi informatici"
+    },
+    {
+      "id": "F9",
+      "testo": "Russia, Cina e Arabia Saudita condannano gli attacchi israeliani sul piano diplomatico, senza intervenire militarmente.",
+      "esito": "presente",
+      "evidenza": "round 1-2 IRN: L'Iran lancia un attacco cyber contro infrastrutture critiche israeliane; round 3 e 4, ISR: Israele risponde con attacchi informatici",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": "presente",
+      "evidenza_verificata": "round 8, RUS/CHN: collaborano insieme contro le minacce cibernetiche statunitensi. round 10, CHN: decide di offrire supporto diplomatico ed economico alla Russia"
+    },
+    {
+      "id": "F10",
+      "testo": "In Iran migliaia di persone lasciano Teheran e altre citta'; il governo limita a piu' riprese l'accesso a internet.",
+      "esito": "assente",
+      "evidenza": "nessuna",
+      "verificata": false,
+      "blocco": 1,
+      "esito_verificato": null,
+      "evidenza_verificata": ""
+    },
+    {
+      "id": "F11",
+      "testo": "Dopo dodici giorni entra in vigore un cessate il fuoco fra Israele e Iran, mediato dagli Stati Uniti con il Qatar.",
+      "esito": "parziale",
+      "evidenza": "round 8, IRN: L'Iran lancia un attacco cyber contro infrastrutture critiche israeliane; round 7 e 8, RUS: La Russia cerca di rafforzare la cooperazione con Cina per ottenere sostegno diplomatico ed economico nella gestione del conflitto",
+      "verificata": true,
+      "blocco": 1,
+      "esito_verificato": "parziale",
+      "evidenza_verificata": "round 8, IRN: L'Iran lancia un attacco cyber contro infrastrutture critiche israeliane; round 7 e 8, RUS: La Russia cerca di rafforzare la cooperazione con Cina per ottenere sostegno diplomatico ed economico nella gestione del conflitto"
+    }
+  ],
+  "sviluppi_non_accaduti": [
+    {
+      "descrizione": "Arabia Saudita non interviene militarmente ne' cyber",
+      "riferimento": "",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Iran attacca l'Arabia Saudita e altri Paesi del Golfo, salvo la base americana in Qatar.",
+      "riferimento": "",
+      "blocco": 1
+    },
+    {
+      "descrizione": "L'Iran non attacca l'Arabia Saudita o altri Paesi del Golfo",
+      "riferimento": "",
+      "blocco": 2
+    },
+    {
+      "descrizione": "La Cina e la Russia discutono di una possibile estensione della cooperazione energetica, ma questo sviluppo è assente nella simulazione.",
+      "riferimento": "round 10",
+      "blocco": 2
+    },
+    {
+      "descrizione": "La Russia e gli Stati Uniti discutono di una possibile riduzione delle tensioni cibernetiche.",
+      "riferimento": "round 10, RUS",
+      "blocco": 3
+    },
+    {
+      "descrizione": "L'Iran non attacca l'Arabia Saudita ne' altri Paesi del Golfo",
+      "riferimento": "",
+      "blocco": 3
+    },
+    {
+      "descrizione": "La Cina e la Russia discutono di un possibile accordo per condividere conoscenze e tecnologie nel campo della cybersecurity.",
+      "riferimento": "round 10, RUS",
+      "blocco": 3
+    },
+    {
+      "descrizione": "L'Iran non chiude lo Stretto di Hormuz",
+      "riferimento": "",
+      "blocco": 3
+    },
+    {
+      "descrizione": "La Russia accoglie positivamente l’iniziativa della Corea del Sud e intende rafforzare la collaborazione nel settore della cybersecurity, migliorando cosi le proprie capacita di difesa contro le minacce cibernetiche.",
+      "riferimento": "round 10, RUS",
+      "blocco": 3
+    },
+    {
+      "descrizione": "Il conflitto non si estende con operazioni di terra",
+      "riferimento": "",
+      "blocco": 3
+    }
+  ],
+  "motivazione": "[round 1-8] La simulazione prevede correttamente alcuni eventi chiave come gli attacchi informatici iraniani contro Israele (F7) e le reazioni di Stati Uniti ed Iran con contrattacchi cyber. Tuttavia, non include l'attacco missilistico dell'Iran su larga scala o il coinvolgimento militare degli USA a sostegno di Israele. [round 8-10] Questa parte della simulazione presenta alcuni sviluppi che si avvicinano alla realtà. La risposta dell'Iran con attacchi informatici e la collaborazione tra Russia/Cina contro le minacce cibernetiche statunitensi sono esempi di ciò. [round 10-10] La simulazione prevede solo parzialmente il supporto degli Stati Uniti a Israele e omette completamente l'attacco americano contro i siti nucleari iraniani. Inoltre, include sviluppi che contraddicono la realtà storica come le discussioni tra Russia e USA per ridurre le tensioni cibernetiche.",
+  "conteggi": {
+    "presente": 4,
+    "parziale": 6,
+    "assente": 1,
+    "non_valutati": 0,
+    "presente_verificati": 4,
+    "parziale_verificati": 3
+  },
+  "punteggio_realta": 63.6,
+  "punteggio_realta_verificato": 50.0
+}
